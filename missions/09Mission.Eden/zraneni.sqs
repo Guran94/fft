@@ -1,0 +1,14 @@
+#kontrola
+
+_zraneni = damage hrac
+
+? _zraneni > 0 : goto "kontrola"
+
+#nezranen
+
+hint localize "STRMH_6"
+vylecen=true
+
+exit
+
+;Aglaran

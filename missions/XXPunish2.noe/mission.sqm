@@ -1,0 +1,145 @@
+version=11;
+class Mission
+{
+	randomSeed=13033987;
+	class Intel
+	{
+	};
+};
+class Intro
+{
+	randomSeed=14214659;
+	class Intel
+	{
+		startWeather=0.256128;
+	};
+	class Groups
+	{
+		items=3;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5443.303223,145.788361,9427.391602};
+					azimut=275.000000;
+					id=0;
+					side="WEST";
+					vehicle="OfficerW";
+					leader=1;
+					skill=0.600000;
+					text="ep";
+					init="this setidentity ""epgayd""; this disableai ""autotarget""";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5442.911621,145.800232,9427.436523};
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5443.027344,151.926758,9510.014648};
+					id=2;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""intro.sqs""";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5453.439453,145.580566,9424.473633};
+					id=3;
+					side="WEST";
+					vehicle="SoldierWB";
+					leader=1;
+					skill=0.600000;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5459.080078,145.324966,9453.280273};
+					speed="LIMITED";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={5444.836914,145.636017,9431.892578};
+			azimut=270.000000;
+			id=1;
+			side="EMPTY";
+			vehicle="M113";
+			leader=1;
+			skill=0.600000;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={5377.703125,150.459366,9488.595703};
+			type="END1";
+			age="UNKNOWN";
+			expCond="konec";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=13169155;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=7840771;
+	class Intel
+	{
+	};
+};

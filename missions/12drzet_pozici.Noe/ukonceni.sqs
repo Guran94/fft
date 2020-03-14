@@ -1,0 +1,33 @@
+hrac sideradio "r03"
+hrac sidechat "ÚSPÌCH! ÚSPÌCH, TÁTO MEDVÌDE, ZAÈNÌTE SLAVIT, VYHRÁLI JSME!"
+hrac addrating 1000
+"1" objstatus "done"
+
+~5
+
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 11:27:32
+_camera camSetTarget [98146.52,37669.32,-26691.83]
+_camera camSetPos [7729.05,4349.59,14.54]
+_camera camSetFOV 0.317
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:27:42
+_camera camSetTarget [59491.45,86745.17,-23097.59]
+_camera camSetPos [7736.28,4367.13,14.94]
+_camera camSetFOV 0.603
+_camera camCommit 5
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",3]
+
+~4
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+konec=true

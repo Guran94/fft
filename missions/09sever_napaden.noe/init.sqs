@@ -1,0 +1,18 @@
+titlecut ["","black in",3]
+0 fademusic 0.3
+voj1 say "h01"
+titletext ["Dìlejte, rychle! Rusáci nás napadli!","plain down"]
+
+~0.3
+
+hrac action ["weaponinhand"]
+
+~3
+
+HintC "Standardní ovládání:\n\nW/S, A/D nebo myš - ovládání pohybu.\nQ/Z = ovládání výšky\nX/C = otáèení pomocí ocasního rotoru\nNabídka èinností = zapnutí stabilizátoru"
+
+~3
+
+cip sideradio "r01"
+titletext ["","plain down"]
+cip sidechat "ZATRACENÌ, RUSOVÉ JSOU NA DOHLED! POTØEBUJEME POSILY, SAMI TO TU NEUDRŽÍME!"

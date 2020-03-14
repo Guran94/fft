@@ -1,0 +1,139 @@
+setacctime 1
+chinook2 setfuel 0
+chinook setfuel 0
+3 fademusic 0
+outro=true
+
+~1
+
+serza setmimic "surprised"
+serza say "mh17"
+enableradio false
+titleCut ["","BLACK OUT",3]
+
+~3
+
+[hrac] join grpnull
+
+~0.1
+
+hrac action ["eject",chinook]
+unassignvehicle hrac
+
+~0.1
+
+hrac setpos getmarkerpos "hrac" 
+chinook setdammage 1
+removeallweapons hrac
+hrac addmagazine "m16"
+hrac addmagazine "m16"
+hrac addweapon "m16"
+hrac addmagazine "handgrenade"
+hrac addmagazine "handgrenade"
+disableuserinput true
+setacctime 1
+hrac setdir 0
+vojak3 setpos getmarkerpos "steve"
+vojak3 setdir 180
+muday setpos getmarkerpos "muday"
+vojak setpos getmarkerpos "vojak"
+vojak2 setpos getmarkerpos "vojak2"
+
+~1
+
+deletevehicle chinook
+"havarie" setmarkertype "join"
+
+~3
+
+m2a2_1 setdammage 1
+chi setdammage 1
+chinook2_1_3 setdammage 1
+
+~1
+
+playsound "piskot"
+
+~8
+
+playsound "piskot"
+vojak3 switchmove "fxtokneel"
+vojak3 say "mh18"
+
+~2
+
+playmusic "track8"
+0 fademusic 0.5
+titleCut ["","BLACK IN",20]
+hrac switchmove "LyingToTreatedLying"
+hrac say "mh19"
+
+~6
+
+"1" objstatus "failed"
+vojak3 say "mh20"
+
+~3
+
+vojak3 dowatch objnull
+vojak3 playmove "fxfromkneel"
+
+~5
+
+hint "Následujte vojáka."
+away2=true
+hnise=true
+disableuserinput false
+
+~3
+
+savegame
+
+@pokracujem
+
+muday say "mh21"
+
+~7
+
+vojak say "mh22"
+
+~4
+
+muday say "mh23"
+
+~6
+
+away2=false
+away3=true
+away4=true
+[hrac, vojak3, vojak, vojak2] join muday
+kontakt=true
+muday say "mh24"
+
+@dal
+
+leader player say "mh25"
+
+~7
+
+hrac say "mh26"
+
+~3
+
+leader player say "mh27"
+
+~3
+
+odhalen=true
+"2" objstatus "active"
+hrac say "mh28"
+
+~3
+
+leader player say "mh29"
+
+~5
+
+savegame
+
+exit

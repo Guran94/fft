@@ -1,0 +1,89 @@
+titleCut ["","BLACK IN",5]
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 11:11:42
+_camera camSetTarget [-40160.41,89071.70,128.66]
+_camera camSetPos [10804.78,3033.63,2.25]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:12:16
+_camera camSetTarget [-31681.49,90548.23,-23034.26]
+_camera camSetPos [10807.23,3041.54,18.74]
+_camera camSetFOV 0.700
+_camera camCommit 8
+@camCommitted _camera
+;=== 11:12:33
+_camera camSetTarget [-41580.34,-81138.71,-12754.28]
+_camera camSetPos [10787.53,3070.63,18.74]
+_camera camSetFOV 0.405
+_camera camCommit 8
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",3]
+
+~4
+
+titleCut ["","BLACK IN",3]
+
+3 fademusic 0.2
+playsound "ih01"
+titletext ["Lipany padly a s nimi i celá východní èást státu Nogova.\nVelení i všem vojákùm zaèalo docházet, že Rusùm nedokážem vzdorovat a že válka je opìt prohraná.\nPrezidenta Krojce jsme ale úspìšnì dostali pryè ze státu.","plain"]
+
+;=== 11:27:50
+_camera camSetTarget [41819.93,-87003.79,-29559.09]
+_camera camSetPos [10657.71,3260.48,0.89]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+;=== 11:28:00
+_camera camSetTarget [16207.10,-92275.05,-28888.77]
+_camera camSetPos [10656.67,3260.42,6.90]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+;=== 11:28:15
+_camera camSetTarget [107532.90,23224.10,-14426.19]
+_camera camSetPos [10635.80,3251.56,9.47]
+_camera camSetFOV 0.431
+_camera camCommit 6
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",3]
+
+~6
+
+playsound "ih02"
+titletext ["I na tak velké porážky se velení v èele s Epgaydem rozhodlo Rusy pøekvapit.\nTedy, pokud nás neèekají.","plain"]
+
+~5
+
+ted=true
+titleCut ["","BLACK IN",3]
+
+;=== 11:45:26
+_camera camSetTarget uh
+_camera camSetPos [7161.45,3788.22,60.40]
+_camera camSetFOV 0.270
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+4 fademusic 0
+4 fadesound 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+titletext ["","plain"]
+
+~1
+
+konec=true

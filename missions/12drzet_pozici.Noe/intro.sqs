@@ -1,0 +1,347 @@
+titleCut ["","BLACK IN",5]
+setacctime 1
+ep setmimic "normal"
+su setmimic "normal"
+dya setmimic "normal"
+0 fademusic 0.2
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 19:52:41
+_camera camSetTarget [-38436.28,94664.98,5059.85]
+_camera camSetPos [5831.28,5137.79,5.92]
+_camera camSetFOV 0.257
+_camera camCommit 0
+@camCommitted _camera
+;=== 19:53:21
+_camera camSetTarget [-86167.62,15383.69,-37790.03]
+_camera camSetPos [5834.19,5141.13,7.49]
+_camera camSetFOV 0.472
+_camera camCommit 8
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",3]
+
+~4
+
+titleCut ["","BLACK IN",3]
+
+;=== 22:06:25
+_camera camSetTarget [18608.20,104320.91,29.86]
+_camera camSetPos [5815.82,5142.51,1.61]
+_camera camSetFOV 0.344
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ih01"
+titletext ["Z tìch dokumentù, jen jste o pùlnoci ukradl, majore Dyaconsene\njsme vyèetli zajímavé plány.","plain down"]
+
+;=== 22:06:49
+_camera camSetTarget [-92977.95,20620.58,29.94]
+_camera camSetPos [5817.04,5143.23,1.62]
+_camera camSetFOV 0.473
+_camera camCommit 6
+@camCommitted _camera
+
+dya say "ih02"
+titletext ["Vy mì napínáte, plukovníku.\nCo se tam psalo?","plain down"]
+
+~4
+
+;=== 22:07:12
+_camera camSetTarget [35820.13,100470.95,-3476.62]
+_camera camSetPos [5815.70,5142.87,1.61]
+_camera camSetFOV 0.365
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ih03"
+titletext ["Washingtonu jsem to u ohlásil a zatím na to nìjak nereagovali.\nAle abych odpovìdìl. Stálo tam nìco o Operaci Red Storm. Je to operace, do které se zahrnuje napadení OSN.","plain down"]
+
+~10
+
+;=== 22:07:28
+_camera camSetTarget [-93524.42,-6277.04,-905.82]
+_camera camSetPos [5816.95,5143.01,1.62]
+_camera camSetFOV 0.204
+_camera camCommit 0
+@camCommitted _camera
+
+su say "ih04"
+titletext ["Co? Rusové si chtìli zaèít s OSN?\nBylo tam jméno jejich vùdce?","plain down"]
+
+~5
+
+;=== 22:08:01
+_camera camSetTarget [94101.08,-41448.97,-5854.17]
+_camera camSetPos [5814.89,5144.34,1.62]
+_camera camSetFOV 0.331
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ih05"
+titletext ["Bohuel ne, majore Summersi.\nNìkdo to psal jistému kapitánu Borisovovi.\nTake já nevrhuji, vyhledat si Borisova. Jakmile si ho zjistíme, pøijdem i na toho hajzla co si tu s náma hraje.","plain down"]
+
+;=== 22:08:19
+_camera camSetTarget [62907.52,87078.38,-5156.58]
+_camera camSetPos [5814.82,5142.24,1.61]
+_camera camSetFOV 0.291
+_camera camCommit 10
+@camCommitted _camera
+
+;=== 22:09:15
+_camera camSetTarget [-58997.77,81292.66,-75.77]
+_camera camSetPos [5817.05,5141.31,1.61]
+_camera camSetFOV 0.129
+_camera camCommit 0
+@camCommitted _camera
+
+dya say "ih06"
+titletext ["A co mìli ti pošahanci vlastnì na nás?","plain down"]
+
+~3
+
+;=== 22:09:31
+_camera camSetTarget [46035.86,96677.96,-1727.67]
+_camera camSetPos [5814.49,5140.24,1.60]
+_camera camSetFOV 0.141
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ih07"
+titletext ["Mìli v plánu nás rozbombardovat na kusy.\nZ letištì by nás napadli ze severovıchodu, ale to u je teï jedno. Dùleité je myslet dopøedu.","plain down"]
+
+;=== 22:09:53
+_camera camSetTarget [98421.47,39408.25,-15768.62]
+_camera camSetPos [5813.16,5142.81,2.04]
+_camera camSetFOV 0.162
+_camera camCommit 8
+@camCommitted _camera
+
+prijem=true
+
+;=== 22:09:53
+_camera camSetTarget voj
+_camera camSetPos [5813.16,5142.81,2.04]
+_camera camSetFOV 0.162
+_camera camCommit 2
+@camCommitted _camera
+
+dya dowatch ep
+su dowatch ep
+voj dowatch ep
+voj say "ih08"
+titletext ["Pane, prezident Carter je na pøíjmu.\nKrycí jméno Doupì.","plain down"]
+
+~4
+
+;=== 21:33:30
+_camera camSetTarget ep
+_camera camSetPos [5826.05,5138.44,1.42]
+_camera camSetFOV 0.276
+_camera camCommit 0
+@camCommitted _camera
+
+prijem=true
+ep say "ih09"
+titletext ["Do háje...","plain down"]
+
+@uradia
+
+ep say "ih10"
+titletext ["Doupì, tady je Táta Medvìd.","plain down"]
+
+~3
+
+;=== 21:35:29
+_camera camSetTarget [48367.73,92972.85,-21758.19]
+_camera camSetPos [5822.99,5136.34,1.85]
+_camera camSetFOV 0.274
+_camera camCommit 0
+@camCommitted _camera
+
+playsound "ih11"
+titletext ["Epgayde, jste to vy? Zapomeòme na krycí jména a poslouchejte.","plain down"]
+
+~5
+
+ep say "ih12"
+titletext ["Ano, pane, mluvte.","plain down"]
+
+;=== 21:35:37
+_camera camSetTarget [-16959.88,101509.59,-13861.86]
+_camera camSetPos [5824.91,5135.95,1.85]
+_camera camSetFOV 0.251
+_camera camCommit 2
+@camCommitted _camera
+
+playsound "ih13"
+titletext ["Nemám moc èasu se s vámi vybavovat,\nponìvad mi sem na stùl kadou chvíli pøijdou papíry s dotazy na tu vaší spropadenou válku, take zaèneme postupnì.\nJste v pìknı kaši, je to tak?","plain down"]
+
+~11
+
+ep say "ih14"
+titletext ["Ano, pane. OSN nás samozøejmì oznaèilo za agresory a tak jsme po celou dobu bez posil.","plain down"]
+
+;=== 21:37:48
+_camera camSetTarget [-69189.70,71039.37,5461.86]
+_camera camSetPos [5826.43,5137.43,1.36]
+_camera camSetFOV 0.191
+_camera camCommit 5
+@camCommitted _camera
+
+playsound "ih15"
+titletext ["S nima u jsem mluvil o tìch plánech co jste úspìšnì vzali tìm Rusákùm a usoudili, e nechali v brindì špatnou stranu.\nPovolilo mi vám tedy pomoc. Mluvil jsem u s generálem Jacksonem a je schopen poslat svùj oddíl vám na pomoc, rozumíte mi, Jamesi?","plain down"]
+
+~12
+
+ep setmimic "smile"
+
+~3
+
+;=== 21:41:48
+_camera camSetTarget [84389.94,42733.41,-49100.84]
+_camera camSetPos [5822.69,5138.65,2.36]
+_camera camSetFOV 0.443
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ih16"
+titletext ["Ano, pane, dìkuji, s vaší pomocí Rusy zaeneme zpátky do Kremlu.","plain down"]
+
+;=== 21:41:55
+_camera camSetTarget [86591.03,-33264.14,-44708.10]
+_camera camSetPos [5822.38,5140.47,2.37]
+_camera camSetFOV 0.355
+_camera camCommit 2
+@camCommitted _camera
+
+playsound "ih17"
+titletext ["Ne tak rychle.\nJe vám snad jasné, e ten prùser se u dostal do svìta. Média jsou všude a míøí i kvám na ostrov. Take to ještì nezhoršete.","plain down"]
+
+;=== 21:42:40
+_camera camSetTarget [72457.62,64789.41,-44708.36]
+_camera camSetPos [5822.73,5138.10,2.36]
+_camera camSetFOV 0.788
+_camera camCommit 9
+@camCommitted _camera
+
+ep say "ih18"
+titletext ["Nebojte, pane, spolehnìte se.","plain down"]
+
+;=== 21:42:40
+_camera camSetTarget ep
+_camera camSetPos [5822.73,5138.10,2.36]
+_camera camSetFOV 0.788
+_camera camCommit 2
+@camCommitted _camera
+
+playsound "ih19"
+titletext ["A Epgayde. Kreml se k incidentu nìjak nevyjádøil.\nNevím pøesnì proè ruská armáda vás napadla, ale z politickıch dùvodù to asi nebude.\nV kadém pøípadì dìlejte vše pro to, aby odtamtud vypadli a našli toho grázla odpovìdnıho za tu šlamastiku.\nPosily pøijedou za dva dny. A se neopakuje incident pøed mìsícem, tentokrát to máte v rukou vy.\nRozumíte?","plain down"]
+
+~22
+
+;=== 21:46:10
+_camera camSetTarget ep
+_camera camSetPos [5825.14,5138.51,1.55]
+_camera camSetFOV 0.506
+_camera camCommit 0
+@camCommitted _camera
+
+jdidohajzlu=true
+ep say "ih20"
+titletext ["Ano, pane, ještì jednou dìkuji. Konèím.","plain down"]
+
+~3
+
+zpatky=true
+
+@zpet
+
+;=== 8:51:31
+_camera camSetTarget ep
+_camera camSetPos [5812.06,5143.85,1.39]
+_camera camSetFOV 0.116
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ih21"
+titletext ["Dobré zprávy. OSN vyøešilo situaci následovnì. Washington dostal povolení poslat posily, které pøijedou za dva dny k nám na ostrov.\nO válce u sice ví celı svìt a míøí sem novináøi, ale nic co by nás nezastavilo.","plain down"]
+
+~13
+
+;=== 8:52:25
+_camera camSetTarget [-90221.52,32500.91,5296.75]
+_camera camSetPos [5818.66,5141.54,1.32]
+_camera camSetFOV 0.150
+_camera camCommit 0
+@camCommitted _camera
+
+ep setpos getmarkerpos "presun"
+su say "ih22"
+titletext ["Skvìle, co tedy máte v plánu, plukovníku?","plain down"]
+
+~2
+
+ep setdir 250
+ep dowatch su
+
+;=== 8:52:51
+_camera camSetTarget ep
+_camera camSetPos [5814.47,5143.46,1.50]
+_camera camSetFOV 0.195
+_camera camCommit 0
+@camCommitted _camera
+
+ep setmimic "normal"
+
+ep say "ih23"
+titletext ["Chtìli na nás zaútoèit od severu, tudí to u neudìlaj.\nKdybych byl Rus, napadlo by mì nejvìtší strategické místo na ostrovì, které by mìlo spadnout pod mojí ochranu.","plain down"]
+
+;=== 8:53:15
+_camera camSetTarget ep
+_camera camSetPos [5814.61,5144.88,1.46]
+_camera camSetFOV 0.208
+_camera camCommit 10
+@camCommitted _camera
+
+;=== 8:53:47
+_camera camSetTarget [-71116.19,68981.15,2408.71]
+_camera camSetPos [5817.76,5141.46,1.44]
+_camera camSetFOV 0.226
+_camera camCommit 0
+@camCommitted _camera
+
+ep setmimic "smile"
+ep switchmove "effectstand"
+dya say "ih24"
+titletext ["A to je most u Davle.","plain down"]
+
+~2
+
+;=== 8:54:12
+_camera camSetTarget ep
+_camera camSetPos [5815.52,5143.18,1.45]
+_camera camSetFOV 0.256
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+ep say "ih25"
+titletext ["Pøesnì tak, majore. Pøesnì tak.","plain down"]
+
+~3
+
+4 fademusic 0
+4 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+titletext ["","plain down"]
+
+~1
+
+konec=true

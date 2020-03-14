@@ -1,0 +1,114 @@
+version=11;
+class Mission
+{
+	randomSeed=7738371;
+	class Intel
+	{
+		briefingName="Penalty1";
+	};
+};
+class Intro
+{
+	randomSeed=6707203;
+	class Intel
+	{
+		briefingName="Penalty1";
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9141.218750,14.445141,12653.370117};
+					id=0;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""intro.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9123.475586,14.985000,12594.526367};
+					azimut=180.000000;
+					id=2;
+					side="WEST";
+					vehicle="OfficerW";
+					leader=1;
+					skill=0.600000;
+					text="ep";
+					init="this setidentity ""epgayd""; this switchmove ""effectstandtalk""";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9123.493164,14.985000,12594.118164};
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={9123.629883,14.985000,12592.686523};
+			azimut=180.000000;
+			id=1;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			skill=0.600000;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={9087.142578,6.687710,12696.954102};
+			type="END1";
+			age="UNKNOWN";
+			expCond="konec";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=8945667;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=250371;
+	class Intel
+	{
+	};
+};

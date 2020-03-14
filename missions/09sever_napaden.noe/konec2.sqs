@@ -1,0 +1,8 @@
+setacctime 1
+hrac addrating -50000
+hrac say "konec2"
+titletext ["Do hajzlu, ztratil jsem se. Co budu dìlat?","plain down"]
+
+~5
+
+konec2=true

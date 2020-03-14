@@ -1,0 +1,77 @@
+setacctime 1
+titleCut ["","BLACK OUT",3]
+
+~4
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+5 fademusic 0
+uaz setpos getmarkerpos "car"
+setacctime 1
+hrac setpos getmarkerpos "unej2"
+titleCut ["","BLACK IN",3]
+uaz setpos getmarkerpos "car"
+hrac setpos getmarkerpos "unej2"
+hrac setdir 0
+hrac action ["weapononback"]
+
+;=== 10:00:52
+_camera camSetTarget [89573.69,59690.61,40.81]
+_camera camSetPos [4112.48,7763.90,1.53]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+off2 say "h11"
+titletext ["Vás jsem tu ještì nevidìl. Co tu chcete?","plain down"]
+
+;=== 10:00:52
+_camera camSetTarget hrac
+_camera camSetPos [4112.48,7763.90,1.53]
+_camera camSetFOV 0.500
+_camera camCommit 5
+@camCommitted _camera
+
+hrac say "h12"
+titletext ["Jsem seržant Blashkov. Potøebuji se nutnì dostat na letištì.","plain down"]
+
+~5
+
+;=== 10:03:21
+_camera camSetTarget [-29754.06,101824.95,2231.81]
+_camera camSetPos [4114.56,7760.58,1.55]
+_camera camSetFOV 0.161
+_camera camCommit 0
+@camCommitted _camera
+
+off2 say "h13"
+titletext ["Co? Blashkov? Já ho znám!","plain down"]
+
+~1
+
+opatrne=true
+
+~2
+
+;=== 10:05:46
+_camera camSetTarget [44153.70,-83680.43,-5811.79]
+_camera camSetPos [4111.85,7765.91,1.55]
+_camera camSetFOV 0.838
+_camera camCommit 0
+@camCommitted _camera
+
+hrac addrating -2000
+off2 say "h14"
+titletext ["Vy jste narušitel!\nZastøelit!","plain down"]
+
+zabit=true
+
+@not alive hrac
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+off2 setbehaviour "careless"
+mrd1 setbehaviour "careless"
+mrd2 setbehaviour "careless"

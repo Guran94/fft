@@ -1,0 +1,394 @@
+setacctime 1
+titleCut ["","BLACK IN",3]
+playmusic "song4"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;vlajka
+
+;=== 18:03:33
+_camera camSetTarget [-28522.73,-87407.32,-20098.18]
+_camera camSetPos [2555.13,5473.87,1.09]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:03:41
+_camera camSetTarget [-28522.73,-87407.32,-20098.64]
+_camera camSetPos [2555.13,5473.87,6.27]
+_camera camSetFOV 0.700
+_camera camCommit 12
+@camCommitted _camera
+
+~2
+
+;kontolni stanoviste
+
+;=== 18:04:15
+_camera camSetTarget [-9370.07,104612.59,80.91]
+_camera camSetPos [2655.31,5338.27,1.37]
+_camera camSetFOV 0.488
+_camera camCommit 0
+@camCommitted _camera
+
+~6
+
+;mesto
+
+;=== 18:04:44
+_camera camSetTarget [-4878.41,98731.93,-34792.44]
+_camera camSetPos [2598.51,5309.83,10.26]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:05:08
+_camera camSetTarget [-8605.00,91876.20,-48750.75]
+_camera camSetPos [2559.20,5340.17,25.95]
+_camera camSetFOV 0.700
+_camera camCommit 12
+@camCommitted _camera
+
+;=== 18:06:13
+_camera camSetTarget [2600.93,-92996.02,-17324.15]
+_camera camSetPos [2617.22,5476.31,6.38]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:06:29
+_camera camSetTarget [-96263.52,-8632.76,-4811.62]
+_camera camSetPos [2614.80,5476.30,6.34]
+_camera camSetFOV 0.700
+_camera camCommit 8
+@camCommitted _camera
+
+~3
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+0 fademusic 0.2
+playsound "ih01"
+titletext [localize "STRM_ih01","plain"]
+
+~8
+
+titleCut ["","BLACK IN",2]
+0 fademusic 1
+
+;mrtvej
+
+;=== 19:33:09
+_camera camSetTarget [23797.87,99670.41,-22554.85]
+_camera camSetPos [3470.27,4419.90,0.50]
+_camera camSetFOV 0.451
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+[rus, bvp] exec "eject.sqs"
+;bvp
+
+;=== 19:33:23
+_camera camSetTarget [-50333.27,88709.13,-591.25]
+_camera camSetPos [3470.27,4419.90,0.50]
+_camera camSetFOV 0.451
+_camera camCommit 2
+@camCommitted _camera
+
+~7
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+0 fademusic 0.2
+playsound "ih02"
+titletext [localize "STRM_ih02","plain"]
+
+~12
+
+titleCut ["","BLACK IN",2]
+
+0 fademusic 1
+
+;nasi
+
+;=== 7:56:54
+_camera camSetTarget [62544.62,85589.02,7256.53]
+_camera camSetPos [4684.21,4346.81,2.00]
+_camera camSetFOV 0.447
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+jed=true
+
+~2
+
+;=== 7:57:23
+_camera camSetTarget [-46462.95,89804.78,9048.32]
+_camera camSetPos [4684.21,4346.81,2.00]
+_camera camSetFOV 0.447
+_camera camCommit 5
+@camCommitted _camera
+;=== 7:57:23
+_camera camSetTarget tank
+_camera camSetPos [4684.21,4346.81,2.00]
+_camera camSetFOV 0.447
+_camera camCommit 2
+@camCommitted _camera
+
+~3
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+0 fademusic 0.2
+playsound "ih03"
+titletext [localize "STRM_ih03","plain"]
+
+~11
+
+titleCut ["","BLACK IN",2]
+
+0 fademusic 1
+;montignac
+
+jed2=true
+
+;=== 8:19:39
+_camera camSetTarget [102209.77,-14416.03,-7511.93]
+_camera camSetPos [4843.04,7052.85,1.42]
+_camera camSetFOV 0.514
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+;=== 8:20:00
+_camera camSetTarget car
+_camera camSetPos [4847.03,7058.48,4.14]
+_camera camSetFOV 0.514
+_camera camCommit 3
+@camCommitted _camera
+
+~2
+
+;=== 8:22:37
+_camera camSetTarget [-67741.39,-60514.34,-12408.33]
+_camera camSetPos [5015.44,6927.72,8.49]
+_camera camSetFOV 0.385
+_camera camCommit 0
+@camCommitted _camera
+
+0 fademusic 0.2
+playsound "ih04"
+titletext [localize "STRM_ih04","plain"]
+
+;=== 8:23:48
+_camera camSetTarget [-70720.66,71133.14,-11847.41]
+_camera camSetPos [5009.45,6940.75,10.69]
+_camera camSetFOV 0.385
+_camera camCommit 13
+@camCommitted _camera
+
+playsound "ih05"
+titletext [localize "STRM_ih05","plain"]
+;=== 8:24:12
+_camera camSetTarget [-80028.52,55662.04,-19911.18]
+_camera camSetPos [4982.57,6980.19,9.63]
+_camera camSetFOV 0.385
+_camera camCommit 4
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",3]
+
+~2
+
+titleCut ["","BLACK IN",2]
+
+;james
+
+james setmimic "angry"
+muday setmimic "normal"
+dan setmimic "normal"
+james switchmove "effectstandtalk"
+james say "ih06"
+
+;=== 16:11:52
+_camera camSetTarget [60333.00,89914.65,-7411.52]
+_camera camSetPos [4950.52,6995.96,1.50]
+_camera camSetFOV 0.517
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:12:35
+_camera camSetTarget [68517.64,83889.75,-6661.71]
+_camera camSetPos [4949.95,6995.90,1.50]
+_camera camSetFOV 0.360
+_camera camCommit 8
+@camCommitted _camera
+
+;muday
+
+james switchmove "effectstand"
+muday say "ih07"
+
+;=== 16:13:56
+_camera camSetTarget [-86015.73,-33347.05,-9698.35]
+_camera camSetPos [4951.79,6998.89,1.73]
+_camera camSetFOV 0.383
+_camera camCommit 0
+@camCommitted _camera
+
+~6
+
+;james
+
+;=== 16:15:25
+_camera camSetTarget [74550.26,-64583.92,-5463.68]
+_camera camSetPos [4949.85,6999.58,1.54]
+_camera camSetFOV 0.383
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+;james say "ih08"
+
+;george
+
+;=== 16:17:08
+_camera camSetTarget [-93172.63,10881.03,-18726.30]
+_camera camSetPos [4951.54,6996.88,1.78]
+_camera camSetFOV 0.383
+_camera camCommit 0
+@camCommitted _camera
+dan say "ih09"
+muday setdir 180
+
+~12
+
+;george a muday
+muday setmimic "angry"
+muday say "ih10"
+
+;=== 16:18:38
+_camera camSetTarget [-72661.16,69149.98,-10486.78]
+_camera camSetPos [4951.13,6996.51,1.42]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:19:11
+_camera camSetTarget [-94361.05,8293.71,-11482.80]
+_camera camSetPos [4950.85,6997.50,1.53]
+_camera camSetFOV 0.818
+_camera camCommit 12
+@camCommitted _camera
+
+dan say "ih11"
+
+~3
+
+muday setmimic "normal"
+muday setdir 115
+james setmimic "normal"
+james say "ih12"
+
+;vsichni
+
+;=== 16:20:15
+_camera camSetTarget [70129.20,-68019.75,-10976.70]
+_camera camSetPos [4950.52,6998.89,1.53]
+_camera camSetFOV 0.614
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:24:17
+_camera camSetTarget [-4714.97,-91640.14,-13138.30]
+_camera camSetPos [4950.79,6999.70,1.54]
+_camera camSetFOV 0.700
+_camera camCommit 9
+@camCommitted _camera
+
+muday say "ih13"
+muday playmove "effectstandsalute"
+
+~1
+
+muday playmove "effectstandsaluteend"
+
+;george
+
+;=== 16:17:08
+_camera camSetTarget [-93172.63,10881.03,-18726.30]
+_camera camSetPos [4951.54,6996.88,1.78]
+_camera camSetFOV 0.383
+_camera camCommit 0
+@camCommitted _camera
+dan say "ih14"
+
+~2
+
+;vsichni
+
+;=== 16:24:17
+_camera camSetTarget [-4714.97,-91640.14,-13138.30]
+_camera camSetPos [4950.79,6999.70,1.54]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+james say "ih15"
+
+~5
+
+james switchmove "FxStandRotateTable"
+
+~3
+
+;george
+
+;=== 16:17:08
+_camera camSetTarget [-93172.63,10881.03,-18726.30]
+_camera camSetPos [4951.54,6996.88,1.78]
+_camera camSetFOV 0.383
+_camera camCommit 0
+@camCommitted _camera
+dan say "ih16"
+
+~3
+
+;zeshora
+
+;=== 16:28:13
+_camera camSetTarget [78833.21,12407.37,-67014.09]
+_camera camSetPos [4949.74,6997.60,2.30]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+james say "ih17"
+
+~2
+
+james switchmove "FXStandShowTable"
+
+~1
+
+titleCut ["","BLACK OUT",2]
+2 fademusic 0
+2 fadesound 0
+
+~2
+
+chapter2=true
+
+~5
+
+konec=true
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+exit

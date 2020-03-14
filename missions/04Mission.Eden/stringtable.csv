@@ -1,0 +1,41 @@
+LANGUAGE,"Czech","Comment"
+
+STR_ONLOAD_INTRO,"Šestı den bojù","loading screen"
+STR_ONLOAD_MISSION,"Vysazeni u lesa","loading screen"
+
+STRMT,"Otevøít deník padlého partyzána","Text"
+STRMH_1,"DENÍK PADLÉHO PARTYZÁNA\n\nPìt dnù tu válèíme. Válku vyhráváme.\nMyslím si, e jsme Amerièany pøekvapili, se vzpourou nepoèítali, ale i tak máme ve vlastních øadách problémy.\nMáme málo munice, u tak brzo. Nepoèítali jsme, e to skladištì, které jsme obsadili Amerièané vyhodí do vzduchu, naštìstí nám ale pomohli ty tanky k dobytí Mortonu.\nAni nevím, kde jsme je vzali, kdy jsem se ptal Velkého bosse, neøekl mi to, prı mì to nemusí zajímat, ale jen hlupák by si nevšiml, e ty stroje jsou ruské vıroby. e by náš odboj obchodoval s Rusy? Tìko øíct.\nU to nebudu protahovat, jdu na misi.","Hint"
+STRMH_2,"V nabídce èinností se vám objevila nová èinnost.","Hint"
+
+STRM_ih01,"Po tom co jsme ztratili Morton, získal nepøítel sebevìdomí a vzpoura nabrala spád..","Jason"
+STRM_ih02,"Po tak velké a pøekvapivé poráce jsme se nemuseli vzpamatovávat dlouho, ponìvad pøišla další a ještì vìtší.\nV Lamentinu vypuklo povstání. Lidé vzali do rukou zbranì a s pomocí partyzánù ve mìstì pøevzali moc.","Jason"
+STRM_ih03,"Le Moule se tak dostalo do kleští. Velení z mìsta naøídilo ústup, kterı však byl nemonı.\nKolem lesù se nedola projít a tak toho rebelové opìt vyuili a zaútoèili. Americká posádka ve mìstì se vzdala.\nRebelové tímto tahem tak dostali dvì mouchy jednou ranou a zaèali vìøit, e se jim podaøí osamostatnit se od Spojenıch státù.","Jason"
+STRM_ih04,"Bylo vyhlášeno stanné právo. Zúèastnil jsem se nìkolika hlídek a pár lidí jsme museli zastøelit.","Jason"
+STRM_ih05,"Poznával jsem, jak válka dokáe bıt krutá.\nVálka se neptá, kdo je vinen, nebo nevinen, prostì se umíralo.","Jason"
+STRM_ih06,"Plukovník Epgayd se marnì snail vydímat z Washingtonu posily.\nDiplomatické vztahy mezi Moskvou a Washingtonem byly tak napjaté,\ne se prezident Carter neopováil vojensky provokovat Brenìva a zakázal Epgaydovi kontaktovat sousední Nogovu.","Jason"
+STRM_ih07,"Pak Epgayd kontaktoval OSN, ti se však nechtìli do této situace míchat a ještì dodali:\nTuto situaci jsme u jednou øešili, podruhé nikoliv.\nVe skuteènosti za organizaci spojenıch národù promluvil strach, strach z Rusù.\nByli jsme sami.","Jason"
+STRM_ih08,"Den ze dne byly naše ztráty èím dál vìtší. Mìli jsme málo vojákù a ještì ke všemu zelenáèù.\nPo ztrátì tøí vıznamnıch mìst jsme mìli ještì míò tankù a vrtulníkù.","Jason"
+STRM_ih09,"Kde rebelové vzali tanky nám zùstavalo záhadou. Vlastnì, celá jejich síla nám zùstávala záhadou.","Jason"
+STRM_ih10,"Ale válka ještì neskonèila.","Jason"
+STRM_ih11,"Hmm... moc hezká schovávaèka.","George"
+STRM_ih12,"Táto Medvìde, tady Záškodník. Nepøítel si vydobil pìknı úkryt na souøadnicích Ea64.\nMají tam dvì ruské T72ky a jednu šilku, pøepínám.","George"
+STRM_ih13,"Skvìlá práce, záškodníku.\nÚkol jste tím pádem splnil. Vrate se k nám, konec.","Medvìd"
+STRM_bonus,"Zajímavé.","Jason"
+
+STRM_r01,"OK, TAK TO BYCHOM MÌLI.","Lídr"
+STRM_r02,"BACHA! PARTYZÁNSKÁ HLÍDKA.","Lídr"
+STRM_r03,"TÁTO MEDVÌDE, Z TÌCH SRÁÈÙ NIKDO NEPØEIL A JEJICH HRAÈKY SE SMAÍ. VYHRÁLI JSME, KONEC.","Lídr"
+STRM_r04,"TÁTO MEDVÌDE, TADY DESÁTNÍK TWOMBLY. VŠICHNI JSOU MRTVÍ, ZÙSTAL JSEM SÁM! PØEPÍNÁM.","Jason"
+STRM_r05,"SLYŠÍME TÌ TWOMBLY. PAK TEDY ODVOLEJTE MISI. TOHLE SE NÁM OPÌT NEPOVEDLO. STÁHNÌTE SE NA SOUØADNICE EH62, OPAKUJI EH62. POSÍLÁME PRO VÁS TRANSPORT. KONEC.","Lídr"
+STRM_bravo,"BRAVO, PODEJTE HLÁŠENÍ. BRAVO, SLYŠÍTE? BRAVO, OZVÌTE SE DO PRDELE! SAKRA, PØIŠLI JSME O BRAVO!","Lídr"
+
+STRMM_01,"Start","marker"
+STRMM_02,"Hlídka","marker"
+STRMM_03,"Tábor","marker"
+STRMM_04,"Bravo","marker"
+STRMM_05,"Nepøátelské území","marker"
+
+
+STRMW_01,"HLÍDKA","waypoint"
+STRMW_02,"TÁBOR","waypoint"
+STRMW_03,"ÈEKAT NA TRANSPORT","waypoint"

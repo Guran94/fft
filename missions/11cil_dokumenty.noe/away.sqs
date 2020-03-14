@@ -1,0 +1,3 @@
+hrac addrating -30000
+hrac say "away"
+titletext ["Zatracenì, kam to jdu? Mìl bych se podívat do mapy.","plain down"]

@@ -1,0 +1,62 @@
+setacctime 1
+titleCut ["","BLACK IN",3]
+m113 lock true
+"4" objstatus "hidden"
+playmusic "rtrack8"
+away1=false
+away2=true
+hotovo=false
+papa=[West, "HQ"]
+ClearWeaponCargo m113
+ClearMagazineCargo m113
+ClearWeaponCargo m113_2
+ClearMagazineCargo m113_2
+ClearWeaponCargo m113_3
+ClearMagazineCargo m113_3
+ClearWeaponCargo m113_4
+ClearMagazineCargo m113_4
+
+~10
+
+setacctime 1
+pochcanek setmimic "bad"
+pochcanek say "mh02"
+
+~4
+
+serza setmimic "angry"
+serza say "mh03"
+
+~8
+
+pochcanek say "mh04"
+
+~2
+
+voj setmimic "smile"
+voj say "mh05"
+
+~4
+
+hrac say "mh06"
+
+~2
+
+voj setmimic "angry"
+voj say "mh07"
+
+~6
+
+hrac say "mh08"
+
+~0.5
+
+serza say "mh09"
+
+~5
+
+pochcanek setmimic "normal"
+voj setmimic "normal"
+serza setmimic "normal"
+
+exit

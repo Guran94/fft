@@ -1,0 +1,10 @@
+off1 globalradio "r01"
+off1 globalchat "VÝBORNÌ. ZAS TAK VELIKÝ ODPOR TO NEBYL. NEPØÁTELÉ USTUPUJÍ. DÌKUJEME VÁM ZA POMOC, SERŽANTE."
+
+hrac addrating 1000
+hint "Dobrá práce. Proè jste vlastnì zdravotník?"
+[rus1, rus2, rus3, rus4, rus5, rus6] join grpnull
+hotovo=true
+mi1 setfuel 1
+mi2 setfuel 1
+away1 setpos getmarkerpos "pryc"

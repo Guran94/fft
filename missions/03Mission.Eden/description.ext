@@ -1,0 +1,187 @@
+onLoadMission="$STR_ONLOAD_MISSION";
+onLoadMissionTime = true;
+
+MinScore = 1000
+AvgScore = 2200
+MaxScore = 4000
+
+Debriefing = 1
+
+ShowWatch = 1
+
+ShowCompass = 1
+
+ShowNotepad = 1
+
+ShowGPS = 0
+
+ShowMap = 1
+
+class CfgSounds
+{
+	sounds[] = 
+	{
+		
+		
+	};
+
+	class mh01
+	{
+		name = "mh01";
+		sound[] = {"mh01.ogg", db+10, 0.97};
+		titles[] = 
+			{
+				0, $STRM_mh01
+			};
+	};
+	class mh02_1
+	{
+		name = "mh02_1";
+		sound[] = {"mh02_1.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_mh02
+			};
+	};
+	class mh02_2
+	{
+		name = "mh02_2";
+		sound[] = {"mh02_2.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_mh02
+			};
+	};
+	class mh03
+	{
+		name = "mh03";
+		sound[] = {"mh03.ogg", db+10, 0.97};
+		titles[] = 
+			{
+				0, $STRM_mh03
+			};
+	};
+	class mh04
+	{
+		name = "mh04";
+		sound[] = {"mh04.ogg", db+10, 0.97};
+		titles[] = 
+			{
+				0, $STRM_mh04
+			};
+	};
+	class mh05
+	{
+		name = "mh05";
+		sound[] = {"mh05.ogg", db+10, 0.97};
+		titles[] = 
+			{
+				0, $STRM_mh05
+			};
+	};
+	class mh06
+	{
+		name = "mh06";
+		sound[] = {"mh06.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_mh06
+			};
+	};
+	class bonus1
+	{
+		name = "bonus1";
+		sound[] = {"bonus1.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_bonus1
+			};
+	};
+	class bonus2
+	{
+		name = "bonus2";
+		sound[] = {"bonus2.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_bonus2
+			};
+	};
+	class bonus3
+	{
+		name = "bonus3";
+		sound[] = {"bonus3.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_bonus3
+			};
+	};
+	class bonus4
+	{
+		name = "bonus4";
+		sound[] = {"bonus4.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0, $STRM_bonus4
+			};
+	};
+};
+
+class CfgRadio
+{
+	sounds[] = { };
+	
+	class r01
+	{
+		name = "r01";
+		sound[] = {"r01.ogg", db+10, 1.00};
+		title = $STRM_r01;
+	};
+	class r02
+	{
+		name = "r02";
+		sound[] = {"r02.ogg", db+10, 1.03};
+		title = $STRM_r02;
+	};
+	class r03
+	{
+		name = "r03";
+		sound[] = {"r03.ogg", db+10, 1.03};
+		title = $STRM_r03;
+	};
+	class r04
+	{
+		name = "r04";
+		sound[] = {"r04.ogg", db+10, 1.00};
+		title = $STRM_r04;
+	};
+	class r05
+	{
+		name = "r05";
+		sound[] = {"r05.ogg", db+10, 0.97};
+		title = $STRM_r05;
+	};
+	class r06
+	{
+		name = "r06";
+		sound[] = {"r06.ogg", db+10, 0.95};
+		title = $STRM_r06;
+	};
+	class r07
+	{
+		name = "r07";
+		sound[] = {"r07.ogg", db+10, 1.00};
+		title = $STRM_r07;
+	};
+	class r08
+	{
+		name = "r08";
+		sound[] = {"r08.ogg", db+10, 0.95};
+		title = $STRM_r08;
+	};
+	class r09
+	{
+		name = "r09";
+		sound[] = {"r09.ogg", db+10, 0.97};
+		title = $STRM_r09;
+	};
+};

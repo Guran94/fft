@@ -1,0 +1,17 @@
+~5
+
+_leader1 = boris
+
+_pocet1 = Count Units _leader1
+
+_group1 = units _leader1
+
+
+_i = 0
+#premistuj1
+(_group1 select _i) setPos [getpos boris_presun select 0, getpos boris_presun select 1, 0]
+_i = _i + 1
+~2
+? (_pocet1 > _i) : goto "premistuj1"
+
+exit

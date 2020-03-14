@@ -1,0 +1,48 @@
+chinook setfuel 1
+chinook flyinheight 500
+setacctime 1
+chinook lock true
+away1=false
+chinook sideradio "r02"
+
+chinook sideradio "r03"
+
+papa sideradio "r04"
+
+~40
+
+setacctime 1
+hrac say "mh11"
+
+~5
+
+gran setmimic "smile"
+gran say "mh12"
+
+~3
+
+kulo setmimic "angry"
+kulo say "mh13"
+
+~9
+
+voj3 setmimic "angry"
+voj3 say "mh14"
+
+~7
+
+voj4 setmimic "smile"
+voj4 say "mh15"
+
+~7
+
+voj5 setmimic "smile"
+voj4 setmimic "smile"
+voj3 setmimic "smile"
+voj2 setmimic "smile"
+voj1 setmimic "smile"
+voj5 say "mh16"
+voj4 say "mh16a"
+voj3 say "mh16b"
+
+exit

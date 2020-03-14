@@ -1,0 +1,10 @@
+titleCut ["","BLACK IN",3]
+setacctime 1
+playMusic ["track3", 35]
+0 fademusic 0
+
+titletext ["Blackhawk na vás èeká v hangáru, pane.\nZlomte vaz.","plain down"]
+
+~2
+
+7 fademusic 0.2

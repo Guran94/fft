@@ -1,0 +1,631 @@
+zmrd1 switchmove "effectstsndsitdown"
+zmrd2 switchmove "effectstsndsitdown"
+zmrd3 switchmove "effectstsndtalk"
+away1=true
+
+kovalin2 switchmove "fxangel"
+kovalin2 setpos getmarkerpos "kovalin2"
+kovalin2 setdir 60
+setacctime 1
+
+vojak1 setmimic "normal"
+vojak2 setmimic "normal"
+vojak3 setmimic "normal"
+vojak4 setmimic "normal"
+vojak5 setmimic "normal"
+vojak6 setmimic "normal"
+vojak7 setmimic "normal"
+vojak8 setmimic "normal"
+vojak9 setmimic "normal"
+vojak10 setmimic "normal"
+vojak11 setmimic "normal"
+vojak12 setmimic "normal"
+hrac setmimic "normal"
+titleCut ["","BLACK OUT",3]
+
+~5
+
+titleCut ["","BLACK IN",3]
+
+disableuserinput true
+setacctime 1
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;statek
+
+deletevehicle kovalin
+;=== 20:56:41
+_camera camSetTarget [-88385.84,37943.86,-6969.89]
+_camera camSetPos [6480.35,7124.98,2.00]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:56:55
+_camera camSetTarget [-10521.31,105410.79,-6969.90]
+_camera camSetPos [6488.07,7125.08,2.00]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+;=== 20:57:08
+_camera camSetTarget [-17645.65,103901.48,-6969.53]
+_camera camSetPos [6499.63,7121.27,2.00]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+
+;mrtvoly a soudruzi
+
+;=== 20:57:39
+_camera camSetTarget [102017.39,-21673.76,-6970.57]
+_camera camSetPos [6525.41,7126.51,1.59]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:58:27
+_camera camSetTarget [102017.39,-21673.76,-6970.80]
+_camera camSetPos [6519.26,7128.37,1.59]
+_camera camSetFOV 0.700
+_camera camCommit 5
+@camCommitted _camera
+blonski say "mh27"
+blonski setmimic "normal"
+
+~7
+
+kovalin2 switchmove ""
+kovalin2 say "mh28"
+
+~3
+
+;blonski
+
+kovalin2 setpos getmarkerpos "cesta3"
+kovalin3 setpos getmarkerpos "kovalin2"
+kovalin3 setdir 250
+;=== 21:01:07
+_camera camSetTarget [46295.23,98870.73,-928.59]
+_camera camSetPos [6520.87,7127.00,1.63]
+_camera camSetFOV 0.358
+_camera camCommit 0
+@camCommitted _camera
+blonski say "mh29"
+
+~5
+
+;kovalin
+
+vylozit=true
+kovalin3 setdir 250
+kovalin3 say "mh30"
+;=== 21:02:35
+_camera camSetTarget [79689.98,75252.96,-2026.86]
+_camera camSetPos [6518.94,7125.96,1.53]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+kovalin3 playmove "fxshow3"
+
+~2
+
+;ural
+
+vylozit=true
+;=== 21:05:09
+_camera camSetTarget [-74626.86,-51270.06,-2026.77]
+_camera camSetPos [6520.63,7128.37,1.53]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+;ural zblízka
+
+hrac action ["eject",ural]
+kovalin2 setpos getmarkerpos "kovalin2"
+deletevehicle kovalin3
+kovalin2 setdir 40
+;=== 21:32:29
+_camera camSetTarget [71756.83,82858.20,143.78]
+_camera camSetPos [6476.43,7105.51,2.00]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:32:42
+_camera camSetTarget [85256.71,68698.90,143.43]
+_camera camSetPos [6473.75,7109.57,2.00]
+_camera camSetFOV 0.700
+_camera camCommit 5
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",1]
+
+~2
+
+titleCut ["","BLACK IN",1]
+
+;oba
+
+deletevehicle rus1
+deletevehicle rus2
+deletevehicle rus3
+deletevehicle rus4
+deletevehicle rus5
+herec setpos getmarkerpos "hrac"
+herec setdir 280
+deletevehicle vojak1
+deletevehicle vojak2
+deletevehicle vojak3
+vojak1_1 setpos getmarkerpos "vojak1"
+vojak1_1 setdir 280
+vojak2_1 setpos getmarkerpos "vojak2"
+vojak2_1 setdir 280
+vojak3_1 setpos getmarkerpos "vojak3"
+vojak3_1 setdir 280
+hrac setpos getmarkerpos "schovat"
+hrac setdir 280
+kovalin2 switchmove "fxstand"
+blonski setmimic "smile"
+blonski say "mh31"
+;=== 21:36:22
+_camera camSetTarget [62101.31,90256.95,143.50]
+_camera camSetPos [6519.88,7126.31,1.61]
+_camera camSetFOV 0.374
+_camera camCommit 0
+@camCommitted _camera
+
+~10
+
+;kovalin
+
+kovalin2 setmimic "smile"
+kovalin2 say "mh32"
+;=== 21:37:21
+_camera camSetTarget [-42151.22,-80202.21,-1913.20]
+_camera camSetPos [6521.23,7129.14,1.61]
+_camera camSetFOV 0.298
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+;oba
+
+ural setpos getmarkerpos "ural"
+ural setdir 90
+zmrd4 moveincargo uaz
+blonski say "mh33"
+;=== 21:36:22
+_camera camSetTarget [62101.31,90256.95,143.50]
+_camera camSetPos [6519.88,7126.31,1.61]
+_camera camSetFOV 0.374
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+titleCut ["","BLACK OUT",1]
+
+~2
+
+titleCut ["","BLACK IN",1]
+serzant dowatch blonski
+deletevehicle body
+kovalin2 moveindriver uaz
+blonski setpos getmarkerpos "blonski"
+blonski setdir 305
+zmrd5 setpos getmarkerpos "zmrd5"
+zmrd5 setdir 305
+zmrd6 setpos getmarkerpos "zmrd6"
+zmrd6 setdir 305
+
+;oba
+
+blonski dowatch serzant
+serzant setmimic "normal"
+serzant switchmove "effectstand"
+blonski say "mh34"
+;=== 21:56:28
+_camera camSetTarget [-93111.14,-1569.55,143.54]
+_camera camSetPos [6511.26,7129.24,1.44]
+_camera camSetFOV 0.294
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:57:06
+_camera camSetTarget [-90310.77,-17880.27,143.87]
+_camera camSetPos [6511.16,7129.97,1.44]
+_camera camSetFOV 0.452
+_camera camCommit 6
+@camCommitted _camera
+serzant say "mh35"
+
+~4
+
+blonski say "mh36"
+
+~10
+
+serzant playmove "effectstandsalute"
+serzant say "mh37"
+serzant setmimic "smile"
+
+~1
+
+blonski playmove "effectstandsalute"
+
+~1
+
+serzant playmove "fxstand"
+
+~1
+
+serzant dowatch objnull
+blonski playmove "fxstand"
+blonski AssignAsCargo uaz
+zmrd5 AssignAsCargo uaz
+zmrd5 AssignAsCargo uaz
+[blonski, zmrd5, zmrd6] ordergetin true
+
+~2
+
+zmrd5 moveincargo uaz
+zmrd6 moveincargo uaz
+titleCut ["","BLACK OUT",1]
+
+~2
+
+blonski moveincargo uaz
+titleCut ["","BLACK IN",1]
+
+;uaz
+
+vojak1_1 setdir 280
+vojak2_1 setdir 280
+vojak3_3 setdir 280
+kovalin2 domove (getmarkerpos "pryc")
+;=== 22:33:37
+_camera camSetTarget uaz
+_camera camSetPos [6451.07,7105.55,6.80]
+_camera camSetFOV 0.347
+_camera camCommit 0
+@camCommitted _camera
+;=== 22:33:51
+_camera camSetTarget uaz
+_camera camSetPos [6446.17,7096.40,11.80]
+_camera camSetFOV 0.498
+_camera camCommit 8
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",1]
+serzant setpos getmarkerpos "serzant"
+serzant setdir 90
+
+~2
+
+uaz setpos getmarkerpos "pryc"
+titleCut ["","BLACK IN",1]
+
+;zajatci
+
+;=== 22:38:46
+_camera camSetTarget [105785.70,-5170.52,143.93]
+_camera camSetPos [6546.76,7119.00,1.57]
+_camera camSetFOV 0.271
+_camera camCommit 0
+@camCommitted _camera
+;=== 22:39:16
+_camera camSetTarget [106363.08,1055.41,143.46]
+_camera camSetPos [6547.55,7126.81,1.57]
+_camera camSetFOV 0.271
+_camera camCommit 12
+@camCommitted _camera
+herec say "mh38"
+
+~2
+
+vojak1_1 say "mh39"
+
+~4
+
+herec say "mh40"
+
+~3
+
+titleCut ["","BLACK OUT",1]
+
+~2
+
+serzant setdir 90
+titleCut ["","BLACK IN",1]
+
+;serzant
+
+serzant switchmove "effectstandtalk"
+;=== 22:51:44
+_camera camSetTarget [-40536.14,95081.34,6908.68]
+_camera camSetPos [6547.49,7119.07,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+serzant say "mh41"
+
+;=== 22:51:53
+_camera camSetTarget [-62358.88,79272.16,6908.37]
+_camera camSetPos [6549.13,7120.15,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 6
+@camCommitted _camera
+
+;zajatci
+
+;=== 22:52:50
+_camera camSetTarget [80652.77,-58243.95,-15141.61]
+_camera camSetPos [6543.00,7132.59,2.58]
+_camera camSetFOV 0.550
+_camera camCommit 0
+@camCommitted _camera
+;=== 22:53:33
+_camera camSetTarget [86739.15,-51559.61,-11012.46]
+_camera camSetPos [6543.46,7127.70,1.59]
+_camera camSetFOV 0.550
+_camera camCommit 7
+@camCommitted _camera
+
+;serzant
+
+serzant say "mh43"
+;=== 22:51:53
+_camera camSetTarget [-62358.88,79272.16,6908.37]
+_camera camSetPos [6549.13,7120.15,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;uprchlík
+
+;=== 22:59:20
+_camera camSetTarget [28142.03,-90511.34,143.87]
+_camera camSetPos [6549.15,7129.56,1.41]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 22:59:39
+_camera camSetTarget vojak12
+_camera camSetPos [6548.67,7118.71,1.41]
+_camera camSetFOV 0.700
+_camera camCommit 7
+@camCommitted _camera
+vojak12 say "mh44"
+pryc2=true
+serzant switchmove "effectstand"
+serzant setdir 170
+
+~2
+
+zmrd7 setbehaviour "aware"
+serzant say "mh45"
+
+~1
+
+strelec dofire vojak12
+
+@not alive vojak12
+
+playmusic "rtrack1b"
+0 fademusic 0.1
+strelec setbehaviour "careless"
+
+;vojak10
+
+vojak10 setmimic "angry"
+vojak10 say "mh46"
+;=== 23:07:49
+_camera camSetTarget [105706.97,-5800.66,143.44]
+_camera camSetPos [6547.68,7120.77,1.56]
+_camera camSetFOV 0.326
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+;serzant
+
+serzant say "mh47"
+;=== 22:51:53
+_camera camSetTarget [-62358.88,79272.16,6908.37]
+_camera camSetPos [6549.13,7120.15,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+zmrd7 dofire vojak10
+
+;zmrd7
+
+;=== 9:34:12
+_camera camSetTarget [-4441.48,106404.21,-4408.72]
+_camera camSetPos [6543.48,7113.66,1.39]
+_camera camSetFOV 0.430
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:34:24
+_camera camSetTarget [73968.44,80823.61,-4408.88]
+_camera camSetPos [6543.48,7113.66,1.39]
+_camera camSetFOV 0.430
+_camera camCommit 2
+
+@not alive vojak10
+zmrd7 setbehaviour "careless"
+
+;vojak8
+
+;=== 9:35:40
+_camera camSetTarget [86492.26,67133.91,2769.08]
+_camera camSetPos [6546.90,7118.51,1.43]
+_camera camSetFOV 0.363
+_camera camCommit 0
+@camCommitted _camera
+vojak8 say "mh48"
+vojak8 setmimic "angry"
+
+~5
+
+;serzant
+
+zmrd7 setbehaviour "aware"
+serzant say "mh49"
+;=== 22:51:53
+_camera camSetTarget [-62358.88,79272.16,6908.37]
+_camera camSetPos [6549.13,7120.15,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+zmrd7 dofire vojak8
+
+;zmrd7
+
+;=== 9:34:24
+_camera camSetTarget [73968.44,80823.61,-4408.88]
+_camera camSetPos [6543.48,7113.66,1.39]
+_camera camSetFOV 0.430
+_camera camCommit 0
+@camCommitted _camera
+
+@not alive vojak8
+
+zmrd7 setbehaviour "careless"
+
+;vojak6
+
+;=== 9:43:33
+_camera camSetTarget [105191.06,-7353.10,-7592.33]
+_camera camSetPos [6547.20,7122.92,1.45]
+_camera camSetFOV 0.431
+_camera camCommit 0
+@camCommitted _camera
+vojak6 setmimic "angry"
+vojak6 say "mh50"
+
+~3
+
+;serzant
+
+herec setmimic "angry"
+serzant say "mh51"
+;=== 22:51:53
+_camera camSetTarget [-62358.88,79272.16,6908.37]
+_camera camSetPos [6549.13,7120.15,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+;hrac
+
+herec say "mh52"
+;=== 9:48:25
+_camera camSetTarget [106090.18,-2426.01,143.43]
+_camera camSetPos [6547.48,7126.58,1.29]
+_camera camSetFOV 0.430
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+;serzant
+
+serzant say "mh53"
+;=== 22:51:53
+_camera camSetTarget [-62358.88,79272.16,6908.37]
+_camera camSetPos [6549.13,7120.15,1.01]
+_camera camSetFOV 0.444
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+poplach=true
+
+~1
+
+;hlidac
+
+hrac setpos getmarkerpos "hrac"
+deletevehicle herec
+hlidac say "mh54"
+;=== 9:51:48
+_camera camSetTarget hlidac
+_camera camSetPos [6540.03,7116.77,1.42]
+_camera camSetFOV 0.139
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+ak2=true
+playsound "zasah"
+hlidac setdammage 1
+zmrd7 setdammage 1
+playmusic "rtrack4"
+
+~1
+
+serzant say "mh55"
+titleCut ["","BLACK OUT",1]
+
+~2
+
+disableuserinput false
+savegame
+vojak2_1 domove (getmarkerpos "utek1")
+vojak3_1 domove (getmarkerpos "utek2")
+vojak4 domove (getmarkerpos "utek2")
+vojak5 domove (getmarkerpos "utek1")
+vojak7 domove (getmarkerpos "utek1")
+vojak9 domove (getmarkerpos "utek2")
+vojak11 domove (getmarkerpos "utek1")
+vojak1_1 say "mh56"
+titleCut ["","BLACK IN",1]
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+vojak1_1 domove (getmarkerpos "cesta1")
+
+~3
+
+vojak2_1 setcaptive false
+vojak3_1 setcaptive false
+vojak4 setcaptive false
+vojak5 setcaptive false
+vojak6 setcaptive false
+vojak7 setcaptive false
+vojak8 setcaptive false
+vojak9 setcaptive false
+vojak10 setcaptive false
+vojak11 setcaptive false
+
+~2
+
+vojak1_1 domove (getmarkerpos "cesta2")
+
+~3
+
+hintc localize "STRMH_2"
+hrac setcaptive false
+
+exit

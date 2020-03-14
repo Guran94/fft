@@ -1,0 +1,4 @@
+pos say "h16"
+titletext ["Hej, stùj! To nesmíš!","plain down"]
+
+hrac addrating 1000

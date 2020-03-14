@@ -1,0 +1,41 @@
+version=11;
+class Mission
+{
+	randomSeed=5265411;
+	class Intel
+	{
+		briefingName="Držet pozici";
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"bis_resistance"
+	};
+	randomSeed=5421571;
+	class Intel
+	{
+		startWeather=0.324912;
+		startFog=0.919209;
+		forecastWeather=0.106053;
+		forecastFog=0.900450;
+		month=8;
+		day=4;
+		minute=50;
+	};
+};
+class OutroWin
+{
+	randomSeed=5673987;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=9066499;
+	class Intel
+	{
+	};
+};

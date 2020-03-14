@@ -1,0 +1,37 @@
+playMusic ["track5", 30]
+0 fademusic 0.2
+ep switchmove "fxtohand"
+ep setMimic "angry"
+titleCut ["","BLACK IN",3]
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 16:01:34
+_camera camSetTarget [66493.77,88624.65,408.23]
+_camera camSetPos [5441.53,9425.17,1.44]
+_camera camSetFOV 0.310
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ph01"
+titletext ["Vojáku, vùbec se mi nelíbí váš zpùsob boje.\nBuï budete na bitevním poli pøedvádìt výsledky, nebo si sbalte kufry, chlapeèku.\nZáleží jenom na vás.","plain down"]
+
+;=== 16:01:49
+_camera camSetTarget [89730.88,63176.12,-2323.84]
+_camera camSetPos [5440.87,9425.81,1.44]
+_camera camSetFOV 0.205
+_camera camCommit 8
+@camCommitted _camera
+
+4 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+titletext ["","plain down"]
+
+~1
+
+konec=true

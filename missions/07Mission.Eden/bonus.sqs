@@ -1,0 +1,10 @@
+leader player say "bonus"
+pryc=false
+
+~3
+
+hrac addrating 2000
+hint localize "STRCH"
+savegame
+
+exit

@@ -1,0 +1,53 @@
+ep switchmove "effectstand"
+playMusic ["track6", 40]
+0 fademusic 0.2
+ep setMimic "angry"
+off1 setMimic "angry"
+off2 setMimic "angry"
+titleCut ["","BLACK IN",3]
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 12:20:15
+_camera camSetTarget [59863.36,-80257.16,-7141.91]
+_camera camSetPos [7546.92,4656.11,1.60]
+_camera camSetFOV 0.542
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+ep say "ph01"
+titletext ["Chcete si øíct o mojí sílu, vojáku? Neserte mi! Já už s vámi nehodlám mít dál trpìlivost, sbalte si kufry a jdìte do prdele!","plain down"]
+
+;=== 12:20:23
+_camera camSetTarget [100822.48,-30654.84,-7141.41]
+_camera camSetPos [7546.39,4655.78,1.58]
+_camera camSetFOV 0.890
+_camera camCommit 9
+@camCommitted _camera
+
+off1 setMimic "normal"
+
+off1 say "ph02"
+titletext ["Pane, dejte mu ještì jednu šanci...","plain down"]
+
+~3
+
+ep say "ph03"
+titletext ["Dobrá, ještì jednu.\nTo si dìlá prdel.","plain down"]
+
+~2
+
+4 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+titletext ["","plain down"]
+
+~1
+
+konec=true
