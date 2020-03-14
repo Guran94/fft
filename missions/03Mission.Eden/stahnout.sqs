@@ -1,0 +1,27 @@
+setacctime 1
+away=false
+posledni=true
+papa sideradio "r06"
+
+~3
+
+kulomet setdammage 1
+
+~10
+
+0 fademusic 0.2
+playmusic "song6"
+"ukol2" setmarkertype "end"
+car1 domove getmarkerpos "ukol2"
+car2 domove getmarkerpos "ukol2"
+zustat=false
+stahnout=true
+morton sideradio "r07"
+zustat=false
+stahnout=true
+dum=false
+well=true
+kulomet setdammage 1
+"1" objstatus "failed"
+"2" objstatus "active"
+papa sideradio "r08"

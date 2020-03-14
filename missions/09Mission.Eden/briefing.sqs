@@ -1,0 +1,9 @@
+setacctime 1
+
+hrac say "mh36"
+
+~1
+
+hint localize "STRMH_3"
+
+exit

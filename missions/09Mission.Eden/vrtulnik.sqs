@@ -1,0 +1,138 @@
+setacctime 1
+away2=false
+away3=false
+mi1 lock false
+
+sergei say "mh39"
+sergei setmimic "normal"
+
+[sergei, rus2, rus3, rus4, rus5, rus6, rus7, rus8, rus10, rus11] join hrac
+
+@hrac in mi1
+
+setacctime 1
+mi1 setfuel 1
+mi1 lock true
+
+mi1 sideradio "r03"
+mi1 sideradio "r04"
+papa sideradio "r05"
+
+~15
+
+enableradio false
+rus2 setmimic "smile"
+rus2 say "mh40"
+
+~5
+
+rus4 setmimic "smile"
+rus4 say "mh42"
+
+~5
+
+sergei setmimic "angry"
+sergei say "mh43"
+
+~5
+
+rus6 setmimic "smile"
+rus6 say "mh44"
+
+~5
+
+;smích
+
+sergei say "mh45"
+
+~5
+
+hrac say "mh46"
+
+~5
+
+rus7 setmimic "smile"
+rus7 say "mh47"
+
+~5
+
+sergei setmimic "smile"
+sergei say "mh48"
+
+~5
+
+rus7 say "mh49"
+
+~5
+
+rus1 setmimic "smile"
+rus1 say "mh20"
+
+~5
+
+rus2 setmimic "smile"
+rus2 say "mh21"
+
+~5
+
+sergei say "mh22"
+
+~5
+
+hrac say "mh23"
+
+~5
+
+rus4 say "mh24"
+
+~5
+
+rus5 setmimic "smile"
+rus5 say "mh25"
+
+~5
+
+sergei say "mh26"
+
+~5
+
+hrac say "mh27"
+
+~5
+
+sergei setmimic "normal"
+sergei say "mh28"
+
+~5
+
+rus4 say "mh29"
+
+~5
+
+rus5 say "mh30"
+
+~5
+
+sergei say "mh31"
+
+~5
+
+rus4 setmimic "normal"
+rus4 say "mh32"
+
+~5
+
+rus5 say "mh33"
+
+~5
+
+rus1 setmimic "normal"
+rus2 setmimic "normal"
+rus3 setmimic "normal"
+rus4 setmimic "normal"
+rus5 setmimic "normal"
+rus6 setmimic "normal"
+rus7 setmimic "normal"
+hrac say "mh34"
+
+exit

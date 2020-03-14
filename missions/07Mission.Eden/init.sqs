@@ -1,0 +1,74 @@
+setacctime 1
+playmusic "track3"
+0 fademusic 0.2
+0 fadesound 0.5
+titleCut ["","BLACK IN",3]
+car lock true
+"2" objstatus "hidden"
+ClearWeaponCargo car
+ClearMagazineCargo car
+ClearWeaponCargo chinook
+ClearMagazineCargo chinook
+chinook2 action ["engine on"]
+chinook2 flyinheight 0
+chinook setfuel 0
+papa=[West, "HQ"]
+away1=false
+away2=false
+away3=false
+away4=false
+outro=false
+
+~10
+
+setacctime 1
+gran setmimic "smile"
+gran say "mh01"
+
+~4
+
+hrac say "mh02"
+
+~6
+
+voj setmimic "smile"
+voj say "mh03"
+
+~6
+
+serza setmimic "normal"
+hrac say "mh04"
+
+~4
+
+serza say "mh05"
+
+~16
+
+gran setmimic "surprised"
+gran say "mh06"
+
+~8
+
+serza say "mh07"
+
+~16
+
+
+voj2 say "mh08"
+
+~4
+
+serza say "mh09"
+
+~5
+
+voj2 say "mh10"
+
+~5
+
+voj setmimic "normal"
+gran setmimic "normal"
+5 fadesound 1
+
+exit

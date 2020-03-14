@@ -1,0 +1,24 @@
+@odvolani
+
+~80
+
+lipany sideradio "r04"
+lipany sidechat "TÁTO MEDVÌDE, TADY ZÁKLADNA LIPANY. HLÁSÍME OBROVSKÝ POÈET NEPØÁTELSKÝCH VOJÁKU ZDE NA JIHU. JSME POD TÌŽKOU PALBOU, SVÍRÁME NAŠÍ OBRANU, PØPEÍNÁM."
+
+~10
+
+papa sideradio "r05"
+papa sidechat "ROZUMÍM, ZÁKLADNO. POŠLEME VÁM VÍCE JEDNOTEK, VYDRŽTE, KONEC."
+
+~7
+
+konec=true
+spinac2 setpos getmarkerpos "pryc"
+"konec" setmarkertype "end"
+konec setpos getmarkerpos "end"
+"2" objstatus "failed"
+"3" objstatus "active"
+prepinac=true
+hrac addrating 1000
+papa sideradio "r06"
+papa sidechat "VŠEM SEVERNÍM JEDNOTKÁM. OKAMŽITÌ SE STÁHNÌTE, RUSOVÉ JSOU BLÍZKO LIPAN. HLAVNÍ MÌSTO NEMÙŽEME ZTRATIT, PROTO SE OKAMŽITÌ STÁHNÌTE A PØESKUPTE SE DÁL OD SEVERU, KONEC."

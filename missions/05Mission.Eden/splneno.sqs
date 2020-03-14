@@ -1,0 +1,30 @@
+"3" objstatus "done"
+setacctime 0.5
+hrac addrating 1000
+hrac setcaptive true
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 13:46:49
+_camera camSetTarget [-22978.52,83695.41,-52016.88]
+_camera camSetPos [5759.80,3308.45,60.43]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 13:47:44
+_camera camSetTarget [-89327.59,26185.95,-22903.43]
+_camera camSetPos [5401.15,3884.32,82.92]
+_camera camSetFOV 0.334
+_camera camCommit 10
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+konec1=true
+
+exit

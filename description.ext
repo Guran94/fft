@@ -1,0 +1,527 @@
+class CfgSounds
+{
+         sounds[] = { };
+         class Bombs
+                 {
+                           name = "FFT - bombs";
+                           sound[] = {"Bombs.ogg", db+0, 1.0};
+                           titles[] = {};
+                  };
+};
+
+class CfgRadio
+{
+	sounds[] = { };
+
+	class AwayHrac1
+	{
+		name = "AwayHrac1";
+		sound[] = {"AwayHrac1.ogg", db+10, 1.0};
+		title = $STRF_AwayHrac1;
+	};
+	class AwayHrac2
+	{
+		name = "AwayHrac2";
+		sound[] = {"AwayHrac2.ogg", db+10, 1.0};
+		title = $STRF_AwayHrac2;
+	};
+	class AwayHrac3
+	{
+		name = "AwayHrac3";
+		sound[] = {"AwayHrac3.ogg", db+10, 1.0};
+		title = $STRF_AwayHrac3;
+	};
+	class AwayHrac4
+	{
+		name = "AwayHrac4";
+		sound[] = {"AwayHrac4.ogg", db+10, 1.0};
+		title = $STRF_AwayHrac4;
+	};
+	class AwayHrac5
+	{
+		name = "AwayHrac5";
+		sound[] = {"AwayHrac5.ogg", db+10, 1.0};
+		title = $STRF_AwayHrac5;
+	};
+	class AwayHrac6
+	{
+		name = "AwayHrac6";
+		sound[] = {"AwayHrac6.ogg", db+10, 1.0};
+		title = $STRF_AwayHrac6;
+	};
+};
+
+class CfgMusic
+{
+	tracks[] ={};
+
+	class MainTheme
+	{
+		name = "FFT - Main Theme";
+		sound[] = {"\Music\MainTheme.ogg", db+0, 1.0};
+	};
+	class Song1
+	{
+		name = "FFT - Song 1";
+		sound[] = {"\Music\Song1.ogg", db+0, 1.0};
+	};
+	class Song2
+	{
+		name = "FFT - Song 2";
+		sound[] = {"\Music\Song2.ogg", db+0, 1.0};
+	};
+	class Song3
+	{
+		name = "FFT - Song 3";
+		sound[] = {"\Music\Song3.ogg", db+0, 1.0};
+	};
+	class Song4
+	{
+		name = "FFT - Song 4";
+		sound[] = {"\Music\Song4.ogg", db+0, 1.0};
+	};
+	class Song5
+	{
+		name = "FFT - Song 5";
+		sound[] = {"\Music\Song5.ogg", db+0, 1.0};
+	};
+	class Song6
+	{
+		name = "FFT - Song 6";
+		sound[] = {"\Music\Song6.ogg", db+0, 1.0};
+	};
+};
+
+class CfgIdentities
+{
+  class Hrac1
+  {
+    name = "Jason Smith";
+    face = "Face9";
+    glasses = "Not";
+    speaker = "Jonah";
+    pitch = 1.05;
+  };
+  class Hrac2
+  {
+    name = "George Dyaconsen";
+    face = "Face3";
+    glasses = "Not";
+    speaker = "Ted";
+    pitch = 0.96;
+  };
+  class Hrac3
+  {
+    name = "Paul Hatton";
+    face = "Face8";
+    glasses = "Spectacles";
+    speaker = "Rob";
+    pitch = 1.08;
+  };
+  class Hrac4
+  {
+    name = "Ed Wallsh";
+    face = "Face23";
+    glasses = "Not";
+    speaker = "Peter";
+    pitch = 0.97;
+  };
+  class Epgayd
+  {
+    name = "James Epgayd";
+    face = "Face2";
+    glasses = "Not";
+    speaker = "George";
+    pitch = 0.98;
+  };
+  class Vavricka
+  {
+    name = "Marcel Vavrièka";
+    face = "Face5";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class USAGeneral
+  {
+    name = "Generál Curtis Meller";
+    face = "Face15";
+    glasses = "Spectacles";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class Marcot
+  {
+    name = "Phil Marcot";
+    face = "Face13";
+    glasses = "Spectacles";
+    speaker = "John";
+    pitch = 1.05;
+  };
+  class Muday
+  {
+    name = "Derek Muday";
+    face = "Face40";
+    glasses = "Not";
+    speaker = "Greg";
+    pitch = 0.97;
+  };
+  class Jack
+  {
+    name = "Jack Gill";
+    face = "Face33";
+    glasses = "Not";
+    speaker = "John";
+    pitch = 1.02;
+  };
+  class Mike
+  {
+    name = "Mike Sullivan";
+    face = "Face46";
+    glasses = "Spectacles";
+    speaker = "John";
+    pitch = 1.00;
+  };
+  class Livanoch
+  {
+    name = "Generál Alexander Livanoch";
+    face = "Face10";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class Lemontov
+  {
+    name = "Gregori Lemontov";
+    face = "Face27";
+    glasses = "None";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class Blonski
+  {
+    name = "Nikolai Blonski";
+    face = "Face35";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class Rashiv
+  {
+    name = "Vadim Rashiv";
+    face = "Face52";
+    glasses = "Spectacles";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class Sarah
+  {
+    name = "Sarah";
+    face = "Marketa";
+    glasses = "None";
+    speaker = "Marc";
+    pitch = 1.00;
+  };
+  class Journalist
+  {
+    name = "John Simpson";
+    face = "Face47";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+};
+
+class Penalties
+{
+	class XXPunish1
+	{
+		limit = -1;
+		eden = XXPunish1.eden;
+		noe = XXPunish1.noe;
+	};
+	class XXPunish2
+	{
+		limit = -7;
+		eden = XXPunish2.eden;
+		noe = XXPunish2.noe;
+	};
+	class XXPunish3
+	{
+		limit = -20;
+		eden = XXPunish3.eden;
+		noe = XXPunish3.noe;
+	};
+	class PenaltyGameOver
+	{
+		// total end of campaign - see exitScore
+		limit = -17;
+		eden = XXGameOver.eden;
+		noe = XXGameOver.noe;
+	};
+};
+
+exitScore = -17;
+
+ class MissionDefault
+{
+ lives = 1;
+ lost = ;
+ end1 = ;
+ end2 = ;
+ end3 = ;
+ end4 = ;
+ end5 = ;
+ end6 = ;
+}; 
+
+
+class Awards
+{
+	class XXReward1
+	{
+		limit = 6;
+		eden = XXReward1.eden;
+		noe = XXReward1.noe;
+	};
+	class XXReward2
+	{
+		limit = 40;
+		eden = XXReward2.eden;
+		noe = XXReward2.noe;
+	};
+	class XXReward3
+	{
+		limit = 80;
+		eden = XXReward3.eden;
+		noe = XXReward3.noe;
+	};
+};
+
+class Campaign
+{
+  name = "Fight for territory";
+  firstBattle = Chapter1;
+
+  class Chapter1
+  {
+  name = "Unrest";
+
+  cutscene = ;
+
+  firstMission = XChapter1;
+  lost = Chapter2;
+  end1 = Chapter2;
+  end2 = Chapter2;
+  end3 = Chapter2;
+  end4 = Chapter2;
+  end5 = Chapter2;
+  end6 = Chapter2;
+
+  class XChapter1: MissionDefault
+  {
+    noAward=true;
+    end1 = 01Mission;
+    end2 = 01Mission;
+    end3 = 01Mission;
+    end4 = 01Mission;
+    end5 = 01Mission;
+    end6 = 01Mission;
+    lost = 01Mission;
+    template = XChapter1.Eden;
+  };
+  class 01Mission: MissionDefault
+  {
+    end1 = 02aMission;
+    end2 = 02aMission;
+    end3 = 01Mission;
+    end4 = 01Mission;
+    end5 = 01Mission;
+    end6 = 01Mission;
+    lost = 01Mission;
+    template = 01Mission.Eden;
+  };
+  class 02aMission: MissionDefault
+  {
+    end1 = 03Mission;
+    end2 = 02aMission;
+    end3 = 02aMission;
+    end4 = 02aMission;
+    end5 = 02aMission;
+    end6 = 02aMission;
+    lost = 02aMission;
+    template = 02aMission.Eden;
+  };
+  class 03Mission: MissionDefault
+  {
+    end1 = 04Mission;
+    end2 = 03Mission;
+    end3 = 03Mission;
+    end4 = 03Mission;
+    end5 = 03Mission;
+    end6 = 03Mission;
+    lost = 03Mission;
+    template = 03Mission.Eden;
+  };
+  class 04Mission: MissionDefault
+  {
+    end1 = 05Mission;
+    end2 = 05Mission;
+    end3 = 04Mission;
+    end4 = 04Mission;
+    end5 = 04Mission;
+    end6 = 04Mission;
+    lost = 04Mission;
+    template = 04Mission.Eden;
+  };
+  class 05Mission: MissionDefault
+  {
+    end1 = ;
+    end2 = 05Mission;
+    end3 = 05Mission;
+    end4 = 05Mission;
+    end5 = 05Mission;
+    end6 = 05Mission;
+    lost = 05Mission;
+    template = 05Mission.Eden;
+  };
+};
+
+  class Chapter2
+  {
+  name = "New battle of Everon";
+
+  cutscene = ;
+
+  firstMission = XChapter2;
+  lost = Chapter3;
+  end1 = Chapter3;
+  end2 = Chapter3;
+  end3 = Chapter3;
+  end4 = Chapter3;
+  end5 = Chapter3;
+  end6 = Chapter3;
+
+  class XChapter2: MissionDefault
+  {
+    noAward=true;
+    end1 = 06Mission;
+    end2 = 06Mission;
+    end3 = 06Mission;
+    end4 = 06Mission;
+    end5 = 06Mission;
+    end6 = 06Mission;
+    lost = 06Mission;
+    template = XChapter2.Eden;
+    };
+  class 06Mission: MissionDefault
+  {
+    end1 = 07Mission;
+    end2 = 06Mission;
+    end3 = 06Mission;
+    end4 = 06Mission;
+    end5 = 06Mission;
+    end6 = 06Mission;
+    lost = 06Mission;
+    template = 06Mission.Eden;
+  };
+  class 07Mission: MissionDefault
+  {
+    end1 = 08Mission;
+    end2 = 07Mission;
+    end3 = 07Mission;
+    end4 = 07Mission;
+    end5 = 07Mission;
+    end6 = 07Mission;
+    lost = 07Mission;
+    template = 07Mission.Eden;
+  };
+  class 08Mission: MissionDefault
+  {
+    end1 = 08z_pekla_na_svobodu;
+    end2 = 08Mission;
+    end3 = 08Mission;
+    end4 = 08Mission;
+    end5 = 08Mission;
+    end6 = 08Mission;
+    lost = 08Mission;
+    template = 08Mission.Eden;
+  };
+  class 08z_pekla_na_svobodu: MissionDefault
+  {
+    end1 = Kapitola03;
+    end2 = 08z_pekla_na_svobodu;
+    end3 = 08z_pekla_na_svobodu;
+    end4 = 08z_pekla_na_svobodu;
+    end5 = 08z_pekla_na_svobodu;
+    end6 = 08z_pekla_na_svobodu;
+    lost = 08z_pekla_na_svobodu;
+    template = 08z_pekla_na_svobodu.Eden;
+  };
+  class Kapitola03: MissionDefault
+  {
+    end1 = 09sever_napaden;
+    end2 = 09sever_napaden;
+    end3 = 09sever_napaden;
+    end4 = 09sever_napaden;
+    end5 = 09sever_napaden;
+    end6 = 09sever_napaden;
+    lost = 09sever_napaden;
+    template = Kapitola03.eden;
+  };
+  class 09sever_napaden: MissionDefault
+  {
+    end1 = 10lipany_nesmi_padnout;
+    end2 = 09sever_napaden;
+    end3 = 09sever_napaden;
+    end4 = 09sever_napaden;
+    end5 = 09sever_napaden;
+    end6 = 09sever_napaden;
+    lost = 09sever_napaden;
+    template = 09sever_napaden.noe;
+  };
+  class 10lipany_nesmi_padnout: MissionDefault
+  {
+    end1 = 11cil_dokumenty;
+    end2 = 10lipany_nesmi_padnout;
+    end3 = 10lipany_nesmi_padnout;
+    end4 = 10lipany_nesmi_padnout;
+    end5 = 10lipany_nesmi_padnout;
+    end6 = 10lipany_nesmi_padnout;
+    lost = 10lipany_nesmi_padnout;
+    template = 10lipany_nesmi_padnout.noe;
+  };
+  class 11cil_dokumenty: MissionDefault
+  {
+    end1 = 12drzet_pozici.Noe;
+    end2 = 11cil_dokumenty;
+    end3 = 11cil_dokumenty;
+    end4 = 11cil_dokumenty;
+    end5 = 11cil_dokumenty;
+    end6 = 11cil_dokumenty;
+    lost = 11cil_dokumenty;
+    template = 11cil_dokumenty.noe;
+  };
+  class 12drzet_pozici: MissionDefault
+  {
+    end1 = 13v_oblacich.noe;
+    end2 = 12drzet_pozici;
+    end3 = 12drzet_pozici;
+    end4 = 12drzet_pozici;
+    end5 = 12drzet_pozici;
+    end6 = 12drzet_pozici;
+    lost = 12drzet_pozici;
+    template = 12drzet_pozici.Noe;
+  };
+  class 13v_oblacich: MissionDefault
+  {
+    end1 = ;
+    end2 = 13v_oblacich.noe;
+    end3 = 13v_oblacich.noe;
+    end4 = 13v_oblacich.noe;
+    end5 = 13v_oblacich.noe;
+    end6 = 13v_oblacich.noe;
+    lost = 13v_oblacich.noe;
+    template = 13v_oblacich.noe;
+  };
+};

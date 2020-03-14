@@ -1,0 +1,93 @@
+titleCut ["","BLACK IN",3]
+zustat=false
+playmusic "Song2"
+0 fadesound 0.3
+clearmagazinecargo m113
+clearweaponcargo m113
+clearmagazinecargo m2
+clearweaponcargo m2
+clearmagazinecargo cisterna
+clearweaponcargo cisterna
+clearmagazinecargo auto
+clearweaponcargo auto
+ClearWeaponCargo ammo1
+ClearMagazineCargo ammo1
+ClearWeaponCargo ammo2
+ClearMagazineCargo ammo2
+ClearWeaponCargo ammo3
+ClearMagazineCargo ammo3
+ammo1 AddWeaponCargo ["LawLauncher",1]
+ammo1 AddMagazineCargo ["LawLauncher",4]
+ammo2 AddWeaponCargo ["M60e3",1]
+ammo2 AddMagazineCargo ["M60e3Mag",6]
+ammo3 AddWeaponCargo ["LawLauncher",1]
+ammo3 AddMagazineCargo ["LawLauncher",1]
+ammo3 AddWeaponCargo ["M16GrenadeLauncher",1]
+ammo3 AddMagazineCargo ["GrenadeLauncher",3]
+m113 lock true
+"2" objstatus "hidden"
+civil disableai "autotarget"
+ulozit=true
+bonus=false
+nechat=true
+dum=true
+away=true
+papa=[West, "HQ"]
+
+~20
+
+morton sideradio "r01"
+m113 sideradio "r02"
+
+~11
+
+setacctime 1
+serza say "mh01"
+
+~3
+
+voj1 say "mh02_1"
+voj2 say "mh02_2"
+voj3 say "mh02_1"
+voj4 say "mh02_2"
+voj5 say "mh02_1"
+voj6 say "mh02_2"
+hrac say "mh02_1"
+
+~1
+
+serza say "mh03"
+
+~1
+
+voj1 say "mh02_1"
+voj2 say "mh02_2"
+voj3 say "mh02_1"
+voj4 say "mh02_2"
+voj5 say "mh02_1"
+voj6 say "mh02_2"
+hrac say "mh02_1"
+
+~1
+
+serza say "mh04"
+
+~1
+
+voj1 say "mh02_1"
+voj2 say "mh02_2"
+voj3 say "mh02_1"
+voj4 say "mh02_2"
+voj5 say "mh02_1"
+voj6 say "mh02_2"
+hrac say "mh02_1"
+
+~1
+
+serza say "mh05"
+
+~15
+
+5 fadesound 1
+
+exit

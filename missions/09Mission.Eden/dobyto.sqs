@@ -1,0 +1,57 @@
+setacctime 1
+"2" objstatus "done"
+hrac sideradio "r18"
+papa sideradio "r19"
+vzdat=true
+hrac addrating 500
+away5=false
+away6=false
+nomontignac=false
+spravne=true
+2 SetRadioMsg "STRMT_4"
+[rus2, rus3, rus4, rus5, rus6, rus7, rus8, rus10, rus11] join grpnull
+
+reb1 playmove "fxstandsur"
+reb2 playmove "fxstandsur"
+reb3 playmove "fxstandsur"
+reb4 playmove "fxstandsur"
+reb5 playmove "fxstandsur"
+reb6 playmove "fxstandsur"
+reb7 playmove "fxstandsur"
+reb8 playmove "fxstandsur"
+reb9 playmove "fxstandsur"
+reb10 playmove "fxstandsur"
+reb11 playmove "fxstandsur"
+reb12 playmove "fxstandsur"
+reb13 playmove "fxstandsur"
+reb14 playmove "fxstandsur"
+reb15 playmove "fxstandsur"
+reb16 playmove "fxstandsur"
+reb17 playmove "fxstandsur"
+reb18 playmove "fxstandsur"
+reb19 playmove "fxstandsur"
+reb20 playmove "fxstandsur"
+reb21 playmove "fxstandsur"
+reb22 playmove "fxstandsur"
+reb23 playmove "fxstandsur"
+reb24 playmove "fxstandsur"
+reb25 playmove "fxstandsur"
+reb26 playmove "fxstandsur"
+reb27 playmove "fxstandsur"
+reb28 playmove "fxstandsur"
+reb29 playmove "fxstandsur"
+reb30 playmove "fxstandsur"
+reb31 playmove "fxstandsur"
+reb32 playmove "fxstandsur"
+reb33 playmove "fxstandsur"
+reb34 playmove "fxstandsur"
+reb35 playmove "fxstandsur"
+reb36 playmove "fxstandsur"
+reb37 playmove "fxstandsur"
+reb38 playmove "fxstandsur"
+reb39 playmove "fxstandsur"
+reb40 playmove "fxstandsur"
+reb41 playmove "fxstandsur"
+reb42 playmove "fxstandsur"
+
+exit

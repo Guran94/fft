@@ -1,0 +1,8 @@
+leader player sideradio "r09"
+hrac addrating 1000
+
+~15
+
+konec1=true
+
+exit

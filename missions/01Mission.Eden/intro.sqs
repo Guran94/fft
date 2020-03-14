@@ -1,0 +1,162 @@
+titleCut ["","BLACK IN",3]
+playmusic "Track2"
+setacctime 1
+voj1 switchmove "effectstandtalk"
+gran switchmove "fxtohand"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;zakladna
+
+;=== 8:21:36
+_camera camSetTarget [-72314.05,63957.57,-19795.04]
+_camera camSetPos [7264.67,6736.97,1.36]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 8:22:08
+_camera camSetTarget [-21747.81,98535.07,-27004.43]
+_camera camSetPos [7264.67,6736.97,11.23]
+_camera camSetFOV 0.700
+_camera camCommit 8
+@camCommitted _camera
+
+~2
+
+;vlajka a stan
+
+;=== 21:58:09
+_camera camSetTarget [1626.42,-91466.23,-17709.31]
+_camera camSetPos [7252.32,6778.31,6.66]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;=== 21:58:31
+_camera camSetTarget [-61458.87,-48512.13,-47097.59]
+_camera camSetPos [7253.00,6778.94,7.36]
+_camera camSetFOV 0.402
+_camera camCommit 6
+@camCommitted _camera
+
+~1
+
+2 fademusic 0.1
+titleCut ["","BLACK OUT",1]
+
+~1
+
+titleCut ["","BLACK IN",1]
+
+;ve stanu
+
+playsound "telefon1"
+jason setmimic "normal"
+marcot setmimic "normal"
+;=== 8:28:47
+_camera camSetTarget [8721.05,-92786.63,-9223.78]
+_camera camSetPos [7244.64,6773.34,1.42]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+[] exec "vola.sqs"
+jason addweapon "phone"
+
+~0.5
+
+playsound "telefon2"
+
+~0.5
+
+jason say "ih09"
+
+~7
+
+jason say "ih01"
+
+~6
+
+jason setmimic "surprised"
+
+~6
+
+jason setmimic "smile"
+jason say "ih02"
+
+~7
+
+jason addweapon "phone"
+jason switchmove "fxstanddroptel"
+
+~3
+
+playsound "telefon3"
+tel2 setpos getmarkerpos "tele"
+tel3 setpos getmarkerpos "tel"
+tel3 setPos [getPos tel3 select 0,getPos tel3 select 1,(getPos tel3 select 2)+1]
+jason switchMove "FXStandFromTable"
+jason setmimic "smile"
+marcot dowatch jason
+jason say "ih03"
+
+~4
+
+marcot say "ih04"
+
+~1
+
+jason dowatch marcot
+jason say "ih05"
+
+~3
+
+marcot setmimic "surprised"
+marcot say "ih06"
+;=== 17:50:54
+_camera camSetTarget [-61198.91,-66048.81,-3490.65]
+_camera camSetPos [7245.56,6773.08,1.58]
+_camera camSetFOV 0.457
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+jason say "ih07"
+;=== 17:51:43
+_camera camSetTarget jason
+_camera camSetPos [7244.03,6773.95,1.41]
+_camera camSetFOV 0.313
+_camera camCommit 0
+@camCommitted _camera
+
+~8
+
+marcot setmimic "smile"
+;=== 8:28:47
+_camera camSetTarget [8721.05,-92786.63,-9223.78]
+_camera camSetPos [7244.64,6773.34,1.42]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+marcot say "ih08"
+
+~1
+
+jdi=true
+
+3 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+konec=true
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+exit

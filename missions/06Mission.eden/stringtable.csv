@@ -1,0 +1,42 @@
+LANGUAGE,"Czech","Comment"
+
+STR_ONLOAD_MISSION,"V ˙dolÌ","loading screen"
+
+STRM_mh01,"Tak dÏlejte, makam, sr·Ëi, hoÔte prdelÌ, aù to lÌt·!","Pochc·nek"
+STRM_mh02,"A kurva. Pane, nemohli bysme zastavit?","Pochc·nek"
+STRM_mh03,"ÿÌkal jsem kaûd˝mu, aù si p¯ed odjezdem skoËÌ na hajzl, pokud jsi to nestihl, tak mÏ to nezajÌm·. Jedeme d·l.","Velitel"
+STRM_mh04,"Ale pane, j· se pochËiju!","Pochc·nek"
+STRM_mh05,"Hahaha, jo, tady m· nÏkdo strach!","Voj·k"
+STRM_mh06,"A kdo ne, ty vole.","Jason"
+STRM_mh07,"Hele, Twombly, ty radöi drû hubu. Ty a tv· zkurven· rusk· matka jste jenom bolöevick· sebranka.","Voj·k"
+STRM_mh08,"Vyliû mi prdel!","Jason"
+STRM_mh09,"Hele, hele, hele, p·novÈ, co kdybyste radÏji sklapli? Neû mÏ naserete a propl·chnu v·m hubu bouchaËkou!","serûa"
+
+
+STRM_r01,"OK, TO JSME VYäICHNI. OBRNÃNCI, JEœTE PRVNÕ, JSME HNED ZA V¡MA.","Alfa"
+STRM_r02,"ALFA PRO T¡TU MEDVÃDA. OPÃT JSME NARAZILY NA PARTYZ¡NY A HLADCE JSME JE VYÿÕDILI. ZAHAJUJEM ⁄TOK, PÿEPÕN¡M.","Alfa"
+STRM_r03,"T¡TA MEDVÃD VäEM ⁄TO»N›M JEDNOTK¡M. M¡TE ZELENOU. OPERACE REDPOINT MŸéE ZA»ÕT. NEZAPOME“TE, éE ZA ⁄SPÃCHEM STOJÕ N¡ä OSUD. HODNÃ äTÃSTÕ, HOäI. T¡TA MEDVÃD, KONEC.","MedvÏd"
+STRM_r04,"DO PRDELE! ZKURVEN› MINOV› POLE PROTI TANKŸM! CHLAPI, NEZLOBTE SE, ALE D¡L JET NEMŸéEM, MUSÕTE TO ZVL¡DNOUT SAMI, KONEC.","M113"
+STRM_r05,"T¡TO MEDVÃDE, TADY YANKEE. DOSTALI JSME NAKL¡DA»KU, NA LAMENTIN NESTA»ÕME. OMLOUV¡ME SE, ALE NEM¡ME NA TO. VELIM K ⁄STUPU, KONEC.","Yankee"
+STRM_r06,"MEDVÃDE, TADY LARUNS. VYPAD¡ TO, éE RUS¡CI ZAHAJUJÕ OFENZIVU! JEJICH N¡MOÿNÕ ARTIL…RIE N¡M TADY D¡V¡ PÃKNÃ ZABRAT! POTÿEBUJEME OKAMéITOU PODPORU, PÿEPÕN¡M!","Levie"
+STRM_r07,"Z¡KLADNO, JE N¡M LÕTO, ALE NIC POSLAT NEMŸéEM. Ué NEM¡ME CO. ZKUSTE TO TAM NÃJAK UDRéET. KONEC.","MedvÏd"
+STRM_r08,"T¡TA MEDVÃD VäEM AMERICK›CM JEDOTK¡M. BYLA VYHL¡äENA EVAKUACE. RUSK… JEDNOTKY OBSADILI CHOTAIN A LARUNS. S NEPÿÕTELEM V Z¡DECH NEM¡ OPERACE REDPOINT SMYSL, JE N¡M LÕTO HOäI, ALE SMŸLA NA EVERONU SE N¡S NEPÿESTALA DRéET. ODVOL¡V¡M OPERACI REDPOINT, VäICHNI SE OKAMéITÃ ST¡HNÃTE ZP¡TKY DO MONTIGNACU. PROHR¡LI JSME, VOJ¡CI. T¡TA MEDVÃD, KONEC.","MedvÏd"
+
+STRMM_01,"Start","marker"
+STRMM_02,"Bravo","marker"
+STRMM_03,"Charlie","marker"
+STRMM_04,"Delta","marker"
+STRMM_05,"Echo","marker"
+STRMM_06,"Yankee","marker"
+STRMM_07,"Foxtrot","marker"
+STRMM_08,"Golf","marker"
+STRMM_09,"Hotel","marker"
+STRMM_10,"Nom·d 1","marker"
+STRMM_11,"Nom·d 2","marker"
+STRMM_12,"Nom·d 3","marker"
+STRMM_13,"Nep¯·telskÈ opevnÏnÌ","marker"
+STRMM_14,"⁄zemÌ okupovanÈ Rusy","marker"
+
+
+STRMW_01,"LE MOULE","waypoint"
+STRMW_02,"PRY»!","waypoint"

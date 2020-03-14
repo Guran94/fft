@@ -1,0 +1,149 @@
+version=11;
+class Mission
+{
+	randomSeed=14904835;
+	class Intel
+	{
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"bis_resistance"
+	};
+	addOnsAuto[]=
+	{
+		"bis_resistance"
+	};
+	randomSeed=3469315;
+	class Intel
+	{
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2411.918945,129.834412,9765.794922};
+					azimut=225.000000;
+					id=1;
+					side="WEST";
+					vehicle="OfficerW";
+					leader=1;
+					skill=0.600000;
+					text="ep";
+					init="removeallweapons this; this setidentity ""epgayd""; this disableai ""autotarget""";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2411.719727,129.819870,9765.606445};
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1751.126343,42.063747,9599.715820};
+					id=3;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""intro.sqs""";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=4;
+		class Item0
+		{
+			position[]={2412.200684,129.864120,9766.249023};
+			azimut=75.000000;
+			id=0;
+			side="EMPTY";
+			vehicle="ChairX";
+			skill=0.600000;
+		};
+		class Item1
+		{
+			position[]={2411.470215,129.762909,9764.572266};
+			azimut=280.000000;
+			id=2;
+			side="EMPTY";
+			vehicle="TableMapRes";
+			skill=0.600000;
+		};
+		class Item2
+		{
+			position[]={2412.266846,129.800293,9764.899414};
+			azimut=90.000000;
+			id=4;
+			side="EMPTY";
+			vehicle="CampEmpty";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item3
+		{
+			position[]={1806.114014,48.505276,9669.962891};
+			id=5;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			leader=1;
+			skill=0.600000;
+			init="this setflagtexture ""usa_vlajka.pac""";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={1682.989868,44.341236,9633.496094};
+			type="END1";
+			age="UNKNOWN";
+			expCond="konec";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=16099331;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=16696835;
+	class Intel
+	{
+	};
+};

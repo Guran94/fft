@@ -1,0 +1,33 @@
+LANGUAGE,"Czech","Comment"
+
+STR_ONLOAD_MISSION,"Na cestì do Mortonu","loading screen"
+
+STRMT,"Nechte ho jít","Text"
+STRMH,"V nabídce èinností se Vám objevila nová èinnost.\nPokud tuto èinnost odmítáte, mue jednoduše zastøelte.","Hint"
+
+STRM_mh01,"Tak, chlapi. Jste mariòáci?","Serant"
+STRM_mh02,"Ano, pane!","Všichni - celkem 3x"
+STRM_mh03,"Jste hrdí Amerièané?","Serant"
+STRM_mh04,"Chcete bojovat?","Serant"
+STRM_mh05,"Vıbornì, takhle se mi líbíte, vojáci. Teï poslouchejte, øeknu vám jen toto.\nMorton si nevyádal podporu jen tak, take neèekejte ádnou komedii a nepodceòujte nepøítele.\nJestli chcete pøeít válku, tak bojujte. Teèka.","Serant"
+STRM_mh06,"Chcípni ty zkurvenèe.","Jason"
+STRM_bonus1,"Ani hnout!","Jason"
+STRM_bonus2,"Tak jo, Amerièane. Dostal jste mì. Ale, ale prosím, ušetøete mì.\nJá, já nikomu nechci ublíit.","Civil"
+STRM_bonus3,"Nedotıkej se té zbranì a zmiz mi z oèí.","Jason"
+STRM_bonus4,"Dìkuju vám, Amerièane. Jste dobrı èlovìk. Nikdy vám to nezapomenu.\nDìkuju.","Civil"
+
+STRM_r01,"KONVOJI, TADY MORTON, MÁME TU TÌKÉ ZTRÁTY, KDE SAKRA VÌZÍTE, PØEPÍNÁM.","Morton"
+STRM_r02,"VYDRTE, ZÁKLADNO, JSME OD VÁS NECELEJCH 800 METRÙ, KONEC.","Konvoj"
+STRM_r03,"TAK JSME TADY ZÁKLADNO, DLE VAŠEHO PØÁNÍ.","Konvoj"
+STRM_r04,"VİBORNÌ. U BYLO NA ÈASE. ZAUJMÌTE POZICE VE VİCHODNÍ A SEVERNÍ ÈÁSTI MÌSTA. TEN JEJICH POSLEDNÍ ÚTOK BYL DOST TVRDİ.","Morton"
+STRM_r05,"OK, TEÏ SE ROZDÌLÍME.","Serant"
+STRM_r06,"TÁTA MEDVÌD PRO MORTON, STÁHNÌTE SE. NEVÍME, JAK JE TO MONÉ, ALE PØIJÍDÍ K VÁM NÌKOLIK TANKÙ. MUSELI JSME NÌCO PØEHLÉDNOUT. PROTI OBRNÌNCÙM NEMÁTE ÁDNOU ŠANCI, PROTO SE IHNED STÁHNÌTE DO FIGARI. TÁTA MEDVÌD, KONEC.","Medvìd"
+STRM_r07,"POÈKEJTE, TÁTO MEDVÌDE, MY BYSME TO TU UDRELI, ALE POŠLETE NÁM LETECKOU PODPORU, PØEPÍNÁM!","Morton"
+STRM_r08,"ZÁKLADNO, TO ALE NEMÙEME! MÁME TOHO MOC MÁLO NA TO, ABYSME VÁM VYHOVÌLI. V LAMENTINU A LE MOULE SE TO DOST SMAÍ, NEMÙEME VÁM NIC POSLAT, PROTO BEZ KECÙ OPUSTE MÌSTO A ZACHRAÒTE SI IVOT DØÍV, NE BUDE POZDÌ! KONEC.","Medvìd"
+STRM_r09,"V TÌCH BEDNÁCH JE MUNICE A PÁR ZBRANÍ, KDYKOLIV BUDETE POTØEBOVAT, VEZMÌTE SI JE.","Serant"
+
+
+STRMM_01,"Start","marker"
+STRMM_02,"Vaše pozice","marker"
+
+STRMW_01,"STÁHNOUT","waypoint"

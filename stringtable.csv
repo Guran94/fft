@@ -1,0 +1,20 @@
+LANGUAGE,"Czech","English","Comment"
+
+STRCC_1,"--- Kapitola I. ---","--- Chapter I. ---","Name of the mission"
+STRCC_2,"--- Kapitola II. ---","--- Chapter II. ---","Name of the mission"
+STRCC_3,"--- Kapitola III. ---","--- Chapter III. ---","Name of the mission"
+
+STRCN_01,"Jede se domù","Going home","Name of the mission"
+STRCN_02,"Ztracený kontakt","Lost contact","Name of the mission"
+STRCN_03,"Podpora Mortonu","Support Morton","Name of the mission"
+STRCN_04,"Hranièáøi","Rangers","Name of the mission"
+STRCN_05,"Diplomat","Diplomat","Name of the mission"
+STRCN_06,"Operace Redpoint","Operation Redpoint","Name of the mission"
+STRCN_07,"Opouštìní Everonu","Leaving Everon","Name of the mission"
+STRCN_08,"Na rozcestí","At the crossroad","Name of the mission"
+STRCN_09,"Z pekla na svobodu","From hell to freedom","Name of the mission"
+
+
+STRCSG,"ULOŽIT HRU","SAVE GAME","Text"
+
+STRCH,"Blahopøeji, objevil jste bonus!\nOdmìna: 2000 bodù!","Congratulations, you've discovered a bonus! Reward: 2000 points!","Text"

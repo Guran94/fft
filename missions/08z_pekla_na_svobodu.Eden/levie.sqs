@@ -1,0 +1,76 @@
+setacctime 1
+titleCut ["","BLACK OUT",3]
+
+~3
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+hrac addrating -20000
+5 fademusic 0
+uaz setpos getmarkerpos "car5"
+setacctime 1
+hrac setpos getmarkerpos "rashiv"
+
+~1
+
+titleCut ["","BLACK IN",3]
+uaz setpos getmarkerpos "car5"
+hrac setpos getmarkerpos "rashiv"
+hrac setdir 160
+hrac action ["weapononback"]
+
+;=== 8:10:54
+_camera camSetTarget [-68860.67,-59780.53,257.50]
+_camera camSetPos [7530.97,4752.62,1.48]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+hrac say "h27"
+titletext ["Zdravim. Nutnì se potøebuju dostat do Saint Pierre.","plain down"]
+
+;=== 8:11:01
+_camera camSetTarget [-9708.50,-93702.79,3171.78]
+_camera camSetPos [7530.97,4752.62,1.48]
+_camera camSetFOV 0.190
+_camera camCommit 5
+@camCommitted _camera
+
+rashiv say "h28"
+titletext ["Moment, já tì znám! Ty jsi ten maník, kterého jsem zajmul v Provins.","plain down"]
+
+~2
+
+rashiv switchmove "effectstandtalk"
+
+;=== 8:12:08
+_camera camSetTarget [-34836.88,95276.08,3171.90]
+_camera camSetPos [7531.18,4746.44,1.25]
+_camera camSetFOV 0.397
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+opatrne=true
+
+~1
+
+;=== 8:11:01
+_camera camSetTarget [-9708.50,-93702.79,3171.78]
+_camera camSetPos [7530.97,4752.62,1.48]
+_camera camSetFOV 0.190
+_camera camCommit 0
+@camCommitted _camera
+
+zabit=true
+
+@not alive hrac
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+rashiv setbehaviour "careless"
+zmrd1 setbehaviour "careless"
+zmrd2 setbehaviour "careless"

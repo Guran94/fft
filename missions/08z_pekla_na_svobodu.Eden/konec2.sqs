@@ -1,0 +1,13 @@
+hrac addrating 1000
+hrac say "konec"
+titletext ["A jsem doma.","plain down"]
+
+"1" objstatus "hidden"
+"2" objstatus "hidden"
+"3" objstatus "done"
+"4" objstatus "hidden"
+
+~5
+
+titletext ["","plain down"]
+konec2=true

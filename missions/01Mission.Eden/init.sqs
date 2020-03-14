@@ -1,0 +1,41 @@
+titleCut ["","BLACK IN",3]
+uh setfuel 0
+papa=[West, "HQ"]
+voj7 setmimic "normal"
+voj8 setmimic "normal"
+prezili=true
+away1=true
+away2=true
+away3=true
+away4=false
+jedem=false
+playmusic "Song1"
+0 fademusic 0.2
+voj1 switchmove "effectstandtalk"
+gran switchmove "fxtohand"
+setacctime 1
+tel1 setpos getmarkerpos "tel"
+tel1 setPos [getPos tel1 select 0,getPos tel1 select 1,(getPos tel1 select 2)+1]
+ClearWeaponCargo ammo
+ClearMagazineCargo ammo
+ammo AddWeaponCargo ["M16GrenadeLauncher",1]
+ammo AddMagazineCargo ["GrenadeLauncher",3]
+ClearWeaponCargo car
+ClearMagazineCargo car
+
+marcot say "mh01"
+
+~5
+
+hintc localize "STRMH_1"
+
+~1
+
+hrac say "mh02"
+
+@nastoupit
+
+marcot AssignAsCargo car
+[marcot] ordergetin true
+
+exit

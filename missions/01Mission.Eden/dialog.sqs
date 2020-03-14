@@ -1,0 +1,48 @@
+playmusic "Song1"
+0 fademusic 0.2
+0 fadesound 0.5
+car lock true
+nastoupit=false
+away1=false
+away2=false
+away3=false
+odpocet=false
+konec2=false
+away4=true
+jedem=true
+
+~1
+
+serza say "mh03"
+
+~11
+
+serza say "mh04"
+
+~8
+
+marcot say "mh05"
+
+~2
+
+serza say "mh06"
+
+~10
+
+voj2 say "mh07"
+
+~0.5
+
+hrac say "mh08"
+
+~0.5
+
+voj3 say "mh09"
+
+~2
+
+2 fadesound 1
+
+exit
+
+

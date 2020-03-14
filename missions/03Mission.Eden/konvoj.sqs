@@ -1,0 +1,16 @@
+[car1, car2] join grpnull
+
+~1
+
+[m2] commandmove getmarkerpos "presun15"
+car1 action ["eject"]
+car2 action ["eject"]
+UnassignVehicle car1
+UnassignVehicle car2
+
+~1
+
+car1 domove getmarkerpos "presun13"
+car2 domove getmarkerpos "presun14"
+
+exit

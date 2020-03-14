@@ -1,0 +1,56 @@
+playMusic ["track10", 10]
+0 fademusic 0.2
+ep setMimic "angry"
+ep disableai "autotarget"
+titleCut ["","BLACK IN",3]
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 15:28:59
+_camera camSetTarget [97335.05,43087.19,123.99]
+_camera camSetPos [4135.15,6841.10,1.02]
+_camera camSetFOV 0.474
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 15:28:59
+_camera camSetTarget car
+_camera camSetPos [4135.15,6841.10,1.02]
+_camera camSetFOV 0.474
+_camera camCommit 5
+@camCommitted _camera
+
+@prijel
+
+;=== 15:31:30
+_camera camSetTarget [-80265.05,60317.96,-3717.99]
+_camera camSetPos [4172.98,6881.29,1.45]
+_camera camSetFOV 0.491
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+ep say "h01"
+titletext ["Vojáku, svou poslední šanci jste dokonale prosral.\nSundejte si uniformu a zmizte mi z oèí. Chování jako jste pøedvádìl zde si dìlejte nìkde jinde.\nOdchod.","plain down"]
+
+;=== 15:31:59
+_camera camSetTarget [-87038.07,46942.21,-8570.82]
+_camera camSetPos [4173.79,6881.70,1.49]
+_camera camSetFOV 0.400
+_camera camCommit 10
+@camCommitted _camera
+
+4 fademusic 0
+4 fadesound 0
+titleCut ["","BLACK OUT",3]
+
+~4
+
+titletext ["K O N E C    H R Y","plain"]
+
+~5
+
+konec=true

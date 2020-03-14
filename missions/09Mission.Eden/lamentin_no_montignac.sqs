@@ -1,0 +1,176 @@
+setacctime 1
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+patrola3=false
+patrola4=false
+dostanu=true
+
+lamentin setdir 140
+hrac serdir 305
+vehicle hrac setpos getmarkerpos "car_hrac1_1"
+vehicle hrac setdir 195
+vehicle hrac setpos getmarkerpos "car_hrac1_1"
+lamentin setmimic "normal"
+hrac setmimic "normal"
+hrac setpos getmarkerpos "hrac1_1"
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+~1
+
+disableuserinput true
+vehicle hrac setpos getmarkerpos "car_hrac1"
+hrac action ["eject",vehicle hrac]
+hrac action ["weapononback"]
+setacctime 1
+hrac setpos getmarkerpos "hrac1_1"
+vehicle hrac setpos getmarkerpos "car_hrac1_1"
+
+titleCut ["","BLACK IN",3]
+
+;jason
+
+;=== 17:57:53
+_camera camSetTarget [11570.39,-93465.42,-68.61]
+_camera camSetPos [1229.36,5998.30,1.22]
+_camera camSetFOV 0.285
+_camera camCommit 0
+@camCommitted _camera
+
+hrac say "mh53"
+
+;off
+
+;=== 18:49:06
+_camera camSetTarget [-97369.11,22523.85,-2148.66]
+_camera camSetPos [1230.45,5994.34,1.54]
+_camera camSetFOV 0.343
+_camera camCommit 0
+@camCommitted _camera
+
+lamentin say "mh54!
+
+;oba
+
+;=== 18:50:42
+_camera camSetTarget [99036.91,26815.34,66.64]
+_camera camSetPos [1228.77,5993.04,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 0
+@camCommitted _camera
+
+hrac say "mh55"
+
+;=== 18:51:08
+_camera camSetTarget [5298.65,105910.18,66.39]
+_camera camSetPos [1228.77,5993.04,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 5
+@camCommitted _camera
+
+lamentin say "mh56"
+
+~5
+
+;jason
+
+;=== 18:50:42
+_camera camSetTarget [99036.91,26815.34,66.64]
+_camera camSetPos [1228.77,5993.04,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 0
+@camCommitted _camera
+
+hrac say "mh57"
+
+~5
+
+;off
+
+;=== 18:51:08
+_camera camSetTarget [5298.65,105910.18,66.39]
+_camera camSetPos [1228.77,5993.04,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 5
+@camCommitted _camera
+
+lamentin say "mh58"
+
+~5
+
+;jason
+
+;=== 18:50:42
+_camera camSetTarget [99036.91,26815.34,66.64]
+_camera camSetPos [1228.77,5993.04,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 0
+@camCommitted _camera
+
+hrac say "mh59"
+
+~5
+
+;=== 18:53:50
+_camera camSetTarget [-24268.02,-90698.30,66.45]
+_camera camSetPos [1230.17,5996.28,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 0
+@camCommitted _camera
+
+lamentin playmove "fxtohand"
+lamentin say "mh60"
+
+~5
+
+hrac say "mh61"
+
+~5
+
+lamentin say "mh62"
+
+~5
+
+lamentin say "mh63"
+
+~5
+
+hrac say "mh64"
+
+~5
+
+;off
+
+;=== 18:51:08
+_camera camSetTarget [5298.65,105910.18,66.39]
+_camera camSetPos [1228.77,5993.04,1.47]
+_camera camSetFOV 0.550
+_camera camCommit 0
+@camCommitted _camera
+
+lamentin say "mh65"
+
+~5
+
+disableuserinput false
+rus1 switchmove ""
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+titleCut ["","BLACK IN",1]
+
+~1
+
+savegame
+
+exit

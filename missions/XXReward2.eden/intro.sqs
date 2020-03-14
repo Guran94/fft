@@ -1,0 +1,37 @@
+setacctime 1
+titleCut ["","BLACK IN",3]
+playMusic ["track7", 61]
+ep setMimic "smile"
+ep switchmove "effectstandtalk"
+0 fademusic 0.3
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 13:59:50
+_camera camSetTarget [100687.02,37708.41,105.92]
+_camera camSetPos [6204.05,4952.14,1.31]
+_camera camSetFOV 0.224
+_camera camCommit 0
+@camCommitted _camera
+
+ep say "ah01"
+titletext ["Slyším na vás samou chválu, vojáku.\nTo mì velice tìší. Jen tak dál, chlape, jen tak dál!","plain down"]
+
+;=== 14:03:39
+_camera camSetTarget [41978.33,98158.10,-5642.32]
+_camera camSetPos [6207.19,4950.32,1.40]
+_camera camSetFOV 0.298
+_camera camCommit 8
+@camCommitted _camera
+
+4 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+titletext ["","plain down"]
+
+~1
+
+konec=true

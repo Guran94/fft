@@ -1,0 +1,34 @@
+m113 sideradio "r03"
+morton sideradio "r04"
+
+@rozdelit
+
+setacctime 1
+zustat=true
+serza groupradio "r05"
+
+~3.5
+
+[voj1] commandmove getmarkerpos "presun1"
+[hrac] commandmove getmarkerpos "presun2"
+
+~6
+
+"presun2" setmarkertype "start"
+
+[voj2] commandmove getmarkerpos "presun3"
+[voj3] commandmove getmarkerpos "presun4"
+[voj5] commandmove getmarkerpos "presun5"
+[voj4] commandmove getmarkerpos "presun6"
+[voj6] commandmove getmarkerpos "presun7"
+
+~30
+
+serza groupradio "r09"
+prvni=true
+
+~5
+
+savegame
+
+exit

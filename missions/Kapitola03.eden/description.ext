@@ -1,0 +1,128 @@
+onLoadIntro="V tentýž den na Everonu";
+onLoadIntroTime = false;
+
+class CfgSounds
+{
+	sounds[] = 
+	{
+		
+		
+	};
+
+	class h01
+	{
+		name = "";
+		sound[] = {"h01.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h02
+	{
+		name = "";
+		sound[] = {"h02.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h03
+	{
+		name = "";
+		sound[] = {"h03.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class h04
+	{
+		name = "";
+		sound[] = {"h04.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h05
+	{
+		name = "";
+		sound[] = {"h05.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h06
+	{
+		name = "";
+		sound[] = {"h06.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class h07
+	{
+		name = "";
+		sound[] = {"h07.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h08
+	{
+		name = "";
+		sound[] = {"h08.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h09
+	{
+		name = "";
+		sound[] = {"h09.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h10
+	{
+		name = "";
+		sound[] = {"h10.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class h11
+	{
+		name = "";
+		sound[] = {"h11.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h12
+	{
+		name = "";
+		sound[] = {"h12.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class h13
+	{
+		name = "";
+		sound[] = {"h13.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};

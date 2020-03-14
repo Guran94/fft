@@ -1,0 +1,193 @@
+onLoadIntro="$STR_ONLOAD_INTRO";
+onLoadIntroTime = false;
+
+class RscTitles
+{
+ titles[] = {"fft_logo; chapter1; guntirson_logo"};
+
+
+  class fft_logo
+   {
+    idd = -1;
+    movingEnable = 0;
+    duration = 5;
+    fadein = 1;
+    name = "fft_logo";
+    controls[] = {"fft_logo"};
+
+     class fft_logo
+      {
+       type = 0;
+       idc = -1;
+       style = 48;
+       colorBackground[] = {1,1,1,1};
+       text = "fft_logo.jpg";
+       colorText[] = {1,1,1,1};
+       font = "AudreysHandI48";
+       size = 1;
+       x = 0;
+       y = 0.1;
+       w = 1;
+       h = 0.8;
+      };
+};
+  class chapter1
+   {
+    idd = -1;
+    movingEnable = 0;
+    duration = 5;
+    fadein = 1;
+    name = "chapter1";
+    controls[] = {"chapter1"};
+
+     class chapter1
+      {
+       type = 0;
+       idc = -1;
+       style = 48;
+       colorBackground[] = {1,1,1,1};
+       text = "chapter1.jpg";
+       colorText[] = {1,1,1,1};
+       font = "AudreysHandI48";
+       size = 1;
+       x = 0;
+       y = 0.1;
+       w = 1;
+       h = 0.8;
+      };
+};
+  class guntirson_logo
+   {
+    idd = -1;
+    movingEnable = 0;
+    duration = 5;
+    fadein = 1;
+    name = "guntirson_logo";
+    controls[] = {"guntirson_logo"};
+
+     class guntirson_logo
+      {
+       type = 0;
+       idc = -1;
+       style = 48;
+       colorBackground[] = {1,1,1,1};
+       text = "guntirson_logo.jpg";
+       colorText[] = {1,1,1,1};
+       font = "AudreysHandI48";
+       size = 1;
+       x = 0;
+       y = 0.1;
+       w = 1;
+       h = 0.8;
+      };
+   };
+};
+
+class CfgSounds
+{
+	sounds[] = 
+	{
+		
+		
+	};
+
+	class ih01
+	{
+		name = "ih01";
+		sound[] = {"ih01.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class ih02
+	{
+		name = "ih02";
+		sound[] = {"ih02.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+	class ih03
+	{
+		name = "ih03";
+		sound[] = {"ih03.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih04
+	{
+		name = "ih04";
+		sound[] = {"ih04.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih05
+	{
+		name = "ih05";
+		sound[] = {"ih05.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih06
+	{
+		name = "ih06";
+		sound[] = {"ih06.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih07
+	{
+		name = "ih07";
+		sound[] = {"ih07.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih08
+	{
+		name = "ih08";
+		sound[] = {"ih08.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih09
+	{
+		name = "ih09";
+		sound[] = {"ih09.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih10
+	{
+		name = "ih10";
+		sound[] = {"ih10.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+        class ih11
+	{
+		name = "ih11";
+		sound[] = {"ih11.ogg", db+10, 1.00};
+		titles[] = 
+			{
+				0,
+			};
+	};
+};

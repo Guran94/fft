@@ -1,0 +1,16 @@
+voj7 say "mh14"
+
+~2
+
+hrac say "mh15"
+
+~1
+
+voj7 say "mh16"
+
+~1
+
+hint localize "STRCH"
+hrac addrating 2000
+
+exit

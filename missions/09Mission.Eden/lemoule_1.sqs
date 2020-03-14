@@ -1,0 +1,12 @@
+setacctime 1
+zmrd1 say "mh72"
+
+~5
+
+hrac say "mh73"
+
+~5
+
+zmrd1 say "mh74"
+
+exit

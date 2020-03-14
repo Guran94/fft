@@ -1,0 +1,53 @@
+ep switchMove "FXStandFromTable"
+playMusic ["track7", 25]
+0 fademusic 0.2
+ep setMimic "smile"
+titleCut ["","BLACK IN",3]
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 12:43:17
+_camera camSetTarget ep
+_camera camSetPos [5458.30,6045.97,1.86]
+_camera camSetFOV 0.614
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+ep say "ah01"
+titletext ["Vojáku, dovolte, abych vám pogratuloval.\nVaše hrdinské výkony v této válce zaujaly i prezidenta Cartera, který moc touží se svámi osobnì setkat.\nBudete hlavním kandidátem na medajli cti. Já bych vám chtìl jen podìkovat, vojáku, nikdy vám to nezapomenu.\nMockrát vám dìkuji.","plain down"]
+
+;=== 12:44:22
+_camera camSetTarget ep
+_camera camSetPos [5456.34,6046.11,1.44]
+_camera camSetFOV 0.446
+_camera camCommit 17
+@camCommitted _camera
+
+;=== 12:44:58
+_camera camSetTarget [63267.23,87141.63,9738.39]
+_camera camSetPos [5454.87,6120.15,5.19]
+_camera camSetFOV 0.408
+_camera camCommit 0
+@camCommitted _camera
+;=== 12:45:13
+_camera camSetTarget [63267.23,87141.63,9738.69]
+_camera camSetPos [5454.87,6120.15,5.19]
+_camera camSetFOV 0.681
+_camera camCommit 7
+@camCommitted _camera
+
+4 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~3
+
+5 fademusic 0
+titletext ["B L A H O P Ø E J I\nDosáhl jste maxima!","plain"]
+
+~5
+
+konec=true

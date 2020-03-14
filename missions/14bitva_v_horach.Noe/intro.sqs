@@ -1,0 +1,98 @@
+titleCut ["","BLACK IN",5]
+setacctime 1
+twombley switchmove "fxtokneel"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 19:19:09
+_camera camSetTarget [-93317.17,-11115.16,-3614.38]
+_camera camSetPos [5249.90,5360.50,0.32]
+_camera camSetFOV 0.237
+_camera camCommit 0
+@camCommitted _camera
+;=== 19:20:00
+_camera camSetTarget [-92588.16,-12881.32,-9732.48]
+_camera camSetPos [5250.79,5360.41,0.67]
+_camera camSetFOV 0.331
+_camera camCommit 5
+@camCommitted _camera
+;=== 19:20:14
+_camera camSetTarget twombley
+_camera camSetPos [5254.18,5360.50,0.34]
+_camera camSetFOV 0.635
+_camera camCommit 5
+@camCommitted _camera
+
+~2
+
+;=== 19:20:46
+_camera camSetTarget [104212.06,-5614.62,9253.57]
+_camera camSetPos [5247.75,5361.85,0.88]
+_camera camSetFOV 0.342
+_camera camCommit 0
+@camCommitted _camera
+
+@prisel
+
+titletext ["Co tu dìláš, Twombley?","plain down"]
+
+~2
+
+;=== 19:21:48
+_camera camSetTarget twombley
+_camera camSetPos [5247.04,5362.06,0.63]
+_camera camSetFOV 0.263
+_camera camCommit 0
+@camCommitted _camera
+
+titletext ["Nic, èumim na rybník, než umøu.","plain down"]
+
+~2
+
+;=== 19:23:02
+_camera camSetTarget voj
+_camera camSetPos [5249.98,5361.87,1.17]
+_camera camSetFOV 0.276
+_camera camCommit 0
+@camCommitted _camera
+
+titletext ["Co to meleš za kraviny, ty debile?","plain down"]
+
+~2
+
+;=== 19:26:51
+_camera camSetTarget [-73465.32,61193.90,-26176.76]
+_camera camSetPos [5255.54,5358.75,1.89]
+_camera camSetFOV 0.222
+_camera camCommit 0
+@camCommitted _camera
+
+titletext ["Už mì tahleta válka sere.","plain down"]
+
+~2
+
+titletext ["Tak to tì asi zklamu.\nPlukovník Epgayd mì pro tebe poslal, chce s tebou mluvit.","plain down"]
+
+~5
+
+twombley switchmove "fxfromkneel"
+titletext ["Hovno...","plain down"]
+
+~2
+
+;=== 19:28:49
+_camera camSetTarget [91277.73,-45161.04,-6783.70]
+_camera camSetPos [5247.68,5363.80,2.31]
+_camera camSetFOV 0.175
+_camera camCommit 0
+@camCommitted _camera
+
+jdi=true
+titletext ["Jo, tak hoï prdelí, sráèi, než se nasere.","plain down"]
+
+~2
+
+titleCut ["","BLACK OUT",3]
+
+hudba=true

@@ -1,0 +1,53 @@
+titlecut ["","black in",3]
+0 fademusic 0.3
+stul setpos getmarkerpos "dokumenty"
+
+@vylozeni
+
+uh sideradio "r01"
+uh sidechat "HODNÌ ŠTÌSTÍ, HOŠI."
+
+~5
+
+hrac say "h01"
+titletext ["Tak, pánové, co jsme?","plain down"]
+
+~3
+
+spec1 say "h02"
+spec2 say "h03"
+spec3 say "h03"
+titletext ["Delta.","plain down"]
+
+~1
+
+hrac say "h04"
+titletext ["Co dìláme?","plain down"]
+
+~2
+
+spec1 say "h05"
+spec2 say "h06"
+spec3 say "h06"
+titletext ["Konáme povinnost.","plain down"]
+
+~2
+
+hrac say "h07"
+titletext ["A za jakým úèelem?","plain down"]
+
+~2
+
+spec1 say "h08"
+spec2 say "h09"
+spec3 say "h09"
+titletext ["Zahrát si s Rusama divadlo.","plain down"]
+
+~3
+
+hrac say "h10"
+titletext ["Správnì, chlapi.","plain down"]
+
+~5
+
+savegame

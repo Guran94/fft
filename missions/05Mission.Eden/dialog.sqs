@@ -1,0 +1,39 @@
+playmusic "Song1"
+0 fademusic 0.2
+away2=false
+car lock true
+
+~10
+
+setacctime 1
+hrac say "mh06"
+
+~5
+
+v1 say "mh07"
+
+~2
+
+v3 say "mh08"
+
+~10
+
+hrac say "mh09"
+
+~5
+
+v2 say "mh10"
+
+~7
+
+hrac say "mh11"
+
+~8
+
+v2 say "mh12"
+
+~4
+
+car lock false
+
+exit

@@ -1,0 +1,34 @@
+papa  sideradio "r02"
+papa sidechat "TÁTA MEDVÌD VŠEM JEDNOTKÁM. RUSOVÉ SE VYLODILI NA VÝCHODNÍM CÍPU LETIŠTÌ. MAJÍ TAM HROZNÌ TECHNIKY. VYŽEÒTE JE ODTAMTU, KONEC."
+"2" objstatus "active"
+"ukol2" setmarkertype "warning"
+
+~10
+
+hrac say "h02"
+titletext ["Rusáci zkurvení. O co jim furt jde? My jim ukážem.","plain down"]
+
+@hrac in ah1
+
+HinC "Standardní ovládání:\n\nW/S, A/D nebo myš - ovládání pohybu.\nQ/Z = ovládání výšky\nX/C = otáèení pomocí ocasního rotoru\nNabídka èinností = zapnutí stabilizátoru"
+
+hrac sideradio "r03"
+hrac sidechat "NOMÁD 1 JE NA SVÉM MÍSTÌ A ROZTÁÈÍ VRTULE, TÁTO MEDVÌDE."
+spinac setpos getmarkerpos "pryc"
+"1" objstatus "done"
+
+~5
+
+hint "Standardní ovládání:\n\nW/S nebo myš = pøíï nahoru/dolù\nQ/Z = nastavení vìtší/menší výšky\nX/C = otáèení pomocí ocasního rotoru\nPøi vysokých rychlostech:\nA/D nebo myš = zatáèení vlevo/vpravo\nPøi nízkých rychlostech:\nA/D = pohyb stranou vlevo/vpravo\nmyš = otáèení pomocí ocasního rotoru\n\nNabídka èinnosti: zapnutí automatického visu"
+
+~8
+
+hintC "Když zapnete funkci ""stabilizátor"" z nabídky èinností, mùžete nechat svùj vrtulník stabilnì zavìšený ve vzduchu."
+
+~3
+
+hint "Standardní ovládání v boji:\n\nPravé klepnutí = výbìr cíle\nLevé klepnutí = støelba\nMezerník = zmìna zbranì\nTab = pøepínání cílù"
+
+~1
+
+savegame

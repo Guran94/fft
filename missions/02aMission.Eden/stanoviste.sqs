@@ -1,0 +1,13 @@
+hrac say "mh13"
+
+~5
+
+titletext ["","plain"]
+serza sideradio "r01"
+papa sideradio "r02"
+
+~5
+
+savegame
+
+exit

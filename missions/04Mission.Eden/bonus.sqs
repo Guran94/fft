@@ -1,0 +1,13 @@
+hintc localize "STRMH_1"
+mrtvoly=false
+
+~1
+
+hint localize "STRCH"
+hrac addrating 2000
+
+~1
+
+hrac say "bonus"
+
+exit

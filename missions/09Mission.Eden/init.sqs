@@ -1,0 +1,83 @@
+setacctime 1
+"2" objstatus "hidden"
+
+away1=true
+away2=false
+away3=false
+away4=false
+away5=false
+away6=false
+dokumenty=true
+briefing=false
+vylecen=false
+vylozeno=false
+radio=false
+vzdat=false
+kupredu=false
+znovu=false
+privolat=false
+nomotngnac=false
+dostanu=false
+patrola1=true
+patrola2=true
+patrola3=true
+patrola4=true
+
+hrac setbehaviour "careless"
+hrac say "mh01"
+0 fademusic 1
+playmusic "song5"
+mi1 setfuel 0
+hlidka1 setbehaviour "careless"
+hlidka2 setbehaviour "careless"
+ClearWeaponCargo mi1
+ClearMagazineCargo mi1
+ClearWeaponCargo ammo1
+ClearMagazineCargo ammo1
+ClearWeaponCargo ammo2
+ClearMagazineCargo ammo2
+ClearWeaponCargo ammo3
+ClearMagazineCargo ammo3
+ammo2 AddWeaponCargo ["ak74su",1]
+ammo2 AddMagazineCargo ["ak74",3]
+ammo2 AddWeaponCargo ["ak74",1]
+ammo2 AddMagazineCargo ["handgrenade",3]
+ammo2 AddWeaponCargo ["rpglauncher",1]
+ammo2 AddMagazineCargo ["rpglauncher",3]
+ammo3 AddWeaponCargo ["ak47",3]
+ammo3 AddMagazineCargo ["ak47",10]
+ammo3 AddWeaponCargo ["ak74grenadelauncher",1]
+ammo3 AddMagazineCargo ["grenadelauncher",3]
+ammo3 AddMagazineCargo ["handgrenade",3]
+ammo3 AddWeaponCargo ["pk",1]
+ammo3 AddMagazineCargo ["pk",5]
+[] exec "zraneni.sqs"
+
+titleCut ["","BLACK IN",3]
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 16:05:37
+_camera camSetTarget [75399.28,-63089.34,12210.42]
+_camera camSetPos [6545.52,8399.80,1.54]
+_camera camSetFOV 0.284
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:06:31
+_camera camSetTarget [75399.28,-63089.34,12210.64]
+_camera camSetPos [6545.52,8399.80,1.54]
+_camera camSetFOV 0.034
+_camera camCommit 5
+@camCommitted _camera
+
+titleCut ["","WHITE OUT",1]
+
+~1
+
+titleCut ["","WHITE IN",1]
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+exit

@@ -1,0 +1,124 @@
+version=11;
+class Mission
+{
+	randomSeed=5740035;
+	class Intel
+	{
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"HMMWV"
+	};
+	addOnsAuto[]=
+	{
+		"HMMWV"
+	};
+	randomSeed=9353731;
+	class Intel
+	{
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4182.950684,123.974998,6795.314453};
+					id=0;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""intro.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4179.260742,116.407806,6952.273438};
+					azimut=185.000000;
+					id=2;
+					side="WEST";
+					vehicle="OfficerW";
+					leader=1;
+					skill=0.600000;
+					text="ep";
+					init="this moveindriver car; this setidentity ""Epgayd""";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4165.389648,121.441994,6880.631836};
+					type="GETOUT";
+					speed="FULL";
+					combat="CARELESS";
+					expActiv="prijel=true";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={4166.730957,116.272484,6952.273438};
+			azimut=185.000000;
+			id=1;
+			side="EMPTY";
+			vehicle="HMMWV";
+			skill=0.600000;
+			text="car";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={4238.884766,122.416756,6899.953613};
+			type="END1";
+			age="UNKNOWN";
+			expCond="konec";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=16449027;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=10709507;
+	class Intel
+	{
+	};
+};

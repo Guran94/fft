@@ -1,0 +1,203 @@
+version=11;
+class Mission
+{
+	randomSeed=9199619;
+	class Intel
+	{
+		briefingName="Penalty3";
+		startWeather=0.800000;
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"HMMWV",
+		"mg36sm",
+		"UN_US_Sold"
+	};
+	addOnsAuto[]=
+	{
+		"mg36sm",
+		"UN_US_Sold",
+		"HMMWV"
+	};
+	randomSeed=10539523;
+	class Intel
+	{
+		briefingName="Penalty3";
+		startWeather=0.543772;
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7537.753906,117.987885,4695.607910};
+					id=0;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""intro.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7547.591309,119.589981,4656.049805};
+					azimut=275.000000;
+					id=1;
+					side="WEST";
+					vehicle="UN_USA_OFF";
+					leader=1;
+					skill=0.600000;
+					text="off1";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7547.337891,119.589714,4656.056152};
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7547.515137,119.619499,4655.320801};
+					azimut=275.000000;
+					id=2;
+					side="WEST";
+					vehicle="OfficerW";
+					leader=1;
+					skill=0.600000;
+					text="ep";
+					init="this setidentity ""epgayd""";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7547.194824,119.620819,4655.288574};
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7547.754883,119.656578,4654.405273};
+					azimut=275.000000;
+					id=3;
+					side="WEST";
+					vehicle="UN_US_Sold";
+					leader=1;
+					skill=0.600000;
+					text="off2";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7547.384277,119.656197,4654.415039};
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=2;
+		class Item0
+		{
+			position[]={7547.567871,119.601440,4655.766602};
+			azimut=90.000000;
+			id=4;
+			side="EMPTY";
+			vehicle="Shed";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item1
+		{
+			position[]={7547.435547,119.731110,4651.796387};
+			azimut=275.000000;
+			id=5;
+			side="EMPTY";
+			vehicle="HMMWV";
+			leader=1;
+			skill=0.600000;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={7564.545898,117.809998,4712.831055};
+			type="END1";
+			age="UNKNOWN";
+			expCond="konec";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=7616515;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=15202307;
+	class Intel
+	{
+	};
+};

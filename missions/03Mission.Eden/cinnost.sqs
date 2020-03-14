@@ -1,0 +1,17 @@
+hrac say "bonus3"
+nechat=false
+
+~3
+
+civil setmimic "smile"
+civil say "bonus4"
+
+~7
+
+ulozit=true
+removeallweapons civil
+civil domove getpos utect
+well=true
+civil switchmove "stand"
+hrac addrating 2000
+hint localize "STRCH"
