@@ -1,6 +1,0 @@
-hrac say "h15"
-titletext ["Radši jsem si zvolil kratší cestu. Bojim se jet do Mortonu kvùli tomu zmrdovi, co pozabíjel mé pøátele.","plain down"]
-
-hrac addrating -1000
-
-walk=true

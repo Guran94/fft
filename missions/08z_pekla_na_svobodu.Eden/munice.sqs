@@ -1,9 +1,0 @@
-ClearWeaponCargo ammo
-ClearMagazineCargo ammo
-ammo AddWeaponCargo ["ak74",1]
-ammo AddMagazineCargo ["ak74",3]
-ammo AddWeaponCargo ["ak74su",1]
-ammo AddMagazineCargo ["ak74su",9]
-ammo AddWeaponCargo ["binocular",1]
-ammo AddWeaponCargo ["rpglauncher",1]
-ammo AddMagazineCargo ["rpglauncher",3]

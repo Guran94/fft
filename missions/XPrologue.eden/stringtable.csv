@@ -2,14 +2,17 @@ LANGUAGE,English,Czech,Comment
 
 STRM_ONLOAD_INTRO,"Everon, 1980","",On load intro
 
-STRM_X00v01,"My name is Jason Smith. I want to tell you the story about the war in which I had taken part. The war which had schocked and changed the whole world.","",jason
-STRM_X00v02,"I was captured by the Russians during the war and while this time everything had started for me... or ended?","",jason
+STRM_x00v01,"Take him to ural. Let him speak with his brothers. We are going to take them all to colonel Lemontov. Be prepared in five minutes.","",rashiv
+STRM_x00v02,"My name is Jason Twombly.\nI want to tell you the story about the war in which I had taken part.\nThe war which had schocked and changed the whole world.","",jason
+STRM_x00v03,"I was captured by the Russians during the war and while this time everything had started for me... or ended?","",jason
 
-STRM_X00v03,"Your story has left on me good feeling about you, mr. Smith, sorry, Kuznetsov. It is up to you. As I have said. You can join us and gain the honour of your country, or you can forever stay in the prison of the west and looking around as the world of capitalism is throwing the dirt on you. Make your choice.","",lemontov
-STRM_X00v04,"Damn, I never knew I'd ever say that! But fuck you! Yes! You and all your fucking Bolshevik sucker! You've ruined my whole life! I wish I never entered that fucking army! You bitch fucking!","",jason
-STRM_X00v05,"Take the whinning slut. We`ve done with him.","",lemontov
+STRM_x00v04,"Your story has left on me good feeling about you, mr. Twombly, sorry, Kuznetsov.\nIt is up to you. As I have said. You can join us and gain the honour of your country,\nor you can forever stay in the prison of the west and looking around as the world of capitalism is throwing the dirt on you.\nMake your choice.","",lemontov
+STRM_x00v05,"Damn, I never knew I'd ever say that! But fuck you! Yes!\nYou and all your fucking Bolshevik sucker! You've ruined my whole life!\nI wish I never entered that fucking army! You bitch fucking!","",jason
+STRM_x00v06,"Take the whinning slut. We're done with him.","",lemontov
 
-STRM_X00v06,"Ready!","",rus
-STRM_X00v07,"Fire!","",rus
+STRM_x00v07,"Ready!","",rus
+STRM_x00v08,"Fire!","",rus
 
-STRM_X00v08,"But let`s start from the beginning.","",jason
+STRM_x00v09,"But let's start from the beginning.","",jason
+
+STRM_text1,"GURAN\nP  R  E  S  E  N  T  S","",me

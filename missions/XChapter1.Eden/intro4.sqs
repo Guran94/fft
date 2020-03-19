@@ -1,0 +1,62 @@
+titleCut ["","BLACK IN",2]
+
+skiptime 1
+go4=true
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+civ3 setmimic "angry"
+civ4 setmimic "angry"
+civ3 dowatch [5364.24,4106.99,2.09]
+civ4 dowatch [5364.24,4106.99,2.09]
+
+;city
+;=== 9:03:51
+_camera camSetTarget [-91778.15,-13766.60,-15571.50]
+_camera camSetPos [5364.24,4106.99,2.09]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:04:22
+_camera camSetTarget [-78176.33,-48590.38,-15570.87]
+_camera camSetPos [5364.09,4106.89,4.29]
+_camera camSetFOV 0.700
+_camera camCommit 8
+@camCommitted _camera
+
+civ4 playmove "fxshow3"
+
+;assholes
+;=== 9:19:25
+_camera camSetTarget [92723.30,52654.74,36.03]
+_camera camSetPos [5321.67,4065.08,1.80]
+_camera camSetFOV 0.443
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:07:05
+_camera camSetTarget [69049.47,81004.24,4380.25]
+_camera camSetPos [5321.06,4063.85,1.85]
+_camera camSetFOV 0.471
+_camera camCommit 7
+
+~6
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+;neutral
+;=== 11:13:18
+_camera camSetTarget [426.82,112293.72,1.89]
+_camera camSetPos [426.82,12293.72,1.89]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+titletext [ localize "STRM_x01v14","plain"]
+playsound "x01v14"
+
+~5
+
+[] exec "intro5.sqs"
