@@ -1368,6 +1368,7 @@ class Mission
 			vehicle="Barrel4";
 			leader=1;
 			skill=0.600000;
+			text="tomik";
 		};
 		class Item10
 		{
@@ -2076,8 +2077,7 @@ class Intro
 {
 	addOns[]=
 	{
-		"m60mg",
-		"bis_resistance"
+		"m60mg"
 	};
 	addOnsAuto[]=
 	{

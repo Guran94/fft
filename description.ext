@@ -1,53 +1,30 @@
-class CfgSounds
-{
-         sounds[] = { };
-         class Bombs
-                 {
-                           name = "FFT - bombs";
-                           sound[] = {"Bombs.ogg", db+0, 1.0};
-                           titles[] = {};
-                  };
-};
-
 class CfgRadio
 {
 	sounds[] = { };
 
-	class AwayHrac1
+	class AwayPlayer1
 	{
-		name = "AwayHrac1";
-		sound[] = {"AwayHrac1.ogg", db+10, 1.0};
-		title = $STRF_AwayHrac1;
+		name = "AwayPlayer1";
+		sound[] = {"AwayPlayer1.ogg", db+10, 1.0};
+		title = $STRF_AwayPlayer1;
 	};
-	class AwayHrac2
+	class AwayPlayer2
 	{
-		name = "AwayHrac2";
-		sound[] = {"AwayHrac2.ogg", db+10, 1.0};
-		title = $STRF_AwayHrac2;
+		name = "AwayPlayer2";
+		sound[] = {"AwayPlayer2.ogg", db+10, 1.0};
+		title = $STRF_AwayPlayer2;
 	};
-	class AwayHrac3
+	class AwayPlayer3
 	{
-		name = "AwayHrac3";
-		sound[] = {"AwayHrac3.ogg", db+10, 1.0};
-		title = $STRF_AwayHrac3;
+		name = "AwayPlayer3";
+		sound[] = {"AwayPlayer3.ogg", db+10, 1.0};
+		title = $STRF_AwayPlayer3;
 	};
-	class AwayHrac4
+	class AwayPlayer4
 	{
-		name = "AwayHrac4";
-		sound[] = {"AwayHrac4.ogg", db+10, 1.0};
-		title = $STRF_AwayHrac4;
-	};
-	class AwayHrac5
-	{
-		name = "AwayHrac5";
-		sound[] = {"AwayHrac5.ogg", db+10, 1.0};
-		title = $STRF_AwayHrac5;
-	};
-	class AwayHrac6
-	{
-		name = "AwayHrac6";
-		sound[] = {"AwayHrac6.ogg", db+10, 1.0};
-		title = $STRF_AwayHrac6;
+		name = "AwayPlayer4";
+		sound[] = {"AwayPlayer4.ogg", db+10, 1.0};
+		title = $STRF_AwayPlayer4;
 	};
 };
 
@@ -60,41 +37,41 @@ class CfgMusic
 		name = "FFT - Main Theme";
 		sound[] = {"\Music\MainTheme.ogg", db+0, 1.0};
 	};
-	class Song1
+  class ChapterTheme
 	{
-		name = "FFT - Song 1";
-		sound[] = {"\Music\Song1.ogg", db+0, 1.0};
+		name = "FFT - Chapter Theme";
+		sound[] = {"\Music\ChapterTheme.ogg", db+0, 1.0};
 	};
-	class Song2
+	class Track1
 	{
-		name = "FFT - Song 2";
-		sound[] = {"\Music\Song2.ogg", db+0, 1.0};
+		name = "FFT - Track 1";
+		sound[] = {"\Music\Track1.ogg", db+0, 1.0};
 	};
-	class Song3
+	class Track2
 	{
-		name = "FFT - Song 3";
-		sound[] = {"\Music\Song3.ogg", db+0, 1.0};
+		name = "FFT - Track 2";
+		sound[] = {"\Music\Track2.ogg", db+0, 1.0};
 	};
-	class Song4
+	class Track3
 	{
-		name = "FFT - Song 4";
-		sound[] = {"\Music\Song4.ogg", db+0, 1.0};
+		name = "FFT - Track 3";
+		sound[] = {"\Music\Track3.ogg", db+0, 1.0};
 	};
-	class Song5
+	class Track4
 	{
-		name = "FFT - Song 5";
-		sound[] = {"\Music\Song5.ogg", db+0, 1.0};
+		name = "FFT - Track 4";
+		sound[] = {"\Music\Track4.ogg", db+0, 1.0};
 	};
-	class Song6
+	class StevieWonder
 	{
-		name = "FFT - Song 6";
-		sound[] = {"\Music\Song6.ogg", db+0, 1.0};
+		name = "Stevie Wonder - Superstition";
+		sound[] = {"\Music\StevieWonder.ogg", db+0, 1.0};
 	};
 };
 
 class CfgIdentities
 {
-  class Hrac1
+  class Player1
   {
     name = "Jason Smith";
     face = "Face9";
@@ -102,7 +79,7 @@ class CfgIdentities
     speaker = "Jonah";
     pitch = 1.05;
   };
-  class Hrac2
+  class Player2
   {
     name = "George Dyaconsen";
     face = "Face3";
@@ -110,7 +87,7 @@ class CfgIdentities
     speaker = "Ted";
     pitch = 0.96;
   };
-  class Hrac3
+  class Player3
   {
     name = "Paul Hatton";
     face = "Face8";
@@ -118,7 +95,7 @@ class CfgIdentities
     speaker = "Rob";
     pitch = 1.08;
   };
-  class Hrac4
+  class Player4
   {
     name = "Ed Wallsh";
     face = "Face23";
@@ -134,17 +111,17 @@ class CfgIdentities
     speaker = "George";
     pitch = 0.98;
   };
-  class Vavricka
+  class Poincare
   {
-    name = "Marcel Vavrièka";
-    face = "Face5";
+    name = "Jean Poincare";
+    face = "Face1";
     glasses = "Not";
-    speaker = "Adam";
+    speaker = "Patrick";
     pitch = 1.00;
   };
   class USAGeneral
   {
-    name = "Generál Curtis Meller";
+    name = "General Curtis Meller";
     face = "Face15";
     glasses = "Spectacles";
     speaker = "Adam";
@@ -184,7 +161,7 @@ class CfgIdentities
   };
   class Livanoch
   {
-    name = "Generál Alexander Livanoch";
+    name = "General Alexander Livanoch";
     face = "Face10";
     glasses = "Not";
     speaker = "Adam";
@@ -192,9 +169,17 @@ class CfgIdentities
   };
   class Lemontov
   {
-    name = "Gregori Lemontov";
+    name = "Grigory Lemontov";
     face = "Face27";
     glasses = "None";
+    speaker = "Rob";
+    pitch = 1.016017;
+  };
+  class Mognuchkov
+  {
+    name = "Boris Mognuchkov";
+    face = "Face50";
+    glasses = "Not";
     speaker = "Adam";
     pitch = 1.00;
   };
@@ -232,37 +217,6 @@ class CfgIdentities
   };
 };
 
-class Penalties
-{
-	class XXPunish1
-	{
-		limit = -1;
-		eden = XXPunish1.eden;
-		noe = XXPunish1.noe;
-	};
-	class XXPunish2
-	{
-		limit = -7;
-		eden = XXPunish2.eden;
-		noe = XXPunish2.noe;
-	};
-	class XXPunish3
-	{
-		limit = -20;
-		eden = XXPunish3.eden;
-		noe = XXPunish3.noe;
-	};
-	class PenaltyGameOver
-	{
-		// total end of campaign - see exitScore
-		limit = -17;
-		eden = XXGameOver.eden;
-		noe = XXGameOver.noe;
-	};
-};
-
-exitScore = -17;
-
  class MissionDefault
 {
  lives = 1;
@@ -274,29 +228,6 @@ exitScore = -17;
  end5 = ;
  end6 = ;
 }; 
-
-
-class Awards
-{
-	class XXReward1
-	{
-		limit = 6;
-		eden = XXReward1.eden;
-		noe = XXReward1.noe;
-	};
-	class XXReward2
-	{
-		limit = 40;
-		eden = XXReward2.eden;
-		noe = XXReward2.noe;
-	};
-	class XXReward3
-	{
-		limit = 80;
-		eden = XXReward3.eden;
-		noe = XXReward3.noe;
-	};
-};
 
 class Campaign
 {

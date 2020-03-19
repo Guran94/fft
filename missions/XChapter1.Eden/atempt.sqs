@@ -1,0 +1,22 @@
+6 fademusic 1
+playMusic ["chaptertheme", 9.5]
+titletext [ localize "STRM_x01v23","plain"]
+playsound "x01v23"
+
+~3
+
+titletext [ localize "STRM_t1","plain"]
+
+~6
+
+titletext [ localize "STRM_t2","plain"]
+
+~3
+
+5 fademusic 0
+
+~5
+
+end=true
+
+exit

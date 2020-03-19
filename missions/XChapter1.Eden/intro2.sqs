@@ -1,0 +1,207 @@
+setacctime 1
+0 fadesound 0
+titleCut ["","BLACK IN",2]
+jean setmimic "smile"
+wife setmimic "surprised"
+playmusic "track7"
+jean switchmove "Medic"
+wife dowatch t1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;to the car
+;=== 8:58:27
+_camera camSetTarget [-52902.41,-75937.96,1606.67]
+_camera camSetPos [8810.66,2733.45,2.97]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+jean switchmove "Medic"
+
+;=== 8:58:53
+_camera camSetTarget [-12323.90,-94994.89,1605.56]
+_camera camSetPos [8811.32,2735.10,1.10]
+_camera camSetFOV 0.700
+_camera camCommit 8
+
+~2
+
+jean switchmove "Medic"
+
+~2
+
+jean switchmove "Medic"
+
+~2
+
+jean switchmove "Medic"
+
+~2
+
+jean switchmove "Medic"
+
+;jean
+;=== 9:04:32
+_camera camSetTarget [89807.91,61266.97,-3417.39]
+_camera camSetPos [8807.55,2729.20,0.90]
+_camera camSetFOV 0.352
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:04:56
+_camera camSetTarget jean
+_camera camSetPos [8809.20,2728.79,0.94]
+_camera camSetFOV 0.176
+_camera camCommit 4
+
+~2
+
+jean switchmove "Medic"
+
+~2
+
+jean switchmove "Medic"
+
+;=== 9:05:27
+_camera camSetTarget jean
+_camera camSetPos [8810.03,2729.51,1.22]
+_camera camSetFOV 0.171
+_camera camCommit 3
+@camCommitted _camera
+
+~1
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+civ1 switchmove "effectstandtalk"
+civ2 switchmove "fxtohand"
+
+;civs
+;=== 10:43:44
+_camera camSetTarget [-33711.06,93229.96,87.18]
+_camera camSetPos [8846.42,2737.35,1.36]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:43:59
+_camera camSetTarget [-80048.71,47967.21,-7112.90]
+_camera camSetPos [8848.31,2740.16,1.21]
+_camera camSetFOV 0.507
+_camera camCommit 6
+
+~5
+
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+titleCut ["","BLACK IN",1]
+
+;tractor
+;=== 10:45:26
+_camera camSetTarget tractor
+_camera camSetPos [8709.00,2710.32,2.25]
+_camera camSetFOV 0.240
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+0 fadesound 1
+titleCut ["","BLACK IN",1]
+
+;jean
+;=== 9:14:50
+_camera camSetTarget [82209.25,-64180.64,-11532.39]
+_camera camSetPos [8808.90,2732.79,1.26]
+_camera camSetFOV 0.528
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:55:14
+_camera camSetTarget [61150.87,-81277.34,-14144.30]
+_camera camSetPos [8809.46,2733.82,1.32]
+_camera camSetFOV 0.700
+_camera camCommit 4
+
+~1
+
+jean setmimic "normal"
+wife say "x01v24"
+jean dowatch wife
+
+~1
+
+go=true
+
+~1
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+jean setdir 170
+jean setpos getmarkerpos "jean"
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+jean setmimic "normal"
+jean say "x01v25"
+jean dowatch t1
+
+;both
+;=== 9:26:55
+_camera camSetTarget [-57816.23,76704.62,-9174.78]
+_camera camSetPos [8824.96,2723.82,1.77]
+_camera camSetFOV 0.464
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:27:15
+_camera camSetTarget [-37324.39,91321.73,-4436.59]
+_camera camSetPos [8823.17,2721.78,1.46]
+_camera camSetFOV 0.365
+_camera camCommit 5
+@camCommitted _camera
+
+
+jean setmimic "angry"
+
+;americans
+;=== 9:46:01
+_camera camSetTarget [49827.50,-88348.88,-4644.93]
+_camera camSetPos [8819.42,2733.25,1.45]
+_camera camSetFOV 0.320
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:46:22
+_camera camSetTarget [70089.59,-76154.73,-4645.38]
+_camera camSetPos [8816.71,2732.85,1.50]
+_camera camSetFOV 0.220
+_camera camCommit 4
+@camCommitted _camera
+
+~2
+
+;blackhawk
+;=== 9:46:22
+_camera camSetTarget uh
+_camera camSetPos [8816.71,2732.85,1.50]
+_camera camSetFOV 0.220
+_camera camCommit 4
+@camCommitted _camera
+
+~2
+
+[] exec "intro3.sqs"

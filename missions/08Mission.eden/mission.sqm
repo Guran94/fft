@@ -3648,7 +3648,7 @@ class Intro
 	};
 	class Groups
 	{
-		items=9;
+		items=8;
 		class Item0
 		{
 			side="WEST";
@@ -3904,51 +3904,10 @@ class Intro
 				};
 			};
 		};
-		class Item8
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={4195.571289,40.236744,7806.474121};
-					azimut=270.000000;
-					id=14;
-					side="EAST";
-					vehicle="SoldierEB";
-					leader=1;
-					skill=0.600000;
-				};
-			};
-			class Waypoints
-			{
-				items=2;
-				class Item0
-				{
-					position[]={4183.131836,40.037212,7804.153320};
-					speed="LIMITED";
-					combat="CARELESS";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-				};
-				class Item1
-				{
-					position[]={4195.619141,40.216240,7806.781250};
-					type="CYCLE";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
-		items=5;
+		items=3;
 		class Item0
 		{
 			position[]={4172.986816,38.737045,7842.108887};
@@ -3971,30 +3930,11 @@ class Intro
 		};
 		class Item2
 		{
-			position[]={4194.395996,40.392879,7802.714355};
+			position[]={4190.074707,40.273148,7801.177734};
+			azimut=130.000000;
 			id=11;
 			side="EMPTY";
-			vehicle="CampEast";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item3
-		{
-			position[]={4185.109863,40.116196,7801.765625};
-			azimut=75.000000;
-			id=12;
-			side="EMPTY";
-			vehicle="Barrel4";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item4
-		{
-			position[]={4186.082520,40.147587,7801.615723};
-			azimut=165.000000;
-			id=13;
-			side="EMPTY";
-			vehicle="Barrel4";
+			vehicle="Ural";
 			leader=1;
 			skill=0.600000;
 		};

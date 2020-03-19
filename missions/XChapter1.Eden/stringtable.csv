@@ -1,16 +1,46 @@
-LANGUAGE,"Czech","Comment"
+LANGUAGE,English,Czech,Comment
 
-STR_ONLOAD_INTRO,"Loutkový stát Everon","loading screen"
+STRM_ONLOAD_INTRO,"Two years ago","",On load intro
 
-STRM_ih01,"Jmenuji se Jason Twombly.\nChci Vám odvyprávìt pøíbìh války, které jsem se kdysi zúèastnil.\nVálky, na jejíž vzpomínky nikdy nezapomenu. Války, která šokovala a zmìnila celý svìt.\nZaèneme od zaèátku.","Jason"
-STRM_ih02,"Psal se rok 1978.\nPøihlásil jsem se do Americké armády, abych dodržoval rodinou tradici.\nJenže netušil jsem, že jsem narukoval v dobì, kdy pøišlo to, co pøijít muselo.","Jason"
-STRM_ih03,"Tato doba byla krutá.\nMezi Spojenými státy a Sovìtským svazem panovala velká rivalita.\nOba státy se pøedhánìly ve výrobì zbraní, velikosti armád, nebo území.","Jason"
-STRM_ih04,"Amerika za žádnou cenu nechtìla zaostat.\nProto se vláda v èele s prezidentem Carterem rozhodla vykonat vojenský akt.\nCílem se stalo strategicky významné Nogovské souostroví.\nDva malinkaté ostrùvky Nogova a Everon vzdálené dva tisíce mil od San Francisca.","Jason"
-STRM_ih05,"Plán byl jednoduchý - vojensky obsadit Nogovu a Everon a uèinit z nich loutkové státy, které by sloužily jako výcvikové základny.\nPlán však mìl jednu velkou trhlinu.","Jason"
-STRM_ih06,"První fáze operace byla více než úspìšná.\nNogovská vláda byla povolná a prezident Roman Pešek podepsal smlouvu o závislosti na Spojených státech.\nJeho zemì byla obsazena bez problémù.","Jason"
-STRM_ih07,"Obyvatelstvo loutkového státu Nogova bylo nadmírnì spokojeno.\nLidé byli rádi, že jsou souèástí Ameriky. Byli rádi, že takhle malinký stát je pod ochranou\na tak nás lidé vítali s otevøenou náruèí.","Jason"
-STRM_ih08,"Everon už byl vìtší oøíšek. Jeho vláda žádnou smlouvu o závislosti nepodepsala a tak naše armáda do zemì vtrhla násilým.\nPrezident Everonu Martin Kruma nechtìl zbyteènì plýtval lidskými životy a tak vydal armádì rozkaz složit zbranì a vzdát se.\nDokázali jsme obsadit i druhý ostrov a zbývala poslední èást plánu.","Jason"
-STRM_ih09,"Souostroví bylo obsazeno. Zatímco na Nogovì byla vojenská aktivita zahájena spíše v neobydlených èástech, Everon si naše armáda podmanila celý.\nObyvatelé tohoto ostrova již brzy po našem obsazení zaèali dávat na jevo svou zuøivost a nauèili se Americkou armádu doslova nenávidìt.\nPo delší dobì jsme všichni na ostrovì zaèali být flustrovaní a došlo dokonce ke zloèinu, které ho se dopustili samotní vojáci.\nPìt Amerièanù bylo odsouzeno za vraždu dvou mužù, dìtí a brutální znásilnìní jedné ženy.\nTento incident znaènì zhoršil vztahy mezi USA a Everonem.","Jason"
-STRM_ih10,"Byly postaveny vojenské továrny, kasárny, výcvikové støelnice a další.\nTenkrát jsme nikdo netušili, co se ve zkuteènosti dìje. Americká vláda a NATO se vše snažili tajit.\nSvìt se stejnì o tomto incidentu dozvìdìl a zaèaly se ozívat stížnosti ze Sovìtského politbira. Hlava Sovìtského svazu Leonid Brežnìv to bral, jako pøípravu na invazi do jeho zemì.\nI pøes zbyteèná vysvìtlování prezidenta Jimmyho Cartera, rada bezpeènosti OSN a NATO rozhodli, aby se snížila vojenská aktivita na obou ostrovech.\n6. námoøní flotila se dokonce musela celá stáhnout.","Jason"
+STRM_x01v01,"It was the year of 1978.\nI had participated to the US Army to keep families traditions, however I had no idea that I came in the wrong time to the wrong place.","",jason
+STRM_x01v02,"The first meeting with our training location - The Republic of Everon hadn't belonged to my best.\nPreviously I am Russian. So what I have actually expected in the world of rivality?","",jason
 
-STRM_ih11,"Obsazení Nogovského souostroví jsem se nezúèastnil.\nNamísto toho jsem byl svìdkem velkého váleèného konfliktu.\nPsal se dvacátý èervenec roku 1980. Den, kdy jsem se dozvìdìl, že mùj pobyt na Everonu konèí a mìl jsem jet domù.","Jason"
+STRM_x01v03,"What is it? Move your ass and keep going! Move!","",off
+STRM_x01v04,"Sir, yes, sir!","",jason
+STRM_x01v05,"Twombly!","",muday
+
+STRM_x01v06,"Ok, ladies! I am your training leader sergeant Derek Muday!\nNow you are going to do what I want to do!\nYou will perspire your blood if I will want!\nYou will set up your ass to me if I will want and I will kill you if I will fucking want!","",muday
+STRM_x01v07,"Why you're fucking starring on me! Are you gay, or what!","",muday
+STRM_x01v08,"Answer me, you russian fucker!","",muday
+STRM_x01v09,"Sir, no, sir!","",jason
+STRM_x01v10,"Bullshit! You\re fucking with me! 100 pushupps! Now!  Come on, you son of bitch! Move it, move it, move it!","",muday
+STRM_x01v11,"Sir, of course, sir!","",jason
+
+STRM_x01v12,"But it wasn't the worst what I used to experience.","",jason
+STRM_x01v13,"The Soviet troops seized an old abandoned island in the Pacific - Kolguev and set up a massive military base.","",jason
+STRM_x01v14,"Washington didn't want to be behind\nand few days later established the military protection of Malden against the Russians.","",jason
+STRM_x01v15,"Everon was the sole island without a major power protection.\nBecause the Everon's government was afraid of the Soviet expansion and therefore decided to request the White House for help.\nThe world tensiuon was increasing.","",jason
+STRM_x01v16,"President Jimmy Carter planned the same process that was used on Malden -\ncreate the same massive modern military presence as the Russians on Kolguev, but Everon wasn't like Malden.\nIts people wanted protection like Malden, but also democracy, freedom and no interferring in their affairs.","",jason
+STRM_x01v17,"But nothing of this sort did happen. Instead, barracks were built...","",jason
+STRM_x01v18,"Training camps...","",jason
+STRM_x01v19,"Ports...","",jason
+STRM_x01v20,"Firing ranges... and more...","",jason
+
+STRM_x01v22,"Although my military drilling wasn't the worst, the storm was coming.\nThe people of Everon did not want us. They wanted their freedom with soldiers behind their backs, not in front of them.\nThe desired military protection, but we gave them occupartion.\nWith our reign the island wasn't peaceful and beautiful anymore, but tension was growing and war was in the air.\nBecause our military presence did not mean help for the Eveon's people,\nbut it served just for our goals, as well as in politics and in world power.","",jason
+STRM_x01v23,"The Unrest has began.","",jason
+
+STRM_x01v24,"Jean! Jean!","",wife
+STRM_x01v25,"What's happening?","",jean
+
+STRM_x01v26,"Come on, Twombly! Move your fucking russian fat ass! Move! Move! Move!","",muday
+
+STRM_x01v27,"Gentlemen, I'm glad you're here. Today it's going to beghin.","",jean
+STRM_x01v28,"We are ready and wainting for your orders, Jean!","",reb
+STRM_x01v29,"Vivat la Resistance!","",rebels
+
+STRM_x01v30,"Fire!","",muday
+STRM_x01v31,"Fuck... it's jamned! I cannot shot, sir!","",soldiers
+STRM_x01v32,"You are making me happy, Twombly. Well done, boy...","",muday
+
+STRM_t1,"C H A P T E R  I","",me
+STRM_t2,"U N R E S T","",me
