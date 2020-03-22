@@ -48,13 +48,13 @@ class CfgSounds
 	{
 		name = "x00v02";
 		sound[] = {"x00v02.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x00v02};
+		titles[] = {};
 	};
 	class x00v03
 	{
 		name = "x00v03";
 		sound[] = {"x00v03.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x00v03};
+		titles[] = {};
 	};
 	class x00v04
 	{
@@ -90,7 +90,7 @@ class CfgSounds
 	{
 		name = "x00v09";
 		sound[] = {"x00v09.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x00v09};
+		titles[] = {};
 	};
 };
 

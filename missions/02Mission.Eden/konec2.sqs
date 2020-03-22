@@ -1,0 +1,10 @@
+~1
+
+leader player groupradio "away"
+hrac addrating -1000
+
+~8
+
+konec2=true
+
+exit

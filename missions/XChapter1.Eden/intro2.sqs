@@ -70,8 +70,6 @@ _camera camSetFOV 0.171
 _camera camCommit 3
 @camCommitted _camera
 
-~1
-
 titleCut ["","BLACK OUT",1]
 
 ~1

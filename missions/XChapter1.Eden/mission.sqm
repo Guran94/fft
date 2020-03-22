@@ -17,11 +17,13 @@ class Intro
 	{
 		"bis_resistance",
 		"Mini",
-		"Trabant"
+		"Trabant",
+		"m60mg"
 	};
 	addOnsAuto[]=
 	{
 		"bis_resistance",
+		"m60mg",
 		"Trabant",
 		"Mini"
 	};
@@ -29,7 +31,7 @@ class Intro
 	class Intel
 	{
 		briefingName="@STRCC_1";
-		startWeather=0.737619;
+		startWeather=0.537619;
 		forecastWeather=0.874988;
 		forecastFog=0.012556;
 		month=7;
@@ -1656,7 +1658,7 @@ class Intro
 					azimut=185.000000;
 					id=119;
 					side="WEST";
-					vehicle="SoldierWMG";
+					vehicle="M60e3soldier";
 					leader=1;
 					skill=0.600000;
 					text="honey";
@@ -1774,7 +1776,7 @@ class Intro
 					azimut=185.000000;
 					id=136;
 					side="WEST";
-					vehicle="SoldierWMG";
+					vehicle="M60e3soldier";
 					leader=1;
 					skill=0.600000;
 					text="stupid";
@@ -2788,7 +2790,7 @@ class Intro
 		};
 		class Item5
 		{
-			position[]={3261.256104,93.069199,6237.527344};
+			position[]={3272.283447,110.505394,6102.053711};
 			type="SWITCH";
 			age="UNKNOWN";
 			expCond="gogogo";
@@ -2800,7 +2802,7 @@ class Intro
 		};
 		class Item6
 		{
-			position[]={3367.923340,101.866119,6243.943848};
+			position[]={3375.274902,115.101898,6101.245117};
 			type="SWITCH";
 			age="UNKNOWN";
 			expCond="away";

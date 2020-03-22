@@ -1,13 +1,11 @@
 vporadku=false
 odpocet=true
 hrac addrating -1000
-serza sideradio "away1"
+serza sideradio "m01away1"
 
-~50
+~20
 
 @odpocet
-serza sideradio "away2"
-papa sideradio "away3"
 konec2=true
 
 exit

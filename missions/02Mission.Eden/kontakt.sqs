@@ -1,0 +1,11 @@
+"2" objstatus "done"
+leader player sideradio "m02r04"
+papa sideradio "m02r05"
+
+~25
+
+leader player groupradio "m02r06"
+vyjed=true
+"3" objstatus "active"
+
+exit

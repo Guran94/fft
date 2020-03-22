@@ -1,6 +1,4 @@
-playmusic "Song1"
-0 fademusic 0.2
-0 fadesound 0.5
+10 fademusic 0.2
 car lock true
 nastoupit=false
 away1=false
@@ -10,34 +8,35 @@ odpocet=false
 konec2=false
 away4=true
 jedem=true
+setacctime 1
 
 ~1
 
-serza say "mh03"
+serza say "m01v20"
 
 ~11
 
-serza say "mh04"
+serza say "m01v21"
 
 ~8
 
-marcot say "mh05"
+voj2 say "m01v22"
 
 ~2
 
-serza say "mh06"
+serza say "m01v23"
 
 ~10
 
-voj2 say "mh07"
+voj3 say "m01v24"
 
 ~0.5
 
-hrac say "mh08"
+voj4 say "m01v25"
 
 ~0.5
 
-voj3 say "mh09"
+hrac say "m01v05"
 
 ~2
 

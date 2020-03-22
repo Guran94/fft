@@ -1,9 +1,9 @@
 nepritel=true
-gran switchmove ""
-leader player sideradio "r04"
-durras sideradio "r05"
-morton sideradio "r06"
-papa sideradio "r07"
-papa sideradio "r08"
+setacctime 1
+leader player sideradio "m01r04"
+durras sideradio "m01r05"
+morton sideradio "m01r06"
+papa sideradio "m01r07"
+papa sideradio "m01r08"
 
 exit

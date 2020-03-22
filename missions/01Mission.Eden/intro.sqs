@@ -1,67 +1,80 @@
 titleCut ["","BLACK IN",3]
 playmusic "Track2"
 setacctime 1
-voj1 switchmove "effectstandtalk"
-gran switchmove "fxtohand"
+phill setmimic "normal"
+phill switchMove "FXSitHandsOnTable"
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-;zakladna
-
-;=== 8:21:36
-_camera camSetTarget [-72314.05,63957.57,-19795.04]
-_camera camSetPos [7264.67,6736.97,1.36]
+;base
+;=== 10:42:31
+_camera camSetTarget [-6642.67,101896.47,-27471.75]
+_camera camSetPos [7301.83,6768.95,1.20]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 8:22:08
-_camera camSetTarget [-21747.81,98535.07,-27004.43]
-_camera camSetPos [7264.67,6736.97,11.23]
+;=== 10:40:39
+_camera camSetTarget [-59566.25,73652.78,-32402.64]
+_camera camSetPos [7307.56,6756.78,17.32]
 _camera camSetFOV 0.700
-_camera camCommit 8
-@camCommitted _camera
-
-~2
-
-;vlajka a stan
-
-;=== 21:58:09
-_camera camSetTarget [1626.42,-91466.23,-17709.31]
-_camera camSetPos [7252.32,6778.31,6.66]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-
-~2
-
-;=== 21:58:31
-_camera camSetTarget [-61458.87,-48512.13,-47097.59]
-_camera camSetPos [7253.00,6778.94,7.36]
-_camera camSetFOV 0.402
 _camera camCommit 6
 @camCommitted _camera
 
 ~1
 
-2 fademusic 0.1
+;guard
+;=== 21:04:03
+_camera camSetTarget [-75497.55,61658.30,-11561.28]
+_camera camSetPos [7301.84,6797.05,6.96]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+
+~4
+
+;vlajka a stan
+
+;=== 10:40:09
+_camera camSetTarget [-53435.85,85596.38,-10119.15]
+_camera camSetPos [7255.02,6770.52,6.38]
+_camera camSetFOV 0.368
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:51:27
+_camera camSetTarget [-66631.57,-36219.50,-51850.57]
+_camera camSetPos [7254.55,6776.18,7.49]
+_camera camSetFOV 0.700
+_camera camCommit 5
+
+~4
+
+3 fademusic 0.2
 titleCut ["","BLACK OUT",1]
 
-~1
+~2
 
 titleCut ["","BLACK IN",1]
 
-;ve stanu
+;stan
+;=== 10:47:34
+_camera camSetTarget [73365.52,78757.50,-21090.43]
+_camera camSetPos [7244.21,6771.89,1.48]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
 
 playsound "telefon1"
 jason setmimic "normal"
 marcot setmimic "normal"
-;=== 8:28:47
-_camera camSetTarget [8721.05,-92786.63,-9223.78]
-_camera camSetPos [7244.64,6773.34,1.42]
+
+
+;=== 10:49:11
+_camera camSetTarget [-59940.50,77764.28,-21090.61]
+_camera camSetPos [7244.06,6770.03,1.49]
 _camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
+_camera camCommit 3
 
 ~2
 
@@ -74,28 +87,69 @@ playsound "telefon2"
 
 ~0.5
 
-jason say "ih09"
+jason say "m01v01"
+;jason
+;=== 10:51:47
+_camera camSetTarget [-47547.76,-72325.02,-27199.55]
+_camera camSetPos [7243.87,6772.60,1.62]
+_camera camSetFOV 0.700
+_camera camCommit 7
+@camCommitted _camera
 
-~7
 
-jason say "ih01"
+jason say "m01v02"
 
-~6
+;from jason to phill
+;=== 11:01:48
+_camera camSetTarget [57954.98,-77525.82,-17909.39]
+_camera camSetPos [7242.33,6773.73,1.50]
+_camera camSetFOV 0.684
+_camera camCommit 10
+
+~5
 
 jason setmimic "surprised"
+jason say "m01v03"
 
-~6
+~5
+
+;jason
+;=== 11:03:24
+_camera camSetTarget [-5105.57,-87815.90,-29981.14]
+_camera camSetPos [7242.43,6772.14,1.54]
+_camera camSetFOV 0.684
+_camera camCommit 0
+@camCommitted _camera
 
 jason setmimic "smile"
-jason say "ih02"
+jason say "m01v04"
+
+;=== 11:04:24
+_camera camSetTarget [-81139.98,-39919.23,2928.20]
+_camera camSetPos [7243.43,6770.86,1.05]
+_camera camSetFOV 0.462
+_camera camCommit 12
+
 
 ~7
 
-jason addweapon "phone"
+jason say "m01v05"
+
+~5
+
 jason switchmove "fxstanddroptel"
+jason addweapon "phone"
 
-~3
+;from table
+;=== 11:52:33
+_camera camSetTarget [-2934.56,-92472.00,-6824.46]
+_camera camSetPos [7242.61,6772.36,1.41]
+_camera camSetFOV 0.700
+_camera camCommit 8
 
+~4
+
+titleCut ["","BLACK OUT",2]
 playsound "telefon3"
 tel2 setpos getmarkerpos "tele"
 tel3 setpos getmarkerpos "tel"
@@ -103,60 +157,72 @@ tel3 setPos [getPos tel3 select 0,getPos tel3 select 1,(getPos tel3 select 2)+1]
 jason switchMove "FXStandFromTable"
 jason setmimic "smile"
 marcot dowatch jason
-jason say "ih03"
-
-~4
-
-marcot say "ih04"
-
-~1
-
-jason dowatch marcot
-jason say "ih05"
+jason say "m01v06"
 
 ~3
 
-marcot setmimic "surprised"
-marcot say "ih06"
-;=== 17:50:54
-_camera camSetTarget [-61198.91,-66048.81,-3490.65]
-_camera camSetPos [7245.56,6773.08,1.58]
-_camera camSetFOV 0.457
+titleCut ["","BLACK IN",1]
+
+twombly setdir 0
+twombly setmimic "smile"
+phill dowatch twombly
+phill setdir 180
+deletevehicle jason
+phill switchMove "onChair"
+twombly setpos getmarkerpos "jason"
+
+phill say "m01v07"
+
+;both
+;=== 11:58:28
+_camera camSetTarget [91064.84,46409.92,-37422.34]
+_camera camSetPos [7243.41,6770.54,2.03]
+_camera camSetFOV 0.388
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:59:44
+_camera camSetTarget [100902.09,-4946.52,-32995.03]
+_camera camSetPos [7243.07,6771.95,2.04]
+_camera camSetFOV 0.388
+_camera camCommit 6
+
+
+twombly say "m01v08"
+
+~3
+
+phill say "m01v09"
+
+~3
+
+;jason
+;=== 12:05:43
+_camera camSetTarget [88323.32,-49033.77,17685.76]
+_camera camSetPos [7243.78,6772.53,0.93]
+_camera camSetFOV 0.494
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+twombly say "m01v10"
 
-jason say "ih07"
-;=== 17:51:43
-_camera camSetTarget jason
-_camera camSetPos [7244.03,6773.95,1.41]
-_camera camSetFOV 0.313
-_camera camCommit 0
-@camCommitted _camera
+~6
 
-~8
-
-marcot setmimic "smile"
-;=== 8:28:47
-_camera camSetTarget [8721.05,-92786.63,-9223.78]
-_camera camSetPos [7244.64,6773.34,1.42]
+;phill
+;=== 12:15:03
+_camera camSetTarget [77124.56,76418.27,-16274.52]
+_camera camSetPos [7243.85,6770.06,1.14]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-marcot say "ih08"
 
-~1
+phill say "m01v11"
+7 fademusic 0
+~4
 
-jdi=true
-
-3 fademusic 0
-titleCut ["","BLACK OUT",3]
+titleCut ["","BLACK OUT",2]
 
 ~3
 
-konec=true
-player cameraEffect ["terminate","back"]
-camDestroy _camera
+end=true
 
 exit

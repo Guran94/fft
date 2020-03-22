@@ -1,0 +1,8 @@
+civil1 say "mh14"
+
+~5
+
+hint localize "STRCH"
+hrac addrating 2000
+
+exit
