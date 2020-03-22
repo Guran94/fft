@@ -9,33 +9,37 @@ away2=true
 away3=true
 away4=false
 jedem=false
-playmusic "Song1"
+playmusic "fft_track5"
 0 fademusic 0.2
-voj1 switchmove "effectstandtalk"
-gran switchmove "fxtohand"
 setacctime 1
 tel1 setpos getmarkerpos "tel"
 tel1 setPos [getPos tel1 select 0,getPos tel1 select 1,(getPos tel1 select 2)+1]
 ClearWeaponCargo ammo
 ClearMagazineCargo ammo
-ammo AddWeaponCargo ["M16GrenadeLauncher",1]
-ammo AddMagazineCargo ["GrenadeLauncher",3]
+ClearWeaponCargo ammo2
+ClearMagazineCargo ammo2
+ammo2 AddMagazineCargo ["M16",1]
+ammo AddWeaponCargo ["M16",1]
+ammo AddMagazineCargo ["M16",4]
+ammo AddMagazineCargo ["Handgrenade",10]
 ClearWeaponCargo car
 ClearMagazineCargo car
+setacctime 1
 
-marcot say "mh01"
-
-~5
-
-hintc localize "STRMH_1"
+phill say "m01v12"
 
 ~1
 
-hrac say "mh02"
+phill switchMove "FXSitHandsOnTable"
 
-@nastoupit
+~3
 
-marcot AssignAsCargo car
-[marcot] ordergetin true
+hintc localize "STRM_m01hint1"
+
+~1
+
+hrac say "m01v13"
+
+
 
 exit

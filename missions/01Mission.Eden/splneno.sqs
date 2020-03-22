@@ -1,5 +1,6 @@
-leader player sideradio "r09"
-hrac addrating 1000
+leader player sideradio "m01r09"
+hrac addrating 100
+setacctime 1
 
 ~15
 

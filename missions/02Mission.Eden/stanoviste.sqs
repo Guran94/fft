@@ -1,0 +1,9 @@
+titletext ["","plain"]
+serza sideradio "m02r02"
+papa sideradio "m02r03"
+
+~5
+
+savegame
+
+exit

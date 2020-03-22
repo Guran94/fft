@@ -93,7 +93,6 @@ skiptime 1
 
 titleCut ["","BLACK IN",2]
 rus reveal rashiv
-setacctime 1
 jason switchmove "FXStandSurUniv"
 jason stop true
 jason setmimic "normal"
@@ -162,6 +161,8 @@ _camera camSetFOV 0.700
 _camera camCommit 4
 @camCommitted _camera
 
+3 fademusic 0.2
+
 ~1
 
 titleCut ["","BLACK OUT",1]
@@ -172,6 +173,8 @@ titletext [ localize "STRM_x00v02","plain"]
 playsound "x00v02"
 
 ~5
+
+3 fademusic 1
 
 move=true
 
@@ -213,20 +216,22 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
+3 fademusic 0.2
 ~3
 
 titleCut ["","BLACK OUT",1]
 
-1 fadesound 0
+0 fadesound 0
 
 ~1
 
 titletext [ localize "STRM_x00v03","plain"]
 playsound "x00v03"
 
-~5
+~7
 
-1 fadesound 1
+3 fademusic 1
+0 fadesound 1
 titleCut ["","BLACK IN",1]
 
 ;flag
@@ -242,8 +247,6 @@ _camera camSetPos [7253.34,6770.36,6.31]
 _camera camSetFOV 0.700
 _camera camCommit 7
 @camCommitted _camera
-
-~2
 
 10 fademusic 0
 ;lemontov
@@ -310,6 +313,7 @@ titleCut ["","BLACK OUT",1]
 
 titleCut ["","BLACK IN",1]
 
+
 ;inside
 ;=== 23:10:34
 _camera camSetTarget [-77976.41,57838.28,-11284.06]
@@ -327,7 +331,7 @@ _camera camCommit 5
 
 lem say "x00v04"
 
-~2
+~6
 
 ;jason
 ;=== 23:12:04
@@ -340,8 +344,14 @@ _camera camCommit 0
 _camera camSetTarget [-28730.35,98368.40,-17654.14]
 _camera camSetPos [7251.01,6757.50,1.77]
 _camera camSetFOV 0.700
-_camera camCommit 5
-@camCommitted _camera
+_camera camCommit 11
+
+~5
+
+lem say "x00v05"
+
+~6
+
 
 ;lemontov
 ;=== 23:13:05
@@ -351,7 +361,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~5
 
 ;jason
 ;=== 23:17:47
@@ -361,12 +371,12 @@ _camera camSetFOV 0.418
 _camera camCommit 0
 @camCommitted _camera
 
-~4
+~3
 
-twom say "x00v05"
+twom say "x00v06"
 twom setmimic "angry"
 
-~2
+~6
 
 ;all
 ;=== 23:30:26
@@ -379,7 +389,7 @@ _camera camCommit 0
 _camera camSetTarget [-63806.25,-62176.17,-14061.18]
 _camera camSetPos [7251.82,6759.67,1.62]
 _camera camSetFOV 0.700
-_camera camCommit 5
+_camera camCommit 6
 @camCommitted _camera
 
 ;lemontov
@@ -390,7 +400,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-lem say "x00v06"
+lem say "x00v07"
 
 ~3
 
@@ -462,7 +472,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-off say "x00v07"
+off say "x00v08"
 
 ~1
 
@@ -508,7 +518,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-off say "x00v08"
+off say "x00v09"
 
 ~1
 
@@ -578,7 +588,7 @@ _camera camCommit 0
 @camCommitted _camera
 
 titletext [ localize "STRM_x00v09","plain"]
-playsound "x00v09"
+playsound "x00v10"
 
 ;=== 13:03:11
 _camera camSetTarget [-66088.33,63810.09,-38706.67]

@@ -1,0 +1,70 @@
+playmusic "track5"
+
+~35
+
+setacctime 1
+voj1 say "m02v08"
+
+~6
+
+hrac say "m02v09"
+
+~4
+
+voj2 say "m02v10"
+
+~3
+
+hrac say "m02v11"
+
+~3
+
+voj3 say "m02v12"
+
+~6
+
+voj4 say "m02v13"
+
+~5
+
+hrac say "m02v14"
+
+~4
+
+serza say "m02v15"
+
+~1
+
+serza say "m02v16"
+
+~3
+
+voj1 say "m02v17"
+voj2 say "m02v17"
+voj3 say "m02v17"
+voj4 say "m02v17"
+voj5 say "m02v17"
+voj6 say "m02v17"
+
+~2
+
+serza say "m02v18"
+
+~2
+
+5 fadesound 1
+5 fademusic 0.5
+
+@vystoupit
+
+0 fadesound 0.1
+0 fademusic 0.2
+car sideradio "m02r01"
+car lock false
+
+~6
+
+5 fadesound 1
+5 fademusic 0.5
+
+exit

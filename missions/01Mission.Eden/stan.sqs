@@ -1,16 +1,15 @@
-voj7 say "mh14"
+voj7 say "m01v17"
 
 ~2
 
-hrac say "mh15"
+hrac say "m01v18"
 
 ~1
 
-voj7 say "mh16"
+voj7 say "m01v19"
 
 ~1
 
-hint localize "STRCH"
-hrac addrating 2000
+hrac addrating 100
 
 exit

@@ -1,0 +1,39 @@
+LANGUAGE,"english","Comment"
+
+STRM_ONLOAD_INTRO,"The war has begun","loading screen"
+STRM_ONLOAD_MISSION,"Montignac, the main HQ","loading screen"
+
+STRM_m02v01,"So it began. The Everon's unrest.","Jason"
+STRM_m02v02,"The rebels started attacking our convoys and declared us the state of war.","Jason"
+STRM_m02v03,"Their bases were introduced like forest, where American soldier left there his food it meant death for him.","Jason"
+STRM_m02v04,"My memories are alive.\nWhen I met myself face-to-face with our enemy in the forest, I realized three things\n- that I am not going to go home, that I could lose my life, and that the United States are in the war.","Jason"
+STRM_m02v05,"I was in my tent after my first fight.\nI couldn't get over that my home has left me. I was so close to achieve the leaving of this island, where I spent two years of my life.","Jason"
+STRM_m02v06,"My home is away...","Jason"
+STRM_m02v07,"Twombly! Stop screaming and move! We've got a job, come on soldier! Move! Move! Move!","muday"
+
+STRM_m02v08,"Dude, Twombly, couldn't you get out of here, shit?","anybody"
+STRM_m02v09,"Fuck you!","jason"
+STRM_m02v10,"Stay calm. Worse would be if he pissed and shit himself.","anybody"
+STRM_m02v11,"Fuck yourselves, peaces of shits!","jason"
+STRM_m02v12,"So you don't get over your ass, dude!","anybody"
+STRM_m02v13,"You're fucking Bolshevik, Twombly.Aren't you a Russian agent? Didn't you just trigger the rebellion?","anybody"
+STRM_m02v14,"Fuck you, asshole!","jason"
+STRM_m02v15,"Hey, hey, didn't you stop with this now?\nWe've got an important mission here and you solve these shits?\nDo you want to fight rebels or among yourselves?","muday"
+STRM_m02v16,"I'll hear somebody's fuckin 'somebody up here and you're gonna suck my dick toothless.\nAnd I'm fuckin 'who of you assholes will do that. Understood?","muday"
+STRM_m02v17,"Sir, yes, sir!","all"
+STRM_m02v18,"Well and shut the fuck up already. We will there in a moment.","muday"
+STRM_m02v19,"Go! Go! Go!","muday"
+
+STRM_m02r01,"FUCK. WHAT A MESS. I'LL UNLOAD YOU HERE. I WILL NOT TRY TO GO FURTHER.","driver"
+STRM_m02r02,"PAPA BEAR, HERE'S ALPHA SQUAD. THE OUTPOST AT BH42 COORDINATES WAS VISITED BY THE REBELS AND EVERYONE WERE KILLING. WE GO FURTHER BY THE PLAN, OVER.","muday"
+STRM_m02r03,"CONFIRM ALPHA. ANYWAY DON'T GO CLOSE TO THAT FOREST AND BE CAREFUL. ANY PROBLEMS CERTAINLY REPORT. PAPA BEAR OUT.","papa"
+STRM_m02r04,"PAPA BEAR WE CAME TO LATE. WE OPENED FIRE ON SEVERAL REBELS IN THE DEPOT. I REQUEST NEW ORDERS, OVER.","muday"
+STRM_m02r05,"COPY THAT, ALPHA. HOLD ON THERE. WE ARE SENDING AN APC FROM LAMENTIN TO YOU AND WHAT ABOUT THE DEPOT - THE AMMO DESTROY OF COURSE. WE DON'T TO REBELS TO HURT THEMSELVES BY OUR WEAPONS.","papa"
+STRM_m02r06,"WELL... TWOMBLY LOOK AFTER SOME EXPLOSIVES AND BLAST THEM OFF UNTILL WE WILL AT SUFFICIENT DISTANCE.","muday"
+STRM_m02r07,"ALPHA SQUAD, GET ABOARD! WE'VE GOT TO MOVE OUT QUICKLY.","M113"
+
+
+STRMM_01,"Start","marker"
+
+
+STRMW_01,"Ammo depot","waypoint"

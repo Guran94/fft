@@ -5,6 +5,10 @@ titleCut ["","BLACK IN",2]
 
 0 fademusic 1
 playmusic "track8"
+stalin dowatch lenin
+reb1 dowatch lenin
+reb2 dowatch lenin
+reb3 dowatch lenin
 stalin setbehaviour "aware"
 reb1 setbehaviour "aware"
 reb2 setbehaviour "aware"
@@ -80,7 +84,7 @@ titleCut ["","BLACK OUT",2]
 
 ~2
 
-6 fademusic 1
+4 fademusic 1
 playMusic ["chaptertheme", 9.5]
 titletext [ localize "STRM_x01v23","plain"]
 playsound "x01v23"

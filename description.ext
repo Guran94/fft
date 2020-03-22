@@ -42,30 +42,30 @@ class CfgMusic
 		name = "FFT - Chapter Theme";
 		sound[] = {"\Music\ChapterTheme.ogg", db+0, 1.0};
 	};
-	class Track1
+	class FFT_Track1
 	{
 		name = "FFT - Track 1";
 		sound[] = {"\Music\Track1.ogg", db+0, 1.0};
 	};
-	class Track2
+	class FFT_Track2
 	{
 		name = "FFT - Track 2";
 		sound[] = {"\Music\Track2.ogg", db+0, 1.0};
 	};
-	class Track3
+	class FFT_Track3
 	{
 		name = "FFT - Track 3";
 		sound[] = {"\Music\Track3.ogg", db+0, 1.0};
 	};
-	class Track4
+	class FFT_Track4
 	{
 		name = "FFT - Track 4";
 		sound[] = {"\Music\Track4.ogg", db+0, 1.0};
 	};
-	class StevieWonder
+	class FFT_Track5
 	{
-		name = "Stevie Wonder - Superstition";
-		sound[] = {"\Music\StevieWonder.ogg", db+0, 1.0};
+		name = "FFT - Track 5";
+		sound[] = {"\Music\Track5.ogg", db+0, 1.0};
 	};
 };
 
@@ -73,7 +73,7 @@ class CfgIdentities
 {
   class Player1
   {
-    name = "Jason Smith";
+    name = "Jason Twombly";
     face = "Face9";
     glasses = "Not";
     speaker = "Jonah";
@@ -127,9 +127,9 @@ class CfgIdentities
     speaker = "Adam";
     pitch = 1.00;
   };
-  class Marcot
+  class Phill
   {
-    name = "Phil Marcot";
+    name = "Phill";
     face = "Face13";
     glasses = "Spectacles";
     speaker = "John";
@@ -232,23 +232,35 @@ class CfgIdentities
 class Campaign
 {
   name = "Fight for territory";
-  firstBattle = Chapter1;
+  firstBattle = Prologue;
 
-  class Chapter1
+  class Prologue
   {
   name = "Unrest";
 
   cutscene = ;
 
-  firstMission = XChapter1;
-  lost = Chapter2;
-  end1 = Chapter2;
-  end2 = Chapter2;
-  end3 = Chapter2;
-  end4 = Chapter2;
-  end5 = Chapter2;
-  end6 = Chapter2;
+  firstMission = XPrologue;
+  lost = Chapter1;
+  end1 = Chapter1;
+  end2 = Chapter1;
+  end3 = Chapter1;
+  end4 = Chapter1;
+  end5 = Chapter1;
+  end6 = Chapter1;
 
+  class XPrologue: MissionDefault
+  {
+    noAward=true;
+    end1 = XChapter1;
+    end2 = XChapter1;
+    end3 = XChapter1;
+    end4 = XChapter1;
+    end5 = XChapter1;
+    end6 = XChapter1;
+    lost = XChapter1;
+    template = XPrologue.Eden;
+  };
   class XChapter1: MissionDefault
   {
     noAward=true;
@@ -263,35 +275,35 @@ class Campaign
   };
   class 01Mission: MissionDefault
   {
-    end1 = 02aMission;
-    end2 = 02aMission;
-    end3 = 01Mission;
-    end4 = 01Mission;
-    end5 = 01Mission;
-    end6 = 01Mission;
-    lost = 01Mission;
+    end1 = 02Mission;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 01Mission.Eden;
   };
-  class 02aMission: MissionDefault
+  class 02Mission: MissionDefault
   {
     end1 = 03Mission;
-    end2 = 02aMission;
-    end3 = 02aMission;
-    end4 = 02aMission;
-    end5 = 02aMission;
-    end6 = 02aMission;
-    lost = 02aMission;
-    template = 02aMission.Eden;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
+    template = 02Mission.Eden;
   };
   class 03Mission: MissionDefault
   {
     end1 = 04Mission;
-    end2 = 03Mission;
-    end3 = 03Mission;
-    end4 = 03Mission;
-    end5 = 03Mission;
-    end6 = 03Mission;
-    lost = 03Mission;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 03Mission.Eden;
   };
   class 04Mission: MissionDefault
