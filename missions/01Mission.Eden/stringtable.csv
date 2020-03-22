@@ -5,7 +5,7 @@ STR_ONLOAD_INTRO,"Base","loading screen"
 STRM_m01hint1,"Pick up your equipment in the next tent.","hint"
 STRM_m01hint2,"Well done! Now, you can go right in front of the base and wait for sergeant Muday's squad, or you can spend your waiting just walking around in the base.","hint"
 
-STRM_m01v01,"Chicago 4 HQ who's calling?","Jason"
+STRM_m01v01,"Chicago 4 base who's calling?","Jason"
 STRM_m01v02,"Yes, of course. Everything is alright, sir...","Jason"
 STRM_m01v03,"What today? I thought...","Jason"
 STRM_m01v04,"Ok, understand, sir... I'll take care of it.","Jason"

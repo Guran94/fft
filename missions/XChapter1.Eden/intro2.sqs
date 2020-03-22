@@ -135,7 +135,7 @@ _camera camCommit 4
 ~1
 
 jean setmimic "normal"
-wife say "x01v24"
+wife say "x01v33"
 jean dowatch wife
 
 ~1
@@ -156,7 +156,7 @@ jean setpos getmarkerpos "jean"
 titleCut ["","BLACK IN",1]
 
 jean setmimic "normal"
-jean say "x01v25"
+jean say "x01v34"
 jean dowatch t1
 
 ;both

@@ -2,28 +2,24 @@ titleCut ["","BLACK OUT",2]
 go2=true
 jason setmimic "normal"
 g1 setmimic "normal"
+2 fadesound 0
+2 fademusic 0.2
 
 ~2
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-;neutral
-;=== 11:13:18
-_camera camSetTarget [426.82,112293.72,1.89]
-_camera camSetPos [426.82,12293.72,1.89]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-
 deletevehicle uh
 titletext [ localize "STRM_x01v01","plain"]
 playsound "x01v01"
 
-~5
+~11
 
 titleCut ["","BLACK IN",2]
 
+2 fadesound 1
+2 fademusic 1
 
 ;uh
 ;=== 10:55:34
@@ -92,10 +88,8 @@ g1 say "x01v03"
 _camera camSetTarget [-86592.49,-29638.43,152.83]
 _camera camSetPos [7522.87,4159.46,0.94]
 _camera camSetFOV 0.700
-_camera camCommit 2
+_camera camCommit 3
 @camCommitted _camera
-
-~2
 
 jason say "x01v04"
 
@@ -111,18 +105,14 @@ _camera camCommit 0
 
 ~2
 
+2 fadesound 0
+2 fademusic 0.2
+
+
 titleCut ["","BLACK OUT",2]
 
 ~2
 
-8 fademusic 0
-;neutral
-;=== 11:13:18
-_camera camSetTarget [426.82,112293.72,1.89]
-_camera camSetPos [426.82,12293.72,1.89]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
 private1 disableai "autotarget"
 private2 disableai "autotarget"
 private3 disableai "autotarget"
@@ -177,7 +167,10 @@ skiptime 3
 titletext [ localize "STRM_x01v02","plain"]
 playsound "x01v02"
 
-~5
+~16
+
+2 fadesound 1
+2 fademusic 0
 
 titleCut ["","BLACK IN",2]
 
@@ -189,7 +182,7 @@ _camera camSetFOV 0.393
 _camera camCommit 0
 @camCommitted _camera
 
-~1
+~2
 
 muday say "x01v06"
 
@@ -216,7 +209,7 @@ _camera camCommit 0
 _camera camSetTarget [24249.78,-94222.06,6350.11]
 _camera camSetPos [7480.30,4166.79,0.98]
 _camera camSetFOV 0.437
-_camera camCommit 5
+_camera camCommit 4
 @camCommitted _camera
 
 ;=== 12:49:39
@@ -226,7 +219,7 @@ _camera camSetFOV 0.542
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~2
 
 ;muday
 ;=== 12:48:51
@@ -236,7 +229,7 @@ _camera camSetFOV 0.355
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~2
 
 muday dowatch [6428.97,103816.45,-8131.97]
 muday say "x01v05"
@@ -281,15 +274,17 @@ _camera camCommit 0
 _camera camSetTarget [-34513.99,94914.30,1213.40]
 _camera camSetPos [7478.80,4164.75,1.24]
 _camera camSetFOV 0.376
-_camera camCommit 6
+_camera camCommit 3
 
 muday say "x01v08"
 
-~4
+~2
 
 twombly say "x01v09"
 
-~2
+~1
+
+muday say "x01v10"
 
 twombly switchmove ""
 
@@ -300,8 +295,6 @@ _camera camSetPos [7476.37,4168.40,1.30]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-
-muday say "x01v10"
 
 ~5
 
@@ -324,23 +317,19 @@ twombly say "x01v11"
 titletext [ localize "STRM_x01v12","plain"]
 playsound "x01v12"
 
-~3
+~5
+
+2 fadesound 0
+playmusic "rtrack9"
+0 fademusic 0.2
 
 titleCut ["","BLACK OUT",2]
 
 ~2
 
-;neutral
-;=== 11:13:18
-_camera camSetTarget [426.82,112293.72,1.89]
-_camera camSetPos [426.82,12293.72,1.89]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-
 titletext [ localize "STRM_x01v13","plain"]
 playsound "x01v13"
 
-~5
+~7
 
 [] exec "intro4.sqs"

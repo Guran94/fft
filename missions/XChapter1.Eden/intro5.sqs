@@ -6,6 +6,8 @@ mud setmimic "angry"
 skiptime 1.5
 mud switchmove "fxtohand"
 mud disableai "autotarget"
+1 fadesound 1
+1 fademusic 1
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
@@ -77,7 +79,8 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
-playmusic "rtrack9"
+2 fadesound 0
+2 fademusic 0.2
 ;neutral
 ;=== 11:13:18
 _camera camSetTarget [426.82,112293.72,1.89]
@@ -89,12 +92,12 @@ _camera camCommit 0
 titletext [ localize "STRM_x01v15","plain"]
 playsound "x01v15"
 
-~5
+~13
 
 skiptime 1
 titletext [ localize "STRM_x01v16","plain"]
 playsound "x01v16"
 
-~5
+~19
 
 [] exec "intro6.sqs"

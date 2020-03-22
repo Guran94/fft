@@ -41,7 +41,7 @@ class Intro
 	};
 	class Groups
 	{
-		items=71;
+		items=72;
 		class Item0
 		{
 			side="WEST";
@@ -1957,6 +1957,24 @@ class Intro
 					skill=0.600000;
 					text="lenin";
 					init="this setidentity ""poincare""; this setbehaviour ""careless""";
+				};
+			};
+		};
+		class Item71
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7539.357910,153.426895,4222.437500};
+					id=149;
+					side="WEST";
+					vehicle="SoldierWB";
+					leader=1;
+					skill=0.600000;
+					init="this setbehaviour ""careless""";
 				};
 			};
 		};

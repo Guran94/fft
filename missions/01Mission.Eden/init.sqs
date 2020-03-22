@@ -18,10 +18,7 @@ ClearWeaponCargo ammo
 ClearMagazineCargo ammo
 ClearWeaponCargo ammo2
 ClearMagazineCargo ammo2
-ammo2 AddMagazineCargo ["M16",1]
 ammo AddWeaponCargo ["M16",1]
-ammo AddMagazineCargo ["M16",4]
-ammo AddMagazineCargo ["Handgrenade",10]
 ClearWeaponCargo car
 ClearMagazineCargo car
 setacctime 1
