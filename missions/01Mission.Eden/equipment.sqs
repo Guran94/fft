@@ -1,3 +1,14 @@
 hint localize "STRM_m01hint2"
 
 hrac addrating 100
+
+hrac addmagazine "m16"
+hrac addmagazine "m16"
+hrac addmagazine "m16"
+hrac addmagazine "m16"
+hrac addmagazine "handgrenade"
+hrac addmagazine "handgrenade"
+hrac addmagazine "handgrenade"
+hrac addmagazine "handgrenade"
+hrac addmagazine "handgrenade"
+hrac addmagazine "handgrenade"

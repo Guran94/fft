@@ -3788,7 +3788,7 @@ class Mission
 			azimut=340.000000;
 			id=88;
 			side="EMPTY";
-			vehicle="Primitiva";
+			vehicle="Barrel1";
 			skill=0.600000;
 		};
 		class Item49
@@ -4118,7 +4118,7 @@ class Mission
 			position[]={3135.371338,46.834396,3946.138916};
 			repeating=1;
 			age="UNKNOWN";
-			text="Uložit";
+			text="Uloï¿½it";
 			expCond="true";
 			expActiv="hrac addaction [localize ""STRCSG"",""ulozit.sqs""]";
 			class Effects

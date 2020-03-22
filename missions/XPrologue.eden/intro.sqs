@@ -178,7 +178,7 @@ playsound "x00v02"
 
 move=true
 
-~3
+~4
 
 titleCut ["","BLACK IN",1]
 
@@ -331,7 +331,7 @@ _camera camCommit 5
 
 lem say "x00v04"
 
-~6
+~3
 
 ;jason
 ;=== 23:12:04
@@ -344,9 +344,9 @@ _camera camCommit 0
 _camera camSetTarget [-28730.35,98368.40,-17654.14]
 _camera camSetPos [7251.01,6757.50,1.77]
 _camera camSetFOV 0.700
-_camera camCommit 11
+_camera camCommit 8
 
-~5
+~4
 
 lem say "x00v05"
 
@@ -361,7 +361,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~6
 
 ;jason
 ;=== 23:17:47
@@ -376,20 +376,20 @@ _camera camCommit 0
 twom say "x00v06"
 twom setmimic "angry"
 
-~6
+~3
 
-;all
-;=== 23:30:26
-_camera camSetTarget [-91052.87,18489.56,-14061.42]
-_camera camSetPos [7251.82,6759.67,1.62]
+;jason
+;=== 23:12:04
+_camera camSetTarget [-50770.88,86260.66,-17654.21]
+_camera camSetPos [7251.40,6758.27,1.80]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 23:30:48
-_camera camSetTarget [-63806.25,-62176.17,-14061.18]
-_camera camSetPos [7251.82,6759.67,1.62]
+;=== 23:12:44
+_camera camSetTarget [-28730.35,98368.40,-17654.14]
+_camera camSetPos [7251.01,6757.50,1.77]
 _camera camSetFOV 0.700
-_camera camCommit 6
+_camera camCommit 10
 @camCommitted _camera
 
 ;lemontov
@@ -400,6 +400,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
+twom setmimic "surprised"
 lem say "x00v07"
 
 ~3
@@ -411,8 +412,6 @@ _camera camSetPos [7250.73,6758.89,1.58]
 _camera camSetFOV 0.418
 _camera camCommit 0
 @camCommitted _camera
-
-twom setmimic "surprised"
 
 ~2
 
@@ -448,6 +447,10 @@ _camera camCommit 5
 
 ~2
 
+r1 dotarget jas
+r2 dotarget pri1
+r3 dotarget pri2
+r4 dotarget pri3
 ;prisoners and jason
 ;=== 12:13:29
 _camera camSetTarget [106212.19,-982.68,-997.79]
@@ -533,6 +536,8 @@ playmusic "maintheme"
 
 ~0.5
 
+0 fadesound 0
+
 ;jason
 ;=== 14:00:10
 _camera camSetTarget jas
@@ -587,7 +592,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-titletext [ localize "STRM_x00v09","plain"]
+titletext [ localize "STRM_x00v10","plain"]
 playsound "x00v10"
 
 ;=== 13:03:11

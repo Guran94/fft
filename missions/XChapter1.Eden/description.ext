@@ -167,13 +167,13 @@ class CfgSounds
 	{
 		name = "x01v24";
 		sound[] = {"x01v24.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x01v24};
+		titles[] = {};
 	};
 	class x01v25
 	{
 		name = "x01v25";
 		sound[] = {"x01v25.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x01v25};
+		titles[] = {};
 	};
 	class x01v26
 	{
@@ -199,6 +199,12 @@ class CfgSounds
 		sound[] = {"x01v29.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_x01v29};
 	};
+	class x01v29b
+	{
+		name = "x01v29b";
+		sound[] = {"x01v29b.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class x01v30
 	{
 		name = "x01v30";
@@ -216,6 +222,18 @@ class CfgSounds
 		name = "x01v32";
 		sound[] = {"x01v32.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_x01v32};
+	};
+	class x01v33
+	{
+		name = "x01v33";
+		sound[] = {"x01v33.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x01v33};
+	};
+	class x01v34
+	{
+		name = "x01v34";
+		sound[] = {"x01v34.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x01v34};
 	};
 };
 

@@ -1,7 +1,7 @@
 LANGUAGE,"english","Comment"
 
 STRM_ONLOAD_INTRO,"The war has begun","loading screen"
-STRM_ONLOAD_MISSION,"Montignac, the main HQ","loading screen"
+STRM_ONLOAD_MISSION,"Montignac HQ","loading screen"
 
 STRM_m02v01,"So it began. The Everon's unrest.","Jason"
 STRM_m02v02,"The rebels started attacking our convoys and declared us the state of war.","Jason"

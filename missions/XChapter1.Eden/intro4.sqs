@@ -1,4 +1,6 @@
 titleCut ["","BLACK IN",2]
+2 fadesound 1
+2 fademusic 1
 
 skiptime 1
 go4=true
@@ -42,21 +44,17 @@ _camera camCommit 7
 
 ~6
 
+1 fadesound 0
+1 fademusic 0.2
+
 titleCut ["","BLACK OUT",1]
 
 ~1
-
-;neutral
-;=== 11:13:18
-_camera camSetTarget [426.82,112293.72,1.89]
-_camera camSetPos [426.82,12293.72,1.89]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-
+2 fadesound 0
+2 fademusic 0.2
 titletext [ localize "STRM_x01v14","plain"]
 playsound "x01v14"
 
-~5
+~7
 
 [] exec "intro5.sqs"
