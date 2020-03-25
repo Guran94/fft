@@ -12,7 +12,7 @@ voj6 setmimic "normal"
 "3" objstatus "hidden"
 alarm=true
 papa=[West, "HQ"]
-
+setacctime 1
 clearmagazinecargo mun1
 clearweaponcargo mun1
 clearmagazinecargo mun2

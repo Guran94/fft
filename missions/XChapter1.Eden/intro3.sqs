@@ -320,7 +320,6 @@ playsound "x01v12"
 ~5
 
 2 fadesound 0
-playmusic "rtrack9"
 0 fademusic 0.2
 
 titleCut ["","BLACK OUT",2]
