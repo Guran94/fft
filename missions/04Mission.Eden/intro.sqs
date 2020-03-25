@@ -1,44 +1,86 @@
 setacctime 1
+0 fadesound 0
 titleCut ["","BLACK IN",3]
-playmusic "Song3"
+playmusic "fft_track1"
 civil1 setmimic "smile"
 civil2 setmimic "smile"
 civil1 switchmove "effectstandtalk"
-jason switchmove "FXInKneel"
-jason setmimic "sad"
 voj1 switchmove "FXInKneel"
 voj1 setmimic "sad"
+jean setmimic "smile"
+jean stop true
+jean disableai "autotarget"
+r1 disableai "autotarget"
+r1 stop true
+r1 switchmove "FXStandAtt"
+r2 disableai "autotarget"
+r2 stop true
+r2 switchmove "FXStandAtt"
+r3 disableai "autotarget"
+r3 stop true
+r3 switchmove "FXStandAtt"
+r4 disableai "autotarget"
+r4 stop true
+r4 switchmove "FXStandAtt"
+r5 disableai "autotarget"
+r5 stop true
+r5 switchmove "FXStandAtt"
+r6 disableai "autotarget"
+r6 stop true
+r6 switchmove "FXStandAtt"
+r7 disableai "autotarget"
+r7 stop true
+r7 switchmove "FXStandAtt"
+r8 disableai "autotarget"
+r8 stop true
+r8 switchmove "FXStandAtt"
+r9 disableai "autotarget"
+r9 stop true
+r9 switchmove "FXStandAtt"
+r10 disableai "autotarget"
+r10 stop true
+r10 switchmove "FXStandAtt"
+r1 setmimic "normal"
+r2 setmimic "normal"
+r3 setmimic "normal"
+r4 setmimic "normal"
+r5 setmimic "normal"
+r6 setmimic "normal"
+r7 setmimic "normal"
+r8 setmimic "normal"
+r9 setmimic "normal"
+r10 setmimic "normal"
+p1 disableai "autotarget"
+p2 disableai "autotarget"
+p3 disableai "autotarget"
+p1 stop true
+p2 stop true
+p3 stop true
+p1 switchmove "FXStandSurUniv"
+p2 switchmove "FXStandSurUniv"
+p3 switchmove "FXStandSurUniv"
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-;pevnost
-
-;=== 22:09:42
-_camera camSetTarget [62414.65,88152.95,-8931.22]
-_camera camSetPos [4926.44,6836.05,4.22]
-_camera camSetFOV 0.278
+;montignac
+;=== 1:53:31
+_camera camSetTarget [-85383.88,48964.61,-7961.45]
+_camera camSetPos [4963.56,6876.97,2.29]
+_camera camSetFOV 0.502
 _camera camCommit 0
 @camCommitted _camera
-;=== 22:09:54
-_camera camSetTarget [55594.66,93034.96,1514.16]
-_camera camSetPos [4924.95,6833.20,2.04]
-_camera camSetFOV 0.297
-_camera camCommit 10
-@camCommitted _camera
+
+6 fadesound 1
 
 ~2
 
-;tanky
-
-;=== 22:10:40
-_camera camSetTarget m60
-_camera camSetPos [4943.46,6880.50,1.65]
-_camera camSetFOV 0.441
-_camera camCommit 0
+;=== 1:53:59
+_camera camSetTarget [-93509.13,22149.12,-7960.05]
+_camera camSetPos [4981.67,6885.31,2.29]
+_camera camSetFOV 0.653
+_camera camCommit 8
 @camCommitted _camera
-
-~12
 
 ;tabor
 
@@ -49,29 +91,50 @@ _camera camSetFOV 0.577
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~3
 
-;=== 22:12:30
-_camera camSetTarget [-87135.65,-30367.20,-11119.16]
-_camera camSetPos [4976.53,6889.54,5.35]
-_camera camSetFOV 0.577
-_camera camCommit 10
-@camCommitted _camera
-
-titleCut ["","BLACK OUT",2]
+2 fadesound 0
+2 fademusic 0.2
+titleCut ["","BLACK OUT",1]
 
 ~2
 
-0 fademusic 0.2
-playsound "ih01"
-titletext ["Po tom co jsme ztratili Morton, získal nepøítel sebevìdomí a vzpoura nabrala spád.","plain"]
+playsound "m04v01"
+titletext [ localize "STRM_m04v01","plain"]
 
 ~5
 
-titleCut ["","BLACK IN",2]
-0 fademusic 1
+titleCut ["","BLACK IN",1]
+2 fademusic 1
+2 fadesound 1
+
+;lamentin
+;=== 11:31:37
+_camera camSetTarget [-81237.05,62252.98,1882.51]
+_camera camSetPos [1415.30,5992.19,1.86]
+_camera camSetFOV 0.507
+_camera camCommit 0
+@camCommitted _camera
+
+;rebels
+;=== 11:32:14
+_camera camSetTarget [-98005.55,-228.01,-8694.13]
+_camera camSetPos [1415.93,5991.91,1.57]
+_camera camSetFOV 0.700
+_camera camCommit 7
+
+~6
+
+titleCut ["","BLACK OUT",1]
+
+~2
+
+titleCut ["","BLACK IN",1]
 
 ;mrtvoly
+
+playsound "m04v02"
+titletext [ localize "STRM_m04v02","plain"]
 
 ;=== 8:35:21
 _camera camSetTarget [67515.92,33428.43,-69659.66]
@@ -83,344 +146,148 @@ _camera camCommit 0
 _camera camSetTarget [92926.96,43985.45,-12541.19]
 _camera camSetPos [1316.04,5925.68,0.79]
 _camera camSetFOV 0.700
-_camera camCommit 6
-@camCommitted _camera
+_camera camCommit 10
+
+~9
+
+titleCut ["","BLACK OUT",1]
 
 ~2
 
-;civilove
+titleCut ["","BLACK IN",1]
 
-;=== 8:40:58
-_camera camSetTarget [-89307.76,47524.46,-8744.79]
-_camera camSetPos [1197.45,5916.67,1.20]
-_camera camSetFOV 0.700
+
+jean setPos [1307.91,5925.64,2.37]
+
+;resistance!
+;=== 9:06:07
+_camera camSetTarget [-89540.05,-35740.94,3141.64]
+_camera camSetPos [1315.50,5922.00,1.28]
+_camera camSetFOV 0.431
 _camera camCommit 0
 @camCommitted _camera
-;=== 8:41:29
-_camera camSetTarget [-59644.32,84791.91,-8744.87]
-_camera camSetPos [1196.11,5919.61,1.34]
-_camera camSetFOV 0.700
-_camera camCommit 8
+;=== 9:06:26
+_camera camSetTarget [-64879.29,-68812.24,-5656.71]
+_camera camSetPos [1313.78,5925.60,1.28]
+_camera camSetFOV 0.431
+_camera camCommit 3
 @camCommitted _camera
 
-;tanky
-
-;=== 8:42:13
-_camera camSetTarget [-68001.02,33015.75,-66830.10]
-_camera camSetPos [1238.53,5978.60,1.16]
-_camera camSetFOV 0.658
-_camera camCommit 0
-@camCommitted _camera
-
-~2
-
-0 fademusic 0.2
-playsound "ih02"
-titletext ["Po tak velké a pøekvapivé porážce jsme se nemuseli vzpamatovávat dlouho, ponìvadž pøišla další a ještì vìtší.\nV Lamentinu vypuklo povstání. Lidé vzali do rukou zbranì a s pomocí partyzánù ve mìstì pøevzali moc.","plain"]
-
-;=== 8:42:37
-_camera camSetTarget [-91850.14,42438.68,-2208.13]
-_camera camSetPos [1238.53,5978.60,1.16]
-_camera camSetFOV 0.421
-_camera camCommit 12
-@camCommitted _camera
-0 fademusic 1
-
-;auta
-
-;=== 8:44:42
-_camera camSetTarget [56088.70,-77597.07,65.23]
-_camera camSetPos [1229.49,6011.96,0.69]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 8:44:59
-_camera camSetTarget [101222.87,7163.44,65.15]
-_camera camSetPos [1229.49,6011.96,0.69]
-_camera camSetFOV 0.700
-_camera camCommit 8
-@camCommitted _camera
-
-~2
-
-;stany a vlajka
-
-;=== 8:46:56
-_camera camSetTarget [-57010.29,87191.57,65.69]
-_camera camSetPos [1315.47,5962.85,1.37]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 8:47:18
-_camera camSetTarget [-98438.11,12978.87,65.48]
-_camera camSetPos [1315.47,5962.85,1.37]
-_camera camSetFOV 0.700
-_camera camCommit 6
-@camCommitted _camera
-;=== 8:47:29
-_camera camSetTarget [-85086.88,56307.99,66.76]
-_camera camSetPos [1315.47,5962.85,5.93]
-_camera camSetFOV 0.700
+;jean and flag
+;=== 9:06:59
+_camera camSetTarget [16002.69,-92842.33,5384.21]
+_camera camSetPos [1307.48,5929.01,3.58]
+_camera camSetFOV 0.431
 _camera camCommit 3
 @camCommitted _camera
 
 ~2
 
-titleCut ["","BLACK OUT",2]
+;jean
+;=== 9:07:22
+_camera camSetTarget [-87841.02,51119.77,3141.17]
+_camera camSetPos [1310.21,5924.53,3.07]
+_camera camSetFOV 0.431
+_camera camCommit 3
+@camCommitted _camera
+
 
 ~2
 
-0 fademusic 0.2
-playsound "ih03"
-titletext ["Le Moule se tak dostalo do kleští. Velení z mìsta naøídilo ústup, který však byl nemožný.\nKolem lesù se nedola projít a tak toho rebelové opìt využili a zaútoèili. Americká posádka ve mìstì se vzdala.\nRebelové tímto tahem tak dostali dvì mouchy jednou ranou a zaèali vìøit, že se jim podaøí osamostatnit se od Spojených státù.","plain"]
-
-~17
-
-titleCut ["","BLACK IN",2]
-0 fademusic 1
-
-;montignac
-
-;=== 9:02:51
-_camera camSetTarget [-180.57,91868.58,-52299.82]
-_camera camSetPos [4827.78,6904.56,41.06]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
+2 fadesound 0
+2 fademusic 0.2
+titleCut ["","BLACK OUT",1]
 
 ~2
 
-0 fademusic 0.2
-playsound "ih04"
-titletext ["Bylo vyhlášeno staní právo. Zúèastnil jsem se nìkolika hlídek a pár lidí jsme museli zastøelit.","plain"]
+playsound "m04v03"
+titletext [ localize "STRM_m04v03","plain"]
 
-;=== 9:03:21
-_camera camSetTarget [82947.30,60430.27,-31950.46]
-_camera camSetPos [4836.59,6906.45,47.37]
-_camera camSetFOV 0.700
-_camera camCommit 15
-@camCommitted _camera
-0 fademusic 1
+~5
 
-;mrtvy civil
+titleCut ["","BLACK IN",1]
+2 fademusic 1
+2 fadesound 1
 
-;=== 9:06:26
-_camera camSetTarget [-60058.60,81748.29,-13916.28]
-_camera camSetPos [4920.63,7051.45,0.93]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 9:06:35
-_camera camSetTarget [-94642.84,16141.40,2276.71]
-_camera camSetPos [4920.63,7051.45,0.93]
-_camera camSetFOV 0.700
-_camera camCommit 6
-@camCommitted _camera
-
-~2
-
-;jason
-
-;=== 9:06:54
-_camera camSetTarget [23823.74,-90273.97,13189.02]
-_camera camSetPos [4917.89,7054.08,0.44]
-_camera camSetFOV 0.423
+;le moule
+;=== 0:57:38
+_camera camSetTarget [-91809.35,37980.63,-3045.32]
+_camera camSetPos [2665.84,5351.83,2.26]
+_camera camSetFOV 0.383
 _camera camCommit 0
 @camCommitted _camera
 
-~2
-
-0 fademusic 0.2
-playsound "ih05"
-titletext ["Poznával jsem, jak válka dokáže být krutá.\nVálka se neptá, kdo je vinen, nebo nevinen, prostì se umíralo.","plain"]
-
-~9
-
-titleCut ["","BLACK OUT",2]
-
-~2
-
-playsound "ih06"
-titletext ["Plukovník Epgayd se marnì snažil vyždímat z Washingtonu posily.\nDiplomatické vztahy mezi Moskvou a Washingtonem byly tak napjaté,\nže se prezident Carter neopovážil vojensky provokovat Brežnìva a zakázal Epgaydovi kontaktovat sousední Nogovu.","plain"]
-
-~13
-
-playsound "ih07"
-titletext ["Pak Epgayd kontaktoval OSN, ti se však nechtìli do této situace míchat a ještì dodali:\nTuto situaci jsme už jednou øešili, podruhé nikoliv.\nVe skuteènosti za organizaci spojených národù promluvil strach, strach z Rusù.\nByli jsme sami.","plain"]
-
-~12
-
-jed=true
-
-~3
-
-0 fademusic 1
-titleCut ["","BLACK IN",2]
-
-;mash
-
-;=== 22:15:54
-_camera camSetTarget ambulance
-_camera camSetPos [4555.24,10176.68,4.44]
-_camera camSetFOV 0.469
-_camera camCommit 0
-@camCommitted _camera
-
-~10
-
-;=== 22:16:24
-_camera camSetTarget ambulance
-_camera camSetPos [4602.25,10315.95,4.48]
-_camera camSetFOV 0.328
-_camera camCommit 0
-@camCommitted _camera
-
-~7
-
-;=== 9:15:32
-_camera camSetTarget [-54562.41,91034.82,-1577.98]
-_camera camSetPos [4552.26,10394.15,4.20]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 9:15:39
-_camera camSetTarget [-92193.68,12077.08,-25230.94]
-_camera camSetPos [4552.26,10394.15,4.20]
-_camera camSetFOV 0.700
-_camera camCommit 6
-@camCommitted _camera
-
-;=== 9:19:09
-_camera camSetTarget [-92947.50,-8613.74,-11580.61]
-_camera camSetPos [4542.72,10391.62,1.32]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-
-0 fademusic 0.2
-playsound "ih08"
-titletext ["Den ze dne byly naše ztráty èím dál vìtší. Mìli jsme málo vojákù a ještì ke všemu zelenáèù.\nPo ztrátì tøí významných mìst jsme mìli ještì míò tankù a vrtulníkù.","plain"]
-
-;=== 9:19:22
-_camera camSetTarget [-26086.39,103471.16,-19926.27]
-_camera camSetPos [4541.79,10388.61,1.26]
-_camera camSetFOV 0.700
-_camera camCommit 11
-@camCommitted _camera
-
-~2
-
-titleCut ["","BLACK OUT",2]
-
-~2
-
-playsound "ih09"
-titletext ["Kde rebelové vzali tanky nám zùstavalo záhadou. Vlastnì, celá jejich síla nám zùstávala záhadou.","plain"]
-
-~7
-
-titleCut ["","BLACK IN",2]
-0 fademusic 1
-
-;hrbitov
-
-;=== 9:31:55
-_camera camSetTarget [-676.93,103213.99,-17101.46]
-_camera camSetPos [6207.64,4942.06,3.00]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 9:32:08
-_camera camSetTarget [-74343.23,56853.20,-28543.52]
-_camera camSetPos [6198.09,4952.17,4.01]
-_camera camSetFOV 0.700
-_camera camCommit 18
-@camCommitted _camera
-
-;vlajka
-
-;=== 9:32:54
-_camera camSetTarget [4235.87,90991.13,-50823.45]
-_camera camSetPos [6197.80,4941.73,7.33]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
+;=== 0:58:18
+_camera camSetTarget [-95027.29,25469.15,7248.26]
+_camera camSetPos [2666.19,5353.07,1.57]
+_camera camSetFOV 0.593
+_camera camCommit 7
 
 ~6
 
-titleCut ["","BLACK OUT",2]
+titleCut ["","BLACK OUT",1]
 
 ~2
 
-playsound "ih10"
-titletext ["Ale válka ještì neskonèila.","plain"]
+titleCut ["","BLACK IN",1]
 
-~2
+smile1 say "m04smile1"
+smile2 say "m04smile2"
 
-0 fademusic 0.2
-playmusic "Song4"
-
-~2
-
-titletext ["","plain"]
-titleCut ["","BLACK IN",2]
-hrac2 switchMove  "LyingToBinocLying"
-showCinemaBorder false
-cutrsc ["binocular","plain down",0.05]
-
-;dalekohled
-
-;=== 9:34:19
-_camera camSetTarget [55622.48,-81308.02,9044.69]
-_camera camSetPos [5224.88,4599.94,0.24]
-_camera camSetFOV 0.219
+;prisoners
+;=== 10:31:55
+_camera camSetTarget [-96073.87,-10602.81,84.69]
+_camera camSetPos [2632.09,5432.59,0.82]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-
-~1
-
-playsound "ih11"
-titletext ["Hmm... moc hezká schovávaèka.","plain down"]
-
-;=== 9:35:33
-_camera camSetTarget [-19908.88,-91215.79,13803.89]
-_camera camSetPos [5224.88,4599.94,0.24]
-_camera camSetFOV 0.219
-_camera camCommit 14
+;=== 10:32:16
+_camera camSetTarget [62143.46,-74654.53,-6522.72]
+_camera camSetPos [2627.44,5434.15,1.45]
+_camera camSetFOV 0.403
+_camera camCommit 7
 @camCommitted _camera
 
 ~2
 
-ShowCinemaBorder true
-CutRSC ["Default","Plain Down",100]
-george switchmove "BinocLying"
+titleCut ["","BLACK OUT",1]
 
-;=== 9:42:15
-_camera camSetTarget [-34924.33,95911.86,-6963.32]
-_camera camSetPos [5225.63,4599.17,0.36]
-_camera camSetFOV 0.391
+~2
+
+titleCut ["","BLACK IN",1]
+
+;camp and flag
+;=== 1:18:23
+_camera camSetTarget [-18716.73,102901.77,7509.99]
+_camera camSetPos [2556.98,5473.22,0.82]
+_camera camSetFOV 0.478
 _camera camCommit 0
 @camCommitted _camera
-
-~2
-
-1 fademusic 0.2
-george say "ih12"
-
-;=== 9:47:26
-_camera camSetTarget [57173.41,87236.26,-21625.86]
-_camera camSetPos [5224.01,4598.81,0.56]
-_camera camSetFOV 0.429
-_camera camCommit 10
+;=== 1:18:41
+_camera camSetTarget [22866.52,103240.69,5410.16]
+_camera camSetPos [2552.98,5470.49,1.02]
+_camera camSetFOV 0.478
+_camera camCommit 3
 @camCommitted _camera
-playsound "ih13"
+;=== 1:18:58
+_camera camSetTarget [22866.52,103240.69,5410.17]
+_camera camSetPos [2552.99,5470.52,6.68]
+_camera camSetFOV 0.478
+_camera camCommit 3
+@camCommitted _camera
 
-~4
+~3
 
-titletext ["","plain"]
-3 fademusic 0 
+3 fadesound 0
+3 fademusic 0.2
 titleCut ["","BLACK OUT",2]
 
 ~3
 
-konec=true
+skiptime 4
+playsound "m04v04"
+titletext [ localize "STRM_m04v04","plain"]
+
+~5
+
+[] exec "intro2.sqs"

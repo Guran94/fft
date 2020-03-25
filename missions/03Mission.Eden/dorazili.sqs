@@ -1,11 +1,11 @@
-m113 sideradio "r03"
-morton sideradio "r04"
+m113 sideradio "m03r03"
+morton sideradio "m03r04"
 
 @rozdelit
 
 setacctime 1
 zustat=true
-serza groupradio "r05"
+serza groupradio "m03r05"
 
 ~3.5
 
@@ -24,7 +24,7 @@ serza groupradio "r05"
 
 ~30
 
-serza groupradio "r09"
+serza groupradio "m03r09"
 prvni=true
 
 ~5

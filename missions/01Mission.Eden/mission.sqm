@@ -1576,7 +1576,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=49;
+		items=48;
 		class Item0
 		{
 			position[]={7536.237793,0.661669,7747.400391};
@@ -2118,22 +2118,6 @@ class Mission
 		};
 		class Item43
 		{
-			position[]={6405.521484,133.925873,6743.006348};
-			a=350.000000;
-			b=200.000000;
-			angle=140.000000;
-			activationBy="VEHICLE";
-			activationType="NOT PRESENT";
-			age="UNKNOWN";
-			idVehicle=8;
-			expCond="not alive marcot and not alive serza and not alive voj2 and not alive voj3 and not alive voj4 and not alive voj5 and not alive voj6 and this";
-			expActiv="[] exec ""konec2.sqs""";
-			class Effects
-			{
-			};
-		};
-		class Item44
-		{
 			position[]={7558.201172,12.122942,8020.827637};
 			age="UNKNOWN";
 			text="Twombly je sám";
@@ -2143,7 +2127,7 @@ class Mission
 			{
 			};
 		};
-		class Item45
+		class Item44
 		{
 			position[]={7469.163086,6.862303,7994.620117};
 			type="END2";
@@ -2153,7 +2137,7 @@ class Mission
 			{
 			};
 		};
-		class Item46
+		class Item45
 		{
 			position[]={7263.022949,30.429125,6770.927734};
 			a=2.500000;
@@ -2167,7 +2151,7 @@ class Mission
 			{
 			};
 		};
-		class Item47
+		class Item46
 		{
 			position[]={7435.167969,0.661669,7652.364258};
 			age="UNKNOWN";
@@ -2178,7 +2162,7 @@ class Mission
 			{
 			};
 		};
-		class Item48
+		class Item47
 		{
 			position[]={7537.011719,0.661669,7653.357422};
 			type="SWITCH";

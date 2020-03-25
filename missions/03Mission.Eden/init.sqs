@@ -1,6 +1,8 @@
 titleCut ["","BLACK IN",3]
+
 zustat=false
-playmusic "Song2"
+setacctime 1
+playmusic "fft_track2"
 0 fadesound 0.3
 clearmagazinecargo m113
 clearweaponcargo m113
@@ -16,12 +18,10 @@ ClearWeaponCargo ammo2
 ClearMagazineCargo ammo2
 ClearWeaponCargo ammo3
 ClearMagazineCargo ammo3
-ammo1 AddWeaponCargo ["LawLauncher",1]
-ammo1 AddMagazineCargo ["LawLauncher",4]
+ammo1 AddWeaponCargo ["m16",1]
+ammo1 AddMagazineCargo ["m16",4]
 ammo2 AddWeaponCargo ["M60e3",1]
-ammo2 AddMagazineCargo ["M60e3Mag",6]
-ammo3 AddWeaponCargo ["LawLauncher",1]
-ammo3 AddMagazineCargo ["LawLauncher",1]
+ammo2 AddMagazineCargo ["M60e3Mag",3]
 ammo3 AddWeaponCargo ["M16GrenadeLauncher",1]
 ammo3 AddMagazineCargo ["GrenadeLauncher",3]
 m113 lock true
@@ -33,60 +33,74 @@ nechat=true
 dum=true
 away=true
 papa=[West, "HQ"]
+enableradio false
 
-~20
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
-morton sideradio "r01"
-m113 sideradio "r02"
+;morton
+;=== 11:07:39
+_camera camSetTarget [84450.90,-53016.63,-15114.38]
+_camera camSetPos [4127.09,4575.54,20.84]
+_camera camSetFOV 0.354
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+;convoy
+;=== 11:07:39
+_camera camSetTarget m113
+_camera camSetPos [4127.09,4575.54,20.84]
+_camera camSetFOV 0.354
+_camera camCommit 2
+@camCommitted _camera
+;=== 11:07:39
+_camera camSetTarget m113
+_camera camSetPos [4127.09,4575.54,20.84]
+_camera camSetFOV 0.050
+_camera camCommit 2
+
+titleCut ["","WHITE OUT",1]
+
+~2
+
+titleCut ["","WHITE in",1]
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+enableradio true
+
+~15
+
+setacctime 1
+
+morton sideradio "m03r01"
+m113 sideradio "m03r02"
 
 ~11
 
 setacctime 1
-serza say "mh01"
+serza say "m03v01"
 
-~3
+~5
 
-voj1 say "mh02_1"
-voj2 say "mh02_2"
-voj3 say "mh02_1"
-voj4 say "mh02_2"
-voj5 say "mh02_1"
-voj6 say "mh02_2"
-hrac say "mh02_1"
+serza say "m03v02"
 
-~1
+~5
 
-serza say "mh03"
+serza say "m03v03"
 
-~1
+~5
 
-voj1 say "mh02_1"
-voj2 say "mh02_2"
-voj3 say "mh02_1"
-voj4 say "mh02_2"
-voj5 say "mh02_1"
-voj6 say "mh02_2"
-hrac say "mh02_1"
-
-~1
-
-serza say "mh04"
-
-~1
-
-voj1 say "mh02_1"
-voj2 say "mh02_2"
-voj3 say "mh02_1"
-voj4 say "mh02_2"
-voj5 say "mh02_1"
-voj6 say "mh02_2"
-hrac say "mh02_1"
-
-~1
-
-serza say "mh05"
-
-~15
+voj1 say "m03v04a"
+voj2 say "m03v04b"
+voj3 say "m03v04c"
+voj4 say "m03v04d"
+voj5 say "m03v04e"
+voj6 say "m03v04f"
+hrac say "m03v04"
 
 5 fadesound 1
 

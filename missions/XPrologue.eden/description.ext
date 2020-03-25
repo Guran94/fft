@@ -92,5 +92,11 @@ class CfgSounds
 		sound[] = {"x00v09.ogg", db+10, 1.00};
 		titles[] = {};
 	};
+	class x00v10
+	{
+		name = "x00v10";
+		sound[] = {"x00v10.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 };
 

@@ -95,6 +95,7 @@ titleCut ["","BLACK IN",2]
 rus reveal rashiv
 jason switchmove "FXStandSurUniv"
 jason stop true
+jason disableai "autotarget"
 jason setmimic "normal"
 rashiv setmimic "normal"
 rashiv dowatch jason

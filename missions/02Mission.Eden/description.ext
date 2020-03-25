@@ -139,42 +139,6 @@ class CfgSounds
 		sound[] = {"m02v19.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m02v19};
 	};
-	class m02v20
-	{
-		name = "m02v20";
-		sound[] = {"m02v20.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m02v20};
-	};
-	class m02v21
-	{
-		name = "m02v21";
-		sound[] = {"m02v21.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m02v21};
-	};
-	class m02v22
-	{
-		name = "m02v22";
-		sound[] = {"m02v22.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m02v22};
-	};
-	class m02v23
-	{
-		name = "m02v23";
-		sound[] = {"m02v23.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m02v23};
-	};
-	class m02v24
-	{
-		name = "m02v24";
-		sound[] = {"m02v24.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m02v24};
-	};
-	class m02v25
-	{
-		name = "m02v25";
-		sound[] = {"m02v25.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m02v25};
-	};
 };
 
 

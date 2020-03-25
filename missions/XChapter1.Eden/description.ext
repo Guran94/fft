@@ -205,6 +205,24 @@ class CfgSounds
 		sound[] = {"x01v29b.ogg", db+10, 1.00};
 		titles[] = {};
 	};
+	class x01v29c
+	{
+		name = "x01v29c";
+		sound[] = {"x01v29c.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class x01v29d
+	{
+		name = "x01v29d";
+		sound[] = {"x01v29d.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class x01v29e
+	{
+		name = "x01v29e";
+		sound[] = {"x01v29e.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class x01v30
 	{
 		name = "x01v30";
