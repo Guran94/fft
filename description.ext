@@ -1,3 +1,45 @@
+class CfgSounds
+{
+	sounds[] = { };
+
+	class yes1
+	{
+		name = "yes1";
+		sound[] = {"yes1.ogg", db+10, 1.00};
+		titles[] = {0,$STRC_yes};
+	};
+	class yes2
+	{
+		name = "yes2";
+		sound[] = {"yes2.ogg", db+10, 1.00};
+		titles[] = {0,$STRC_yes};
+	};
+  class yes3
+	{
+		name = "yes3";
+		sound[] = {"yes3.ogg", db+10, 1.00};
+		titles[] = {0,$STRC_yes};
+	};
+  class yes4
+	{
+		name = "yes4";
+		sound[] = {"yes4.ogg", db+10, 1.00};
+		titles[] = {0,$STRC_yes};
+	};
+  class yes5
+	{
+		name = "yes5";
+		sound[] = {"yes5.ogg", db+10, 1.00};
+		titles[] = {0,$STRC_yes};
+	};
+  class yes6
+	{
+		name = "yes6";
+		sound[] = {"yes6.ogg", db+10, 1.00};
+		titles[] = {0,$STRC_yes};
+	};
+};
+
 class CfgRadio
 {
 	sounds[] = { };
@@ -6,25 +48,25 @@ class CfgRadio
 	{
 		name = "AwayPlayer1";
 		sound[] = {"AwayPlayer1.ogg", db+10, 1.0};
-		title = $STRF_AwayPlayer1;
+		title = $STRC_AwayPlayer1;
 	};
 	class AwayPlayer2
 	{
 		name = "AwayPlayer2";
 		sound[] = {"AwayPlayer2.ogg", db+10, 1.0};
-		title = $STRF_AwayPlayer2;
+		title = $STRC_AwayPlayer2;
 	};
 	class AwayPlayer3
 	{
 		name = "AwayPlayer3";
 		sound[] = {"AwayPlayer3.ogg", db+10, 1.0};
-		title = $STRF_AwayPlayer3;
+		title = $STRC_AwayPlayer3;
 	};
 	class AwayPlayer4
 	{
 		name = "AwayPlayer4";
 		sound[] = {"AwayPlayer4.ogg", db+10, 1.0};
-		title = $STRF_AwayPlayer4;
+		title = $STRC_AwayPlayer4;
 	};
 };
 

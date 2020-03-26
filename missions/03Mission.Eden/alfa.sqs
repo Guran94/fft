@@ -3,3 +3,5 @@
 [alfa4] commandmove getmarkerpos "presun10"
 [alfa5] commandmove getmarkerpos "presun11"
 [alfa6] commandmove getmarkerpos "presun12"
+
+exit

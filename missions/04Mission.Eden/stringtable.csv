@@ -15,19 +15,26 @@ STRM_m04v07,"I was recognising as the war might be cruel.\nThe war doesn't ask w
 STRM_m04v08,"Commander-in-Chief of US forces on Everon, Colonel James Epgayd tried in vain to squeeze out reinforcements from Washington.","Jason"
 STRM_m04v09,"The diplomatic relations between the Kremlin and the White House were so strained\nthat President Carter didn't dare militarily provoke Brezhnev and forbade Epgayd to contact neighboring Malden.\nWe were alone.","Jason"
 STRM_m04v10,"Our casulties were bigger day by day. We had not a lot of soldiers and all the greenies.\nAfter the loss of three major cities we had more less tanks and helicopters.","Jason"
-STRM_m04v11,"Where the rebeles even took tanks was mystery, actually their entire power was mystery\nIn fact the White House suspected the Soviet HQ on Kolguev from espionage and rebels supporting, because their tanks were sovietish. ","Jason"
+STRM_m04v11,"Where the rebeles even took tanks was mystery, actually their entire power was mystery\nIn fact the White House suspected the Soviet HQ on Kolguev from espionage and rebels supporting, because their tanks and weapons were sovietish. ","Jason"
 STRM_m04v12,"The war was boosted but has not already ended.","Jason"
 
-STRM_r01,"OK, TAK TO BYCHOM M�LI.","L�dr"
-STRM_r02,"BACHA! PARTYZ�NSK� HL�DKA.","L�dr"
-STRM_r03,"T�TO MEDV�DE, Z T�CH SR��� NIKDO NEP�E�IL A JEJICH HRA�KY SE SMA��. VYHR�LI JSME, KONEC.","L�dr"
+
+STRM_m04v13,"Sir, we heard, that the Russians support the rebels.\nIs it true, sir?","soldier"
+STRM_m04v14,"I'll not comment it, boy. These are metters of politicians.","muday"
+STRM_m04v15,"But sir, what if the russians are preparing for us right now? What should we do?","soldier"
+STRM_m04v16,"I said no fucking comment! We have an important mission!\nThe true enemy is perhaps going to attack on central Everon and you're thinking about these bullshit?\nDid you see any Russians here, soldier? Did you?","muday"
+STRM_m04v17,"No! So don't worry about it and concetrate!\nThe rebels might be everywhere even in our territory, so stay alert and keep looking around!\nWe have to destroy the fucking tanks, understood?","muday"
+STRM_m04v18,"Sir, yes sir!","all"
+
+STRM_m04r01,"OKAY, IT SEEMS IT'DONE. NOW INTO THE WOOD. TRY TO KEEP BE THE GROUND.","muday"
+STRM_m04r02,"REBELS, TAKE COVER!","muday"
+STRM_m04r03,"PAPA BEAR, THERE IS NO SURVIVE FROM THAT MOTHER FUCKERS AND THEIR TOYS ARE FRYING. WE WON, OVER!","muday"
 
 STRMM_01,"Start","marker"
-STRMM_02,"Patrol","marker"
-STRMM_03,"Camp","marker"
+STRMM_02,"Camp 1","marker"
+STRMM_03,"Camp 2","marker"
 STRMM_04,"Enemy territory","marker"
 
 
-STRMW_01,"HL�DKA","waypoint"
-STRMW_02,"T�BOR","waypoint"
-STRMW_03,"�EKAT NA TRANSPORT","waypoint"
+STRMW_01,"CAMP 1","waypoint"
+STRMW_02,"CAMP 2","waypoint"

@@ -3,14 +3,11 @@ class Mission
 {
 	addOns[]=
 	{
-		"m60mg",
-		"Mini",
-		"bis_resistance"
+		"Mini";
 	};
 	addOnsAuto[]=
 	{
-		"m60mg",
-		"Mini"
+		"Mini",
 	};
 	randomSeed=10660355;
 	class Intel
@@ -53,7 +50,7 @@ class Mission
 					special="NONE";
 					id=152;
 					side="WEST";
-					vehicle="M60e3soldier";
+					vehicle="SoldierWMG";
 					rank="CORPORAL";
 					skill=0.373322;
 					text="voj1";
@@ -2053,7 +2050,7 @@ class Mission
 					special="NONE";
 					id=136;
 					side="WEST";
-					vehicle="M60e3soldier";
+					vehicle="SoldierWMG";
 					leader=1;
 					skill=1.000000;
 				};
@@ -3917,11 +3914,6 @@ class Intro
 {
 	addOns[]=
 	{
-		"m60mg",
-		"bis_resistance"
-	};
-	addOnsAuto[]=
-	{
 		"m60mg"
 	};
 	randomSeed=10495491;
@@ -4378,7 +4370,7 @@ class Intro
 					azimut=15.000000;
 					id=27;
 					side="WEST";
-					vehicle="M60e3soldier";
+					vehicle="SoldierWMG";
 					leader=1;
 					skill=0.200000;
 					init="this setdammage 1";
