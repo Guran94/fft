@@ -39,12 +39,12 @@ serza say "m02v16"
 
 ~3
 
-voj1 say "m02v17"
-voj2 say "m02v17"
-voj3 say "m02v17"
-voj4 say "m02v17"
-voj5 say "m02v17"
-voj6 say "m02v17"
+voj1 say "yes1"
+voj2 say "yes2"
+voj3 say "yes3"
+voj4 say "yes4"
+voj5 say "yes5"
+voj6 say "yes6"
 
 ~2
 

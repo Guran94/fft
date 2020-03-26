@@ -25,3 +25,5 @@ kulomet setdammage 1
 "1" objstatus "failed"
 "2" objstatus "active"
 papa sideradio "m03r08"
+
+exit

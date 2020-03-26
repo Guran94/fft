@@ -17,13 +17,11 @@ class Intro
 	{
 		"bis_resistance",
 		"Mini",
-		"Trabant",
-		"m60mg"
+		"Trabant"
 	};
 	addOnsAuto[]=
 	{
 		"bis_resistance",
-		"m60mg",
 		"Trabant",
 		"Mini"
 	};
@@ -1658,7 +1656,7 @@ class Intro
 					azimut=185.000000;
 					id=119;
 					side="WEST";
-					vehicle="M60e3soldier";
+					vehicle="SoldierWMG";
 					leader=1;
 					skill=0.600000;
 					text="honey";
@@ -1776,7 +1774,7 @@ class Intro
 					azimut=185.000000;
 					id=136;
 					side="WEST";
-					vehicle="M60e3soldier";
+					vehicle="SoldierWMG";
 					leader=1;
 					skill=0.600000;
 					text="stupid";

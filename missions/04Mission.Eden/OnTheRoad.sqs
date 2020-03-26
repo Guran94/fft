@@ -1,0 +1,37 @@
+playmusic "track5"
+jeep stop false
+truck stop false
+0 fademusic 0.2
+
+~30
+
+setacctime 1
+
+voj1 say "m04v13"
+
+~5
+
+serza say "m04v14"
+
+~5
+
+voj3 say "m04v15"
+
+~5
+
+serza say "m04v16"
+
+~5
+
+serza say "m04v17"
+
+~5
+
+voj1 say "yes1"
+voj2 say "yes2"
+voj3 say "yes3"
+voj4 say "yes4"
+voj5 say "yes5"
+voj6 say "yes6"
+
+exit
