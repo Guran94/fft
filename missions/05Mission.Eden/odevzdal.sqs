@@ -1,11 +1,11 @@
-hrac removemagazine "SEB_MP5mag"
-hrac removemagazine "SEB_MP5mag"
-hrac removemagazine "SEB_MP5mag"
-hrac removemagazine "SEB_MP5mag"
-hrac removeweapon "SEB_MP5"
+hrac removemagazine "hk"
+hrac removemagazine "hk"
+hrac removemagazine "hk"
+hrac removemagazine "hk"
+hrac removeweapon "hk"
 hrac removeaction 1
 nastoupit=true
-hrac say "mh03"
+hrac say "m05v23"
 car lock false
 hrac action ["weapononback"]
 playsound "odevzdal"
@@ -15,9 +15,9 @@ neodevzdal=false
 
 ~2
 
-hlidac say "mh04"
+hlidac say "m05v24"
 
 ~2
 
-hrac say "mh05"
+hrac say "m05v25"
 hlidac dowatch objnull

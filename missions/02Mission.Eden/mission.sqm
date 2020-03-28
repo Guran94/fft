@@ -5,13 +5,11 @@ class Mission
 	{
 		"Mini",
 		"m60mg",
-		"bis_resistance"
-	};
+		};
 	addOnsAuto[]=
 	{
 		"m60mg",
-		"bis_resistance",
-		"Mini"
+		"Mini",
 	};
 	randomSeed=10660355;
 	class Intel
