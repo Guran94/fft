@@ -23,23 +23,19 @@ STRM_m05v14,"Thanks, George. In the world, no one is better at solving problems 
 STRM_m05v15,"Like I said, James, I'm gonna get you out of this and I'm going to the mess.","george"
 STRM_m05v16,"I'm glad to hear it, George.\nThe meeting is in Morton. You'll receive briefing with our conditions and white flag, however you must to hand your HK.\nInstead take the Glock, just for sure.","epgayd"
 STRM_m05v17,"It is going to be easier, than I expected.","george"
-STRM_m05v18,"I'm going to Saint Phillipe. I will make contact with you. You have the Devil label, I'll be Evil","epgayd"
+STRM_m05v18,"I'm going to Saint Phillipe. I will make contact with you. Your code name is Devil and I'll be Evil.\nI want to hear everything that the muther fuckers say.","epgayd"
+STRM_m05v19,"Let's make a fun.\nWhen should I go?","george"
+STRM_m05v20,"Right now. The rebels are already waiting.","epgayd"
 
+STRM_m05v21,"Good luck my friend. Don't forget to hand your weapon.","epgayd"
 
+STRM_m05v22,"Your weapon sir.","guard"
+STRM_m05v23,"Don't hurt my girlfriend gentlemen.","george"
+STRM_m05v24,"Do not worry sir. Good luck.","guard"
+STRM_m05v25,"That's my plan.","george"
 
-STRM_mh01,"Zlom vaz, p��teli. Nezapome� tu nechat zbra�.","Epgayd"
-STRM_mh02,"Va�e zbra�, pane.","Hl�da�"
-STRM_mh03,"Nezni�te mi ji, p�nov�.","George"
-STRM_mh04,"��dn� strach, pane, zlomte vaz.","Hl�da�"
-STRM_mh05,"To m�m v pl�nu.","George"
-STRM_mh06,"Tak, p�nov�, jdeme na v�c. U� se t��te na oslavu konce v�lky?","George"
-STRM_mh07,"No, jestli se ji do�iju, tak jo.","Voj�k"
-STRM_mh08,"J� tyhlety lidi zn�m, majore. Jsem tu u� od za��tku sv�ho n�boru.\nTohle nejsou ��dn� stra�pytlov�, tihle v� co cht�j, ale budeme na v�s d�vat pozor, pane.","Voj�k"
-STRM_mh09,"To ani nemus�te, chlapi. Vyjedn�v�n� skon�� d��v, ne� po��dn� za�ne.","George"
-STRM_mh10,"Jsem zv�davej na toho krypla co jim vel�.\nNez�vid�m v�m, majore, �e s n�m budete mluvit.\nJ� bych toho blbce musel rovnou odpr�sknout.","Voj�k"
-STRM_mh11,"To se i mo�n� stane, ho�i.\nJestli na n�s chystaj� boudu, tak jedeme do vos�ho hn�zda. Tak�e bu�te ostra�it�.\nJasn�?","George"
-STRM_mh12,"Jasn�, pane.\nUk�eme jim, �e se do n�s nem�li sr�t!","Voj�k"
-STRM_mh13,"Ty vole. Tak ti to tu teda dojebali.","George"
+STRM_m05v26,"Holly shit. So they fucked up here.","george"
+
 STRM_mh14,"Bu�te pozdraven, veliteli. Jmenuji se George Dyaconsen. P�i�el jsem, abych...","George"
 STRM_mh15,"Vy nejste velitel americk� arm�dy, plukovn�k Epgayd. Kde je? Dohodli jsem se, �e tu s n�mi bude vyjedn�vat on!","Marcel"
 STRM_mh16,"Plukovn�k Epgayd po��dal m�, abych jel m�sto n�ho. Jist� to ch�pete, vztahy s v�mi mluv� za v�e.","George"
@@ -73,7 +69,12 @@ STRM_mh43,"Dr� hubu! Zast�elte ty �a�ky!","Marcel"
 STRM_mh44,"Co to kurva bylo? Sakra kryjte se! Ten gr�zl na n�s u�il boudu!","Marcel"
 STRM_mh45,"Ne, to nejsou Ameri�an�! To je n�co jin�ho.","George"
 STRM_mh46,"Po�k�m a� p�estane to bombardov�n�, pak zmizim. Snad m� n�jak� bomba netref�.","George"
-STRM_away3,"Sakra, tak te� u� se asi nikam nedostanem.","George"
+
+
+
+
+
+STRM_away3,"Fuck... James will kill me.","George"
 
 STRM_r01,"T�TO MEDV�DE, TADY OREL 1. NA RADARU V SEKTORU B CHYT�M N�CO VELK�HO. NEN� TO NA�E N�MO�NICTVO? P�EP�N�M.","Orel"
 STRM_r02,"TO MUS� B�T OMYL, CO BY TADY D�LALO NA�E N�MO�NICTVO? PROV��TE TO A PO��DN�, P�EP�N�M.","Medv�d"
@@ -86,6 +87,9 @@ STRM_r07,"JO M�ME N�KOHO NA RADARU. NO SAKRA, JE TOHO FAKT SPOUSTA! PROTO SE
 STRM_away1,"MAJORE, CO SI MYSL�TE, �E D�L�TE? ODEVZDEJTE TU ZBRA�, ZATRACEN�!","Medv�d"
 STRM_away2,"MAJORE DYACONSENE, TOHLE U� P�ESAHUJE V�ECHNY MEZE. JSTE ZBAVEN SV� HODNOSTI A SV� MISE. VRA�TE SE ZP�TKY DO MONTIGNACU, KONEC.","Medv�d"
 STRM_away4,"MAJORE, KAM TO JEDETE? MORTON JE NA DRUHOU STRANU! OTO�TE TO PROSIM V�S A �I�TE SE PODLE PL�NU!","Medv�d"
+
+STR_CFG_GRPNAMES_ALPHA,"Devil",Dyaconsen
+STR_CFG_GRPNAMES_BRAVO,"Evil",Epgayd
 
 STRMM_01,"Get out!","marker"
 

@@ -1,4 +1,4 @@
-playmusic "Song1"
+playmusic "fft_track5"
 0 fademusic 0.2
 away2=false
 car lock true

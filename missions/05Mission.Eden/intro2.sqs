@@ -1,11 +1,15 @@
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+james disableai "autotarget"
+george disableai "autotarget"
 james switchmove "FXStandRotateTable"
 james setmimic "normal"
 george setmimic "normal"
 george playmove "effectstand"
 g1 switchmove "FXStandAtt"
+g1 disableai "autotarget"
+g1 stop true
 
 move=true
 ;montignac
@@ -35,6 +39,8 @@ deletevehicle car
 
 titleCut ["","BLACK IN",1]
 
+george setmimic "ironic"
+james setmimic "angry"
 james say "m05v09"
 
 ;both
@@ -83,6 +89,7 @@ james switchmove "effectstandtalk"
 
 ~3
 
+george setmimic "normal"
 james say "m05v12"
 
 ~2
@@ -99,5 +106,116 @@ james switchmove ""
 
 ~2
 
+george setmimic "normal"
 george say "m05v13"
 
+~3
+
+george setmimic "smile"
+
+~3
+
+;both
+;=== 18:15:12
+_camera camSetTarget [-22497.38,-89087.81,-3996.07]
+_camera camSetPos [4940.93,6984.50,1.44]
+_camera camSetFOV 0.561
+_camera camCommit 0
+@camCommitted _camera
+
+james setmimic "smile"
+james switchmove ""
+james say "m05v14"
+
+;=== 18:15:41
+_camera camSetTarget [25241.40,-90844.96,-3995.68]
+_camera camSetPos [4940.24,6984.56,1.44]
+_camera camSetFOV 0.561
+_camera camCommit 10
+
+~5
+
+george say "m05v15"
+
+~5
+
+;james
+;=== 20:39:43
+_camera camSetTarget [95359.48,47772.37,-12505.92]
+_camera camSetPos [4939.59,6982.18,1.49]
+_camera camSetFOV 0.724
+_camera camCommit 0
+@camCommitted _camera
+
+james switchmove ""
+james say "m05v16"
+
+~5
+
+james switchmove ""
+george say "m05v17"
+;george
+;=== 20:17:36
+_camera camSetTarget [-94457.89,4023.95,-10383.63]
+_camera camSetPos [4941.12,6981.89,1.48]
+_camera camSetFOV 0.662
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+;both
+;=== 18:18:53
+_camera camSetTarget [100893.13,34826.60,-3996.09]
+_camera camSetPos [4937.86,6981.75,1.44]
+_camera camSetFOV 0.561
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:19:02
+_camera camSetTarget [104200.34,18370.48,-3995.69]
+_camera camSetPos [4937.77,6982.12,1.44]
+_camera camSetFOV 0.399
+_camera camCommit 6
+
+james switchmove ""
+james say "m05v18"
+
+~6
+
+;george
+;=== 18:21:39
+_camera camSetTarget [-8596.52,-90172.93,19583.92]
+_camera camSetPos [4939.82,6983.44,1.32]
+_camera camSetFOV 0.324
+_camera camCommit 0
+@camCommitted _camera
+
+james setmimic "agresive"
+james switchmove ""
+george say "m05v19"
+
+~5
+
+james switchmove ""
+james say "m05v20"
+
+;=== 18:22:27
+_camera camSetTarget james
+_camera camSetPos [4939.80,6982.52,1.32]
+_camera camSetFOV 0.324
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:22:27
+_camera camSetTarget james
+_camera camSetPos [4939.80,6982.52,1.32]
+_camera camSetFOV 0.100
+_camera camCommit 3
+
+3 fademusic 0
+3 fadesound 0
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+konec=true
