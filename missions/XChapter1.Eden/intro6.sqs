@@ -37,6 +37,7 @@ _camera camSetFOV 0.447
 _camera camCommit 6
 @camCommitted _camera
 
+playmusic "rtrack9"
 titletext [ localize "STRM_x01v17","plain"]
 playsound "x01v17"
 
@@ -70,7 +71,7 @@ _camera camCommit 0
 titletext [ localize "STRM_x01v19","plain"]
 playsound "x01v19"
 
-~1
+~2
 
 titletext [ localize "STRM_x01v20","plain"]
 playsound "x01v20"
@@ -95,6 +96,8 @@ uaz setpos getmarkerpos "uaz"
 
 
 6 fademusic 0
+
+titletext ["","plain"]
 ;soldiers
 ;=== 9:12:19
 _camera camSetTarget [7596.36,109199.60,-11862.39]

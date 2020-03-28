@@ -12,7 +12,6 @@ mud disableai "autotarget"
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-3 fademusic 0
 ;all
 ;=== 11:59:34
 _camera camSetTarget [-48343.37,-77997.91,16084.35]
@@ -80,7 +79,6 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
-playmusic "rtrack9"
 2 fadesound 0
 2 fademusic 0.2
 ;neutral

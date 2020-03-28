@@ -158,7 +158,15 @@ class CfgIdentities
     name = "Jean Poincare";
     face = "Face1";
     glasses = "Not";
-    speaker = "Patrick";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
+  class Hugo
+  {
+    name = "Hugo";
+    face = "Face7";
+    glasses = "Not";
+    speaker = "Adam";
     pitch = 1.00;
   };
   class USAGeneral
@@ -351,23 +359,23 @@ class Campaign
   class 04Mission: MissionDefault
   {
     end1 = 05Mission;
-    end2 = 05Mission;
-    end3 = 04Mission;
-    end4 = 04Mission;
-    end5 = 04Mission;
-    end6 = 04Mission;
-    lost = 04Mission;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 04Mission.Eden;
   };
   class 05Mission: MissionDefault
   {
     end1 = ;
-    end2 = 05Mission;
-    end3 = 05Mission;
-    end4 = 05Mission;
-    end5 = 05Mission;
-    end6 = 05Mission;
-    lost = 05Mission;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 05Mission.Eden;
   };
 };

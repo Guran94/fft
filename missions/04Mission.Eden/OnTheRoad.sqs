@@ -1,7 +1,10 @@
 playmusic "track5"
+away1=false
 jeep stop false
+truck lock true
 truck stop false
 0 fademusic 0.2
+away1=false
 
 ~30
 

@@ -138,6 +138,8 @@ truck5 setpos getmarkerpos "truck5"
 truck6 setpos getmarkerpos "truck6"
 deletevehicle rub1
 deletevehicle rub2
+deletevehicle driver truck3
+deletevehicle driver truck4
 deletevehicle truck3
 deletevehicle truck4
 deletevehicle g1
@@ -241,7 +243,7 @@ titleCut ["","BLACK OUT",1]
 ~1
 
 muday setpos getmarkerpos "closer"
-muday switchmove ""
+muday switchmove "effectstand"
 
 ~0.5
 
@@ -320,7 +322,7 @@ playsound "x01v12"
 ~5
 
 2 fadesound 0
-0 fademusic 0.2
+2 fademusic 0.2
 
 titleCut ["","BLACK OUT",2]
 

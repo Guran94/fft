@@ -3,11 +3,15 @@ class Mission
 {
 	addOns[]=
 	{
-		"Mini";
+		"Mini",
+		"m60mg",
+		"bis_resistance"
 	};
 	addOnsAuto[]=
 	{
-		"Mini",
+		"m60mg",
+		"bis_resistance",
+		"Mini"
 	};
 	randomSeed=10660355;
 	class Intel
@@ -24,7 +28,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=59;
+		items=60;
 		class Item0
 		{
 			side="WEST";
@@ -2208,6 +2212,23 @@ class Mission
 				};
 			};
 		};
+		class Item59
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4111.563965,38.699997,7791.560547};
+					id=158;
+					side="WEST";
+					vehicle="OfficerWHG";
+					leader=1;
+					skill=0.600000;
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -3902,8 +3923,9 @@ class Mission
 			a=10.000000;
 			b=13.000000;
 			rectangular=1;
+			activationBy="WEST";
 			age="UNKNOWN";
-			expActiv="serza say ""m02v19""";
+			expActiv="serza say ""m02v19""; car lock false";
 			class Effects
 			{
 			};

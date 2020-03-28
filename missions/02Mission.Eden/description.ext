@@ -9,7 +9,7 @@ MaxScore = 3000
 
 Debriefing = 1
 
-ShowWatch = 0
+ShowWatch = 1
 
 ShowCompass = 0
 
