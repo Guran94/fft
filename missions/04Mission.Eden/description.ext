@@ -3,13 +3,13 @@ onLoadMissionTime = true;
 onLoadIntro="$STR_ONLOAD_INTRO";
 onLoadIntroTime = false;
 
-MinScore = 0
-AvgScore = 0
-MaxScore = 0
+MinScore = 1000
+AvgScore = 2000
+MaxScore = 3000
 
 Debriefing = 1
 
-ShowWatch = 0
+ShowWatch = 1
 
 ShowCompass = 0
 
@@ -133,18 +133,6 @@ class CfgSounds
 		sound[] = {"m04v18.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m04v18};
 	};
-	class m04v19
-	{
-		name = "m04v19";
-		sound[] = {"m04v19.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m04v19};
-	};
-	class m04v20
-	{
-		name = "m04v20";
-		sound[] = {"m04v20.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m04v20};
-	};
 };
 
 
@@ -156,7 +144,7 @@ class CfgRadio
 	{
 		name = "m04r01";
 		sound[] = {"m04r01.ogg", db+10, 1.00};
-		title = $STRM_04r01;
+		title = $STRM_m04r01;
 	};
 	class m04r02
 	{
@@ -169,5 +157,11 @@ class CfgRadio
 		name = "m04r03";
 		sound[] = {"m04r03.ogg", db+10, 1.00};
 		title = $STRM_m04r03;
+	};
+	class m04r04
+	{
+		name = "m04r04";
+		sound[] = {"m04r04.ogg", db+10, 1.00};
+		title = $STRM_m04r04;
 	};
 };

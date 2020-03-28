@@ -3,7 +3,7 @@ setacctime 1
 titleCut ["","BLACK IN",2]
 jean setmimic "smile"
 wife setmimic "surprised"
-playmusic "track7"
+playmusic "fft_track4"
 jean switchmove "Medic"
 wife dowatch t1
 

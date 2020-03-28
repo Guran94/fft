@@ -24,7 +24,7 @@ _camera camCommit 3
 
 titleCut ["","BLACK OUT",1]
 
-~2
+~1
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

@@ -1,5 +1,6 @@
 titleCut ["","BLACK IN",3]
 setacctime 1
+away1=true
 truck stop true
 jeep stop true
 zustat=true
