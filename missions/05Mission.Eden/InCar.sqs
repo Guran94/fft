@@ -1,0 +1,7 @@
+playmusic "fft_track5"
+0 fademusic 0.2
+away1=false
+car lock true
+setacctime 1
+
+exit

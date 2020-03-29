@@ -36,60 +36,65 @@ STRM_m05v25,"That's my plan.","george"
 
 STRM_m05v26,"Holly shit. So they fucked up here.","george"
 
-STRM_mh14,"Bu�te pozdraven, veliteli. Jmenuji se George Dyaconsen. P�i�el jsem, abych...","George"
-STRM_mh15,"Vy nejste velitel americk� arm�dy, plukovn�k Epgayd. Kde je? Dohodli jsem se, �e tu s n�mi bude vyjedn�vat on!","Marcel"
-STRM_mh16,"Plukovn�k Epgayd po��dal m�, abych jel m�sto n�ho. Jist� to ch�pete, vztahy s v�mi mluv� za v�e.","George"
-STRM_mh17,"To m�te pravdu. Uk�u v�m, jak vztahy s n�mi mluv� v��i v�m. Nami�te na n�, chlapi!","Marcel"
-STRM_mh18,"Nechte toho!","Voj�k"
-STRM_mh19,"Polo�te ty zbran�! Polo�te je!","Kolega"
-STRM_mh20,"No tak, chlapi! Uklidn�te se!","George"
-STRM_mh21,"Klidn� odvolejte gorily, veliteli.\nNep�i�li jsme sem bojovat, p�i�li jsme uzav��t m�r.\nProto m� sem plukovn�k Epgayd poslal.","George"
-STRM_mh22,"Hmmm... Tak jo, ho�i, klidn�te hormony.","Marcel"
-STRM_mh23,"No tak mluvte.\nP�edneste n�m svou m�rovou smlouvu.","Marcel"
-STRM_mh24,"D�ky, veliteli. Nechceme tu ��dn�...","George"
-STRM_mh25,"P�esta�te mi u� ��kat t�mto va��m trapn�m americk�m zp�sobem!\nM� jm�no je Marcel Vavri�ka, tak m� kurva neserte a p�elo�te mi u� kone�n�, co nab�z�te!","Marcel"
-STRM_mh26,"Nemus�te na m� hned �v�t! Necht�l jsem v�s urazit, ale pouze se k v�m d�stojn� chovat.","George"
-STRM_mh27,"Dobr�, dobr�, dobr�, tu nab�dku bych miler�d sly�el, pros�m.","Marcel"
-STRM_mh28,"Nu�e, pane Vavri�ko.\nTento konflikt u� u� st�l spoustu lidsk�ch �ivot�, jak na na��, tak na va�� stran�.\nProto plukovn�k Epgayd navrhuje ukon�it tuto zbyte�nou v�lku a nastolit m�r.","George"
-STRM_mh29,"Jak si plukovn�k Epgayd ten m�r p�edstavuje?","Marcel"
-STRM_mh30,"Po�aduje propustit zajatce na obou stran�ch a rozd�lit Everon.\nLamentin, Le Moule a Morton budou va�e. Zvol�te si svoj� vl�du a...","George"
-STRM_mh31,"Co�e? Jak se opova�ujete n�co takov�ho navrhnout!\nMy jsme Everon�an�! Chceme cel� ostrov!","Marcel"
-STRM_mh32,"Nechte m� domluvit, pros�m!\nPak je tu druh� varianta.","George"
-STRM_mh33,"A ta je?","Marcel"
-STRM_mh34,"Cel� ostrov z�stane pod americkou vlajkou.\nZa va�� ochotu budou sn�eny dan�, zlep�� se �ivotn� �rove� va�� zem� a v�razn� se sn�� vojensk� aktivita.","George"
-STRM_mh35,"F�j!","Rebelove"
-STRM_mh36,"Jd�te do prdele, Ameri�ani!","Rebelove"
-STRM_mh37,"Hahaha... Vy pitom� kret�ni, jak jste hloup�.\nMy na tak p�iblbl� podm�nky nep��stoup�me, pon�vad� se chceme osamostatnit!","Marcel"
-STRM_mh38,"Ale jestli neslo��te zbran�, bude tenhle konflikt mnohem v�t��.\nMyslete na to, co se stane a� se do situace vlo�� Washington a p�ijede na ostrov na�e hlavn� vlna.\nNebudete m�t proti n�m �anci!","George"
-STRM_mh39,"Hahaha, jste je�t� blb�j�� ne� vypad�te, pane Dagosne, nebo jak se to jmenujete.","Marcel"
-STRM_mh40,"Dyaconsen!","George"
-STRM_mh41,"To je jedno.\nV�lka bude pokra�ovat a tak� v n� zv�t�z�me.\nJako d�kaz za va�� ochotu s n�mi vyjedn�vat jsem zase j� ochoten vyst�elit v�m mozek z hlavy.","Marcel"
-STRM_mh42,"Pane Vavri�ko, nezd� se mi, �e byste to um�l spr�vn� posoudit.","George"
-STRM_mh43,"Dr� hubu! Zast�elte ty �a�ky!","Marcel"
-STRM_mh44,"Co to kurva bylo? Sakra kryjte se! Ten gr�zl na n�s u�il boudu!","Marcel"
-STRM_mh45,"Ne, to nejsou Ameri�an�! To je n�co jin�ho.","George"
-STRM_mh46,"Po�k�m a� p�estane to bombardov�n�, pak zmizim. Snad m� n�jak� bomba netref�.","George"
+STRM_m05v27,"Greetings the folk of Everon. It's a great honor the meet you personally.","george"
+STRM_m05v28,"Does enybody speak english?","george"
+STRM_m05v29,"Welcome, American. My names is Jean Poincare and yes I can speak english as you can see.","jean"
+STRM_m05v30,"Poin-care... right. It's nice to meet you, mr Poincare.\nMy name is George Dyaconsen.","george"
+STRM_m05v31,"So, take a seat, mr Dyaconsen.","jean"
+STRM_m05v32,"You have a very good accent, on Everonian, mr Poincare. Where have you learn so good english?","george"
+STRM_m05v33,"I was in politics that's all, you may also not be interested.\nLet's get down to the business.\nSo what do you offer, Americans? What colonel Epgayd wants?","jean"
+STRM_m05v34,"Mr. Poincare. This conflict has cost a lot of human lives, as on our side and on yours too. Therefore, Colonel Epgayd and White House suggests ending this unnecessary war and establishing truce.","george"
+STRM_m05v35,"Of course you suggest.\nYou came on Everon, made a mess, raped our women, including my wife... my wife mr. Dyaconsen! And now you want to finish it by the truce treaty? My wife was unguilty, mr Dyaconsen! Why she had to die?","jean"
+STRM_m05v36,"I, I am so sorry, mr. Poincare... But not everyone American is like that.\nIf the conflict will continue, there are going to be more dead women on Everon, than your wife.","george"
+STRM_m05v37,"You didn't understand it, American. This island is ours and we want it back! We don't want more American liers of democracy here, but true free Everon!\nIf you can't understand it, the war will continue and it will be even your people, who will be dying.","jean"
+STRM_m05v38,"And your women, who will have crying from the death of their sons.","jean"
+STRM_m05v39,"Look, Mr. Poincare, I know Everon's people very good, I was drilling some our soldiers here.\nBut please look on it from other side. We had no choice, than come to your island.","george"
+STRM_m05v40,"It's cold war crisis and if you will not drop your weapons, this conflict is getting bloodier.\nIf you think about your people, stop the war right now, make the situation calmer.","george"
+STRM_m05v41,"Both sides will release the prisoners and neither one side has to not lose lives of its people.\nWe might be nemies, mr. Poincare, althoug I believe","george"
+STRM_m05v42,"NO! Mr. Dyaconsen.\nThe war continues and with it the fight for freedom of Everon!","jean"
+STRM_m05v43,"What was that?","george"
+STRM_m05v44,"That's Russians, take cover!","jean"
+
+STRM_m05v45,"Mr. Dyaconsen, get out of here. The nagotiating is over. Just save your life!","jean"
+STRM_m05v46,"But what about you?","george"
+STRM_m05v47,"It's our busines. Wait until it will stop and then go!","jean"
+
+
+STRM_m05r01,"DEVIL THIS IS EVIL. CAN YOU HEAR ME? OVER?","james"
+STRM_m05r02,"OF COUSE I CAN, EVIL. IT'S VERY FUNNY TO HEAR DEVIL AND EVIL. YOU KNOW LIKE KEIN AND ABEL . IT SOUNDS WE'RE CREATING HISTORY.","george"
+STRM_m05r03,"LISTEN UP, GEORGE. I JUST WANT YOU TO KNOW, THAT IF WHATEVER WILL HAPPEN THERE I'LL NEVER LET YOU OUT. AFTER ALL I OWE IT TO YOU. ARE WE CLEAR?","james"
+STRM_m05r04,"YOU KNOW ME, EVIL. I AM SOLDIER AND POLITITION AS WELL, ALTHOUGH WE WILL ALREADY IN A MOMENT CELEBRATE TOGETHER WITH JACK DANIELS, PERHAPS WE SHOULD INVITE THE REBELS FOR THEMSELVES TO SAMPLE MR DANIELS. THE WAR WOULD NEVER BEGIN.","george"
+STRM_m05r05,"COPY THAT, DEVIL, BUT JACK IS SOLELY OURS. BETTER TO FUCK THE REBELS TO ASS, THAN GIVE THEM OUR JACK, HOWEVER YOU KNOW I AM THE BEST FOR THE HANGOVER CAUSED BY MR DANIELS.","james"
+STRM_m05r06,"OK, SO UNCLE SAM. IT WOULD BE BETTER GUEST.","george"
+STRM_m05r07,"HE IS AN OLD SON OF BITCH. WHERE HAS HE BEEN WHEN THE REBELION DID START? NOWHERE. SO FUCK HIM TOO AND YOU DEVIL, SHOW THE REBELS HOW FUCKS AN AMERICAN DEVIL, CLEAR?","james"
+STRM_m05r08,"DON'T WORRY, EVIL. MEANWHILE OUT.","george"
+
+STRM_m05r09,"PAPA BEAR THIS IS EAGLE ONE. I'VE GOT SOMETHING ON RADAR IN SECTOR B. ISN'T IT OUR NAVY? OVER.","Orel"
+STRM_m05r10,"IT MUST BE A MISTAKE. WHAT WOULD OUR NAVY DO HERE? CHECK IT AND CORRECTLY, OVER.","papa"
+STRM_m05r11,"COPY THAT, PAPA BEAR. WE'RE SENDING THE REACON FLY THERE, OUT.","Orel"
+
+STRM_m05r12,"EVIL, I AM RIGHT HERE.","george"
+STRM_m05r13,"COPY THAT, DEVIL. I AM WITH YOU.","james"
+
+STRM_m05r14,"FUCK, GEORGE. WHERE IT COMES FROM?","james"
+STRM_m05r15,"WE HAVE A VISIT, JAMES. OUR EASTER COMMRADE.","george"
+STRM_m05r16,"GEORGE, GET THE FUCK OUT OF THERE, NOW!","james"
+
+STRM_m05r17,"WHAT A BULLSHIT.","james"
+STRM_m05r18,"DON'T FEEL SORRY FOR HIM.","james"
+STRM_m05r19,"YOU'RE SPEAKING LIKE A TRUE DEVIL.","james"
+STRM_m05r20,"VERY GOOD SPEECH, GEORGE.","james"
 
 
 
 
-
-STRM_away3,"Fuck... James will kill me.","George"
-
-STRM_r01,"T�TO MEDV�DE, TADY OREL 1. NA RADARU V SEKTORU B CHYT�M N�CO VELK�HO. NEN� TO NA�E N�MO�NICTVO? P�EP�N�M.","Orel"
-STRM_r02,"TO MUS� B�T OMYL, CO BY TADY D�LALO NA�E N�MO�NICTVO? PROV��TE TO A PO��DN�, P�EP�N�M.","Medv�d"
-STRM_r03,"POTVRZUJI, T�TO MEDV�DE, POS�L�ME TAM PR�ZKUMN� LET, KONEC.","Orel"
-STRM_r04,"T�TO MEDV�DE, TADY VYJEDNAVA�. BUDU V�S MUSET ZKLAMAT. VYJEDN�V�N� NEVY�LO �PLN� PODLE NA�ICH P�EDSTAV. JEJICH K�PA M� STA�IL VYFAKOVAST D��V, NE� JSEM STIHL N�CO DO��CT A KE V�EMU SE TU VYSKYTL JEDEN PROBL�M, P�EP�N�M.","George"
-STRM_r05,"SNAHA BYLA, MAJORE. PLUKOVN�K NEBUDE POT̊EN, NICM�N� CO JSTE ��KAL O TOM PROBL�MU?","Medv�d"
-STRM_r06,"N�KDO VVZAL �TOKEM MORTONSK� Z�LIV. D�LOST�ELECTVO TOMU D�V� P�KN� ZABRAT. M�LI BYSTE TO M�T NA RADARU, P�EP�N�M."George"
-STRM_r07,"JO M�ME N�KOHO NA RADARU. NO SAKRA, JE TOHO FAKT SPOUSTA! PROTO SE PR�ZKUMN� BLACKHAWK NEVR�TIL. OKAM�IT� ODTAMTUD VYXPADN�TE, MAJORE. VA�E MISE SKON�ILA. T�TA MEDV�D, KONEC.","Medv�d"
-
-STRM_away1,"MAJORE, CO SI MYSL�TE, �E D�L�TE? ODEVZDEJTE TU ZBRA�, ZATRACEN�!","Medv�d"
-STRM_away2,"MAJORE DYACONSENE, TOHLE U� P�ESAHUJE V�ECHNY MEZE. JSTE ZBAVEN SV� HODNOSTI A SV� MISE. VRA�TE SE ZP�TKY DO MONTIGNACU, KONEC.","Medv�d"
-STRM_away4,"MAJORE, KAM TO JEDETE? MORTON JE NA DRUHOU STRANU! OTO�TE TO PROSIM V�S A �I�TE SE PODLE PL�NU!","Medv�d"
+STRM_m05away1,"MAJOR, THE REBELS ARE WAITING. GET IN THE CAR AND FINALLY GO!","papa"
+STRM_m05away2,"MAJOR, WHAT YOU'RE DOING? YOU'RE DRIVING THE WRONG DIRECTION!","papa"
+STRM_m05away3,"Fuck... James will kill me.","George"
 
 STR_CFG_GRPNAMES_ALPHA,"Devil",Dyaconsen
 STR_CFG_GRPNAMES_BRAVO,"Evil",Epgayd
+STR_CFG_GRPNAMES_CHARLIE,"Eagle",Eagle
 
 STRMM_01,"Get out!","marker"
 

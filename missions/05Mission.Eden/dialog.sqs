@@ -1,39 +1,16 @@
-playmusic "fft_track5"
-0 fademusic 0.2
-away2=false
-car lock true
+james sideradio "m05r01"
+george sideradio "m05r02"
+james sideradio "m05r03"
+george sideradio "m05r04"
+james sideradio "m05r05"
+george sideradio "m05r06"
+james sideradio "m05r07"
+george sideradio "m05r08"
 
 ~10
 
-setacctime 1
-hrac say "mh06"
-
-~5
-
-v1 say "mh07"
-
-~2
-
-v3 say "mh08"
-
-~10
-
-hrac say "mh09"
-
-~5
-
-v2 say "mh10"
-
-~7
-
-hrac say "mh11"
-
-~8
-
-v2 say "mh12"
-
-~4
-
-car lock false
+orel sideradio "m05r09"
+papa sideradio "m05r10"
+orel sideradio "m05r11"
 
 exit
