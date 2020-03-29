@@ -5,11 +5,13 @@ class Mission
 	{
 		"Mini",
 		"m60mg",
-		};
+		"bis_resistance"
+	};
 	addOnsAuto[]=
 	{
 		"m60mg",
-		"Mini",
+		"bis_resistance",
+		"Mini"
 	};
 	randomSeed=10660355;
 	class Intel
@@ -17,7 +19,7 @@ class Mission
 		briefingName="@STRCN_02";
 		resistanceWest=0.000000;
 		startWeather=0.693797;
-		startFog=0.068784;
+		startFog=0.093846;
 		forecastWeather=0.737569;
 		month=11;
 		day=22;

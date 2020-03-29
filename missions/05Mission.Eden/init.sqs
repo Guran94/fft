@@ -20,9 +20,6 @@ invaze=false
 away1=true
 away2=true
 away3=true
-away4=true
-away5=false
-away6=false
 splneno=false
 papa=[West, "HQ"]
 

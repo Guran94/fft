@@ -20,6 +20,7 @@ class Mission
 		briefingName="@STRCN_03";
 		resistanceWest=0.000000;
 		startWeather=0.662581;
+		startFog=0.056278;
 		forecastWeather=0.937719;
 		forecastFog=0.100000;
 		month=11;

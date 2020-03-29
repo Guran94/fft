@@ -10,7 +10,6 @@ car lock false
 hrac action ["weapononback"]
 playsound "odevzdal"
 away1=false
-away2=false
 neodevzdal=false
 
 ~2
@@ -21,3 +20,5 @@ hlidac say "m05v24"
 
 hrac say "m05v25"
 hlidac dowatch objnull
+
+exit

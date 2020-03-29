@@ -392,4 +392,40 @@ class CfgRadio
 		sound[] = {"m05r10.ogg", db+10, 1.00};
 		title = $STRM_m05r10;
 	};
+	class m05r11
+	{
+		name = "m05r11";
+		sound[] = {"m05r10.ogg", db+10, 1.00};
+		title = $STRM_m05r11;
+	};
+	class m05r12
+	{
+		name = "m05r12";
+		sound[] = {"m05r12.ogg", db+10, 1.00};
+		title = $STRM_m05r12;
+	};
+	class m05r13
+	{
+		name = "m05r13";
+		sound[] = {"m05r13.ogg", db+10, 1.00};
+		title = $STRM_m05r13;
+	};
+	class m05away1
+	{
+		name = "m05away1";
+		sound[] = {"m05away1.ogg", db+10, 1.00};
+		title = $STRM_m05away1;
+	};
+	class m05away2
+	{
+		name = "m05away2";
+		sound[] = {"m05away2.ogg", db+10, 1.00};
+		title = $STRM_m05away2;
+	};
+	class m05away3
+	{
+		name = "m05away3";
+		sound[] = {"m05away3.ogg", db+10, 1.00};
+		title = $STRM_m05away3;
+	};
 };
