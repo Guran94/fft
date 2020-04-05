@@ -7,7 +7,7 @@ playmusic "fft_track1"
 0 fademusic 0.5
 away2=false
 papa sideradio "m06v09"
-stahnout=true
+getout=true
 sh1 setcaptive false
 sh1 setcaptive false
 

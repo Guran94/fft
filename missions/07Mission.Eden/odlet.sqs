@@ -2,12 +2,49 @@ chinook setfuel 1
 chinook flyinheight 500
 setacctime 1
 chinook lock true
-away1=false
-chinook sideradio "r02"
+away2=false
+6 fademusic 0
+chinook sideradio "m07r08"
+papa sideradio "m07r09"
 
-chinook sideradio "r03"
 
-papa sideradio "r04"
+~10
+
+enableradio true
+0 fademusic 1
+playmusic "track6"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ~40
 

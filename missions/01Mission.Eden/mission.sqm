@@ -1560,7 +1560,7 @@ class Mission
 		{
 			position[]={7251.615723,30.374998,6788.976563};
 			name="start";
-			text="@STRMM_01";
+			text="@STRCM_01";
 			type="Start";
 			colorName="ColorGreen";
 		};

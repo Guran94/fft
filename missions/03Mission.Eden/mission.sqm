@@ -3955,7 +3955,7 @@ class Mission
 		{
 			position[]={4104.057129,72.445335,4634.421875};
 			name="start";
-			text="@STRMM_01";
+			text="@STRCM_01";
 			type="Start";
 			colorName="ColorGreen";
 			angle=138.000000;

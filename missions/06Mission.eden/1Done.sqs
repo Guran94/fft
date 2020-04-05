@@ -1,5 +1,6 @@
 setacctime 1
 "1" objstatus "done"
+hrac addrating 1000
 ah setfuel 1
 battle=true
 

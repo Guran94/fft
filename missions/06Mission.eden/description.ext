@@ -92,4 +92,10 @@ class CfgRadio
 		sound[] = {"m06r10.ogg", db+10, 1.00};
 		title = $STRM_m06r10;
 	};
+	class m06r11
+	{
+		name = "m06r11";
+		sound[] = {"m06r11.ogg", db+10, 1.00};
+		title = $STRM_m06r11;
+	};
 };

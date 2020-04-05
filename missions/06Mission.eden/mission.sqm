@@ -296,7 +296,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.885914;
 					text="serza";
-					init="""_x moveincargo m113"" foreach units group this; group this setgroupid [""Alpha"",""GROUPCOLOR0""]; group this allowFleeing 0; first=group this";
+					init="""_x moveincargo m113"" foreach units group this; group this setgroupid [""Alpha"",""GROUPCOLOR0""]; group this allowFleeing 0; first=group this; this addweapon ""binocular""";
 				};
 				class Item1
 				{
@@ -483,7 +483,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.466667;
 					text="bravo1";
-					init="""_x moveincargo m113_2"" foreach units group this; group this setgroupid [""Bravo"",""GROUPCOLOR0""]; group this allowFleeing 0; ; second=group this";
+					init="""_x moveincargo m113_2"" foreach units group this; group this setgroupid [""Bravo"",""GROUPCOLOR0""]; group this allowFleeing 0; ; second=group this; this addweapon ""binocular""";
 				};
 				class Item1
 				{
@@ -625,7 +625,7 @@ class Mission
 					position[]={3479.370850,151.970520,5872.585449};
 					id=13;
 					side="WEST";
-					vehicle="SoldierWMG";
+					vehicle="SoldierWG";
 					leader=1;
 					rank="SERGEANT";
 					skill=0.466667;
@@ -1230,8 +1230,8 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={2879.650391,91.026161,5358.719238};
-					placement=20.000000;
+					position[]={2825.208496,91.203842,5415.678711};
+					placement=50.000000;
 					type="HOLD";
 					combatMode="RED";
 					class Effects
@@ -2449,7 +2449,7 @@ class Mission
 			colorName="ColorBlack";
 			fillName="DiagGrid";
 			a=300.000000;
-			b=120.000000;
+			b=80.000000;
 		};
 		class Item2
 		{
@@ -2619,15 +2619,15 @@ class Mission
 			markerType="ELLIPSE";
 			type="Flag";
 			colorName="ColorRed";
-			a=40.000000;
-			b=40.000000;
+			a=30.000000;
+			b=30.000000;
 			angle=150.000000;
 		};
 		class Item21
 		{
 			position[]={3533.760742,159.098648,5790.608398};
 			name="start";
-			text="@STRMM_01";
+			text="@STRCM_01";
 			type="Start";
 			colorName="ColorGreen";
 			angle=240.000000;
@@ -2878,8 +2878,7 @@ class Mission
 			type="SWITCH";
 			age="UNKNOWN";
 			text="retreat or americans died";
-			expCond="stahnout or defeat";
-			expActiv="[] exec ""3done.sqs""";
+			expCond="getout or defeat";
 			class Effects
 			{
 			};
@@ -3238,6 +3237,7 @@ class Mission
 			age="UNKNOWN";
 			text="americans dead and retreat";
 			expCond="defeat";
+			expActiv="[] exec ""defeat.sqs""";
 			class Effects
 			{
 			};

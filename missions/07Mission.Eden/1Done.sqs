@@ -1,12 +1,12 @@
 setacctime 1
 "1" objstatus "done"
 hrac addrating 1000
-zustat=false
-away=true
-leader player groupradio "m04r01"
+bravo sideradio "m07r02"
 
-~2
+~3
 
 savegame
+
+serza say "m07v02"
 
 exit

@@ -1,0 +1,5 @@
+setacctime 1
+serza say "m07away1"
+hrac addarating -1000
+
+exit
