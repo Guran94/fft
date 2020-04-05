@@ -2,8 +2,7 @@ setacctime 1
 titleCut ["","BLACK IN",3]
 m113 lock true
 "4" objstatus "hidden"
-playmusic "rtrack8"
-away1=false
+away1=true
 away2=true
 hotovo=false
 papa=[West, "HQ"]
@@ -13,50 +12,47 @@ ClearWeaponCargo m113_2
 ClearMagazineCargo m113_2
 ClearWeaponCargo m113_3
 ClearMagazineCargo m113_3
-ClearWeaponCargo m113_4
-ClearMagazineCargo m113_4
+playmusic "fft_track2"
+enableradio false
 
-~10
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
-setacctime 1
-pochcanek setmimic "bad"
-pochcanek say "mh02"
+;=== 22:33:22
+_camera camSetTarget [-92559.50,-15507.19,-19051.61]
+_camera camSetPos [3279.40,5578.54,65.76]
+_camera camSetFOV 0.325
+_camera camCommit 0
+@camCommitted _camera
 
-~4
+~3
 
-serza setmimic "angry"
-serza say "mh03"
+;=== 22:33:22
+_camera camSetTarget m113
+_camera camSetPos [3279.40,5578.54,65.76]
+_camera camSetFOV 0.325
+_camera camCommit 2
+@camCommitted _camera
+;=== 22:33:22
+_camera camSetTarget m113
+_camera camSetPos [3279.40,5578.54,65.76]
+_camera camSetFOV 0.0050
+_camera camCommit 2
 
-~8
 
-pochcanek say "mh04"
+titleCut ["","WHITE OUT",1]
 
 ~2
 
-voj setmimic "smile"
-voj say "mh05"
+titleCut ["","WHITE in",1]
 
-~4
+player cameraEffect ["terminate","back"]
+camDestroy _camera
 
-hrac say "mh06"
+enableradio true
 
 ~2
 
-voj setmimic "angry"
-voj say "mh07"
-
-~6
-
-hrac say "mh08"
-
-~0.5
-
-serza say "mh09"
-
-~5
-
-pochcanek setmimic "normal"
-voj setmimic "normal"
-serza setmimic "normal"
+m113 sideradio "m06r01"
 
 exit

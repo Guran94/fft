@@ -1,20 +1,25 @@
-LANGUAGE,"Czech","Comment"
+LANGUAGE,"english","Comment"
 
-STR_ONLOAD_INTRO,"Nový nepøítel","loading screen"
+STR_ONLOAD_INTRO,"New enemy","loading screen"
 
-STRM_ih01,"Rusové. Náš nový nepøítel. Za dva dny dokázali témìø vyhladit rebely a jejich dobyté území si pøivlastnili.","Jason"
-STRM_ih02,"To èeho se vláda obávala se stalo.\nKreml však tuto situaci vysvìtlil tím, že Rudá armáda se pouze snaží osvobodit Everon, protože na to z hlediska historie má nároky.","Jason"
-STRM_ih03,"Rusové nám válku nevyhlásili,\nale Epgayd byl Rusy vyzýván, aby se stáhnul z Everonu, to mu však Washington zakazoval a poslal mu tajnou zprávu,\naby na Rusy zahájil ofenzivu.","Jason"
-STRM_ih04,"Ale v situaci, ve které jsme se nacházeli, bylo každému Amerièanovi jasné, že ofenziva nemùže mít úspìch.\nZatímco Sovìti byli na Everonu v plné síle, my jsme byli témìø na dnì.","Jason"
-STRM_ih05,"Velení ale i pøesto vìøilo ve vítìzství.","Jason"
-STRM_ih06,"... k èertu s tím, co tu vùbec dìlaj? Nemohou pøece jen tak vtrhnout na Everon, pøeválcovat rebely a buzerovat nás!","Epgayd"
-STRM_ih07,"Nemùžeme ztrácet èas, pane. Musíme okamžitì udeøit.\nZaútoèíme na nì s tak velkou silou, že už nikdy nevystrèí svou bolševickou prdel ze Sovìtského svazu.","Muday"
-STRM_ih09,"Pane, musíme pøece okamžitì kapitulovat. Nemùžeme zvítìzit.\nKdyž jsme mìli problémy s rebely, tak vycvièená Rudá armáda nás smete stejnì snadno, jako špínu na podlaze.\nZemøelo by zbyteènì spousta lidí.","Dán"
-STRM_ih10,"Jenomže, když to nezkusíme, majore, pøijdeme o Everon.\nTo se prezidentu Carterovi urèitì líbit nebude a hrozilo by, že Sovìtský svaz zajde ještì dál a zaútoèí na území Spojených státù!\nChcete riskovat 3. svìtovou?!","Muday"
-STRM_ih11,"Rozumná jednání patøila vždycky do mé profese, poruèíku Mudayi.","Dán"
-STRM_ih12,"Pánové je fakt, že jsme si tu vykopali hezky hlubokej hrob.\nKaždopádnì, jestli nezaútoèíme, zaútoèí oni. Proto udeøíme jako první!","Epgayd"
-STRM_ih13,"Ano, pane!","Muday"
-STRM_ih14,"Plukovníku, nechtìl byste to ještì zvážit?","Dán"
-STRM_ih15,"Tady se opravdu nedá nic jiného dìlat, majore.\nWashington nám dal rozkaz, který když porušíme, budeme všichni v prdeli! My nemáme na vybranou.","Epgayd"
-STRM_ih16,"Dobrá, pane. Poslouchám.","Dán"
-STRM_ih17,"Udìláme to to takhle, podívejte...","Epgayd"
+STRM_x02v01,"Soviets. Our new enemies. They seized rebels bases like Morton, Le Moule and Lamentin in just a few hours.","Jason"
+STRM_x02v02,"What the government feared happened.\nHowever, the Kremlin has defended this situation by the fact that the Red Army is only trying to liberate Everon,\nbecause it has history claims.","Jason"
+
+STRM_x02v03,"The Russians did not declare war on us\nbut Washington was called on the Russians to withdraw Epgayd's troops from Everon.\nThe Pentagon, however, refused and ordered to Epgayd to launch an offensive on the Russians.","Jason"
+STRM_x02v04,"But in the situation we were in, it was clear to every American that the offensive could not succeed.\nWhile the Soviets were in full force on Everon, we were almost down.","Jason"
+STRM_x02v05,"Although colonel Epgayd was believed in success.","Jason"
+
+STRM_x02v06,"Fuck it! What the fuck they're doing here? They can't just invade Everon, overwhelm the rebels and fucking with us!","epgayd"
+STRM_x02v07,"We can't waste time, sir. We must strike immediately. We will attack them with such great force that they will never push their Bolshevik ass out of the Soviet Union again!","muday"
+STRM_x02v08,"James, we must capitulate immediately! We can't win! When we had problems with the rebels, a trained Red Army flushes us out as easily as shit to the toilet. Many people would have died unnecessarily.","george"
+STRM_x02v09,"It's an order major! And if we don't try, we might lose Everon. President Carter would certainly not like that, and the Soviet Union would go even further and attack the United States! Do you want to risk the 3rd world?!","muday"
+STRM_x02v10,"Reasonable negotiations have always belonged to my profession, Lieutenant Mudaya.","george"
+STRM_x02v11,"Gentlemen, in fact we've diged a very deep grab here. In any case if we don't attack, they will and therefore we are going to be first.","epgayd"
+STRM_x02v12,"Sir yes sir!","Muday"
+STRM_x02v13,"James did you not to think about it yet?","george"
+STRM_x02v14,"Think about what, George! This order is from the highest HQ! We have no choice!","epgayd"
+STRM_x02v15,"Yes, we hove no choice again.\nAlright, I am lstening.","george"
+STRM_x02v16,"Let's do it this way, look...","epgayd"
+
+STRM_t1,"C H A P T E R   I I","",me
+STRM_t2,"N E W   B A T L E   O F   E V E R O N","",me

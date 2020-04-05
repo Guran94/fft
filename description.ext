@@ -370,9 +370,9 @@ class Campaign
   class 05Mission: MissionDefault
   {
     end1 = ;
-    end2 = ;
-    end3 = ;
-    end4 = ;
+    end2 = 05Mission;
+    end3 = 05Mission;
+    end4 = 05Mission;
     end5 = ;
     end6 = ;
     lost = ;
@@ -410,12 +410,12 @@ class Campaign
   class 06Mission: MissionDefault
   {
     end1 = 07Mission;
-    end2 = 06Mission;
-    end3 = 06Mission;
-    end4 = 06Mission;
-    end5 = 06Mission;
-    end6 = 06Mission;
-    lost = 06Mission;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 06Mission.Eden;
   };
   class 07Mission: MissionDefault

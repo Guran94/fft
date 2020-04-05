@@ -36,5 +36,6 @@ clearmagazinecargo ammo2
 clearweaponcargo ammo2
 ammo2 AddWeaponCargo ["M16",1]
 ammo2 AddMagazineCargo ["M16",3]
+awaymon=true
 
 exit

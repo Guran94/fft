@@ -1,0 +1,14 @@
+setacctime 1
+"1" objstatus "done"
+ah setfuel 1
+battle=true
+
+0 fademusic 0.2
+leader player sideradio "m06r03"
+papa sideradio "m06r04"
+
+~5
+
+savegame
+
+exit
