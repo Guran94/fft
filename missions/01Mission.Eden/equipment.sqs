@@ -1,6 +1,6 @@
 hint localize "STRM_m01hint2"
 
-hrac addrating 100
+hrac addrating 1000
 
 hrac addmagazine "m16"
 hrac addmagazine "m16"

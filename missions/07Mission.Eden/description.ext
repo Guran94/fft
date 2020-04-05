@@ -1,9 +1,9 @@
 onLoadMission="$STR_ONLOAD_MISSION";
 onLoadMissionTime = true;
 
-MinScore = 1100
-AvgScore = 3000
-MaxScore = 5000
+MinScore = 1000
+AvgScore = 2000
+MaxScore = 3000
 
 Debriefing = 0
 
@@ -17,480 +17,137 @@ ShowGPS = 0
 
 ShowMap = 1
 
+
+
 class CfgSounds
 {
-	sounds[] = 
-	{
-		
-		
-	};
+	sounds[] = { };
 
-	class vybuch
+	class m07v01
 	{
-		name = "vybuch";
-		sound[] = {"vybuch.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, 
-			};
+		name = "m07v01";
+		sound[] = {"m07v01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v01};
 	};
-	class piskot
+	class m07v02
 	{
-		name = "piskot";
-		sound[] = {"piskot.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, 
-			};
+		name = "m07v02";
+		sound[] = {"m07v02.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v02};
 	};
-	class mh01
+	class m07v03
 	{
-		name = "mh01";
-		sound[] = {"mh01.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh01
-			};
+		name = "m07v03";
+		sound[] = {"m07v03.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v03};
 	};
-	class mh02
+	class m07v04
 	{
-		name = "mh02";
-		sound[] = {"mh02.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh02
-			};
+		name = "m07v04";
+		sound[] = {"m07v04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v04};
 	};
-	class mh03
+	class m07v05
 	{
-		name = "mh03";
-		sound[] = {"mh03.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh03
-			};
+		name = "m07v05";
+		sound[] = {"m07v05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v05};
 	};
-	class mh04
+	class m07v06
 	{
-		name = "mh04";
-		sound[] = {"mh04.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh04
-			};
+		name = "m07v06";
+		sound[] = {"m07v06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v06};
 	};
-	class mh05
+	class m07v07
 	{
-		name = "mh05";
-		sound[] = {"mh05.ogg", db+10, 0.97};
-		titles[] = 
-			{
-				0, $STRM_mh05
-			};
+		name = "m07v07";
+		sound[] = {"m07v07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v07};
 	};
-	class mh06
+	class m07v08
 	{
-		name = "mh06";
-		sound[] = {"mh06.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh06
-			};
+		name = "m07v08";
+		sound[] = {"m07v08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v08};
 	};
-	class mh07
+	class m07v09
 	{
-		name = "mh07";
-		sound[] = {"mh07.ogg", db+10, 0.97};
-		titles[] = 
-			{
-				0, $STRM_mh07
-			};
+		name = "m07v09";
+		sound[] = {"m07v09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v09};
 	};
-	class mh08
+	class m07v10
 	{
-		name = "mh08";
-		sound[] = {"mh08.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh08
-			};
-	};
-	class mh09
-	{
-		name = "mh09";
-		sound[] = {"mh09.ogg", db+10, 0.97};
-		titles[] = 
-			{
-				0, $STRM_mh09
-			};
-	};
-	class mh10
-	{
-		name = "mh10";
-		sound[] = {"mh10.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh10
-			};
-	};
-	class mh11
-	{
-		name = "mh11";
-		sound[] = {"mh11.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh11
-			};
-	};
-	class mh12
-	{
-		name = "mh12";
-		sound[] = {"mh12.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh12
-			};
-	};
-	class mh13
-	{
-		name = "mh13";
-		sound[] = {"mh13.ogg", db+10, 0.95};
-		titles[] = 
-			{
-				0, $STRM_mh13
-			};
-	};
-	class mh14
-	{
-		name = "mh14";
-		sound[] = {"mh14.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh14
-			};
-	};
-	class mh15
-	{
-		name = "mh15";
-		sound[] = {"mh15.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh15
-			};
-	};
-	class mh16
-	{
-		name = "mh16";
-		sound[] = {"mh16.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh16
-			};
-	};
-	class mh16a
-	{
-		name = "mh16a";
-		sound[] = {"mh16a.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, 
-			};
-	};
-	class mh16b
-	{
-		name = "mh16b";
-		sound[] = {"mh16b.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, 
-			};
-	};
-	class mh17
-	{
-		name = "mh17";
-		sound[] = {"mh17.ogg", db+10, 0.97};
-		titles[] = 
-			{
-				0, $STRM_mh17
-			};
-	};
-	class mh18
-	{
-		name = "mh18";
-		sound[] = {"mh18.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh18
-			};
-	};
-	class mh19
-	{
-		name = "mh19";
-		sound[] = {"mh19.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh19
-			};
-	};
-	class mh20
-	{
-		name = "mh20";
-		sound[] = {"mh20.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh20
-			};
-	};
-	class mh21
-	{
-		name = "mh21";
-		sound[] = {"mh21.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh21
-			};
-	};
-	class mh22
-	{
-		name = "mh22";
-		sound[] = {"mh22.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh22
-			};
-	};
-	class mh23
-	{
-		name = "mh23";
-		sound[] = {"mh23.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh23
-			};
-	};
-	class mh24
-	{
-		name = "mh24";
-		sound[] = {"mh24.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh24
-			};
-	};
-	class mh25
-	{
-		name = "mh25";
-		sound[] = {"mh25.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh25
-			};
-	};
-	class mh26
-	{
-		name = "mh26";
-		sound[] = {"mh26.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh26
-			};
-	};
-	class mh27
-	{
-		name = "mh27";
-		sound[] = {"mh27.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh27
-			};
-	};
-	class mh28
-	{
-		name = "mh28";
-		sound[] = {"mh28.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh28
-			};
-	};
-	class mh29
-	{
-		name = "mh29";
-		sound[] = {"mh29.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh29
-			};
-	};
-	class mh30
-	{
-		name = "mh30";
-		sound[] = {"mh30.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh30
-			};
-	};
-	class mh31
-	{
-		name = "mh31";
-		sound[] = {"mh31.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh31
-			};
-	};
-	class mh32
-	{
-		name = "mh32";
-		sound[] = {"mh32.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh32
-			};
-	};
-	class mh33
-	{
-		name = "mh33";
-		sound[] = {"mh33.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh33
-			};
-	};
-	class mh34
-	{
-		name = "mh34";
-		sound[] = {"mh34.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh34
-			};
-	};
-	class mh35
-	{
-		name = "mh35";
-		sound[] = {"mh35.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh35
-			};
-	};
-	class mh36
-	{
-		name = "mh36";
-		sound[] = {"mh36.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_mh36
-			};
-	};
-	class mh37
-	{
-		name = "mh37";
-		sound[] = {"mh37.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh37
-			};
-	};
-	class mh38
-	{
-		name = "mh38";
-		sound[] = {"mh38.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh38
-			};
-	};
-	class mh39
-	{
-		name = "mh39";
-		sound[] = {"mh39.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh39
-			};
-	};
-	class mh40
-	{
-		name = "mh40";
-		sound[] = {"mh40.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh40
-			};
-	};
-	class mh41
-	{
-		name = "mh41";
-		sound[] = {"mh41.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh41
-			};
-	};
-	class mh42
-	{
-		name = "mh42";
-		sound[] = {"mh42.ogg", db+10, 1.00};
-		titles[] = 
-			{
-				0, $STRM_mh42
-			};
-	};
-	class mh43
-	{
-		name = "mh43";
-		sound[] = {"mh43.ogg", db+10, 1.05};
-		titles[] = 
-			{
-				0, $STRM_mh43
-			};
-	};
-	class bonus
-	{
-		name = "bonus";
-		sound[] = {"bonus.ogg", db+10, 1.02};
-		titles[] = 
-			{
-				0, $STRM_bonus
-			};
+		name = "m07v10";
+		sound[] = {"m07v10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v10};
 	};
 };
+
 
 class CfgRadio
 {
 	sounds[] = { };
-	
-	class r01
+
+	class m07r01
 	{
-		name = "r01";
-		sound[] = {"r01.ogg", db+10, 0.97};
-		title = $STRM_r01;
+		name = "m07r01";
+		sound[] = {"m07r01.ogg", db+10, 1.00};
+		title = $STRM_m07r01;
 	};
-	class r02
+	class m07r02
 	{
-		name = "r02";
-		sound[] = {"r02.ogg", db+10, 0.97};
-		title = $STRM_r02;
+		name = "m07r02";
+		sound[] = {"m07r02.ogg", db+10, 1.00};
+		title = $STRM_m07r02;
 	};
-	class r03
+	class m07r03
 	{
-		name = "r03";
-		sound[] = {"r03.ogg", db+10, 0.97};
-		title = $STRM_r03;
+		name = "m07r03";
+		sound[] = {"m07r03.ogg", db+10, 1.00};
+		title = $STRM_m07r03;
 	};
-	class r04
+	class m07r04
 	{
-		name = "r04";
-		sound[] = {"r04.ogg", db+10, 0.95};
-		title = $STRM_r04;
+		name = "m07r04";
+		sound[] = {"m07r04.ogg", db+10, 1.00};
+		title = $STRM_m07r04;
 	};
-	class away
+	class m07r05
 	{
-		name = "away";
-		sound[] = {"away.ogg", db+10, 0.97};
-		title = $STRM_away;
+		name = "m07r05";
+		sound[] = {"m07r05.ogg", db+10, 1.00};
+		title = $STRM_m07r05;
+	};
+	class m07r06
+	{
+		name = "m07r06";
+		sound[] = {"m07r06.ogg", db+10, 1.00};
+		title = $STRM_m07r06;
+	};
+	class m07r07
+	{
+		name = "m07r07";
+		sound[] = {"m07r07.ogg", db+10, 1.00};
+		title = $STRM_m07r07;
+	};
+	class m07r08
+	{
+		name = "m07r08";
+		sound[] = {"m07r08.ogg", db+10, 1.00};
+		title = $STRM_m07r08;
+	};
+	class m07r09
+	{
+		name = "m07r09";
+		sound[] = {"m07r09.ogg", db+10, 1.00};
+		title = $STRM_m07r09;
+	};
+	class m07r10
+	{
+		name = "m07r10";
+		sound[] = {"m07r10.ogg", db+10, 1.00};
+		title = $STRM_m07r10;
 	};
 };

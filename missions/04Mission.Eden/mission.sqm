@@ -1695,10 +1695,10 @@ class Mission
 		{
 			position[]={5438.127441,79.466606,6012.940430};
 			name="start";
-			text="@STRMM_01";
+			text="@STRCM_01";
 			type="Start";
 			colorName="ColorGreen";
-			angle=371.186707;
+			angle=371.187012;
 		};
 		class Item2
 		{
@@ -1724,7 +1724,7 @@ class Mission
 		{
 			position[]={3461.907227,98.655266,4901.923340};
 			name="uzemi";
-			text="@STRMM_04";
+			text="@STRCM_02";
 			type="Warning";
 			colorName="ColorRed";
 			a=2.000000;

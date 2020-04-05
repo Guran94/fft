@@ -1,7 +1,8 @@
 hrac say "m05v26"
 setacctime 1
 3 fademusic 0
-"1" objstatus "done
+"1" objstatus "done"
+hrac addrating 1000
 
 ~5
 
