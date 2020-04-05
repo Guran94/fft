@@ -15,7 +15,7 @@ ShowCompass = 0
 
 ShowNotepad = 1
 
-ShowGPS = 0
+ShowGPS = 1
 
 ShowMap = 1
 
@@ -325,7 +325,14 @@ class CfgSounds
 		sound[] = {"m05v50.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m05v50};
 	};
+	class m05away3
+	{
+		name = "m05away3";
+		sound[] = {"m05away3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05away3};
+	};
 };
+
 
 
 class CfgRadio
@@ -410,6 +417,48 @@ class CfgRadio
 		sound[] = {"m05r13.ogg", db+10, 1.00};
 		title = $STRM_m05r13;
 	};
+	class m05r14
+	{
+		name = "m05r14";
+		sound[] = {"m05r14.ogg", db+10, 1.00};
+		title = $STRM_m05r14;
+	};
+	class m05r15
+	{
+		name = "m05r15";
+		sound[] = {"m05r15.ogg", db+10, 1.00};
+		title = $STRM_m05r15;
+	};
+	class m05r16
+	{
+		name = "m05r16";
+		sound[] = {"m05r16.ogg", db+10, 1.00};
+		title = $STRM_m05r16;
+	};
+	class m05r17
+	{
+		name = "m05r17";
+		sound[] = {"m05r17.ogg", db+10, 1.00};
+		title = $STRM_m05r17;
+	};
+	class m05r18
+	{
+		name = "m05r18";
+		sound[] = {"m05r18.ogg", db+10, 1.00};
+		title = $STRM_m05r18;
+	};
+	class m05r19
+	{
+		name = "m05r19";
+		sound[] = {"m05r19.ogg", db+10, 1.00};
+		title = $STRM_m05r19;
+	};
+	class m05r20
+	{
+		name = "m05r20";
+		sound[] = {"m05r20.ogg", db+10, 1.00};
+		title = $STRM_m05r20;
+	};
 	class m05away1
 	{
 		name = "m05away1";
@@ -421,11 +470,5 @@ class CfgRadio
 		name = "m05away2";
 		sound[] = {"m05away2.ogg", db+10, 1.00};
 		title = $STRM_m05away2;
-	};
-	class m05away3
-	{
-		name = "m05away3";
-		sound[] = {"m05away3.ogg", db+10, 1.00};
-		title = $STRM_m05away3;
 	};
 };

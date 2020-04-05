@@ -3,24 +3,24 @@ james say "m05v21"
 titleCut ["","BLACK IN",3]
 neodevzdal=true
 hlidac dowatch hrac
-ClearWeaponCargo ammo
-ClearMagazineCargo ammo
-ClearWeaponCargo ammo4
-ClearMagazineCargo ammo4
-ammo4 AddWeaponCargo ["RpgLauncher",1]
-ammo4 AddMagazineCargo ["RpgLauncher",2]
-ammo4 AddWeaponCargo ["LawLauncher",1]
-ammo4 AddMagazineCargo ["LawLauncher",4]
-ammo4 AddWeaponCargo ["Ak47cz",1]
-ammo4 AddMagazineCargo ["Ak47",3]
-ammo4 AddWeaponCargo ["NVgoggles",1]
+ClearWeaponCargo ammores
+ClearMagazineCargo ammores
+ammores AddWeaponCargo ["RpgLauncher",1]
+ammores AddMagazineCargo ["RpgLauncher",3]
+ammores AddWeaponCargo ["nvgoggles",1]
+ammores AddWeaponCargo ["binocular",1]
+ammores AddWeaponCargo ["ak47cz",1]
+ammores AddMagazineCargo ["ak47",3]
 james setmimic "normal"
 car lock true
 invaze=false
 away1=true
 away2=true
 away3=true
+away4=false
+away5=false
 splneno=false
 papa=[West, "HQ"]
+killit=true
 
 exit

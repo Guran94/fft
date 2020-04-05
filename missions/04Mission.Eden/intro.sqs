@@ -170,7 +170,7 @@ _camera camCommit 0
 _camera camSetTarget [-64879.29,-68812.24,-5656.71]
 _camera camSetPos [1313.78,5925.60,1.28]
 _camera camSetFOV 0.431
-_camera camCommit 3
+_camera camCommit 6
 @camCommitted _camera
 
 ;jean and flag

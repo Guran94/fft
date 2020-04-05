@@ -17,7 +17,8 @@ _camera camSetTarget [-89327.59,26185.95,-22903.43]
 _camera camSetPos [5401.15,3884.32,82.92]
 _camera camSetFOV 0.334
 _camera camCommit 10
-@camCommitted _camera
+
+~8
 
 titleCut ["","BLACK OUT",2]
 

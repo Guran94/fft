@@ -3058,7 +3058,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=71;
+		items=72;
 		class Item0
 		{
 			position[]={4871.959473,159.029999,6924.535645};
@@ -3166,7 +3166,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=1;
 			expCond="alive hrac and this";
-			expActiv="hrac addrating -1000; papa sideradio ""awayplayer1""; setacctime 1";
+			expActiv="[] exec ""awayplayer1.sqs""";
 			class Effects
 			{
 			};
@@ -3182,7 +3182,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=1;
 			expCond="alive hrac and this";
-			expActiv="ak=true; hrac setdammage 1; setacctime 1";
+			expActiv="[] exec ""player1kill.sqs""";
 			class Effects
 			{
 			};
@@ -3337,7 +3337,7 @@ class Mission
 			position[]={2192.746582,1.635127,8216.695313};
 			age="UNKNOWN";
 			expCond="hrac in car";
-			expActiv="car lock true; 0 fadesound 0.1; 0 fademusic 0.1";
+			expActiv="[] exec ""intruck.sqs""";
 			class Effects
 			{
 			};
@@ -3926,6 +3926,22 @@ class Mission
 			activationBy="WEST";
 			age="UNKNOWN";
 			expActiv="serza say ""m02v19""; car lock false";
+			class Effects
+			{
+			};
+		};
+		class Item71
+		{
+			position[]={4906.098633,159.029999,6945.435547};
+			a=130.000000;
+			b=150.000000;
+			rectangular=1;
+			activationBy="VEHICLE";
+			activationType="NOT PRESENT";
+			age="UNKNOWN";
+			idVehicle=1;
+			expCond="awaymon and this and alive hrac";
+			expActiv="[] exec ""player1kill.sqs""";
 			class Effects
 			{
 			};

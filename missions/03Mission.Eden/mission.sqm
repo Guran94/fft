@@ -4133,7 +4133,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=35;
+		items=34;
 		class Item0
 		{
 			position[]={5004.094727,16.334999,3978.449219};
@@ -4484,16 +4484,6 @@ class Mission
 		};
 		class Item28
 		{
-			position[]={3122.065186,45.655529,3944.813232};
-			age="UNKNOWN";
-			expCond="not alive civil";
-			expActiv="civil switchmove ""FxStandSurDead""; nechat=false; hrac say ""mh06""; hrac addrating -300";
-			class Effects
-			{
-			};
-		};
-		class Item29
-		{
 			position[]={5040.087402,16.334999,4041.736816};
 			a=100.000000;
 			b=20.000000;
@@ -4508,7 +4498,7 @@ class Mission
 			{
 			};
 		};
-		class Item30
+		class Item29
 		{
 			position[]={4719.303223,2.077704,2958.443359};
 			type="SWITCH";
@@ -4520,7 +4510,7 @@ class Mission
 			};
 			synchronizations[]={0,1,2};
 		};
-		class Item31
+		class Item30
 		{
 			position[]={4830.087402,2.077704,2962.741211};
 			type="SWITCH";
@@ -4532,7 +4522,7 @@ class Mission
 			};
 			synchronizations[]={3,4,5,6,7};
 		};
-		class Item32
+		class Item31
 		{
 			position[]={4938.888184,2.077704,2960.382568};
 			type="SWITCH";
@@ -4544,7 +4534,7 @@ class Mission
 			};
 			synchronizations[]={8,9,10,11,12,13,14};
 		};
-		class Item33
+		class Item32
 		{
 			position[]={5058.485352,1.099099,2953.411377};
 			type="SWITCH";
@@ -4556,7 +4546,7 @@ class Mission
 			};
 			synchronizations[]={15,16,17,18,19,20,21,22,23,24,26,27,28,29};
 		};
-		class Item34
+		class Item33
 		{
 			position[]={5159.966309,2.176350,2956.201416};
 			type="SWITCH";

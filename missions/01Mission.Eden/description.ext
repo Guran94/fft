@@ -1,10 +1,8 @@
-onLoadIntro="$STR_ONLOAD_INTRO";
-onLoadIntroTime = true;
-onLoadMission="";
+onLoadMission="$STR_ONLOAD_MISSION";
 onLoadMissionTime = false;
 
 MinScore = 1000
-AvgScore = 1500
+AvgScore = 2000
 MaxScore = 3000
 
 Debriefing = 0

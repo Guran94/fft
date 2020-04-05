@@ -1576,7 +1576,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=48;
+		items=46;
 		class Item0
 		{
 			position[]={7536.237793,0.661669,7747.400391};
@@ -1615,7 +1615,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=8;
 			expCond="alive hrac and away2 and this";
-			expActiv="hrac setdammage 1; ak=true; setacctime 1; hrac addrating -1000";
+			expActiv="[] exec ""player1Kill.sqs""";
 			class Effects
 			{
 			};
@@ -1690,9 +1690,9 @@ class Mission
 			type="SWITCH";
 			age="UNKNOWN";
 			idVehicle=8;
-			text="Èeká na základnì";
+			text="he is waiting";
 			expCond="vporadku and this";
-			expActiv="serza sideradio ""m01r01""; savegame";
+			expActiv="[] exec ""arrive.sqs""";
 			class Effects
 			{
 			};
@@ -1720,7 +1720,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=8;
 			expCond="alive hrac and away3 and this";
-			expActiv="hrac setdammage 1; ak=true; setacctime 1; hrac addrating -1000";
+			expActiv="[] exec ""player1Kill.sqs""";
 			class Effects
 			{
 			};
@@ -2118,27 +2118,6 @@ class Mission
 		};
 		class Item43
 		{
-			position[]={7558.201172,12.122942,8020.827637};
-			age="UNKNOWN";
-			text="Twombly je sám";
-			expCond="not alive marcot and not alive serza and not alive voj2 and not alive voj3 and not alive voj4 and not alive voj5 and not alive voj6";
-			expActiv="[] exec ""sam.sqs""";
-			class Effects
-			{
-			};
-		};
-		class Item44
-		{
-			position[]={7469.163086,6.862303,7994.620117};
-			type="END2";
-			age="UNKNOWN";
-			expCond="konec2";
-			class Effects
-			{
-			};
-		};
-		class Item45
-		{
 			position[]={7263.022949,30.429125,6770.927734};
 			a=2.500000;
 			b=2.500000;
@@ -2151,7 +2130,7 @@ class Mission
 			{
 			};
 		};
-		class Item46
+		class Item44
 		{
 			position[]={7435.167969,0.661669,7652.364258};
 			age="UNKNOWN";
@@ -2162,7 +2141,7 @@ class Mission
 			{
 			};
 		};
-		class Item47
+		class Item45
 		{
 			position[]={7537.011719,0.661669,7653.357422};
 			type="SWITCH";

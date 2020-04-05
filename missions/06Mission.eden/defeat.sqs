@@ -1,0 +1,13 @@
+setacctime 1
+defeat=true
+
+leader player sideradio "m06v11"
+
+"3" objstatus "failed"
+"4" objstatus "active"
+"ukol4" setmarkertype "end"
+playmusic "fft_track1"
+0 fademusic 0.5
+away2=false
+
+exit

@@ -1,0 +1,17 @@
+t1 reveal fort1
+
+(commander t1) doTarget fort1
+
+~1
+
+(commander t1) doTarget fort1
+
+~1
+
+t1 setbehaviour "combat"
+
+~1
+
+t1 fire ["Gun120","Heat120"]
+
+exit
