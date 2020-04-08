@@ -5,7 +5,7 @@ MinScore = 1000
 AvgScore = 2000
 MaxScore = 3000
 
-Debriefing = 0
+Debriefing = 1
 
 ShowWatch = 1
 
@@ -23,6 +23,24 @@ class CfgSounds
 {
 	sounds[] = { };
 
+	class piskot
+	{
+		name = "piskot";
+		sound[] = {"piskot.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m07away1
+	{
+		name = "m07away1";
+		sound[] = {"m07away1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07away1};
+	};
+	class m07away2
+	{
+		name = "m07away2";
+		sound[] = {"m07away2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07away2};
+	};
 	class m07v01
 	{
 		name = "m07v01";
@@ -82,6 +100,72 @@ class CfgSounds
 		name = "m07v10";
 		sound[] = {"m07v10.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m07v10};
+	};
+	class m07v11
+	{
+		name = "m07v11";
+		sound[] = {"m07v11.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v11};
+	};
+	class m07v12
+	{
+		name = "m07v12";
+		sound[] = {"m07v12.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v12};
+	};
+	class m07v13
+	{
+		name = "m07v13";
+		sound[] = {"m07v13.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v13};
+	};
+	class m07v14
+	{
+		name = "m07v14";
+		sound[] = {"m07v14.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v14};
+	};
+	class m07v15
+	{
+		name = "m07v15";
+		sound[] = {"m07v15.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v15};
+	};
+	class m07v16
+	{
+		name = "m07v16";
+		sound[] = {"m07v16.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v16};
+	};	
+	class m07v17
+	{
+		name = "m07v17";
+		sound[] = {"m07v17.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v17};
+	};
+	class m07v18
+	{
+		name = "m07v18";
+		sound[] = {"m07v18.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v18};
+	};
+	class m07v19
+	{
+		name = "m07v19";
+		sound[] = {"m07v19.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v19};
+	};
+	class m07v20
+	{
+		name = "m07v20";
+		sound[] = {"m07v20.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v20};
+	};
+	class m07v21
+	{
+		name = "m07v21";
+		sound[] = {"m07v21.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v21};
 	};
 };
 
@@ -143,11 +227,5 @@ class CfgRadio
 		name = "m07r09";
 		sound[] = {"m07r09.ogg", db+10, 1.00};
 		title = $STRM_m07r09;
-	};
-	class m07r10
-	{
-		name = "m07r10";
-		sound[] = {"m07r10.ogg", db+10, 1.00};
-		title = $STRM_m07r10;
 	};
 };

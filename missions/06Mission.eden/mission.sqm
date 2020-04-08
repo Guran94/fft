@@ -90,7 +90,7 @@ class Mission
 				class Item4
 				{
 					position[]={2648.957031,83.204994,5354.928711};
-					synchronizations[]={17,38};
+					synchronizations[]={17};
 					class Effects
 					{
 					};
@@ -172,7 +172,7 @@ class Mission
 				class Item4
 				{
 					position[]={2565.212646,87.177925,5477.451660};
-					synchronizations[]={19,34};
+					synchronizations[]={19};
 					class Effects
 					{
 					};
@@ -263,7 +263,7 @@ class Mission
 				class Item4
 				{
 					position[]={2621.075684,83.204994,5404.358398};
-					synchronizations[]={18,36};
+					synchronizations[]={18};
 					class Effects
 					{
 					};
@@ -423,7 +423,7 @@ class Mission
 				{
 					position[]={2632.471680,83.204994,5376.775391};
 					description="@STRMW_01";
-					synchronizations[]={2,37};
+					synchronizations[]={2};
 					class Effects
 					{
 					};
@@ -596,7 +596,7 @@ class Mission
 				class Item4
 				{
 					position[]={2602.457275,83.204994,5430.182617};
-					synchronizations[]={1,35};
+					synchronizations[]={1};
 					class Effects
 					{
 					};
@@ -742,7 +742,7 @@ class Mission
 				class Item4
 				{
 					position[]={2552.451416,90.551903,5520.913086};
-					synchronizations[]={0,33};
+					synchronizations[]={0};
 					class Effects
 					{
 					};
@@ -1431,7 +1431,7 @@ class Mission
 					formation="ECH RIGHT";
 					speed="NORMAL";
 					combat="STEALTH";
-					synchronizations[]={14,40};
+					synchronizations[]={14};
 					class Effects
 					{
 					};
@@ -1561,7 +1561,7 @@ class Mission
 					formation="ECH LEFT";
 					speed="NORMAL";
 					combat="STEALTH";
-					synchronizations[]={13,41};
+					synchronizations[]={13};
 					class Effects
 					{
 					};
@@ -1970,7 +1970,7 @@ class Mission
 					formation="ECH RIGHT";
 					speed="NORMAL";
 					combat="STEALTH";
-					synchronizations[]={16,39};
+					synchronizations[]={16};
 					class Effects
 					{
 					};
@@ -2667,7 +2667,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=44;
+		items=43;
 		class Item0
 		{
 			position[]={1966.403442,1.422071,6378.588867};
@@ -2788,7 +2788,7 @@ class Mission
 			age="UNKNOWN";
 			text="fortification ours";
 			expCond="{alive _x} count thislist <= 3";
-			expActiv="[] exec ""2done.sqs""";
+			expActiv="[] exec ""fort.sqs""";
 			class Effects
 			{
 			};
@@ -2871,18 +2871,18 @@ class Mission
 		};
 		class Item16
 		{
-			position[]={3197.382568,60.771690,6641.250488};
+			position[]={3210.776611,63.492809,6631.580566};
 			timeoutMin=5.000000;
 			timeoutMid=5.000000;
 			timeoutMax=5.000000;
 			type="SWITCH";
 			age="UNKNOWN";
 			text="retreat or americans died";
-			expCond="getout or defeat";
+			expCond="getout";
 			class Effects
 			{
 			};
-			synchronizations[]={0,1,2,3,4,13,14,16,17,18,19,20};
+			synchronizations[]={0,1,2,3,4,13,14,16,17,18,19,20,27,28,29,30,31,32};
 		};
 		class Item17
 		{
@@ -2970,7 +2970,7 @@ class Mission
 			type="SWITCH";
 			age="UNKNOWN";
 			expCond="alfa2 and bravo2 and charlie2";
-			expActiv="[] exec ""1done.sqs""";
+			expActiv="[] exec ""clear.sqs""";
 			class Effects
 			{
 			};
@@ -3196,7 +3196,7 @@ class Mission
 			age="UNKNOWN";
 			text="in le moule";
 			expCond="{alive _x} count thislist <= 3";
-			expActiv="[] exec ""3done.sqs""";
+			expActiv="[] exec ""lemoule.sqs""";
 			class Effects
 			{
 			};
@@ -3229,19 +3229,6 @@ class Mission
 			class Effects
 			{
 			};
-		};
-		class Item43
-		{
-			position[]={3291.509277,69.702881,6645.446777};
-			type="SWITCH";
-			age="UNKNOWN";
-			text="americans dead and retreat";
-			expCond="defeat";
-			expActiv="[] exec ""defeat.sqs""";
-			class Effects
-			{
-			};
-			synchronizations[]={27,28,29,30,31,32,33,34,35,36,37,38,39,40,41};
 		};
 	};
 };
