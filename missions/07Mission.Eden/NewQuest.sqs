@@ -1,0 +1,21 @@
+setacctime 1
+
+away4=true
+away5=true
+kontakt=true
+pokracujem=true
+
+vojak say "m07v06"
+
+~3
+
+enableradio true
+hrac say "m07v07"
+
+~5
+
+[vojak3, vojak, vojak2] join hrac
+
+hint localize "STRM_m07hint3"
+
+exit

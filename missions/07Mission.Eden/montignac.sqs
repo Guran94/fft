@@ -1,0 +1,11 @@
+nomontignac=false
+allowed=false
+sol1 setdammage 1
+sol2 setdammage 1
+setacctime 1
+
+hrac say "m07v14"
+
+"montignac" setmarkercolor "red"
+
+exit

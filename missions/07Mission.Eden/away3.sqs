@@ -1,5 +1,5 @@
 setacctime 1
-serza say "m07away1"
+
 hrac addrating -1000
 
-exit
+hrac say "m07away3"

@@ -1,0 +1,7 @@
+setacctime 1
+odhalen=true
+away3=false
+
+hrac say "m07v08"
+
+exit

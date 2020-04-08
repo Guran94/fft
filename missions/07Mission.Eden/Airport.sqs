@@ -4,8 +4,10 @@ away1=false
 away2=true
 a10 setfuel 1
 chinook2 setfuel 1
-chinook2 flyinheight 500
 nasedat=true
+
+~2
+
 [serza, car, 1] exec "eject.sqs"
 [bravo, car, 1] exec "eject.sqs"
 

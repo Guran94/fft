@@ -3638,13 +3638,13 @@ class Intro
 	class Intel
 	{
 		resistanceWest=0.000000;
-		startWeather=0.612556;
-		startFog=0.125062;
+		startWeather=0.525012;
+		startFog=0.081290;
 		forecastWeather=0.456228;
-		month=7;
-		day=30;
-		hour=4;
-		minute=50;
+		forecastFog=0.100000;
+		month=11;
+		day=29;
+		minute=40;
 	};
 	class Groups
 	{
@@ -3695,7 +3695,7 @@ class Intro
 					vehicle="SoldierWCaptive";
 					skill=0.600000;
 					text="jason";
-					init="this setidentity ""hrac1""";
+					init="this setidentity ""player1""";
 				};
 			};
 		};
@@ -3716,7 +3716,7 @@ class Intro
 					rank="CORPORAL";
 					skill=0.600000;
 					text="kovalin";
-					init="this setidentity ""kovalin""";
+					init="this setidentity ""rashiv""";
 				};
 			};
 			class Waypoints
@@ -3848,7 +3848,7 @@ class Intro
 				items=1;
 				class Item0
 				{
-					position[]={4178.145508,39.719952,7816.167969};
+					position[]={4178.598633,39.721024,7815.889648};
 					azimut=290.000000;
 					id=8;
 					side="EAST";
@@ -3863,7 +3863,7 @@ class Intro
 				items=1;
 				class Item0
 				{
-					position[]={4177.855469,39.719265,7816.293457};
+					position[]={4178.308594,39.720337,7816.015137};
 					combatMode="BLUE";
 					combat="AWARE";
 					class Effects

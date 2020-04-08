@@ -1,0 +1,11 @@
+setacctime 1
+
+enableradio true
+
+~1
+
+setacctime 1
+derek sideradio "m07r03"
+hrac sideradio "m07r04"
+
+exit
