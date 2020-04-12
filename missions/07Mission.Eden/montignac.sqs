@@ -6,6 +6,6 @@ setacctime 1
 
 hrac say "m07v14"
 
-"montignac" setmarkercolor "red"
+"montignac" setmarkercolor "colorred"
 
 exit

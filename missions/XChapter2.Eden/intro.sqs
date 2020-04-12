@@ -363,8 +363,8 @@ titleCut ["","BLACK OUT",2]
 
 2 fademusic 1
 playMusic ["chaptertheme", 9.5]
-titletext [ localize "STRM_x01v23","plain"]
-playsound "x01v17"
+titletext [ localize "STRM_x02v17","plain"]
+playsound "x02v17"
 
 ~3
 

@@ -36,7 +36,7 @@ _camera camCommit 0
 _camera camSetTarget [-92048.70,-16489.65,6171.75]
 _camera camSetPos [4989.54,6907.27,1.00]
 _camera camSetFOV 0.510
-_camera camCommit 8
+_camera camCommit 7
 @camCommitted _camera
 
 8 fadesound 1
@@ -218,6 +218,7 @@ _camera camCommit 0
 @camCommitted _camera
 
 3 fademusic 0.2
+
 ~3
 
 titleCut ["","BLACK OUT",1]

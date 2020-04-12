@@ -2338,7 +2338,7 @@ class Mission
 			activationType="NOT PRESENT";
 			age="UNKNOWN";
 			idVehicle=29;
-			expCond="awa1 and this";
+			expCond="away1 and this";
 			expActiv="[] exec ""player1Kill.sqs""";
 			class Effects
 			{

@@ -1,0 +1,19 @@
+setacctime 1
+Accept2Done=true
+
+twom say "m08v1b"
+
+~5
+
+twom say "m08v2b"
+
+~5
+
+lem say "m08v3b"
+
+~5
+
+lem say "m08v4b"
+
+~5
+

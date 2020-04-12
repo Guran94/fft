@@ -423,21 +423,21 @@ class Campaign
     end1 = 08Mission;
     end2 = 07Mission;
     end3 = 07Mission;
-    end4 = 07Mission;
-    end5 = 07Mission;
-    end6 = 07Mission;
-    lost = 07Mission;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 07Mission.Eden;
   };
   class 08Mission: MissionDefault
   {
-    end1 = 08z_pekla_na_svobodu;
-    end2 = 08Mission;
-    end3 = 08Mission;
-    end4 = 08Mission;
-    end5 = 08Mission;
-    end6 = 08Mission;
-    lost = 08Mission;
+    end1 = 09aMission;
+    end2 = 09bMission;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
     template = 08Mission.Eden;
   };
   class 08z_pekla_na_svobodu: MissionDefault

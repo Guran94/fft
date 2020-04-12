@@ -1,234 +1,86 @@
-setacctime 1
-away1=false
-bonus=true
+setacctime 4
 playmusic "track14"
 enableradio false
 ural lock true
-vojak1 setmimic "normal"
-vojak2 setmimic "normal"
-vojak3 setmimic "normal"
-jason setmimic "normal"
-kovalin setmimic "normal"
-hrac setcaptive true
-removeallweapons vojak11
-vojak1 setcaptive true
-vojak1_1 setcaptive true
-vojak2_1 setcaptive true
-vojak3_1 setcaptive true
-vojak2 setcaptive true
-vojak3 setcaptive true
-vojak4 setcaptive true
-vojak5 setcaptive true
-vojak6 setcaptive true
-vojak7 setcaptive true
-vojak8 setcaptive true
-vojak9 setcaptive true
-vojak10 setcaptive true
-vojak11 setcaptive true
-vojak12 setcaptive true
-vojak1 setbehaviour "careless"
-vojak1_1 setbehaviour "careless"
-vojak2_1 setbehaviour "careless"
-vojak3_1 setbehaviour "careless"
-vojak2 setbehaviour "careless"
-vojak3 setbehaviour "careless"
-vojak4 setbehaviour "careless"
-vojak5 setbehaviour "careless"
-vojak6 setbehaviour "careless"
-vojak7 setbehaviour "careless"
-vojak8 setbehaviour "careless"
-vojak9 setbehaviour "careless"
-vojak10 setbehaviour "careless"
-vojak11 setbehaviour "careless"
-vojak12 setbehaviour "careless"
-kovalin2 setbehaviour "careless"
-kovalin3 disableai "autotarget"
-hrac setbehaviour "careless"
-vojak1 disableai "autotarget"
-vojak1_1 disableai "autotarget"
-vojak2_1 disableai "autotarget"
-vojak3_1 disableai "autotarget"
-vojak2 disableai "autotarget"
-vojak3 disableai "autotarget"
-vojak4 disableai "autotarget"
-vojak5 disableai "autotarget"
-vojak6 disableai "autotarget"
-vojak7 disableai "autotarget"
-vojak8 disableai "autotarget"
-vojak9 disableai "autotarget"
-vojak10 disableai "autotarget"
-vojak11 disableai "autotarget"
-vojak12 disableai "autotarget"
-hlidac setunitpos "up"
-strelec setunitpos "up"
-zmrd7 setunitpos "up"
-vojak1 setcombatmode "blue"
-zmrd1 switchmove "effectstandsitdown"
-zmrd2 switchmove "effectstandsitdown"
-zmrd3 switchmove "effectstandtalk"
-ClearWeaponCargo ammo
-ClearMagazineCargo ammo
-ammo AddWeaponCargo ["ak74",1]
-ammo AddMagazineCargo ["ak74",2]
-ammo AddWeaponCargo ["pk",1]
-ammo AddMagazineCargo ["pk",2]
-removeallweapons vojak10
-removeallweapons vojak9
-removeallweapons vojak8
-removeallweapons vojak5
-0 fadesound 0.2
+player1 setmimic "scared"
+rashiv setmimic "normal"
+player1 setcaptive true
+pri1 setcaptive true
+pri2 setcaptive true
+pri3 setcaptive true
+ClearWeaponCargo ural
+ClearMagazineCargo ural
+;;;;;;;;;;;;;;;;;;;;disableuserinput true
+greg dowatch vadim
+vadim dowatch greg
+enableradio false
+g1 disableai "autotarget"
+g2 disableai "autotarget"
+g1 dowatch objnull
+g2 dowatch objnull
+lemontov dowatch [7253.16,6779.83,1.46]
 
-titleCut ["","BLACK IN",2]
+titleCut ["","BLACK IN",3]
 
-_camera = "camera" camcreate [0,0,0]
-_camera cameraeffect ["internal","back"]
+;;_camera = "camera" camcreate [0,0,0]
+;;_camera cameraeffect ["internal","back"]
 
-;=== 15:42:21
-_camera camSetTarget [-90533.58,38305.62,108.20]
-_camera camSetPos [4693.78,7781.04,5.16]
+;base
+;=== 21:01:24
+_camera camSetTarget [105874.35,-8689.31,54.81]
+_camera camSetPos [7123.76,7068.87,2.80]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 15:44:00
-_camera camSetTarget ural
-_camera camSetPos [4693.78,7781.04,5.16]
+;=== 21:01:36
+_camera camSetTarget [50814.25,-82881.90,54.78]
+_camera camSetPos [7123.76,7068.87,2.80]
 _camera camSetFOV 0.700
-_camera camCommit 9
+_camera camCommit 6
 @camCommitted _camera
 
-titleCut ["","WHITE OUT",2]
-
-~2.5
-
-player cameraEffect ["terminate","back"]
-camDestroy _camera
-titleCut ["","WHITE IN",2]
-
-~10
-
-setacctime 1
-vojak1 say "mh01"
-
-~3
-
-hrac say "mh02"
-
-~2
-
-vojak1 say "mh03"
-
-~6
-
-vojak2 say "mh04"
-
-~10
-
-vojak3 say "mh05"
-
-~2
-
-vojak1 say "mh06"
-
-~6
-
-vojak2 say "mh07"
-
-~2
-
-vojak3 say "mh08"
-
-~2
-
-hrac say "mh09"
-
 ~4
 
-vojak2 say "mh10"
+;ural
+;=== 21:02:48
+_camera camSetTarget ural
+_camera camSetPos [7181.58,6958.90,7.87]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
 
 ~5
 
-kovalin say "mh11"
-
-~8
-
-rus1 setmimic "smile"
-rus1 say "mh12"
-
-~7
-
-rus2 setmimic "smile"
-rus2 say "mh13"
+;guard
+;=== 21:04:03
+_camera camSetTarget [-75497.55,61658.30,-11561.28]
+_camera camSetPos [7301.84,6797.05,6.96]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
 
 ~3
 
-rus3 setmimic "smile"
-rus4 setmimic "smile"
-rus5 setmimic "smile"
-rus1 say "mh14"
-rus2 say "mh14"
-
-~7
-
-setacctime 1
-
-vojak1 say "mh15"
+titleCut ["","BLACK OUT",1]
 
 ~2
 
-hrac say "mh16"
+titleCut ["","BLACK IN",1]
 
-~6
+;flag
+;=== 21:39:45
+_camera camSetTarget [43371.16,100019.30,31.57]
+_camera camSetPos [7250.98,6770.98,6.31]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:40:36
+_camera camSetTarget [2367.45,106297.56,-8358.54]
+_camera camSetPos [7253.34,6770.36,6.31]
+_camera camSetFOV 0.700
+_camera camCommit 7
+@camCommitted _camera
 
-vojak1 say "mh17"
-
-~4
-
-vojak2 setmimic "sad"
-vojak2 say "mh18"
-
-~3
-
-vojak1 say "mh19"
-
-~1
-
-vojak2 say "mh20"
-
-~1
-
-vojak3 say "mh21b"
-
-~2
-
-vojak1 say "mh21a"
-
-~2
-
-vojak1 say "mh22"
-
-~4
-
-hrac say "mh23"
-
-~3
-
-kovalin say "mh24"
-
-~5
-
-rus1 say "mh25"
-
-~4
-
-kovalin say "mh26"
-
-~5
-
-0 fadesound 1
-rus1 setmimic "normal"
-rus2 setmimic "normal"
-rus3 setmimic "normal"
-rus4 setmimic "normal"
-rus5 setmimic "normal"
+[] exec "interview.sqs"
 
 exit
