@@ -1,0 +1,265 @@
+setacctime 4
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;load up
+;=== 14:29:32
+_camera camSetTarget [70038.61,-70995.38,-1786.80]
+_camera camSetPos [7242.89,6805.28,1.80]
+_camera camSetFOV 0.389
+_camera camCommit 0
+@camCommitted _camera
+;=== 14:29:38
+_camera camSetTarget [97239.54,-36749.91,-1786.37]
+_camera camSetPos [7239.91,6801.93,1.88]
+_camera camSetFOV 0.389
+_camera camCommit 7
+
+~6
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+greg setbehaviour "careless"
+vadim setbehaviour "careless"
+greg setdir 0
+vadim setdir 180
+greg setmimic "smile"
+vadim setmimic "smile"
+sov1 setbehaviour "careless"
+sov2 setbehaviour "careless"
+pri1 setbehaviour "careless"
+pri2 setbehaviour "careless"
+pri3 setbehaviour "careless"
+sov1 setpos getmarkerpos "sov1"
+sov2 setpos getmarkerpos "sov2"
+player1 setbehaviour "careless"
+pri1 switchmove "FXStandSurUniv"
+pri2 switchmove "FXStandSurUniv"
+pri3 switchmove "FXStandSurUniv"
+pri1 setdir 180
+pri2 setdir 180
+pri3 setdir 180
+player1 switchmove "FXStandSurUniv"
+player1 disableai "autotarget"
+pri1 disableai "autotarget"
+pri2 disableai "autotarget"
+pri3 disableai "autotarget"
+ural setpos getmarkerpos "ural"
+pri1 setpos getmarkerpos "sol1"
+pri2 setpos getmarkerpos "sol2"
+pri3 setpos getmarkerpos "sol3"
+player1 setpos getmarkerpos "twombly"
+ural setdir 325
+deletevehicle shower
+deletevehicle lemontov
+deletevehicle rub1
+deletevehicle rub2
+deletevehicle rashiv
+deletevehicle r1
+deletevehicle r2
+deletevehicle r3
+greg setpos getmarkerpos "greg"
+vadim setpos getmarkerpos "vadim"
+
+~1
+
+titleCut ["","BLACK IN",1]
+
+player1 stop true
+pri1 switchmove "FXStandSurUniv"
+pri2 switchmove "FXStandSurUniv"
+pri3 switchmove "FXStandSurUniv"
+player1 switchmove "FXStandSurUniv"
+pri1 setdir 180
+pri2 setdir 180
+pri3 setdir 180
+player1 setdir 180
+player1 disableai "autotarget"
+pri1 disableai "autotarget"
+pri2 disableai "autotarget"
+pri3 disableai "autotarget"
+
+;assholes
+;=== 15:35:39
+_camera camSetTarget [96205.95,-38606.47,5356.59]
+_camera camSetPos [7264.16,6791.79,1.27]
+_camera camSetFOV 0.498
+_camera camCommit 0
+@camCommitted _camera
+
+pri1 setdir 180
+pri2 setdir 180
+pri3 setdir 180
+player1 setdir 180
+
+pri1 stop true
+pri2 stop true
+pri3 stop true
+player1 stop true
+;=== 15:35:53
+_camera camSetTarget [107260.73,6083.51,83.15]
+_camera camSetPos [7263.24,6790.65,1.27]
+_camera camSetFOV 0.498
+_camera camCommit 8
+
+~1
+
+vadim playmove "effectstandsalute"
+
+~1
+
+greg say "m08v08"
+
+~3
+
+vadim playmove "effectstandsaluteend"
+
+~vadim say "m08v09"
+
+~2
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+vadim dowatch objnull
+greg dowatch objnull
+vadim setpos getmarkerpos "vadim2"
+vadim setdir 30
+greg switchmove "fxtohand"
+
+~1
+
+titleCut ["","BLACK IN",1]
+
+;prisoners
+;=== 15:50:14
+_camera camSetTarget [58424.63,92604.08,-4224.20]
+_camera camSetPos [7262.86,6788.21,1.11]
+_camera camSetFOV 0.478
+_camera camCommit 0
+@camCommitted _camera
+
+greg say "m08v10"
+
+;=== 15:50:35
+_camera camSetTarget [45204.63,99302.92,-1084.01]
+_camera camSetPos [7263.57,6786.79,0.84]
+_camera camSetFOV 0.542
+_camera camCommit 5
+@camCommitted _camera
+
+;jason
+;=== 15:57:30
+_camera camSetTarget [58778.35,92486.84,1558.02]
+_camera camSetPos [7266.47,6788.01,1.14]
+_camera camSetFOV 0.350
+_camera camCommit 0
+@camCommitted _camera
+
+playsound "m08v11"
+
+;=== 18:27:20
+_camera camSetTarget [13434.93,104916.68,18294.77]
+_camera camSetPos [7271.44,6792.01,0.87]
+_camera camSetFOV 0.272
+_camera camCommit 7
+@camCommitted _camera
+
+vadim setpos getmarkerpos "vadim"
+greg say "m08v12"
+vadim setdir 180
+vadim disableai "autotarget"
+
+;assholes
+;=== 20:43:04
+_camera camSetTarget [68325.62,-72064.18,7323.31]
+_camera camSetPos [7263.95,6792.00,1.26]
+_camera camSetFOV 0.403
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:43:26
+_camera camSetTarget [43634.61,-86358.23,83.06]
+_camera camSetPos [7264.36,6793.26,1.26]
+_camera camSetFOV 0.403
+_camera camCommit 5
+@camCommitted _camera
+
+vadim say "m08v09"
+
+~2
+
+titleCut ["","BLACK OUT",2]
+
+~3
+
+lem setbehaviour "careless"
+lem setmimic "smile"
+lem switchMove "onChair"
+twom setbehaviour "careless"
+twom setmimic "scared"
+deletevehicle player1
+deletevehicle vadim
+deletevehicle greg
+g1 switchmove "FXStandAtt"
+g2 switchmove "FXStandAtt"
+com switchMove "FXSitHandsOnTable"
+twom switchMove "FXSitHandsOnTable"
+g2 setdir 90
+
+titleCut ["","BLACK IN",2]
+
+;tent
+;=== 20:11:24
+_camera camSetTarget [19656.78,-92327.18,-5149.59]
+_camera camSetPos [7247.21,6764.53,1.12]
+_camera camSetFOV 0.515
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:11:47
+_camera camSetTarget [92920.82,-44633.77,-4222.86]
+_camera camSetPos [7245.38,6762.94,1.18]
+_camera camSetFOV 0.515
+_camera camCommit 7
+
+
+~6
+
+g2 setdir 90
+titleCut ["","BLACK OUT",1]
+
+~2
+
+titleCut ["","BLACK IN",1]
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+~2
+
+savegame
+
+~1
+
+lem say "m08v13"
+
+~5
+
+lem say "m08v14"
+
+~5
+
+hintc localize "STRMH_1"
+
+_a1 = twom addaction [localize "STRMA_1","Accept1.sqs"]
+_r1 = twom addaction [localize "STRMA_2","Refuse1.sqs"]
+
+@InterviewDone
+
+twom removeaction _a1
+twom removeaction _r1
+
+exit

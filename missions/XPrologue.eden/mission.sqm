@@ -980,7 +980,7 @@ class Intro
 					leader=1;
 					skill=1.000000;
 					text="off";
-					init="this setbehaviour ""careless""; this setidentity ""rashiv""";
+					init="this setbehaviour ""careless""; this setidentity ""rashiv""; this removeweapon ""binocular""";
 				};
 			};
 			class Waypoints

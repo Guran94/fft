@@ -5,7 +5,6 @@ class Mission
 	{
 		"HMMWV",
 		"6G30",
-		"sebremington",
 		"bis_resistance"
 	};
 	addOnsAuto[]=
@@ -5757,7 +5756,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=39;
 			expCond="this and neodevzdal";
-			expActiv="hrac addaction [""Hand your weapon"",""odevzdal.sqs""]";
+			expActiv="hrac addaction [localize ""STRMA_01"",""odevzdal.sqs""]";
 			expDesactiv="hrac removeaction 0; hrac removeaction 1; hrac removeaction 2; hrac removeaction 3; hrac removeaction 4; hrac removeaction 5; hrac removeaction 6; hrac removeaction 7; hrac removeaction 8; hrac removeaction 9; hrac removeaction 10; hrac removeaction 11; hrac removeaction 12; hrac removeaction 13; hrac removeaction 14; hrac removeaction 15";
 			class Effects
 			{
@@ -5799,7 +5798,7 @@ class Mission
 			position[]={3665.038330,-5.330042,7312.254395};
 			type="SWITCH";
 			age="UNKNOWN";
-			text="Odevzdal zbraò";
+			text="weapon out";
 			expCond="nastoupit";
 			class Effects
 			{
@@ -6084,7 +6083,6 @@ class Intro
 	addOns[]=
 	{
 		"HMMWV",
-		"sebremington",
 		"6G30",
 		"bis_resistance"
 	};

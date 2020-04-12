@@ -11,10 +11,7 @@ class Intro
 {
 	addOns[]=
 	{
-		"HMMWV",
-		"sebremington",
-		"bis_resistance",
-		"m60mg"
+		"HMMWV"
 	};
 	addOnsAuto[]=
 	{
@@ -1774,7 +1771,7 @@ class Intro
 					leader=1;
 					skill=0.600000;
 					text="dan";
-					init="this setidentity ""player2""; removeallweapons this; this addweapon ""SEB_MP5""";
+					init="this setidentity ""player2""";
 				};
 			};
 			class Waypoints

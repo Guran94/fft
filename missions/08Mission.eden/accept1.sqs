@@ -1,0 +1,20 @@
+setacctime 1
+InterviewDone=true
+
+twom say "m08v15a"
+
+~3
+
+lem say "m08v16a"
+
+~2
+
+_a2 = twom addaction [localize "STRMA_1","Accept2.sqs"]
+_r2 = twom addaction [localize "STRMA_2","Refuse2.sqs"]
+
+@Accept1Done
+
+twom removeaction _a2
+twom removeaction _r2
+
+exit

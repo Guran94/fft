@@ -99,6 +99,7 @@ STR_CFG_GRPNAMES_CHARLIE,"Eagle",Eagle
 
 STRMM_01,"Get out!","marker"
 
+STRMA_01,"Hand your weapon","action"
 
 STRMW_01,"HAND YOUR WEAPON","waypoint"
 STRMW_02,"MEETING","waypoint"
