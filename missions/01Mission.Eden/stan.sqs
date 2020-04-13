@@ -1,10 +1,11 @@
 voj7 say "m01v17"
+setacctime 1
 
-~2
+~1
 
 hrac say "m01v18"
 
-~1
+~2
 
 voj7 say "m01v19"
 

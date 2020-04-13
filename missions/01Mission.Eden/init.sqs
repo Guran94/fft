@@ -25,7 +25,7 @@ setacctime 1
 
 phill say "m01v12"
 
-~1
+~2
 
 phill switchMove "FXSitHandsOnTable"
 

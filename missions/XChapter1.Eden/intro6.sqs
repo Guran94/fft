@@ -37,7 +37,7 @@ _camera camSetFOV 0.447
 _camera camCommit 6
 @camCommitted _camera
 
-playmusic "rtrack9"
+playmusic "track7"
 titletext [ localize "STRM_x01v17","plain"]
 playsound "x01v17"
 
@@ -233,6 +233,9 @@ fuhrer say "x01v32"
 
 ~4
 
+3 fadesound 0
+3 fademusic 0.1
+
 ;jason
 ;=== 9:24:39
 _camera camSetTarget [-29503.25,103423.92,-9153.97]
@@ -249,20 +252,87 @@ reb2 setbehaviour "aware"
 reb3 setbehaviour "aware"
 stalin setbehaviour "aware"
 stalin setbehaviour "aware"
-titleCut ["","BLACK OUT",2]
-2 fadesound 0
+titleCut ["","BLACK OUT",1]
 
-~2
+~1
 
+drank2 switchmove "EffectWeaponPanic"
+drank2 setpos [9539.78,1552.14,0.45]
 titletext [ localize "STRM_x01v22","plain"]
 playsound "x01v22"
 
 ~11
 
+titleCut ["","BLACK IN",1]
+0 fadesound 1
+2 fademusic 1
+
+dranks=true
+drank1 switchmove "EffectWeaponPanic"
+drank1 setpos [9538.00,1550.88,0.53]
+civ setpos [9540.88,1557.69,0.42]
+barman setpos [9537.70,1553.56,0.45]
+
+;pub
+;=== 16:33:23
+_camera camSetTarget [109268.99,8481.37,-2334.58]
+_camera camSetPos [9537.68,1545.50,1.50]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 16:33:46
+_camera camSetTarget [-15143.42,98445.90,-1074.58]
+_camera camSetPos [9540.05,1546.35,1.42]
+_camera camSetFOV 0.700
+_camera camCommit 7
+
+~5
+
+2 fadesound 0
+2 fademusic 0.1
+
+~2
+
+;inside
+;=== 16:44:12
+_camera camSetTarget [53218.12,89990.57,-16413.95]
+_camera camSetPos [9537.20,1549.07,1.23]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
 titletext [ localize "STRM_x01v24","plain"]
 playsound "x01v24"
 
-~13
+;=== 16:44:24
+_camera camSetTarget [-10796.77,98070.71,-16414.43]
+_camera camSetPos [9539.94,1550.23,1.14]
+_camera camSetFOV 0.700
+_camera camCommit 7
+@camCommitted _camera
+
+;bar
+;=== 16:49:21
+_camera camSetTarget [99278.68,-42551.93,-955.60]
+_camera camSetPos [9535.80,1553.16,1.33]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:49:31
+_camera camSetTarget [107322.32,-15070.79,-12681.01]
+_camera camSetPos [9535.66,1552.56,1.67]
+_camera camSetFOV 0.700
+_camera camCommit 7
+
+~6
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+9 fadesound 0
+9 fademusic 0
 
 titletext [ localize "STRM_x01v25","plain"]
 playsound "x01v25"
@@ -270,3 +340,5 @@ playsound "x01v25"
 ~10
 
 [] exec "intro7.sqs"
+
+exit

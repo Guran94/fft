@@ -58,3 +58,5 @@ playsound "x01v14"
 ~7
 
 [] exec "intro5.sqs"
+
+exit

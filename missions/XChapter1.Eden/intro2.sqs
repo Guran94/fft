@@ -203,3 +203,5 @@ _camera camCommit 4
 ~2
 
 [] exec "intro3.sqs"
+
+exit

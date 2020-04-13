@@ -2,7 +2,11 @@ leader player sideradio "m01r09"
 hrac addrating 1000
 setacctime 1
 
-~15
+~9
+
+titletext [ localize "STRCT_01","plain"]
+
+~6
 
 konec1=true
 
