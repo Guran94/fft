@@ -128,14 +128,14 @@ jason say "m01v04"
 _camera camSetTarget [-81139.98,-39919.23,2928.20]
 _camera camSetPos [7243.43,6770.86,1.05]
 _camera camSetFOV 0.462
-_camera camCommit 12
+_camera camCommit 6
 
 
 ~7
 
 jason say "m01v05"
 
-~5
+~1
 
 jason switchmove "fxstanddroptel"
 jason addweapon "phone"
@@ -184,16 +184,17 @@ _camera camCommit 0
 _camera camSetTarget [100902.09,-4946.52,-32995.03]
 _camera camSetPos [7243.07,6771.95,2.04]
 _camera camSetFOV 0.388
-_camera camCommit 6
+_camera camCommit 5
 
+~2
 
 twombly say "m01v08"
 
-~3
+~2
 
 phill say "m01v09"
 
-~3
+~1
 
 ;jason
 ;=== 12:05:43
@@ -217,7 +218,8 @@ _camera camCommit 0
 
 phill say "m01v11"
 7 fademusic 0
-~4
+
+~3
 
 titleCut ["","BLACK OUT",2]
 

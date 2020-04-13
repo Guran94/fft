@@ -334,3 +334,5 @@ playsound "x01v13"
 ~7
 
 [] exec "intro4.sqs"
+
+exit

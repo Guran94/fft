@@ -1,5 +1,5 @@
 hint localize "STRM_m01hint2"
-
+setacctime 1
 hrac addrating 1000
 
 hrac addmagazine "m16"

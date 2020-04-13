@@ -22,14 +22,17 @@ serza say "m01v29"
 ~5
 
 "ukol2" setmarkertype "warning"
-savegame
+hint localize "STRM_m01hint3"
 dolesa=true
 uh setfuel 1
-titletext ["","plain down"]
 UnassignVehicle voj5
 UnassignVehicle voj6
 UnassignVehicle hrac
 leader player sideradio "m01r02"
 papa sideradio "m01r03"
+
+~2
+
+savegame
 
 exit

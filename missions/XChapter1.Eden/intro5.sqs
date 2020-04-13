@@ -101,3 +101,5 @@ playsound "x01v16"
 ~19
 
 [] exec "intro6.sqs"
+
+exit

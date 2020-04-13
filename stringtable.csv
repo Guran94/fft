@@ -22,5 +22,7 @@ STRC_AwayPlayer2,"","Fuck, where am I. I should go back to my mission.","george"
 STRC_AwayPlayer3,"","HATTON, DO YOU KNOW, WHERE YOU ARE? GET BACK TO YOUR MISSION!","papa"
 STRC_AwayPlayer4,"","","papa"
 
+STRCT_01,"Mise splněna","Mission completed","Text"
+
 STRCM_01,"Počáteční pozice","Start","marker"
-STRCM_02,"NEPŘÁTELSKÉ ÚZEMÍ","Enemy teritorry","marker"
+STRCM_02,"Nepřátelské území","Enemy teritorry","marker"
