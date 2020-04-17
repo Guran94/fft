@@ -1,7 +1,7 @@
 "3" objstatus "done"
 hrac addrating 1000
 
-~12
+~5
 
 setacctime 0.5
 
@@ -16,6 +16,8 @@ _camera camCommit 0
 @camCommitted _camera
 
 ~1
+
+titletext [ localize "STRCT_01","plain"]
 
 ;=== 12:47:12
 _camera camSetTarget [75155.43,-56379.36,-26278.87]

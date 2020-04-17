@@ -271,6 +271,18 @@ class CfgSounds
 		sound[] = {"m08v2c.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m08v2c};
 	};
+	class bang
+	{
+		name = "bang";
+		sound[] = {"bang.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class fire
+	{
+		name = "fire";
+		sound[] = {"fire.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 };
 
 

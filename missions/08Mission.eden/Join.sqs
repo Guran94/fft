@@ -1,3 +1,8 @@
 setacctime 1
 Accept2Done=true
 
+@Accept2Done
+
+twom removeaction _r2
+twom removeaction _join
+twom removeaction _fuck

@@ -10,7 +10,11 @@ pri2 setcaptive true
 pri3 setcaptive true
 ClearWeaponCargo ural
 ClearMagazineCargo ural
-;;;;;;;;;;;;;;;;;;;;disableuserinput true
+ClearWeaponCargo ammo
+ClearMagazineCargo ammo
+ammo AddWeaponCargo ["pk",1]
+ammo AddMagazineCargo ["pk]",2]
+disableuserinput true
 greg dowatch vadim
 vadim dowatch greg
 enableradio false
