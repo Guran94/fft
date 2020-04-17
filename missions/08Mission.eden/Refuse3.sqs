@@ -17,3 +17,84 @@ lem say "m08v4b"
 
 ~5
 
+@Accept2Done
+
+twom removeaction _r2
+twom removeaction _join
+twom removeaction _fuck
+
+titleCut ["","BLACK OUT",3]
+
+kgb1 disableai "autotarget"
+
+~3
+
+fire=true
+twom setpos getmarkerpos "player"
+twom switchmove ""
+kgb1 setdir 90
+reb1 setpos getmarkerpos "reb1"
+reb2 setpos getmarkerpos "reb2"
+reb3 setpos getmarkerpos "reb3"
+reb4 setpos getmarkerpos "reb4"
+reb5 setpos getmarkerpos "reb5"
+reb6 setpos getmarkerpos "reb6"
+reb7 setpos getmarkerpos "reb7"
+reb8 setpos getmarkerpos "reb8"
+reb9 setpos getmarkerpos "reb9"
+reb10 setpos getmarkerpos "reb10"
+reb11 setpos getmarkerpos "reb11"
+reb12 setpos getmarkerpos "reb12"
+twomb setdir 270
+usa1 setpos getmarkerpos "pri1"
+usa2 setpos getmarkerpos "pri2"
+usa3 setpos getmarkerpos "pri3"
+usa1 setdir 270
+usa2 setdir 90
+usa3 setdir 270
+
+~4
+
+titleCut ["","BLACK IN",3]
+
+kgb1 setdir 90
+
+~1
+
+kgb1 dowatch [6543.34,7128.37,1.76]
+
+~1
+
+kgb1 setdammage 1
+playsound "fire"
+
+~1
+
+kgb6 setbehaviour "stealth"
+kgb5 setbehaviour "stealth"
+kgb4 setbehaviour "stealth"
+kgb2 setbehaviour "stealth"
+kgb3 setbehaviour "stealth"
+kgb1 setbehaviour "stealth"
+uaz setdammage 1
+alarm=true
+
+~1
+
+usa1 domove "usa1"
+usa1 domove "usa1"
+usa1 domove "usa3"
+bmp2 setpos getmarkerpos "ural"
+usa1 say "m08v17"
+
+~4
+
+usa1 setcaptive false
+usa2 setcaptive false
+usa3 setcaptive false
+
+~2
+
+twom setcaptive false
+
+exit

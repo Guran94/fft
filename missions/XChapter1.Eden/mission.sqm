@@ -48,7 +48,7 @@ class Intro
 				items=1;
 				class Item0
 				{
-					position[]={9661.491211,28.268972,1367.614258};
+					position[]={9304.798828,110.170349,1443.391724};
 					id=0;
 					side="WEST";
 					vehicle="SoldierWB";
@@ -2003,7 +2003,7 @@ class Intro
 				{
 					position[]={9547.564453,25.919998,1559.092773};
 					azimut=105.000000;
-					id=157;
+					id=151;
 					side="WEST";
 					vehicle="SoldierWB";
 					leader=1;
@@ -2023,7 +2023,7 @@ class Intro
 				{
 					position[]={9550.257813,25.909786,1560.314209};
 					azimut=230.000000;
-					id=158;
+					id=152;
 					side="WEST";
 					vehicle="SoldierWB";
 					leader=1;
@@ -2043,7 +2043,7 @@ class Intro
 				{
 					position[]={9545.142578,25.919998,1551.533447};
 					azimut=210.000000;
-					id=160;
+					id=154;
 					side="CIV";
 					vehicle="Civilian";
 					leader=1;
@@ -2086,7 +2086,7 @@ class Intro
 				{
 					position[]={9560.654297,25.498083,1550.723267};
 					azimut=200.000000;
-					id=161;
+					id=155;
 					side="CIV";
 					vehicle="Civilian2";
 					leader=1;
@@ -2106,7 +2106,7 @@ class Intro
 				{
 					position[]={9543.368164,24.099016,1530.163574};
 					azimut=125.000000;
-					id=162;
+					id=156;
 					side="CIV";
 					vehicle="Civilian4";
 					leader=1;
@@ -2119,7 +2119,7 @@ class Intro
 	};
 	class Vehicles
 	{
-		items=78;
+		items=72;
 		class Item0
 		{
 			position[]={3321.155273,103.374771,6142.133789};
@@ -2808,69 +2808,9 @@ class Intro
 		};
 		class Item71
 		{
-			position[]={9638.075195,16.805586,1470.572632};
-			azimut=15.000000;
-			id=151;
-			side="EMPTY";
-			vehicle="Camp";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item72
-		{
-			position[]={9623.730469,17.544540,1474.667236};
-			azimut=15.000000;
-			id=152;
-			side="EMPTY";
-			vehicle="Camp";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item73
-		{
-			position[]={9609.787109,18.656181,1478.884888};
-			azimut=15.000000;
-			id=153;
-			side="EMPTY";
-			vehicle="Camp";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item74
-		{
-			position[]={9594.052734,19.815739,1482.833862};
-			azimut=15.000000;
-			id=154;
-			side="EMPTY";
-			vehicle="Camp";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item75
-		{
-			position[]={9634.211914,18.968382,1456.239380};
-			azimut=15.000000;
-			id=155;
-			side="EMPTY";
-			vehicle="Camp";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item76
-		{
-			position[]={9589.583984,22.740740,1468.617920};
-			azimut=15.000000;
-			id=156;
-			side="EMPTY";
-			vehicle="Camp";
-			leader=1;
-			skill=0.600000;
-		};
-		class Item77
-		{
 			position[]={9547.958984,25.784466,1548.523682};
 			azimut=335.000000;
-			id=159;
+			id=153;
 			side="EMPTY";
 			vehicle="Jeep";
 			leader=1;

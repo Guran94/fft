@@ -7,6 +7,8 @@ STRMT_1,"Few 10 minutes later...","text"
 
 STRMH_1,"In this mission you have to choose your destiny with action menu which descides about your future. You will perform it with action menu. Good luck and follow your heart.","hint"
 STRMH_2,"Kill the Russians.","hint"
+STRMH_3,"Run! Try to avoid the road!","hint"
+STRMH_4,"Good. Hide in the forest.","hint"
 
 STRM_m08v01,"My colleague has already told me you can speak Russian American.\nBut I will speak to you in English as a gesture of goodwill toward the prisoner.","rashiv"
 STRM_m08v02,"Speak with me what ever you want and fuck you.","jason"
@@ -57,7 +59,7 @@ STRM_m08v2c,"Take the whining slut. We're done with him.","lemontov"
 
 STRM_m08v15,"Fire!","rashiv"
 STRM_m08v16,"Alarm! Alarm!","rus"
-STRM_m08v17,"That's our chance! Run!","american"
+STRM_m08v17,"That's are rebels. It's our chance! Run!","american"
 STRM_m08v18,"Oh ... yeah, I got it. But I must not delay and move on.\nI should go deep into the forest where I definitely have a better chance of hiding than in the open. Maybe the Russians won't find me.\nPerhaps I'll meet other compatriots ... or more trouble.","jason"
 STRM_m08v19,"Fuck I've slept! Fuck I have to go further!\n I'll try to reach end of this wood.","jason"
 STRM_m08v20,"Damn Russians they're already going to search for us, but wait... I've got an idea!","jason"

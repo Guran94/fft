@@ -18,7 +18,11 @@ _camera camSetPos [5401.15,3884.32,82.92]
 _camera camSetFOV 0.334
 _camera camCommit 10
 
-~8
+~1
+
+titletext [ localize "STRCT_01","plain"]
+
+~7
 
 titleCut ["","BLACK OUT",2]
 

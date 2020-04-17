@@ -1,0 +1,10 @@
+savegame
+
+~1
+
+setacctime 1
+
+twom addrating 200
+twom say "m08v18"
+
+exit
