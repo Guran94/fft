@@ -1,5 +1,6 @@
 ~1
 
+setacctime 1
 leader player groupradio "away"
 hrac addrating -1000
 

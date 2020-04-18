@@ -4,17 +4,19 @@ titleCut ["","BLACK OUT",3]
 
 disableuserinput true
 twom setmimic "normal"
-twom setpos getmarkerpos "vlese"
+twom setpos getmarkerpos "forest"
+wrong=true
 
 ~1
 
-twom setpos getmarkerpos "vlese"
+twom setpos getmarkerpos "forest"
 twom switchmove "LyingToTreatedLying"
 twom setdir 0
 playmusic "track3"
 0 fademusic 0.2
-bonus=false
-deletevehicle vojak1
+deletevehicle usa1
+deletevehicle usa2
+deletevehicle usa3
 setacctime 1
 titleCut ["","BLACK IN",3]
 
@@ -41,24 +43,27 @@ titleCut ["","BLACK OUT",3]
 ~3
 
 skiptime 0.5
-titletext [localize "STRMT","plain"]
+titletext [localize "STRMT_1","plain"]
+
 
 ~2
 
 titleCut ["","BLACK IN",0]
 titletext ["","plain"]
+
 player cameraEffect ["terminate","back"]
 camDestroy _camera
-playsound "bomba"
+
+playsound "bang"
 0 fademusic 0
-twom say "mh59"
+twom say "m08v19"
 
 ~5
 
 disableuserinput false
 
-~5
+~1
 
-vlese=true
+savegame
 
 exit

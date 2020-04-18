@@ -1,10 +1,12 @@
 "2" objstatus "done"
 hrac addrating 1000
+setacctime 1
 leader player sideradio "m02r04"
 papa sideradio "m02r05"
 
 ~25
 
+setacctime 1
 leader player groupradio "m02r06"
 vyjed=true
 "3" objstatus "active"
