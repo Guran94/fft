@@ -3907,7 +3907,7 @@ class Mission
 			rectangular=1;
 			activationBy="WEST";
 			age="UNKNOWN";
-			expActiv="serza say ""m02v19""; car lock false";
+			expActiv="serza say ""m02v19""; car lock false; setacctime 1";
 			class Effects
 			{
 			};

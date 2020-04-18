@@ -28,6 +28,8 @@ voj5 setdammage 1
 voj6 setdammage 1
 voj7 setdammage 1
 voj8 setdammage 1
+4 fademusic 0.2
+4 fadesound 0
 
 ~3
 
@@ -42,20 +44,17 @@ _camera camCommit 3
 
 ~1
 
-0 fademusic 0.3
 playsound "m02v01"
 titletext [localize "STRM_m02v01","plain"]
 
-~2
-0 fademusic 2
+~3
 
-~6
+6 fademusic 1
+6 fadesound 1
+
+~4
 
 titleCut ["","BLACK OUT",1]
-
-~1
-
-skiptime 0.3
 
 ~1
 
@@ -73,8 +72,12 @@ _camera camCommit 0
 _camera camSetTarget [35874.58,101971.83,-3069.58]
 _camera camSetPos [6488.41,6442.07,3.65]
 _camera camSetFOV 0.545
-_camera camCommit 9
-@camCommitted _camera
+_camera camCommit 8
+
+4 fademusic 0.2
+4 fadesound 0
+
+~8
 
 ;rebelove
 
@@ -86,7 +89,6 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-0 fademusic 0.3
 playsound "m02v02"
 titletext [localize "STRM_m02v02","plain"]
 
@@ -94,9 +96,12 @@ titletext [localize "STRM_m02v02","plain"]
 _camera camSetTarget [-60242.50,80751.63,-4964.19]
 _camera camSetPos [6490.82,6451.49,2.96]
 _camera camSetFOV 0.426
-_camera camCommit 7
-@camCommitted _camera
-0 fademusic 1
+_camera camCommit 6
+
+~6
+
+4 fademusic 1
+4 fadesound 1
 
 ;nakladak
 
@@ -110,19 +115,20 @@ _camera camCommit 0
 ~3
 
 titleCut ["","BLACK OUT",1]
+2 fademusic 0.2
+2 fadesound 0
 
 ~2
 
-0 fademusic 0.2
 playsound "m02v03"
 titletext [localize "STRM_m02v03","plain"]
 
-~8
+~6
 
 playsound "m02v04"
 titletext [localize "STRM_m02v04","plain"]
 
-~15
+~9
 
 alarm=true
 titleCut ["","BLACK IN",1]
@@ -193,7 +199,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~1
 
 ;=== 15:09:32
 _camera camSetTarget [-93365.73,-10125.80,8581.65]
@@ -202,10 +208,11 @@ _camera camSetFOV 0.484
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~1
 
 
 4 fademusic 0
+4 fadesound 0
 titleCut ["","BLACK OUT",3]
 
 ~4
