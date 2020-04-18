@@ -1,4 +1,5 @@
 titletext ["","plain"]
+setacctime 1
 serza sideradio "m02r02"
 papa sideradio "m02r03"
 "1" objstatus "done"

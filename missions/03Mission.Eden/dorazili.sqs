@@ -1,3 +1,4 @@
+setacctime 1
 m113 sideradio "m03r03"
 morton sideradio "m03r04"
 
@@ -24,6 +25,7 @@ serza groupradio "m03r05"
 
 ~30
 
+setacctime 1
 serza groupradio "m03r09"
 prvni=true
 

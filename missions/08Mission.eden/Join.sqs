@@ -6,3 +6,11 @@ Accept2Done=true
 twom removeaction _r2
 twom removeaction _join
 twom removeaction _fuck
+
+twom say "m08v1a"
+
+~5
+
+lem say "m08v2a"
+
+[] exec "end2.sqs"

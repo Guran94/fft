@@ -13,8 +13,8 @@ ClearMagazineCargo ural
 ClearWeaponCargo ammo
 ClearMagazineCargo ammo
 ammo AddWeaponCargo ["pk",1]
-ammo AddMagazineCargo ["pk]",2]
-disableuserinput true
+ammo AddMagazineCargo ["pk",2]
+;;;;;;;;;;;;;;;;disableuserinput true
 greg dowatch vadim
 vadim dowatch greg
 enableradio false
@@ -23,11 +23,13 @@ g2 disableai "autotarget"
 g1 dowatch objnull
 g2 dowatch objnull
 lemontov dowatch [7253.16,6779.83,1.46]
+wrong=false
+away=false
 
 titleCut ["","BLACK IN",3]
 
-;;_camera = "camera" camcreate [0,0,0]
-;;_camera cameraeffect ["internal","back"]
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
 ;base
 ;=== 21:01:24

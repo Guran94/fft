@@ -29,6 +29,7 @@ kgb1 disableai "autotarget"
 
 ~3
 
+away=true
 fire=true
 twom setpos getmarkerpos "player"
 twom switchmove ""
@@ -53,10 +54,11 @@ usa1 setdir 270
 usa2 setdir 90
 usa3 setdir 270
 
-~4
+~1
 
 titleCut ["","BLACK IN",3]
-
+savegame
+twomb setdir 270
 kgb1 setdir 90
 
 ~1
@@ -70,6 +72,11 @@ playsound "fire"
 
 ~1
 
+kgb11 setbehaviour "stealth"
+kgb10 setbehaviour "stealth"
+kgb9 setbehaviour "stealth"
+kgb8 setbehaviour "stealth"
+kgb7 setbehaviour "stealth"
 kgb6 setbehaviour "stealth"
 kgb5 setbehaviour "stealth"
 kgb4 setbehaviour "stealth"
@@ -81,11 +88,15 @@ alarm=true
 
 ~1
 
-usa1 domove "usa1"
-usa1 domove "usa1"
-usa1 domove "usa3"
+usa1 domove getmarkerpos "usa1"
+usa1 domove getmarkerpos "usa1"
+usa1 domove getmarkerpos "usa3"
 bmp2 setpos getmarkerpos "ural"
 usa1 say "m08v17"
+
+~1
+
+hint localize "STRMH_3"
 
 ~4
 
@@ -93,7 +104,7 @@ usa1 setcaptive false
 usa2 setcaptive false
 usa3 setcaptive false
 
-~2
+~6
 
 twom setcaptive false
 

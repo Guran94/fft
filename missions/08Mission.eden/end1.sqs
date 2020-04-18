@@ -1,0 +1,68 @@
+titleCut ["","BLACK OUT",2]
+setacctime 1
+twom addrating 1000
+
+~2
+
+twom setcaptive true
+twom action ["weapononback"]
+twom setmimic "smile"
+twom setpos getmarkerpos "twom"
+
+~1
+
+0 fademusic 0.5
+playmusic "7thiamgonafly"
+setacctime 1
+twom setpos getmarkerpos "konec"
+twom setdir 10
+
+titleCut ["","BLACK IN",2]
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;uaz and jason
+
+;=== 18:58:43
+_camera camSetTarget [78230.51,72531.92,-26923.14]
+_camera camSetPos [6480.61,8306.85,1.01]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:59:09
+_camera camSetTarget [-3624.30,105388.51,-21706.65]
+_camera camSetPos [6482.86,8306.83,1.39]
+_camera camSetFOV 0.538
+_camera camCommit 7
+@camCommitted _camera
+
+;jason
+
+;=== 19:01:22
+_camera camSetTarget [-59847.21,-48187.59,49111.75]
+_camera camSetPos [6484.34,8309.96,0.34]
+_camera camSetFOV 0.383
+_camera camCommit 0
+@camCommitted _camera
+
+twom say "m08v21"
+
+;=== 19:01:32
+_camera camSetTarget [-63280.66,-51204.25,39926.16]
+_camera camSetPos [6484.34,8309.96,1.08]
+_camera camSetFOV 0.383
+_camera camCommit 6
+
+~2
+
+4 fademusic 0
+titleCut ["","BLACK OUT",3]
+
+~4
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+end1=true
+
+exit

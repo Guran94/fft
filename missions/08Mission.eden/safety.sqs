@@ -7,4 +7,8 @@ setacctime 1
 twom addrating 200
 twom say "m08v18"
 
+~5
+
+hint localize "STRMH_4"
+
 exit
