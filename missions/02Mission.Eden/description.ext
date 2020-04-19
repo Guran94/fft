@@ -139,6 +139,12 @@ class CfgSounds
 		sound[] = {"m02v19.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m02v19};
 	};
+	class mess
+	{
+		name = "mess";
+		sound[] = {"mess.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 };
 
 
