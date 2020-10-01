@@ -877,7 +877,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={5487.917969,80.459999,6080.105957};
+					position[]={5449.364746,77.361679,6125.575195};
 					placement=50.000000;
 					type="SAD";
 					class Effects
@@ -969,7 +969,7 @@ class Mission
 				items=3;
 				class Item0
 				{
-					position[]={5600.205078,69.246941,4778.349609};
+					position[]={5623.455078,67.190643,4727.961914};
 					id=70;
 					side="GUER";
 					vehicle="SoldierGCrew";
@@ -979,7 +979,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={5600.826172,69.220558,4777.708496};
+					position[]={5624.076172,67.092201,4727.320801};
 					id=71;
 					side="GUER";
 					vehicle="SoldierGCrew";
@@ -987,7 +987,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={5599.626953,69.314392,4777.874023};
+					position[]={5622.876953,67.256683,4727.486328};
 					id=72;
 					side="GUER";
 					vehicle="SoldierGCrew";
@@ -999,7 +999,7 @@ class Mission
 				items=3;
 				class Item0
 				{
-					position[]={5599.721191,69.121765,4780.869629};
+					position[]={5622.971191,67.315666,4730.481934};
 					type="HOLD";
 					combatMode="YELLOW";
 					combat="SAFE";
@@ -1011,7 +1011,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={5593.451172,69.555176,4778.110352};
+					position[]={5616.701172,68.523460,4727.722656};
 					id=73;
 					type="GETIN";
 					speed="FULL";
@@ -1627,7 +1627,7 @@ class Mission
 		};
 		class Item33
 		{
-			position[]={5593.451172,69.555176,4778.110352};
+			position[]={5616.701172,68.523460,4727.722656};
 			azimut=70.000000;
 			id=73;
 			side="EMPTY";

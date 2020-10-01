@@ -4702,7 +4702,7 @@ class Mission
 			azimut=281.717010;
 			id=224;
 			side="EMPTY";
-			vehicle="T72Res";
+			vehicle="T55G";
 			leader=1;
 			skill=0.600000;
 		};
@@ -4712,7 +4712,7 @@ class Mission
 			azimut=281.717010;
 			id=225;
 			side="EMPTY";
-			vehicle="T72Res";
+			vehicle="T55G";
 			leader=1;
 			skill=0.600000;
 		};
@@ -8912,7 +8912,7 @@ class Intro
 			azimut=281.717010;
 			id=204;
 			side="EMPTY";
-			vehicle="T72Res";
+			vehicle="T55G";
 			leader=1;
 			skill=0.600000;
 		};
@@ -8922,7 +8922,7 @@ class Intro
 			azimut=281.717010;
 			id=205;
 			side="EMPTY";
-			vehicle="T72Res";
+			vehicle="T55G";
 			leader=1;
 			skill=0.600000;
 		};
