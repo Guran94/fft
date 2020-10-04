@@ -2,6 +2,18 @@ class CfgSounds
 {
 	sounds[] = { };
 
+	class riot
+	{
+		name = "riot";
+		sound[] = {"riot.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class punch
+	{
+		name = "punch";
+		sound[] = {"punch.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class yes1
 	{
 		name = "yes1";
@@ -145,13 +157,37 @@ class CfgIdentities
     speaker = "Peter";
     pitch = 0.97;
   };
+  class Jack
+  {
+    name = "Jack Gill";
+    face = "Face39";
+    glasses = "Not";
+    speaker = "Patrick";
+    pitch = 1.02;
+  };
+  class Mike
+  {
+    name = "Mike Sullivan";
+    face = "Face46";
+    glasses = "Spectacles";
+    speaker = "Tom";
+    pitch = 1.00;
+  };
+  class Johnson
+  {
+    name = "Steve Johnson";
+    face = "Face33";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.00;
+  };
   class Epgayd
   {
     name = "James Epgayd";
     face = "Face2";
     glasses = "Not";
-    speaker = "George";
-    pitch = 0.98;
+    speaker = "Adam";
+    pitch = 1.00;
   };
   class Poincare
   {
@@ -169,22 +205,6 @@ class CfgIdentities
     speaker = "Adam";
     pitch = 1.00;
   };
-  class USAGeneral
-  {
-    name = "General Curtis Meller";
-    face = "Face15";
-    glasses = "Spectacles";
-    speaker = "Adam";
-    pitch = 1.00;
-  };
-  class Phill
-  {
-    name = "Phill";
-    face = "Face13";
-    glasses = "Spectacles";
-    speaker = "John";
-    pitch = 1.05;
-  };
   class Muday
   {
     name = "Derek Muday";
@@ -193,25 +213,17 @@ class CfgIdentities
     speaker = "Greg";
     pitch = 0.97;
   };
-  class Jack
+  class Bennett
   {
-    name = "Jack Gill";
-    face = "Face33";
-    glasses = "Not";
-    speaker = "John";
+    name = "Roy Bennett";
+    face = "Face34";
+    glasses = "None";
+    speaker = "Ted";
     pitch = 1.02;
   };
-  class Mike
+  class Livanokh
   {
-    name = "Mike Sullivan";
-    face = "Face46";
-    glasses = "Spectacles";
-    speaker = "John";
-    pitch = 1.00;
-  };
-  class Livanoch
-  {
-    name = "General Alexander Livanoch";
+    name = "Alexander Livanokh";
     face = "Face10";
     glasses = "Not";
     speaker = "Adam";

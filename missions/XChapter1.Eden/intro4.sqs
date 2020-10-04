@@ -1,61 +1,136 @@
-titleCut ["","BLACK IN",2]
-2 fadesound 1
-2 fademusic 1
-
-skiptime 1
-go4=true
-
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-civ3 setmimic "angry"
-civ4 setmimic "angry"
-civ3 dowatch [5364.24,4106.99,2.09]
-civ4 dowatch [5364.24,4106.99,2.09]
+titleCut ["","BLACK IN",2]
 
-;city
-;=== 9:03:51
-_camera camSetTarget [-91778.15,-13766.60,-15571.50]
-_camera camSetPos [5364.24,4106.99,2.09]
+2 fadesound 1
+2 fademusic 1
+
+playmusic "track7"
+
+skiptime 4
+jean3 setdir 90
+jean3 setmimic "sad"
+jean3 switchmove "fxinkneel"
+guard setmimic "normal"
+guard disableai "autotarget"
+jean3 disableai "autotarget"
+
+;grave
+
+;=== 19:17:04
+_camera camSetTarget [92903.44,-51994.91,-15324.17]
+_camera camSetPos [9872.08,1584.79,0.84]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 9:04:22
-_camera camSetTarget [-78176.33,-48590.38,-15570.87]
-_camera camSetPos [5364.09,4106.89,4.29]
+
+;=== 19:17:16
+_camera camSetTarget [92903.44,-51994.91,-15323.79]
+_camera camSetPos [9868.83,1586.55,0.84]
 _camera camSetFOV 0.700
-_camera camCommit 8
+_camera camCommit 4
 @camCommitted _camera
 
-civ4 playmove "fxshow3"
+;=== 19:17:38
+_camera camSetTarget [92903.44,-51994.91,-15324.03]
+_camera camSetPos [9867.88,1586.27,0.84]
+_camera camSetFOV 0.700
+_camera camCommit 4
+@camCommitted _camera
 
-;assholes
-;=== 9:19:25
-_camera camSetTarget [92723.30,52654.74,36.03]
-_camera camSetPos [5321.67,4065.08,1.80]
-_camera camSetFOV 0.443
+;jean
+
+
+;=== 19:55:37
+_camera camSetTarget [-64462.24,-65235.57,3085.67]
+_camera camSetPos [9871.17,1585.54,0.47]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 9:07:05
-_camera camSetTarget [69049.47,81004.24,4380.25]
-_camera camSetPos [5321.06,4063.85,1.85]
-_camera camSetFOV 0.471
-_camera camCommit 7
-
-~6
-
-1 fadesound 0
-1 fademusic 0.2
-
-titleCut ["","BLACK OUT",1]
 
 ~1
-2 fadesound 0
-2 fademusic 0.2
-titletext [ localize "STRM_x01v14","plain"]
-playsound "x01v14"
 
-~7
+jean3 say "xc1v16"
+
+~2
+
+jean3 switchmove "fxfromkneel"
+
+;=== 19:56:01
+_camera camSetTarget [-71609.44,-53759.06,17265.45]
+_camera camSetPos [9871.17,1585.54,1.06]
+_camera camSetFOV 0.574
+_camera camCommit 3
+
+~2
+
+jean3 setmimic "angry"
+
+~2
+
+guard say "xc1v17"
+
+;guard
+
+;=== 19:19:10
+_camera camSetTarget [-84241.95,-32207.96,-649.18]
+_camera camSetPos [9871.17,1585.54,1.06]
+_camera camSetFOV 0.574
+_camera camCommit 2
+@camCommitted _camera
+
+~1
+
+;=== 19:19:38
+_camera camSetTarget [-74528.26,43332.68,33710.59]
+_camera camSetPos [9857.96,1583.73,0.93]
+_camera camSetFOV 0.452
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+
+jean3 move getmarkerpos "leave2"
+jean3 setspeedmode "limited"
+jean3 setpos getmarkerpos "leave"
+jean3 setdir 275
+
+
+titletext [ localize "","plain"]
+
+;jean goes
+
+;=== 19:21:32
+_camera camSetTarget [109838.30,1259.24,-1774.29]
+_camera camSetPos [9854.68,1584.04,1.51]
+_camera camSetFOV 0.386
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+guard dowatch [9850.91,1582.60,1.37]
+
+~1
+
+guard setmimic "surprised"
+
+~2
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+skiptime 12
+
+playsound "xc1v18"
+
+~10
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
 
 [] exec "intro5.sqs"
 

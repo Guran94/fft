@@ -1,18 +1,13 @@
-titleCut ["","BLACK OUT",2]
 go2=true
 jason setmimic "normal"
 g1 setmimic "normal"
-2 fadesound 0
-2 fademusic 0.2
-
-~2
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 deletevehicle uh
-titletext [ localize "STRM_x01v01","plain"]
-playsound "x01v01"
+
+playsound "xc1v03"
 
 ~11
 
@@ -81,7 +76,7 @@ _camera camCommit 0
 
 ~3
 
-g1 say "x01v03"
+g1 say "xc1v04"
 
 ;move
 ;=== 11:15:34
@@ -91,7 +86,7 @@ _camera camSetFOV 0.700
 _camera camCommit 3
 @camCommitted _camera
 
-jason say "x01v04"
+jason say "xc1v05"
 
 move=true
 
@@ -107,7 +102,6 @@ _camera camCommit 0
 
 2 fadesound 0
 2 fademusic 0.2
-
 
 titleCut ["","BLACK OUT",2]
 
@@ -165,9 +159,12 @@ private2 stop true
 private3 stop true
 private4 stop true
 private5 stop true
+deletevehicle c1
+deletevehicle c2
+deletevehicle c3
 skiptime 3
-titletext [ localize "STRM_x01v02","plain"]
-playsound "x01v02"
+
+playsound "xc1v06"
 
 ~16
 
@@ -186,7 +183,7 @@ _camera camCommit 0
 
 ~2
 
-muday say "x01v06"
+muday say "xc1v07"
 
 ~1
 
@@ -234,7 +231,7 @@ _camera camCommit 0
 ~2
 
 muday dowatch [6428.97,103816.45,-8131.97]
-muday say "x01v05"
+muday say "xc1v08"
 
 ~1
 
@@ -249,7 +246,7 @@ muday switchmove "effectstand"
 
 titleCut ["","BLACK IN",1]
 
-muday say "x01v07"
+muday say "xc1v09"
 ;both
 ;=== 12:53:17
 _camera camSetTarget [107290.26,6460.44,-5467.46]
@@ -278,15 +275,15 @@ _camera camSetPos [7478.80,4164.75,1.24]
 _camera camSetFOV 0.376
 _camera camCommit 3
 
-muday say "x01v08"
+muday say "xc1v10"
 
 ~2
 
-twombly say "x01v09"
+twombly say "xc1v11"
 
 ~1
 
-muday say "x01v10"
+muday say "xc1v12"
 
 twombly switchmove ""
 
@@ -312,26 +309,27 @@ _camera camCommit 0
 ~1
 
 [] exec "dip.sqs"
-twombly say "x01v11"
+twombly say "xc1v13"
 
 ~4
 
-titletext [ localize "STRM_x01v12","plain"]
-playsound "x01v12"
+playsound "xc1v14"
 
 ~5
 
 2 fadesound 0
-2 fademusic 0.2
+2 fademusic 0
 
 titleCut ["","BLACK OUT",2]
 
 ~2
 
-titletext [ localize "STRM_x01v13","plain"]
-playsound "x01v13"
+playsound "xc1v15"
 
 ~7
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
 
 [] exec "intro4.sqs"
 

@@ -2,10 +2,9 @@ _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 skiptime 1
-setacctime 4
 3 fademusic 1
 
-move=true
+fahren=true
 
 ~4
 
@@ -13,6 +12,7 @@ move=true
 
 titleCut ["","BLACK IN",1]
 
+Vadim removeweapon "binocular"
 lemontov setmimic "normal"
 shower setmimic "normal"
 sol1 disableai "autotarget"
@@ -125,21 +125,22 @@ lemontov setmimic "smile"
 
 ~2
 
-deletevehicle ural;
-deletevehicle p1;
-deletevehicle p2;
-deletevehicle p3;
-deletevehicle p4;
-deletevehicle s1;
-deletevehicle s2;
-deletevehicle s3;
-deletevehicle s4;
-deletevehicle s5;
-deletevehicle ras;
-Vadim setmimic "normal";
-Vadim setpos getmarkerpos "tojason";
-Vadim move (getmarkerpos "sergei");
-Vadim setspeedmode "limited";
+deletevehicle p1
+deletevehicle p2
+deletevehicle p3
+deletevehicle p4
+deletevehicle s1
+deletevehicle s2
+deletevehicle s3
+deletevehicle s4
+deletevehicle s5
+deletevehicle ras
+deletevehicle ural
+deletevehicle vehicle ural
+Vadim setmimic "normal"
+Vadim setpos getmarkerpos "tojason"
+Vadim move getmarkerpos "sergei"
+Vadim setspeedmode "limited"
 
 titleCut ["","BLACK OUT",1]
 
@@ -172,8 +173,8 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-Vadim dowatch [7269.07,6796.05,1.36]
-Vadim setpos getmarkerpos "show"
+Vadim dowatch [7269.09,6794.85,1.44]
+Vadim setpos getmarkerpos "sergei"
 Vadim setdir 0
 Vadim playmove "fxshow3"
 Vadim say "x00v04"
