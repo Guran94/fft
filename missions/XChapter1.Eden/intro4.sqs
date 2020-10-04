@@ -6,6 +6,182 @@ titleCut ["","BLACK IN",2]
 2 fadesound 1
 2 fademusic 1
 
+maria setmimic "sad"
+crew1 setmimic "smile"
+
+crash=true
+
+;tank moves
+
+;=== 16:55:25
+_camera camSetTarget [-35441.88,-84568.83,-7574.00]
+_camera camSetPos [7447.38,5440.08,21.05]
+_camera camSetFOV 0.463
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:55:46
+_camera camSetTarget [-15881.98,-91789.12,1488.43]
+_camera camSetPos [7449.00,5441.03,4.83]
+_camera camSetFOV 0.463
+_camera camCommit 7
+@camCommitted _camera
+
+~2
+
+;=== 19:58:24
+_camera camSetTarget [26950.05,102825.05,-10976.82]
+_camera camSetPos [7434.89,5374.13,1.34]
+_camera camSetFOV 0.482
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+[_camera,m60,[0,3.4,2.8],m60,[165,2,3],0.2] exec "logiccam.sqs"
+
+~1
+
+crash2=true
+crew1 say ""
+
+~3
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;maria moves
+
+;=== 16:59:07
+_camera camSetTarget [105351.65,21800.34,-4817.28]
+_camera camSetPos [6789.42,5629.58,2.00]
+_camera camSetFOV 0.515
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:59:07
+_camera camSetTarget car
+_camera camSetPos [6789.42,5629.58,2.00]
+_camera camSetFOV 0.515
+_camera camCommit 4
+@camCommitted _camera
+
+
+~2
+
+;maria
+
+[_camera,car,[0,2,1.2],car,[185,10,1.3],0.4] exec "logiccam.sqs"
+
+~4
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+
+;crew1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+[_camera,m60,[0,3.4,2.8],m60,[165,2,3],0.2] exec "logiccam.sqs"
+
+~4
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+;maria 2x
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+[_camera,car,[0,2,1.2],car,[185,10,1.3],0.4] exec "logiccam.sqs"
+
+~4
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+;crew1 2x
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+[_camera,m60,[0,3.4,2.8],m60,[165,2,3],0.2] exec "logiccam.sqs"
+
+~2
+
+crew1 setmimic "surprised"
+
+~2
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;maria crash
+
+[_camera,car,[0,2,1.2],car,[185,10,1.3],0.4] exec "logiccam.sqs"
+
+~2
+
+maria setmimic "surprised"
+
+~1
+
+titleCut ["","BLACK IN",10000]
+
+playsound "crash"
+
+
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+0 fadesound 0
+0 fademusic 0
+
+~10
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+titleCut ["","BLACK IN",2]
+
+1 fadesound 1
+1 fademusic 1
+
 playmusic "track7"
 
 skiptime 4

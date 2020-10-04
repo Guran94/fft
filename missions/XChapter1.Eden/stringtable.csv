@@ -24,12 +24,6 @@
 "STRM_xc1v17","","Hey, you. It's almost six, time to leave.","guard"
 
 
-"STRM_xc1v16a","","Disperse or we will open fire!","johnson"
-"STRM_xc1v16b","","Disperse, now.","jean"
-
-
-
-
 "STRM_xc1v18","Washington nechtěl zůstat pozadu a pár dní na to zavedl proti Rusům vojenskou ochranu Maldenu.","Washington didn't want to be behind\nand a few days later established the military protection of Malden against the Russians.","jason"
 "STRM_xc1v19","No tak, Twombly! Pohni tou svou posranou, tlustou, ruskou prdelí! Pohyb, pohyb, pohyb!","Come on, Twombly! Move your fucking fat Russian ass! Move! Move! Move!","muday"
 
@@ -54,6 +48,13 @@
 "STRM_xc1v36","Vivat la Resistance!","Vivat la Resistance!","jean"
 
 "STRM_xc1v37","Povstání začalo.","The Unrest has begun.","jason"
+
+
+
+"STRM_xc1v16a","","Disperse or we will open fire!","johnson"
+"STRM_xc1v16b","","Disperse, now.","jean"
+"STRM_xc1v16c","","Fuck with the rules. Go ahead, guys.","hatton"
+"STRM_xc1v16d","","There is nothing we can do yet, sir. She's dead.","medic"
 
 "STRM_xc1t1","K A P I T O L A   I.","C H A P T E R   I","me"
 "STRM_xc1t2","P O V S T Á N Í","U N R E S T","me"
