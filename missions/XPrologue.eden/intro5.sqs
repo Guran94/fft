@@ -1,7 +1,7 @@
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-~1
+~0.5
 
 skiptime 0.5
 
@@ -58,7 +58,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-off say "x00v08"
+off say "x00v09"
 
 ~1
 
@@ -104,7 +104,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-off say "x00v09"
+off say "x00v10"
 
 ~1
 
@@ -176,7 +176,7 @@ _camera camCommit 0
 @camCommitted _camera
 
 titletext [ localize "STRM_x00v10","plain"]
-playsound "x00v10"
+playsound "x00v11"
 
 ;=== 13:03:11
 _camera camSetTarget [-66088.33,63810.09,-38706.67]

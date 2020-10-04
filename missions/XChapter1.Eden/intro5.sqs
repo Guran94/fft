@@ -62,7 +62,7 @@ _camera camCommit 5
 
 ~4
 
-mud say "x01v26"
+mud say "xc1v19"
 
 ~2
 
@@ -75,28 +75,21 @@ _camera camCommit 3
 
 ~2
 
+1 fadesound 0
+1 fademusic 0.2
+
 titleCut ["","BLACK OUT",1]
 
 ~1
 
-2 fadesound 0
-2 fademusic 0.2
-;neutral
-;=== 11:13:18
-_camera camSetTarget [426.82,112293.72,1.89]
-_camera camSetPos [426.82,12293.72,1.89]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
 
-titletext [ localize "STRM_x01v15","plain"]
-playsound "x01v15"
+playsound "xc1v20"
 
 ~13
 
 skiptime 1
-titletext [ localize "STRM_x01v16","plain"]
-playsound "x01v16"
+
+playsound "xc1v21"
 
 ~19
 

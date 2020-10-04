@@ -23,6 +23,9 @@ deletevehicle off
 deletevehicle jeep
 deletevehicle m113
 
+
+goto "skip"
+
 ;barracks
 ;=== 7:56:25
 _camera camSetTarget [23871.58,102737.45,-4776.90]
@@ -37,9 +40,8 @@ _camera camSetFOV 0.447
 _camera camCommit 6
 @camCommitted _camera
 
-playmusic "track7"
-titletext [ localize "STRM_x01v17","plain"]
-playsound "x01v17"
+
+playsound "xc1v22"
 
 ;=== 7:57:09
 _camera camSetTarget [68302.23,-75181.84,-752.71]
@@ -55,8 +57,8 @@ _camera camSetFOV 0.447
 _camera camCommit 0
 @camCommitted _camera
 
-titletext [ localize "STRM_x01v18","plain"]
-playsound "x01v18"
+
+playsound "xc1v23"
 
 ~2
 
@@ -68,13 +70,13 @@ _camera camSetFOV 0.379
 _camera camCommit 0
 @camCommitted _camera
 
-titletext [ localize "STRM_x01v19","plain"]
-playsound "x01v19"
+
+playsound "xc1v24"
 
 ~2
 
-titletext [ localize "STRM_x01v20","plain"]
-playsound "x01v20"
+
+playsound "xc1v25"
 
 ;targets
 ;=== 9:11:34
@@ -124,7 +126,7 @@ _camera camCommit 0
 
 ~1
 
-fuhrer say "x01v30"
+fuhrer say "xc1v26"
 
 ~1
 
@@ -137,7 +139,7 @@ _camera camCommit 0
 @camCommitted _camera
 
 stupid setmimic "surprised"
-stupid say "x01v31"
+stupid say "xc1v27"
 
 ~2
 
@@ -228,13 +230,44 @@ _camera camSetFOV 0.391
 _camera camCommit 0
 @camCommitted _camera
 
+stupid setmimic "angry"
 fuhrer setmimic "smile"
-fuhrer say "x01v32"
+fuhrer say "xc1v28"
+
+~4
+
+jack setmimic "smile"
+stupid say "xc1v29"
+
+;stupid
+
+;=== 20:15:46
+_camera camSetTarget [-84636.53,54100.34,-6913.85]
+_camera camSetPos [4820.25,9947.48,0.39]
+_camera camSetFOV 0.417
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:16:05
+_camera camSetTarget [-88882.99,44177.41,-6914.03]
+_camera camSetPos [4820.34,9947.70,0.39]
+_camera camSetFOV 0.467
+_camera camCommit 5
+@camCommitted _camera
+
+;jack
+
+;=== 20:14:49
+_camera camSetTarget [101967.91,33513.77,-2416.78]
+_camera camSetPos [4813.73,9952.25,1.51]
+_camera camSetFOV 0.417
+_camera camCommit 0
+@camCommitted _camera
+
+jack say "xc1v30"
 
 ~4
 
 3 fadesound 0
-3 fademusic 0.1
 
 ;jason
 ;=== 9:24:39
@@ -246,12 +279,53 @@ _camera camCommit 0
 
 ~3
 
-stalin setbehaviour "aware"
-reb1 setbehaviour "aware"
-reb2 setbehaviour "aware"
-reb3 setbehaviour "aware"
-stalin setbehaviour "aware"
-stalin setbehaviour "aware"
+titleCut ["","BLACK OUT",2]
+
+playsound "xc01v31"
+
+~10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 titleCut ["","BLACK OUT",1]
 
 ~1

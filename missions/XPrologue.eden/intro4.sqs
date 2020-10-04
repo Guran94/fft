@@ -117,6 +117,8 @@ _camera camCommit 0
 go2=true
 titleCut ["","BLACK OUT",1]
 
+~1
+
 player cameraEffect ["terminate","back"]
 camDestroy _camera
 
