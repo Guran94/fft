@@ -43,15 +43,16 @@ _camera camCommit 6
 
 ~4
 
-;ural
-;=== 21:02:48
-_camera camSetTarget ural
-_camera camSetPos [7181.58,6958.90,7.87]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
+[_camera,ural,[180,3.7,2.3],ural,[0,5,1.5],0.7] exec "logiccam.sqs"
 
 ~5
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
 ;guard
 ;=== 21:04:03
@@ -142,6 +143,8 @@ Vadim setpos getmarkerpos "tojason"
 Vadim move getmarkerpos "sergei"
 Vadim setspeedmode "limited"
 
+
+
 titleCut ["","BLACK OUT",1]
 
 ~1.5
@@ -164,16 +167,17 @@ _camera camSetFOV 0.700
 _camera camCommit 6
 @camCommitted _camera
 
-;rashiv
+;rashiv and jason
 
-;=== 18:04:22
-_camera camSetTarget [-73648.73,-51665.09,5903.42]
-_camera camSetPos [7270.77,6794.72,0.82]
-_camera camSetFOV 0.700
+;=== 16:05:15
+_camera camSetTarget [-27849.74,100410.21,1461.36]
+_camera camSetPos [7270.14,6791.02,1.34]
+_camera camSetFOV 0.463
 _camera camCommit 0
 @camCommitted _camera
 
-Vadim dowatch [7269.09,6794.85,1.44]
+
+Vadim dowatch [7268.97,6795.52,1.68]
 Vadim setpos getmarkerpos "sergei"
 Vadim setdir 0
 Vadim playmove "fxshow3"
@@ -182,27 +186,14 @@ Vadim disableai "autotarget"
 
 ~1
 
-;both
-
-;=== 18:05:11
-_camera camSetTarget [-77513.40,59740.78,-2772.69]
-_camera camSetPos [7272.43,6792.70,0.82]
-_camera camSetFOV 0.864
-_camera camCommit 0
+;=== 16:05:45
+_camera camSetTarget [-15599.66,103593.98,10334.46]
+_camera camSetPos [7270.14,6791.02,1.02]
+_camera camSetFOV 0.463
+_camera camCommit 5
 @camCommitted _camera
 
 ~2
-
-;jason
-
-;=== 18:05:11
-_camera camSetTarget sol3
-_camera camSetPos [7272.43,6792.70,0.82]
-_camera camSetFOV 0.500
-_camera camCommit 3
-@camCommitted _camera
-
-~1
 
 titleCut ["","BLACK OUT",1]
 
