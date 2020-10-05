@@ -367,6 +367,14 @@ leave=true
 offi say ""
 offi playmove "fxshow3"
 
+offi switchmove ""
+civ8 switchmove ""
+civ9 switchmove ""
+civ10 switchmove ""
+civ11 switchmove ""
+civ12 switchmove ""
+civ7 switchmove ""
+
 ~1
 
 ;back

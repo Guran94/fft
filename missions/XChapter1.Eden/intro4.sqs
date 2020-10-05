@@ -9,6 +9,16 @@ titleCut ["","BLACK IN",2]
 maria setmimic "sad"
 crew1 setmimic "smile"
 
+
+
+
+
+
+
+
+
+
+
 crash=true
 
 ;tank moves
@@ -42,7 +52,7 @@ _camera camCommit 0
 ~1
 
 crash2=true
-crew1 say ""
+crew1 say "xc1v16"
 
 ~3
 
@@ -118,6 +128,7 @@ _camera cameraeffect ["internal","back"]
 
 ~2
 
+crew1 say "xc1v17"
 crew1 setmimic "surprised"
 
 ~2
@@ -143,7 +154,12 @@ titleCut ["","BLACK IN",10000]
 
 playsound "crash"
 
-
+deletevehicle m60
+deletevehicle crew1
+deletevehicle crew2
+deletevehicle crew3
+deletevehicle car
+deletevehicle maria
 
 startglcam=false
 player cameraEffect ["terminate","back"]
@@ -154,20 +170,166 @@ camDestroy _camera
 
 ~10
 
+titleCut ["","BLACK IN",2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+crew4 setpos getmarkerpos "crew4"
+crew5 setpos getmarkerpos "crew5"
+tank setpos getmarkerpos "tank"
+nocar setpos getmarkerpos "nocar"
+amb setpos getmarkerpos "amb"
+horse setpos getmarkerpos "horse"
+paul setpos getmarkerpos "paul"
+medic setpos getmarkerpos "medic"
+johnson setpos getmarkerpos "johnson"
+mariaDead setpos getmarkerpos "mariaDead"
+wire1 setpos getmarkerpos "wire1"
+wire2 setpos getmarkerpos "wire2"
+police1 setpos getmarkerpos "police1"
+police2 setpos getmarkerpos "police2"
+
+paul setmimic "sad"
+medic setmimic "normal"
+johnson setmimic "normal"
+
+johnson disableai "autotarget"
+
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+1 fadesound 1
+1 fademusic 1
+playmusic "track7"
+
+crew5 switchmove "fxinkneel"
+crew4 switchmove "fxtohand"
+paul dowatch [7126.91,5365.18,0.87]
+
+;crash place
+
+;=== 16:15:25
+_camera camSetTarget [105707.41,-4654.84,-13151.49]
+_camera camSetPos [7100.40,5386.36,1.41]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:15:57
+_camera camSetTarget [102684.05,-4347.08,-27633.01]
+_camera camSetPos [7103.22,5382.80,2.38]
+_camera camSetFOV 0.561
+_camera camCommit 8
+@camCommitted _camera
+
+;to maria
+
+;=== 16:17:30
+_camera camSetTarget [-72094.25,61288.54,-24340.61]
+_camera camSetPos [7123.37,5371.32,2.48]
+_camera camSetFOV 0.590
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:18:00
+_camera camSetTarget [-67305.36,57907.98,-41102.85]
+_camera camSetPos [7129.64,5363.41,2.17]
+_camera camSetFOV 0.590
+_camera camCommit 6
+
+~5
+
+medic playmove "CivilToCivilTakeFlag"
+
+~1
+
+;from the body to the medic
+
+;=== 16:29:09
+_camera camSetTarget [24610.40,98125.70,-32899.55]
+_camera camSetPos [7126.73,5364.00,0.64]
+_camera camSetFOV 0.619
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;=== 16:25:48
+_camera camSetTarget [16728.56,102201.11,-22919.07]
+_camera camSetPos [7126.74,5363.90,1.57]
+_camera camSetFOV 0.585
+_camera camCommit 2
+
+~1
+
+medic say "xc1v18"
+
+~2
+
+;all
+
+johnson say "xc1v19"
+johnson playmove "FxShow4"
+
+;=== 16:50:14
+_camera camSetTarget [-87024.98,38198.02,-7434.11]
+_camera camSetPos [7129.30,5364.29,1.36]
+_camera camSetFOV 0.520
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:50:30
+_camera camSetTarget [-92584.30,5862.24,-7434.18]
+_camera camSetPos [7129.47,5365.09,1.36]
+_camera camSetFOV 0.520
+_camera camCommit 5
+@camCommitted _camera
+
+
+;hatton
+
+;=== 16:56:38
+_camera camSetTarget [-43651.12,84943.70,33107.95]
+_camera camSetPos [7126.85,5365.23,1.16]
+_camera camSetFOV 0.361
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+;steve is leaving
+
+;=== 16:50:14
+_camera camSetTarget [-87024.98,38198.02,-7434.11]
+_camera camSetPos [7129.30,5364.29,1.36]
+_camera camSetFOV 0.520
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+johnson say "xc1v20"
+
+~1
+
+johnson move getmarkerpos "getout"
+johnson setspeedmode "limited"
 
 
 
 
-
-
-
-
-
-
-
+~50
 
 
 
@@ -181,8 +343,6 @@ titleCut ["","BLACK IN",2]
 
 1 fadesound 1
 1 fademusic 1
-
-playmusic "track7"
 
 skiptime 4
 jean3 setdir 90
