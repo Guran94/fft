@@ -1,8 +1,8 @@
-titleCut ["","BLACK IN",2]
-2 fadesound 1
-2 fademusic 1
+titleCut ["","BLACK IN",3]
+3 fadesound 1
+3 fademusic 1
 
-skiptime 1
+skiptime 8
 go4=true
 
 hugo setmimic "angry"
@@ -177,9 +177,11 @@ _camera camCommit 7
 
 titleCut ["","BLACK OUT",2]
 
-~2.5
+~2
 
 riot=false
+
+playsound "xc1v37"
 
 titleCut ["","BLACK IN",2]
 
@@ -292,7 +294,7 @@ _camera camCommit 0
 
 ~1
 
-steve say ""
+steve say "xc1v38"
 
 ~2
 
@@ -364,7 +366,7 @@ speech setpos getmarkerpos "hugo"
 ~1
 
 leave=true
-offi say ""
+offi say "xc1v39"
 offi playmove "fxshow3"
 
 offi switchmove ""
@@ -404,13 +406,10 @@ titleCut ["","BLACK OUT",1]
 2 fadesound 0
 2 fademusic 0.2
 titletext [ localize "STRM_","plain"]
-playsound ""
+playsound "xc1v40"
 
-~7
+~5
 
-player cameraEffect ["terminate","back"]
-camDestroy _camera
-
-[] exec "intro5.sqs"
+[] exec "intro8.sqs"
 
 exit

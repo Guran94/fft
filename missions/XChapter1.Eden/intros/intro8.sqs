@@ -1,6 +1,7 @@
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+skiptime 15
 stalin setbehaviour "aware"
 reb1 setbehaviour "aware"
 reb2 setbehaviour "aware"
@@ -9,6 +10,8 @@ stalin setbehaviour "aware"
 stalin setbehaviour "aware"
 
 2 fadesound 1
+
+~5
 
 titleCut ["","BLACK IN",2]
 

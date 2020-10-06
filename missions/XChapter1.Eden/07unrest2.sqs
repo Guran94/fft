@@ -1,0 +1,245 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+2 fadesound 1
+
+riot=false
+
+titleCut ["","BLACK IN",2]
+
+hit1 setdammage 1
+hit2 setdammage 1
+hit3 setdammage 1
+hit4 setdammage 1
+hit5 setdammage 1
+offi disableai "autotarget"
+offi setmimic "angry"
+civ8 setmimic "angry"
+civ9 setmimic "angry"
+civ10 setmimic "angry"
+civ11 setmimic "angry"
+civ12 setmimic "angry"
+civ13 setmimic "angry"
+riot2=true
+defender1 setmimic "normal"
+defender2 setmimic "normal"
+
+civ7 setmimic "angry"
+steve setmimic "angry"
+defender1 setbehaviour "combat"
+defender1 setunitpos "up"
+defender2 setbehaviour "combat"
+defender2 setunitpos "up"
+
+;to the crowd
+
+;=== 15:07:34
+_camera camSetTarget [-24004.61,102089.67,10382.71]
+_camera camSetPos [4940.20,6917.45,7.66]
+_camera camSetFOV 0.509
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 15:08:46
+_camera camSetTarget [-62018.31,80848.16,-6964.79]
+_camera camSetPos [4936.92,6913.82,1.52]
+_camera camSetFOV 0.560
+_camera camCommit 8
+@camCommitted _camera
+
+;hit
+
+;=== 15:11:39
+_camera camSetTarget [60054.47,89868.09,-8790.66]
+_camera camSetPos [4918.57,6922.44,1.15]
+_camera camSetFOV 0.400
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 15:11:54
+_camera camSetTarget [38470.01,99878.77,-15115.50]
+_camera camSetPos [4919.37,6921.09,1.15]
+_camera camSetFOV 0.522
+_camera camCommit 4
+
+~1
+
+defender1 switchmove "CombatStrokeGun"
+
+~0.8
+
+punch=true
+civ7 switchmove "CivilDyingVer2"
+
+~2.2
+
+offi switchmove "FxShow3"
+civ8 switchmove "FXNewcivil"
+civ9 switchmove "FXCivilFoldOnesArms"
+civ10 switchmove "FXCivilArmsAkimboR"
+civ11 switchmove "fxtohand"
+civ12 switchmove "effectstandtalk"
+civ7 switchmove "CivilLyingToCivil"
+
+;=== 15:19:03
+_camera camSetTarget [104896.13,9164.37,156.60]
+_camera camSetPos [4921.39,6917.47,0.52]
+_camera camSetFOV 0.463
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:20:09
+_camera camSetTarget [22050.58,105439.50,156.56]
+_camera camSetPos [4921.39,6917.47,0.52]
+_camera camSetFOV 0.463
+_camera camCommit 5
+
+~3
+
+civ7 switchmove "CivilLyingToCivil"
+
+~2
+
+;jean
+
+;=== 15:21:20
+_camera camSetTarget [71065.09,-68086.74,156.76]
+_camera camSetPos [4929.41,6920.41,1.56]
+_camera camSetFOV 0.232
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;steve
+
+;=== 15:22:33
+_camera camSetTarget [-21057.19,103465.48,2518.21]
+_camera camSetPos [4923.04,6928.11,3.06]
+_camera camSetFOV 0.232
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+steve say "xc1v38"
+
+~2
+
+;view
+
+;=== 15:23:58
+_camera camSetTarget [73931.51,-63932.88,-14519.99]
+_camera camSetPos [4919.87,6932.67,3.47]
+_camera camSetFOV 0.400
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:24:14
+_camera camSetTarget [34007.42,-86198.77,-21760.40]
+_camera camSetPos [4920.15,6932.82,3.47]
+_camera camSetFOV 0.400
+_camera camCommit 6
+
+~5
+
+civ7 move getmarkerpos "civ7"
+civ7 setspeedmode "full"
+
+~3
+
+;defender1
+
+;=== 15:36:52
+_camera camSetTarget [-5543.43,105872.92,-9830.30]
+_camera camSetPos [4920.43,6924.58,1.33]
+_camera camSetFOV 0.351
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;defender2
+
+;=== 15:37:28
+_camera camSetTarget [-78927.67,60336.66,-10598.10]
+_camera camSetPos [4929.18,6929.16,1.33]
+_camera camSetFOV 0.351
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;speech
+
+offi setmimic "normal"
+offi dowatch [4931.76,6917.15,0.74]
+
+;=== 15:38:15
+_camera camSetTarget [21401.28,104210.34,16364.21]
+_camera camSetPos [4930.02,6916.40,0.74]
+_camera camSetFOV 0.522
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:38:34
+_camera camSetTarget [-46069.42,91764.95,14288.87]
+_camera camSetPos [4931.76,6917.15,0.74]
+_camera camSetFOV 0.685
+_camera camCommit 3
+@camCommitted _camera
+
+~1
+
+speech setpos getmarkerpos "hugo"
+
+~1
+
+offi say "xc1v39"
+offi switchmove "fxshow3"
+
+civ8 switchmove ""
+civ9 switchmove ""
+civ10 switchmove ""
+civ11 switchmove ""
+civ12 switchmove ""
+civ7 switchmove ""
+
+~2
+
+leave=true
+
+;back
+
+;=== 16:13:45
+_camera camSetTarget [64458.33,-73427.69,157.18]
+_camera camSetPos [4928.04,6921.45,1.07]
+_camera camSetFOV 0.416
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 16:13:56
+_camera camSetTarget [64458.33,-73427.69,157.27]
+_camera camSetPos [4926.00,6924.19,1.07]
+_camera camSetFOV 0.416
+_camera camCommit 10
+
+~7
+
+1 fadesound 0
+1 fademusic 0.2
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+2 fadesound 0
+2 fademusic 0.2
+
+playsound "xc1v40"
+
+~5
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+[] exec "08jean.sqs"
+
+exit

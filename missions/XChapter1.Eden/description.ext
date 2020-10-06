@@ -133,30 +133,40 @@ class CfgSounds
 	{
 		name = "xc1v17";
 		sound[] = {"xc1v17.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v17};
 	};
 	class xc1v18
 	{
 		name = "xc1v18";
 		sound[] = {"xc1v18.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v18};
 	};
 	class xc1v19
 	{
 		name = "xc1v19";
 		sound[] = {"xc1v19.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v19};
 	};
 	class xc1v20
 	{
 		name = "xc1v20";
 		sound[] = {"xc1v20.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v20};
 	};
 	class xc1v21
 	{
 		name = "xc1v21";
 		sound[] = {"xc1v21.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v21};
 	};
 	class xc1v22
@@ -173,22 +183,18 @@ class CfgSounds
 		sound[] = {"xc1v23.ogg", db+10, 1.00};
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
-		titles[] = {};
+		titles[] = {0,$STRM_xc1v23};
 	};
 	class xc1v24
 	{
 		name = "xc1v24";
 		sound[] = {"xc1v24.ogg", db+10, 1.00};
-		titlesfont = "tahomaB24";
-		titlessize = 0.025;
 		titles[] = {};
 	};
 	class xc1v25
 	{
 		name = "xc1v25";
 		sound[] = {"xc1v25.ogg", db+10, 1.00};
-		titlesfont = "tahomaB24";
-		titlessize = 0.025;
 		titles[] = {};
 	};
 	class xc1v26
@@ -213,6 +219,8 @@ class CfgSounds
 	{
 		name = "xc1v29";
 		sound[] = {"xc1v29.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v29};
 	};
 	class xc1v29b
@@ -268,6 +276,46 @@ class CfgSounds
 		name = "xc1v34";
 		sound[] = {"xc1v34.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_xc1v34};
+	};
+	class xc1v35
+	{
+		name = "xc1v35";
+		sound[] = {"xc1v35.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v35};
+	};
+	class xc1v36
+	{
+		name = "xc1v36";
+		sound[] = {"xc1v36.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v36};
+	};
+	class xc1v37
+	{
+		name = "xc1v37";
+		sound[] = {"xc1v37.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_xc1v37};
+	};
+	class xc1v38
+	{
+		name = "xc1v38";
+		sound[] = {"xc1v38.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v38};
+	};
+	class xc1v39
+	{
+		name = "xc1v39";
+		sound[] = {"xc1v39.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v39};
+	};
+	class xc1v40
+	{
+		name = "xc1v40";
+		sound[] = {"xc1v40.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_xc1v40};
 	};
 };
 
