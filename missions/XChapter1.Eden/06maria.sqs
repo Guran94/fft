@@ -4,20 +4,10 @@ _camera cameraeffect ["internal","back"]
 titleCut ["","BLACK IN",2]
 
 2 fadesound 1
-2 fademusic 1
 
+skiptime 2
 maria setmimic "sad"
 crew1 setmimic "smile"
-
-
-
-
-
-
-
-
-
-
 
 crash=true
 
@@ -52,7 +42,7 @@ _camera camCommit 0
 ~1
 
 crash2=true
-crew1 say "xc1v16"
+crew1 say "xc1v30"
 
 ~3
 
@@ -63,6 +53,8 @@ _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 ;maria moves
+
+titletext [ localize "","plain"]
 
 ;=== 16:59:07
 _camera camSetTarget [105351.65,21800.34,-4817.28]
@@ -128,7 +120,7 @@ _camera cameraeffect ["internal","back"]
 
 ~2
 
-crew1 say "xc1v17"
+crew1 say "xc1v31"
 crew1 setmimic "surprised"
 
 ~2
@@ -141,6 +133,8 @@ _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 ;maria crash
+
+titletext [ localize "STRM_","plain"]
 
 [_camera,car,[0,2,1.2],car,[185,10,1.3],0.4] exec "logiccam.sqs"
 
@@ -172,22 +166,6 @@ camDestroy _camera
 
 titleCut ["","BLACK IN",2]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 crew4 setpos getmarkerpos "crew4"
 crew5 setpos getmarkerpos "crew5"
 tank setpos getmarkerpos "tank"
@@ -216,6 +194,7 @@ _camera cameraeffect ["internal","back"]
 1 fademusic 1
 playmusic "track7"
 
+nocar setdammage 1
 crew5 switchmove "fxinkneel"
 crew4 switchmove "fxtohand"
 paul dowatch [7126.91,5365.18,0.87]
@@ -236,6 +215,8 @@ _camera camCommit 8
 @camCommitted _camera
 
 ;to maria
+
+6 fademusic 0.5
 
 ;=== 16:17:30
 _camera camSetTarget [-72094.25,61288.54,-24340.61]
@@ -274,13 +255,13 @@ _camera camCommit 2
 
 ~1
 
-medic say "xc1v18"
+medic say "xc1v32"
 
 ~2
 
 ;all
 
-johnson say "xc1v19"
+johnson say "xc1v33"
 johnson playmove "FxShow4"
 
 ;=== 16:50:14
@@ -310,41 +291,44 @@ _camera camCommit 0
 
 ;steve is leaving
 
-;=== 16:50:14
-_camera camSetTarget [-87024.98,38198.02,-7434.11]
-_camera camSetPos [7129.30,5364.29,1.36]
+;=== 16:50:30
+_camera camSetTarget [-92584.30,5862.24,-7434.18]
+_camera camSetPos [7129.47,5365.09,1.36]
 _camera camSetFOV 0.520
 _camera camCommit 0
 @camCommitted _camera
 
 ~1
 
-johnson say "xc1v20"
+johnson say "xc1v34"
 
 ~1
 
 johnson move getmarkerpos "getout"
 johnson setspeedmode "limited"
 
+~2
 
+;hatton
 
+6 fademusic 1
 
-~50
+;=== 16:56:38
+_camera camSetTarget [-43651.12,84943.70,33107.95]
+_camera camSetPos [7126.85,5365.23,1.16]
+_camera camSetFOV 0.361
+_camera camCommit 0
+@camCommitted _camera
 
+~2
 
+titleCut ["","BLACK OUT",2]
 
-
-
-
-
-
+~2.5
 
 titleCut ["","BLACK IN",2]
 
-1 fadesound 1
-1 fademusic 1
-
-skiptime 4
+skiptime 5
 jean3 setdir 90
 jean3 setmimic "sad"
 jean3 switchmove "fxinkneel"
@@ -387,7 +371,7 @@ _camera camCommit 0
 
 ~1
 
-jean3 say "xc1v16"
+jean3 say "xc1v35"
 
 ~2
 
@@ -405,7 +389,7 @@ jean3 setmimic "angry"
 
 ~2
 
-guard say "xc1v17"
+guard say "xc1v36"
 
 ;guard
 
@@ -455,19 +439,22 @@ guard setmimic "surprised"
 
 ~2
 
+2 fadesound 0
+2 fademusic 0
+
 titleCut ["","BLACK OUT",2]
 
 ~2
 
-skiptime 12
+skiptime 5
 
-playsound "xc1v18"
+playsound "xc1v37"
 
 ~10
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera
 
-[] exec "intro5.sqs"
+[] exec "07unrest2.sqs"
 
 exit

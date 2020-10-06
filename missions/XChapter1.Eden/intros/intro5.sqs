@@ -3,7 +3,6 @@ jas setmimic "normal"
 away=true
 mud setmimic "angry"
 [] exec "dip.sqs"
-skiptime 1.5
 mud switchmove "fxtohand"
 mud disableai "autotarget"
 1 fadesound 1
@@ -62,7 +61,7 @@ _camera camCommit 5
 
 ~4
 
-mud say "xc1v19"
+mud say "xc1v24"
 
 ~2
 
@@ -83,13 +82,13 @@ titleCut ["","BLACK OUT",1]
 ~1
 
 
-playsound "xc1v20"
+playsound "xc1v25"
 
 ~13
 
-skiptime 1
+skiptime 2
 
-playsound "xc1v21"
+playsound "xc1v26"
 
 ~19
 
