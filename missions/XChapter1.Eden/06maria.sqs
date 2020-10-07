@@ -44,7 +44,7 @@ _camera camCommit 0
 crash2=true
 crew1 say "xc1v30"
 
-~3
+~4
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera
@@ -118,10 +118,13 @@ _camera cameraeffect ["internal","back"]
 
 [_camera,m60,[0,3.4,2.8],m60,[165,2,3],0.2] exec "logiccam.sqs"
 
-~2
+~1
+
+crew1 setmimic "surprised"
+
+~1
 
 crew1 say "xc1v31"
-crew1 setmimic "surprised"
 
 ~2
 
@@ -191,7 +194,7 @@ _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 1 fadesound 1
-1 fademusic 1
+1 fademusic 0.5
 playmusic "track7"
 
 nocar setdammage 1
@@ -257,7 +260,7 @@ _camera camCommit 2
 
 medic say "xc1v32"
 
-~2
+~3
 
 ;all
 
@@ -274,11 +277,13 @@ _camera camCommit 0
 _camera camSetTarget [-92584.30,5862.24,-7434.18]
 _camera camSetPos [7129.47,5365.09,1.36]
 _camera camSetFOV 0.520
-_camera camCommit 5
+_camera camCommit 6
 @camCommitted _camera
 
 
 ;hatton
+
+titletext [ localize "","plain"]
 
 ;=== 16:56:38
 _camera camSetTarget [-43651.12,84943.70,33107.95]
@@ -309,6 +314,8 @@ johnson setspeedmode "limited"
 
 ~2
 
+titletext [ localize "","plain"]
+
 ;hatton
 
 6 fademusic 1
@@ -337,6 +344,8 @@ guard disableai "autotarget"
 jean3 disableai "autotarget"
 
 ;grave
+
+1 fademusic 0.2
 
 ;=== 19:17:04
 _camera camSetTarget [92903.44,-51994.91,-15324.17]
@@ -387,8 +396,6 @@ _camera camCommit 3
 
 jean3 setmimic "angry"
 
-~2
-
 guard say "xc1v36"
 
 ;guard
@@ -397,7 +404,7 @@ guard say "xc1v36"
 _camera camSetTarget [-84241.95,-32207.96,-649.18]
 _camera camSetPos [9871.17,1585.54,1.06]
 _camera camSetFOV 0.574
-_camera camCommit 2
+_camera camCommit 1
 @camCommitted _camera
 
 ~1
@@ -440,7 +447,7 @@ guard setmimic "surprised"
 ~2
 
 2 fadesound 0
-2 fademusic 0
+2 fademusic 0.2
 
 titleCut ["","BLACK OUT",2]
 
@@ -450,7 +457,7 @@ skiptime 5
 
 playsound "xc1v37"
 
-~10
+~13
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

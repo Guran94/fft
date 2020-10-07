@@ -1,4 +1,4 @@
-onLoadIntro="$STR_ONLOAD_INTRO";
+onLoadIntro="$STRM_ONLOAD_INTRO";
 onLoadIntroTime = false;
 onLoadMission="$STR_ONLOAD_MISSION";
 onLoadMissionTime = false;

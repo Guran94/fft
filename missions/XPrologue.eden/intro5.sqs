@@ -121,6 +121,8 @@ playmusic "maintheme"
 
 0 fadesound 0
 
+titletext [ localize "","plain"]
+
 ;jason
 ;=== 14:00:10
 _camera camSetTarget jas
@@ -175,7 +177,6 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-titletext [ localize "STRM_x00v10","plain"]
 playsound "x00v11"
 
 ;=== 13:03:11

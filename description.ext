@@ -20,6 +20,12 @@ class CfgSounds
 		sound[] = {"crash.ogg", db+10, 1.00};
 		titles[] = {};
 	};
+	class resistance
+	{
+		name = "resistance";
+		sound[] = {"resistance.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class yes1
 	{
 		name = "yes1";

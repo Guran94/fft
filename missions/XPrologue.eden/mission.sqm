@@ -49,7 +49,7 @@ class Intro
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.600000;
-					init="[] exec ""intro5.sqs""";
+					init="[] exec ""intro1.sqs""";
 				};
 			};
 		};

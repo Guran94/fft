@@ -170,7 +170,6 @@ _camera camCommit 0
 
 ;speech
 
-offi setmimic "normal"
 offi dowatch [4931.76,6917.15,0.74]
 
 ;=== 15:38:15
@@ -223,19 +222,16 @@ _camera camCommit 10
 
 ~7
 
-1 fadesound 0
-1 fademusic 0.2
+3 fadesound 0
+3 fademusic 0
 
 titleCut ["","BLACK OUT",3]
 
 ~3
 
-2 fadesound 0
-2 fademusic 0.2
-
 playsound "xc1v40"
 
-~5
+~10
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

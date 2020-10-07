@@ -1,6 +1,6 @@
 titleCut ["","BLACK IN",2]
 2 fadesound 1
-2 fademusic 1
+2 fademusic 0.5
 playmusic "rtrack9"
 
 skiptime 3
@@ -76,10 +76,10 @@ attack=true
 
 playsound "xc1v18"
 
-~8
+~13
 
 2 fadesound 1
-2 fademusic 1
+2 fademusic 0.5
 
 titleCut ["","BLACK IN",2]
 
@@ -186,7 +186,7 @@ _camera camCommit 0
 _camera camSetTarget [-91954.19,-5820.74,-22039.49]
 _camera camSetPos [5087.24,3992.30,8.71]
 _camera camSetFOV 0.246
-_camera camCommit 7
+_camera camCommit 8
 
 ~6
 
@@ -200,7 +200,7 @@ titleCut ["","BLACK OUT",2]
 
 playsound "xc1v19"
 
-~10
+~19
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

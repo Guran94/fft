@@ -1,6 +1,7 @@
 go2=true
 jason setmimic "normal"
 g1 setmimic "normal"
+jason disableai "autotarget"
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
@@ -9,7 +10,7 @@ deletevehicle uh
 
 playsound "xc1v03"
 
-~11
+~10
 
 titleCut ["","BLACK IN",2]
 

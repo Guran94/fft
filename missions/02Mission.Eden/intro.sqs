@@ -163,7 +163,7 @@ _camera camCommit 5
 
 titleCut ["","BLACK OUT",1]
 
-~2
+~1.5
 
 titleCut ["","BLACK IN",1]
 
@@ -200,7 +200,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-~1
+~2
 
 ;=== 15:09:32
 _camera camSetTarget [-93365.73,-10125.80,8581.65]

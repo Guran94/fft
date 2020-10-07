@@ -28,7 +28,12 @@ reb3 setbehaviour "aware"
 stalin setbehaviour "aware"
 stalin setbehaviour "aware"
 lenin setmimic "smile"
-lenin say "x01v27"
+stalin setmimic "normal"
+reb1 setmimic "normal"
+reb2 setmimic "normal"
+reb3 setmimic "normal"
+
+lenin say "xc1v41"
 
 ;back
 ;=== 10:05:14
@@ -44,23 +49,29 @@ _camera camSetFOV 0.700
 _camera camCommit 5
 @camCommitted _camera
 
-stalin say "x01v28"
+stalin say "xc1v42"
 
-;=== 10:06:33
-_camera camSetTarget [-28363.40,104024.98,-9073.36]
-_camera camSetPos [4605.25,10053.44,1.57]
+;hugo
+
+;=== 23:23:39
+_camera camSetTarget [-90363.94,38229.38,13691.24]
+_camera camSetPos [4605.12,10054.71,1.48]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 10:06:48
-_camera camSetTarget [561.19,109557.53,-9073.52]
-_camera camSetPos [4605.25,10053.44,1.57]
+
+;=== 23:23:58
+_camera camSetTarget [-93721.16,22090.50,13691.55]
+_camera camSetPos [4605.25,10054.92,1.48]
 _camera camSetFOV 0.700
-_camera camCommit 2
-@camCommitted _camera
+_camera camCommit 3
+
+~2
 
 lenin playmove "fxshow3"
-lenin say "x01v29"
+lenin say "xc1v43"
+
+~1
 
 ;jean
 ;=== 10:07:28
@@ -79,19 +90,19 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-stalin say "x01v29b"
-reb1 say "x01v29b"
-reb2 say "x01v29b"
-reb3 say "x01v29b"
+stalin say "resistance1"
+reb1 say "resistance2"
+reb2 say "resistance3"
+reb3 say "resistance4"
 
-~1
+~1.5
 
-stalin say "x01v29b"
-reb1 say "x01v29b"
-reb2 say "x01v29b"
-reb3 say "x01v29b"
+stalin say "resistance1"
+reb1 say "resistance2"
+reb2 say "resistance3"
+reb3 say "resistance4"
 
-~1
+~1.5
 
 3 fademusic 0
 ;=== 10:09:42
@@ -101,10 +112,10 @@ _camera camSetFOV 0.155
 _camera camCommit 0
 @camCommitted _camera
 
-stalin say "x01v29b"
-reb1 say "x01v29c"
-reb2 say "x01v29d"
-reb3 say "x01v29e"
+stalin say "resistance1"
+reb1 say "resistance2"
+reb2 say "resistance3"
+reb3 say "resistance4"
 
 ~3
 
@@ -114,8 +125,8 @@ titleCut ["","BLACK OUT",2]
 
 2 fademusic 1
 playMusic ["chaptertheme", 9.5]
-titletext [ localize "STRM_x01v23","plain"]
-playsound "x01v23"
+
+playsound "xc1v44"
 
 ~3
 

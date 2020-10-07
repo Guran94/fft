@@ -189,13 +189,13 @@ class CfgSounds
 	{
 		name = "xc1v24";
 		sound[] = {"xc1v24.ogg", db+10, 1.00};
-		titles[] = {};
+		titles[] = {0,$STRM_xc1v24};
 	};
 	class xc1v25
 	{
 		name = "xc1v25";
 		sound[] = {"xc1v25.ogg", db+10, 1.00};
-		titles[] = {};
+		titles[] = {0,$STRM_xc1v25};
 	};
 	class xc1v26
 	{
@@ -222,30 +222,6 @@ class CfgSounds
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v29};
-	};
-	class xc1v29b
-	{
-		name = "xc1v29b";
-		sound[] = {"xc1v29b.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class xc1v29c
-	{
-		name = "xc1v29c";
-		sound[] = {"xc1v29c.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class xc1v29d
-	{
-		name = "xc1v29d";
-		sound[] = {"xc1v29d.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class xc1v29e
-	{
-		name = "xc1v29e";
-		sound[] = {"xc1v29e.ogg", db+10, 1.00};
-		titles[] = {};
 	};
 	class xc1v30
 	{
@@ -316,6 +292,56 @@ class CfgSounds
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v40};
+	};
+	class xc1v41
+	{
+		name = "xc1v41";
+		sound[] = {"xc1v41.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v41};
+	};
+	class xc1v42
+	{
+		name = "xc1v42";
+		sound[] = {"xc1v42.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v42};
+	};
+	class xc1v43
+	{
+		name = "xc1v43";
+		sound[] = {"xc1v43.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v43};
+	};
+	class xc1v44
+	{
+		name = "xc1v44";
+		sound[] = {"xc1v44.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_xc1v44};
+	};
+	class resistance1
+	{
+		name = "resistance1";
+		sound[] = {"resistance1.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class resistance2
+	{
+		name = "resistance2";
+		sound[] = {"resistance2.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class resistance3
+	{
+		name = "resistance3";
+		sound[] = {"resistance3.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class resistance4
+	{
+		name = "resistance4";
+		sound[] = {"resistance4.ogg", db+10, 1.00};
+		titles[] = {};
 	};
 };
 

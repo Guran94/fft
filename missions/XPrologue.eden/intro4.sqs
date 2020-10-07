@@ -119,6 +119,8 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+titletext [ localize "","plain"]
+
 player cameraEffect ["terminate","back"]
 camDestroy _camera
 
