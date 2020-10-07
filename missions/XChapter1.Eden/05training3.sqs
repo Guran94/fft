@@ -25,28 +25,26 @@ deletevehicle m113
 
 
 ;barracks
-;=== 7:56:25
-_camera camSetTarget [23871.58,102737.45,-4776.90]
-_camera camSetPos [7505.27,4209.04,1.43]
-_camera camSetFOV 0.447
+;=== 23:13:44
+_camera camSetTarget [71158.28,-72652.23,-6326.58]
+_camera camSetPos [7538.60,4227.39,8.55]
+_camera camSetFOV 0.542
 _camera camCommit 0
 @camCommitted _camera
-;=== 7:56:57
-_camera camSetTarget [105341.11,24880.98,-753.11]
-_camera camSetPos [7505.27,4209.04,1.43]
-_camera camSetFOV 0.447
-_camera camCommit 6
-@camCommitted _camera
 
+~3
 
 playsound "xc1v20"
 
-;=== 7:57:09
-_camera camSetTarget [68302.23,-75181.84,-752.71]
-_camera camSetPos [7505.27,4209.04,1.43]
-_camera camSetFOV 0.447
+
+;=== 23:14:13
+_camera camSetTarget [-57274.15,-71649.14,-6326.45]
+_camera camSetPos [7538.60,4227.39,8.55]
+_camera camSetFOV 0.542
 _camera camCommit 6
 @camCommitted _camera
+
+;camps
 
 ;=== 8:02:17
 _camera camSetTarget [17471.72,103218.32,-19132.42]
@@ -239,18 +237,14 @@ stupid say "xc1v27"
 
 ;stupid
 
-;=== 20:15:46
-_camera camSetTarget [-84636.53,54100.34,-6913.85]
-_camera camSetPos [4820.25,9947.48,0.39]
-_camera camSetFOV 0.417
-_camera camCommit 0
-@camCommitted _camera
 ;=== 20:16:05
 _camera camSetTarget [-88882.99,44177.41,-6914.03]
 _camera camSetPos [4820.34,9947.70,0.39]
 _camera camSetFOV 0.467
-_camera camCommit 5
+_camera camCommit 0
 @camCommitted _camera
+
+~3
 
 ;jack
 
@@ -286,7 +280,7 @@ titleCut ["","BLACK OUT",3]
 
 playsound "xc1v29"
 
-~10
+~11
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

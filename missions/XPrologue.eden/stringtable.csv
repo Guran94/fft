@@ -1,16 +1,16 @@
-"LANGUAGE","Czech","English","Comment"
+LANGUAGE,English,Czech,Comment
 
-"STRM_ONLOAD_INTRO","Everon, 1979","Everon, 1979","loading screen"
+STRM_ONLOAD_INTRO,"Everon, 1979","Everon, 1979",loading screen
 
 
-"STRM_x00v01","Vemte ho do uralu, ať si popovídat se svými druhy. Odvezem je všechny k majoru Lemontovovi.\nZa deset minut vyrážíme.","Take him to the ural. Let him speak with his brothers. We are going to take them all to major Lemontov.\nBe prepared in five minutes.","rasshiv"
-"STRM_x00v02","Jmenuji se Jason Twombly. Chci vám odvyprávět příběh války, které jsem se kdysi zúčastnil.\nVálky, která šokovala a změnila nejen můj život, ale i celý svět.","My name is Jason Twombly.\nI want to tell you a story about the war in which I had taken part.\nThe war which had shocked and changed the entire world.","jason"
-"STRM_x00v03","Během bojů jsem byl zajat Rusy a právě tím to pro mě začalo a nebo skončilo?","I was captured by the Russians during the war and this is when everything had started for me... or ended?","jason"
-"STRM_x00v04","Ty! Pojď se mnou!","You! Come with me!","rashv"
-"STRM_x00v05","Váš příběh na mě udělal vzkutku dojem, pane Twombly, tedy Tarasenko. Je to na vás.","Your story has left me with a good feeling about you, Mr. Twombly.\nI am sorry, should I say Tarasenko? I leave it up to you.","lemonmtov"
-"STRM_x00v06","Můžete se k nám přidat a získat úctu svého národa,\nnebo zůstat nadále v kleštích západu a celý život se koukat, jak na vás hází špínu.\nRozhodněte se sám.","You can join us and honor your true country,\nor you can forever stay in the prison of the west and keep looking around as the world of capitalism throws dirt on you.\nMake your choice.","lemonmtov"
-"STRM_x00v07","Sakra, nikdy jsem nevěděl, že to kdy řeknu! Ale jděte do prdele! Ano!\nVy a celá ta vaše zkurvená bolševická sebranka!\nZničili jste mi celý můj život!\nKéž bych nikdy nevkročil do tý posraný armády! Vy svině zasraný!","Damn, I've never known I'd ever say that but fuck you! Yes!\nYou and all your fucking Bolshevik suckers!\nYou've ruined my whole life! I wish I have never entered the fucking army! You fucking bitch!","jason"
-"STRM_x00v08","Odveďte tu ufňukanou děvku. S ním už jsme skončili...","Take the whining slut. We're done with him.","lemonmtov"
-"STRM_x00v09","Zamířit!","Ready!","rus"
-"STRM_x00v10","Pal!","Fire!","rus"
-"STRM_x00v11","Ale začneme od začátku...","But let's start from the beginning...","jason"
+STRM_x00v01,Take him to the ural. Let him speak with his brothers. We are going to take them all to colonel Lemontov.\nBe prepared in five minutes.,"Vemte ho do uralu, ať si popovídat se svými druhy. Odvezem je všechny k pukovnÍku Lemontovovi.\nZa deset minut vyrážíme.",rasshiv
+STRM_x00v02,My name is Jason Twombly.\nI want to tell you a story about the war in which I had taken part.\nThe war which had shocked and changed the entire world.,"Jmenuji se Jason Twombly. Chci vám odvyprávět příběh války, které jsem se kdysi zúčastnil.\nVálky, která šokovala a změnila nejen můj život, ale i celý svět.",jason
+STRM_x00v03,I was captured by the Russians during the war and this is when everything had started for me... or ended?,Během bojů jsem byl zajat Rusy a právě tím to pro mě začalo a nebo skončilo?,jason
+STRM_x00v04,You! Come with me!,Ty! Pojď se mnou!,rashv
+STRM_x00v05,"Your story has left me with a good feeling about you, Mr. Twombly.\nI am sorry, should I say Tarasenko? I leave it up to you.","Váš příběh na mě udělal vzkutku dojem, pane Twombly, tedy Tarasenko. Je to na vás.",lemonmtov
+STRM_x00v06,"You can join us and honor your true country,\nor you can forever stay in the prison of the west and keep looking around as the world of capitalism throws dirt on you.\nMake your choice.","Můžete se k nám přidat a získat úctu svého národa,\nnebo zůstat nadále v kleštích západu a celý život se koukat, jak na vás hází špínu.\nRozhodněte se sám.",lemonmtov
+STRM_x00v07,"Damn, I've never known I'd ever say that but fuck you! Yes!\nYou and all your fucking Bolshevik suckers!\nYou've ruined my whole life! I wish I have never entered the fucking army! You fucking bitch!","Sakra, nikdy jsem nevěděl, že to kdy řeknu! Ale jděte do prdele! Ano!\nVy a celá ta vaše zkurvená bolševická sebranka!\nZničili jste mi celý můj život!\nKéž bych nikdy nevkročil do tý posraný armády! Vy svině zasraný!",jason
+STRM_x00v08,Take the whining slut. We're done with him.,Odveďte tu ufňukanou děvku. S ním už jsme skončili...,lemonmtov
+STRM_x00v09,Ready!,Zamířit!,rus
+STRM_x00v10,Fire!,Pal!,rus
+STRM_x00v11,But let's start from the beginning...,Ale začneme od začátku...,jason

@@ -48,13 +48,17 @@ class CfgSounds
 	{
 		name = "x00v02";
 		sound[] = {"x00v02.ogg", db+10, 1.00};
-		titles[] = {};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_x00v02};
 	};
 	class x00v03
 	{
 		name = "x00v03";
 		sound[] = {"x00v03.ogg", db+10, 1.00};
-		titles[] = {};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_x00v03};
 	};
 	class x00v04
 	{
@@ -90,19 +94,21 @@ class CfgSounds
 	{
 		name = "x00v09";
 		sound[] = {"x00v09.ogg", db+10, 1.00};
-		titles[] = {};
+		titles[] = {0,$STRM_x00v09};
 	};
 	class x00v10
 	{
 		name = "x00v10";
 		sound[] = {"x00v10.ogg", db+10, 1.00};
-		titles[] = {};
+		titles[] = {0,$STRM_x00v10};
 	};
 	class x00v11
 	{
 		name = "x00v11";
 		sound[] = {"x00v11.ogg", db+10, 1.00};
-		titles[] = {};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_x00v11};
 	};
 };
 

@@ -65,7 +65,6 @@ titleCut ["","BLACK OUT",1]
 
 ~1.5
 
-titletext [ localize "STRM_x00v02","plain"]
 playsound "x00v02"
 
 ~5

@@ -7,6 +7,7 @@ phill switchMove "FXSitHandsOnTable"
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+
 ;base
 ;=== 10:42:31
 _camera camSetTarget [-6642.67,101896.47,-27471.75]
@@ -56,6 +57,7 @@ titleCut ["","BLACK OUT",1]
 ~2
 
 titleCut ["","BLACK IN",1]
+
 
 ;stan
 ;=== 10:47:34
@@ -121,21 +123,20 @@ _camera camSetFOV 0.684
 _camera camCommit 0
 @camCommitted _camera
 
+
+
 jason setmimic "smile"
 jason say "m01v04"
 
-;=== 11:04:24
-_camera camSetTarget [-81139.98,-39919.23,2928.20]
-_camera camSetPos [7243.43,6770.86,1.05]
-_camera camSetFOV 0.462
-_camera camCommit 6
+;=== 13:34:14
+_camera camSetTarget [-66906.34,-59891.71,-7577.95]
+_camera camSetPos [7243.68,6771.16,1.18]
+_camera camSetFOV 0.452
+_camera camCommit 5
 
-
-~7
+~5
 
 jason say "m01v05"
-
-~1
 
 jason switchmove "fxstanddroptel"
 jason addweapon "phone"
@@ -145,12 +146,12 @@ jason addweapon "phone"
 _camera camSetTarget [-2934.56,-92472.00,-6824.46]
 _camera camSetPos [7242.61,6772.36,1.41]
 _camera camSetFOV 0.700
-_camera camCommit 8
+_camera camCommit 7
+
 
 ~4
 
 titleCut ["","BLACK OUT",2]
-playsound "telefon3"
 tel2 setpos getmarkerpos "tele"
 tel3 setpos getmarkerpos "tel"
 tel3 setPos [getPos tel3 select 0,getPos tel3 select 1,(getPos tel3 select 2)+1]
@@ -158,33 +159,39 @@ jason switchMove "FXStandFromTable"
 jason setmimic "smile"
 marcot dowatch jason
 jason say "m01v06"
+playsound "telefon3"
 
 ~3
 
 titleCut ["","BLACK IN",1]
 
 twombly setdir 0
+twombly dowatch [7245.48,6771.63,1.51]
 twombly setmimic "smile"
-phill dowatch twombly
+phill dowatch [7245.44,6769.60,0.79]
 phill setdir 180
 deletevehicle jason
 phill switchMove "onChair"
 twombly setpos getmarkerpos "jason"
-
 phill say "m01v07"
 
+twombly switchmove "fxtohand"
+
 ;both
-;=== 11:58:28
-_camera camSetTarget [91064.84,46409.92,-37422.34]
-_camera camSetPos [7243.41,6770.54,2.03]
-_camera camSetFOV 0.388
+;=== 14:34:56
+_camera camSetTarget [99399.26,45318.74,-4602.82]
+_camera camSetPos [7243.88,6770.95,1.57]
+_camera camSetFOV 0.569
 _camera camCommit 0
 @camCommitted _camera
-;=== 11:59:44
-_camera camSetTarget [100902.09,-4946.52,-32995.03]
-_camera camSetPos [7243.07,6771.95,2.04]
-_camera camSetFOV 0.388
-_camera camCommit 5
+
+;=== 14:36:18
+_camera camSetTarget [102517.80,-22261.87,8966.82]
+_camera camSetPos [7243.75,6772.27,1.25]
+_camera camSetFOV 0.466
+_camera camCommit 11
+
+
 
 ~2
 
@@ -195,14 +202,6 @@ twombly say "m01v08"
 phill say "m01v09"
 
 ~1
-
-;jason
-;=== 12:05:43
-_camera camSetTarget [88323.32,-49033.77,17685.76]
-_camera camSetPos [7243.78,6772.53,0.93]
-_camera camSetFOV 0.494
-_camera camCommit 0
-@camCommitted _camera
 
 twombly say "m01v10"
 
@@ -216,6 +215,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
+twombly switchmove "fxfromhand"
 phill say "m01v11"
 7 fademusic 0
 

@@ -72,7 +72,6 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
-titletext [ localize "STRM_x00v03","plain"]
 playsound "x00v03"
 
 ~7
@@ -80,6 +79,8 @@ playsound "x00v03"
 3 fademusic 1
 0 fadesound 1
 titleCut ["","BLACK IN",1]
+
+titletext [ localize "","plain"]
 
 ;flag
 ;=== 21:39:45
@@ -94,8 +95,6 @@ _camera camSetPos [7253.34,6770.36,6.31]
 _camera camSetFOV 0.700
 _camera camCommit 7
 @camCommitted _camera
-
-10 fademusic 0
 
 ;lemontov
 ;=== 21:44:57
@@ -147,7 +146,11 @@ Vadim setspeedmode "limited"
 
 titleCut ["","BLACK OUT",1]
 
-~1.5
+~1
+
+11 fademusic 0
+
+~0.5
 
 titleCut ["","BLACK IN",1]
 
@@ -190,7 +193,7 @@ Vadim disableai "autotarget"
 _camera camSetTarget [-15599.66,103593.98,10334.46]
 _camera camSetPos [7270.14,6791.02,1.02]
 _camera camSetFOV 0.463
-_camera camCommit 5
+_camera camCommit 2
 @camCommitted _camera
 
 ~2
@@ -198,6 +201,8 @@ _camera camCommit 5
 titleCut ["","BLACK OUT",1]
 
 ~1.5
+
+titletext [ localize "","plain"]
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

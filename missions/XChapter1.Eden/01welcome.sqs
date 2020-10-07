@@ -2,6 +2,10 @@ setacctime 1
 titleCut ["","BLACK IN",2]
 playmusic "fft_track4"
 
+riot=false
+riot2=false
+punch=false
+
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
@@ -19,7 +23,7 @@ _camera camCommit 0
 _camera camSetTarget [78576.50,-48132.38,-30025.12]
 _camera camSetPos [784.49,6286.50,63.34]
 _camera camSetFOV 0.700
-_camera camCommit 11
+_camera camCommit 10
 @camCommitted _camera
 
 
@@ -27,7 +31,7 @@ _camera camCommit 11
 _camera camSetTarget [78576.50,-48132.38,-30025.20]
 _camera camSetPos [1210.97,5988.16,32.70]
 _camera camSetFOV 0.700
-_camera camCommit 11
+_camera camCommit 10
 @camCommitted _camera
 
 
@@ -35,7 +39,7 @@ _camera camCommit 11
 _camera camSetTarget [78576.50,-48132.38,-30025.04]
 _camera camSetPos [1837.20,5550.13,37.29]
 _camera camSetFOV 0.700
-_camera camCommit 11
+_camera camCommit 10
 @camCommitted _camera
 
 ;sky
@@ -44,9 +48,9 @@ _camera camCommit 11
 _camera camSetTarget [74217.00,-45082.80,47439.27]
 _camera camSetPos [2023.20,5420.04,28.91]
 _camera camSetFOV 0.700
-_camera camCommit 8
+_camera camCommit 10
 
-~7
+~9
 
 titleCut ["","BLACK OUT",1]
 
