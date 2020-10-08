@@ -54,8 +54,9 @@ class Mission
 					side="WEST";
 					vehicle="SoldierWMG";
 					rank="CORPORAL";
-					skill=0.373322;
+					skill=0.570278;
 					text="voj1";
+					init="this setidentity ""jack""";
 				};
 				class Item2
 				{
@@ -65,8 +66,9 @@ class Mission
 					side="WEST";
 					vehicle="SoldierWG";
 					rank="CORPORAL";
-					skill=0.373322;
+					skill=0.570278;
 					text="voj2";
+					init="this setidentity ""mike""";
 				};
 				class Item3
 				{
@@ -185,7 +187,7 @@ class Mission
 				{
 					position[]={2346.456543,48.989418,6834.775879};
 					type="HOLD";
-					description="@STRMW_01";
+					description="@STRM_M02w1";
 					synchronizations[]={1};
 					class Effects
 					{
@@ -1041,7 +1043,7 @@ class Mission
 				class Item1
 				{
 					position[]={2237.511230,32.066059,6804.441406};
-					expActiv="[] exec ""stahnout.sqs""";
+					expActiv="[] exec ""retreat.sqs""";
 					class Effects
 					{
 					};
@@ -2984,7 +2986,7 @@ class Mission
 		class Item1
 		{
 			position[]={2356.965088,50.270191,6842.460938};
-			name="ukol2";
+			name="q2";
 			type="Unknown";
 			colorName="ColorGreen";
 		};
@@ -3002,7 +3004,7 @@ class Mission
 		class Item3
 		{
 			position[]={4063.035889,53.698399,7150.150391};
-			name="ukol1";
+			name="q1";
 			markerType="RECTANGLE";
 			type="Flag";
 			colorName="ColorGreen";
@@ -3040,7 +3042,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=72;
+		items=74;
 		class Item0
 		{
 			position[]={4871.959473,159.029999,6924.535645};
@@ -3296,7 +3298,7 @@ class Mission
 			position[]={2196.537842,1.635127,8408.769531};
 			age="UNKNOWN";
 			expCond="not alive reb1 and not alive reb2 and not alive reb4 and not alive reb5";
-			expActiv="[] exec ""kontakt.sqs""; druhavlna=true; savegame";
+			expActiv="[] exec ""contact.sqs""";
 			class Effects
 			{
 			};
@@ -3546,7 +3548,7 @@ class Mission
 			position[]={2090.140869,1.009059,8310.410156};
 			age="UNKNOWN";
 			expCond="nastoupil and not alive mun1 and not alive mun2 and not alive mun3 and not alive mun4 and not alive mun5 and not alive mun6 and not alive mun7";
-			expActiv="[] exec ""splneno.sqs""";
+			expActiv="[] exec ""DONE.sqs""";
 			class Effects
 			{
 			};
@@ -3569,7 +3571,7 @@ class Mission
 			activationBy="LEADER";
 			age="UNKNOWN";
 			idVehicle=0;
-			expActiv="[] exec ""stanoviste.sqs""";
+			expActiv="[] exec ""outpost.sqs""";
 			class Effects
 			{
 			};
@@ -3907,7 +3909,7 @@ class Mission
 			rectangular=1;
 			activationBy="WEST";
 			age="UNKNOWN";
-			expActiv="serza say ""m02v19""; car lock false; setacctime 1";
+			expActiv="[] exec ""go.sqs""";
 			class Effects
 			{
 			};
@@ -3926,6 +3928,34 @@ class Mission
 			expActiv="[] exec ""player1kill.sqs""";
 			class Effects
 			{
+			};
+		};
+		class Item72
+		{
+			position[]={2459.034668,56.042374,6864.642578};
+			a=20.000000;
+			b=100.000000;
+			rectangular=1;
+			age="UNKNOWN";
+			text="Resistance!";
+			expCond="druhavlna";
+			class Effects
+			{
+				sound="resistance";
+			};
+		};
+		class Item73
+		{
+			position[]={2420.708496,56.020512,6864.673828};
+			a=20.000000;
+			b=100.000000;
+			rectangular=1;
+			age="UNKNOWN";
+			text="Resistance!";
+			expCond="dalsi";
+			class Effects
+			{
+				sound="resistance";
 			};
 		};
 	};

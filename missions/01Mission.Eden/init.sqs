@@ -23,15 +23,15 @@ ClearWeaponCargo car
 ClearMagazineCargo car
 setacctime 1
 
-phill say "m01v12"
-
-~2
+~1
 
 phill switchMove "FXSitHandsOnTable"
 
-~3
+phill say "m01v12"
 
-hintc localize "STRM_m01hint1"
+~8
+
+hintc localize "STRM_m01h1"
 
 ~1
 
