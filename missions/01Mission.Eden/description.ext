@@ -1,6 +1,6 @@
 onLoadIntro="$STRM_ONLOAD_INTRO";
 onLoadIntroTime = false;
-onLoadMission="$STR_ONLOAD_MISSION";
+onLoadMission="$STRM_ONLOAD_MISSION";
 onLoadMissionTime = false;
 
 MinScore = 1000

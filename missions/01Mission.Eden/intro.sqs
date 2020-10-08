@@ -80,7 +80,7 @@ _camera camCommit 3
 
 ~2
 
-[] exec "vola.sqs"
+[] exec "call.sqs"
 jason addweapon "phone"
 
 ~0.5
@@ -189,7 +189,7 @@ _camera camCommit 0
 _camera camSetTarget [102517.80,-22261.87,8966.82]
 _camera camSetPos [7243.75,6772.27,1.25]
 _camera camSetFOV 0.466
-_camera camCommit 11
+_camera camCommit 12
 
 
 
@@ -201,7 +201,7 @@ twombly say "m01v08"
 
 phill say "m01v09"
 
-~1
+~2
 
 twombly say "m01v10"
 

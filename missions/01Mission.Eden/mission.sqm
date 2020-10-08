@@ -4,7 +4,6 @@ class Mission
 	addOns[]=
 	{
 		"6G30",
-		"Mini",
 		"Hunter",
 		"bis_resistance"
 	};
@@ -486,11 +485,12 @@ class Mission
 				class Item0
 				{
 					position[]={6741.090820,102.628258,6527.940918};
+					type="HOLD";
 					combatMode="YELLOW";
 					formation="WEDGE";
 					speed="NORMAL";
 					combat="SAFE";
-					expCond="dolesa";
+					synchronizations[]={3};
 					class Effects
 					{
 					};
@@ -1565,7 +1565,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=46;
+		items=48;
 		class Item0
 		{
 			position[]={7536.237793,0.661669,7747.400391};
@@ -1587,7 +1587,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=8;
 			expCond="nastoupit and this";
-			expActiv="[] exec ""odpocet.sqs""";
+			expActiv="[] exec ""counting.sqs""";
 			class Effects
 			{
 			};
@@ -1694,7 +1694,7 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=10;
 			expCond="jedem and this";
-			expActiv="[] exec ""pruser.sqs""";
+			expActiv="[] exec ""fight.sqs""";
 			class Effects
 			{
 			};
@@ -2022,7 +2022,7 @@ class Mission
 			activationBy="GUER";
 			activationType="WEST D";
 			age="UNKNOWN";
-			expActiv="[] exec ""nepritel.sqs""";
+			expActiv="[] exec ""enemy.sqs""";
 			class Effects
 			{
 			};
@@ -2037,7 +2037,7 @@ class Mission
 			idVehicle=8;
 			text="SPLNÌNO";
 			expCond="prezili and this";
-			expActiv="[] exec ""splneno.sqs""";
+			expActiv="[] exec ""DONE.sqs""";
 			class Effects
 			{
 			};
@@ -2061,7 +2061,7 @@ class Mission
 			activationBy="VEHICLE";
 			age="UNKNOWN";
 			idVehicle=8;
-			expActiv="[] exec ""stan.sqs""";
+			expActiv="[] exec ""tent.sqs""";
 			class Effects
 			{
 			};
@@ -2082,7 +2082,7 @@ class Mission
 		};
 		class Item41
 		{
-			position[]={6598.740723,130.382126,6994.380371};
+			position[]={6599.639648,130.767548,6997.299805};
 			a=5.000000;
 			b=5.000000;
 			age="UNKNOWN";
@@ -2142,6 +2142,28 @@ class Mission
 			{
 			};
 			synchronizations[]={2};
+		};
+		class Item46
+		{
+			position[]={6758.730469,102.634727,6473.721191};
+			type="SWITCH";
+			age="UNKNOWN";
+			expCond="dolesa";
+			class Effects
+			{
+			};
+			synchronizations[]={3};
+		};
+		class Item47
+		{
+			position[]={6592.742188,122.476006,6931.601563};
+			age="UNKNOWN";
+			text="Resistance!";
+			expCond="nepritel";
+			class Effects
+			{
+				sound="resistance";
+			};
 		};
 	};
 };

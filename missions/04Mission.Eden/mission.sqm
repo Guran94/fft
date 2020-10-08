@@ -1687,7 +1687,7 @@ class Mission
 		class Item0
 		{
 			position[]={5242.256348,111.090866,4539.400391};
-			name="ukol2";
+			name="q2";
 			text="@STRMM_03";
 			type="Flag";
 		};
@@ -1703,7 +1703,7 @@ class Mission
 		class Item2
 		{
 			position[]={5638.814453,64.371483,4795.053223};
-			name="ukol1";
+			name="q1";
 			text="@STRMM_02";
 			type="Flag";
 			colorName="ColorRed";
@@ -1723,7 +1723,7 @@ class Mission
 		class Item4
 		{
 			position[]={3461.907227,98.655266,4901.923340};
-			name="uzemi";
+			name="enemy";
 			text="@STRCM_02";
 			type="Warning";
 			colorName="ColorRed";
@@ -1733,7 +1733,7 @@ class Mission
 		class Item5
 		{
 			position[]={5450.220703,83.180153,4676.765625};
-			name="les";
+			name="wood";
 			type="Arrow";
 			colorName="ColorGreen";
 			b=3.000000;

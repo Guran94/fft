@@ -525,7 +525,7 @@ class Mission
 					vehicle="SoldierWMG";
 					leader=1;
 					skill=0.600000;
-					init="this removemagazine ""M60e3Mag""; this removemagazine ""M60e3Mag""; this setdammage 1";
+					init="this setdammage 1";
 				};
 			};
 		};
@@ -3964,7 +3964,7 @@ class Mission
 		class Item6
 		{
 			position[]={5033.474121,16.334999,3984.131592};
-			name="ukol1";
+			name="q1";
 			type="Flag1";
 			colorName="ColorGreen";
 		};
@@ -4092,7 +4092,7 @@ class Mission
 		class Item25
 		{
 			position[]={5256.773926,60.704998,5268.089844};
-			name="ukol2";
+			name="q2";
 			type="Empty";
 			colorName="ColorBlack";
 		};
