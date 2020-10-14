@@ -1,6 +1,6 @@
-onLoadMission="$STR_ONLOAD_MISSION";
+onLoadMission="$STRM_ONLOAD_MISSION";
 onLoadMissionTime = true;
-onLoadIntro="$STR_ONLOAD_INTRO";
+onLoadIntro="$STRM_ONLOAD_INTRO";
 onLoadIntroTime = false;
 
 MinScore = 1000
@@ -42,42 +42,6 @@ class CfgSounds
 		name = "m03v03";
 		sound[] = {"m03v03.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m03v03};
-	};
-	class m03v04a
-	{
-		name = "m03v04a";
-		sound[] = {"m03v04a.ogg", db+10, 1.00};
-		titles[] = {0,$STRC_yes};
-	};
-	class m03v04b
-	{
-		name = "m03v04b";
-		sound[] = {"m03v04b.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class m03v04c
-	{
-		name = "m03v04c";
-		sound[] = {"m03v04c.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class m03v04d
-	{
-		name = "m03v04d";
-		sound[] = {"m03v04d.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class m03v04e
-	{
-		name = "m03v04e";
-		sound[] = {"m03v04e.ogg", db+10, 1.00};
-		titles[] = {};
-	};
-	class m03v04f
-	{
-		name = "m03v04f";
-		sound[] = {"m03v04f.ogg", db+10, 1.00};
-		titles[] = {};
 	};
 };
 

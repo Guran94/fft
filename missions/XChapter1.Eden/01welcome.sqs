@@ -48,7 +48,7 @@ _camera camCommit 10
 _camera camSetTarget [74217.00,-45082.80,47439.27]
 _camera camSetPos [2023.20,5420.04,28.91]
 _camera camSetFOV 0.700
-_camera camCommit 10
+_camera camCommit 10.5
 
 ~9
 
@@ -56,6 +56,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1.5
 
+@camCommitted _camera
 titleCut ["","BLACK IN",1]
 
 ;from sky to the village
@@ -97,6 +98,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+@camCommitted _camera
 fahren2=true
 
 ~0.5
@@ -158,7 +160,7 @@ _camera camCommit 0
 _camera camSetTarget trabant2
 _camera camSetPos [6809.58,6526.83,1.81]
 _camera camSetFOV 0.700
-_camera camCommit 6
+_camera camCommit 6.5
 
 ~5
 
@@ -166,6 +168,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1.5
 
+@camCommitted _camera
 titleCut ["","BLACK IN",1]
 
 trabant3 setpos getmarkerpos "trabant3"
@@ -201,6 +204,7 @@ jean switchmove "Medic"
 
 ~2
 
+@camCommitted _camera
 jean switchmove "Medic"
 
 
@@ -218,6 +222,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+@camCommitted _camera
 deletevehicle poin2
 jean setpos getmarkerpos "tractor"
 jean setdir 215

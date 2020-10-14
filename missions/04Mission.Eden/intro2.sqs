@@ -7,6 +7,10 @@ jason setbehaviour "combat"
 jason setunitpos "up"
 twombly switchmove "fxtokneel"
 twombly setmimic "sad"
+skiptime 4
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
 titleCut ["","BLACK IN",2]
 2 fademusic 1
@@ -69,6 +73,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+@camCommitted _camera
 deletevehicle civ1
 deletevehicle wom1
 deletevehicle jason
@@ -76,7 +81,7 @@ deletevehicle g1
 wom2 setpos getmarkerpos "wom2"
 twombly setpos getmarkerpos "twombly"
 
-~1
+~0.5
 
 titleCut ["","BLACK IN",1]
 
@@ -89,29 +94,27 @@ _camera camCommit 0
 @camCommitted _camera
 
 playsound "m04v07"
-titletext [ localize "STRM_m04v07","plain"]
 
 ;=== 9:32:27
 _camera camSetTarget [-94623.48,14935.91,-3995.14]
 _camera camSetPos [4977.49,7037.22,0.52]
 _camera camSetFOV 0.637
-_camera camCommit 10
+_camera camCommit 7
 
-~8
+~6
 
 2 fadesound 0
 2 fademusic 0.2
 titleCut ["","BLACK OUT",1]
 
-~3
+~1
 
+@camCommitted _camera
 playsound "m04v08"
-titletext [ localize "STRM_m04v08","plain"]
 
-~5
+~8
 
 playsound "m04v09"
-titletext [ localize "STRM_m04v09","plain"]
 
 ~5
 
@@ -119,9 +122,9 @@ jed=true
 skiptime 17
 
 ~3
+
+1 fadesound 1
 titleCut ["","BLACK IN",1]
-2 fademusic 1
-2 fadesound 1
 
 voj1 switchmove "fxtokneel"
 
@@ -144,10 +147,10 @@ _camera camCommit 0
 @camCommitted _camera
 
 playsound "m04v10"
-titletext [ localize "STRM_m04v10","plain"]
 
 ~5
 
+1 fademusic 1
 ;=== 9:15:32
 _camera camSetTarget [-54562.41,91034.82,-1577.98]
 _camera camSetPos [4552.26,10394.15,4.20]
@@ -195,15 +198,14 @@ _camera camCommit 6
 2 fademusic 0
 titleCut ["","BLACK OUT",1]
 
-~2
+~1
 
+@camCommitted _camera
 playsound "m04v11"
-titletext [ localize "STRM_m04v11","plain"]
 
-~5
+~9
 
 playsound "m04v12"
-titletext [ localize "STRM_m04v12","plain"]
 
 ~5
 

@@ -5,44 +5,44 @@ playmusic "track5"
 setacctime 1
 hrac say "mess"
 
-~3
+~4
 
 setacctime 1
-voj1 say "m02v08"
+voj2 say "m02v01"
 
 ~2
 
-hrac say "m02v09"
+hrac say "m02v02"
 
 ~1
 
-voj2 say "m02v10"
+voj1 say "m02v03"
 
 ~4
 
-hrac say "m02v11"
+hrac say "m02v04"
+
+~1
+
+voj2 say "m02v05"
 
 ~3
 
-voj3 say "m02v12"
-
-~4
-
-voj4 say "m02v13"
+voj1 say "m02v06"
 
 ~5
 
-hrac say "m02v14"
+hrac say "m02v07"
 
-~2
+~1
 
-serza say "m02v15"
+serza say "m02v08"
 
 ~7
 
-serza say "m02v16"
+serza say "m02v09"
 
-~8
+~7
 
 voj1 say "yes1"
 voj2 say "yes2"
@@ -51,9 +51,9 @@ voj4 say "yes4"
 voj5 say "yes5"
 voj6 say "yes6"
 
-~2
+~1
 
-serza say "m02v18"
+serza say "m02v10"
 
 ~4
 

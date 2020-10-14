@@ -1,106 +1,102 @@
-LANGUAGE,"english","Comment"
+LANGUAGE,English,Czech,Comment
 
-STR_ONLOAD_INTRO,"Back in Morton","loading screen"
-STR_ONLOAD_MISSION,"Get ready","loading screen"
-
-STRMH,"You have a new activity in the activity menu.","Hint"
-
-STRM_m05v01,"Jean, may I enter?","hugo"
-STRM_m05v02,"Hugo? Of course. Come in.","jean"
-STRM_m05v03,"The boys are waiting for you by the fountain. What are you doing here?","hugo"
-STRM_m05v04,"I've just... I've just remembered Marie.","jean"
-STRM_m05v05,"She was wonderful woman, Jean.","hugo"
-STRM_m05v06,"Yes, she was...","jean"
-STRM_m05v07,"And certainly she would be proud on you, Jean. We are so close...\nThe Americans are sending a diplomat. He will be here in a moment.","hugo"
-STRM_m05v08,"Get ready.\nThis evening Everon might be ours.","jean"
-
-STRM_m05v09,"But George, we have no fucking choice!","epgayd"
-STRM_m05v10,"James I'm just trying to say to you, that the Soviets are planning something and you should pay attention on them not on the rebels.","george"
-STRM_m05v11,"Bullshit, George! The Russians fear us and NATO.\nNow we have to finish with this fucking theatre and take over the control over Everon again!","epgayd"
-STRM_m05v12,"I have no fucking army here, George!\nI have no soldiers, tanks, helicopters, officers and more fucking, fucking, things...","epgayd"
-STRM_m05v13,"As your deputy and Commander of BlackOps, I think it's a complete cause ...\nbut as your friend, I'll do everything I can to get you out of this porridge.","george"
-STRM_m05v14,"Thanks, George. In the world, no one is better at solving problems than you.","epgayd"
-STRM_m05v15,"Like I said, James, I'm gonna get you out of this and I'm going to the mess.","george"
-STRM_m05v16,"I'm glad to hear it, George.\nThe meeting is in Morton. You'll receive briefing with our conditions and white flag, however you must to hand your HK.\nInstead take the Glock, just for sure.","epgayd"
-STRM_m05v17,"It is going to be easier, than I expected.","george"
-STRM_m05v18,"I'm going to Saint Phillipe. I will make contact with you. Your code name is Devil and I'll be Evil.\nI want to hear everything that the muther fuckers say.","epgayd"
-STRM_m05v19,"Let's make a fun.\nWhen should I go?","george"
-STRM_m05v20,"Right now. The rebels are already waiting.","epgayd"
-
-STRM_m05v21,"Good luck my friend. Don't forget to hand your weapon.","epgayd"
-
-STRM_m05v22,"Your weapon sir.","guard"
-STRM_m05v23,"Don't hurt my girlfriend gentlemen.","george"
-STRM_m05v24,"Do not worry sir. Break the leg.","guard"
-STRM_m05v25,"That's my plan.","george"
-
-STRM_m05v26,"Holy shit. So they fucked up here.","george"
-
-STRM_m05v27,"Greetings the folk of Everon. It's a great honor the meet you personally.","george"
-STRM_m05v28,"Does anybody speak english?","george"
-STRM_m05v29,"Welcome, American. My names is Jean Poincare and yes I can speak english as you can see.","jean"
-STRM_m05v30,"Poin-care... right. It's nice to meet you, mr Poincare.\nMy name is George Dyaconsen.","george"
-STRM_m05v31,"So, take a seat, mr Dyaconsen.","jean"
-
-STRM_m05v32,"You've got a very good accent, on Everonian, mr Poincare. Where have you learn so good english?","george"
-STRM_m05v33,"I was in politics that's all, you may also not be interested.\nLet's get down to the business.\nSo what do you offer, Americans? What colonel Epgayd wants?","jean"
-STRM_m05v34,"Mr. Poincare.\nThis conflict has cost a lot of human lives, as on our side and on yours too.\nTherefore, Colonel Epgayd and White House suggests ending this unnecessary war and establishing truce.","george"
-STRM_m05v35,"Of course you suggest.\nYou came on Everon, made a mess, raped our women, including my wife... my wife mr. Dyaconsen!\nAnd now you want to finish it by the truce treaty? My wife was unguilty, mr Dyaconsen! Why she had to die?","jean"
-STRM_m05v36,"I, I am so sorry, mr. Poincare... But not everyone American is like that.\nIf the conflict will continue, there are going to be more dead women on Everon, than your wife.","george"
-STRM_m05v37,"You didn't understand it, American.\nThis island is ours and we want it back! We don't want more American liers of democracy here, but true free Everon!\nIf you can't understand it, the war will continue and it will be even your people, who will be dying.","jean"
-STRM_m05v38,"And your women, who will have crying from the death of their sons.","jean"
-STRM_m05v39,"Look, Mr. Poincare, I know Everon's people very good, I was drilling some our soldiers here.\nBut please look on it from other side. We had no choice, than come to your island.","george"
-STRM_m05v40,"It's cold war crisis and if you will not drop your weapons, this conflict is getting bloodier.\nIf you think about your people, stop the war right now, make the situation calmer.","george"
-STRM_m05v41,"Both sides will release the prisoners and neither one side has to not lose lives of its people.\nWe might be nemies, mr. Poincare, although I believe, that we might live as well.","george"
-STRM_m05v42,"NO! Mr. Dyaconsen.\nThe war continues and with it the fight for freedom of Everon!","jean"
-STRM_m05v43,"What was that?","george"
-STRM_m05v44,"That's Russians, take cover!","jean"
-
-STRM_m05v45,"Mr. Dyaconsen, get out of here. The negotiation is over. Just save your life!","jean"
-STRM_m05v46,"But what about you?","george"
-STRM_m05v47,"It's our business. Wait until it will stop and then go!","jean"
+STRM_ONLOAD_INTRO,Morton,Morton,loading screen
+STRM_ONLOAD_MISSION,Get ready,Připravte se,loading screen
 
 
-STRM_m05r01,"DEVIL THIS IS EVIL. CAN YOU HEAR ME? OVER?","james"
-STRM_m05r02,"OF COURSE I CAN, EVIL. IT'S VERY FUNNY TO HEAR DEVIL AND EVIL. YOU KNOW LIKE KEIN AND ABEL . IT SOUNDS WE'RE CREATING HISTORY.","george"
-STRM_m05r03,"LISTEN UP, GEORGE. I JUST WANT YOU TO KNOW, THAT IF WHATEVER WILL HAPPEN THERE I'LL NEVER LET YOU OUT. AFTER ALL I OWE IT TO YOU. ARE WE CLEAR?","james"
-STRM_m05r04,"YOU KNOW ME, EVIL. I AM SOLDIER AND POLITICION AS WELL, ALTHOUGH WE WILL ALREADY IN A MOMENT CELEBRATE TOGETHER WITH JACK DANIELS, PERHAPS WE SHOULD INVITE THE REBELS FOR THEMSELVES TO SAMPLE MR DANIELS. THE WAR WOULD NEVER BEGIN.","george"
-STRM_m05r05,"COPY THAT, DEVIL, BUT JACK IS SOLELY OURS. BETTER TO FUCK THE REBELS TO ASS, THAN GIVE THEM OUR JACK, HOWEVER YOU KNOW I AM THE BEST FOR THE HANGOVER CAUSED BY MR DANIELS.","james"
-STRM_m05r06,"OK, SO UNCLE SAM. IT WOULD BE BETTER GUEST.","george"
-STRM_m05r07,"HE IS AN OLD SON OF BITCH. WHERE HAS HE BEEN WHEN THE REBELION DID START? NOWHERE. SO FUCK HIM TOO AND YOU DEVIL, SHOW THE REBELS HOW FUCKS AN AMERICAN DEVIL, CLEAR?","james"
-STRM_m05r08,"DON'T WORRY, EVIL. MEANWHILE OUT.","george"
+STRM_m05v01,"Jean, may I enter?","Jeane, mohu vstoupit?",hugo
+STRM_m05v02,"Hugo? Of course, come in.","Hugo? Samozřejmě, jen pojď.",jean
+STRM_m05v03,The boys are waiting for you by the fountain. What are you doing here?,Kluci na tebe čekají u fontány. Co tu děláš?,hugo
+STRM_m05v04,I've just... I've just remembered Marie.,Jenom jsem... Jenom jsem zavzpomínal na Marii.,jean
+STRM_m05v05,"She was a wonderful woman, Jean.","Byla to skvělá žena, Jeane.",hugo
+STRM_m05v06,"Yes, she was...","Ano, to byla.",jean
+STRM_m05v07,"And certainly she would be proud of you, Jean. We are so close...\nThe Americans are sending a diplomat. He will be here in a moment.","A určitě by na tebe byla hrdá, Jeane. Jsme tak blízko...\nAmeričané posílají diplomata. Bude tu co by nevidět.",hugo
+STRM_m05v08,Get ready. This evening Everon might be ours.,Připrav se. Tento večer Everon může být náš.,jean
 
-STRM_m05r09,"PAPA BEAR THIS IS EAGLE ONE. I'VE GOT SOMETHING ON RADAR IN SECTOR B. ISN'T IT OUR NAVY? OVER.","Orel"
-STRM_m05r10,"IT MUST BE A MISTAKE. WHAT WOULD OUR NAVY DO HERE? CHECK IT AND CORRECTLY, OVER.","papa"
-STRM_m05r11,"COPY THAT, PAPA BEAR. WE'RE SENDING THE REACON FLY THERE, OUT.","Orel"
+STRM_m05v09,"Major, it's good that you have come. We've got many to discuise.",ne,johnson
+STRM_m05v10,"Therefore I'm here, colonel. I've already familiar with the situation... The news are full of this bullshit.\nSo what's the plan?",ne,george
+STRM_m05v11,"The White House doesn't want me to call for reinforcements in order not to escalate the conflict further\ninstead we have a task about cease fire and you, major Dyaconsen gonna be our saviour.",ne,johnson
+STRM_m05v12,Understood sir. Tell me the plan of my mission and I promise I won't disappoint you.,ne,Dyaconsen
+STRM_m05v13,The negotiation is in Morton. You'll receive a briefing with our conditions and white flag.\nI hope you know it's necessary to go without your weapon.,ne,johnson
+STRM_m05v14,"Of course, sir. I've got it in my mind.",ne,George
+STRM_m05v15,"I'm going to Saint Phillipe, where I will make contact with you. Your code name is Devil and I'll be Judge.\nIt's nothing about I can trust you, but I want it all under my control.",ne,johnson
+STRM_m05v16,"The Devil cooperates with the Judge? That's interesting, however let's make fun.\nWhen should I go?",ne,George
+STRM_m05v17,Right now. The rebels are already waiting.,ne,johnson
 
-STRM_m05r12,"EVIL, I AM RIGHT HERE.","george"
-STRM_m05r13,"COPY THAT, DEVIL. I AM WITH YOU.","james"
+STRM_m05v18,"Go, major. I'll let you know until I arrive in Saint Phillipe.","Jděte na to, majore. Dám vám vědět, až budu v Saint Philipe.",johnson
+STRM_m05v19,"Understood, sir.","Rozumím, pane.",george
 
-STRM_m05r14,"FUCK, GEORGE. WHERE IT COMES FROM?","james"
-STRM_m05r15,"WE HAVE A VISIT, JAMES. OUR EASTER COMMRADE.","george"
-STRM_m05r16,"GEORGE, GET THE FUCK OUT OF THERE, NOW!","james"
 
-STRM_m05r17,"WHAT A BULLSHIT.","james"
-STRM_m05r18,"DON'T FEEL SORRY FOR HIM.","james"
-STRM_m05r19,"YOU'RE SPEAKING LIKE A TRUE DEVIL.","james"
-STRM_m05r20,"VERY GOOD SPEECH, GEORGE.","james"
+STRM_m05v20,Holy shit. They fucked it up here.,"Ty vole, tak ti to tady dojebali.",george
+
+STRM_m05v21,"There he is. The fucking American diplomat. I'll break his face for you, Jean.","Tady ho máme. Zkurvenej, Americkej diplomat. Nakopu mu prdel za tebe, Jeane.",hugo
+STRM_m05v22,"Easy, Hugo... Stay calm. All Everon is watching. It's all up to me.","Klid, Hugo... Buď v klidu. Celý Everon se dívá. Všechno závisí na mě.",jean
+
+STRM_m05v23,"Greetings, folk of Everon. It's a great honor to meet you personally.",Zdravím Everonský lid. Je pro mě nesmírnou ctí se s vámi osobně setkat.,george
+STRM_m05v24,Does anybody speak english?,Mluvíte někdo anglicky?,george
+STRM_m05v25,"Welcome, American. My name is Jean Poincare and yes, I can speak English as you can see.","Vítejte, Američane. Mé jméno je Jean Poincare a ano, jak vidíte já mluvím anglicky.",jean
+STRM_m05v26,"Poin-care... right. It's nice to meet you, Mr Poincare. My name is George Dyaconsen.","Poin-care... výborně. Těší mě, pane Poincare. Já se jmenuji George Dyaconsen.",george
+STRM_m05v27,"Well, take a seat, Mr Dyaconsen.","Tak vemte místo, pane Dyaconsene.",jean
+
+STRM_m05v28,"You've got a very good accent, for an Everonian, Mr Poincare.\nWhere have you learned such good English?","Na Everončana máte výborný přízvuk, pane Poincare.\nKde jste se tak dobře naučil anglicky?",george
+STRM_m05v29,"I was in politics, that's all, it is of no interest. Let's get down to the business.\nSo what do you offer, Americans? What does your government want?","Byl jsem v politice, to je vše. Víc už vás nemusí zajímat.\nTak co tedy nabízíte, Američané? Co vyžaduje vaše vláda?",jean
+STRM_m05v30,"Mr Poincare. This conflict has cost a lot of human lives, on our side and on yours, too.\nTherefore, Colonel Johnson and White House suggest ending this unnecessary war and establishing a cease fire.","Pane Poincare. Tento konflikt už stál mnoho lidských životů, jak na naší, tak na vaší straně.\nProto plukovník Johnson a Bílý dům navrhují ukončení této zbytečné války a nastolení příměří.",george
+STRM_m05v31,"Of course, this is what you suggest. You came on Everon, made a mess, raped our women, killed my wife... my wife Mr Dyaconsen!\nAnd now you don't want to fight actually \nMy wife was innocent, Mr Dyaconsen! Why did she had to die?","Pochopitelně, že chcete zrovna tohle. Přijdete si na Everon, uděláte na něm bordel, vošukáte naše ženy, včetně mé manželky... mé manželky, pane Dyaconsene!\nA potom to chcete jen tak ukončit vyhlášením příměří?\nMá žena byla nevinná, pane Dyaconsene! Proč musela zemřít?",jean
+STRM_m05v32,"I, I am so sorry, Mr Poincare... The man, who was responsible for our lose was surely punished as well.\nBut if the conflict continues, there are going to be more dead women on Everon than your wife.","Já, moc mě to mrzí, pane Poincare... Ale ne každý Američan je takový.\nJestli bude konflikt pokračovat, bude na Everonu více mrtvých žen, než jen vaše manželka.",george
+STRM_m05v33,"You don't understand me, American.\nThis island is ours and we want it back! We don't want more American lies about democracy here, but true free Everon!\nIf you can't understand it the war will continue and it will be your people who will be dying.","Nerozumíte mi, Američane.\nТento ostrov je náš a chceme ho zpátky! Nechceme už více Amerických lží o demokracii, ale pravý svobodný Everon!\nPokud to nemůžete pochopit, válka bude pokračovat a budou to vaši lidé, co budou umírat.",jean
+STRM_m05v34,"And your women, who will mourn the deaths of their sons!","A vaše ženy, které budou skuhrat po smrti svých synů.",jean
+STRM_m05v35,"Look, Mr Poincare, I know Everon's people very well, I was drilling some of our soldiers here.\nBut please look at it from the other side. We had no choice but to come to your island.","Podívejte se, pane Poincare, znám Everonský lid moc dobře, cvičil jsem tu pár našich vojáků.\nAle prosím, podívejte se na to z jiné stránky. Neměli jsme jinou možnost, než přijít k vám na ostrov.",george
+STRM_m05v36,"It's a cold war crisis and if you do not come up to the cease fire, this war will get bloodier.\nIf you care about your people, stop the killing right now, make the situation calmer.","Je krize studené války a jestli nesložíte zbraně bude tato válka krvavější.\nPokud se bojíte o své lidi, zastavte okamžitě tohle zabíjení a situace se rázem zklidní.",george
+STRM_m05v37,"Both sides will release the prisoners and neither side has to lose the lives of its people.\nWe might be enemies, Mr Poincare, although I believe that we might learn to live with each other.","Když obě strany propustí zajatce, ani jedna nepřijde o životy svých lidí.\nMůžeme být nepřátelé, pane Poincare, ale přesto si myslím, že se dokážeme navzájem učit a žít společně.",george
+STRM_m05v38,NO! Mr Dyaconsen. The war continues and with it the fight for freedom of Everon!,NE! Pane Dyaconsene. Válka pokračuje a s ní i boj za svobodný Everon!,jean
+STRM_m05v39,What was that?,Co to bylo?,george
+STRM_m05v40,"It's the Russians, take cover!","To jsou Rusové, kryjte se!",jean
+
+STRM_m05v41,"Mr Dyaconsen, get out of here! The negotiation is over, just save your life!","Pane Dyaconsene, vypadněte odtud! Vyjednávání skončilo, zachraňte si život!",jean
+STRM_m05v42,But what about you?,Ale co vy?,george
+STRM_m05v43,It's our business man. Wait until it stops and then go!,"To je naše věc. Počkeje, až to přestane a pak jděte!",jean
+
+STRM_roy1,"Sir, take this, it might come in handy. Break a leg.","Pane, vemte si tohle, může se hodit. Zlome vaz.",bennett
+STRM_roy2,"Thanks, Bennett, that's my plan.","Díky, Bennette, to mám v plánu.",george
+
+
+STRM_m05r01,"DEVIL, THIS IS JUDGE. CAN YOU HEAR ME? OVER?","DEVILE, TADY JUDGE. SLYŠÍME SE? PŘEPÍNÁM.",johnson
+STRM_m05r02,"OF COURSE I CAN, JUDGE. HOW DOES IT LOOK? IS THERE ANYONE, WHO WILL BE JUDGING FOR THE WAR CRIMES?","SAMOZŘEJMĚ, JUDGI. TAK CO? BUDE NĚKDO SOUZEN ZA VÁLEČNÉ ZLOČINY?",george
+STRM_m05r03,"THIS WAR IS THE CRIME ITSELF. DON'T MERIT WITH THEM, MAJOR. SHOW THEIR COMMANDER AS A BIG MISTAKE IS TO ATTEND AGAINST THE FLAG OF THE UNITED STATES.","SAMOTNÁ TAHLE VÁLKA JE ZLOČIN. NEMĚJTE S NIMA SLITOVÁNÍ, MAJORE. JEN TOMU JEJICH VELITELI UKAŽTE, JAK OBROVSKÁ CHYBA JE POSTAVIT SE PROTI VLAJCE SPOJENÝCH STÁTŮ.",johnson
+STRM_m05r04,"DON'T WORRY, SIR. I'LL NOT DISAPPOINT UNCLE SAM. OUT FOR NOW.","NEBOJTE SE, PANE. JÁ STRÝČKA SAMA NEZKLAMU. ZATÍM KONEC.",george
+
+STRM_m05r05,PAPA BEAR THIS IS EAGLE ONE. I'VE GOT SOMETHING ON RADAR IN SECTOR B. ISN'T IT OUR NAVY? OVER.,"TÁTO MEDVĚDE, TADY OREL JEDNA. NA RADARU V SEKTORU B CHYTÁM NĚCO VELKÉHO. NENÍ TO NAŠE NÁMOŘNICTVO? PŘEPÍNÁM.",eagle
+STRM_m05r06,"IT MUST BE A MISTAKE. WHAT WOULD OUR NAVY DO HERE? CHECK IT AND CORRECTLY, OVER.","TO MUSÍ BÝT OMYL, CO BY TADY DĚLALO NAŠE NÁMOŘNICTVO? PROVĚŘTE TO A POŘÁDNĚ, PŘEPÍNÁM.",papa
+STRM_m05r07,"COPY THAT, PAPA BEAR. WE'RE SENDING A RECON FLY THERE, OUT.","POTVRZUJI, TÁTO MEDVĚDE. POSÍLÁME TAM PRŮZKUMNÝ LET, KONEC.",eagle
+
+STRM_m05r08,"JUDGE, I'M RIGHT HERE.","JUDGI, JSEM TADY.",george
+STRM_m05r09,"COPY THAT, DEVIL. GO AHEAD, OUT.","ROZUMÍM, DEVILE. JDĚTE NA TO, KONEC.",johnson
+
+STRM_m05r10,WHAT A BULLSHIT.,TAKOVÝ KECI.,johnson
+STRM_m05r11,DON'T FEEL SORRY FOR HIM.,NELITUJTE HO.,johnson
+STRM_m05r12,YOU'RE SPEAKING LIKE A TRUE DEVIL.,"MLUVÍTE, JAKO SKUTEČNÝ ĎÁBEL.",johnson
+STRM_m05r13,"VERY GOOD SPEECH, MAJOR.","VELICE DOBRÝ PROSLOV, MAJORE.",johnson
+
+STRM_m05r14,"FUCK, MAJOR. WHERE IT COMES FROM?","SAKRA, MAJORE. CO SE TO TAM DĚJE?",johnson
+STRM_m05r15,"WE HAVE A VISIT, JUDGE. OUR EASTER COMRADE.","MÁME NÁVŠTĚVU, JUDGI. NÁŠ VÝCHODNÍ SOUDRUH.",george
+STRM_m05r16,"MAJOR, GET THE FUCK OUT OF THERE, NOW! THE NEGOTIATION IS OVER!","MAJORE, OKAMŽITĚ ODTAMTUD VYPADNĚTE! VYJEDNÁVÁNÍ SKONČILO!",johnson
 
 
 
 
-STRM_m05away1,"MAJOR, THE REBELS ARE WAITING. GET IN THE CAR AND FINALLY GO!","papa"
-STRM_m05away2,"MAJOR, WHAT YOU'RE DOING? YOU'RE DRIVING THE WRONG DIRECTION!","papa"
-STRM_m05away3,"Fuck... James will kill me.","George"
+STRM_m05away1,"MAJOR, THE REBELS ARE WAITING. GET IN THE CAR AND FINALLY GO!","MAJORE, REBELOVÉ ČEKAJÍ. NASEDNĚTE DO TOHO AUTA A JEĎTE UŽ!",papa
+STRM_m05away2,"MAJOR, WHAT YOU'RE DOING? YOU'RE DRIVING A WRONG DIRECTION!","MAJORE, CO TO DĚLÁTE? JEDETE ŠPATNÝM SMĚREM!",papa
+STRM_m05away3,Fuck... Johnson will kill me.,Kurva... Johnson mě zabije.,George
 
-STR_CFG_GRPNAMES_ALPHA,"Devil",Dyaconsen
-STR_CFG_GRPNAMES_BRAVO,"Evil",Epgayd
-STR_CFG_GRPNAMES_CHARLIE,"Eagle",Eagle
+STR_CFG_GRPNAMES_ALPHA,Devil,george
+STR_CFG_GRPNAMES_BRAVO,Judge,steve
+STR_CFG_GRPNAMES_CHARLIE,Eagle,eagle
 
-STRMM_01,"Get out!","marker"
 
-STRMA_01,"Hand your weapon","action"
+STRM_m05m1,Get out!,Pryč!,marker
 
-STRMW_01,"HAND YOUR WEAPON","waypoint"
-STRMW_02,"MEETING","waypoint"
-STRMW_03,"GET OUT!","waypoint"
+STRM_m05h1,You've received Glock.,Právě jste obdržel Glocka.,Hint
+
+
+STRM_m05w1,MEETING,MÍSTO SETKÁNÍ,waypoint
+STRM_m05w2,GET OUT!,PRYČ!,waypoint

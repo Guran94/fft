@@ -73,6 +73,7 @@ lenin say "xc1v43"
 
 ~1
 
+@camCommitted _camera
 ;jean
 ;=== 10:07:28
 _camera camSetTarget [99965.56,-666.50,28145.28]

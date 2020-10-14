@@ -3,6 +3,7 @@ away1=false
 jeep stop false
 truck lock true
 truck stop false
+0 fadesound 0.2
 0 fademusic 0.2
 away1=false
 
@@ -10,25 +11,27 @@ away1=false
 
 setacctime 1
 
-voj1 say "m04v13"
+voj2 setmimic "cynic"
+serza setmimic "angry"
+voj2 say "m04v13"
 
-~5
+~3
 
 serza say "m04v14"
 
-~5
+~4
 
-voj3 say "m04v15"
+voj2 say "m04v15"
 
-~5
+~4
 
 serza say "m04v16"
 
-~5
+~13
 
 serza say "m04v17"
 
-~5
+~12
 
 voj1 say "yes1"
 voj2 say "yes2"
@@ -36,5 +39,10 @@ voj3 say "yes3"
 voj4 say "yes4"
 voj5 say "yes5"
 voj6 say "yes6"
+
+voj2 setmimic "default"
+serza setmimic "default"
+
+1 fadesound 1
 
 exit

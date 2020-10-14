@@ -63,7 +63,7 @@ _camera camCommit 2
 
 titleCut ["","WHITE OUT",1]
 
-~2
+~1.5
 
 titleCut ["","WHITE in",1]
 
@@ -77,22 +77,22 @@ enableradio true
 setacctime 1
 
 morton sideradio "m03r01"
-m113 sideradio "m03r02"
+m2 sideradio "m03r02"
 
-~11
+~10
 
 setacctime 1
 serza say "m03v01"
 
-~5
+~3
 
 serza say "m03v02"
 
-~5
+~7
 
 serza say "m03v03"
 
-~5
+~13
 
 voj1 say "yes1"
 voj2 say "yes2"

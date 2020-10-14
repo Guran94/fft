@@ -29,7 +29,7 @@ phill switchMove "FXSitHandsOnTable"
 
 phill say "m01v12"
 
-~8
+~9
 
 hintc localize "STRM_m01h1"
 

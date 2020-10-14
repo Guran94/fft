@@ -117,6 +117,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+@camCommitted _camera
 hugo switchmove ""
 civ4 switchmove ""
 civ1 switchmove ""
@@ -172,6 +173,7 @@ hugo playmove "fxshow3"
 
 ~2
 
+@camCommitted _camera
 ;done
 
 voice3=true
@@ -198,6 +200,7 @@ titleCut ["","BLACK OUT",2]
 
 ~2
 
+@camCommitted _camera
 playsound "xc1v19"
 
 ~19
