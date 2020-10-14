@@ -1,6 +1,6 @@
-onLoadMission="$STR_ONLOAD_MISSION";
+onLoadMission="$STRM_ONLOAD_MISSION";
 onLoadMissionTime = true;
-onLoadIntro="$STR_ONLOAD_INTRO";
+onLoadIntro="$STRM_ONLOAD_INTRO";
 onLoadIntroTime = false;
 
 MinScore = 1000
@@ -324,6 +324,18 @@ class CfgSounds
 		name = "m05v50";
 		sound[] = {"m05v50.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m05v50};
+	};
+	class roy1
+	{
+		name = "roy1";
+		sound[] = {"roy1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_roy1};
+	};
+	class roy2
+	{
+		name = "roy2";
+		sound[] = {"roy2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_roy2};
 	};
 	class m05away3
 	{

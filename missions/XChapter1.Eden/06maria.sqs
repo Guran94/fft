@@ -239,6 +239,7 @@ medic playmove "CivilToCivilTakeFlag"
 
 ~1
 
+@camCommitted _camera
 ;from the body to the medic
 
 ;=== 16:29:09
@@ -260,7 +261,11 @@ _camera camCommit 2
 
 medic say "xc1v32"
 
-~3
+~1
+
+@camCommitted _camera
+
+~2
 
 ;all
 
@@ -390,10 +395,11 @@ jean3 switchmove "fxfromkneel"
 _camera camSetTarget [-71609.44,-53759.06,17265.45]
 _camera camSetPos [9871.17,1585.54,1.06]
 _camera camSetFOV 0.574
-_camera camCommit 3
+_camera camCommit 2
 
 ~2
 
+@camCommitted _camera
 jean3 setmimic "angry"
 
 guard say "xc1v36"

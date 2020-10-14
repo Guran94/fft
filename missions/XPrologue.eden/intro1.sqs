@@ -49,6 +49,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1.5
 
+@camCommitted _camera
 titleCut ["","BLACK IN",1]
 
 ;flag
@@ -107,11 +108,13 @@ forward=true
 
 ~2
 
+@camCommitted _camera
+
 ;=== 19:03:42
 _camera camSetTarget [-31745.79,99982.89,159.42]
 _camera camSetPos [4909.81,6943.29,2.38]
 _camera camSetFOV 0.700
-_camera camCommit 11
+_camera camCommit 11.5
 
 ~9
 
@@ -119,6 +122,8 @@ titleCut ["","BLACK OUT",2]
 
 
 ~2.5
+
+@camCommitted _camera
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

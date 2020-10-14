@@ -29,6 +29,7 @@ _camera camCommit 2
 
 ~2
 
+@camCommitted _camera
 gogogo=true
 
 ~1
@@ -58,7 +59,7 @@ _camera camCommit 0
 _camera camSetTarget [-24885.71,102036.55,-2131.32]
 _camera camSetPos [3337.34,6127.89,0.86]
 _camera camSetFOV 0.700
-_camera camCommit 5
+_camera camCommit 6
 
 ~4
 
@@ -66,6 +67,7 @@ mud say "xc1v16"
 
 ~2
 
+@camCommitted _camera
 ;=== 11:54:12
 _camera camSetTarget [77209.03,72986.67,-8421.12]
 _camera camSetPos [3335.31,6128.44,0.97]

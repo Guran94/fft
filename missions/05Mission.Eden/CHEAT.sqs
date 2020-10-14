@@ -4,4 +4,6 @@ away3=false
 away4=false
 away5=false
 
-[] exec "truce.sqs"
+~2
+
+[] exec "dialog.sqs"

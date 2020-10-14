@@ -4,8 +4,8 @@
 
 ;*************** Nastaven� parametr� bombardov�n� ************************
 _pocet_bomb = 20
-_rozptylx = 9
-_rozptyly = 9
+_rozptylx = 30
+_rozptyly = 30
 _prodleva_bomb = (random 1) + 2
 _odezva = (random 5) + 2
 _cil = _this select 0

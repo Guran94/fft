@@ -3,7 +3,7 @@ setacctime 1
 hrac addrating 1000
 zustat=false
 away=true
-leader player groupradio "m04r01"
+leader player groupradio "m04r02"
 
 ~2
 

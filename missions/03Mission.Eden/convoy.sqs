@@ -1,0 +1,11 @@
+[car] join grpnull
+
+~1
+
+[m2] commandmove getmarkerpos "presun15"
+
+~1
+
+car move getmarkerpos "away"
+
+exit

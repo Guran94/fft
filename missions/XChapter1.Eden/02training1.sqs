@@ -266,6 +266,7 @@ _camera camCommit 4
 
 ~4
 
+@camCommitted _camera
 ;other side
 ;=== 7:42:27
 _camera camSetTarget [-56513.47,81001.97,1213.16]
@@ -287,6 +288,7 @@ twombly say "xc1v11"
 
 ~1
 
+@camCommitted _camera
 muday say "xc1v12"
 
 twombly switchmove ""

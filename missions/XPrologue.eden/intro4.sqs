@@ -26,11 +26,15 @@ _camera camSetPos [7252.08,6759.15,1.80]
 _camera camSetFOV 0.700
 _camera camCommit 5
 
-~4
+~3
 
 lem say "x00v05"
 
-~3
+~1
+
+@camCommitted _camera
+
+~2
 
 ;jason
 ;=== 23:12:04
@@ -49,8 +53,9 @@ _camera camCommit 8
 
 lem say "x00v06"
 
-~6
+~4
 
+@camCommitted _camera
 
 ;lemontov
 ;=== 23:13:05
@@ -70,7 +75,7 @@ _camera camSetFOV 0.418
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~2
 
 twom say "x00v07"
 twom setmimic "angry"

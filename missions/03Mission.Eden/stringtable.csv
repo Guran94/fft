@@ -1,25 +1,24 @@
-LANGUAGE,"english","Comment"
+LANGUAGE,English,Czech,Comment
 
-STR_ONLOAD_MISSION,"On the road leading to Morton","loading screen"
+STRM_ONLOAD_INTRO,Quite before the storm,Ticho před bouří,loadng screen
+STRM_ONLOAD_MISSION,On the road leading to Morton,Na cestě do Mortonu,loadng screen
 
-
-STRM_m03v01,"Let's go boys. Now I don't want to hear any bullshit.","Muday"
-STRM_m03v02,"The situation looks worse than we expected.\nMorton has even built fortification for defense, because if we will lose the town, the rebels are going to gain an advantage.","muday"
-STRM_m03v03,"I know nobody of us hadn't a rest so much and many of you have seen themselves at home, haven't you Twombly?\nHowever welcome to war boys! It's not training anymore, so just remember what I have you learned and try to survive!\nUnderstood?","Muday"
-STRM_m03v04,"Sir, yes sir!","all"
-
-STRM_m03r01,"CONVOY, THIS IS MORTON BASE. WE'VE GOT HEAVY CASULTIES. WHERE THE FUCK ARE YOU? OVER.","Morton"
-STRM_m03r02,"HOLD ON, BASE. WE ARE NOT LESS THAN 1000 METRES, OUT.","Konvoj"
-STRM_m03r03,"WE'RE HERE, BASE, AS YOU WISHED.","Konvoj"
-STRM_m03r04,"EXCELLENT. WE'RE GLAD TO HEAR IT. TAKE YOUR POSITIONS ON THE EASTERN AND NORTHERN PARTS OF THE TOWN. THEIR LAST STRIKE WAS VERY HARD.","Morton"
-STRM_m03r05,"WELL. NOW SPLIT UP.","Muday"
-STRM_m03r06,"PAPA BEAR FOR MORTON. RETREAT. WE DON'T KNOW HOW IT IS POSSIBLE, BUT ENEMY TANKS ARE LEADING TO YOU. WE HAD TO OVERLOOK SOMETHING. YOU HAVE NO CHANCE AGAINST THE HEAVY TANKS, THEREFORE IMMEDIATELY RETREAT TO FIGARI. PAPA BEAR OUT.","Medv�d"
-STRM_m03r07,"WAIT PAPA BEAR, WE WOULD HOLD IT ALTHOUGH SEND US SOME AIR SUPPORT, OVER!","Morton"
-STRM_m03r08,"BASE WE CANNOT DO THIS. WE HAVEN'T GOT TO MUCH STUFF TO SSATISFY YOU. THERE IS TO HOT IN LAMENTIN AND LE MOULE, FOR THESE REASONS ESCAPE FROM THE TOWN AND SAVE YOUR LIFE BEFORE IT IS LATE. OUT.","Medv�d"
-STRM_m03r09,"THERE ARE SOME AMMOS AND WEAPONS IN THE BOXES. TAKE THEM WHENEVER YOU WANT.","Muday"
+STRM_m03v01,Let's go boys. Now I don't want to hear any bullshit.,"Jdeme na to, hoši. Už nechci slyšet žádné sračky.",Muday
+STRM_m03v02,"The situation looks worse than we expected.\nMorton has even built fortification for defense, if we lose the town, the rebels are going to gain an advantage.","Situace vypadá hůř, než jsme očekávali.\nMorton dokonce vybudoval obranné opevnění, každopádně jestli město ztratíme, získanou rebelové výhodu.",muday
+STRM_m03v03,"I know none of us rested much and many of you have seen themselves at home, haven't you Twombly?\nHowever, welcome to war, boys! It's not training anymore, so just remember that I have taught you and try to survive!\nUnderstood?","Já vím, že si nikdo z vás pořádně neodpočinul a někteří jste už dokonce viděli doma, že, Twombly?\nNicméně, vítejte ve válce, hoši! Tohle není cvičení, takže takže si pamatujte, co jsem vás naučil a snažte se přežít!\nRozumíte?",Muday
 
 
-STRMM_01,"Start","marker"
-STRMM_02,"Your posistion","marker"
+STRM_m03r01,"CONVOY, THIS IS MORTON BASE. WE'VE GOT HEAVY CASUALTIES. WHERE THE FUCK ARE YOU? OVER.","KONVOJI, TADY MORTON, MÁME TU TĚŽKÉ ZTRÁTY, KDE SAKRA VĚZÍTE? PŘEPÍNÁM.",Morton
+STRM_m03r02,"HOLD ON, BASE. WE ARE LESS THAN A MILE AWAY, OUT.","VYDRŽTE, ZÁKLADNO, JSME OD VÁS NECELOU MÍLI, KONEC.",convoy
+STRM_m03r03,"WE'RE HERE, BASE, AS YOU WISHED.","TAK JSME TADY ZÁKLADNO, DLE VAŠEHO PŘÁNÍ.",convoy
+STRM_m03r04,EXCELLENT. WE'RE GLAD TO HEAR IT. TAKE YOUR POSITIONS ON THE EASTERN AND NORTHERN PARTS OF TOWN. THEIR LAST STRIKE HIT US VERY HARD.,VÝBORNĚ. UŽ BYLO NA ČASE. ZAUJMĚTE POZICE VE VÝCHODNÍ A SEVERNÍ ČÁSTI MĚSTA. TEN JEJICH POSLEDNÍ ÚTOK BYL DOST TVRDÝ.,Morton
+STRM_m03r05,OK... NOW WE SPLIT UP.,OK... TEĎ SE ROZDĚLÍME.,Muday
+STRM_m03r06,THERE IS SOME AMMO AND WEAPONS IN THE BOXES. TAKE THEM WHENEVER YOU WANT.,"V TĚCH BEDNÁCH JE MUNICE A PÁR ZBRANÍ, KDYKOLIV BUDETE POTŘEBOVAT, VEZMĚTE SI JE.",Muday
+STRM_m03r07,"PAPA BEAR FOR MORTON. RETREAT. WE DON'T KNOW HOW IT IS POSSIBLE, BUT ENEMY TANKS ARE HEADINGTO YOU. WE HAD TO OVERLOOK SOMETHING. YOU HAVE NO CHANCE AGAINST THE HEAVY TANKS, THEREFORE IMMEDIATELY RETREAT TO FIGARI. PAPA BEAR OUT.","TÁTA MEDVĚD PRO MORTON, STÁHNĚTE SE. NEVÍME, JAK JE TO MOŽNÉ, ALE PŘIJÍŽDÍ K VÁM NĚKOLIK TANKŮ. MUSELI JSME NĚCO PŘEHLÉDNOUT. PROTI OBRNĚNCŮM NEMÁTE ŽÁDNOU ŠANCI, PROTO SE IHNED STÁHNĚTE DO FIGARI. TÁTA MEDVĚD, KONEC.",Bear
+STRM_m03r08,"WAIT PAPA BEAR, WE WOULD HOLD IT, JUST SEND US SOME AIR SUPPORT, OVER!","POČKEJTE, TÁTO MEDVĚDE, MY BYSME TO TU UDRŽELI, ALE POŠLETE NÁM LETECKOU PODPORU, PŘEPÍNÁM!",Morton
+STRM_m03r09,"BASE WE CANNOT DO THIS. WE HAVEN'T GOT ENOUGH STUFF AT HAND TO HELP YOU IT IS TOO HOT IN LAMENTIN AND LE MOULE, FOR THESE REASONS ESCAPE FROM THE TOWN AND SAVE YOUR LIFES BEFORE IT IS TOO LATE. OUT.","ZÁKLADNO, TO ALE NEMŮŽEME! MÁME TOHO MOC MÁLO NA TO, ABYSME VÁM VYHOVĚLI. V LAMENTINU A LE MOULE SE TO DOST SMAŽÍ, NEMŮŽEME VÁM NIC POSLAT, PROTO BEZ KECŮ OPUSŤTE MĚSTO A ZACHRAŇTE SI ŽIVOT DŘÍV, NEŽ BUDE POZDĚ! KONEC.",Papa
+STRM_m03r10,"LOOK OUT! REBELS BY THE FORESTS, TAKE COVER!","POZOR OD LESŮ! REBELOVÉ, KRYJTE SE!",Anybody
 
-STRMW_01,"RETREAT","waypoint"
+"STRM_m03m1,""Your position",marker,Vaše pozice
+
+"STRM_m03w1,""RETREAT",waypoint,ÚSTUP

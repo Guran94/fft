@@ -26,6 +26,12 @@ class CfgSounds
 		sound[] = {"resistance.ogg", db+10, 1.00};
 		titles[] = {};
 	};
+	class yeah
+	{
+		name = "yeah";
+		sound[] = {"yeah.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class yes1
 	{
 		name = "yes1";
@@ -36,31 +42,31 @@ class CfgSounds
 	{
 		name = "yes2";
 		sound[] = {"yes2.ogg", db+10, 1.00};
-		titles[] = {0,$STRC_yes};
+		titles[] = {};
 	};
   class yes3
 	{
 		name = "yes3";
 		sound[] = {"yes3.ogg", db+10, 1.00};
-		titles[] = {0,$STRC_yes};
+		titles[] = {};
 	};
   class yes4
 	{
 		name = "yes4";
 		sound[] = {"yes4.ogg", db+10, 1.00};
-		titles[] = {0,$STRC_yes};
+		titles[] = {};
 	};
   class yes5
 	{
 		name = "yes5";
 		sound[] = {"yes5.ogg", db+10, 1.00};
-		titles[] = {0,$STRC_yes};
+		titles[] = {};
 	};
   class yes6
 	{
 		name = "yes6";
 		sound[] = {"yes6.ogg", db+10, 1.00};
-		titles[] = {0,$STRC_yes};
+		titles[] = {};
 	};
 };
 
@@ -419,13 +425,13 @@ class Campaign
   cutscene = ;
 
   firstMission = XChapter2;
-  lost = Chapter3;
-  end1 = Chapter3;
-  end2 = Chapter3;
-  end3 = Chapter3;
-  end4 = Chapter3;
-  end5 = Chapter3;
-  end6 = Chapter3;
+  lost = ;
+  end1 = ;
+  end2 = ;
+  end3 = ;
+  end4 = ;
+  end5 = ;
+  end6 = ;
 
   class XChapter2: MissionDefault
   {

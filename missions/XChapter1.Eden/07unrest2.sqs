@@ -73,6 +73,7 @@ civ7 switchmove "CivilDyingVer2"
 
 ~2.2
 
+@camCommitted _camera
 offi switchmove "FxShow3"
 civ8 switchmove "FXNewcivil"
 civ9 switchmove "FXCivilFoldOnesArms"
@@ -144,7 +145,11 @@ _camera camCommit 6
 civ7 move getmarkerpos "civ7"
 civ7 setspeedmode "full"
 
-~3
+~1
+
+@camCommitted _camera
+
+~2
 
 ;defender1
 
@@ -229,6 +234,7 @@ titleCut ["","BLACK OUT",3]
 
 ~3
 
+@camCommitted _camera
 playsound "xc1v40"
 
 ~10

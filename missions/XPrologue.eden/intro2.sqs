@@ -35,6 +35,8 @@ rashiv say "x00v01"
 
 ~1
 
+@camCommitted _camera
+
 ;rashiv, guard, jason
 ;=== 21:09:20
 _camera camSetTarget [-42486.14,-79085.20,-16403.78]
