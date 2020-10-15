@@ -13,11 +13,11 @@ STRM_m05v06,"Yes, she was...","Ano, to byla.",jean
 STRM_m05v07,"And certainly she would be proud of you, Jean. We are so close...\nThe Americans are sending a diplomat. He will be here in a moment.","A určitě by na tebe byla hrdá, Jeane. Jsme tak blízko...\nAmeričané posílají diplomata. Bude tu co by nevidět.",hugo
 STRM_m05v08,Get ready. This evening Everon might be ours.,Připrav se. Tento večer Everon může být náš.,jean
 
-STRM_m05v09,"Major, it's good that you have come. We've got many to discuise.",ne,johnson
+STRM_m05v09,"Major Dyaconsen, it's good that you have come. We've got many to discuise.",ne,johnson
 STRM_m05v10,"Therefore I'm here, colonel. I've already familiar with the situation... The news are full of this bullshit.\nSo what's the plan?",ne,george
-STRM_m05v11,"The White House doesn't want me to call for reinforcements in order not to escalate the conflict further\ninstead we have a task about cease fire and you, major Dyaconsen gonna be our saviour.",ne,johnson
+STRM_m05v11,"The White House doesn't want me to call for reinforcements in order not to escalate the conflict further\ninstead we have a task about cease fire and you, major gonna be our saviour.",ne,johnson
 STRM_m05v12,Understood sir. Tell me the plan of my mission and I promise I won't disappoint you.,ne,Dyaconsen
-STRM_m05v13,The negotiation is in Morton. You'll receive a briefing with our conditions and white flag.\nI hope you know it's necessary to go without your weapon.,ne,johnson
+STRM_m05v13,The negotiation is in Morton. You'll receive a briefing and a white flag.\nI hope you know it's necessary to go without your weapon.,ne,johnson
 STRM_m05v14,"Of course, sir. I've got it in my mind.",ne,George
 STRM_m05v15,"I'm going to Saint Phillipe, where I will make contact with you. Your code name is Devil and I'll be Judge.\nIt's nothing about I can trust you, but I want it all under my control.",ne,johnson
 STRM_m05v16,"The Devil cooperates with the Judge? That's interesting, however let's make fun.\nWhen should I go?",ne,George
