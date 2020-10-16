@@ -1,6 +1,8 @@
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+
+setacctime 1
 hugo1 setpos getmarkerpos "hugo"
 hugo1 setmimic "normal"
 george2 disableai "autotarget"
@@ -8,12 +10,12 @@ jean2 disableai "autotarget"
 deletevehicle r7
 deletevehicle w1
 deletevehicle jean1
-r9 dowatch [98729.33,-26431.35,-17305.24]
-r13 dowatch [98729.33,-26431.35,-17305.24]
-r10 dowatch [98729.33,-26431.35,-17305.24]
-r11 dowatch [98729.33,-26431.35,-17305.24]
-r4 dowatch [98729.33,-26431.35,-17305.24]
-r12 dowatch [98729.33,-26431.35,-17305.24]
+r9 dowatch [5045.32,3948.79,1.05]
+r13 dowatch [5045.32,3948.79,1.05]
+r10 dowatch [5045.32,3948.79,1.05]
+r11 dowatch [5045.32,3948.79,1.05]
+r4 dowatch [5045.32,3948.79,1.05]
+r12 dowatch [5045.32,3948.79,1.05]
 r9 setpos getmarkerpos "r9"
 r9 setdir 60
 r13 setpos getmarkerpos "r13"
@@ -48,7 +50,7 @@ _camera camCommit 0
 _camera camSetTarget [-14292.38,102060.77,323.82]
 _camera camSetPos [5045.32,3948.79,1.05]
 _camera camSetFOV 0.700
-_camera camCommit 5
+_camera camCommit 6
 @camCommitted _camera
 
 ;jean
@@ -65,22 +67,30 @@ jean2 say "m05v29"
 ~5
 
 ;george
-;=== 15:01:43
-_camera camSetTarget [-80809.68,54744.65,-6977.92]
-_camera camSetPos [5045.04,3950.47,1.22]
-_camera camSetFOV 0.700
+;=== 0:30:25
+_camera camSetTarget [-77335.06,-52143.04,-8163.67]
+_camera camSetPos [5045.08,3952.00,1.31]
+_camera camSetFOV 0.520
 _camera camCommit 0
 @camCommitted _camera
+
+;=== 0:30:43
+_camera camSetTarget [-83944.35,-40194.01,-11476.08]
+_camera camSetPos [5044.91,3951.60,1.31]
+_camera camSetFOV 0.520
+_camera camCommit 12
 
 ~2
 
 steve sideradio "m05r10"
 
-~1
+~3
 
 george2 say "m05v30"
 
-~5
+~7
+
+@camCommitted _camera
 
 ;jean
 ;=== 15:03:31
@@ -90,28 +100,54 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-jean2 say "m05v31"
-
 ;=== 15:04:03
 _camera camSetTarget [86267.98,61860.91,-6977.60]
 _camera camSetPos [5043.41,3950.17,1.22]
 _camera camSetFOV 0.485
-_camera camCommit 5
-@camCommitted _camera
-
-;george
-;=== 15:01:43
-_camera camSetTarget [-80809.68,54744.65,-6977.92]
-_camera camSetPos [5045.04,3950.47,1.22]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
+_camera camCommit 13
 
 ~3
 
+jean2 say "m05v31"
+
+~10
+
+@camCommitted _camera
+
+;george
+;=== 0:30:43
+_camera camSetTarget [-83944.35,-40194.01,-11476.08]
+_camera camSetPos [5044.91,3951.60,1.31]
+_camera camSetFOV 0.520
+_camera camCommit 0
+@camCommitted _camera
+
+george2 setmimic "sad"
+
+~3
+
+;jean
+;=== 14:47:01
+_camera camSetTarget [98729.33,-26431.35,-17305.24]
+_camera camSetPos [5044.46,3951.31,1.34]
+_camera camSetFOV 0.426
+_camera camCommit 0
+@camCommitted _camera
+
+~8
+
+;george
+;=== 0:30:43
+_camera camSetTarget [-83944.35,-40194.01,-11476.08]
+_camera camSetPos [5044.91,3951.60,1.31]
+_camera camSetFOV 0.520
+_camera camCommit 0
+@camCommitted _camera
+
+george2 setmimic "normal"
 george2 say "m05v32"
 
-~5
+~4
 
 steve sideradio "m05r11"
 
@@ -124,6 +160,28 @@ _camera camSetPos [5044.46,3951.31,1.34]
 _camera camSetFOV 0.426
 _camera camCommit 0
 @camCommitted _camera
+
+~4
+
+;george
+;=== 0:30:43
+_camera camSetTarget [-83944.35,-40194.01,-11476.08]
+_camera camSetPos [5044.91,3951.60,1.31]
+_camera camSetFOV 0.520
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+;jean
+;=== 14:47:01
+_camera camSetTarget [98729.33,-26431.35,-17305.24]
+_camera camSetPos [5044.46,3951.31,1.34]
+_camera camSetFOV 0.426
+_camera camCommit 0
+@camCommitted _camera
+
+~1
 
 jean2 say "m05v33"
 
@@ -140,38 +198,49 @@ _camera camCommit 0
 _camera camSetTarget [-14292.38,102060.77,323.82]
 _camera camSetPos [5045.32,3948.79,1.05]
 _camera camSetFOV 0.700
-_camera camCommit 12
+_camera camCommit 17
 
-~5
+~12
 
 jean2 say "m05v34"
 
 ~5
 
-george2 say "m05v35"
+@camCommitted _camera
 
-~2
+playsound "m05v35"
 
+@camCommitted _camera
 ;people
-;=== 15:16:22
-_camera camSetTarget [-61327.52,78292.12,-8234.78]
-_camera camSetPos [5039.59,3946.09,0.90]
-_camera camSetFOV 0.557
+;=== 9:53:44
+_camera camSetTarget [-86063.86,-35814.74,-10502.53]
+_camera camSetPos [5083.24,3955.68,2.84]
+_camera camSetFOV 0.419
 _camera camCommit 0
 @camCommitted _camera
-;=== 15:16:32
-_camera camSetTarget [-41956.77,92176.87,-2566.50]
-_camera camSetPos [5039.59,3946.09,0.90]
-_camera camSetFOV 0.557
-_camera camCommit 8
+;=== 9:53:55
+_camera camSetTarget [-80619.91,-46486.32,-10502.03]
+_camera camSetPos [5083.07,3954.93,2.84]
+_camera camSetFOV 0.305
+_camera camCommit 6
+@camCommitted _camera
 
 steve sideradio "m05r12"
 
-~2
+;=== 9:54:33
+_camera camSetTarget [62452.28,-77875.85,-2836.48]
+_camera camSetPos [5053.18,3960.60,1.56]
+_camera camSetFOV 0.305
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:54:41
+_camera camSetTarget [72214.52,-70074.51,-2836.15]
+_camera camSetPos [5052.60,3960.19,1.56]
+_camera camSetFOV 0.305
+_camera camCommit 7
+@camCommitted _camera
 
-george2 say "m05v36"
-
-~6
+playsound "m05v36"
 
 ;people2
 ;=== 15:17:16
@@ -181,16 +250,13 @@ _camera camSetFOV 0.284
 _camera camCommit 0
 @camCommitted _camera
 
-george2 say "m05v37"
-
 ;=== 15:18:44
 _camera camSetTarget [84836.83,64168.43,-2566.60]
 _camera camSetPos [5043.39,3949.39,1.21]
 _camera camSetFOV 0.284
-_camera camCommit 6
+_camera camCommit 11
 @camCommitted _camera
 
-~2
 
 ;hugo
 ;=== 15:22:20
@@ -200,11 +266,11 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-~1
+playsound "m05v37"
+
+~3
 
 steve sideradio "m05r13"
-
-~1
 
 ;people
 ;=== 15:24:38
@@ -217,15 +283,8 @@ _camera camCommit 0
 _camera camSetTarget [10615.75,103789.01,17.31]
 _camera camSetPos [5072.09,3942.78,1.23]
 _camera camSetFOV 0.700
-_camera camCommit 6
-
-~5
-
-titleCut ["","BLACK OUT",1]
-
-~2
-
-titleCut ["","BLACK IN",1]
+_camera camCommit 5
+@camCommitted _camera
 
 ;jean
 ;=== 15:49:01
@@ -243,7 +302,7 @@ jean2 switchmove "FXStandFromTable"
 _camera camSetTarget jean2
 _camera camSetPos [5044.31,3950.28,1.26]
 _camera camSetFOV 0.475
-_camera camCommit 5
+_camera camCommit 3
 
 ~2
 
@@ -262,7 +321,7 @@ _camera camCommit 0
 _camera camSetTarget [-82693.91,51869.70,2331.44]
 _camera camSetPos [5046.38,3950.20,1.01]
 _camera camSetFOV 0.910
-_camera camCommit 5
+_camera camCommit 3
 @camCommitted _camera
 
 ;jean
@@ -273,7 +332,7 @@ _camera camSetFOV 0.475
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~1
 
 setacctime 1
 [bomby1] exec "bomby1.sqs"
@@ -297,24 +356,21 @@ _camera camCommit 0
 ~2
 
 ;george
-;=== 10:37:22
-_camera camSetTarget [-79981.33,-48682.80,258.43]
-_camera camSetPos [5045.30,3951.91,1.26]
-_camera camSetFOV 0.485
+;=== 10:13:26
+_camera camSetTarget [-64895.28,-66615.05,11351.16]
+_camera camSetPos [5045.30,3952.91,0.95]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-
-;=== 10:37:44
-_camera camSetTarget [-79447.59,-48352.43,11205.90]
-_camera camSetPos [5045.30,3951.91,1.26]
-_camera camSetFOV 0.485
-_camera camCommit 3
-
-
+;=== 10:13:26
+_camera camSetTarget george2
+_camera camSetPos [5045.30,3952.91,0.95]
+_camera camSetFOV 0.700
+_camera camCommit 2
 
 george2 say "m05v39"
 
-~2
+~1
 
 titleCut ["","BLACK OUT",1]
 
@@ -349,8 +405,9 @@ deletevehicle george2
 hrac setpos getmarkerpos "george2"
 jean3 setpos getmarkerpos "jean2"
 hrac setdir 75
+jean3 say "m05v40"
 
-~1
+~0.5
 
 titleCut ["","BLACK IN",1]
 
@@ -372,16 +429,16 @@ r14 setbehaviour "stealth"
 r15 setbehaviour "stealth"
 
 jean3 setbehaviour "stealth"
-jean3 say "m05v40"
 hrac action ["weaponinhand"]
 disableuserinput false
 player cameraEffect ["terminate","back"]
 camDestroy _camera
 
-~1
+~2
 
 savegame
 
+away4=true
 jean3 say "m05v41"
 
 ~5
@@ -400,11 +457,11 @@ clun2 setpos getmarkerpos "clun2"
 clun3 setpos getmarkerpos "clun3"
 hrac say "m05v42"
 
-~2
+~1
 
 jean3 say "m05v43"
 
-~3
+~5
 
 steve sideradio "m05r14"
 hrac sideradio "m05r15"
@@ -414,6 +471,7 @@ steve sideradio "m05r16"
 
 ~30
 
+away4=false
 "2" objstatus "failed"
 
 exit
