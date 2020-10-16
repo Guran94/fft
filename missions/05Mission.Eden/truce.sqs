@@ -19,7 +19,7 @@ _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 setacctime 1
-0 fademusic 1
+0 fademusic 0.2
 killit=false
 away2=false
 away3=false
@@ -100,11 +100,11 @@ _camera camCommit 0
 _camera camSetTarget [104530.27,-6150.09,-447.56]
 _camera camSetPos [5043.53,3957.96,1.41]
 _camera camSetFOV 0.436
-_camera camCommit 9.5
+_camera camCommit 11.5
 
 hugo1 say "m05v21"
 
-~4
+~6
 
 jean1 say "m05v22"
 
@@ -145,6 +145,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+@camCommitted _camera
 jean1 switchmove ""
 den setpos getmarkerpos "den"
 move=true
@@ -173,6 +174,7 @@ _camera camCommit 5
 
 ~5
 
+@camCommitted _camera
 
 ;he goes 2
 ;=== 14:39:15
@@ -193,6 +195,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+@camCommitted _camera
 6 fademusic 0
 george disableai "autotarget"
 george setmimic "smile"
@@ -205,10 +208,10 @@ deletevehicle den
 titleCut ["","BLACK IN",1]
 
 ;all
-deletevehicle car2
-deletevehicle dya
-car setpos getmarkerpos "car2"
-car setdir 140
+
+car setpos getmarkerpos "b_2"
+car4 setpos getmarkerpos "car2"
+car4 setdir 140
 ;=== 18:06:16
 _camera camSetTarget [99395.45,36682.19,-5098.42]
 _camera camSetPos [5040.55,3956.24,1.57]
@@ -233,7 +236,7 @@ _camera camCommit 0
 _camera camSetTarget [-91614.59,29345.70,-3518.87]
 _camera camSetPos [5044.13,3956.89,1.59]
 _camera camSetFOV 0.327
-_camera camCommit 4
+_camera camCommit 5
 
 ~1
 
@@ -247,7 +250,9 @@ r4 setmimic "surprised"
 
 george say "m05v23"
 
-~3
+~4
+
+@camCommitted _camera
 
 ;jean, hugo, reb
 ;=== 18:08:31
@@ -258,6 +263,8 @@ _camera camCommit 0
 @camCommitted _camera
 
 ~3
+
+george setmimic "surprised"
 
 ;all
 ;=== 18:10:25
@@ -273,7 +280,6 @@ _camera camSetFOV 0.430
 _camera camCommit 4
 @camCommitted _camera
 
-george setmimic "surprised"
 ;george
 ;=== 18:07:22
 _camera camSetTarget [-91614.59,29345.70,-3518.87]
@@ -287,7 +293,7 @@ _camera camCommit 0
 jean1 setmimic "angry"
 george say "m05v24"
 
-~3
+~1
 
 ;=== 18:33:33
 _camera camSetTarget [74664.71,71896.65,23192.88]
@@ -299,13 +305,14 @@ _camera camCommit 0
 _camera camSetTarget [97570.93,35956.25,20384.60]
 _camera camSetPos [5044.23,3956.93,1.27]
 _camera camSetFOV 0.389
-_camera camCommit 5
+_camera camCommit 6
 
 
 jean1 say "m05v25"
 
-~5
+~6
 
+@camCommitted _camera
 ;george
 ;=== 18:07:22
 _camera camSetTarget [-91614.59,29345.70,-3518.87]
@@ -317,7 +324,7 @@ _camera camCommit 0
 george setmimic "smile"
 george say "m05v26"
 
-~5
+~8
 
 jean1 say "m05v27"
 jean1 playmove "fxshow4"
@@ -337,7 +344,7 @@ _camera camCommit 0
 playmusic "rtrack9"
 titleCut ["","BLACK OUT",1]
 
-~1
+~1.5
 
 [] exec "truce2.sqs"
 

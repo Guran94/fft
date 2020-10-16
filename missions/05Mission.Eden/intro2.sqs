@@ -1,7 +1,6 @@
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-titletext ["","plain"]
 titleCut ["","BLACK IN",2]
 
 steve disableai "autotarget"
@@ -71,7 +70,7 @@ _camera camSetFOV 0.330
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~6
 
 steve say "m05v11"
 
@@ -87,7 +86,7 @@ _camera camCommit 0
 _camera camSetTarget [104381.55,16695.72,-3915.17]
 _camera camSetPos [4937.85,6982.25,1.62]
 _camera camSetFOV 0.443
-_camera camCommit 6
+_camera camCommit 11
 @camCommitted _camera
 
 steve switchmove "fxfromhand"
@@ -104,7 +103,7 @@ _camera camCommit 0
 _camera camSetTarget [-6060.53,-92133.30,-7225.63]
 _camera camSetPos [4940.72,6985.01,1.39]
 _camera camSetFOV 0.571
-_camera camCommit 7
+_camera camCommit 6
 @camCommitted _camera
 
 steve switchmove "FXStandRotateTable"
@@ -121,7 +120,7 @@ _camera camCommit 0
 _camera camSetTarget [73052.26,15584.62,-72549.17]
 _camera camSetPos [4939.54,6982.50,2.60]
 _camera camSetFOV 0.635
-_camera camCommit 5
+_camera camCommit 8
 @camCommitted _camera
 
 ;george
@@ -140,7 +139,7 @@ _camera camCommit 0
 
 steve switchmove ""
 
-~2
+~1
 
 @camCommitted _camera
 steve say "m05v15"
@@ -156,7 +155,7 @@ _camera camCommit 0
 _camera camSetTarget [74710.77,78111.31,8680.65]
 _camera camSetPos [4939.82,6981.88,1.34]
 _camera camSetFOV 0.592
-_camera camCommit 6
+_camera camCommit 11
 @camCommitted _camera
 
 george say "m05v16"
@@ -171,20 +170,21 @@ _camera camSetFOV 0.329
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~8
 
 ;steve
-;=== 12:38:03
-_camera camSetTarget steve
-_camera camSetPos [4939.86,6982.09,1.34]
-_camera camSetFOV 0.376
+;=== 10:18:07
+_camera camSetTarget [80738.16,67199.83,25229.11]
+_camera camSetPos [4940.17,6982.29,1.44]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 12:38:20
-_camera camSetTarget steve
-_camera camSetPos [4939.86,6982.09,1.34]
+;=== 10:18:07
+_camera camSetTarget [80738.16,67199.83,25229.11]
+_camera camSetPos [4940.17,6982.29,1.44]
 _camera camSetFOV 0.155
 _camera camCommit 3
+
 
 steve say "m05v17"
 

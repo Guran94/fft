@@ -281,6 +281,7 @@ titleCut ["","BLACK OUT",2]
 
 ~2.5
 
+titletext ["","plain"]
 @camCommitted _camera
 
 player cameraEffect ["terminate","back"]

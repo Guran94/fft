@@ -3276,7 +3276,7 @@ class Mission
 			activationBy="VEHICLE";
 			age="UNKNOWN";
 			idVehicle=2;
-			expActiv="""1"" objstatus ""done""";
+			expActiv="[] exec ""task1.sqs""";
 			class Effects
 			{
 			};

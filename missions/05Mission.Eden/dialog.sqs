@@ -5,8 +5,9 @@ hrac sideradio "m05r02"
 steve sideradio "m05r03"
 hrac sideradio "m05r04"
 
-~10
+~35
 
+setacctime 1
 eagle sideradio "m05r05"
 papa sideradio "m05r06"
 eagle sideradio "m05r07"

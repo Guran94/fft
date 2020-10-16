@@ -17,8 +17,18 @@ killit=true
 
 ClearWeaponCargo ammo
 ClearMagazineCargo ammo
-ammo AddMagazineCargo ["NVGoggles",1]
+ClearWeaponCargo bonus
+ClearMagazineCargo bonus
+ammo AddWeaponCargo ["NVGoggles",1]
 ammo AddMagazineCargo ["AK47",1]
-ammo AddWeaponCargo ["AK47",2]
+ammo AddWeaponCargo ["AK47",1]
+bonus AddMagazineCargo ["AK47",2]
+bonus AddMagazineCargo ["RPGLauncher",3]
+bonus AddWeaponCargo ["RPGLauncher",1]
+
+
+~5
+
+hrac say "m05v19"
 
 exit
