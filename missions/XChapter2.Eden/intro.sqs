@@ -1,13 +1,28 @@
 setacctime 1
 titleCut ["","BLACK IN",3]
 playmusic "fft_track3"
-0 fadesound 0
+
 voice1=false
+voice2=false
+attack=false
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+reb1 setcombatmode "blue"
+reb2 setcombatmode "blue"
+reb3 setcombatmode "blue"
+reb4 setcombatmode "blue"
+reb5 setcombatmode "blue"
+reb6 setcombatmode "blue"
+reb7 setcombatmode "blue"
+reb8 setcombatmode "blue"
+reb9 setcombatmode "blue"
+reb10 setcombatmode "blue"
 
+goto "skip"
+
+0 fadesound 0
 ;flag
 ;=== 23:23:45
 _camera camSetTarget [-75380.04,32844.95,56444.79]
@@ -86,7 +101,7 @@ _camera camCommit 0
 _camera camSetTarget [71143.51,71859.39,-31633.32]
 _camera camSetPos [4865.28,3994.77,2.16]
 _camera camSetFOV 0.609
-_camera camCommit 6
+_camera camCommit 8
 
 
 res1 playmove "CombatToTakeFlag"
@@ -94,6 +109,9 @@ res1 playmove "CombatToTakeFlag"
 ~1
 
 removeallweapons res1
+
+~2
+
 res1 playmove "TakeFlagToCombat"
 
 ~2
@@ -222,6 +240,177 @@ playsound "xc2v03"
 titleCut ["","BLACK IN",1]
 
 @camCommitted _camera
+
+#skip
+
+
+
+;lamentin
+;=== 16:47:03
+_camera camSetTarget [-58923.32,85441.85,-5276.81]
+_camera camSetPos [1380.17,5849.48,2.12]
+_camera camSetFOV 0.358
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:47:34
+_camera camSetTarget [-30109.98,100611.01,-5276.46]
+_camera camSetPos [1377.66,5848.21,2.37]
+_camera camSetFOV 0.452
+_camera camCommit 7
+@camCommitted _camera
+
+;tanks
+;=== 16:48:55
+_camera camSetTarget [-97902.89,12665.49,-8745.95]
+_camera camSetPos [1476.73,5880.22,1.25]
+_camera camSetFOV 0.502
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:49:21
+_camera camSetTarget [-95200.27,-16870.03,-11474.49]
+_camera camSetPos [1486.23,5896.93,2.73]
+_camera camSetFOV 0.653
+_camera camCommit 7
+@camCommitted _camera
+
+;defence
+;=== 16:49:48
+_camera camSetTarget [100511.68,18714.31,-1322.92]
+_camera camSetPos [1348.74,5877.24,1.35]
+_camera camSetFOV 0.653
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:50:08
+_camera camSetTarget [97123.16,-22870.04,-1323.29]
+_camera camSetPos [1367.43,5903.72,0.98]
+_camera camSetFOV 0.653
+_camera camCommit 6
+@camCommitted _camera
+;=== 16:50:25
+_camera camSetTarget [91092.92,-38222.07,-1323.71]
+_camera camSetPos [1377.60,5928.10,1.04]
+_camera camSetFOV 0.653
+_camera camCommit 6
+@camCommitted _camera
+
+~1
+
+;frolov
+;=== 16:51:09
+_camera camSetTarget [85990.81,-46870.90,-8475.44]
+_camera camSetPos [1474.89,5892.25,3.00]
+_camera camSetFOV 0.521
+_camera camCommit 0
+@camCommitted _camera
+frolov2 setmimic "normal"
+
+~2
+
+attack=true
+
+;fire!
+;=== 16:52:05
+_camera camSetTarget [-93580.52,-23952.03,-8475.31]
+_camera camSetPos [1478.50,5892.14,2.65]
+_camera camSetFOV 0.860
+_camera camCommit 0
+@camCommitted _camera
+voice2=true
+
+~2
+
+;bomb1
+;=== 16:59:44
+_camera camSetTarget [70650.17,77233.16,-10292.52]
+_camera camSetPos [1356.83,5880.50,1.17]
+_camera camSetFOV 0.524
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+"heat125" camCreate getMarkerPos "bomb1"
+
+~0.05
+
+reb2 setdammage 1
+reb3 setdammage 1
+
+~2
+
+;bomb2
+;=== 17:00:10
+_camera camSetTarget [91239.21,49745.77,-898.79]
+_camera camSetPos [1368.70,5900.98,0.53]
+_camera camSetFOV 0.597
+_camera camCommit 0
+@camCommitted _camera
+
+"heat125" camCreate getMarkerPos "bomb2"
+
+~0.05
+
+reb6 setdammage 1
+reb7 setdammage 1
+reb8 setdammage 1
+
+
+~2
+
+;bomb3
+;=== 17:01:06
+_camera camSetTarget [-18929.05,-91285.43,-11618.77]
+_camera camSetPos [1381.28,5930.83,1.71]
+_camera camSetFOV 0.437
+_camera camCommit 0
+@camCommitted _camera
+
+"heat125" camCreate getMarkerPos "bomb3"
+
+~0.05
+
+reb9 setdammage 1
+
+~1
+
+deletevehicle frolov2
+deletevehicle t3
+deletevehicle t2
+deletevehicle t4
+
+~2
+
+t1 setpos getmarkerpos "udar1"
+t5 setpos getmarkerpos "udar2"
+t6 setpos getmarkerpos "udar3"
+rest1 setpos getmarkerpos "rest1"
+rest2 setpos getmarkerpos "rest2"
+
+;strike
+;=== 18:49:44
+_camera camSetTarget [-95110.20,-16914.09,-12204.98]
+_camera camSetPos [1474.92,5901.81,2.45]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:49:57
+_camera camSetTarget [-94800.36,30587.76,-10952.39]
+_camera camSetPos [1473.68,5895.69,4.08]
+_camera camSetFOV 0.700
+_camera camCommit 8
+@camCommitted _camera
+
+;city
+;=== 18:53:11
+_camera camSetTarget [77750.57,-21823.89,-58014.84]
+_camera camSetPos [1271.97,5946.50,60.18]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+
+
+
 
 
 

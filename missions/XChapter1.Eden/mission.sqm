@@ -57,7 +57,7 @@ class Intro
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.600000;
-					init="[] exec ""07unrest2.sqs""";
+					init="[] exec ""01welcome.sqs""";
 				};
 			};
 		};
