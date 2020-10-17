@@ -199,6 +199,30 @@ class CfgIdentities
     speaker = "Adam";
     pitch = 1.00;
   };
+  class Shaposhnikov
+  {
+    name = "Stas Shaposhnikov";
+    face = "Face36";
+    glasses = "Not";
+    speaker = "Rich";
+	pitch = 0.948077;
+  };
+  class Frolov
+  {
+    name = "Makariy Frolov";
+    face = "Face46";
+    glasses = "Sunglasses";
+    speaker = "Rob";
+    pitch = 1.171655;
+  };
+  class Dostoevsky
+  {
+    name = "Mikhail Dostoevsky";
+    face = "Face21";
+    glasses = "None";
+    speaker = "Tom";
+    pitch = 0.979981;
+  };
   class Epgayd
   {
     name = "James Epgayd";

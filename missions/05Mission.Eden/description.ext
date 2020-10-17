@@ -209,7 +209,7 @@ class CfgSounds
 	{
 		name = "m05v31";
 		sound[] = {"m05v31.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m05v31};
+		titles[] = {0,$STRM_m05v31, 12,$STRM_m05v31a};
 	};
 	class m05v32
 	{
@@ -221,7 +221,7 @@ class CfgSounds
 	{
 		name = "m05v33";
 		sound[] = {"m05v33.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m05v33};
+		titles[] = {0,$STRM_m05v33, 11,$STRM_m05v33a};
 	};
 	class m05v34
 	{

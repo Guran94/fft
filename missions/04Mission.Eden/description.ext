@@ -39,7 +39,7 @@ class CfgSounds
 		sound[] = {"m04v02.ogg", db+10, 1.00};
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
-		titles[] = {0,$STRM_m04v02};
+		titles[] = {0,$STRM_m04v02, 6,$STRM_m04v02a};
 	};
 	class m04v03
 	{

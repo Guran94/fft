@@ -1,0 +1,36 @@
+
+; Bombardovani od Celoushe
+; Vyhrazena jmena: pozice_bomb, bombarduj_misto a grid. Prosim nevyuzivejte
+
+;*************** Nastaven� parametr� bombardov�n� ************************
+_pocet_bomb = 1
+_rozptylx = 0
+_rozptyly = 0
+_prodleva_bomb = (random 1) + 2
+_odezva = (random 5) + 2
+_cil = _this select 0
+_pozice_bomb0 = getpos _cil
+; Mo�n� st�elivo
+; Heat73,Heat105,Heat120,Heat125,Shell73,Shell105,Shell120,Shell125, (AT3,RPG,LAW,CarlGustav,Hellfire nedoporu�uji)
+_typ_streliva = "heat73"
+
+;*************************************************************************
+
+#bombuj
+_x = random _rozptylx
+_y = random _rozptyly
+_a = random 2
+?(_a>=1): _x = -_x
+_a = random 2
+?(_a>=1): _y = -_y
+_pozice_bomb = [(_pozice_bomb0 select 0)+_x,(_pozice_bomb0 select 1)+_y,1]
+
+_typ_streliva CamCreate _pozice_bomb
+_pocet_bomb = _pocet_bomb - 1
+~_prodleva_bomb
+? cista : exit
+?(_pocet_bomb>0): goto "bombuj"
+
+~_odezva
+
+Exit

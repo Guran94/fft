@@ -5,107 +5,111 @@ class CfgSounds
 {
 	sounds[] = { };
 
-	class x02v01
+	class xc2v01
 	{
-		name = "x02v01";
-		sound[] = {"x02v01.ogg", db+10, 1.00};
+		name = "xc2v01";
+		sound[] = {"xc2v01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v01};
+	};
+	class xc2v02
+	{
+		name = "xc2v02";
+		sound[] = {"xc2v02.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_xc2v02};
+	};
+	class xc2v03
+	{
+		name = "xc2v03";
+		sound[] = {"xc2v03.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {};
 	};
-	class x02v02
+	class xc2v04
 	{
-		name = "x02v02";
-		sound[] = {"x02v02.ogg", db+10, 1.00};
+		name = "xc2v04";
+		sound[] = {"xc2v04.ogg", db+10, 1.00};
 		titles[] = {};
 	};
-	class x02v03
+	class xc2v05
 	{
-		name = "x02v03";
-		sound[] = {"x02v03.ogg", db+10, 1.00};
+		name = "xc2v05";
+		sound[] = {"xc2v05.ogg", db+10, 1.00};
 		titles[] = {};
 	};
-	class x02v04
+	class xc2v06
 	{
-		name = "x02v04";
-		sound[] = {"x02v04.ogg", db+10, 1.00};
-		titles[] = {};
+		name = "xc2v06";
+		sound[] = {"xc2v06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v06};
 	};
-	class x02v05
+	class xc2v07
 	{
-		name = "x02v05";
-		sound[] = {"x02v05.ogg", db+10, 1.00};
-		titles[] = {};
+		name = "xc2v07";
+		sound[] = {"xc2v07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v07};
 	};
-	class x02v06
+	class xc2v08
 	{
-		name = "x02v06";
-		sound[] = {"x02v06.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v06};
+		name = "xc2v08";
+		sound[] = {"xc2v08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v08};
 	};
-	class x02v07
+	class xc2v09
 	{
-		name = "x02v07";
-		sound[] = {"x02v07.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v07};
+		name = "xc2v09";
+		sound[] = {"xc2v09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v09};
 	};
-	class x02v08
+	class xc2v10
 	{
-		name = "x02v08";
-		sound[] = {"x02v08.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v08};
+		name = "xc2v10";
+		sound[] = {"xc2v10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v10};
 	};
-	class x02v09
+	class xc2v11
 	{
-		name = "x02v09";
-		sound[] = {"x02v09.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v09};
+		name = "xc2v11";
+		sound[] = {"xc2v11.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v11};
 	};
-	class x02v10
+	class xc2v12
 	{
-		name = "x02v10";
-		sound[] = {"x02v10.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v10};
+		name = "xc2v12";
+		sound[] = {"xc2v12.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v12};
 	};
-	class x02v11
+	class xc2v13
 	{
-		name = "x02v11";
-		sound[] = {"x02v11.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v11};
+		name = "xc2v13";
+		sound[] = {"xc2v13.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v13};
 	};
-	class x02v12
+	class xc2v14
 	{
-		name = "x02v12";
-		sound[] = {"x02v12.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v12};
+		name = "xc2v14";
+		sound[] = {"xc2v14.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v14};
 	};
-	class x02v13
+	class xc2v15
 	{
-		name = "x02v13";
-		sound[] = {"x02v13.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v13};
+		name = "xc2v15";
+		sound[] = {"xc2v15.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v15};
 	};
-	class x02v14
+	class xc2v16
 	{
-		name = "x02v14";
-		sound[] = {"x02v14.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v14};
+		name = "xc2v16";
+		sound[] = {"xc2v16.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v16};
 	};
-	class x02v15
+	class xc2v17
 	{
-		name = "x02v15";
-		sound[] = {"x02v15.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v15};
-	};
-	class x02v16
-	{
-		name = "x02v16";
-		sound[] = {"x02v16.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v16};
-	};
-	class x02v17
-	{
-		name = "x02v17";
-		sound[] = {"x02v17.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x02v17};
+		name = "xc2v17";
+		sound[] = {"xc2v17.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v17};
 	};
 };
 

@@ -41,7 +41,7 @@ class CfgSounds
 	{
 		name = "m03v03";
 		sound[] = {"m03v03.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m03v03};
+		titles[] = {0,$STRM_m03v03, 7,$STRM_m03v03a};
 	};
 };
 
