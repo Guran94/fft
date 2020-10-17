@@ -5,7 +5,8 @@ STRM_ONLOAD_MISSION,Provins base,Základna Provins,loading screen
 
 
 STRM_m04v01,"After the fall of Morton, the enemy gained confidence and the rebellion was getting worse.","Poté, co jsme ztratili Morton, získal nepřítel sebevědomí a vzpoura nabrala spád.",jason
-STRM_m04v02,"After such a big and surprising defeat we did not have to recover for a long time,\nbecause another one came and even bigger.\nAn uprising broke out in Lamentin.\nPeople took up arms and with the help of rebels took over the town.","Po tak velké a překvapivé porážce jsme se nemuseli vzpamatovávat dlouho, poněvadž přišla další a ještě větší.\nV Lamentinu vypuklo povstání. Lidé vzali do rukou zbraně a s pomocí partyzánů ve městě převzali moc.",jason
+STRM_m04v02,"After such a big and surprising defeat we did not have to recover for a long time,\nbecause another one came and even bigger.","Ne",jason
+STRM_m04v02a,"An uprising broke out in Lamentin. People took up arms and with the help of rebels took over the town.","Ne",jason
 STRM_m04v03,"This put Le Moule between a rock and a hard place.\nThe command ordered retreat from the town,\nbut due to the vast forests around the rebels took advantage of it again and attacked.\nOur garrison surrendered there.","Le Moule se tak dostalo do kleští. Velení z města nařídilo ústup, který však byl nemožný.\nKolem lesů se nedalo projít a tak toho rebelové opět využili a zaútočili. Americká posádka ve městě se vzdala.",jason
 STRM_m04v04,Martial law was declared. I took part in several patrols and we had to shoot a few people.,Bylo vyhlášeno stanné právo. Zúčastnil jsem se několika hlídek a pár lidí jsme museli zastřelit.,jason
 STRM_m04v05,Let's go hurry!,"Rychle, pojď!",man

@@ -150,7 +150,7 @@ playsound "m04v10"
 
 ~5
 
-1 fademusic 1
+6 fademusic 1
 ;=== 9:15:32
 _camera camSetTarget [-54562.41,91034.82,-1577.98]
 _camera camSetPos [4552.26,10394.15,4.20]

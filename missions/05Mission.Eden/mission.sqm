@@ -7128,7 +7128,7 @@ class Intro
 					leader=1;
 					skill=0.600000;
 					text="george";
-					init="this setidentity ""player2""; this setbehaviour ""careless""; removeallweapons this";
+					init="this setidentity ""player2""; this setbehaviour ""careless""; removeallweapons this; this addweapon ""hk""";
 				};
 			};
 		};

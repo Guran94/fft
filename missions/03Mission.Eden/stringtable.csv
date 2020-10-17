@@ -5,7 +5,8 @@ STRM_ONLOAD_MISSION,On the road leading to Morton,Na cestě do Mortonu,loadng sc
 
 STRM_m03v01,Let's go boys. Now I don't want to hear any bullshit.,"Jdeme na to, hoši. Už nechci slyšet žádné sračky.",Muday
 STRM_m03v02,"The situation looks worse than we expected.\nMorton has even built fortification for defense, if we lose the town, the rebels are going to gain an advantage.","Situace vypadá hůř, než jsme očekávali.\nMorton dokonce vybudoval obranné opevnění, každopádně jestli město ztratíme, získanou rebelové výhodu.",muday
-STRM_m03v03,"I know none of us rested much and many of you have seen themselves at home, haven't you Twombly?\nHowever, welcome to war, boys! It's not training anymore, so just remember that I have taught you and try to survive!\nUnderstood?","Já vím, že si nikdo z vás pořádně neodpočinul a někteří jste už dokonce viděli doma, že, Twombly?\nNicméně, vítejte ve válce, hoši! Tohle není cvičení, takže takže si pamatujte, co jsem vás naučil a snažte se přežít!\nRozumíte?",Muday
+STRM_m03v03,"I know none of us rested much and many of you have seen themselves at home, haven't you Twombly?\nHowever, welcome to war, boys!","Ne",Muday
+STRM_m03v03a,"It's not training anymore, so just remember that I have taught you and try to survive!\nUnderstood?","Ne",Muday
 
 
 STRM_m03r01,"CONVOY, THIS IS MORTON BASE. WE'VE GOT HEAVY CASUALTIES. WHERE THE FUCK ARE YOU? OVER.","KONVOJI, TADY MORTON, MÁME TU TĚŽKÉ ZTRÁTY, KDE SAKRA VĚZÍTE? PŘEPÍNÁM.",Morton

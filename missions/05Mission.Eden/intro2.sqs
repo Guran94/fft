@@ -12,6 +12,7 @@ george setmimic "normal"
 g1 switchmove "FXStandAtt"
 g1 disableai "autotarget"
 g1 stop true
+george sitchmove "effectstand"
 
 ;americans
 ;=== 10:03:39

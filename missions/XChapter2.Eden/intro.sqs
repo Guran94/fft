@@ -2,23 +2,238 @@ setacctime 1
 titleCut ["","BLACK IN",3]
 playmusic "fft_track3"
 0 fadesound 0
+voice1=false
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-;vlajka
 
-;=== 18:03:33
-_camera camSetTarget [-28522.73,-87407.32,-20098.18]
-_camera camSetPos [2555.13,5473.87,1.09]
+;flag
+;=== 23:23:45
+_camera camSetTarget [-75380.04,32844.95,56444.79]
+_camera camSetPos [2557.03,5469.07,7.64]
+_camera camSetFOV 0.378
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 23:23:54
+_camera camSetTarget [-75380.04,32844.95,56445.10]
+_camera camSetPos [2557.03,5469.07,4.19]
+_camera camSetFOV 0.378
+_camera camCommit 8
+@camCommitted _camera
+
+
+0 fadesound 1
+
+;hind
+;=== 23:21:47
+_camera camSetTarget [99491.38,2311.76,24318.79]
+_camera camSetPos [2522.40,5395.73,1.28]
+_camera camSetFOV 0.545
+_camera camCommit 0
+@camCommitted _camera
+;=== 23:22:00
+_camera camSetTarget [100960.21,22929.05,1687.27]
+_camera camSetPos [2522.40,5395.73,1.28]
+_camera camSetFOV 0.545
+_camera camCommit 9
+@camCommitted _camera
+
+
+stas setmimic "angry"
+
+;stas and rebel
+;=== 14:05:13
+_camera camSetTarget [-86228.48,43615.01,-11441.05]
+_camera camSetPos [4871.53,3996.49,1.42]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 18:03:41
-_camera camSetTarget [-28522.73,-87407.32,-20098.64]
-_camera camSetPos [2555.13,5473.87,6.27]
-_camera camSetFOV 0.700
-_camera camCommit 8
+;=== 14:05:23
+_camera camSetTarget [-90420.66,32071.22,-11440.79]
+_camera camSetPos [4871.60,3996.72,1.42]
+_camera camSetFOV 0.608
+_camera camCommit 3
+
+~2
+
+stas say "xc2v01"
+
+~1
+
+@camCommitted _camera
+
+
+;stas
+;=== 14:06:01
+_camera camSetTarget [-62723.40,-69424.89,6401.78]
+_camera camSetPos [4867.09,3996.62,1.21]
+_camera camSetFOV 0.345
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;both
+;=== 14:07:14
+_camera camSetTarget [78064.91,70877.81,-12962.52]
+_camera camSetPos [4864.78,3994.84,1.82]
+_camera camSetFOV 0.482
+_camera camCommit 0
+@camCommitted _camera
+;=== 14:07:39
+_camera camSetTarget [71143.51,71859.39,-31633.32]
+_camera camSetPos [4865.28,3994.77,2.16]
+_camera camSetFOV 0.609
+_camera camCommit 6
+
+
+res1 playmove "CombatToTakeFlag"
+
+~1
+
+removeallweapons res1
+res1 playmove "TakeFlagToCombat"
+
+~2
+
+res1 switchmove "FxStandSur"
+
+~2
+
+stas setbehaviour "aware"
+
+~1
+
+@camCommitted _camera
+
+stas setmimic "smile"
+
+;stas
+;=== 15:10:59
+_camera camSetTarget [-76295.38,-54187.18,5231.76]
+_camera camSetPos [4867.38,3996.78,1.30]
+_camera camSetFOV 0.436
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+2 fadesound 0
+2 fademusic 0.2
+titleCut ["","BLACK OUT",2]
+
+~2
+
+@camCommitted _camera
+playsound "xc2v02"
+
+~5
+
+titleCut ["","BLACK IN",2]
+
+2 fadesound 1
+2 fademusic 1
+
+dostoevsky disableai "autotarget"
+dostoevsky setmimic "smile"
+deletevehicle (driver mi)
+deletevehicle (gunner mi)
+deletevehicle mi
+
+
+;le moule to frolov
+;=== 11:06:46
+_camera camSetTarget [96375.65,39836.89,-2889.81]
+_camera camSetPos [2559.94,5343.59,2.37]
+_camera camSetFOV 0.389
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:06:59
+_camera camSetTarget [92193.55,44095.11,-21464.43]
+_camera camSetPos [2558.88,5347.42,3.09]
+_camera camSetFOV 0.389
+_camera camCommit 4
+@camCommitted _camera
+
+~1
+
+;off
+;=== 11:07:30
+_camera camSetTarget [64451.44,-72766.38,-8014.10]
+_camera camSetPos [2554.68,5357.50,1.50]
+_camera camSetFOV 0.389
+_camera camCommit 4
+@camCommitted _camera
+
+voice1=true
+dostoevsky switchmove "fxshow1"
+
+~4
+
+
+;off closer
+;=== 11:19:10
+_camera camSetTarget [98249.23,34035.05,-4397.31]
+_camera camSetPos [2556.01,5351.35,1.51]
+_camera camSetFOV 0.389
+_camera camCommit 4
+@camCommitted _camera
+
+;=== 11:08:58
+_camera camSetTarget [-15646.37,102456.97,15540.99]
+_camera camSetPos [2559.65,5351.27,1.18]
+_camera camSetFOV 0.389
+_camera camCommit 4
+@camCommitted _camera
+
+~2
+
+dostoevsky dowatch [2494.38,5347.80,11.93]
+
+;tanks move
+;=== 11:10:28
+_camera camSetTarget [-89135.68,-34268.10,-4257.47]
+_camera camSetPos [2575.22,5358.82,1.13]
+_camera camSetFOV 0.411
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:11:33
+_camera camSetTarget [-95888.95,-8402.12,-10642.82]
+_camera camSetPos [2577.39,5357.63,4.40]
+_camera camSetFOV 0.411
+_camera camCommit 6
+
+
+~5
+
+1 fadesound 0
+1 fademusic 0.2
+titleCut ["","BLACK OUT",1]
+
+~2
+
+@camCommitted _camera
+playsound "xc2v03"
+
+~5
+
+titleCut ["","BLACK IN",1]
+
+@camCommitted _camera
+
+
+
+
+
+
+
+
+
+
+
+
 
 ~7
 
