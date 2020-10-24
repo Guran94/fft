@@ -181,7 +181,7 @@ _camera camCommit 0
 @camCommitted _camera
 
 
-Vadim dowatch [7268.97,6795.52,1.68]
+Vadim dowatch [7268.95,6795.97,2.00]
 Vadim setpos getmarkerpos "sergei"
 Vadim setdir 0
 Vadim playmove "fxshow3"

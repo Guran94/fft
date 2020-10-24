@@ -1,5 +1,5 @@
 titleCut ["","BLACK IN",3]
-playmusic "Track2"
+playmusic "RTrack5"
 setacctime 1
 phill setmimic "normal"
 phill switchMove "FXSitHandsOnTable"
@@ -9,20 +9,18 @@ _camera cameraeffect ["internal","back"]
 
 
 ;base
-;=== 10:42:31
-_camera camSetTarget [-6642.67,101896.47,-27471.75]
-_camera camSetPos [7301.83,6768.95,1.20]
-_camera camSetFOV 0.700
+;=== 16:14:35
+_camera camSetTarget [60005.23,-78185.62,32.43]
+_camera camSetPos [7300.58,6798.02,6.60]
+_camera camSetFOV 0.454
 _camera camCommit 0
 @camCommitted _camera
-;=== 10:40:39
-_camera camSetTarget [-59566.25,73652.78,-32402.64]
-_camera camSetPos [7307.56,6756.78,17.32]
-_camera camSetFOV 0.700
-_camera camCommit 6
+;=== 16:14:54
+_camera camSetTarget [-22959.33,-88175.40,-7942.00]
+_camera camSetPos [7300.77,6801.94,7.07]
+_camera camSetFOV 0.529
+_camera camCommit 8
 @camCommitted _camera
-
-~1
 
 ;guard
 ;=== 21:04:03

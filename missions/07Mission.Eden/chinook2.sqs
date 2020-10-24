@@ -1,7 +1,7 @@
 setacctime 1
 hrac addrating 500
 nomontignac=true
-yesmontignac=false
+
 [sol1, sol2] join hrac
 sol1 say "m07v10"
 

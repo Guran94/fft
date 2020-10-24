@@ -19,7 +19,8 @@ away4=false
 outro=false
 enableradio false
 allowed=true
-yesmontignac=true
+nomontignac=false
+yesmontignac=false
 pokracujem=false
 
 serza say "m07v01"

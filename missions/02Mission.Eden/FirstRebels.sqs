@@ -1,0 +1,5 @@
+setacctime 1
+savegame
+leader player groupradio "m02r11"
+
+exit

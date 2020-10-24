@@ -9,7 +9,7 @@ voj3 setmimic "normal"
 voj4 setmimic "normal"
 voj5 setmimic "normal"
 voj6 setmimic "normal"
-"3" objstatus "hidden"
+"4" objstatus "hidden"
 alarm=true
 papa=[West, "HQ"]
 setacctime 1

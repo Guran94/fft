@@ -1,0 +1,7 @@
+setacctime 1
+leader player say "m03v04"
+m113 lock false
+savegame
+resistance1=true
+
+exit

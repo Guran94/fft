@@ -1,0 +1,12 @@
+setacctime 1
+
+savegame
+
+~2
+
+setacctime 1
+leader player groupradio "m02r13"
+gohome=true
+
+
+exit

@@ -99,9 +99,9 @@ playsound "m04v07"
 _camera camSetTarget [-94623.48,14935.91,-3995.14]
 _camera camSetPos [4977.49,7037.22,0.52]
 _camera camSetFOV 0.637
-_camera camCommit 7
+_camera camCommit 10
 
-~6
+~9
 
 2 fadesound 0
 2 fademusic 0.2

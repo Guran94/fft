@@ -97,6 +97,12 @@ class CfgSounds
 		sound[] = {"mess.ogg", db+10, 1.00};
 		titles[] = {};
 	};
+	class m02bonus1
+	{
+		name = "m02bonus1";
+		sound[] = {"m02bonus1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m02bonus1};
+	};
 };
 
 
@@ -145,5 +151,41 @@ class CfgRadio
 		name = "m02r07";
 		sound[] = {"m02r07.ogg", db+10, 1.00};
 		title = $STRM_m02r07;
+	};
+	class m02r08
+	{
+		name = "m02r08";
+		sound[] = {"m02r08.ogg", db+10, 1.00};
+		title = $STRM_m02r08;
+	};
+	class m02r09
+	{
+		name = "m02r09";
+		sound[] = {"m02r09.ogg", db+10, 1.00};
+		title = $STRM_m02r09;
+	};
+	class m02r10
+	{
+		name = "m02r10";
+		sound[] = {"m02r10.ogg", db+10, 1.00};
+		title = $STRM_m02r10;
+	};
+	class m02r11
+	{
+		name = "m02r11";
+		sound[] = {"m02r11.ogg", db+10, 1.00};
+		title = $STRM_m02r11;
+	};
+	class m02r12
+	{
+		name = "m02r12";
+		sound[] = {"m02r12.ogg", db+10, 1.00};
+		title = $STRM_m02r12;
+	};
+	class m02r13
+	{
+		name = "m02r13";
+		sound[] = {"m02r13.ogg", db+10, 1.00};
+		title = $STRM_m02r13;
 	};
 };
