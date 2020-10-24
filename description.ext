@@ -26,6 +26,12 @@ class CfgSounds
 		sound[] = {"resistance.ogg", db+10, 1.00};
 		titles[] = {};
 	};
+	class hit
+	{
+		name = "hit";
+		sound[] = {"hit.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class yeah
 	{
 		name = "yeah";
@@ -388,7 +394,7 @@ class Campaign
   class 01Mission: MissionDefault
   {
     end1 = 02Mission;
-    end2 = ;
+    end2 = 01Mission;
     end3 = ;
     end4 = ;
     end5 = ;
@@ -444,7 +450,7 @@ class Campaign
 
   class Chapter2
   {
-  name = "New battle of Everon";
+  name = "Black day";
 
   cutscene = ;
 

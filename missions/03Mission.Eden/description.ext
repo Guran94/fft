@@ -43,6 +43,18 @@ class CfgSounds
 		sound[] = {"m03v03.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m03v03, 7,$STRM_m03v03a};
 	};
+	class m03v04
+	{
+		name = "m03v04";
+		sound[] = {"m03v04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m03v04};
+	};
+	class m03bonus1
+	{
+		name = "m03bonus1";
+		sound[] = {"m03bonus1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m03bonus1};
+	};
 };
 
 
@@ -103,5 +115,35 @@ class CfgRadio
 		name = "m03r09";
 		sound[] = {"m03r09.ogg", db+10, 1.00};
 		title = $STRM_m03r09;
+	};
+	class m03r10
+	{
+		name = "m03r10";
+		sound[] = {"m03r10.ogg", db+10, 1.00};
+		title = $STRM_m03r10;
+	};
+	class m03r11
+	{
+		name = "m03r11";
+		sound[] = {"m03r11.ogg", db+10, 1.00};
+		title = $STRM_m03r11;
+	};
+	class m03r12
+	{
+		name = "m03r12";
+		sound[] = {"m03r12.ogg", db+10, 1.00};
+		title = $STRM_m03r12;
+	};
+	class m03r13
+	{
+		name = "m03r13";
+		sound[] = {"m03r13.ogg", db+10, 1.00};
+		title = $STRM_m03r13;
+	};
+	class m03r14
+	{
+		name = "m03r14";
+		sound[] = {"m03r14.ogg", db+10, 1.00};
+		title = $STRM_m03r14;
 	};
 };

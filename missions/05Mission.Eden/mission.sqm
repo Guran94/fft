@@ -3545,7 +3545,7 @@ class Mission
 			azimut=235.000000;
 			id=37;
 			side="EMPTY";
-			vehicle="HMMWV";
+			vehicle="Jeep";
 			lock="LOCKED";
 			skill=0.600000;
 		};

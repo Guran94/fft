@@ -34,6 +34,10 @@ dum=true
 away=true
 papa=[West, "HQ"]
 enableradio false
+kulomet setdammage 1
+counting=false
+retreat=false
+resistance1=false
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
@@ -79,7 +83,7 @@ setacctime 1
 morton sideradio "m03r01"
 m2 sideradio "m03r02"
 
-~10
+~8
 
 setacctime 1
 serza say "m03v01"

@@ -11,16 +11,18 @@ serza say "m01v27"
 ~7
 
 car lock false
-[voj5, voj6] join grpnull
-[hrac, voj5, voj6] join serza
+
 hrac say "m01v28"
 
-~2
+~1
 
 serza say "m01v29"
 
 ~5
 
+[voj5, voj6] join grpnull
+[hrac, voj5, voj6] join serza
+enableradio true
 "ukol2" setmarkertype "warning"
 hint localize "STRM_m01h3"
 dolesa=true

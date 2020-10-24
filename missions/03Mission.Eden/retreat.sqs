@@ -1,11 +1,9 @@
 setacctime 1
 away=false
-posledni=true
-papa sideradio "m03r07"
-
-~3
-
-kulomet setdammage 1
+morton sideradio "m03r10"
+papa sideradio "m03r11"
+morton sideradio "m03r12"
+papa sideradio "m03r13"
 
 ~10
 
@@ -13,18 +11,9 @@ kulomet setdammage 1
 0 fademusic 0.2
 playMusic ["chaptertheme", 63]
 "q2" setmarkertype "end"
-car1 domove getmarkerpos "q2"
-car2 domove getmarkerpos "q2"
 zustat=false
-stahnout=true
-morton sideradio "m03r08"
-zustat=false
-stahnout=true
-dum=false
-well=true
-kulomet setdammage 1
+retreat=true
 "1" objstatus "failed"
 "2" objstatus "active"
-papa sideradio "m03r09"
 
 exit

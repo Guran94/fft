@@ -5,6 +5,8 @@ playmusic "fft_track3"
 voice1=false
 voice2=false
 attack=false
+bino=false
+getin=false
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
@@ -19,8 +21,6 @@ reb7 setcombatmode "blue"
 reb8 setcombatmode "blue"
 reb9 setcombatmode "blue"
 reb10 setcombatmode "blue"
-
-goto "skip"
 
 0 fadesound 0
 ;flag
@@ -90,6 +90,7 @@ _camera camCommit 0
 
 ~2
 
+titletext [ localize "","plain"]
 ;both
 ;=== 14:07:14
 _camera camSetTarget [78064.91,70877.81,-12962.52]
@@ -144,10 +145,9 @@ titleCut ["","BLACK OUT",2]
 
 ~2
 
-@camCommitted _camera
 playsound "xc2v02"
 
-~5
+~6
 
 titleCut ["","BLACK IN",2]
 
@@ -160,7 +160,7 @@ deletevehicle (driver mi)
 deletevehicle (gunner mi)
 deletevehicle mi
 
-
+titletext [ localize "","plain"]
 ;le moule to frolov
 ;=== 11:06:46
 _camera camSetTarget [96375.65,39836.89,-2889.81]
@@ -168,6 +168,9 @@ _camera camSetPos [2559.94,5343.59,2.37]
 _camera camSetFOV 0.389
 _camera camCommit 0
 @camCommitted _camera
+
+~1
+
 ;=== 11:06:59
 _camera camSetTarget [92193.55,44095.11,-21464.43]
 _camera camSetPos [2558.88,5347.42,3.09]
@@ -230,20 +233,20 @@ _camera camCommit 6
 1 fademusic 0.2
 titleCut ["","BLACK OUT",1]
 
-~2
+~1
 
 @camCommitted _camera
 playsound "xc2v03"
 
-~5
+~10
+
+titletext [ localize "","plain"]
+1 fadesound 1
+1 fademusic 1
 
 titleCut ["","BLACK IN",1]
 
 @camCommitted _camera
-
-#skip
-
-
 
 ;lamentin
 ;=== 16:47:03
@@ -259,41 +262,35 @@ _camera camSetFOV 0.452
 _camera camCommit 7
 @camCommitted _camera
 
-;tanks
-;=== 16:48:55
-_camera camSetTarget [-97902.89,12665.49,-8745.95]
-_camera camSetPos [1476.73,5880.22,1.25]
-_camera camSetFOV 0.502
+;flag
+;=== 11:43:55
+_camera camSetTarget [14998.40,-93109.52,64.19]
+_camera camSetPos [1356.59,5958.99,5.63]
+_camera camSetFOV 0.365
 _camera camCommit 0
 @camCommitted _camera
-;=== 16:49:21
-_camera camSetTarget [-95200.27,-16870.03,-11474.49]
-_camera camSetPos [1486.23,5896.93,2.73]
-_camera camSetFOV 0.653
+;=== 11:44:19
+_camera camSetTarget [83735.17,-50727.55,64.52]
+_camera camSetPos [1351.66,5955.41,5.68]
+_camera camSetFOV 0.365
+_camera camCommit 5
+@camCommitted _camera
+
+;red army
+;=== 17:04:37
+_camera camSetTarget [-97035.38,-9818.41,-6653.91]
+_camera camSetPos [1494.43,5885.14,1.34]
+_camera camSetFOV 0.481
+_camera camCommit 0
+@camCommitted _camera
+;=== 17:05:02
+_camera camSetTarget [-97676.42,-5026.10,-6653.49]
+_camera camSetPos [1497.67,5893.31,1.89]
+_camera camSetFOV 0.481
 _camera camCommit 7
 @camCommitted _camera
 
-;defence
-;=== 16:49:48
-_camera camSetTarget [100511.68,18714.31,-1322.92]
-_camera camSetPos [1348.74,5877.24,1.35]
-_camera camSetFOV 0.653
-_camera camCommit 0
-@camCommitted _camera
-;=== 16:50:08
-_camera camSetTarget [97123.16,-22870.04,-1323.29]
-_camera camSetPos [1367.43,5903.72,0.98]
-_camera camSetFOV 0.653
-_camera camCommit 6
-@camCommitted _camera
-;=== 16:50:25
-_camera camSetTarget [91092.92,-38222.07,-1323.71]
-_camera camSetPos [1377.60,5928.10,1.04]
-_camera camSetFOV 0.653
-_camera camCommit 6
-@camCommitted _camera
-
-~1
+2 fademusic 0
 
 ;frolov
 ;=== 16:51:09
@@ -385,6 +382,19 @@ t5 setpos getmarkerpos "udar2"
 t6 setpos getmarkerpos "udar3"
 rest1 setpos getmarkerpos "rest1"
 rest2 setpos getmarkerpos "rest2"
+reb1 setcombatmode "red"
+reb2 setcombatmode "red"
+reb3 setcombatmode "red"
+reb4 setcombatmode "red"
+reb5 setcombatmode "red"
+reb6 setcombatmode "red"
+reb7 setcombatmode "red"
+reb8 setcombatmode "red"
+reb9 setcombatmode "red"
+reb10 setcombatmode "red"
+
+0 fademusic 1
+playmusic "fft_track2"
 
 ;strike
 ;=== 18:49:44
@@ -408,139 +418,286 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
+~6
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-~7
-
-titleCut ["","BLACK OUT",1]
-
-~2
-
-titleCut ["","BLACK IN",1]
-0 fadesound 1
-
-;kontolni stanoviste
-
-;=== 18:04:15
-_camera camSetTarget [-9370.07,104612.59,80.91]
-_camera camSetPos [2655.31,5338.27,1.37]
-_camera camSetFOV 0.488
+;t55_1
+;=== 16:45:01
+_camera camSetTarget [-82493.05,60451.93,63.59]
+_camera camSetPos [1329.86,5913.81,1.40]
+_camera camSetFOV 0.511
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~2
 
-2 fadesound 0
-2 fademusic 0.2
-titleCut ["","BLACK OUT",1]
+
+rus1 setpos getmarkerpos "rus1"
+rus2 setpos getmarkerpos "rus2"
+rus3 setpos getmarkerpos "rus3"
+rus4 setpos getmarkerpos "rus4"
+rus5 setpos getmarkerpos "rus5"
+rus6 setpos getmarkerpos "rus6"
+rus7 setpos getmarkerpos "rus7"
+rus8 setpos getmarkerpos "rus8"
+rus9 setpos getmarkerpos "rus9"
+
+
+;t55_2
+;=== 16:45:46
+_camera camSetTarget [93200.42,-33539.85,63.47]
+_camera camSetPos [1330.83,5954.54,1.61]
+_camera camSetFOV 0.511
+_camera camCommit 0
+@camCommitted _camera
 
 ~2
 
-playsound "x02v01"
-titletext [localize "STRM_x02v01","plain"]
+reb1 setdammage 1
+reb2 setdammage 1
+reb3 setdammage 1
+reb4 setdammage 1
+reb5 setdammage 1
+reb6 setdammage 1
+reb7 setdammage 1
+reb8 setdammage 1
+reb9 setdammage 1
+reb10 setdammage 1
+
+;sniper
+;=== 16:54:57
+_camera camSetTarget [73028.74,-63597.67,71.81]
+_camera camSetPos [1252.43,6030.77,0.35]
+_camera camSetFOV 0.239
+_camera camCommit 0
+@camCommitted _camera
+
+lamentin setflagOwner greg
+
+sniper setdir 140
+
+~2
+
+lamentin setflagtexture "rus_vlajka.pac"
+
+lamentin setflagOwner objnull
+greg setflagOwner objnull
+
+deletevehicle ural2
+greg setmimic "angry"
+greg disableai "autotarget"
+greg setdir 140
+greg setbehaviour "combat"
+greg switchmove "crouch"
+greg setunitpos "up"
+greg setpos getmarkerpos "greg"
 
 ~8
 
-2 fadesound 1
-2 fademusic 1
-titleCut ["","BLACK IN",1]
+playsound "hit"
+sniper setdammage 1
 
-;mrtvej
+~2
 
-;=== 19:33:09
-_camera camSetTarget [23797.87,99670.41,-22554.85]
-_camera camSetPos [3470.27,4419.90,0.50]
-_camera camSetFOV 0.451
+;to greg
+;=== 16:55:27
+_camera camSetTarget [87963.11,-43706.80,-2567.58]
+_camera camSetPos [1250.47,6032.52,0.83]
+_camera camSetFOV 0.239
+_camera camCommit 5
+@camCommitted _camera
+;=== 16:56:09
+_camera camSetTarget [100476.85,18331.66,1726.01]
+_camera camSetPos [1250.24,6030.70,0.83]
+_camera camSetFOV 0.239
+_camera camCommit 3
+@camCommitted _camera
+
+5 fademusic 0
+
+;=== 16:56:36
+_camera camSetTarget [-62577.31,82907.23,3967.77]
+_camera camSetPos [1254.71,6029.27,0.71]
+_camera camSetFOV 0.239
+_camera camCommit 3
+@camCommitted _camera
+
+~2
+
+
+bino=true
+jean removeweapon "binocular"
+jean setmimic "angry"
+jean setpos getmarkerpos "jean"
+jean setdir 285
+jean disableai "autotarget"
+
+hugo setmimic "normal"
+hugo setpos getmarkerpos "hugo"
+hugo setdir 285
+hugo disableai "autotarget"
+
+pv1 setpos getmarkerpos "pv1"
+pv2 setpos getmarkerpos "pv2"
+
+surv1 setpos getmarkerpos "surv1"
+surv2 setpos getmarkerpos "surv2"
+surv3 setpos getmarkerpos "surv3"
+surv4 setpos getmarkerpos "surv4"
+surv5 setpos getmarkerpos "surv5"
+surv6 setpos getmarkerpos "surv6"
+surv7 setpos getmarkerpos "surv7"
+surv8 setpos getmarkerpos "surv8"
+surv9 setpos getmarkerpos "surv19"
+surv10 setpos getmarkerpos "surv10"
+
+surv1 disableai "autotarget"
+surv2 disableai "autotarget"
+surv3 disableai "autotarget"
+surv4 disableai "autotarget"
+surv5 disableai "autotarget"
+surv6 disableai "autotarget"
+surv7 disableai "autotarget"
+surv8 disableai "autotarget"
+surv9 disableai "autotarget"
+surv10 disableai "autotarget"
+
+surv1 setdir 285
+surv2 setdir 285
+surv3 setdir 285
+surv4 setdir 285
+surv5 setdir 285
+surv6 setdir 285
+surv7 setdir 285
+surv8 setdir 285
+surv9 setdir 285
+surv10 setdir 285
+
+;binocular
+showCinemaBorder false
+cutrsc ["binocular","plain down",0.05]
+
+
+;=== 11:54:10
+_camera camSetTarget [-91770.17,40617.84,-5638.81]
+_camera camSetPos [1791.99,5785.66,17.22]
+_camera camSetFOV 0.070
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~2
 
-[rus, bvp] exec "eject.sqs"
-;bvp
+playsound "xc2v04"
 
-;=== 19:33:23
-_camera camSetTarget [-50333.27,88709.13,-591.25]
-_camera camSetPos [3470.27,4419.90,0.50]
-_camera camSetFOV 0.451
-_camera camCommit 2
+~4
+
+jean addweapon "binocular"
+titletext [ localize "","plain"]
+jean switchmove "BinocStandToStand"
+ShowCinemaBorder true
+CutRSC ["Default","Plain Down",100]
+
+;both
+;=== 12:42:09
+_camera camSetTarget [96378.44,31684.13,19990.37]
+_camera camSetPos [1861.89,5783.65,1.48]
+_camera camSetFOV 0.418
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+jean say "xc2v05"
+jean removeweapon "binocular"
+
+~2
+
+titletext [ localize "","plain"]
+hugo dowatch [1877.65,5782.10,1.39]
+
+
+;hugo
+;=== 9:52:43
+_camera camSetTarget [-90665.74,-31407.35,-7279.83]
+_camera camSetPos [1867.67,5786.00,1.08]
+_camera camSetFOV 0.323
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+getin=true
+hugo setbehaviour "aware"
+hugo say "xc2v06"
+hugo move getmarkerpos "pv1"
+
+
+~2
+
+titletext [ localize "","plain"]
+hugo setspeedmode "full"
+jean dowatch [1877.65,5782.10,1.39]
+
+;all
+;=== 9:53:18
+_camera camSetTarget [95631.06,-27751.26,9165.92]
+_camera camSetPos [1859.26,5787.13,2.41]
+_camera camSetFOV 0.459
+_camera camCommit 0
 @camCommitted _camera
 
 ~5
 
-2 fadesound 0
-2 fademusic 0.2
-titleCut ["","BLACK OUT",1]
-
-~2
-
-playsound "x02v02"
-titletext [localize "STRM_x02v02","plain"]
-
-~12
-
-2 fadesound 1
-2 fademusic 1
-titleCut ["","BLACK IN",1]
-
-;nasi
-
-;=== 7:56:54
-_camera camSetTarget [62544.62,85589.02,7256.53]
-_camera camSetPos [4684.21,4346.81,2.00]
-_camera camSetFOV 0.447
+titletext [ localize "","plain"]
+;angry jean
+;=== 10:00:02
+_camera camSetTarget jean
+_camera camSetPos [1866.36,5784.87,1.23]
+_camera camSetFOV 0.151
 _camera camCommit 0
 @camCommitted _camera
 
-~3
-
-jed=true
-
 ~2
 
-;=== 7:57:23
-_camera camSetTarget [-46462.95,89804.78,9048.32]
-_camera camSetPos [4684.21,4346.81,2.00]
-_camera camSetFOV 0.447
-_camera camCommit 5
-@camCommitted _camera
-;=== 7:57:23
-_camera camSetTarget tank
-_camera camSetPos [4684.21,4346.81,2.00]
-_camera camSetFOV 0.447
-_camera camCommit 5
+jean say "xc2v07"
 
 ~3
 
 2 fadesound 0
-2 fademusic 0.2
 titleCut ["","BLACK OUT",2]
 
 ~2
 
-playsound "x02v03"
-titletext [localize "STRM_x02v03","plain"]
+playsound "xc2v08"
 
-~11
+~8
 
-titleCut ["","BLACK IN",1]
+titleCut ["","BLACK IN",2]
 
+2 fademusic 0.5
 2 fadesound 1
-2 fademusic 1
+
+g1 switchmove "FXStandAtt"
+g1 disableai "autotarget"
+g1 stop true
+g2 switchmove "FXStandAtt"
+g2 disableai "autotarget"
+g2 stop true
+
+deletevehicle surv1
+deletevehicle surv2
+deletevehicle surv3
+deletevehicle surv4
+deletevehicle surv5
+deletevehicle surv6
+deletevehicle surv7
+deletevehicle surv8
+deletevehicle surv9
+deletevehicle surv10
+deletevehicle pv1
+deletevehicle pv2
+deletevehicle hugo
+deletevehicle jean
+
 ;montignac
 
 jed2=true
@@ -572,38 +729,42 @@ _camera camSetFOV 0.385
 _camera camCommit 0
 @camCommitted _camera
 
-playsound "x02v04"
-titletext [localize "STRM_x02v04","plain"]
+playsound "xc2v09"
 
 ;=== 8:23:48
 _camera camSetTarget [-70720.66,71133.14,-11847.41]
 _camera camSetPos [5009.45,6940.75,10.69]
 _camera camSetFOV 0.385
-_camera camCommit 13
+_camera camCommit 11
 @camCommitted _camera
 
-playsound "x02v05"
-titletext [localize "STRM_x02v05","plain"]
+playsound "xc2v10"
+
 ;=== 8:24:12
 _camera camSetTarget [-80028.52,55662.04,-19911.18]
 _camera camSetPos [4982.57,6980.19,9.63]
 _camera camSetFOV 0.385
 _camera camCommit 4
-@camCommitted _camera
+
+~2
 
 titleCut ["","BLACK OUT",2]
 
-~3
+~2
+
+@camCommitted _camera
+
+~0.5
 
 titleCut ["","BLACK IN",2]
 
-;james
+;steve
 
-james setmimic "angry"
+steve setmimic "angry"
 muday setmimic "normal"
 dan setmimic "normal"
-james switchmove "effectstandtalk"
-james say "x02v06"
+steve switchmove "effectstandtalk"
+steve say "xc2v11"
 
 ;=== 16:11:52
 _camera camSetTarget [60333.00,89914.65,-7411.52]
@@ -615,13 +776,13 @@ _camera camCommit 0
 _camera camSetTarget [68517.64,83889.75,-6661.71]
 _camera camSetPos [4949.95,6995.90,1.50]
 _camera camSetFOV 0.360
-_camera camCommit 8
+_camera camCommit 7
 @camCommitted _camera
 
 ;muday
 
-james switchmove "effectstand"
-muday say "x02v07"
+steve switchmove "effectstand"
+muday say "xc2v12"
 
 ;=== 16:13:56
 _camera camSetTarget [-86015.73,-33347.05,-9698.35]
@@ -632,8 +793,8 @@ _camera camCommit 0
 
 ~6
 
-james switchmove "effectstand"
-;james
+steve switchmove "effectstand"
+;steve
 
 ;=== 16:15:25
 _camera camSetTarget [74550.26,-64583.92,-5463.68]
@@ -652,15 +813,12 @@ _camera camSetPos [4951.54,6996.88,1.78]
 _camera camSetFOV 0.383
 _camera camCommit 0
 @camCommitted _camera
-dan say "x02v08"
+dan say "xc2v13"
 muday setdir 180
 
-~12
+~11
 
-;george a muday
-muday setmimic "angry"
-muday say "x02v09"
-
+;george and muday
 ;=== 16:18:38
 _camera camSetTarget [-72661.16,69149.98,-10486.78]
 _camera camSetPos [4951.13,6996.51,1.42]
@@ -671,17 +829,23 @@ _camera camCommit 0
 _camera camSetTarget [-94361.05,8293.71,-11482.80]
 _camera camSetPos [4950.85,6997.50,1.53]
 _camera camSetFOV 0.818
-_camera camCommit 12
+_camera camCommit 14
+
+muday setmimic "angry"
+muday say "xc2v14"
+
+~12
+
+dan say "xc2v15"
+
+~2
+
 @camCommitted _camera
-
-dan say "x02v10"
-
-~3
 
 muday setmimic "normal"
 muday setdir 115
-james setmimic "normal"
-james say "x02v11"
+steve setmimic "normal"
+steve say "xc2v16"
 
 ;vsichni
 
@@ -698,7 +862,7 @@ _camera camSetFOV 0.700
 _camera camCommit 9
 @camCommitted _camera
 
-muday say "x02v12"
+muday say "xc2v17"
 muday playmove "effectstandsalute"
 
 ~1
@@ -713,7 +877,7 @@ _camera camSetPos [4951.54,6996.88,1.78]
 _camera camSetFOV 0.383
 _camera camCommit 0
 @camCommitted _camera
-dan say "x02v13"
+dan say "xc2v18"
 
 ~2
 
@@ -725,11 +889,11 @@ _camera camSetPos [4950.79,6999.70,1.54]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-james say "x02v14"
+steve say "xc2v19"
 
 ~5
 
-james switchmove "FxStandRotateTable"
+steve switchmove "FxStandRotateTable"
 
 ~3
 
@@ -741,9 +905,9 @@ _camera camSetPos [4951.54,6996.88,1.78]
 _camera camSetFOV 0.383
 _camera camCommit 0
 @camCommitted _camera
-dan say "x02v15"
+dan say "xc2v20"
 
-~3
+~4
 
 ;zeshora
 
@@ -753,13 +917,13 @@ _camera camSetPos [4949.74,6997.60,2.30]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-james say "x02v16"
-
-~2
-
-james switchmove "FXStandShowTable"
+steve say "xc2v21"
 
 ~1
+
+steve switchmove "FXStandShowTable"
+
+~2
 
 titleCut ["","BLACK OUT",2]
 
@@ -768,21 +932,24 @@ titleCut ["","BLACK OUT",2]
 2 fademusic 1
 playMusic ["chaptertheme", 9.5]
 titletext [ localize "STRM_x02v17","plain"]
-playsound "x02v17"
+playsound "xc2v22"
 
 ~3
 
-titletext [ localize "STRM_t1","plain"]
+titletext [ localize "STRM_xc2t1","plain"]
 
 ~6
 
-titletext [ localize "STRM_t2","plain"]
+titletext [ localize "STRM_xc2t2","plain"]
 
 ~3
 
 5 fademusic 0
 
 ~5
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
 
 konec=true
 

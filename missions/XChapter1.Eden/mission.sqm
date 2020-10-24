@@ -1504,7 +1504,7 @@ class Intro
 					azimut=50.000000;
 					id=127;
 					side="CIV";
-					vehicle="Jawa";
+					vehicle="Kolo";
 					leader=1;
 					skill=0.600000;
 					text="car1";

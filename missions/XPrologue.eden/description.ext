@@ -76,13 +76,13 @@ class CfgSounds
 	{
 		name = "x00v06";
 		sound[] = {"x00v06.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x00v06};
+		titles[] = {0,$STRM_x00v06, 4,$STRM_x00v06a};
 	};
 	class x00v07
 	{
 		name = "x00v07";
 		sound[] = {"x00v07.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_x00v07};
+		titles[] = {0,$STRM_x00v07, 8,$STRM_x00v07a};
 	};
 	class x00v08
 	{

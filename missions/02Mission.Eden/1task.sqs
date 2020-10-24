@@ -1,0 +1,7 @@
+setacctime 1
+"1" objstatus "done"
+UnassignVehicle hrac
+hrac addrating 1000
+leader player groupradio "m02r08"
+
+exit

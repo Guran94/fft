@@ -1,4 +1,4 @@
-onLoadMission="$STR_ONLOAD_MISSION";
+onLoadMission="$STRM_ONLOAD_MISSION";
 onLoadMissionTime = true;
 
 MinScore = 1000

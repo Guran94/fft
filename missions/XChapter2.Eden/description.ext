@@ -25,19 +25,19 @@ class CfgSounds
 		sound[] = {"xc2v03.ogg", db+10, 1.00};
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
-		titles[] = {};
+		titles[] = {0,$STRM_xc2v03};
 	};
 	class xc2v04
 	{
 		name = "xc2v04";
 		sound[] = {"xc2v04.ogg", db+10, 1.00};
-		titles[] = {};
+		titles[] = {0,$STRM_xc2v04};
 	};
 	class xc2v05
 	{
 		name = "xc2v05";
 		sound[] = {"xc2v05.ogg", db+10, 1.00};
-		titles[] = {};
+		titles[] = {0,$STRM_xc2v05};
 	};
 	class xc2v06
 	{
@@ -55,18 +55,24 @@ class CfgSounds
 	{
 		name = "xc2v08";
 		sound[] = {"xc2v08.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc2v08};
 	};
 	class xc2v09
 	{
 		name = "xc2v09";
 		sound[] = {"xc2v09.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc2v09};
 	};
 	class xc2v10
 	{
 		name = "xc2v10";
 		sound[] = {"xc2v10.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
 		titles[] = {0,$STRM_xc2v10};
 	};
 	class xc2v11
@@ -110,6 +116,38 @@ class CfgSounds
 		name = "xc2v17";
 		sound[] = {"xc2v17.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_xc2v17};
+	};
+	class xc2v18
+	{
+		name = "xc2v18";
+		sound[] = {"xc2v18.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v18};
+	};
+	class xc2v19
+	{
+		name = "xc2v19";
+		sound[] = {"xc2v19.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v19};
+	};
+	class xc2v20
+	{
+		name = "xc2v20";
+		sound[] = {"xc2v20.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v20};
+	};
+	class xc2v21
+	{
+		name = "xc2v21";
+		sound[] = {"xc2v21.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc2v21};
+	};
+	class xc2v22
+	{
+		name = "xc2v22";
+		sound[] = {"xc2v22.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_xc2v22};
 	};
 };
 

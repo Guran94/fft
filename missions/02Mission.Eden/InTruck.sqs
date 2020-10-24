@@ -1,7 +1,7 @@
 setacctime 1
 car lock true
 0 fademusic 0.2
-0 fadesouns 0.2
+0 fadesound 0.2
 awaymon=false
 
 exit

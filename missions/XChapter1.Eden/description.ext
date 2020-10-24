@@ -63,13 +63,13 @@ class CfgSounds
 		sound[] = {"xc1v06.ogg", db+10, 1.00};
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
-		titles[] = {0,$STRM_xc1v06};
+		titles[] = {0,$STRM_xc1v06, 6,$STRM_xc1v06a};
 	};
 	class xc1v07
 	{
 		name = "xc1v07";
 		sound[] = {"xc1v07.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_xc1v07};
+		titles[] = {0,$STRM_xc1v07, 5,$STRM_xc1v07a};
 	};
 	class xc1v08
 	{
@@ -151,7 +151,7 @@ class CfgSounds
 		sound[] = {"xc1v19.ogg", db+10, 1.00};
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
-		titles[] = {0,$STRM_xc1v19};
+		titles[] = {0,$STRM_xc1v19, 11,$STRM_xc1v19a};
 	};
 	class xc1v20
 	{

@@ -9,25 +9,28 @@ STRM_xc1v02,What's happening?,Co se děje?,jean
 STRM_xc1v03,"It was the year of 1977.\nI had enlisted in the US Army to keep family tradition,\nhowever I had no idea that I came to the wrong place at the wrong time.","Psal se rok 1977.\nPřihlásil jsem se do Americké armády, abych dodržoval rodinou tradici.\nJenže to jsem ani tušení, že jsem přišel ve špatný čas na špatné místo.",jason
 STRM_xc1v04,What is it? Move your ass and keep going! Move!,Co je to? Pohni prdelí a padej! Pohyb!,off
 STRM_xc1v05,"Sir, yes, sir!","Pane, ano, pane!",jason
-STRM_xc1v06,The first impression of our training camp - The Republic of Everon - hadn't belonged to my best.\nI was born Russian and at that time my accent was as bad as the world itself.\nSo what I have actually expected in this world of rivalry?,"První seznámení s mým výcvikovým táborem - Republikou Everon - nepatřilo k mým nejlepším.\nJsem původem Rus a v té době byl můj přízvuk stejně špatný, jako svět samotný.\nTakže co jsem vlastně očekával v tomto světě plném rivality?",jason
-STRM_xc1v07,"Okay, ladies! I am your drilling sergeant Derek Muday!\nNow you are going to do what I want you to do!\nYou will perspire your blood if I want! You will provide your ass to me if I want and I will kill you if I fucking want!","Ok, dámy! Jsem váš výcvikový seržant Derek Muday!\nNyní budete dělat to co vám řeknu!\nBudete prolívat svou krev, kdykoliv budu chtít! Budete mi nastavovat svou prdel, kdykoliv budu chtít a zabiju vás, kdykoliv kurva budu chtít!",muday
+STRM_xc1v06,The first impression of our training camp - The Republic of Everon - hadn't belonged to my best.,"Ne",jason
+STRM_xc1v06a,I was born Russian and at that time my accent was as bad as the world itself.\nSo what I have actually expected in this world of rivalry?,"Ne",jason
+STRM_xc1v07,"Okay, ladies! I am your drilling sergeant Derek Muday!\nNow you are going to do what I want you to do!","Ne",muday
+STRM_xc1v07a,"You will perspire your blood if I want! You will provide your ass to me if I want and I will kill you if I fucking want!","Ne",muday
 STRM_xc1v08,Twombly!,Twombly!,muday
-STRM_xc1v09,"Why you're fucking starring on me! Are you gay, or what!","Proč do prdele na mě čumíš! Seš teplej, nebo co!",muday
+STRM_xc1v09,"Why the fuck are you starring at me! Are you gay, or what!","Proč do prdele na mě čumíš! Seš teplej, nebo co!",muday
 STRM_xc1v10,"Answer me, you russian fucker!","Odpověz, ty ruská kurvo!",muday
 STRM_xc1v11,"Sir, no, sir!","Pane, ne, pane!",jason
-STRM_xc1v12,"Bullshit! You’re fucking with me! One hundred pushups! Now! Come on, you son of a bitch! Move it, move it, move it!","Hovno! Nevyjebávej se mnou! Chci 100 kliků, hned! Dělej, ty zmrde! Pohyb! Pohyb! Pohyb!",muday
+STRM_xc1v12,"Bullshit! You're fucking with me! One hundred pushups! Now! Come on, you son of a bitch! Move it, move it, move it!","Hovno! Nevyjebávej se mnou! Chci 100 kliků, hned! Dělej, ty zmrde! Pohyb! Pohyb! Pohyb!",muday
 STRM_xc1v13,"Sir, of course, sir!","Pane, ano, pane!",jason
 
 STRM_xc1v14,But it wasn't the worst that I used to experience.,"Ale to nebylo to nejhorší, co jsem zažíval.",jason
-STRM_xc1v15,The Soviet troops seized an old abandoned island in the Pacific - Kolguyev and set up a massive military base there.,Sovětské jednotky obsadili jeden opuštěný ostrov v Padifiku - Kolguev - a založili tam masivní vojenskou základnu.,jason
+STRM_xc1v15,"The Soviet troops seized an old abandoned island in the Pacific, Kolguyev and set up a massive military base there.",Ne,jason
 
 
 STRM_xc1v16,"Come on, Twombly! Move your fucking fat Russian ass! Move! Move! Move!","No tak, Twombly! Pohni tou svou posranou, tlustou, ruskou prdelí! Pohyb, pohyb, pohyb!",muday
 STRM_xc1v17,Washington didn't want to be behind\nand a few days later established the military protection of Malden against the Russians.,Washington nechtěl zůstat pozadu a pár dní na to zavedl proti Rusům vojenskou ochranu Maldenu.,jason
 
 
-STRM_xc1v18,Everon was the sole island without a major power protection.\nThe Everon's government was afraid of the Soviet expansion and therefore decided to request the White House for help.\nThe world tension was increasing.,"Everon byl jediný ostrov, který stále nebyl pod ochranou.\nEveronská vláda se obávala Sovětské expanze a proto požádala o pomoc Bílý dům.\nNapětí ve světě se zvětšovalo.",jason
-STRM_xc1v19,"President Jimmy Carter planned the same process that was used on Malden.\nCreate the same massive modern military presence as the Russians on Kolguev,\nbut Everon was unlike Malden - its people wanted protection, but also democracy,\nfreedom and no interfering in their affairs.","Prezident Jimmy Carter zvolil stejný proces, jako na Maldenu.\nVytvořit moderní masivní vojenskou základnu, stejně, jako Rusové na Kolguevu,\nale Everon nebyl, jako Malden - lidé chtěli ochranu, ale také svobodu,\ndemokracii a ne, aby jim někdo zasahoval do jejich záležitostí.",jason
+STRM_xc1v18,Everon was the sole island without a major power protection.\nThe Everon's government was afraid of the Soviet expansion and therefore decided to request the White House for help.\nThe tension was increasing.,"Everon byl jediný ostrov, který stále nebyl pod ochranou.\nEveronská vláda se obávala Sovětské expanze a proto požádala o pomoc Bílý dům.\nNapětí ve světě se zvětšovalo.",jason
+STRM_xc1v19,"President Jimmy Carter planned the same process that was used on Malden.\nCreate the same massive modern military presence as the Russians on Kolguev,\nbut Everon was unlike Malden.","Ne",jason
+STRM_xc1v19a,"Its people wanted protection, but also democracy,\nfreedom and no interfering in their affairs.","Ne",jason
 STRM_xc1v20,"But nothing of this sort did happen. Instead, barracks were built...",Ale nic z těchto hesel se však nenaplnila. Namísto toho byly vybudovány kasárny...,jason
 STRM_xc1v21,Training camps...,Výcvikové kempy...,jason
 STRM_xc1v22,Ports...,Přístavy...,jason
@@ -42,7 +45,7 @@ STRM_xc1v29,"Although my military drilling wasn't the worst, the storm was comin
 
 STRM_xc1v30,"Fuck the rules. Go ahead, guys.",,"paul
 STRM_xc1v31,Holy shit.,"",paul
-STRM_xc1v32,"There is nothing with we can help for. She's dead, sir.",,medic
+STRM_xc1v32,"There is nothing we can help with. She's dead, sir.",,medic
 STRM_xc1v33,"This road isn't allowed for armored vehicles, lietenant Hatton.\nWhat can you tell me about that?",,johnson
 STRM_xc1v34,Let's talk at HQ. I'll be waiting for you.,,johnson
 

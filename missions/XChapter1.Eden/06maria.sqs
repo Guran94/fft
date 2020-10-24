@@ -402,6 +402,8 @@ _camera camCommit 2
 @camCommitted _camera
 jean3 setmimic "angry"
 
+~1
+
 guard say "xc1v36"
 
 ;guard

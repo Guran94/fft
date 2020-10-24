@@ -143,6 +143,9 @@ titletext [ localize "STRM_xc1t2","plain"]
 
 ~5
 
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
 end=true
 
 exit
