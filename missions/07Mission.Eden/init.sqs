@@ -22,6 +22,10 @@ allowed=true
 nomontignac=false
 yesmontignac=false
 pokracujem=false
+herec2 setbehaviour "aware"
+herec2 disableai "autotarget"
+zmrd1 disableai "autotarget"
+zmrd2 disableai "autotarget"
 
 serza say "m07v01"
 

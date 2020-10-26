@@ -184,7 +184,7 @@ wire2 setpos getmarkerpos "wire2"
 police1 setpos getmarkerpos "police1"
 police2 setpos getmarkerpos "police2"
 
-paul setmimic "sad"
+paul setmimic "hurt"
 medic setmimic "normal"
 johnson setmimic "normal"
 

@@ -30,9 +30,9 @@ class Intro
 		briefingName="@STRCC_2";
 		startWeather=0.487494;
 		forecastWeather=0.318659;
-		month=7;
-		day=29;
-		hour=11;
+		month=11;
+		day=27;
+		hour=10;
 		minute=40;
 	};
 	class Groups

@@ -1,6 +1,6 @@
-onLoadMission="$STR_ONLOAD_MISSION";
-onLoadMissionTime = true;
-onLoadIntro="$STR_ONLOAD_INTRO";
+onLoadMission="$STRM_ONLOAD_MISSION";
+onLoadMissionTime = false;
+onLoadIntro="$STRM_ONLOAD_INTRO";
 onLoadIntroTime = false;
 
 MinScore = 1000
@@ -13,13 +13,143 @@ ShowWatch = 0
 
 ShowCompass = 0
 
-ShowNotepad = 1
+ShowNotepad = 0
 
 ShowGPS = 0
 
 ShowMap = 0
 
 
+class RscBackground
+{
+    access=3;
+    type=0;
+    idc=-1;
+    style=80;
+    x=0.15;
+    y=0.15;
+    w=0.7;
+    h=0.7;
+    text="";
+    colorBackground[]={1,1,1,1};
+    colorText[]={0,0,0,0};
+    font="tahomaB24";
+    sizeEx=0;
+};
+
+class RscButton
+{
+    access=3;
+    type=1;
+    style=2;
+    w=0.16;
+    h=0.06;
+    colorText[]={0.08,0.08,0.12,1};
+    font="tahomaB24";
+    sizeEx=0.02;
+    default=0;
+    soundPush[]={"ui\ui_ok",0.2,1};
+    soundClick[]={"",0.2,1};
+    soundEscape[]={"ui\ui_cc",0.2,1};
+};
+
+class Dialogue1 {
+    idd = 0;
+    movingEnable = 0;
+    controls[] = {Window, Button1, Button2};
+
+    #define WINDOW_X    0
+    #define WINDOW_Y    0.80
+    #define WINDOW_W    1
+    #define WINDOW_H    0.10
+
+    #define SPACE_W     0.12
+    #define SPACE_H     0.02
+
+	#define BUTTON_W    0.5
+
+    class Window : RscBackground {
+        x = WINDOW_X;
+        y = WINDOW_Y;
+        w = WINDOW_W;
+        h = WINDOW_H;
+    };
+
+    class Button1 : RscButton {
+        idc = 1;
+        x = WINDOW_X + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_1";
+		action = "choiceEscapeA=true; choiceEscapeMade=true; closeDialog 0";
+    };
+
+    class Button2 : RscButton {
+        idc = 2;
+        x = BUTTON_W + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_2";
+		action = "choiceEscapeB=true; choiceEscapeMade=true; closeDialog 0";
+    };
+    
+};
+
+class Dialogue2 {
+    idd = 0;
+    movingEnable = 0;
+    controls[] = {Window, Button1, Button2, Button3};
+
+    #define WINDOW_X    0
+    #define WINDOW_Y    0.80
+    #define WINDOW_W    1
+    #define WINDOW_H    0.10
+
+    #define SPACE_W     0.05
+    #define SPACE_H     0.02
+
+	#define BUTTON_W    0.33
+
+    class Window : RscBackground {
+        x = WINDOW_X;
+        y = WINDOW_Y;
+        w = WINDOW_W;
+        h = WINDOW_H;
+    };
+
+    class Button1 : RscButton {
+        idc = 1;
+        x = WINDOW_X + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_2";
+		action = "choiceEscapeA=true; choiceEscapeMade=true; closeDialog 0";
+    };
+
+    class Button2 : RscButton {
+        idc = 2;
+        x = BUTTON_W + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_3";
+		action = "choiceEscapeB=true; choiceEscapeMade=true; closeDialog 0";
+    };
+
+    class Button3 : RscButton {
+        idc = 3;
+        x = BUTTON_W*2 + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_4";
+		action = "choiceEscapeB=true; choiceEscapeMade=true; closeDialog 0";
+    };
+    
+};
 
 class CfgSounds
 {
