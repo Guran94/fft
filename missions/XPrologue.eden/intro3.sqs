@@ -1,7 +1,7 @@
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-skiptime 1
+skiptime 0.5
 3 fademusic 1
 
 fahren=true

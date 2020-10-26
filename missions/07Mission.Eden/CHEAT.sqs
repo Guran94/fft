@@ -4,11 +4,12 @@ away1=false
 away2=false
 away3=false
 away4=false
+outro=false
 hrac action ["eject",car]
 
 ~1
 
-hrac moveincargo chinook
+[] exec "end.sqs"
 
 
 exit

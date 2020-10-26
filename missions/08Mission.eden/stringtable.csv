@@ -1,72 +1,75 @@
-LANGUAGE,"english","Comment"
+"LANGUAGE","Czech","English","Comment"
 
-STR_ONLOAD_INTRO,"Few minutes later","loading screen"
-STR_ONLOAD_MISSION,"In the captivity","loading screen"
-
-STRMT_1,"Few 10 minutes later...","text"
-
-STRMH_1,"In this mission you have to choose your destiny with action menu which descides about your future. You will perform it with action menu. Good luck and follow your heart.","hint"
-STRMH_2,"Kill the Russians.","hint"
-STRMH_3,"Run! Try to avoid the road!","hint"
-STRMH_4,"Hide in the forest.","hint"
-
-STRM_m08v01,"My colleague has already told me you can speak Russian American.\nBut I will speak to you in English as a gesture of goodwill toward the prisoner.","rashiv"
-STRM_m08v02,"Speak with me what ever you want and fuck you.","jason"
-STRM_m08v03,"Weigh your words wisely, American. Or should I call you a traitor?\nA lot of Kalashnikovs are aiming at you.\nI'll hear one more crooked word from you and I'll drive my bullet through your head.","rashiv"
-STRM_m08v04,"I said fuck you!","jason"
-STRM_m08v05,"Brave boy. You're really lucky we're ordered to bring the prisoner to the regimental commander.\nWe'll see how big you shut up in his presence, comrade.","rashiv"
-STRM_m08v06,"Your orders comrade Rashiv?","sol"
-STRM_m08v07,"Take him to the ural. Let him speak with his brothers. We are going to take them all to colonel Lemontov. Be prepared in five minutes.","rashiv"
-
-STRM_m08v08,"Comrade lietenant. Comrade Lieutenant, have a rest. You don't have to salute me in front of a group of American insects.","lemontov"
-STRM_m08v09,"Yes comrade Lemontov.","rashiv"
-STRM_m08v10,"So what brought you to me? Could here be fresh meat to in the mill?","lemontov"
-STRM_m08v11,"That guy on the top of the left speaks very good Russian. I think he is one of us.","rashiv"
-STRM_m08v12,"Russian in American numbers? So let's see I'll speak with him. The others get to the tomb.","lemontov"
-
-STRM_m08v13,"So American. You sure ask why I wanted you here. Don't worry you'll get the answer, although it will depend on your answers of my questions to me.","lemontov"
-STRM_m08v14,"For the beginning just simply tell me your name, number and rank.","lemontov"
+"STRM_ONLOAD_INTRO","O pár minut pozdějí","Few minutes later","loading screen"
+"STRM_ONLOAD_MISSION","V zajetí","In the captivity","loading screen"
 
 
 
-STRM_m08v15a,"81452, private Jason Twombly.","jason"
-STRM_m08v16a,"You didn't understand me, boy. I don't want your wrong english name, but your correctly name as a Russian.\nSo try it again, please. What's your name?","lemontov"
+"STRM_m08v01","Ne","My colleague has already told me you can speak Russian American.\nBut I'm gonna speak in English to you as a gesture of goodwill toward the prisoner.","rashiv"
+"STRM_m08v02","Ne","Speak with me how ever you want and fuck you.","jason"
+"STRM_m08v03","Ne","Weigh your words wisely, American. Or should I call you a traitor?\nA lot of Kalashnikovs are aiming at you.\nI'll hear one more crooked word from you and I'll drive my bullet through your head.","rashiv"
+"STRM_m08v04","Ne","I said fuck you!","jason"
+"STRM_m08v05","Ne","Brave boy. You're really lucky we're ordered to bring the prisoner to the regimental commander.\nWe'll see how big you shut up in his presence, comrade.","rashiv"
+"STRM_m08v06","Ne","Your orders comrade Rashiv?","sol"
+"STRM_m08v07","Ne","Take him to the ural. Let him speak with his brothers. We're gonna to take them all to major Lemontov. Be prepared in five minutes.","rashiv"
 
-STRM_m08v17a,"Alright then. My name is Evgeni Kuznetsov.\nWhen I was 14 my parents escaped from Soviet Union with me to the USA.\nThey were rocket experts and they wanted to go for the better life and forget on everything from the red country.","jason"
-STRM_m08v18a,"Hahaha, there is great cooperation with you, Yevgeny.\nYou know, I'm not a bad person. I do not blame you for betraying the great Soviet empire and rather join the other side of the barricade.\nI understand you, your family wanted to go for the better life.","lemontov"
+"STRM_m08v08","Ne","Comrade Lieutenant, have a rest. You don't have to salute me in front of his group of American insects.","lemontov"
+"STRM_m08v09","Ne","Yes, comrade Lemontov.","rashiv"
+"STRM_m08v10","Ne","So what did you bring to me? Could here be fresh meat into the mill?","lemontov"
+"STRM_m08v11","Ne","That guy on the top of the left speaks very good Russian. I think he is one of us.","rashiv"
+"STRM_m08v12","Ne","Russian in American numbers? So let's see I'll speak with him. The others get to the tomb.","lemontov"
 
-STRM_m08v15b,"Fuck you.","jason"
-STRM_m08v16b,"Maybe I did not say it seriously.\nComrade sergeant?","lemontov"
-STRM_m08v17b,"I think we've got it, comrades. His name is Evgeni Kuznetsov and he's child of Kuznetsov family who we were finding.","computer"
-STRM_m08v18b,"So your parents are the rocket experts.\nIt's a shame to escape from your born country and started the life on the other side by the sea.\nI understand it.\nYour parents wanted to go for better.","lemontov"
-
-STRM_m08v1a_b,"But now I offer you a new opportunity to go for the better. You can join us. Defend the colors of your true land, your true inner self. Look at Uncle Sam himself.","lemontov"
-STRM_m08v2a_b,"He left you here on this island all alone, your command left you to death, but I'm fair. I'm not like the others.","lemontov"
-STRM_m08v3a_b,"Your story has left me with a good feeling about you, Mr. Twombly.\nI am sorry, should I say Kuznetsov.?\nI leave it up to you.",",lemontov"
-STRM_m08v4a_b,"As I said. You can join us and honor your true country,\nor you can forever stay in the prison of the west and keep looking around as the world of capitalism throws dirt on you.\nMake your choice.",",lemontov"
+"STRM_m08v13","Ne","So American. You sure ask why I wanted you here. Don't worry you'll get the answer, although it will depend on your answers to my questions to me.","lemontov"
+"STRM_m08v14","Ne","Simply tell me your name, number and rank, for the beginning.","lemontov"
 
 
-STRM_m08v1a,"Earnestly? I am disappointed from the USA.\nMy parents and I thought we had a new, better world, but when I think about it, only the Soviet Union can give me a feeling of happiness and joy.\nAmerica gave me the opposite. I'm coming with you.","jason"
-STRM_m08v2a,"Nice choice comrade Kuznetsov.\nI knew you choice right.","lemontov"
 
-STRM_m08v1b,"I am Russian, but the meaning of that sentence gives the word ORIGIN.\nI don't want to be rude, but I have become an American and I will remain.\nI don't care about your fucking Bolshevik country.","jason"
-STRM_m08v2b,"Even after defeat on Everon, I won't burn my American flag. Dot. Is there anything else? Or will you continue to bothers me with bullshit?","jason"
-STRM_m08v3b,"These are the words of a man. Too bad you choiced that way, Kuznetsov, then Smith, right?\nThe Soviet Union could give you something more than the uniform of a defeated country.","lemontov"
-STRM_m08v4b,"Put him under the lock to the others…","lemontov"
+"STRM_m08v15a","Ne","81452, private Jason Twombly.","jason"
+"STRM_m08v16a","Ne","You didn't understand me, boy. I don't want your wrong english name, but your correctly name as a Russian.\nSo try it again, please. What's your name?","lemontov"
 
-STRM_m08v1c,"Damn, I’ve never known I'd ever say that but fuck you! Yes!\nYou and all your fucking Bolshevik suckers!\nYou've ruined my whole life! I wish I have never entered the fucking army! You fucking bitch!","jason"
-STRM_m08v2c,"Take the whining slut. We're done with him.","lemontov"
+"STRM_m08v17a","Ne","Alright then. My name is Evgeni Kuznetsov.\nWhen I was 14 my parents escaped from Soviet Union with me to the USA.\nThey were rocket experts and they wanted to go for the better life and forget on everything from the red country.","jason"
+"STRM_m08v18a","Ne","Hahaha, there is great cooperation with you, Yevgeny.\nYou know, I'm not a bad person. I do not blame you for betraying the great Soviet empire and rather join the other side of the barricade.\nI understand you, your family wanted to go for the better life.","lemontov"
 
-STRM_m08v15,"Fire!","rashiv"
-STRM_m08v16,"Alarm! Alarm!","rus"
-STRM_m08v17,"That's are rebels. It's our chance! Run!","american"
-STRM_m08v18,"Oh ... yeah, I got it. But I must not delay and move on.\nI should go deep into the forest where I definitely have a better chance of hiding than in the open. Maybe the Russians won't find me.\nPerhaps I'll meet other compatriots ... or more trouble.","jason"
-STRM_m08v19,"Fuck I've slept! Fuck I have to go further!\n I'll try to reach end of this wood.","jason"
-STRM_m08v20,"Damn Russians they're already going to search for us, but wait... I've got an idea!","jason"
+"STRM_m08v15b","Ne","Fuck you.","jason"
+"STRM_m08v16b","Ne","Maybe I did not say it seriously.\nComrade sergeant?","lemontov"
+"STRM_m08v17b","Ne","I think we've got it, comrades. His name is Evgeni Kuznetsov and he's child of Kuznetsov family who we were finding.","computer"
+"STRM_m08v18b","Ne","So your parents are the rocket experts.\nIt's a shame to escape from your born country and started the life on the other side by the sea.\nI understand it.\nYour parents wanted to go for better.","lemontov"
 
-STRM_m08v21,"So let's go on...","jason"
+"STRM_m08v1a_b","Ne","But now I offer you a new opportunity to go for the better. You can join us. Defend the colors of your true land, your true inner self. Look at Uncle Sam himself.","lemontov"
+"STRM_m08v2a_b","Ne","He left you here on this island all alone, your command left you to death, but I'm fair. I'm not like the others.","lemontov"
+"STRM_m08v3a_b","Ne","Your story has left me with a good feeling about you, Mr. Twombly.\nI am sorry, should I say Kuznetsov.?\nI leave it up to you.",",lemontov"
+"STRM_m08v4a_b","Ne","As I said. You can join us and honor your true country,\nor you can forever stay in the prison of the west and keep looking around as the world of capitalism throws dirt on you.\nMake your choice.",",lemontov"
 
-STRMA_1,"Accept","action"
-STRMA_2,"Refuse","action"
-STRMA_3,"Join the Soviets","action"
-STRMA_4,"Fuck with him","action"
+
+"STRM_m08v1a","Ne","Earnestly? I am disappointed from the USA.\nMy parents and I thought we had a new, better world, but when I think about it, only the Soviet Union can give me a feeling of happiness and joy.\nAmerica gave me the opposite. I'm coming with you.","jason"
+"STRM_m08v2a","Ne","Nice choice comrade Kuznetsov.\nI knew you choice right.","lemontov"
+
+"STRM_m08v1b","Ne","I am Russian, but the meaning of that sentence gives the word ORIGIN.\nI don't want to be rude, but I have become an American and I will remain.\nI don't care about your fucking Bolshevik country.","jason"
+"STRM_m08v2b","Ne","Even after defeat on Everon, I won't burn my American flag. Dot. Is there anything else? Or will you continue to bothers me with bullshit?","jason"
+"STRM_m08v3b","Ne","These are the words of a man. Too bad you choiced that way, Kuznetsov, then Smith, right?\nThe Soviet Union could give you something more than the uniform of a defeated country.","lemontov"
+"STRM_m08v4b","Ne","Put him under the lock to the others…","lemontov"
+
+"STRM_m08v1c","Ne","Damn, I’ve never known I'd ever say that but fuck you! Yes!\nYou and all your fucking Bolshevik suckers!\nYou've ruined my whole life! I wish I have never entered the fucking army! You fucking bitch!","jason"
+"STRM_m08v2c","Ne","Take the whining slut. We're done with him.","lemontov"
+
+"STRM_m08v15","Ne","Fire!","rashiv"
+"STRM_m08v16","Ne","Alarm! Alarm!","rus"
+"STRM_m08v17","Ne","That's are rebels. It's our chance! Run!","american"
+"STRM_m08v18","Ne","Oh ... yeah, I got it. But I must not delay and move on.\nI should go deep into the forest where I definitely have a better chance of hiding than in the open. Maybe the Russians won't find me.\nPerhaps I'll meet other compatriots ... or more trouble.","jason"
+"STRM_m08v19","Ne","Fuck I've slept! Fuck I have to go further!\n I'll try to reach end of this wood.","jason"
+"STRM_m08v20","Ne","Damn Russians they're already going to search for us, but wait... I've got an idea!","jason"
+
+"STRM_m08v21","Ne","So let's go on...","jason"
+
+
+"STRM_m08t1","Ne","Few 10 minutes later...","text"
+
+"STRM_m08h1","Ne","In this mission you have to choose your destiny with action menu which descides about your future. You will perform it with action menu. Good luck and follow your heart.","hint"
+"STRM_m08h2","Ne","Kill the Russians.","hint"
+"STRM_m08h3","Ne","Run! Try to avoid the road!","hint"
+"STRM_m08h4","Ne","Hide in the forest.","hint"
+
+"STRMA_1","Ne","Accept","action"
+"STRMA_2","Ne","Refuse","action"
+"STRMA_3","Ne","Join the Soviets","action"
+"STRMA_4","Ne","Fuck with him","action"

@@ -1,4 +1,3 @@
-setacctime 1
 away2=false
 
 [b1] exec "bomby1.sqs"
@@ -6,7 +5,9 @@ away2=false
 [b3] exec "bomby1.sqs"
 [b4] exec "bomby1.sqs"
 
-~6
+~8
+
+setacctime 1
 
 hrac say "m07v15"
 

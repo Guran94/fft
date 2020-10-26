@@ -7,15 +7,15 @@ pokracujem=true
 
 vojak say "m07v06"
 
-~3
+~4
 
 enableradio true
 hrac say "m07v07"
 
-~5
+~6
 
 [vojak3, vojak, vojak2] join hrac
 
-hint localize "STRM_m07hint3"
+hint localize "STRM_m07h3"
 
 exit

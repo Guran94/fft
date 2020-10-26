@@ -2,20 +2,20 @@ setacctime 1
 hrac addrating 500
 nomontignac=true
 
-[sol1, sol2] join hrac
 sol1 say "m07v10"
 
-~2
+~1
 
+[sol1, sol2] join hrac
 hrac say "m07v11"
 
-~3
+~4
 
 sol1 say "m07v12"
 
-~5
+~4
 
-"montignac" setmarkertype "flag"
+"montignac" setmarkertype "flag1"
 hrac say "m07v13"
 
 ~5

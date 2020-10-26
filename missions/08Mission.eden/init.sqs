@@ -1,4 +1,4 @@
-setacctime 4
+setacctime 1
 playmusic "track14"
 enableradio false
 ural lock true
@@ -14,7 +14,6 @@ ClearWeaponCargo ammo
 ClearMagazineCargo ammo
 ammo AddWeaponCargo ["pk",1]
 ammo AddMagazineCargo ["pk",2]
-;;;;;;;;;;;;;;;;disableuserinput true
 greg dowatch vadim
 vadim dowatch greg
 enableradio false
@@ -22,7 +21,6 @@ g1 disableai "autotarget"
 g2 disableai "autotarget"
 g1 dowatch objnull
 g2 dowatch objnull
-lemontov dowatch [7253.16,6779.83,1.46]
 wrong=false
 away=false
 
@@ -30,6 +28,8 @@ titleCut ["","BLACK IN",3]
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
+
+createdialog "dialogue2"
 
 ;base
 ;=== 21:01:24
@@ -47,15 +47,16 @@ _camera camCommit 6
 
 ~4
 
-;ural
-;=== 21:02:48
-_camera camSetTarget ural
-_camera camSetPos [7181.58,6958.90,7.87]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
+[_camera,ural,[180,3.7,2.3],ural,[0,5,1.5],0.7] exec "logiccam.sqs"
 
 ~5
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
 ;guard
 ;=== 21:04:03
@@ -86,6 +87,8 @@ _camera camSetPos [7253.34,6770.36,6.31]
 _camera camSetFOV 0.700
 _camera camCommit 7
 @camCommitted _camera
+
+
 
 [] exec "interview.sqs"
 

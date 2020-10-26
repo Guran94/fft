@@ -167,6 +167,12 @@ class CfgSounds
 		sound[] = {"m07v21.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m07v21};
 	};
+	class m07v22
+	{
+		name = "m07v22";
+		sound[] = {"m07v22.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m07v22};
+	};
 };
 
 

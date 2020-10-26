@@ -1163,6 +1163,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.466667;
 					text="tank";
+					init="group this setgroupid [""Yankee"",""GROUPCOLOR0""]";
 				};
 			};
 		};
@@ -1182,6 +1183,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.466667;
 					text="foxtrot";
+					init="group this setgroupid [""Foxtrot"",""GROUPCOLOR0""]";
 				};
 			};
 		};
@@ -1200,6 +1202,7 @@ class Mission
 					leader=1;
 					skill=0.600000;
 					text="laruns";
+					init="group this setgroupid [""Buffalo"",""GROUPCOLOR0""]";
 				};
 			};
 		};
@@ -2813,7 +2816,7 @@ class Mission
 			activationBy="VEHICLE";
 			age="UNKNOWN";
 			idVehicle=0;
-			expActiv="m113 lock false";
+			expActiv="[] exec ""go.sqs""";
 			class Effects
 			{
 			};

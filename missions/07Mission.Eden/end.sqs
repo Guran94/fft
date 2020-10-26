@@ -1,33 +1,38 @@
 setacctime 1
 titleCut ["","BLACK OUT",2]
 hrac addrating 1000
+aa = hrac saveStatus "07Twombly"
+aa = herec2 loadStatus "07Twombly"
 
-~3
+~2
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
 kovalin switchmove "effectstandtalk"
 playmusic "frost"
 0 fademusic 1
-disableuserinput true
-hrac setcaptive true
-hrac setpos getmarkerpos "konec"
+herec2 setcaptive true
+herec2 setmimic "angry"
+herec2 setpos getmarkerpos "konec"
+hrac setpos getmarkerpos "bezpeci"
 zmrd1 setpos getmarkerpos "zmrd1"
 zmrd2 setpos getmarkerpos "zmrd2"
-hrac setdir 0
+herec2 setdir 0
 zmrd1 setdir 350
-zmrd1 dotarget hrac
+zmrd1 dowatch [4164.55,7655.21,1.43]
 zmrd2 setdir 35
-zmrd2 dotarget hrac
+zmrd2 dowatch [4164.55,7655.21,1.43]
 setacctime 1
 zajatec1 switchmove "FXStandSurUniv"
 zajatec2 switchmove "FXStandSurUniv"
 zajatec3 switchmove "FXStandSurUniv"
 enableradio false
 
-titleCut ["","BLACK IN",2]
-hrac setunitpos "up"
 
-_camera = "camera" camcreate [0,0,0]
-_camera cameraeffect ["internal","back"]
+titleCut ["","BLACK IN",2]
+
+
 
 vojak setpos getmarkerpos "start"
 vojak2 setpos getmarkerpos "start"
@@ -53,7 +58,6 @@ _camera camCommit 8
 @camCommitted _camera
 
 setacctime 1
-hrac action ["WEAPONONBACK"]
 
 ;m2a2ky
 
@@ -72,7 +76,7 @@ _camera camCommit 5
 
 ;zajatci
 
-hrac setpos getmarkerpos "konec"
+herec2 setpos getmarkerpos "konec"
 ;=== 18:18:42
 _camera camSetTarget [-19869.43,104712.30,-5982.14]
 _camera camSetPos [4167.81,7831.19,0.94]
@@ -89,34 +93,34 @@ _camera camCommit 6
 
 titleCut ["","BLACK OUT",1]
 
-~1
+~1.5
 
-hrac action ["WEAPONINHAND"]
-
-~0.5
 
 titleCut ["","BLACK IN",1]
 
-;hrac
 
-;=== 18:22:27
-_camera camSetTarget [64614.56,-71997.33,1181.02]
-_camera camSetPos [4164.55,7655.21,1.43]
-_camera camSetFOV 0.349
+
+;herec2
+
+;=== 10:33:35
+_camera camSetTarget [1837.27,-92301.83,1829.76]
+_camera camSetPos [4165.75,7655.99,1.25]
+_camera camSetFOV 0.442
 _camera camCommit 0
 @camCommitted _camera
 
-hrac say "m07v16"
 
-~4
+herec2 say "m07v16"
+
+~1
 
 ;rus
 
 6 fademusic 0
-;=== 18:28:06
-_camera camSetTarget [21089.22,-90678.09,-6593.34]
-_camera camSetPos [4165.52,7655.02,1.21]
-_camera camSetFOV 0.538
+;=== 10:33:52
+_camera camSetTarget [13024.96,-91713.00,-6823.64]
+_camera camSetPos [4165.03,7655.97,1.35]
+_camera camSetFOV 0.442
 _camera camCommit 2
 @camCommitted _camera
 
@@ -126,72 +130,70 @@ zmrd1 say "m07v17"
 
 ~2
 
-zmrd1 say "m07v18"
-
-~8
-
-;rus2
-
-;=== 18:35:46
-_camera camSetTarget [74013.38,-63730.59,5009.16]
-_camera camSetPos [4157.30,7652.66,1.11]
-_camera camSetFOV 0.507
-_camera camCommit 0
-@camCommitted _camera
-
-zmrd2 say "m07v19"
+herec2 setmimic "surprised"
+herec2 say "m07v18"
 
 ~2
 
-;hrac
+zmrd1 say "m07v19"
 
-;=== 18:36:48
-_camera camSetTarget [101365.70,28843.36,10104.22]
-_camera camSetPos [4155.29,7651.01,1.28]
-_camera camSetFOV 0.507
+~5
+
+;rus2
+
+;=== 10:35:16
+_camera camSetTarget [41836.22,-84963.66,1694.87]
+_camera camSetPos [4159.51,7652.57,0.41]
+_camera camSetFOV 0.587
 _camera camCommit 0
 @camCommitted _camera
 
-~6
+
+zmrd2 say "m07v20"
+
+~4
 
 ;vsichni
 
-;=== 18:38:49
-_camera camSetTarget [-47443.63,-77996.11,54.52]
-_camera camSetPos [4167.83,7656.51,0.78]
-_camera camSetFOV 0.596
+;=== 10:35:37
+_camera camSetTarget [93044.89,53433.91,1694.94]
+_camera camSetPos [4157.91,7647.33,1.05]
+_camera camSetFOV 0.778
 _camera camCommit 0
 @camCommitted _camera
 
-zmrd1 say "m07v20"
+
+zmrd1 say "m07v21"
 
 ~3
 
 ;rus
 
-hrac setpos getmarkerpos "bezpeci"
+herec2 setpos getmarkerpos "bezpeci"
 herec setpos getmarkerpos "konec"
 herec switchmove "fxstandsur"
 
-;=== 18:39:33
-_camera camSetTarget [-47500.79,-77514.92,8863.86]
-_camera camSetPos [4167.45,7648.32,0.38]
-_camera camSetFOV 0.596
+;=== 10:35:57
+_camera camSetTarget [-94877.91,21344.13,-1574.49]
+_camera camSetPos [4166.77,7646.75,1.05]
+_camera camSetFOV 0.611
 _camera camCommit 0
 @camCommitted _camera
 
-~7
+
+~5
 
 ;vsichni
 
-;=== 18:38:49
-_camera camSetTarget [-47443.63,-77996.11,54.52]
-_camera camSetPos [4167.83,7656.51,0.78]
-_camera camSetFOV 0.596
+;=== 10:36:39
+_camera camSetTarget [-48527.65,-77327.38,826.71]
+_camera camSetPos [4168.69,7657.93,0.74]
+_camera camSetFOV 0.335
 _camera camCommit 0
 @camCommitted _camera
 
-herec say "m07v21"
+
+herec say "m07v22"
 
 ~5
 
@@ -201,7 +203,6 @@ titleCut ["","BLACK OUT",2]
 ~3
 
 "3" objstatus "failed"
-disableuserinput false
 player cameraEffect ["terminate","back"]
 camDestroy _camera
 
