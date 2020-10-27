@@ -1768,7 +1768,7 @@ class Mission
 					leader=1;
 					skill=0.333333;
 					text="zmrd1";
-					init="this setunitpos ""up""; this setbehaviour ""combat""";
+					init="this setunitpos ""up""; this setbehaviour ""combat""; this setidentity ""shaposhnikov""";
 				};
 			};
 			class Waypoints

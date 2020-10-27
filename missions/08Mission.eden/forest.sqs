@@ -5,7 +5,6 @@ titleCut ["","BLACK OUT",3]
 disableuserinput true
 twom setmimic "normal"
 twom setpos getmarkerpos "forest"
-wrong=true
 
 ~1
 
@@ -42,9 +41,8 @@ titleCut ["","BLACK OUT",3]
 
 ~3
 
-skiptime 0.5
-titletext [localize "STRMT_1","plain"]
-
+search=true
+titletext [localize "STRM_m08t1","plain"]
 
 ~2
 
@@ -56,6 +54,9 @@ camDestroy _camera
 
 playsound "bang"
 0 fademusic 0
+
+~1
+
 twom say "m08v19"
 
 ~5

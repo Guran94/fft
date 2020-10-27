@@ -82,7 +82,7 @@ class Dialogue1 {
         w = BUTTON_W - SPACE_W*2;
         h = WINDOW_H - SPACE_H*2;
         text = "$STRMA_1";
-		action = "choiceEscapeA=true; choiceEscapeMade=true; closeDialog 0";
+		action = "[] exec ""accept1.sqs""; choiceMusic=false; closeDialog 0";
     };
 
     class Button2 : RscButton {
@@ -92,12 +92,56 @@ class Dialogue1 {
         w = BUTTON_W - SPACE_W*2;
         h = WINDOW_H - SPACE_H*2;
         text = "$STRMA_2";
-		action = "choiceEscapeB=true; choiceEscapeMade=true; closeDialog 0";
+		action = "[] exec ""refuse1_2.sqs""; choiceMusic=false; closeDialog 0";
     };
     
 };
 
 class Dialogue2 {
+    idd = 0;
+    movingEnable = 0;
+    controls[] = {Window, Button1, Button2};
+
+    #define WINDOW_X    0
+    #define WINDOW_Y    0.80
+    #define WINDOW_W    1
+    #define WINDOW_H    0.10
+
+    #define SPACE_W     0.12
+    #define SPACE_H     0.02
+
+	#define BUTTON_W    0.5
+
+    class Window : RscBackground {
+        x = WINDOW_X;
+        y = WINDOW_Y;
+        w = WINDOW_W;
+        h = WINDOW_H;
+    };
+
+    class Button1 : RscButton {
+        idc = 1;
+        x = WINDOW_X + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_1";
+		action = "[] exec ""accept2.sqs""; choiceMusic=false; closeDialog 0";
+    };
+
+    class Button2 : RscButton {
+        idc = 2;
+        x = BUTTON_W + SPACE_W;
+        y = WINDOW_Y + SPACE_H;
+        w = BUTTON_W - SPACE_W*2;
+        h = WINDOW_H - SPACE_H*2;
+        text = "$STRMA_2";
+		action = "[] exec ""refuse1_2.sqs""; choiceMusic=false; closeDialog 0";
+    };
+    
+};
+
+class Dialogue3 {
     idd = 0;
     movingEnable = 0;
     controls[] = {Window, Button1, Button2, Button3};
@@ -126,7 +170,7 @@ class Dialogue2 {
         w = BUTTON_W - SPACE_W*2;
         h = WINDOW_H - SPACE_H*2;
         text = "$STRMA_2";
-		action = "choiceEscapeA=true; choiceEscapeMade=true; closeDialog 0";
+		action = "[] exec ""Refuse3.sqs""; choiceMusic=false; closeDialog 0";
     };
 
     class Button2 : RscButton {
@@ -136,7 +180,7 @@ class Dialogue2 {
         w = BUTTON_W - SPACE_W*2;
         h = WINDOW_H - SPACE_H*2;
         text = "$STRMA_3";
-		action = "choiceEscapeB=true; choiceEscapeMade=true; closeDialog 0";
+		action = "[] exec ""Join.sqs""; choiceMusic=false; closeDialog 0";
     };
 
     class Button3 : RscButton {
@@ -146,7 +190,7 @@ class Dialogue2 {
         w = BUTTON_W - SPACE_W*2;
         h = WINDOW_H - SPACE_H*2;
         text = "$STRMA_4";
-		action = "choiceEscapeB=true; choiceEscapeMade=true; closeDialog 0";
+		action = "[] exec ""Fuck.sqs""; choiceMusic=false; closeDialog 0";
     };
     
 };

@@ -53,15 +53,20 @@ _camera camSetFOV 0.686
 _camera camCommit 0
 @camCommitted _camera
 
-~1
-
 jason setmimic "angry"
-kovalin say "m08v01"
+
 ;=== 15:08:01
 _camera camSetTarget [-59714.48,-69046.49,-3114.24]
 _camera camSetPos [4177.26,7816.29,1.62]
 _camera camSetFOV 0.686
-_camera camCommit 6
+_camera camCommit 7
+
+~1
+
+kovalin say "m08v01"
+
+~6
+
 @camCommitted _camera
 
 ;jason
@@ -89,7 +94,7 @@ _camera camCommit 0
 _camera camSetTarget [-80086.03,-45102.73,-9916.38]
 _camera camSetPos [4177.79,7816.63,1.61]
 _camera camSetFOV 0.686
-_camera camCommit 7
+_camera camCommit 11
 @camCommitted _camera
 
 ;jason
@@ -102,7 +107,7 @@ _camera camSetFOV 0.495
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~1.5
 
 ;kovalin a druh�
 
@@ -124,8 +129,6 @@ _camera camSetPos [4177.26,7816.29,1.62]
 _camera camSetFOV 0.686
 _camera camCommit 2
 @camCommitted _camera
-
-~1
 
 ;kovalin
 
