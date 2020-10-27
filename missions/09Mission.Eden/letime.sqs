@@ -1,9 +1,0 @@
-setacctime 1
-
-hrac sideradio "r20"
-papa sideradio "r21"
-privolat=true
-mi2 setfuel 1
-mi3 setfuel 1
-
-exit

@@ -1,0 +1,157 @@
+setacctime 1
+
+twom say "m08v15b"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;jason
+;=== 15:06:32
+_camera camSetTarget [-34548.43,97545.58,-3231.76]
+_camera camSetPos [7250.50,6759.01,1.46]
+_camera camSetFOV 0.528
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+lem say "m08v16b"
+
+;from lem to computer
+;=== 16:36:35
+_camera camSetTarget [106975.60,13559.19,-2864.33]
+_camera camSetPos [7249.15,6758.32,1.43]
+_camera camSetFOV 0.641
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:36:49
+_camera camSetTarget [77830.45,77538.91,-2864.52]
+_camera camSetPos [7249.34,6758.12,1.74]
+_camera camSetFOV 0.641
+_camera camCommit 3
+@camCommitted _camera
+
+
+com say "m08v17b"
+
+;IT
+;=== 16:37:22
+_camera camSetTarget [55192.90,-76876.88,-26536.09]
+_camera camSetPos [7250.85,6763.48,1.64]
+_camera camSetFOV 0.548
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:38:18
+_camera camSetTarget [15465.86,-91663.66,-15608.04]
+_camera camSetPos [7251.03,6763.55,1.64]
+_camera camSetFOV 0.548
+_camera camCommit 6
+@camCommitted _camera
+
+twom setmimic "sad"
+lem say "m08v18b"
+
+;lemontov to jason
+;=== 15:08:19
+_camera camSetTarget [-91036.22,-8724.40,-9957.81]
+_camera camSetPos [7251.55,6758.64,1.58]
+_camera camSetFOV 0.615
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:08:53
+_camera camSetTarget [-84943.44,44179.18,-9958.29]
+_camera camSetPos [7251.55,6758.64,1.58]
+_camera camSetFOV 0.615
+_camera camCommit 6
+@camCommitted _camera
+
+lem say "m08v1a_b"
+
+;from jason to lem
+;=== 16:27:58
+_camera camSetTarget [-54705.04,84108.27,-13328.85]
+_camera camSetPos [7251.08,6758.77,1.71]
+_camera camSetFOV 0.466
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:28:48
+_camera camSetTarget [-35554.34,96140.05,-13328.35]
+_camera camSetPos [7250.90,6757.62,1.71]
+_camera camSetFOV 0.641
+_camera camCommit 11
+@camCommitted _camera
+
+lem say "m08v2a_b"
+
+;both
+;=== 14:58:23
+_camera camSetTarget [-92597.74,1909.53,-2527.12]
+_camera camSetPos [7251.82,6759.33,1.51]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
+~9
+
+lem say "m08v3a_b"
+
+~1
+
+~2
+
+;jason
+;=== 23:12:04
+_camera camSetTarget [-50770.88,86260.66,-17654.21]
+_camera camSetPos [7251.40,6758.27,1.80]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 23:12:44
+_camera camSetTarget [-28730.35,98368.40,-17654.14]
+_camera camSetPos [7251.01,6757.50,1.77]
+_camera camSetFOV 0.700
+_camera camCommit 8
+
+~4
+
+lem say "m08v4a_b"
+
+~4
+
+@camCommitted _camera
+
+;lemontov
+;=== 23:13:05
+_camera camSetTarget [-55765.50,-66445.70,-25849.82]
+_camera camSetPos [7251.18,6759.89,1.77]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~6
+
+;jason
+;=== 23:17:47
+_camera camSetTarget [-39170.82,94996.15,-7664.33]
+_camera camSetPos [7250.73,6758.89,1.58]
+_camera camSetFOV 0.418
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+[] exec "choice_music.sqs"
+
+createDialog "dialogue3"
+titletext ["","plain"]
+
+;both
+;=== 14:58:23
+_camera camSetTarget [-92597.74,1909.53,-2527.12]
+_camera camSetPos [7251.82,6759.33,1.51]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
+
+exit

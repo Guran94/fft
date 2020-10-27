@@ -1,3 +1,5 @@
+~2
+
 titleCut ["","BLACK OUT",2]
 setacctime 1
 twom addrating 1000
@@ -14,7 +16,7 @@ twom setpos getmarkerpos "twom"
 0 fademusic 0.5
 playmusic "7thiamgonafly"
 setacctime 1
-twom setpos getmarkerpos "konec"
+twom setpos getmarkerpos "twom"
 twom setdir 10
 
 titleCut ["","BLACK IN",2]

@@ -1,7 +1,15 @@
-setacctime 4
+setacctime 1
+
+
+lemontov dowatch [7249.71,6802.01,1.79]
+vadim setbehaviour "careless"
+
+
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
+
+
 
 ;=== 23:48:02
 _camera camSetTarget [-24259.00,101166.84,-9833.03]
@@ -24,7 +32,6 @@ titleCut ["","BLACK OUT",1]
 
 @camCommitted _camera
 greg setbehaviour "careless"
-vadim setbehaviour "careless"
 greg setdir 0
 vadim setdir 180
 greg setmimic "smile"
@@ -64,8 +71,9 @@ deletevehicle r2
 deletevehicle r3
 greg setpos getmarkerpos "greg"
 vadim setpos getmarkerpos "vadim"
+vadim disableai "autotarget"
 
-~1
+~0.5
 
 titleCut ["","BLACK IN",1]
 
@@ -91,6 +99,8 @@ _camera camSetFOV 0.498
 _camera camCommit 0
 @camCommitted _camera
 
+deletevehicle driver ural
+deletevehicle ural
 pri1 setdir 180
 pri2 setdir 180
 pri3 setdir 180
@@ -100,11 +110,12 @@ pri1 stop true
 pri2 stop true
 pri3 stop true
 player1 stop true
+
 ;=== 15:35:53
 _camera camSetTarget [107260.73,6083.51,83.15]
 _camera camSetPos [7263.24,6790.65,1.27]
 _camera camSetFOV 0.498
-_camera camCommit 8
+_camera camCommit 11
 
 ~1
 
@@ -114,11 +125,11 @@ vadim playmove "effectstandsalute"
 
 greg say "m08v08"
 
-~3
+~6
 
 vadim playmove "effectstandsaluteend"
 
-~vadim say "m08v09"
+vadim say "m08v09"
 
 ~2
 
@@ -126,7 +137,8 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
-vadim dowatch objnull
+@camCommitted _camera
+vadim dowatch [7268.24,6796.37,1.78]
 greg dowatch objnull
 vadim setpos getmarkerpos "vadim2"
 vadim setdir 30
@@ -150,7 +162,7 @@ greg say "m08v10"
 _camera camSetTarget [45204.63,99302.92,-1084.01]
 _camera camSetPos [7263.57,6786.79,0.84]
 _camera camSetFOV 0.542
-_camera camCommit 5
+_camera camCommit 4
 @camCommitted _camera
 
 ;jason
@@ -167,13 +179,14 @@ playsound "m08v11"
 _camera camSetTarget [13434.93,104916.68,18294.77]
 _camera camSetPos [7271.44,6792.01,0.87]
 _camera camSetFOV 0.272
-_camera camCommit 7
+_camera camCommit 5
 @camCommitted _camera
 
+
+vadim dowatch [7266.92,6784.38,1.22]
 vadim setpos getmarkerpos "vadim"
 greg say "m08v12"
 vadim setdir 180
-vadim disableai "autotarget"
 
 ;assholes
 ;=== 20:43:04
@@ -189,13 +202,17 @@ _camera camSetFOV 0.403
 _camera camCommit 5
 @camCommitted _camera
 
+vadim playmove "effectstandsalute"
 vadim say "m08v09"
+
+#skip
 
 ~2
 
 titleCut ["","BLACK OUT",2]
 
 ~2.5
+
 
 lem setbehaviour "careless"
 lem setmimic "smile"
@@ -211,8 +228,10 @@ com switchMove "FXSitHandsOnTable"
 twom switchMove "FXSitHandsOnTable"
 g2 setdir 90
 
+
 titleCut ["","BLACK IN",2]
 
+titletext ["","plain"]
 ;guards
 ;=== 11:39:01
 _camera camSetTarget [-45571.98,91662.36,-142.39]
@@ -239,32 +258,44 @@ titleCut ["","BLACK OUT",1]
 
 titleCut ["","BLACK IN",1]
 
-disableuserinput false
-player cameraEffect ["terminate","back"]
-camDestroy _camera
+;inside
+;=== 14:40:34
+_camera camSetTarget [11081.79,-93133.42,-2487.72]
+_camera camSetPos [7249.85,6761.36,1.51]
+_camera camSetFOV 0.538
+_camera camCommit 0
+@camCommitted _camera
+;=== 14:41:18
+_camera camSetTarget [-18439.51,-89523.71,-8288.18]
+_camera camSetPos [7250.62,6761.30,1.68]
+_camera camSetFOV 0.538
+_camera camCommit 12
 
-~2
-
-savegame
 
 ~1
 
 lem say "m08v13"
 
-~5
+~7
 
 lem say "m08v14"
 
-~5
+~4
 
-hintc localize "STRMH_1"
+@camCommitted _camera
 
-_a1 = twom addaction [localize "STRMA_1","Accept1.sqs"]
-_r1 = twom addaction [localize "STRMA_2","Refuse1.sqs"]
+[] exec "choice_music.sqs"
 
-@InterviewDone
+createDialog "dialogue1"
+titletext ["","plain"]
 
-twom removeaction _a1
-twom removeaction _r1
+;both
+;=== 14:58:23
+_camera camSetTarget [-92597.74,1909.53,-2527.12]
+_camera camSetPos [7251.82,6759.33,1.51]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
 
 exit
