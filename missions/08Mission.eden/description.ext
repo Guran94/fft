@@ -305,7 +305,7 @@ class CfgSounds
 	{
 		name = "m08v18";
 		sound[] = {"m08v18.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m08v18};
+		titles[] = {0,$STRM_m08v18, 12,$STRM_m08v18_1};
 	};
 	class m08v19
 	{
@@ -347,7 +347,7 @@ class CfgSounds
 	{
 		name = "m08v18a";
 		sound[] = {"m08v18a.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m08v18a};
+		titles[] = {0,$STRM_m08v18a, 5,$STRM_m08v18a_1};
 	};
 	class m08v15b
 	{
@@ -395,13 +395,13 @@ class CfgSounds
 	{
 		name = "m08v4a_b";
 		sound[] = {"m08v4a_b.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m08v4a_b};
+		titles[] = {0,$STRM_m08v4a_b, 4,$STRM_m08v4a_b_1};
 	};
 	class m08v1a
 	{
 		name = "m08v1a";
 		sound[] = {"m08v1a.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m08v1a};
+		titles[] = {0,$STRM_m08v1a, 8,$STRM_m08v1a_1};
 	};
 	class m08v2a
 	{
@@ -413,7 +413,7 @@ class CfgSounds
 	{
 		name = "m08v1b";
 		sound[] = {"m08v1b.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m08v1b};
+		titles[] = {0,$STRM_m08v1b, 6,$STRM_m08v1b_1};
 	};
 	class m08v2b
 	{
@@ -437,7 +437,7 @@ class CfgSounds
 	{
 		name = "m08v1c";
 		sound[] = {"m08v1c.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_m08v1c};
+		titles[] = {0,$STRM_m08v1c, 8,$STRM_m08v1c_1};
 	};
 	class m08v2c
 	{

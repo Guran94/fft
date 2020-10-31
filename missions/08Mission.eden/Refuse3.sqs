@@ -116,7 +116,7 @@ kgb1 dowatch [6543.34,7128.37,1.76]
 ~1
 
 kgb1 setdammage 1
-playsound "fire"
+playsound "hit"
 
 ~1
 

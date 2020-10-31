@@ -1,0 +1,9 @@
+setacctime 1
+NoMontignac=false
+hint localize "STRM_m09ah07"
+
+titleCut ["","BLACK OUT",2]
+
+titleCut ["","BLACK IN",2]
+
+exit

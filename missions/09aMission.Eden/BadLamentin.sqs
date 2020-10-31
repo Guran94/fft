@@ -1,0 +1,13 @@
+setacctime 1
+player1 addrating -500
+player1 say "m09av31"
+
+~5
+
+volkov say "m09av32"
+
+~5
+
+hintc localize "STRM_m09ah10"
+
+exit

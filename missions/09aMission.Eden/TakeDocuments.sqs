@@ -1,0 +1,13 @@
+setacctime 1
+player1 removeaction plan
+playsound "documents"
+documents=false
+
+~1.5
+
+deletevehicle table1
+table2 setpos getmarkerpos "table1"
+hint localize "STRM_m09ah03"
+read=true
+
+exit
