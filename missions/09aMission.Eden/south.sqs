@@ -1,0 +1,49 @@
+aa = player1 saveStatus "08Twombly"
+aa = actor loadStatus "08Twombly"
+setacctime1
+titleCut ["","BLACK OUT",2]
+
+
+
+~2
+
+setacctime1
+g4 dotarget player1
+
+~0.5
+
+titleCut ["","BLACK IN",2]
+
+g4 dotarget player1
+g3 say "guard1"
+
+~5
+
+player1 say "guard2a"
+
+~5
+
+g3 say "guard3"
+
+~5
+
+player1 say "guard4"
+
+~5
+
+g3 say "guard5"
+
+~5
+
+g4 dotarget player1
+
+~5
+g4 dotarget player1
+
+~5
+
+g4 dotarget player1
+g4 setbehaviour "combat"
+g4 setunitpos "up"
+
+exit

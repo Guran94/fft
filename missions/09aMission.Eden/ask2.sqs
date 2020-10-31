@@ -1,0 +1,23 @@
+setacctime 1
+
+player1 say "commander2"
+
+~5
+
+r4 say "commander3"
+r4 move getmarkerpos "show"
+
+@show
+
+r4 dowatch [5046.25,3857.96,1.62]
+
+~1
+
+r4 playmove "fxshow3"
+
+~3
+
+r4 dowatch objnull
+r4 move getmarkerpos "back"
+
+exit

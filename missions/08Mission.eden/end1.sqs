@@ -13,6 +13,7 @@ twom setpos getmarkerpos "twom"
 
 ~1
 
+aa = twom saveStatus "08Twombly"
 0 fademusic 0.5
 playmusic "7thiamgonafly"
 setacctime 1

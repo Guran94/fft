@@ -1,0 +1,6 @@
+setacctime 1
+
+hintc localize "STRM_m09ah02"
+player1 addrating -500
+
+exit

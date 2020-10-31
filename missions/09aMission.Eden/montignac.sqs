@@ -1,0 +1,70 @@
+aa = player1 saveStatus "08Twombly"
+aa = actor loadStatus "08Twombly"
+setacctime1
+titleCut ["","BLACK OUT",2]
+
+away1=true
+
+~2
+
+~0.5
+
+titleCut ["","BLACK IN",2]
+
+InMontignac=true
+off say "m09av02"
+
+~5
+
+actor say "m09av03"
+
+~5
+
+off say "m09av04"
+
+~5
+
+actor say "m09av05"
+
+~5
+
+off say "m09av06"
+
+~5
+
+actor say "m09av07"
+
+~5
+
+off say "m09av08"
+
+~5
+
+off say "m09av09"
+
+~5
+
+actor say "m09av10"
+
+~5
+
+off say "m09av11"
+
+~5
+
+actor say "m09av12"
+
+~5
+
+off say "m09av13"
+
+~5
+
+actor say "m09av12"
+
+~5
+
+
+hintc localize "STRM_m09ah01"
+
+exit

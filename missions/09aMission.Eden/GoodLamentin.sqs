@@ -1,0 +1,69 @@
+setacctime 1
+aa = player1 saveStatus "08Twombly"
+aa = actor loadStatus "08Twombly"
+
+actor say "m09av37"
+
+~5
+
+volkov say "m09av38"
+
+~5
+
+actor say "m09av39"
+
+~5
+
+volkov say "m09av40"
+
+~5
+
+actor say "m09av41"
+
+~5
+
+volkov say "m09av42"
+
+~5
+
+actor say "m09av43"
+
+~5
+
+volkov say "m09av44"
+
+~5
+
+actor say "m09av45"
+
+~5
+
+volkov say "m09av46"
+
+~5
+
+actor say "m09av47"
+
+~5
+
+volkov say "m09av48"
+
+~5
+
+actor say "m09av49"
+
+~5
+
+volkov say "m09av50"
+
+~5
+
+actor say "m09av51"
+
+~5
+
+hint localize "STRM_m09ah08"
+vodka lock false
+packet=true
+
+exit

@@ -1,0 +1,38 @@
+onLoadMission="$STRM_ONLOAD_MISSION";
+onLoadMissionTime = true;
+
+MinScore = 1000
+AvgScore = 2000
+MaxScore = 3000
+
+Debriefing = 1
+
+ShowWatch = 1
+
+ShowCompass = 0
+
+ShowNotepad = 1
+
+ShowGPS = 0
+
+ShowMap = 1
+
+
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class documents
+	{
+		name = "documents";
+		sound[] = {"documents.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av01
+	{
+		name = "m09av01";
+		sound[] = {"m09av01.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+};

@@ -199,7 +199,7 @@ class CfgIdentities
   };
   class Johnson
   {
-    name = "Steve Johnson";
+    name = "Steven Johnson";
     face = "Face33";
     glasses = "Not";
     speaker = "Adam";
@@ -228,6 +228,14 @@ class CfgIdentities
     glasses = "None";
     speaker = "Tom";
     pitch = 0.979981;
+  };
+  class Volkov
+  {
+    name = "Vladimir Volkov";
+    face = "Face18";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.00;
   };
   class Epgayd
   {

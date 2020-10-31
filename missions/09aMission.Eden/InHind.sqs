@@ -1,0 +1,72 @@
+setacctime 1
+
+mi1 setfuel 1
+mi1 lock true
+
+~5
+
+away1=false
+
+a1 say "m09av19"
+
+~5
+
+player1 say "m09av20"
+
+~5
+
+a2 say "m09av21"
+
+~5
+
+player1 say "m09av22"
+
+~5
+
+a1 say "m09av23"
+a2 say "m09av23a"
+a3 say "m09av23b"
+a4 say "m09av23c"
+a5 say "m09av23d"
+a6 say "m09av23a"
+a7 say "m09av23b"
+a8 say "m09av23c"
+a9 say "m09av23d"
+
+~1
+
+a3 say "m09av24"
+
+~5
+
+player1 say "m09av25"
+
+~5
+
+a3 say "m09av26"
+
+~5
+
+a1 say "m09av27"
+a2 say "m09av27a"
+a3 say "m09av27b"
+a4 say "m09av27c"
+a5 say "m09av27d"
+a6 say "m09av27a"
+a7 say "m09av27b"
+a8 say "m09av27c"
+a9 say "m09av27d"
+
+~5
+
+a4 say "m09av28"
+
+~5
+
+player1 say "m09av29"
+
+~5
+
+a5 say "m09av30"
+
+exit
