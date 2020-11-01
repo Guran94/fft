@@ -1,5 +1,5 @@
 setacctime 1
-
+savegame
 mi1 setfuel 1
 mi1 lock true
 

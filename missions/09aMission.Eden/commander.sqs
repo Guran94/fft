@@ -2,4 +2,6 @@ setacctime 1
 
 player1 say "commander1"
 
+savegame
+
 exit

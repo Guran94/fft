@@ -5,7 +5,7 @@ MinScore = 1000
 AvgScore = 2000
 MaxScore = 3000
 
-Debriefing = 1
+Debriefing = 0
 
 ShowWatch = 1
 

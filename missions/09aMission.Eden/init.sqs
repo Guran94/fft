@@ -1,8 +1,16 @@
-aa = player1 loadStatus "08Twombly"
 playmusic "fft_track4"
 
-
-
+away1=false
+away2=false
+read=false
+documents=false
+InMontignac=false
+show=false
+packet=false
+VodkaDestroyed=false
+end1=false
+NoKey=true
+NoMontignac=true
 titleCut ["","BLACK IN",3]
 
 player1 setdammage 0.7
@@ -19,6 +27,14 @@ ammo1 AddWeaponCargo ["m60",1]
 ammo1 AddMagazineCargo ["m60",4]
 table1 setpos getmarkerpos "table1"
 player1 say "m09av01"
+
+~1
+
+guard1 disableai "autotarget"
+guard1 switchmove "FXStandAtt"
+r6 setbehaviour "careless"
+r6 switchMove "onChair"
+removeallweapons r6
 
 ;USSR
 ;=== 20:11:39
@@ -48,10 +64,3 @@ titleCut ["","WHITE in",1]
 player1 cameraEffect ["terminate","back"]
 camDestroy _camera
 
-away1=false
-read=false
-documents=false
-InMontignac=false
-NoMontignac=true
-show=false
-packet=false

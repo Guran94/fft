@@ -4,7 +4,6 @@ bennett playmove "FxShow4"
 
 ~4
 
-hrac addrating 1000
 hrac say "roy2"
 hrac addrating 1000
 hrac addmagazine "glockmag"

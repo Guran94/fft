@@ -1,0 +1,13 @@
+setacctime 1
+
+player1 say "vodka2"
+
+~5
+
+r6 say "vodka3"
+
+~5
+
+player1 say "vodka4"
+
+exit
