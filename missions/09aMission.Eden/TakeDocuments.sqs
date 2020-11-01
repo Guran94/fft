@@ -9,5 +9,6 @@ deletevehicle table1
 table2 setpos getmarkerpos "table1"
 hint localize "STRM_m09ah03"
 read=true
+"seize" setmarkertype "flag"
 
 exit

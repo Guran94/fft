@@ -1,0 +1,21 @@
+setacctime 1
+
+actor say "m09av33"
+
+~5
+
+off2 say "m09av34"
+
+~5
+
+actor say "m09av35"
+
+~5
+
+off2 say "m09av36"
+
+~5
+
+savegame
+
+exit

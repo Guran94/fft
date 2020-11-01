@@ -36,3 +36,15 @@ class CfgSounds
 		titles[] = {};
 	};
 };
+
+class CfgRadio
+{
+	sounds[] = { };
+
+	class m09ar01
+	{
+		name = "m09ar01";
+		sound[] = {"m09ar01.ogg", db+10, 1.00};
+		title = $STRM_m09ar01;
+	};
+};

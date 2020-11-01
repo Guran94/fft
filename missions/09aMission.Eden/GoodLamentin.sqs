@@ -65,5 +65,6 @@ actor say "m09av51"
 hint localize "STRM_m09ah08"
 vodka lock false
 packet=true
+"drink" setmarkertype "pickup"
 
 exit

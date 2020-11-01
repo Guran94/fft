@@ -14,6 +14,7 @@
 "STRM_m09ah08","Jeďte do Le Moule.","Go to Le Moule.","Hint"
 "STRM_m09ah09","Dovezte zásilku do Mortonu.","Deliver the packet to Morton.","Hint"
 "STRM_m09ah10","Dovezte zásilku do Mortonu.","Go to Montignac.","Hint"
+"STRM_m09ah11","Dovezte zásilku do Mortonu.","You've got keys from the boat. Now you might get in!","Hint"
 
 
 "STRM_m09aa1","Vzít dokumenty","Take the documents","text"
@@ -62,7 +63,7 @@
 "STRM_m09av32","Blashkov? No jasně, poručík Kozlov vás očekává v Montgnacu.\nJeďte tam. Pak se budem bavit.","Blashkov? Right, lietenant Kozlov awaits you in Montignac.\nGo there. Then we will talk together.","lamentin"
 
 "STRM_m09av33","Zdravim, soudruhu. Jsem Victor Blashkov. Potřebuji člun.","Greetings, comrade. I'm Victor Blashkov. I need a boat.","jason"
-"STRM_m09av34","Člun? Doufal jsem, že to neřeknete. Bohužel to momentálně nepůjde, soudruhu Blashkove.\nBez souhlasu seržanta Orlova vám nedovolím vzít si člun, soudruhu.","A boat? I hoped you'll not say itt. Unfortunetely it's impossible for now, comrade Blashkov.\nWithout sergent Orlov's agreement I can't give the permisson to you, comrade.","morton"
+"STRM_m09av34","Člun? Doufal jsem, že to neřeknete. Bohužel to momentálně nepůjde, soudruhu Blashkove.\nBez souhlasu  vám nedovolím vzít si člun, soudruhu.","A boat? I hoped you'll not say itt. Unfortunetely it's impossible for now, comrade Blashkov.\nWithout captain Blonski's agreement I can't give the permisson to you, comrade.","morton"
 "STRM_m09av35","Co? Proč? A kde je?","What? Why? And where is he?","jason"
 "STRM_m09av36","Teď zrovna slaví vítězství v Saint Pierre. Kdy přijede fakt netuším.\nZkuste přístav v Lamentinu, jinak vám nedokážu pomoci, soudruhu.","He's now celebrating the vicory in Saint Pierre. I really don't know, when he will come back.\nTry Lamentin port, otherwise I cannot help you, comrade.","morton"
 
@@ -82,26 +83,53 @@
 "STRM_m09av50","Vy chcete člun, já zase vodku.\nV Le Moule čeká zásilka. Vemte si náklaďák a vyzvedněte ji.\nPokud všechno uděláte, jak máte, dám vám povolení ke člunu, jak jste chtěl. Rozumíte?","You want a boat, I want vodka.\nThere is one packet in Le Moule, pick it up and get back here. Ask for packet for lietenant Volkov.\nIf everything will be as it might be, I'll give you the permisson to the boat, as you wanted. Understood?","lamentin"
 "STRM_m09av51","Ano, soudruhu důstojníku. Jdu na to.","Yes, comrade officer. I'm on my way.","jason"
 
-"STRM_m09av52","To bude ono.","That's it.","jason"
-"STRM_m09av53","Vítěčně, soudruhu Blashkove.\nVáš člun je hned ten první napravo, jak jsem slíbil.","Well done, comrade Blashkov.\nYour boat is that one on the right, as I promised.","lamentin"
-"STRM_m09av54","Děkuji, soudruhu.","Thank you, comrade.","jason"
-"STRM_m09av55","Jo!!! Já jsem to do prdele dokázal!!!","Yeah!!!! I did it, fuck!!!","jason"
+"STRM_m09av52","Vítěčně, soudruhu Blashkove.\nVáš člun je hned ten první napravo, jak jsem slíbil.","Well done, comrade Blashkov.\nYour boat is that one on the right, as I promised.","lamentin"
+"STRM_m09av53","Děkuji, soudruhu.","Thank you, comrade.","jason"
+"STRM_m09av54","Jo!!! Já jsem to do prdele dokázal!!!","Yeah!!!! I did it, fuck!!!","jason"
+
+"STRM_m09av55","Ne","Jean Poincare?","jason"
+"STRM_m09av56","Ne","Fuck you!","hugo"
+"STRM_m09av57","Ne","Shut up, Hugo! Yes, that's me.","jean"
+"STRM_m09av58","Ne","Nice work, comrade Blashkov. Comrade major Lemontov is already looking forward on your briefing.","soldier"
+"STRM_m09av59","Ne","What? Comrade Lemontov? The Russian SpetzNatz? Ehm... I wanted to say... the SpetzNatz?","jason"
+"STRM_m09av60","Ne","Yes, of course. He'll arrive in a moment.","soldier"
+"STRM_m09av61","Ne","Comrade, would you do something for me?","jason"
+"STRM_m09av62","Ne","Yes, comrade. What do yu need?","soldier"
+"STRM_m09av63","Ne","Welcome, comrade Lemontov. Please, sorry for comrade Blashkov, he had to take care of something yet.","soldier"
+"STRM_m09av64","Ne","Right, no matter...","lemontov"
+"STRM_m09av65","Ne","That was a close one.","jason"
+
 
 "STRM_commander1","Ne","I need to find a commander.","jason"
 "STRM_commander2","Ne","Excuse me, comrade, soldier. Where is a commander?","jason"
 "STRM_commander3","Ne","Right there, comrade officer.","rus"
 "STRM_vodka1","Ne","Great, It's Le Moule, now find the fucking truck.","jason"
-"STRM_vodka2","Ne","Excuse me, comrade, officer. I've come to pick up the packet for lietenant Volkov. Where it i?","jason"
-"STRM_vodka3","Ne","Hahaha... he is already drunk, isn't he? His vodka is prepared in front of the flag. Give regards to him.","off"
+"STRM_vodka2","Ne","Excuse me, comrade. I've come to pick up the packet for lietenant Volkov. Where it i?","jason"
+"STRM_vodka3","Ne","Hahaha... he is already drunk, isn't he? His vodka is prepared in front of the flag. Give regards to him, comrade officer.","sitting bull"
 "STRM_vodka4","Ne","Thanks.","jason"
+"STRM_vodka5","To bude ono.","That's it.","jason"
+"STRM_bonus","Ne","Maria Poincare? Killed by the crash with a tank?\nI arrested her husband? The leader of the rebellion?","jason"
+"STRM_key","Ne","I can't drive a boat without a key. I need to find some fucking commander, he must be in a tent or something like this?","jason"
+"STRM_pub","Ne","Sorry, comrade. It's just for invatees, comrade officer.","jason"
 
-"STRM_m09v01","Ne","","jason"
+
+"STRM_m09v01","Ne","Ahh... Jean. Long time no see, how are you?","lemontov"
+"STRM_m09v02","Ne","Go fuck yourself, fucker.","hugo"
+"STRM_m09v03","Ne","Hugo, I said shut up!","jean"
+"STRM_m09v04","Ne","Yes, boy, keep your mouth closed and listen to your commander.\nHow did it sound, Jean? Long live the Resistance!","lemontov"
+"STRM_m09v05","Ne","You betrayeld us, goddammit! You can kill me, Greg, but from this moment everyone will know, that it was the People of Everon, who fought against the super powers.","jean"
+"STRM_m09v06","Ne","It was the people of Everon, who didn't give up and was figting for his interests and his freedom!","jean"
+"STRM_m09v07","Ne","I'm quite sure, we will not kill you, Jean. Instead you'll help us with a shovel in your hands.","jean"
+"STRM_m09v08","Ne","You have no idea, what the folk of Everon can! You have this fucking uniform and think I'll knee before you, you dammed Soviet dog?","hugo"
+"STRM_m09v09","Ne","NO! You asshole! He was 20! He was fucking 20!","jean"
+"STRM_m09v10","Ne","He should the fuck up.\nLoad him inside. We're leaving","lemontov"
+"STRM_m09v11","Ne","Fuck you Lemontov. I'll kill you! Understand? I'll fuck kill you!","jean"
 
 
 
 
 "STRM_m09ar01","ZÁKLADNA PRO DRUŽSTVO ALEXEI, JAK JSTE NA TOM SE SPOJENÍM, PŘEPÍNÁM.","BASE FOR ALEXEI GROUP. HOW DOES YOUR COMMUNICATION LOOK, OVER.","base"
-"STRM_m09ar02","JO, DOBRÝ, SLYŠÍME SE DOBŘE. KONEC.","YEAH, GOOD, WE HEAR GOOD EACH OTHER. OUT.","jason"
+"STRM_m09ar02","JO, DOBRÝ, SLYŠÍME SE DOBŘE. KONEC.","YEAH, GOOD, WE HEAR GOOD EACH OTHER.","jason"
 "STRM_m09ar03","ROZUMÍM, ALEXEII. HLAVNĚ NIC NEPOKAŽTE, JASNÝ? POKUD ZKLAMETE, ČEKÁ VÁS SIBIŘ, KONEC.","ROGER THAT, ALEXEI. JUST DON'T FAIL SOMETHING, ARE WE CLEAR? IF YOU WILL FAIL, THE SIBERIA'S GOING TO WAIT FOR YOU. OUT.","base"
 
 "STRM_m09ar04","ZÁKLADNO, TADY ALEXEI. ÚKOL SPLNĚN, PARTYZÁNI SE VZDÁVAJÍ, PŘEPÍNÁM.","BASE, THIS IS ALEXEI. MISSION ACOMPLESHED, THE REBELS ARE GIVIING UP, OVER.","jason"
@@ -111,8 +139,6 @@
 
 "STRM_m09ar08","NÁKLAD NALOŽEN. MŮŽETE JET.","CARGO IS LOADED. YOU CAN GO.","Le Moule"
 
-
-"STRM_salute","Soudruhu důstojníku?","Comrade officer?","salute"
 
 "STRM_guard1","Ne","Greetings. Comrade, officer. What do you need?","guard"
 "STRM_guard2a","Ne.","I need to get to the airport.","jason"
@@ -124,10 +150,13 @@
 "STRM_tank","Hej! Stůj!!","Hey! Stop!","steal"
 
 "STRM_m09aaway1","SOUDRUHU SERŽANTE BLASHKOVE, DĚLÁTE SI PRDEL? DĚLEJTE CO MÁTE, NEBO JEDETE NA SIBIŘ!","COMRADE BLASHKOV, ARE KIDDING OR WHAT? DO WHAT YOU HAVE TO DO, OR YOU WILL DEPORT ON SIBERIA!","base"
-"STRM_m09aaway2","A do prdele, já jsem ale kretén!\nTen zkurvysyn z Mortonu mě zabije! Kurva! Raději bych se tam ani neukazoval!","Fuck it, I'm peace of shit!\nThat mutherfucker from Morton will kill me! Shit! It would be better to not show myself there.","jason"
+"STRM_m09aaway2","A do prdele, já jsem ale kretén!\nTen zkurvysyn z Mortonu mě zabije! Kurva! Raději bych se tam ani neukazoval!","Fuck it, I'm peace of shit!\nThat mutherfucker from Morton will kill me! Shit! What should I tell him?","jason"
 "STRM_m09aaway3","Soudruhu, seržante, kde je kurva ten náklaďák?","Comrade, sergeant, where the fuck is the truck!","lamentin"
 "STRM_m09aaway4","Ehm.... je kousek odtud, trošku se porouchal, soudruhu...","Ehm... it's not far from here, but it's little bit damaged, comrade...","jason"
-"STRM_m09aaway5","Jo on se porouchal? A sám, jo? Sakra, vy imbecile!\nNěkoho tam pošlu a vy už mi radši zmizte z očí, než vás na místě zastřelím!","Oh, it broke down? By itself, isn't it? Goddammint, you idiot!\nI'll send someone there and you get out of my eyes, than I'll shoot you!","lamentin"
+"STRM_m09aaway5","Jo on se porouchal? A sám, jo? Sakra, vy imbecile!\nNěkoho tam pošlu a vy už mi radši zmizte z očí, než vás na místě zastřelím!","Oh, it broke down? By itself, isn't it? Goddammint, you idiot!\nI'll send someone there and you take the fucking keys and get out of my eyes, than I'll shoot you!","lamentin"
 
+
+"STRM_m09am1","Ne","Change uniform","marker"
+"STRM_m09am2","Ne","Vodka Truck","marker"
 
 STR_CFG_GRPNAMES_ALPHA,ALEXEI,jason
