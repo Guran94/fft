@@ -32,10 +32,22 @@ class CfgSounds
 		sound[] = {"hit.ogg", db+10, 1.00};
 		titles[] = {};
 	};
-	class yeah
+	class documents
 	{
-		name = "yeah";
-		sound[] = {"yeah.ogg", db+10, 1.00};
+		name = "documents";
+		sound[] = {"documents.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class pub
+	{
+		name = "pub";
+		sound[] = {"pub.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class Tokarev
+	{
+		name = "Tokarev";
+		sound[] = {"Tokarev.ogg", db+10, 1.00};
 		titles[] = {};
 	};
 	class yes1

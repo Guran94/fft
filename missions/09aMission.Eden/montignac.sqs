@@ -1,24 +1,105 @@
-aa = player1 saveStatus "08Twombly"
-aa = actor loadStatus "08Twombly"
-setacctime1
+aa = player1 saveStatus "09Twombly"
+aa = actor loadStatus "09Twombly"
+setacctime 1
 titleCut ["","BLACK OUT",2]
 
-away1=true
-
 ~2
+
+player1 action ["weapononback"]
+actor2 moveindriver uazactor
+actor2 move getmarkerpos "actor2"
+actor2 setspeedmode "normal"
+uazactor setpos getmarkerpos "uazactor"
+uaz setdir 240
+uaz setpos getmarkerpos "start"
+player1 setpos getmarkerpos "getout1"
+off disableai "autotarget"
+actor disableai "autotarget"
+away1=true
 
 ~0.5
 
 titleCut ["","BLACK IN",2]
+setacctime 1
 
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;mikhail shows
+;=== 16:16:06
+_camera camSetTarget [-49806.61,90606.23,-4007.96]
+_camera camSetPos [4895.78,6998.36,2.04]
+_camera camSetFOV 0.434
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:16:24
+_camera camSetTarget [-53806.78,87846.91,-4008.29]
+_camera camSetPos [4896.42,6997.88,1.66]
+_camera camSetFOV 0.434
+_camera camCommit 6
+
+~1
+
+uaz setdir 240
+uaz setpos getmarkerpos "start"
+off playmove "fxshow3"
+
+~4
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+off setmimic "surprised"
+actor setmimic "normal"
 InMontignac=true
-off say "m09av02"
+uaz3 setdir 60
+uaz3 setpos getmarkerpos "PlayerCar1"
+deletevehicle uazactor
+deletevehicle actor2
+actor setdir 130
+actor dowatch [4909.74,6971.69,1.64]
+actor setpos getmarkerpos "mont"
+off setpos getmarkerpos "off"
+off setdir 330
+setacctime 1
 
-~5
+@camCommitted _camera
+
+~0.5
+
+
+titleCut ["","BLACK IN",1]
+
+actor switchmove "effectstand"
+off say "m09av02"
+;both
+;=== 21:33:37
+_camera camSetTarget [61021.80,89732.80,-1134.64]
+_camera camSetPos [4910.02,6973.21,1.62]
+_camera camSetFOV 0.422
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:33:53
+_camera camSetTarget [61021.80,89732.80,-1134.78]
+_camera camSetPos [4908.40,6970.83,1.62]
+_camera camSetFOV 0.422
+_camera camCommit 5
+@camCommitted _camera
+
 
 actor say "m09av03"
 
-~5
+~2
+
+;dostoevsky
+;=== 21:34:07
+_camera camSetTarget [95476.62,-35248.70,-3678.57]
+_camera camSetPos [4908.23,6972.63,1.62]
+_camera camSetFOV 0.353
+_camera camCommit 0
+@camCommitted _camera
+
 
 off say "m09av04"
 
@@ -26,45 +107,144 @@ off say "m09av04"
 
 actor say "m09av05"
 
+;jason
+;=== 21:34:25
+_camera camSetTarget [10802.82,106597.23,6477.08]
+_camera camSetPos [4909.00,6971.20,1.41]
+_camera camSetFOV 0.414
+_camera camCommit 0
+@camCommitted _camera
+
 ~5
 
 off say "m09av06"
+
+;dostoevsky
+;=== 21:34:07
+_camera camSetTarget [95476.62,-35248.70,-3678.57]
+_camera camSetPos [4908.23,6972.63,1.62]
+_camera camSetFOV 0.353
+_camera camCommit 0
+@camCommitted _camera
 
 ~5
 
 actor say "m09av07"
 
+actor setmimic "surprised"
+;jason
+;=== 21:34:25
+_camera camSetTarget [10802.82,106597.23,6477.08]
+_camera camSetPos [4909.00,6971.20,1.41]
+_camera camSetFOV 0.414
+_camera camCommit 0
+@camCommitted _camera
+
 ~5
 
+off setmimic "normal"
 off say "m09av08"
 
-~5
+actor setmimic "normal"
+;dostoevsky to both
+;=== 21:35:23
+_camera camSetTarget [102124.10,-13202.97,-11758.31]
+_camera camSetPos [4908.22,6972.10,1.60]
+_camera camSetFOV 0.560
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:35:32
+_camera camSetTarget [85324.09,65205.76,-11758.70]
+_camera camSetPos [4908.13,6971.44,1.60]
+_camera camSetFOV 0.621
+_camera camCommit 10
 
+~8
+
+actor setmimic "surprised"
 off say "m09av09"
 
-~5
+~2
+
+@camCommitted _camera
+
+;jason
+;=== 21:34:25
+_camera camSetTarget [10802.82,106597.23,6477.08]
+_camera camSetPos [4909.00,6971.20,1.41]
+_camera camSetFOV 0.414
+_camera camCommit 0
+@camCommitted _camera
+
+~3
 
 actor say "m09av10"
 
 ~5
 
+off setmimic "angry"
+off switchmove "fxtohand"
 off say "m09av11"
 
-~5
+;both to dostoevsky
+;=== 21:36:44
+_camera camSetTarget [-76632.03,-50049.45,-9802.03]
+_camera camSetPos [4910.44,6973.28,1.57]
+_camera camSetFOV 0.567
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:36:57
+_camera camSetTarget [-26363.83,-87649.84,-8109.51]
+_camera camSetPos [4910.15,6973.43,1.56]
+_camera camSetFOV 0.567
+_camera camCommit 8
+@camCommitted _camera
+
 
 actor say "m09av12"
+actor setmimic "normal"
+actor playmove "effectstandsalute"
+
+;jason
+;=== 21:37:16
+_camera camSetTarget [-67536.90,75460.20,-7623.60]
+_camera camSetPos [4910.95,6971.24,1.56]
+_camera camSetFOV 0.656
+_camera camCommit 0
+@camCommitted _camera
 
 ~5
 
+off setmimic "normal"
+off switchmove ""
+actor playmove "effectstandsaluteend"
 off say "m09av13"
 
-~5
+titleCut ["","BLACK OUT",1]
 
-actor say "m09av12"
+~1
 
-~5
+uaz setdir 60
+uaz setpos getmarkerpos "PlayerCar1"
+uaz3 setpos getmarkerpos "uazmorton"
+uaz3 setdir 180
+actor setpos getmarkerpos "safety"
+player1 setpos getmarkerpos "mont"
+player1 setdir 130
+player cameraEffect ["terminate","back"]
+camDestroy _camera
 
+player1 say "m09av14"
+
+~0.5
+
+off move getmarkerpos "dost"
+off setspeedmode "limited"
+titleCut ["","BLACK IN",1]
+
+~3
 
 hintc localize "STRM_m09ah01"
+
 
 exit

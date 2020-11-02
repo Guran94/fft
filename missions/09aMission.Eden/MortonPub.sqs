@@ -1,0 +1,7 @@
+setacctime 1
+
+titleCut ["","BLACK IN",1]
+guard2 say "pub"
+player1 setpos getmarkerpos "getout2"
+
+exit

@@ -1,5 +1,5 @@
-aa = player1 saveStatus "08Twombly"
-aa = actor loadStatus "08Twombly"
+aa = player1 saveStatus "09Twombly"
+aa = actor loadStatus "09Twombly"
 setacctime1
 titleCut ["","BLACK OUT",2]
 

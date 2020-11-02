@@ -1,7 +1,7 @@
 setacctime 1
-aa = player1 saveStatus "08Twombly"
-aa = actor loadStatus "08Twombly"
-
+aa = player1 saveStatus "09Twombly"
+aa = actor loadStatus "09Twombly"
+please1=false
 actor say "m09av37"
 
 ~5
@@ -65,6 +65,7 @@ actor say "m09av51"
 hint localize "STRM_m09ah08"
 vodka lock false
 packet=true
+LeMouleAsk=true
 "drink" setmarkertype "pickup"
 
 exit

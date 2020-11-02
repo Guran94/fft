@@ -1,40 +1,7 @@
 playmusic "fft_track4"
 
-away1=false
-away2=false
-read=false
-documents=false
-InMontignac=false
-show=false
-packet=false
-VodkaDestroyed=false
-end1=false
-NoKey=true
-NoMontignac=true
-titleCut ["","BLACK IN",3]
-
-player1 setdammage 0.7
-player1 setbehaviour "careless"
-uaz AddWeaponCargo ["pk",1]
-uaz AddMagazineCargo ["pk",2]
-uaz AddWeaponCargo ["AK74GrenadeLauncher",1]
-uaz AddMagazineCargo ["GrenadeLauncher",3]
-ClearWeaponCargo ammo1
-ClearMagazineCargo ammo1
-ammo1 AddWeaponCargo ["m16",1]
-ammo1 AddMagazineCargo ["m16",4]
-ammo1 AddWeaponCargo ["m60",1]
-ammo1 AddMagazineCargo ["m60",4]
-table1 setpos getmarkerpos "table1"
-player1 say "m09av01"
-
-~1
-
-guard1 disableai "autotarget"
-guard1 switchmove "FXStandAtt"
-r6 setbehaviour "careless"
-r6 switchMove "onChair"
-removeallweapons r6
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
 ;USSR
 ;=== 20:11:39
@@ -49,7 +16,88 @@ _camera camSetPos [6480.96,8341.67,1.60]
 _camera camSetFOV 0.393
 _camera camCommit 5
 
-~4
+away1=false
+away2=false
+read=false
+documents=false
+InMontignac=false
+show=false
+packet=false
+VodkaDestroyed=false
+NoKey=true
+NoMontignac=true
+please2=true
+please1=true
+AlexPunish=true
+LeMouleAsk=false
+end=false
+titleCut ["","BLACK IN",3]
+
+player1 setdammage 0.7
+player1 setbehaviour "careless"
+uaz AddWeaponCargo ["pk",1]
+uaz AddMagazineCargo ["pk",2]
+uaz AddMagazineCargo ["ak74",2]
+uaz AddWeaponCargo ["AK74GrenadeLauncher",1]
+uaz AddMagazineCargo ["GrenadeLauncher",3]
+ClearWeaponCargo ammo1
+ClearMagazineCargo ammo1
+ammo1 AddWeaponCargo ["m16",1]
+ammo1 AddMagazineCargo ["m16",4]
+ammo1 AddWeaponCargo ["m60",1]
+ammo1 AddMagazineCargo ["m60",4]
+table1 setpos getmarkerpos "table1"
+player1 say "m09av01"
+
+~1
+
+drunk1 switchmove "EffectWeaponPanic"
+drunk1 setpos [4906.73,6927.46,1.37]
+drunk1 setdir 260
+drunk2 switchmove "EffectWeaponPanic"
+drunk2 setpos [4905.80,6925.54,1.72]
+drunk2 setdir 305
+drunk3 switchmove "EffectWeaponPanic"
+drunk3 setpos [4924.88,6906.13,0.67]
+drunk3 setdir 290
+drunk4 switchmove "EffectWeaponPanic"
+drunk4 setpos [4922.41,6907.07,0.67]
+drunk4 setdir 235
+drunk5 switchmove "EffectWeaponPanic"
+drunk5 setpos [5093.29,3994.87,0.89]
+drunk5 setdir 155
+drunk6 switchmove "EffectWeaponPanic"
+drunk6 setpos [5094.92,3994.79,0.89]
+drunk6 setdir 10
+drunk7 switchmove "EffectWeaponPanic"
+drunk7 setpos [1267.50,5880.04,0.58]
+drunk7 setdir 270
+drunk8 switchmove "EffectWeaponPanic"
+drunk8 setpos [1263.89,5877.20,0.58]
+drunk8 setdir 160
+drunk9 switchmove "EffectWeaponPanic"
+drunk9 setpos [1288.91,6005.91,0.38]
+drunk9 setdir 25
+drunk10 switchmove "EffectWeaponPanic"
+drunk10 setpos [1290.39,6002.59,0.38]
+drunk10 setdir 235
+r1 disableai "autotarget"
+guard1 disableai "autotarget"
+guard1 switchmove "FXStandAtt"
+guard2 disableai "autotarget"
+guard2 switchmove "FXStandAtt"
+guard3 disableai "autotarget"
+guard3 switchmove "FXStandAtt"
+guard4 disableai "autotarget"
+guard4 switchmove "FXStandAtt"
+guard5 disableai "autotarget"
+guard5 switchmove "FXStandAtt"
+r6 setbehaviour "careless"
+r6 switchMove "onChair"
+removeallweapons r6
+
+
+~3
 
 titleCut ["","WHITE OUT",1]
 
@@ -64,3 +112,6 @@ titleCut ["","WHITE in",1]
 player1 cameraEffect ["terminate","back"]
 camDestroy _camera
 
+[] exec "cheat.sqs"
+
+exit
