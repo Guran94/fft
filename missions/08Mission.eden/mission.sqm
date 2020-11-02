@@ -192,7 +192,7 @@ class Mission
 					vehicle="SoldierWB";
 					player="PLAYER COMMANDER";
 					leader=1;
-					rank="CORPORAL";
+					rank="SERGEANT";
 					skill=0.600000;
 					text="twom";
 					init="removeallweapons this; this setidentity ""player1""; this setcaptive true; this setbehaviour ""careless""";

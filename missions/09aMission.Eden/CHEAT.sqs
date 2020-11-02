@@ -1,3 +1,4 @@
-player1 setpos getmarkerpos "mont"
+player1 setpos getmarkerpos "test2"
+
 
 exit

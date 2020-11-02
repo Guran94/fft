@@ -1,0 +1,7 @@
+setacctime 1
+
+player1 globalradio "m09ar06"
+off globalradio "m09ar07"
+mi2 setfuel 1
+
+exit

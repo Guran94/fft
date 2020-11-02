@@ -1,7 +1,0 @@
-setacctime 1
-a1 say "m09av18"
-
-[al1, al2, al3, al4, al5, al6, al7, al8, al9] join grpnull
-[al1, al2, al3, al4, al5, al6, al7, al8, al9] join player1
-
-exit

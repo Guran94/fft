@@ -1,0 +1,18 @@
+setacctime 1
+boat2 lock false
+NoKey=false
+vodka lock true
+vodka stop true
+vodka setfuel 0
+volkov say "m09av52"
+
+~4
+
+player1 action ["eject",vodka]
+
+~3
+
+player1 say "m09av53"
+hint localize "STRM_m09ah11"
+
+exit

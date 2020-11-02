@@ -2,4 +2,14 @@ setacctime 1
 
 player1 say "vodka5"
 
+~5
+
+player1 say "vodka6"
+
+~5
+
+r7 say "vodka7"
+r7 move getmarkerpos "r7"
+r7 setspeedmode "limited"
+
 exit

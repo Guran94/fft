@@ -1,6 +1,6 @@
 setacctime 1
-
-actor say "m09av33"
+please2=false
+player1 say "m09av33"
 
 ~5
 
@@ -8,7 +8,7 @@ off2 say "m09av34"
 
 ~5
 
-actor say "m09av35"
+player1 say "m09av35"
 
 ~5
 
