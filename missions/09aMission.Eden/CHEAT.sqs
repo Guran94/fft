@@ -1,4 +1,22 @@
-player1 setpos getmarkerpos "test2"
 
+away1=false
+away2=false
+read=false
+documents=false
+InMontignac=false
+show=false
+packet=false
+VodkaDestroyed=false
+NoKey=false
+NoMontignac=false
+please2=false
+please1=false
+AlexPunish=false
+LeMouleAsk=false
+end1=false
+freedom=false
+
+
+[] exec "south.sqs"
 
 exit

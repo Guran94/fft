@@ -1,3 +1,5 @@
+exit
+
 playmusic "fft_track4"
 
 _camera = "camera" camcreate [0,0,0]
@@ -30,7 +32,8 @@ please2=true
 please1=true
 AlexPunish=true
 LeMouleAsk=false
-end=false
+end1=false
+freedom=false
 titleCut ["","BLACK IN",3]
 
 player1 setdammage 0.7
@@ -46,6 +49,10 @@ ammo1 AddWeaponCargo ["m16",1]
 ammo1 AddMagazineCargo ["m16",4]
 ammo1 AddWeaponCargo ["m60",1]
 ammo1 AddMagazineCargo ["m60",4]
+ClearWeaponCargo ammo2
+ClearMagazineCargo ammo2
+ammo2 AddWeaponCargo ["tokarev",1]
+ammo2 AddMagazineCargo ["tokarevmag",4]
 table1 setpos getmarkerpos "table1"
 player1 say "m09av01"
 

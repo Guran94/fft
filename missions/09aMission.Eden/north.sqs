@@ -1,49 +1,145 @@
 aa = player1 saveStatus "09Twombly"
 aa = actor loadStatus "09Twombly"
 setacctime1
-titleCut ["","BLACK OUT",2]
+titleCut ["","BLACK OUT",1]
+actor dowatch objnull
+2 fademusic 0
 
+~1
 
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
 
-~2
+g1 setmimic "normal"
+actor setmimic "normal"
+actor setdir 340
+actor setpos getmarkerpos "north"
+actor dowatch [4653.96,7920.19,1.57]
+g1 dowatch [4655.21,7917.74,1.58]
 
-setacctime1
-g2 dotarget player1
+? (Player1 == vehicle Player1) : goto "Execute" ;
+
+vehicle Player1 setpos getmarkerpos "start"
+vehicle Player1 setdir 340
 
 ~0.5
 
-titleCut ["","BLACK IN",2]
+vehicle Player1 setpos getmarkerpos "PlayerCar3"
+vehicle Player1 setdir 340
 
+Player1 action ["EJECT"]
+
+#Execute
+
+Player1 setpos getmarkerpos "start"
+
+player1 setdir 340
+setacctime1
 g2 dotarget player1
+
+titleCut ["","BLACK IN",1]
+
+player1 action ["weapononback"]
+g2 dotarget player1
+
+
+;from point to both
+;=== 19:00:26
+_camera camSetTarget [-95211.88,3122.20,-1777.57]
+_camera camSetPos [4655.22,7918.71,1.62]
+_camera camSetFOV 0.417
+_camera camCommit 0
+@camCommitted _camera
+;=== 19:00:50
+_camera camSetTarget [-95211.88,3122.20,-1777.43]
+_camera camSetPos [4656.97,7918.80,1.72]
+_camera camSetFOV 0.417
+_camera camCommit 3
+
+~1
+
 g1 say "guard1"
 
-~5
+~2
 
-player1 say "guard2a"
+@camCommitted _camera
 
-~5
+actor say "guard2a"
+
+;jason
+;=== 19:01:54
+_camera camSetTarget [83446.68,-53296.85,-6521.53]
+_camera camSetPos [4652.63,7920.38,1.54]
+_camera camSetFOV 0.261
+_camera camCommit 0
+@camCommitted _camera
+
+~2
 
 g1 say "guard3"
 
-~5
+;both
+;=== 19:00:50
+_camera camSetTarget [-95211.88,3122.20,-1777.43]
+_camera camSetPos [4656.97,7918.80,1.72]
+_camera camSetFOV 0.417
+_camera camCommit 0
+@camCommitted _camera
 
-player1 say "guard4"
+~2
 
-~5
+actor say "guard4"
 
+;jason
+;=== 19:01:54
+_camera camSetTarget [83446.68,-53296.85,-6521.53]
+_camera camSetPos [4652.63,7920.38,1.54]
+_camera camSetFOV 0.261
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+g1 setmimic "angry"
 g1 say "guard5"
+deletevehicle actor
+player1 setpos getmarkerpos "north"
 
-~5
+;g1 close
+;=== 19:04:48
+_camera camSetTarget [-64540.08,79209.10,11491.05]
+_camera camSetPos [4655.57,7918.26,1.35]
+_camera camSetFOV 0.320
+_camera camCommit 0
+@camCommitted _camera
+
+~1
 
 g2 dotarget player1
 
-~5
-g2 dotarget player1
+~1
 
-~5
-
+;all
+;=== 19:06:07
+_camera camSetTarget [95143.33,49855.23,-7089.09]
+_camera camSetPos [4647.91,7916.05,1.13]
+_camera camSetFOV 0.559
+_camera camCommit 0
+@camCommitted _camera
 g2 dotarget player1
 g2 setbehaviour "combat"
 g2 setunitpos "up"
+
+~2
+
+player1 cameraEffect ["terminate","back"]
+camDestroy _camera
+
+g2 dotarget player1
+g2 dofire player1
+
+@not alive player1
+
+g2 setbehaviour "careless"
 
 exit
