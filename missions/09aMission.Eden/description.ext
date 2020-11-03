@@ -609,6 +609,72 @@ class CfgSounds
 		sound[] = {"pub.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_pub};
 	};
+	class guard1
+	{
+		name = "guard1";
+		sound[] = {"guard1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_guard1};
+	};
+	class guard2a
+	{
+		name = "guard2a";
+		sound[] = {"guard2a.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_guard2a};
+	};
+	class guard2b
+	{
+		name = "guard2b";
+		sound[] = {"guard2b.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_guard2b};
+	};
+	class guard3
+	{
+		name = "guard3";
+		sound[] = {"guard3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_guard3};
+	};
+	class guard4
+	{
+		name = "guard4";
+		sound[] = {"guard4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_guard4};
+	};
+	class guard5
+	{
+		name = "guard5";
+		sound[] = {"guard5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_guard5};
+	};
+	class m09aaway2
+	{
+		name = "m09aaway2";
+		sound[] = {"m09aaway2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway2};
+	};
+	class m09aaway3
+	{
+		name = "m09aaway3";
+		sound[] = {"m09aaway3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway};
+	};
+	class m09aaway4
+	{
+		name = "m09aaway4";
+		sound[] = {"m09aaway4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway4};
+	};
+	class m09aaway5
+	{
+		name = "m09aaway5";
+		sound[] = {"m09aaway5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway5};
+	};
+	class m09aaway6
+	{
+		name = "m09aaway6";
+		sound[] = {"m09aaway6.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway6};
+	};
 };
 
 
