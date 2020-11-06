@@ -6,6 +6,5 @@ away2=true
 
 off globalradio "m09ar01"
 player1 globalradio "m09ar02"
-off globalradio "m09ar03"
 
 exit

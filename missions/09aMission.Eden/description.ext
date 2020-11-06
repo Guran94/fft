@@ -525,125 +525,125 @@ class CfgSounds
 		sound[] = {"m09v11.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m09v11};
 	};
-	class commander1
+	class m09commander1
 	{
-		name = "commander1";
-		sound[] = {"commander1.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_commander1};
+		name = "m09commander1";
+		sound[] = {"m09commander1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09commander1};
 	};
-	class commander2
+	class m09commander2
 	{
-		name = "commander2";
-		sound[] = {"commander2.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_commander2};
+		name = "m09commander2";
+		sound[] = {"m09commander2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09commander2};
 	};
-	class commander3
+	class m09commander3
 	{
-		name = "commander3";
-		sound[] = {"commander3.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_commander3};
+		name = "m09commander3";
+		sound[] = {"m09commander3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09commander3};
 	};
-	class vodka1
+	class m09vodka1
 	{
-		name = "vodka1";
-		sound[] = {"vodka1.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka1};
+		name = "m09vodka1";
+		sound[] = {"m09vodka1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka1};
 	};
-	class vodka2
+	class m09vodka2
 	{
-		name = "vodka2";
-		sound[] = {"vodka2.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka2};
+		name = "m09vodka2";
+		sound[] = {"m09vodka2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka2};
 	};
-	class vodka3
+	class m09vodka3
 	{
-		name = "vodka3";
-		sound[] = {"vodka3.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka3};
+		name = "m09vodka3";
+		sound[] = {"m09vodka3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka3};
 	};
-	class vodka4
+	class m09vodka4
 	{
-		name = "vodka4";
-		sound[] = {"vodka4.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka4};
+		name = "m09vodka4";
+		sound[] = {"m09vodka4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka4};
 	};
-	class vodka5
+	class m09vodka5
 	{
-		name = "vodka5";
-		sound[] = {"vodka5.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka5};
+		name = "m09vodka5";
+		sound[] = {"m09vodka5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka5};
 	};
-	class vodka6
+	class m09vodka6
 	{
-		name = "vodka6";
-		sound[] = {"vodka6.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka6};
+		name = "m09vodka6";
+		sound[] = {"m09vodka6.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka6};
 	};
-	class vodka7
+	class m09vodka7
 	{
-		name = "vodka7";
-		sound[] = {"vodka7.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka7};
+		name = "m09vodka7";
+		sound[] = {"m09vodka7.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka7};
 	};
-	class vodka8
+	class m09vodka8
 	{
-		name = "vodka8";
-		sound[] = {"vodka8.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_vodka8};
+		name = "m09vodka8";
+		sound[] = {"m09vodka8.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka8};
 	};
-	class bonus
+	class m09bonus
 	{
-		name = "bonus";
-		sound[] = {"bonus.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_bonus};
+		name = "m09bonus";
+		sound[] = {"m09bonus.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bonus};
 	};
-	class key
+	class m09key
 	{
-		name = "key";
-		sound[] = {"key.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_key};
+		name = "m09key";
+		sound[] = {"m09key.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09key};
 	};
-	class pub
+	class m09pub
 	{
-		name = "pub";
-		sound[] = {"pub.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_pub};
+		name = "m09pub";
+		sound[] = {"m09pub.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09pub};
 	};
-	class guard1
+	class m09guard1
 	{
-		name = "guard1";
-		sound[] = {"guard1.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_guard1};
+		name = "m09guard1";
+		sound[] = {"m09guard1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard1};
 	};
-	class guard2a
+	class m09guard2a
 	{
-		name = "guard2a";
-		sound[] = {"guard2a.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_guard2a};
+		name = "m09guard2a";
+		sound[] = {"m09guard2a.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard2a};
 	};
-	class guard2b
+	class m09guard2b
 	{
-		name = "guard2b";
-		sound[] = {"guard2b.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_guard2b};
+		name = "m09guard2b";
+		sound[] = {"m09guard2b.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard2b};
 	};
-	class guard3
+	class m09guard3
 	{
-		name = "guard3";
-		sound[] = {"guard3.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_guard3};
+		name = "m09guard3";
+		sound[] = {"m09guard3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard3};
 	};
-	class guard4
+	class m09guard4
 	{
-		name = "guard4";
-		sound[] = {"guard4.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_guard4};
+		name = "m09guard4";
+		sound[] = {"m09guard4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard4};
 	};
-	class guard5
+	class m09guard5
 	{
-		name = "guard5";
-		sound[] = {"guard5.ogg", db+10, 1.00};
-		titles[] = {0,$STRM_guard5};
+		name = "m09guard5";
+		sound[] = {"m09guard5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard5};
 	};
 	class m09aaway2
 	{

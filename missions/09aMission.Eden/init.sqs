@@ -1,5 +1,3 @@
-exit
-
 playmusic "fft_track4"
 
 _camera = "camera" camcreate [0,0,0]
@@ -118,7 +116,5 @@ titleCut ["","WHITE in",1]
 
 player1 cameraEffect ["terminate","back"]
 camDestroy _camera
-
-[] exec "cheat.sqs"
 
 exit

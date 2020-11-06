@@ -1,6 +1,6 @@
 setacctime 1
 
-player1 say "commander1"
+player1 say "m09commander1"
 
 savegame
 

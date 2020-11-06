@@ -2,6 +2,7 @@ aa = player1 saveStatus "09Twombly"
 aa = actor loadStatus "09Twombly"
 setacctime 1
 titleCut ["","BLACK OUT",2]
+3 fademusic 0.2
 
 ~2
 
@@ -50,6 +51,7 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
+actor removeweapon "binocular"
 off setmimic "surprised"
 actor setmimic "normal"
 InMontignac=true
@@ -71,8 +73,7 @@ setacctime 1
 
 titleCut ["","BLACK IN",1]
 
-actor switchmove "effectstand"
-off say "m09av02"
+
 ;both
 ;=== 21:33:37
 _camera camSetTarget [61021.80,89732.80,-1134.64]
@@ -84,7 +85,16 @@ _camera camCommit 0
 _camera camSetTarget [61021.80,89732.80,-1134.78]
 _camera camSetPos [4908.40,6970.83,1.62]
 _camera camSetFOV 0.422
-_camera camCommit 5
+_camera camCommit 4
+
+actor switchmove "effectstand"
+
+~1
+
+off say "m09av02"
+
+~3
+
 @camCommitted _camera
 
 
@@ -103,7 +113,7 @@ _camera camCommit 0
 
 off say "m09av04"
 
-~5
+~2
 
 actor say "m09av05"
 
@@ -115,7 +125,7 @@ _camera camSetFOV 0.414
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~4
 
 off say "m09av06"
 
@@ -127,7 +137,7 @@ _camera camSetFOV 0.353
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~4
 
 actor say "m09av07"
 
@@ -140,7 +150,7 @@ _camera camSetFOV 0.414
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~4
 
 off setmimic "normal"
 off say "m09av08"
@@ -159,12 +169,12 @@ _camera camSetPos [4908.13,6971.44,1.60]
 _camera camSetFOV 0.621
 _camera camCommit 10
 
-~8
+~4
 
 actor setmimic "surprised"
 off say "m09av09"
 
-~2
+~6
 
 @camCommitted _camera
 
@@ -180,7 +190,7 @@ _camera camCommit 0
 
 actor say "m09av10"
 
-~5
+~2.5
 
 off setmimic "angry"
 off switchmove "fxtohand"
@@ -197,7 +207,7 @@ _camera camCommit 0
 _camera camSetTarget [-26363.83,-87649.84,-8109.51]
 _camera camSetPos [4910.15,6973.43,1.56]
 _camera camSetFOV 0.567
-_camera camCommit 8
+_camera camCommit 9
 @camCommitted _camera
 
 
@@ -213,12 +223,14 @@ _camera camSetFOV 0.656
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~2
 
 off setmimic "normal"
 off switchmove ""
 actor playmove "effectstandsaluteend"
 off say "m09av13"
+
+~1
 
 titleCut ["","BLACK OUT",1]
 
@@ -234,8 +246,6 @@ player1 setdir 130
 player cameraEffect ["terminate","back"]
 camDestroy _camera
 
-player1 say "m09av14"
-
 ~0.5
 
 off move getmarkerpos "dost"
@@ -243,6 +253,10 @@ off setspeedmode "limited"
 titleCut ["","BLACK IN",1]
 
 ~3
+
+player1 say "m09av14"
+
+~1
 
 hintc localize "STRM_m09ah01"
 

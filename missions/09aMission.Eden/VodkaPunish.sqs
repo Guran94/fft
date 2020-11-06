@@ -1,7 +1,7 @@
 setaacctime 1
 
 player1 say "m09aaway2"
-player1 addrating -500
+player1 addrating -1000
 VodkaDestroyed=true
 
 exit

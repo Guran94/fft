@@ -52,7 +52,7 @@ _camera camSetFOV 0.578
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~2
 
 volkov say "m09av38"
 
@@ -69,7 +69,7 @@ _camera camSetFOV 0.361
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~2
 
 volkov say "m09av40"
 
@@ -81,7 +81,7 @@ _camera camSetFOV 0.558
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~4
 
 actor setmimic "smile"
 actor say "m09av41"
@@ -97,14 +97,14 @@ _camera camCommit 0
 _camera camSetTarget [-7657.55,-93312.97,-7667.67]
 _camera camSetPos [1304.62,5983.91,1.64]
 _camera camSetFOV 0.558
-_camera camCommit 5
+_camera camCommit 7
 
-~2
+~3
 
 actor setmimic "normal"
 volkov say "m09av42"
 
-~3
+~4
 
 @camCommitted _camera
 
@@ -130,7 +130,7 @@ _camera camSetFOV 0.558
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~2
 
 actor say "m09av45"
 
@@ -142,7 +142,7 @@ _camera camSetFOV 0.361
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~1
 
 volkov say "m09av46"
 
@@ -157,7 +157,7 @@ _camera camCommit 0
 _camera camSetTarget [-97169.16,21570.63,-7667.95]
 _camera camSetPos [1304.93,5982.25,1.64]
 _camera camSetFOV 0.667
-_camera camCommit 5
+_camera camCommit 11
 @camCommitted _camera
 
 actor say "m09av47"
@@ -175,7 +175,7 @@ _camera camCommit 0
 
 volkov say "m09av48"
 
-~2
+~4
 
 ;jason
 ;=== 16:12:02
@@ -202,11 +202,11 @@ _camera camCommit 0
 _camera camSetTarget [-97169.16,21570.63,-7667.95]
 _camera camSetPos [1304.93,5982.25,1.64]
 _camera camSetFOV 0.667
-_camera camCommit 5
+_camera camCommit 12
 
 volkov say "m09av50"
 
-~4
+~11
 
 titleCut ["","BLACK OUT",1]
 
@@ -225,6 +225,8 @@ camDestroy _camera
 ~0.5
 
 titleCut ["","BLACK IN",1]
+
+~4
 
 player1 say "m09av51"
 

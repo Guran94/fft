@@ -6,7 +6,7 @@ aa = actor loadStatus "09Twombly"
 setacctime 1
 actor setbehaviour "aware"
 actor dowatch objnull
-
+actor disableai "autotarget"
 
 ~3
 
@@ -95,7 +95,7 @@ _camera camCommit 0
 _camera camSetTarget [101568.91,27781.34,7301.02]
 _camera camSetPos [4070.18,6759.73,1.31]
 _camera camSetFOV 0.564
-_camera camCommit 6
+_camera camCommit 4
 @camCommitted _camera
 
 ;hugo and jean
@@ -132,7 +132,7 @@ hugo say "m09av56"
 
 jean say "m09av57"
 
-~5
+~3
 
 ;all
 ;=== 10:37:20
@@ -189,7 +189,7 @@ _camera camCommit 0
 _camera camSetTarget [65307.60,85588.10,4969.49]
 _camera camSetPos [4041.18,6704.73,1.28]
 _camera camSetFOV 0.451
-_camera camCommit 4
+_camera camCommit 5
 @camCommitted _camera
 
 actor setmimic "surprised"
@@ -204,7 +204,7 @@ _camera camCommit 0
 
 actor say "m09av59"
 
-~3
+~6
 
 shooter4 say "m09av60"
 
@@ -229,7 +229,7 @@ uaz1 move getmarkerpos "jean2"
 titletext ["","plain"]
 uaz1 setpos getmarkerpos "close"
 uaz1 setdir 120
-0 fademusic 1
+0 fademusic 0.5
 playMusic ["track6", 85]
 
 
@@ -270,7 +270,7 @@ _camera camCommit 0
 shooter4 dowatch [4024.42,6697.14,1.82]
 actor say "m09av61"
 
-~5
+~2
 
 ;russian
 ;=== 10:58:03
@@ -282,7 +282,7 @@ _camera camCommit 0
 
 shooter4 say "m09av62"
 
-~2
+~1
 
 titleCut ["","BLACK OUT",1]
 
@@ -306,10 +306,11 @@ deletevehicle shooter5
 deletevehicle shooter6
 actor setpos getmarkerpos "safety"
 
-
-
-uaz1 setpos getmarkerpos "uaz1"
+uaz1 setfuel 0
+uaz1 setpos getmarkerpos "start"
 uaz1 setdir 30
+uaz3 setpos getmarkerpos "uaz1"
+uaz3 setdir 30
 
 
 
@@ -331,7 +332,7 @@ _camera camCommit 0
 _camera camSetTarget [2722.55,105978.06,-11898.19]
 _camera camSetPos [4044.41,6707.70,1.38]
 _camera camSetFOV 0.473
-_camera camCommit 3
+_camera camCommit 5
 @camCommitted _camera
 
 lemontov say "m09av64"
@@ -371,7 +372,7 @@ _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~3
 
 hugo say "m09v02"
 
@@ -383,11 +384,11 @@ _camera camSetFOV 0.476
 _camera camCommit 0
 @camCommitted _camera
 
-~2
+~1
 
 jean say "m09v03"
 
-~2
+~1.5
 
 lemontov say "m09v04"
 
@@ -402,7 +403,7 @@ _camera camCommit 0
 _camera camSetTarget [-67453.77,-61149.05,-16718.00]
 _camera camSetPos [4046.08,6713.86,1.75]
 _camera camSetFOV 0.460
-_camera camCommit 5
+_camera camCommit 6
 @camCommitted _camera
 
 
@@ -419,9 +420,9 @@ _camera camCommit 0
 _camera camSetTarget [-13820.65,102265.56,23542.59]
 _camera camSetPos [4044.43,6711.16,0.88]
 _camera camSetFOV 0.460
-_camera camCommit 10
+_camera camCommit 13
 
-~5
+~8
 
 jean say "m09v06"
 
@@ -459,7 +460,7 @@ _camera camCommit 0
 _camera camSetTarget [36433.54,96303.09,30486.90]
 _camera camSetPos [4042.11,6711.93,1.04]
 _camera camSetFOV 0.699
-_camera camCommit 5
+_camera camCommit 8
 @camCommitted _camera
 
 lemontov setmimic "angry"
@@ -494,7 +495,7 @@ hugo setdammage 1
 ~0.5
 
 setacctime 1
-0 fademusic 0.5
+0 fademusic 0.2
 playmusic "rtrack1b"
 lemontov setBehaviour "careless"
 
@@ -514,6 +515,12 @@ jean say "m09v09"
 
 ~5
 
+
+uaz1 setpos getmarkerpos "uaz1"
+uaz1 setdir 30
+uaz3 setpos getmarkerpos "uazmorton"
+uaz3 setdir 180
+
 lemontov say "m09v10"
 
 ;angry greg
@@ -524,7 +531,7 @@ _camera camSetFOV 0.373
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~4
 
 jean say "m09v11"
 spetz1 assignAscargo uaz1
@@ -541,22 +548,22 @@ _camera camSetFOV 0.401
 _camera camCommit 0
 @camCommitted _camera
 
-~5
+~4
 
-#skip
-
+2 fademusic 0
 titleCut ["","BLACK OUT",1]
 
 
 ~1
 
+titletext ["","plain"]
 player1 setpos getmarkerpos "seize"
 player1 setmimic "smile"
 spetz1 moveincargo uaz1
 lemontov moveincargo uaz1
 jean moveincargo uaz1
 uaz1 setdir 300
-
+uaz1 setfuel 1
 uaz1 setpos getmarkerpos "uazAway"
 uaz1 move getmarkerpos "arriving"
 player1 setdir 270
@@ -592,6 +599,8 @@ deletevehicle shooter4
 deletevehicle shooter3
 deletevehicle pri1
 deletevehicle pri2
+deletevehicle shooter1
+deletevehicle shooter2
 
 ~2
 
@@ -618,12 +627,12 @@ savegame
 
 ~1
 
-0 fademusic 0.5
+0 fademusic 0.2
 playmusic "track4"
-player1 globalradio "m09ar04"
-off globalradio "m09ar05"
+player1 globalradio "m09ar03"
+off globalradio "m09ar04"
 
-~10
+~18
 
 1 setradiomsg localize "STRM_m09aa3"
 hint localize "STRM_m09ah12"

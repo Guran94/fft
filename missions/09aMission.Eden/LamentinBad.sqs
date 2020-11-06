@@ -3,11 +3,11 @@ player1 addrating -500
 player1 say "m09av31"
 please1=false
 
-~5
+~3
 
 volkov say "m09av32"
 
-~5
+~8
 
 hint localize "STRM_m09ah10"
 
