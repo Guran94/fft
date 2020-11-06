@@ -90,9 +90,9 @@ STRM_m05away1,"MAJOR, THE REBELS ARE WAITING. GET IN THE CAR AND FINALLY GO!","M
 STRM_m05away2,"MAJOR, WHAT YOU'RE DOING? YOU'RE DRIVING A WRONG DIRECTION!","MAJORE, CO TO DĚLÁTE? JEDETE ŠPATNÝM SMĚREM!",papa
 STRM_m05away3,Fuck... Johnson will kill me.,Kurva... Johnson mě zabije.,George
 
-STR_CFG_GRPNAMES_ALPHA,Devil,george
-STR_CFG_GRPNAMES_BRAVO,Judge,steve
-STR_CFG_GRPNAMES_CHARLIE,Eagle,eagle
+STR_CFG_GRPNAMES_ALPHA,Devil,Devil,george
+STR_CFG_GRPNAMES_BRAVO,Judge,Judge,steve
+STR_CFG_GRPNAMES_CHARLIE,Eagle,Orel,eagle
 
 
 STRM_m05m1,Get out!,Pryč!,marker

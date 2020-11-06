@@ -54,18 +54,18 @@ _camera camCommit 0
 _camera camSetTarget [106071.42,-4358.25,-8113.84]
 _camera camSetPos [6829.94,4828.11,1.46]
 _camera camSetFOV 0.573
-_camera camCommit 3
+_camera camCommit 4
 
 
 ~1
 
-g3 say "guard1"
+g3 say "m09guard1"
 
-~2
+~3
 
 @camCommitted _camera
 
-actor say "guard2b"
+actor say "m09guard2b"
 
 ;jason
 ;=== 19:25:51
@@ -78,7 +78,7 @@ _camera camCommit 0
 
 ~2
 
-g3 say "guard3"
+g3 say "m09guard3"
 
 ;both
 ;=== 19:25:25
@@ -90,7 +90,7 @@ _camera camCommit 0
 
 ~2
 
-actor say "guard4"
+actor say "m09guard4"
 
 ;jason
 ;=== 19:25:51
@@ -103,7 +103,7 @@ _camera camCommit 0
 ~1
 
 g3 setmimic "angry"
-g3 say "guard5"
+g3 say "m09guard5"
 deletevehicle actor
 player1 setpos getmarkerpos "south"
 

@@ -1,0 +1,36 @@
+version=11;
+class Mission
+{
+	randomSeed=12133891;
+	class Intel
+	{
+		resistanceWest=0.000000;
+		startWeather=0.374937;
+		startFog=0.100000;
+		forecastFog=0.037519;
+		month=11;
+		day=29;
+		hour=10;
+	};
+};
+class Intro
+{
+	randomSeed=4692483;
+	class Intel
+	{
+	};
+};
+class OutroWin
+{
+	randomSeed=6230531;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=15446019;
+	class Intel
+	{
+	};
+};

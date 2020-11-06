@@ -1,10 +1,10 @@
 setacctime 1
 player1 addrating 500
-player1 say "commander2"
+player1 say "m09commander2"
 
-~5
+~3
 
-r1 say "commander3"
+r1 say "m09commander3"
 r1 dowatch [1322.08,5971.36,2.28]
 
 ~1

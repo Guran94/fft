@@ -3,6 +3,7 @@ savegame
 mi1 setfuel 1
 mi1 lock true
 20 fademusic 0
+0 fadesound 0.2
 
 ~20
 
@@ -11,19 +12,19 @@ away1=false
 
 al1 say "m09av19"
 
-~5
+~2
 
 player1 say "m09av20"
 
-~5
+~2
 
 al2 say "m09av21"
 
-~5
+~3
 
 player1 say "m09av22"
 
-~5
+~11
 
 al1 say "m09av23"
 al2 say "m09av23a"
@@ -41,11 +42,11 @@ al3 say "m09av24"
 
 player1 say "m09av25"
 
-~5
+~4
 
 al3 say "m09av26"
 
-~5
+~3
 
 al1 say "m09av27"
 al2 say "m09av27a"
@@ -55,16 +56,20 @@ al5 say "m09av27d"
 al6 say "m09av27a"
 al7 say "m09av27b"
 
-~5
+~2
 
 al4 say "m09av28"
 
-~5
+~3
 
 player1 say "m09av29"
 
-~5
+~7
 
 al5 say "m09av30"
+
+~2
+
+2 fadesound 1
 
 exit

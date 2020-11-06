@@ -9,14 +9,14 @@ packet=false
 VodkaDestroyed=false
 NoKey=false
 NoMontignac=false
-please2=false
-please1=false
+please2=true
+please1=true
 AlexPunish=false
 LeMouleAsk=false
 end1=false
 freedom=false
 
 
-[] exec "south.sqs"
+player1 setpos getmarkerpos "test2"
 
 exit

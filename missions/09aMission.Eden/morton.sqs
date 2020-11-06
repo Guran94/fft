@@ -6,15 +6,15 @@ player1 say "m09av33"
 
 off2 say "m09av34"
 
-~5
+~9
 
 player1 say "m09av35"
 
-~5
+~3
 
 off2 say "m09av36"
 
-~5
+~6
 
 savegame
 

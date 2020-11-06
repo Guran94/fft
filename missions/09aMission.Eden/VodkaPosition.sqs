@@ -1,13 +1,13 @@
 setacctime 1
 
-player1 say "vodka2"
+player1 say "m09vodka2"
 
 ~5
 
-r6 say "vodka3"
+r6 say "m09vodka3"
 
-~5
+~6
 
-player1 say "vodka4"
+player1 say "m09vodka4"
 
 exit
