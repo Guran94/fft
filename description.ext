@@ -265,6 +265,14 @@ class CfgIdentities
     speaker = "Adam";
     pitch = 1.00;
   };
+  class Astier
+  {
+    name = "Gaston Astier";
+    face = "Face6";
+    glasses = "None";
+    speaker = "Tom";
+    pitch = 0.923914;
+  };
   class Maria
   {
     name = "Maria Poincare";
@@ -527,5 +535,27 @@ class Campaign
     end6 = ;
     lost = ;
     template = 08Mission.Eden;
+  };
+  class 09aMission: MissionDefault
+  {
+    end1 = ;
+    end2 = 09aMission;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
+    template = 09aMission.Eden;
+  };
+  class 09bMission: MissionDefault
+  {
+    end1 = ;
+    end2 = 09bMission;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+    lost = ;
+    template = 09bMission.Eden;
   };
 };

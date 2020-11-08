@@ -37,6 +37,7 @@ STRCA_AwayPlayer3,"NE","HATTON, DO YOU KNOW, WHERE YOU ARE? GET BACK TO YOUR MIS
 STRCA_AwayPlayer4,"NE","I do not know.","papa"
 
 STRCT_01,"Mise splněna","Mission completed","Text"
+STRCT_02,"Mise nesplněna","Mission failed","Text"
 
 STRCM_01,"Počáteční pozice","Start","marker"
 STRCM_02,"Nepřátelské území","Enemy teritorry","marker"

@@ -1,5 +1,6 @@
 setacctime 1
 boat2 lock false
+5 fademusic 0
 
 volkov say "m09aaway3"
 

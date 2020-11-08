@@ -1,0 +1,210 @@
+onLoadMission="$STRM_ONLOAD_MISSION";
+onLoadMissionTime = true;
+
+MinScore = 0
+AvgScore = 2000
+MaxScore = 3000
+
+Debriefing = 0
+
+ShowWatch = 1
+
+ShowCompass = 0
+
+ShowNotepad = 0
+
+ShowGPS = 0
+
+ShowMap = 0
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class m09bv01
+	{
+		name = "m09bv01";
+		sound[] = {"m09bv01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv01};
+	};
+	class m09bv02
+	{
+		name = "m09bv02";
+		sound[] = {"m09bv02.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv02};
+	};
+	class m09bv03
+	{
+		name = "m09bv03";
+		sound[] = {"m09bv03.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv03};
+	};
+	class m09bv04
+	{
+		name = "m09bv04";
+		sound[] = {"m09bv04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv04};
+	};
+	class m09bv05
+	{
+		name = "m09bv05";
+		sound[] = {"m09bv05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv05};
+	};
+	class m09bv06
+	{
+		name = "m09bv06";
+		sound[] = {"m09bv06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv06};
+	};
+	class m09bv07
+	{
+		name = "m09bv07";
+		sound[] = {"m09bv07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv07};
+	};
+	class m09bv08
+	{
+		name = "m09bv08";
+		sound[] = {"m09bv08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv08};
+	};
+	class m09bv09
+	{
+		name = "m09bv09";
+		sound[] = {"m09bv09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv09};
+	};
+	class m09bv10
+	{
+		name = "m09bv10";
+		sound[] = {"m09bv10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv10};
+	};
+	class m09bv11
+	{
+		name = "m09bv11";
+		sound[] = {"m09bv11.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv11};
+	};
+	class m09bv12
+	{
+		name = "m09bv12";
+		sound[] = {"m09bv12.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv12};
+	};
+	class m09bv13
+	{
+		name = "m09bv13";
+		sound[] = {"m09bv13.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv13};
+	};
+	class m09bv14
+	{
+		name = "m09bv14";
+		sound[] = {"m09bv14.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv14};
+	};
+	class m09bv15
+	{
+		name = "m09bv15";
+		sound[] = {"m09bv15.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv15};
+	};
+	class m09bv16
+	{
+		name = "m09bv16";
+		sound[] = {"m09bv16.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv16};
+	};
+	class m09bv17
+	{
+		name = "m09bv17";
+		sound[] = {"m09bv17.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv17};
+	};
+	class m09bv18
+	{
+		name = "m09bv18";
+		sound[] = {"m09bv18.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv18};
+	};
+	class m09bv19
+	{
+		name = "m09bv19";
+		sound[] = {"m09bv19.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv19};
+	};
+	class m09bv20
+	{
+		name = "m09bv20";
+		sound[] = {"m09bv20.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bv20};
+	};
+	class m09v01
+	{
+		name = "m09v01";
+		sound[] = {"m09v01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v01};
+	};
+	class m09v02
+	{
+		name = "m09v02";
+		sound[] = {"m09v02.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v02};
+	};
+	class m09v03
+	{
+		name = "m09v03";
+		sound[] = {"m09v03.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v03};
+	};
+	class m09v04
+	{
+		name = "m09v04";
+		sound[] = {"m09v04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v04};
+	};
+	class m09v05
+	{
+		name = "m09v05";
+		sound[] = {"m09v05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v05};
+	};
+	class m09v06
+	{
+		name = "m09v06";
+		sound[] = {"m09v06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v06};
+	};
+	class m09v07
+	{
+		name = "m09v07";
+		sound[] = {"m09v07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v07};
+	};
+	class m09v08
+	{
+		name = "m09v08";
+		sound[] = {"m09v08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v08};
+	};
+	class m09v09
+	{
+		name = "m09v09";
+		sound[] = {"m09v09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v09};
+	};
+	class m09v10
+	{
+		name = "m09v10";
+		sound[] = {"m09v10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v10};
+	};
+	class m09v11
+	{
+		name = "m09v11";
+		sound[] = {"m09v11.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v11};
+	};
+};
