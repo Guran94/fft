@@ -6,6 +6,7 @@ actor dowatch objnull
 actor setmimic "normal"
 volkov setmimic "Agresive"
 actor setbehaviour "careless"
+3 fademusic 0
 
 titleCut ["","BLACK OUT",1]
 
@@ -232,6 +233,8 @@ player1 say "m09av51"
 
 ~1
 
+0 fademusic 0.5
+playmusic "track2"
 hint localize "STRM_m09ah08"
 vodka lock false
 packet=true

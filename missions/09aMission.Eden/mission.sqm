@@ -3613,7 +3613,7 @@ class Mission
 			age="UNKNOWN";
 			text="Seized";
 			expCond="{alive _x} count thislist <= 3";
-			expActiv="[] exec ""RebelsOut.sqs""; ""_x setdammage 1"" foreach thislist";
+			expActiv="""_x setdammage 1"" foreach thislist; [] exec ""RebelsOut.sqs""";
 			class Effects
 			{
 			};

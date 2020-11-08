@@ -1,0 +1,9 @@
+setacctime 1
+jason addrating -1000
+titletext [ localize "STRCT_02","plain"]
+
+~5
+
+end2=true
+
+exit
