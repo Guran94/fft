@@ -20,7 +20,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=25;
+		items=24;
 		class Item0
 		{
 			side="EAST";
@@ -45,7 +45,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={10773.265625,5.801762,11652.911133};
+					position[]={10770.858398,4.903286,11652.207031};
 					type="TR UNLOAD";
 					expActiv="[] exec ""NewBlood.sqs""";
 					class Effects
@@ -109,14 +109,14 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={10870.167969,24.525000,11662.038086};
+					position[]={10866.905273,24.525000,11672.233398};
 					id=0;
 					side="EAST";
 					vehicle="SoldierEB";
 					player="PLAYER COMMANDER";
 					skill=0.600000;
 					text="jason";
-					init="[] exec ""newblood.sqs""; this setcaptive true; removeAllWeapons this; this addmagazine ""ak74""; this addmagazine ""ak74""; this addmagazine ""ak74""; this addmagazine ""ak74""; this addWeapon ""ak74""; this setidentity ""player1""";
+					init="this moveincargo boat1; this setcaptive true; removeAllWeapons this; this addWeapon ""ak74""; this setidentity ""player1""";
 				};
 			};
 			class Waypoints
@@ -126,6 +126,7 @@ class Mission
 				{
 					position[]={10867.201172,24.525000,11660.688477};
 					type="HOLD";
+					combat="CARELESS";
 					description="@STRM_m09bw1";
 					class Effects
 					{
@@ -654,25 +655,6 @@ class Mission
 				};
 			};
 		};
-		class Item24
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={10873.155273,24.525000,11670.296875};
-					azimut=5.000000;
-					id=26;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.600000;
-					init="this exec ""camera.sqs""";
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
@@ -691,7 +673,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=10;
+		items=11;
 		class Item0
 		{
 			position[]={10771.524414,5.213778,11652.934570};
@@ -745,14 +727,21 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={10841.830078,23.977787,11659.077148};
+			position[]={10869.834961,24.525000,11662.000000};
 			name="lemontov2";
 			type="Flag";
 		};
 		class Item9
 		{
-			position[]={10841.773438,23.888054,11657.179688};
+			position[]={10865.015625,24.525000,11660.288086};
 			name="actor2";
+			type="Flag";
+			colorName="ColorGreen";
+		};
+		class Item10
+		{
+			position[]={10879.540039,24.525000,11667.430664};
+			name="jason2";
 			type="Flag";
 			colorName="ColorGreen";
 		};

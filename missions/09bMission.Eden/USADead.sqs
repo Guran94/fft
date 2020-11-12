@@ -1,0 +1,8 @@
+setacctime 1
+
+off1 say "m09bv16"
+
+jason addrating -500
+removeallmagazines jason
+
+exit
