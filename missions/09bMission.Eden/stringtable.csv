@@ -11,7 +11,10 @@ STRM_m09h3,Escape from the island!,Utečte z ostrova!,Hint
 STRM_m09bv01,"We'll be right there, comrade Tarasenko.\nNow you will prove your loyalty to the great Soviet empire.","Za chvíli budeme na místě, soudruhu Těreščenko.\nNyní prokážete svou věrnost velké Sovětské říši.",lemontov
 STRM_m09bv02,What's going on? And where are we going?,O co půjde?,jason
 STRM_m09bv03,"One might call it the Prison island, serving for our purposes.\nThere you're be testing your loyalty, comrade Tarasenko.","Jak jsem řekl, test vaší věrnosti, soudruhu Těreščenko.",lemontov
-STRM_m09bv04,"Look and learn, comrade Tarasenko.",O co půjde?,lemi
+STRM_m09bv04,"What the hell? It's Twombly?",O co půjde?,jack
+STRM_m09bv05,"Hey, Mike. That's the Russian fucker Twombly.",O co půjde?,jack
+STRM_m09bv06,"What? Oh, shit... What is he doin' there?",O co půjde?,jack
+STRM_m09bv07,"Look and learn, comrade Tarasenko.",O co půjde?,lemi
 
 
 STRM_m09v01,"Ahh... Jean. Long time no see, how are you?",Ne,lemontov
@@ -27,14 +30,19 @@ STRM_m09v10,"He should shut his fucking mouth up.\nCome on. We're leaving and yo
 STRM_m09v11,Fuck you Lemontov! I'll kill you! Understand? I'll fuck kill you!,Ne,jean
 
 
-STRM_m09bv05,"Come on, comrade Tarasenko. Your test beggins.",O co půjde?,comrade
+STRM_m09bv08,"Come on, comrade Tarasenko. Your test beggins.",O co půjde?,comrade
 
-STRM_m09bv0,What's this?,Co to je?,jason
-STRM_m09bv0,"These are enemies of blood, comrade Tarasenko.\nThis war has begann by the American's dogs and with their blood it's also going to over\nand you'll take care of it right now, comrade.","Toto, soudruhu Tereščenko jsou nepřátelé naší krve.\nTato válka začala krví Amerických psů a jejich krví také skončí a o to se postaráte právě vy, soudruhu.",orlov
-STRM_m09bv0,"I want you to execute them all without mercy, comrade Tarasenko.","Chci po vás, abyste je všechny bez milosti popravil, soudruhu Těreščenko.",orlov
-STRM_m09bv0,"Don't do it, please! I have children and wife! I have nothing done!","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",prisoner
-STRM_m09bv0,"Good work, comrade.","Dobrá práce, soudruhu.",orlov
+STRM_m09bv09,"These are enemies of blood, comrade Tarasenko.\nThis war has begann by the American's dogs and with their blood it's also going to over\nand you'll take care of it right now, comrade.","Toto, soudruhu Tereščenko jsou nepřátelé naší krve.\nTato válka začala krví Amerických psů a jejich krví také skončí a o to se postaráte právě vy, soudruhu.",orlov
+STRM_m09bv10,"I want you to execute as well the Americans as well as the French spy without mercy, comrade Tarasenko.","Chci po vás, abyste je všechny bez milosti popravil, soudruhu Těreščenko.",orlov
+STRM_m09bv11,"Twombly! Don't do it, please! I know I behavioured like asshole. Please, I have a girlfriend! Please!","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",jack
+STRM_m09bv12,"Twombly! I have never wanted to pissed you off.\nI've always liked you, just... just... please, leave me alone!","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",mike
+STRM_m09bv13,"Don't do it, soldier. Do you want to be a murder in your young age?","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",paul
+STRM_m09bv14,"There is onlz one thing zou can do to me. Suck my cock!","Ne",gaston
+STRM_m09bv15,"Shoot them all, comrade Tarasenko.","Dobrá práce, soudruhu.",orlov
+STRM_m09bv16,"Good work, comrade.","Dobrá práce, soudruhu.",orlov
 
-STRM_m09bv09,Do not ask anything and follow me.\nLet's get out of this fucking island.,Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jason
+STRM_m09bv17,"Into the boat, hurry! You, Fench, go anywhere you want.",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jason
+STRM_m09bv18,"Thank you, soldier.",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,gaston
+STRM_m09bv19,"",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jack
 
 STRM_m09bw1,FOLLOW,nE,marker
