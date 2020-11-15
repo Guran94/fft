@@ -566,6 +566,7 @@ class Mission
 				};
 				class Item4
 				{
+					presence=0.700000;
 					position[]={6662.000000,122.491325,6853.599121};
 					id=58;
 					side="GUER";
@@ -766,6 +767,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.400000;
 					position[]={6639.887695,110.315063,6743.460449};
 					id=44;
 					side="GUER";
@@ -869,6 +871,7 @@ class Mission
 				};
 				class Item4
 				{
+					presence=0.500000;
 					position[]={6270.302246,148.888168,6666.182617};
 					id=57;
 					side="GUER";
@@ -877,6 +880,7 @@ class Mission
 				};
 				class Item5
 				{
+					presence=0.800000;
 					position[]={6265.719727,149.492035,6666.565430};
 					id=60;
 					side="GUER";
@@ -981,6 +985,7 @@ class Mission
 				};
 				class Item4
 				{
+					presence=0.700000;
 					position[]={6332.761230,146.288177,6799.499512};
 					id=56;
 					side="GUER";
@@ -989,6 +994,7 @@ class Mission
 				};
 				class Item5
 				{
+					presence=0.700000;
 					position[]={6338.951660,145.365768,6798.632813};
 					id=59;
 					side="GUER";
@@ -1530,7 +1536,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=50;
+		items=51;
 		class Item0
 		{
 			position[]={7536.237793,0.661669,7747.400391};
@@ -2153,6 +2159,18 @@ class Mission
 			{
 			};
 			synchronizations[]={4};
+		};
+		class Item50
+		{
+			position[]={7381.659668,1.793249,6866.279297};
+			a=5.000000;
+			b=5.000000;
+			age="UNKNOWN";
+			expCond="true";
+			class Effects
+			{
+				soundDet="SeagullSfx";
+			};
 		};
 	};
 };

@@ -56,36 +56,6 @@ player1 say "m09av01"
 
 ~1
 
-drunk1 switchmove "EffectWeaponPanic"
-drunk1 setpos [4906.73,6927.46,1.37]
-drunk1 setdir 260
-drunk2 switchmove "EffectWeaponPanic"
-drunk2 setpos [4905.80,6925.54,1.72]
-drunk2 setdir 305
-drunk3 switchmove "EffectWeaponPanic"
-drunk3 setpos [4924.88,6906.13,0.67]
-drunk3 setdir 290
-drunk4 switchmove "EffectWeaponPanic"
-drunk4 setpos [4922.41,6907.07,0.67]
-drunk4 setdir 235
-drunk5 switchmove "EffectWeaponPanic"
-drunk5 setpos [5093.29,3994.87,0.89]
-drunk5 setdir 155
-drunk6 switchmove "EffectWeaponPanic"
-drunk6 setpos [5094.92,3994.79,0.89]
-drunk6 setdir 10
-drunk7 switchmove "EffectWeaponPanic"
-drunk7 setpos [1267.50,5880.04,0.58]
-drunk7 setdir 270
-drunk8 switchmove "EffectWeaponPanic"
-drunk8 setpos [1263.89,5877.20,0.58]
-drunk8 setdir 160
-drunk9 switchmove "EffectWeaponPanic"
-drunk9 setpos [1288.91,6005.91,0.38]
-drunk9 setdir 25
-drunk10 switchmove "EffectWeaponPanic"
-drunk10 setpos [1290.39,6002.59,0.38]
-drunk10 setdir 235
 r1 disableai "autotarget"
 guard1 disableai "autotarget"
 guard1 switchmove "FXStandAtt"

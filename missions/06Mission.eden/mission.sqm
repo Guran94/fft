@@ -1099,6 +1099,7 @@ class Mission
 				};
 				class Item5
 				{
+					presence=0.800000;
 					position[]={2919.721680,100.371223,5490.806152};
 					id=67;
 					side="EAST";
@@ -1107,6 +1108,7 @@ class Mission
 				};
 				class Item6
 				{
+					presence=0.600000;
 					position[]={2921.721680,100.369713,5490.806152};
 					id=68;
 					side="EAST";
@@ -1591,6 +1593,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.600000;
 					position[]={2614.283936,83.204994,5313.844238};
 					id=101;
 					side="EAST";
@@ -1659,6 +1662,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.600000;
 					position[]={2522.715576,88.018105,5483.837402};
 					id=105;
 					side="EAST";
@@ -1726,6 +1730,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.600000;
 					position[]={2678.293701,83.204994,5349.930664};
 					id=109;
 					side="EAST";
