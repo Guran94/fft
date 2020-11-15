@@ -43,6 +43,8 @@ STRM_m09bv16,"Good work, comrade.","Dobrá práce, soudruhu.",orlov
 
 STRM_m09bv17,"Into the boat, hurry! You, Fench, go anywhere you want.",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jason
 STRM_m09bv18,"Thank you, soldier.",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,gaston
-STRM_m09bv19,"",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jack
-
-STRM_m09bw1,FOLLOW,nE,marker
+STRM_m09bv19,"Damm, Twombly, that was cool! You saved us!",Ne,jack
+STRM_m09bv20,"Yes, Twombly, but you're really cool! Like a true American cowboy, just a colt miss to you!",Ne,mike
+STRM_m09bv21,"I'm totally disappointed and schocked.\nThat was a hero act, soldier, although I do not know you, I have to allowe, you saved us all.\nThank you.",Ne,paul
+STRM_m09bv22,"I think we owe you our sorry, Jason. For that we were doing to you.",Ne,mike
+STRM_m09bv23,"Forget it. Finally we'll get out of this fucking island.",Ne,jason
