@@ -220,4 +220,10 @@ class CfgRadio
 		sound[] = {"m04r04.ogg", db+10, 1.00};
 		title = $STRM_m04r04;
 	};
+	class m04r05
+	{
+		name = "m04r05";
+		sound[] = {"m04r05.ogg", db+10, 1.00};
+		title = $STRM_m04r05;
+	};
 };

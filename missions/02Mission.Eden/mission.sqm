@@ -1274,6 +1274,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.800000;
 					position[]={2598.816162,45.602398,7019.385254};
 					azimut=270.000000;
 					id=82;
@@ -1455,6 +1456,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.600000;
 					position[]={2568.662842,52.221252,6715.132813};
 					azimut=270.000000;
 					id=114;
@@ -1517,6 +1519,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.700000;
 					position[]={2526.918701,54.252422,6897.083008};
 					azimut=270.000000;
 					id=89;
@@ -2072,6 +2075,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.500000;
 					position[]={2327.698242,44.614559,7168.693359};
 					id=152;
 					side="GUER";
@@ -2098,7 +2102,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={2215.975830,31.905773,7210.647949};
+					position[]={2292.298828,41.575447,7175.056152};
 					placement=20.000000;
 					type="SAD";
 					class Effects
@@ -2137,6 +2141,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.700000;
 					position[]={2466.738770,41.518734,7169.298340};
 					azimut=270.000000;
 					id=154;
@@ -2252,6 +2257,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.700000;
 					position[]={2357.730469,36.108219,6615.136230};
 					azimut=270.000000;
 					id=158;
