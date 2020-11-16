@@ -89,7 +89,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={5008.354004,16.334999,3977.974609};
+					position[]={4992.387695,16.334999,3978.830811};
 					type="TR UNLOAD";
 					expActiv="[] exec ""convoy.sqs""";
 					class Effects
@@ -854,6 +854,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.700000;
 					position[]={4466.250488,55.623951,4882.419922};
 					id=82;
 					side="GUER";
@@ -1080,6 +1081,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.800000;
 					position[]={5198.675781,104.005173,4427.323730};
 					id=92;
 					side="GUER";
@@ -1089,6 +1091,7 @@ class Mission
 				};
 				class Item2
 				{
+					presence=0.700000;
 					position[]={5200.750000,104.209724,4427.277344};
 					id=93;
 					side="GUER";
@@ -1254,6 +1257,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.700000;
 					position[]={5164.838867,16.334999,3921.594727};
 					id=107;
 					side="GUER";
@@ -1384,6 +1388,7 @@ class Mission
 				};
 				class Item2
 				{
+					presence=0.700000;
 					position[]={5153.928223,16.334999,3999.451416};
 					id=114;
 					side="GUER";
@@ -1435,6 +1440,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.800000;
 					position[]={5038.125000,14.122917,3805.250244};
 					id=116;
 					side="GUER";
@@ -1486,7 +1492,7 @@ class Mission
 				items=3;
 				class Item0
 				{
-					position[]={4526.980469,29.128069,3833.647949};
+					position[]={4475.265625,47.822155,3749.785645};
 					id=118;
 					side="GUER";
 					vehicle="SoldierGLAW";
@@ -1496,7 +1502,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={4525.278320,29.766655,3831.996582};
+					position[]={4473.563477,48.301991,3748.134277};
 					id=119;
 					side="GUER";
 					vehicle="SoldierGLAW";
@@ -1504,7 +1510,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={4528.724121,28.888527,3832.025146};
+					position[]={4477.009277,47.608021,3748.162842};
 					id=120;
 					side="GUER";
 					vehicle="SoldierGLAW";
@@ -1516,7 +1522,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={4526.996582,28.957069,3834.981445};
+					position[]={4475.281738,47.782864,3751.119141};
 					type="HOLD";
 					combatMode="YELLOW";
 					speed="NORMAL";
@@ -1556,6 +1562,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.700000;
 					position[]={5142.277832,16.334999,3866.942383};
 					id=122;
 					side="GUER";
@@ -1624,6 +1631,7 @@ class Mission
 				};
 				class Item2
 				{
+					presence=0.700000;
 					position[]={5096.593262,48.155575,4202.594238};
 					id=126;
 					side="GUER";
@@ -1694,6 +1702,7 @@ class Mission
 				};
 				class Item2
 				{
+					presence=0.700000;
 					position[]={5194.825684,53.080044,4197.657227};
 					id=129;
 					side="GUER";
@@ -2922,7 +2931,7 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={4518.071289,36.805393,3779.926758};
+			position[]={4466.356445,49.041149,3696.064453};
 			name="varovani_2";
 			type="Warning";
 			colorName="ColorRed";
@@ -3003,7 +3012,7 @@ class Mission
 		items=39;
 		class Item0
 		{
-			position[]={5006.606934,16.334999,3977.944824};
+			position[]={4990.640625,16.334999,3978.801025};
 			a=15.000000;
 			b=30.000000;
 			activationBy="MEMBER";

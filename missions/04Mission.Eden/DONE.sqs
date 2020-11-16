@@ -1,7 +1,6 @@
 leader player sideradio "m04r04"
 papa sideradio "m04r05"
 "2" objstatus "done"
-setacctime 0.5
 hrac setcaptive true
 hrac addrating 1000
 
@@ -21,14 +20,14 @@ titletext [ localize "STRCT_01","plain"]
 _camera camSetTarget [15480.93,95747.11,-39485.89]
 _camera camSetPos [5228.18,4506.22,27.20]
 _camera camSetFOV 0.700
-_camera camCommit 3
+_camera camCommit 6
 @camCommitted _camera
 
-~1
+~2
 
 titleCut ["","BLACK OUT",1]
 
-~1
+~4
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

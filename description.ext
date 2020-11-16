@@ -382,180 +382,198 @@ class Campaign
 
   class Prologue
   {
-  name = "Unrest";
+    name = "Unrest";
 
-  cutscene = ;
+    cutscene = ;
 
-  firstMission = XPrologue;
-  lost = Chapter1;
-  end1 = Chapter1;
-  end2 = Chapter1;
-  end3 = Chapter1;
-  end4 = Chapter1;
-  end5 = Chapter1;
-  end6 = Chapter1;
+    firstMission = XPrologue;
+    lost = Chapter1;
+    end1 = Chapter1;
+    end2 = Chapter1;
+    end3 = Chapter1;
+    end4 = Chapter1;
+    end5 = Chapter1;
+    end6 = Chapter1;
 
-  class XPrologue: MissionDefault
-  {
-    noAward=true;
-    end1 = XChapter1;
-    end2 = XChapter1;
-    end3 = XChapter1;
-    end4 = XChapter1;
-    end5 = XChapter1;
-    end6 = XChapter1;
-    lost = XChapter1;
-    template = XPrologue.Eden;
+    class XPrologue: MissionDefault
+    {
+      noAward=true;
+      end1 = XChapter1;
+      end2 = XChapter1;
+      end3 = XChapter1;
+      end4 = XChapter1;
+      end5 = XChapter1;
+      end6 = XChapter1;
+      lost = XChapter1;
+      template = XPrologue.Eden;
+    };
   };
-  class XChapter1: MissionDefault
+
+  class Chapter1
   {
-    noAward=true;
-    end1 = 01Mission;
-    end2 = 01Mission;
-    end3 = 01Mission;
-    end4 = 01Mission;
-    end5 = 01Mission;
-    end6 = 01Mission;
-    lost = 01Mission;
-    template = XChapter1.Eden;
+    name = "Unrest";
+
+    cutscene = ;
+
+    firstMission = XChapter1;
+    lost = Chapter2;
+    end1 = Chapter2;
+    end2 = Chapter2;
+    end3 = Chapter2;
+    end4 = Chapter2;
+    end5 = Chapter2;
+    end6 = Chapter2;
+
+    class XChapter1: MissionDefault
+    {
+      noAward=true;
+      end1 = 01Mission;
+      end2 = 01Mission;
+      end3 = 01Mission;
+      end4 = 01Mission;
+      end5 = 01Mission;
+      end6 = 01Mission;
+      lost = 01Mission;
+      template = XChapter1.Eden;
+    };
+    class 01Mission: MissionDefault
+    {
+      end1 = 02Mission;
+      end2 = 01Mission;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 01Mission.Eden;
+    };
+    class 02Mission: MissionDefault
+    {
+      end1 = 03Mission;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 02Mission.Eden;
+    };
+    class 03Mission: MissionDefault
+    {
+      end1 = 04Mission;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 03Mission.Eden;
+    };
+    class 04Mission: MissionDefault
+    {
+      end1 = 05Mission;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 04Mission.Eden;
+    };
+    class 05Mission: MissionDefault
+    {
+      end1 = ;
+      end2 = 05Mission;
+      end3 = 05Mission;
+      end4 = 05Mission;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 05Mission.Eden;
+    };
   };
-  class 01Mission: MissionDefault
-  {
-    end1 = 02Mission;
-    end2 = 01Mission;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 01Mission.Eden;
-  };
-  class 02Mission: MissionDefault
-  {
-    end1 = 03Mission;
-    end2 = ;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 02Mission.Eden;
-  };
-  class 03Mission: MissionDefault
-  {
-    end1 = 04Mission;
-    end2 = ;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 03Mission.Eden;
-  };
-  class 04Mission: MissionDefault
-  {
-    end1 = 05Mission;
-    end2 = ;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 04Mission.Eden;
-  };
-  class 05Mission: MissionDefault
-  {
-    end1 = ;
-    end2 = 05Mission;
-    end3 = 05Mission;
-    end4 = 05Mission;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 05Mission.Eden;
-  };
-};
 
   class Chapter2
   {
-  name = "Black day";
+    name = "Black day";
 
-  cutscene = ;
+    cutscene = ;
 
-  firstMission = XChapter2;
-  lost = ;
-  end1 = ;
-  end2 = ;
-  end3 = ;
-  end4 = ;
-  end5 = ;
-  end6 = ;
-
-  class XChapter2: MissionDefault
-  {
-    noAward=true;
-    end1 = 06Mission;
-    end2 = 06Mission;
-    end3 = 06Mission;
-    end4 = 06Mission;
-    end5 = 06Mission;
-    end6 = 06Mission;
-    lost = 06Mission;
-    template = XChapter2.Eden;
-    };
-  class 06Mission: MissionDefault
-  {
-    end1 = 07Mission;
+    firstMission = XChapter2;
+    lost = ;
+    end1 = ;
     end2 = ;
     end3 = ;
     end4 = ;
     end5 = ;
     end6 = ;
-    lost = ;
-    template = 06Mission.Eden;
-  };
-  class 07Mission: MissionDefault
-  {
-    end1 = 08Mission;
-    end2 = 07Mission;
-    end3 = 07Mission;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 07Mission.Eden;
-  };
-  class 08Mission: MissionDefault
-  {
-    end1 = 09aMission;
-    end2 = 09bMission;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 08Mission.Eden;
-  };
-  class 09aMission: MissionDefault
-  {
-    end1 = ;
-    end2 = 09aMission;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 09aMission.Eden;
-  };
-  class 09bMission: MissionDefault
-  {
-    end1 = ;
-    end2 = 09bMission;
-    end3 = ;
-    end4 = ;
-    end5 = ;
-    end6 = ;
-    lost = ;
-    template = 09bMission.Eden;
+
+    class XChapter2: MissionDefault
+    {
+      noAward=true;
+      end1 = 06Mission;
+      end2 = 06Mission;
+      end3 = 06Mission;
+      end4 = 06Mission;
+      end5 = 06Mission;
+      end6 = 06Mission;
+      lost = 06Mission;
+      template = XChapter2.Eden;
+      };
+    class 06Mission: MissionDefault
+    {
+      end1 = 07Mission;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 06Mission.Eden;
+    };
+    class 07Mission: MissionDefault
+    {
+      end1 = 08Mission;
+      end2 = 07Mission;
+      end3 = 07Mission;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 07Mission.Eden;
+    };
+    class 08Mission: MissionDefault
+    {
+      end1 = 09aMission;
+      end2 = 09bMission;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 08Mission.Eden;
+    };
+    class 09aMission: MissionDefault
+    {
+      end1 = ;
+      end2 = 09aMission;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 09aMission.Eden;
+    };
+    class 09bMission: MissionDefault
+    {
+      end1 = ;
+      end2 = 09bMission;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 09bMission.Eden;
+    };
   };
 };
