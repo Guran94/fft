@@ -3,9 +3,9 @@ LANGUAGE,English,Czech,Comment
 
 STRM_ONLOAD_MISSION,Welcome to the Red Army,Vítejte v Rudé armádě,loading screen
 
-STRM_m09h1,Go to the officer.,Jděte k důstojníkovi.,Hint
-STRM_m09h2,Execute the American prisoners.,Popravte Americké zajatce.,Hint
-STRM_m09h3,Escape from the island!,Utečte z ostrova!,Hint
+
+STRM_m09bh1,Execute the American prisoners.,Popravte Americké zajatce.,Hint
+STRM_m09bh2,Get out!,Utečte z ostrova!,Hint
 
 
 STRM_m09bv01,"We'll be right there, comrade Tarasenko.\nNow you will prove your loyalty to the great Soviet empire.","Za chvíli budeme na místě, soudruhu Těreščenko.\nNyní prokážete svou věrnost velké Sovětské říši.",lemontov
@@ -37,14 +37,17 @@ STRM_m09bv10,"I want you to execute as well the Americans as well as the French 
 STRM_m09bv11,"Twombly! Don't do it, please! I know I behavioured like asshole. Please, I have a girlfriend! Please!","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",jack
 STRM_m09bv12,"Twombly! I have never wanted to pissed you off.\nI've always liked you, just... just... please, leave me alone!","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",mike
 STRM_m09bv13,"Don't do it, soldier. Do you want to be a murder in your young age?","Prosím, ne! Mám ženu a dítě! Nic jsem neudělal!",paul
-STRM_m09bv14,"There is onlz one thing zou can do to me. Suck my cock!","Ne",gaston
-STRM_m09bv15,"Shoot them all, comrade Tarasenko.","Dobrá práce, soudruhu.",orlov
-STRM_m09bv16,"Good work, comrade.","Dobrá práce, soudruhu.",orlov
 
-STRM_m09bv17,"Into the boat, hurry! You, Fench, go anywhere you want.",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jason
-STRM_m09bv18,"Thank you, soldier.",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,gaston
-STRM_m09bv19,"Damm, Twombly, that was cool! You saved us!",Ne,jack
-STRM_m09bv20,"Yes, Twombly, but you're really cool! Like a true American cowboy, just a colt miss to you!",Ne,mike
-STRM_m09bv21,"I'm totally disappointed and schocked.\nThat was a hero act, soldier, although I do not know you, I have to allowe, you saved us all.\nThank you.",Ne,paul
-STRM_m09bv22,"I think we owe you our sorry, Jason. For that we were doing to you.",Ne,mike
-STRM_m09bv23,"Forget it. Finally we'll get out of this fucking island.",Ne,jason
+STRM_m09bv14,"Shoot them all, comrade Tarasenko.","Dobrá práce, soudruhu.",orlov
+STRM_m09bv15,"Good work, comrade.","Dobrá práce, soudruhu.",orlov
+
+STRM_m09bv16,"Into the boat, hurry!",Na nic se neptejte a pojďte se mnou.\nVypadneme z tohohle zkurvenýho ostrova!,jason
+STRM_m09bv17,"Damm, Twombly, that was cool! You saved us!",Ne,jack
+STRM_m09bv18,"Yes, Twombly, but you're really cool! Like a true American cowboy, just a colt miss to you!",Ne,mike
+STRM_m09bv19,"I'm totally disappointed and schocked.\nThat was a hero act, soldier, although I do not know you, I have to allowe, you saved us all.\nThank you.",Ne,paul
+STRM_m09bv20,"I think we owe you our sorry, Jason. For that we were doing to you.",Ne,mike
+STRM_m09bv21,"Forget it. Finally we'll get out of this fucking island.",Ne,jason
+
+STRM_m09bw1,GET READY,NE,waypoint
+STRM_m09bw2,MAKE YOUR CHOICE,NE,waypoint
+STRM_m09bw3,GET OUT!,NE,waypoint

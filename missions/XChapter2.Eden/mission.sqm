@@ -1149,7 +1149,7 @@ class Intro
 				items=1;
 				class Item0
 				{
-					position[]={2518.308350,83.204994,5432.783691};
+					position[]={2564.669678,85.055237,5464.259766};
 					speed="LIMITED";
 					combat="CARELESS";
 					class Effects

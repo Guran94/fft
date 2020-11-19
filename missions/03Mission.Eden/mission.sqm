@@ -843,7 +843,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={4468.241699,55.612373,4883.541504};
+					position[]={4404.360352,57.072708,4935.090820};
 					id=81;
 					side="GUER";
 					vehicle="SoldierGB";
@@ -855,7 +855,7 @@ class Mission
 				class Item1
 				{
 					presence=0.700000;
-					position[]={4466.250488,55.623951,4882.419922};
+					position[]={4402.369141,57.133972,4933.969238};
 					id=82;
 					side="GUER";
 					vehicle="SoldierGB";
@@ -868,7 +868,7 @@ class Mission
 				items=3;
 				class Item0
 				{
-					position[]={4468.181641,55.593811,4884.697266};
+					position[]={4404.300293,57.079903,4936.246582};
 					type="HOLD";
 					combatMode="BLUE";
 					formation="LINE";
@@ -1070,7 +1070,7 @@ class Mission
 				items=3;
 				class Item0
 				{
-					position[]={5200.666992,104.388542,4428.445313};
+					position[]={5324.010254,94.602425,4359.792969};
 					id=91;
 					side="GUER";
 					vehicle="SoldierGB";
@@ -1082,7 +1082,7 @@ class Mission
 				class Item1
 				{
 					presence=0.800000;
-					position[]={5198.675781,104.005173,4427.323730};
+					position[]={5322.019043,94.659729,4358.671387};
 					id=92;
 					side="GUER";
 					vehicle="SoldierGB";
@@ -1092,7 +1092,7 @@ class Mission
 				class Item2
 				{
 					presence=0.700000;
-					position[]={5200.750000,104.209724,4427.277344};
+					position[]={5324.093262,94.374855,4358.625000};
 					id=93;
 					side="GUER";
 					vehicle="SoldierGB";
@@ -1105,7 +1105,7 @@ class Mission
 				items=3;
 				class Item0
 				{
-					position[]={5200.606934,104.567696,4429.601074};
+					position[]={5323.950195,94.824692,4360.948730};
 					type="HOLD";
 					combatMode="BLUE";
 					formation="LINE";
@@ -1440,7 +1440,7 @@ class Mission
 				};
 				class Item1
 				{
-					presence=0.800000;
+					presence=0.700000;
 					position[]={5038.125000,14.122917,3805.250244};
 					id=116;
 					side="GUER";

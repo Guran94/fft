@@ -1,0 +1,311 @@
+setacctime 1
+titleCut ["","BLACK IN",3]
+jean setmimic "angry"
+res1 setmimic "normal"
+res2 setmimic "normal"
+playmusic "track12"
+0 fademusic 0.2
+jason setmimic "normal"
+lemi disableai "autotarget"
+lemontov setmimic "smile"
+lemi setmimic "smile"
+jason2 setmimic "surprised"
+lem setmimic "smile"
+lem disableai "autotarget"
+
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+;from the sky
+;=== 9:11:50
+_camera camSetTarget [70158.30,-9379.77,74606.31]
+_camera camSetPos [6333.93,9652.84,2.15]
+_camera camSetFOV 0.515
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:12:06
+_camera camSetTarget [100995.42,-22510.23,-2097.41]
+_camera camSetPos [6332.66,9653.57,1.74]
+_camera camSetFOV 0.477
+_camera camCommit 5
+
+~1
+
+lemontov say "XBEv01"
+
+~4
+
+@camCommitted _camera
+
+;lemontov
+;=== 9:33:22
+_camera camSetTarget [-38382.68,-79155.88,10652.60]
+_camera camSetPos [6335.29,9653.46,1.40]
+_camera camSetFOV 0.380
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+;jean
+;=== 9:33:51
+_camera camSetTarget [80481.52,76376.06,7100.12]
+_camera camSetPos [6335.59,9651.62,1.42]
+_camera camSetFOV 0.380
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+lemontov move getmarkerpos "death"
+rus1 move getmarkerpos "death"
+lemontov setspeedmode "limited"
+rus1 setspeedmode "limited"
+titletext [ localize "","plain"]
+
+;all
+;=== 9:34:13
+_camera camSetTarget [103224.39,-13488.87,-8693.95]
+_camera camSetPos [6329.71,9654.45,1.43]
+_camera camSetFOV 0.427
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+jean move getmarkerpos "death"
+res1 move getmarkerpos "death"
+res2 move getmarkerpos "death"
+jean setspeedmode "limited"
+res1 setspeedmode "limited"
+res2 setspeedmode "limited"
+
+;=== 9:34:22
+_camera camSetTarget [102991.69,-15451.52,-5113.71]
+_camera camSetPos [6330.02,9653.16,1.40]
+_camera camSetFOV 0.427
+_camera camCommit 4
+
+~3
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+deletevehicle lemontov
+deletevehicle jean
+deletevehicle rus1
+deletevehicle res1
+deletevehicle res2
+
+@camCommitted _camera
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+;from uaz
+;=== 9:44:21
+_camera camSetTarget [-79605.08,-40610.48,9497.68]
+_camera camSetPos [6317.10,9662.88,1.13]
+_camera camSetFOV 0.509
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+rashiv say "XBEv02"
+
+;=== 9:44:37
+_camera camSetTarget [-52185.51,-70881.97,9497.38]
+_camera camSetPos [6317.10,9662.88,1.13]
+_camera camSetFOV 0.509
+_camera camCommit 3
+
+~2
+
+@camCommitted _camera
+
+jason say "XBEv03"
+
+;jason 
+;=== 9:45:53
+_camera camSetTarget [-87171.64,45024.71,2996.00]
+_camera camSetPos [6317.71,9657.47,1.42]
+_camera camSetFOV 0.373
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;vadim
+;=== 9:46:42
+_camera camSetTarget [96771.84,51927.64,-5516.78]
+_camera camSetPos [6313.92,9657.19,1.59]
+_camera camSetFOV 0.409
+_camera camCommit 0
+@camCommitted _camera
+
+rashiv say "XBEv04"
+
+~2
+
+titleCut ["","BLACK OUT",1]
+
+
+
+~1
+
+lemi setdir 295
+lemi setpos getmarkerpos "getready"
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+lemi playmove "fxshow3"
+lemi say "XBEv05"
+
+;lemi shows
+;=== 9:52:40
+_camera camSetTarget [100983.59,-16458.52,19038.53]
+_camera camSetPos [6344.35,9644.96,0.76]
+_camera camSetFOV 0.454
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+rashiv dowatch [6348.74,9642.88,1.65]
+jason dowatch [6348.74,9642.88,1.65]
+2 fademusic 0
+
+;=== 9:53:59
+_camera camSetTarget [-82931.62,54343.28,-5556.33]
+_camera camSetPos [6348.74,9642.88,1.65]
+_camera camSetFOV 0.398
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+titleCut ["","BLACK IN",1]
+
+titletext [ localize "","plain"]
+
+;jason goes
+;=== 9:55:49
+_camera camSetTarget [94433.74,-37020.70,-7958.76]
+_camera camSetPos [6350.42,9646.87,1.62]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 9:56:11
+_camera camSetTarget [94433.74,-37020.70,-7958.79]
+_camera camSetPos [6352.68,9645.68,1.67]
+_camera camSetFOV 0.700
+_camera camCommit 2
+@camCommitted _camera
+;=== 9:56:23
+_camera camSetTarget [79167.75,77722.33,-7958.61]
+_camera camSetPos [6353.29,9645.07,1.69]
+_camera camSetFOV 0.700
+_camera camCommit 1
+@camCommitted _camera
+;=== 9:56:38
+_camera camSetTarget [56195.38,95971.31,-7958.92]
+_camera camSetPos [6354.20,9645.59,1.68]
+_camera camSetFOV 0.700
+_camera camCommit 1
+@camCommitted _camera
+
+jason2 setpos [6354.21,9645.45,1.03]
+lem setpos [6353.54,9644.10,0.51]
+
+;=== 9:56:46
+_camera camSetTarget [52317.93,89255.50,-39352.46]
+_camera camSetPos [6354.20,9645.59,1.68]
+_camera camSetFOV 0.700
+_camera camCommit 0.5
+@camCommitted _camera
+
+~1
+
+
+
+jason2 say "XBEv06"
+
+;=== 11:10:54
+_camera camSetTarget [-73334.38,-49173.19,13776.68]
+_camera camSetPos [6356.41,9647.69,0.72]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+titletext [ localize "","plain"]
+
+;greg shoots
+;=== 11:11:36
+_camera camSetTarget [104760.48,13606.65,-17308.67]
+_camera camSetPos [6351.82,9644.81,1.83]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+lem switchMove "HandGunStand"
+
+~0.3
+
+playSound "tokarev"
+
+~0.2
+
+jason2 stop true
+jason2 setdammage 1
+
+~0.5
+
+setacctime 1
+lem setBehaviour "careless"
+
+~3
+
+;game over
+;=== 11:14:33
+_camera camSetTarget [-43803.66,-68604.57,36904.68]
+_camera camSetPos [6354.38,9645.54,1.08]
+_camera camSetFOV 0.319
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+titleCut ["","BLACK OUT",3]
+3 fadesound 0
+
+~3
+
+0 fademusic 1
+playmusic ["track9", 3]
+titletext [localize "STRM_XBEt1","plain"]
+
+~12
+
+2 fademusic 0
+
+~2
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+end=true
+
+exit

@@ -4,6 +4,7 @@ titleCut ["","BLACK OUT",2]
 
 ~2
 
+ready=true
 setacctime 1
 deletevehicle greg
 jason setpos getmarkerpos "away"
@@ -516,22 +517,7 @@ paul say "m09bv13"
 
 ~2
 
-gaston say "m09bv14"
 
-;gaston
-;=== 18:46:33
-_camera camSetTarget [89831.96,67408.02,25707.78]
-_camera camSetPos [10882.17,11664.77,1.28]
-_camera camSetFOV 0.505
-_camera camCommit 2
-@camCommitted _camera
-;=== 18:46:45
-_camera camSetTarget [105121.22,33097.38,25707.73]
-_camera camSetPos [10881.97,11665.12,1.28]
-_camera camSetFOV 0.505
-_camera camCommit 4
-
-~3
 
 titleCut ["","BLACK OUT",1]
 
@@ -545,7 +531,9 @@ camDestroy _camera
 
 ~0.5
 
-off1 say "m09bv15"
+hint localize "STRM_m09bh1"
+away1=true
+off1 say "m09bv14"
 
 titleCut ["","BLACK IN",1]
 
