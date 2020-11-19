@@ -1,0 +1,24 @@
+boat2 lock true
+setacctime 1
+playmusic "fft_track5"
+hint localize "STRM_m09bh2"
+
+jack say "m09bv17"
+
+~5
+
+mike say "m09bv18"
+
+~5
+
+paul say "m09bv19"
+
+~5
+
+mike say "m09bv20"
+
+~5
+
+jason say "m09bv21"
+
+exit

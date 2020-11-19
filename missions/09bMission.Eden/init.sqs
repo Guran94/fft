@@ -35,6 +35,8 @@ paul switchmove "fxstandsur"
 mike switchmove "fxstandsur"
 jack switchmove "fxstandsur"
 
+ready=false
+run=false
 enableradio false
 away1=false
 KillingRussian=false

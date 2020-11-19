@@ -273,10 +273,11 @@ class Mission
 			};
 			class Waypoints
 			{
-				items=5;
+				items=4;
 				class Item0
 				{
-					position[]={6593.976563,140.093704,7076.220215};
+					position[]={6624.312988,133.535751,7007.909668};
+					placement=30.000000;
 					combatMode="YELLOW";
 					formation="WEDGE";
 					speed="NORMAL";
@@ -288,15 +289,6 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={6624.312988,133.535751,7007.909668};
-					placement=30.000000;
-					class Effects
-					{
-					};
-					showWP="NEVER";
-				};
-				class Item2
-				{
 					position[]={6492.346680,122.678650,6804.158203};
 					placement=50.000000;
 					class Effects
@@ -304,7 +296,7 @@ class Mission
 					};
 					showWP="NEVER";
 				};
-				class Item3
+				class Item2
 				{
 					position[]={6350.951660,138.524704,6707.285645};
 					placement=50.000000;
@@ -313,7 +305,7 @@ class Mission
 					};
 					showWP="NEVER";
 				};
-				class Item4
+				class Item3
 				{
 					position[]={6092.615723,160.528625,6673.029297};
 					type="HOLD";

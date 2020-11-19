@@ -23,6 +23,10 @@ civ13 setmimic "angry"
 riot2=true
 defender1 setmimic "normal"
 defender2 setmimic "normal"
+defender1 disableai "autotarget"
+defender2 disableai "autotarget"
+defender1 setdir 145
+defender2 setdir 145
 
 civ7 setmimic "angry"
 steve setmimic "angry"

@@ -1,0 +1,14 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_INTRO,Unknown on Everon,Ne,loading screen
+
+
+STRM_XBEv01,"Gentlemen, you just droped your weapons and you'd take the shovels instead right now.\nYou were causing huge scars during the war and that's your turn to put it in order as well.\nFollow me, comrades.",Ne,lemontov
+STRM_XBEv02,"That was very caureages, comrade Tarasenko, however you have done well.","ne.",rashiv
+STRM_XBEv03,So what's our next move?,"ne.",Jason
+STRM_XBEv04,"Wait for comrade Lemontov, he will explain next steps to you.",Ne,rashiv
+STRM_XBEv05,"Comrade Tarasenko, come on!",Ne,lemontov
+STRM_XBEv06,What the...,Ne,jason
+
+
+STRM_XBEt1,GAME OVER,KONEC HRY,me

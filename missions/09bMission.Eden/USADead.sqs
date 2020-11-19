@@ -1,8 +1,13 @@
 setacctime 1
 
-off1 say "m09bv16"
+jason addrating -1000
+jason removemagazine "ak74"
+jason removemagazine "ak74"
 
-jason addrating -500
-removeallmagazines jason
+off1 say "m09bv15"
+
+~5
+
+end2=true
 
 exit

@@ -1393,6 +1393,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.600000;
 					position[]={3684.531738,98.954628,5380.458984};
 					id=93;
 					side="GUER";
@@ -1485,6 +1486,7 @@ class Mission
 				};
 				class Item2
 				{
+					presence=0.500000;
 					position[]={3281.539307,103.302307,5394.522461};
 					id=96;
 					side="GUER";
@@ -1494,6 +1496,7 @@ class Mission
 				};
 				class Item3
 				{
+					presence=0.500000;
 					position[]={3278.975098,102.340286,5376.248535};
 					id=97;
 					side="GUER";
@@ -1855,6 +1858,7 @@ class Mission
 				};
 				class Item1
 				{
+					presence=0.800000;
 					position[]={3493.083008,102.634514,6177.107422};
 					id=115;
 					side="GUER";
@@ -1864,6 +1868,7 @@ class Mission
 				};
 				class Item2
 				{
+					presence=0.600000;
 					position[]={3470.002197,103.268105,6177.107422};
 					id=116;
 					side="GUER";

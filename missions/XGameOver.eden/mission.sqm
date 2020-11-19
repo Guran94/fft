@@ -1,0 +1,395 @@
+version=11;
+class Mission
+{
+	randomSeed=7113731;
+	class Intel
+	{
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"bis_resistance"
+	};
+	addOnsAuto[]=
+	{
+		"bis_resistance"
+	};
+	randomSeed=13597187;
+	class Intel
+	{
+		resistanceWest=0.000000;
+		resistanceEast=1.000000;
+		hour=12;
+	};
+	class Groups
+	{
+		items=15;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5631.307617,27.624037,10201.738281};
+					id=0;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""intro.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6336.752441,13.124595,9652.624023};
+					azimut=255.000000;
+					id=2;
+					side="GUER";
+					vehicle="OfficerG";
+					leader=1;
+					skill=0.600000;
+					text="jean";
+					init="removeAllWeapons this; this setIdentity ""poincare""; this setBehaviour ""careless""";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6334.536133,13.161395,9652.130859};
+					azimut=80.000000;
+					id=3;
+					side="EAST";
+					vehicle="SoldierESaboteurPipe";
+					leader=1;
+					skill=0.600000;
+					text="lemontov";
+					init="this setbehaviour ""careless""; this setidentity ""lemontov""; removeAllWeapons this; this addmagazine ""tokarev""; this addWeapon ""tokarev""";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6334.268555,13.127584,9653.537109};
+					azimut=95.000000;
+					id=4;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="rus1";
+					init="this setbehaviour ""careless""; this setidentity ""lemontov""; removeAllWeapons this; this addmagazine ""tokarev""; this addWeapon ""tokarev""";
+				};
+			};
+		};
+		class Item4
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6337.059570,13.154633,9651.345703};
+					azimut=255.000000;
+					id=5;
+					side="CIV";
+					vehicle="Civilian4";
+					leader=1;
+					skill=0.600000;
+					text="res1";
+					init="removeAllWeapons this; this setBehaviour ""careless""";
+				};
+			};
+		};
+		class Item5
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6336.494629,13.095699,9653.837891};
+					azimut=255.000000;
+					id=6;
+					side="CIV";
+					vehicle="Civilian3";
+					leader=1;
+					skill=0.600000;
+					text="res2";
+					init="removeAllWeapons this; this setBehaviour ""careless""";
+				};
+			};
+		};
+		class Item6
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6356.881348,13.024342,9647.097656};
+					azimut=25.000000;
+					id=7;
+					side="CIV";
+					vehicle="Civilian4";
+					leader=1;
+					skill=0.600000;
+					text="res1_1";
+					init="removeAllWeapons this; this setBehaviour ""careless""; this setdammage 1";
+				};
+			};
+		};
+		class Item7
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6354.305176,13.024342,9648.386719};
+					azimut=30.000000;
+					id=8;
+					side="CIV";
+					vehicle="Civilian3";
+					leader=1;
+					skill=0.600000;
+					text="res2_1";
+					init="removeAllWeapons this; this setBehaviour ""careless""; this setdammage 1";
+				};
+			};
+		};
+		class Item8
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6355.648926,13.024342,9647.734375};
+					azimut=25.000000;
+					id=9;
+					side="GUER";
+					vehicle="OfficerG";
+					leader=1;
+					skill=0.600000;
+					text="jean_1";
+					init="removeAllWeapons this; this setIdentity ""poincare""; this setBehaviour ""careless""; this setdammage 1";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6315.083984,13.218410,9661.752930};
+					azimut=80.000000;
+					id=11;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					init="this setbehaviour ""careless""";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6316.268555,13.281935,9658.268555};
+					azimut=265.000000;
+					id=12;
+					side="EAST";
+					vehicle="OfficerE";
+					leader=1;
+					skill=0.600000;
+					text="rashiv";
+					init="this setidentity ""rashiv""; this setbehaviour ""careless""; removeAllWeapons this";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6314.969727,13.305333,9658.030273};
+					azimut=75.000000;
+					id=13;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="jason";
+					init="removeAllWeapons this; this setidentity ""player1""; this setbehaviour ""careless""";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6364.936035,12.279477,9644.107422};
+					azimut=295.000000;
+					id=14;
+					side="EAST";
+					vehicle="SoldierESaboteurPipe";
+					leader=1;
+					skill=0.600000;
+					text="lemi";
+					init="this setbehaviour ""careless""; this setidentity ""lemontov""; removeAllWeapons this; this addmagazine ""tokarev""; this addWeapon ""tokarev""";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6369.039551,12.109344,9640.389648};
+					azimut=40.000000;
+					id=15;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="jason2";
+					init="removeAllWeapons this; this setidentity ""player1""; this setbehaviour ""careless""";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6372.228027,11.940396,9639.357422};
+					azimut=40.000000;
+					id=16;
+					side="EAST";
+					vehicle="SoldierESaboteurPipe";
+					leader=1;
+					skill=0.600000;
+					text="lem";
+					init="this setbehaviour ""careless""; this setidentity ""lemontov""; removeAllWeapons this; this addmagazine ""tokarev""; this addWeapon ""tokarev""";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=2;
+		class Item0
+		{
+			position[]={6339.949219,13.059564,9653.792969};
+			azimut=70.000000;
+			id=1;
+			side="EMPTY";
+			vehicle="Ural";
+			skill=0.600000;
+		};
+		class Item1
+		{
+			position[]={6314.191406,13.279253,9659.913086};
+			azimut=80.000000;
+			id=10;
+			side="EMPTY";
+			vehicle="UAZ";
+			leader=1;
+			skill=0.600000;
+		};
+	};
+	class Markers
+	{
+		items=2;
+		class Item0
+		{
+			position[]={6346.911133,12.876874,9644.264648};
+			name="getready";
+			type="Flag";
+		};
+		class Item1
+		{
+			position[]={6349.826172,12.981346,9648.041016};
+			name="death";
+			type="Flag";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={6377.958984,8.294003,9553.683594};
+			type="END1";
+			age="UNKNOWN";
+			expCond="end";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=16376835;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=5309443;
+	class Intel
+	{
+	};
+};

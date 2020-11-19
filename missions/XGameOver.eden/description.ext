@@ -1,0 +1,51 @@
+onLoadIntro="$STRM_ONLOAD_INTRO";
+onLoadIntroTime = false;
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class XBEv01
+	{
+		name = "XBEv01";
+		sound[] = {"XBEv01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_XBEv01};
+	};
+	class XBEv02
+	{
+		name = "XBEv02";
+		sound[] = {"XBEv02.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_XBEv02};
+	};
+	class XBEv03
+	{
+		name = "XBEv03";
+		sound[] = {"XBEv03.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_XBEv03};
+	};
+	class XBEv04
+	{
+		name = "XBEv04";
+		sound[] = {"XBEv04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_XBEv04};
+	};
+	class XBEv05
+	{
+		name = "XBEv05";
+		sound[] = {"XBEv05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_XBEv05};
+	};
+	class XBEv06
+	{
+		name = "XBEv06";
+		sound[] = {"XBEv06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_XBEv06};
+	};
+};
+
+
+class CfgRadio
+{
+	sounds[] = { };
+
+};

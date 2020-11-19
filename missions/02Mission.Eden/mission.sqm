@@ -1274,7 +1274,7 @@ class Mission
 				};
 				class Item1
 				{
-					presence=0.800000;
+					presence=0.700000;
 					position[]={2598.816162,45.602398,7019.385254};
 					azimut=270.000000;
 					id=82;
