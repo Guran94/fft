@@ -1,0 +1,6 @@
+setacctime 1
+
+hrac addrating 500
+hrac say "m07v23"
+
+exit
