@@ -567,13 +567,25 @@ class Campaign
     class 09bMission: MissionDefault
     {
       end1 = ;
-      end2 = 09bMission;
-      end3 = ;
+      end2 = XGameOver;
+      end3 = 09bMission;
       end4 = ;
       end5 = ;
       end6 = ;
       lost = ;
       template = 09bMission.Eden;
+    };
+    class XGameOver: MissionDefault
+    {
+      noAward=true;
+      end1 = ;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = XGameOver.Eden;
     };
   };
 };

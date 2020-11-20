@@ -43,6 +43,7 @@ KillingRussian=false
 KillingPrisoners=false
 end2=false
 
+
 lemontov setpos getmarkerpos "lemontov"
 actor setpos getmarkerpos "actor"
 spetz1 setpos getmarkerpos "spetz1"

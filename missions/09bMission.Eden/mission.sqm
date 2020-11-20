@@ -759,10 +759,11 @@ class Mission
 			b=30.000000;
 			activationBy="VEHICLE";
 			activationType="NOT PRESENT";
+			type="END3";
 			age="UNKNOWN";
 			idVehicle=0;
+			text="END3";
 			expCond="away1 and this";
-			expActiv="end2=true";
 			class Effects
 			{
 			};
@@ -802,26 +803,16 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={10870.123047,2.432081,11324.133789};
-			type="END2";
-			age="UNKNOWN";
-			expCond="end2";
-			class Effects
-			{
-			};
-		};
-		class Item5
-		{
 			position[]={10760.280273,12.546325,11781.342773};
 			age="UNKNOWN";
-			text="New blood";
+			text="New blood [END2]";
 			expCond="not alive jack and not alive mike and not alive paul";
 			expActiv="[] exec ""USADead.sqs""";
 			class Effects
 			{
 			};
 		};
-		class Item6
+		class Item5
 		{
 			position[]={10861.491211,26.127262,11784.756836};
 			type="SWITCH";
@@ -833,7 +824,7 @@ class Mission
 			{
 			};
 		};
-		class Item7
+		class Item6
 		{
 			position[]={11472.856445,1.155143,11874.992188};
 			age="UNKNOWN";
@@ -844,7 +835,7 @@ class Mission
 			{
 			};
 		};
-		class Item8
+		class Item7
 		{
 			position[]={11474.839844,1.155143,11773.930664};
 			age="UNKNOWN";
@@ -855,7 +846,7 @@ class Mission
 			{
 			};
 		};
-		class Item9
+		class Item8
 		{
 			position[]={11478.450195,1.155143,11667.549805};
 			age="UNKNOWN";
@@ -866,7 +857,7 @@ class Mission
 			{
 			};
 		};
-		class Item10
+		class Item9
 		{
 			position[]={10876.539063,24.525000,11665.354492};
 			activationBy="EAST";
@@ -880,7 +871,7 @@ class Mission
 			};
 			synchronizations[]={0,1,2,3};
 		};
-		class Item11
+		class Item10
 		{
 			position[]={11039.393555,27.400045,11596.387695};
 			type="SWITCH";
@@ -891,7 +882,7 @@ class Mission
 			};
 			synchronizations[]={4};
 		};
-		class Item12
+		class Item11
 		{
 			position[]={11038.679688,26.421085,11724.789063};
 			age="UNKNOWN";
@@ -901,7 +892,7 @@ class Mission
 			};
 			synchronizations[]={5};
 		};
-		class Item13
+		class Item12
 		{
 			position[]={10755.819336,2.176272,11641.196289};
 			a=210.000000;
@@ -918,13 +909,23 @@ class Mission
 			{
 			};
 		};
-		class Item14
+		class Item13
 		{
 			position[]={10801.343750,25.262932,11893.217773};
 			age="UNKNOWN";
 			text="Leaving Everon!";
 			expCond="jason in boat2";
 			expActiv="[] exec ""LeavingEveron.sqs""";
+			class Effects
+			{
+			};
+		};
+		class Item14
+		{
+			position[]={10855.291992,-0.511078,11317.859375};
+			type="END2";
+			age="UNKNOWN";
+			expCond="end2";
 			class Effects
 			{
 			};

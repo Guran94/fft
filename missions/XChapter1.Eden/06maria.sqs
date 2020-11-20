@@ -9,6 +9,8 @@ skiptime 2
 maria setmimic "sad"
 crew1 setmimic "smile"
 
+
+
 crash=true
 
 ;tank moves
@@ -194,7 +196,7 @@ _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
 1 fadesound 1
-1 fademusic 0.5
+1 fademusic 0.2
 playmusic "track7"
 
 nocar setdammage 1
@@ -323,8 +325,6 @@ titletext [ localize "","plain"]
 
 ;hatton
 
-6 fademusic 1
-
 ;=== 16:56:38
 _camera camSetTarget [-43651.12,84943.70,33107.95]
 _camera camSetPos [7126.85,5365.23,1.16]
@@ -340,8 +340,10 @@ titleCut ["","BLACK OUT",2]
 
 titleCut ["","BLACK IN",2]
 
+
+
 skiptime 5
-jean3 setdir 90
+jean3 setdir 145
 jean3 setmimic "sad"
 jean3 switchmove "fxinkneel"
 guard setmimic "normal"
@@ -350,77 +352,67 @@ jean3 disableai "autotarget"
 
 ;grave
 
-1 fademusic 0.2
 
-;=== 19:17:04
-_camera camSetTarget [92903.44,-51994.91,-15324.17]
-_camera camSetPos [9872.08,1584.79,0.84]
-_camera camSetFOV 0.700
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+
+;=== 8:52:24
+_camera camSetTarget [19632.24,-92617.47,-9840.24]
+_camera camSetPos [2640.28,5428.81,0.97]
+_camera camSetFOV 0.470
 _camera camCommit 0
 @camCommitted _camera
-
-;=== 19:17:16
-_camera camSetTarget [92903.44,-51994.91,-15323.79]
-_camera camSetPos [9868.83,1586.55,0.84]
-_camera camSetFOV 0.700
+;=== 8:52:33
+_camera camSetTarget [-19850.33,-91872.83,-5058.29]
+_camera camSetPos [2640.13,5429.54,0.66]
+_camera camSetFOV 0.470
 _camera camCommit 4
 @camCommitted _camera
-
-;=== 19:17:38
-_camera camSetTarget [92903.44,-51994.91,-15324.03]
-_camera camSetPos [9867.88,1586.27,0.84]
-_camera camSetFOV 0.700
+;=== 8:52:47
+_camera camSetTarget [-94450.31,28808.31,-5057.98]
+_camera camSetPos [2641.84,5427.03,0.67]
+_camera camSetFOV 0.470
 _camera camCommit 4
 @camCommitted _camera
 
 ;jean
 
+;=== 8:53:04
+_camera camSetTarget [-92824.41,28416.80,18994.71]
+_camera camSetPos [2641.84,5427.03,0.67]
+_camera camSetFOV 0.470
+_camera camCommit 5
 
-;=== 19:55:37
-_camera camSetTarget [-64462.24,-65235.57,3085.67]
-_camera camSetPos [9871.17,1585.54,0.47]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-
-~1
-
+jean setmimic "angry"
 jean3 say "xc1v35"
 
 ~2
 
 jean3 switchmove "fxfromkneel"
 
-;=== 19:56:01
-_camera camSetTarget [-71609.44,-53759.06,17265.45]
-_camera camSetPos [9871.17,1585.54,1.06]
-_camera camSetFOV 0.574
-_camera camCommit 2
-
-~2
+~3
 
 @camCommitted _camera
-jean3 setmimic "angry"
-
-~1
 
 guard say "xc1v36"
 
 ;guard
 
-;=== 19:19:10
-_camera camSetTarget [-84241.95,-32207.96,-649.18]
-_camera camSetPos [9871.17,1585.54,1.06]
-_camera camSetFOV 0.574
+;=== 8:54:25
+_camera camSetTarget [-78363.91,61439.55,17422.16]
+_camera camSetPos [2641.84,5427.03,0.67]
+_camera camSetFOV 0.470
 _camera camCommit 1
 @camCommitted _camera
 
 ~1
 
-;=== 19:19:38
-_camera camSetTarget [-74528.26,43332.68,33710.59]
-_camera camSetPos [9857.96,1583.73,0.93]
-_camera camSetFOV 0.452
+;=== 8:54:46
+_camera camSetTarget [-14717.25,99395.43,29592.09]
+_camera camSetPos [2633.68,5437.18,1.03]
+_camera camSetFOV 0.470
 _camera camCommit 0
 @camCommitted _camera
 
@@ -430,23 +422,24 @@ _camera camCommit 0
 jean3 move getmarkerpos "leave2"
 jean3 setspeedmode "limited"
 jean3 setpos getmarkerpos "leave"
-jean3 setdir 275
+jean3 setdir 335
 
 
 titletext [ localize "","plain"]
 
 ;jean goes
 
-;=== 19:21:32
-_camera camSetTarget [109838.30,1259.24,-1774.29]
-_camera camSetPos [9854.68,1584.04,1.51]
-_camera camSetFOV 0.386
+;=== 8:55:26
+_camera camSetTarget [55519.73,-79297.82,-4658.71]
+_camera camSetPos [2632.39,5439.63,1.67]
+_camera camSetFOV 0.470
 _camera camCommit 0
 @camCommitted _camera
 
+
 ~5
 
-guard dowatch [9850.91,1582.60,1.37]
+guard dowatch [2631.49,5440.05,1.63]
 
 ~1
 
