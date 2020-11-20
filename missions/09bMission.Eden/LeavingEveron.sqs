@@ -1,7 +1,7 @@
-boat2 lock true
 setacctime 1
 playmusic "fft_track5"
 hint localize "STRM_m09bh2"
+0 fademusic 0.2
 
 jack say "m09bv17"
 

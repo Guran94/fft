@@ -885,6 +885,7 @@ class Mission
 		class Item11
 		{
 			position[]={11038.679688,26.421085,11724.789063};
+			type="SWITCH";
 			age="UNKNOWN";
 			expCond="run";
 			class Effects
