@@ -398,13 +398,13 @@ class Campaign
     class XPrologue: MissionDefault
     {
       noAward=true;
-      end1 = XChapter1;
-      end2 = XChapter1;
-      end3 = XChapter1;
-      end4 = XChapter1;
-      end5 = XChapter1;
-      end6 = XChapter1;
-      lost = XChapter1;
+      end1 = ;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
       template = XPrologue.Eden;
     };
   };
