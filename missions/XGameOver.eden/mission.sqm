@@ -4,6 +4,7 @@ class Mission
 	randomSeed=7113731;
 	class Intel
 	{
+		briefingName="@STRCC_GO";
 	};
 };
 class Intro
@@ -19,6 +20,7 @@ class Intro
 	randomSeed=13597187;
 	class Intel
 	{
+		briefingName="@STRCC_GO";
 		resistanceWest=0.000000;
 		resistanceEast=1.000000;
 		hour=12;
@@ -370,7 +372,7 @@ class Intro
 		class Item0
 		{
 			position[]={6377.958984,8.294003,9553.683594};
-			type="END1";
+			type="END6";
 			age="UNKNOWN";
 			expCond="end";
 			class Effects
