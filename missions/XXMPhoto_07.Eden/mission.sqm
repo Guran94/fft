@@ -12,6 +12,8 @@ class Mission
 	randomSeed=13917699;
 	class Intel
 	{
+		startWeather=0.700000;
+		startFog=0.200000;
 		month=11;
 		day=29;
 		hour=6;

@@ -15,7 +15,7 @@ _god2 = hrac addeventhandler [{hit},{(_this select 0) setdamage (damage (_this s
 disableuserinput true
 enableradio false
 0 fademusic 1
-playmusic "track6"
+playmusic "7overdose"
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]

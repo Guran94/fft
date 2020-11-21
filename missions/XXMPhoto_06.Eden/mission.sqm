@@ -33,6 +33,7 @@ class Mission
 					leader=1;
 					lock="LOCKED";
 					skill=0.200000;
+					text="r";
 					init="this setPos [getPos this select 0,getPos this select 1,(getPos this select 2)+2]";
 				};
 			};
