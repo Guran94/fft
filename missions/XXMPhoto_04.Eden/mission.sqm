@@ -48,7 +48,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5771.792969,64.608749,4739.069336};
+					position[]={5760.155762,62.361073,4738.275391};
 					azimut=280.000000;
 					id=13;
 					side="WEST";
@@ -183,7 +183,7 @@ class Mission
 		items=2;
 		class Item0
 		{
-			position[]={5767.692383,63.335262,4733.848633};
+			position[]={5756.055176,60.837242,4733.054688};
 			activationBy="WEST";
 			timeoutMin=5.000000;
 			timeoutMid=5.000000;

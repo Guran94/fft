@@ -569,7 +569,7 @@ class Campaign
       end1 = ;
       end2 = XGameOver;
       end3 = 09bMission;
-      end4 = ;
+      end4 = 09bMission;
       end5 = ;
       end6 = ;
       lost = ;

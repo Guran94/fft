@@ -27,6 +27,7 @@ class Mission
 					leader=1;
 					skill=0.600000;
 					text="stalin";
+					init="this setidentity ""hugo""";
 				};
 			};
 		};

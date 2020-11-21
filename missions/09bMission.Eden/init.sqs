@@ -41,7 +41,10 @@ enableradio false
 away1=false
 KillingRussian=false
 KillingPrisoners=false
+end1=false
 end2=false
+end3=false
+end4=false
 
 
 lemontov setpos getmarkerpos "lemontov"

@@ -3,12 +3,9 @@ _camera cameraeffect ["internal","back"]
 
 showcinemaborder false
 
-;=== 14:33:42
-_camera camSetTarget [-62131.50,84869.87,-7209.51]
-_camera camSetPos [4852.89,10973.19,2.90]
-_camera camSetFOV 0.416
+;=== 17:59:00
+_camera camSetTarget [-66743.75,50931.90,-54315.27]
+_camera camSetPos [6357.76,9645.50,2.17]
+_camera camSetFOV 0.437
 _camera camCommit 0
 @camCommitted _camera
-
-
-exit

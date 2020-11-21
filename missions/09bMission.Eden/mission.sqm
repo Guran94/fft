@@ -751,7 +751,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=15;
+		items=16;
 		class Item0
 		{
 			position[]={10867.686523,24.525000,11666.561523};
@@ -764,6 +764,7 @@ class Mission
 			idVehicle=0;
 			text="END3";
 			expCond="away1 and this";
+			expActiv="[] exec ""end3.sqs""";
 			class Effects
 			{
 			};
@@ -796,7 +797,7 @@ class Mission
 			age="UNKNOWN";
 			text="Player kills both sides";
 			expCond="KillingRussian and KillingPrisoners";
-			expActiv="[] exec ""END2.sqs""";
+			expActiv="[] exec ""END4.sqs""";
 			class Effects
 			{
 			};
@@ -927,6 +928,16 @@ class Mission
 			type="END2";
 			age="UNKNOWN";
 			expCond="end2";
+			class Effects
+			{
+			};
+		};
+		class Item15
+		{
+			position[]={10855.198242,1.734258,11205.962891};
+			type="END4";
+			age="UNKNOWN";
+			expCond="end4";
 			class Effects
 			{
 			};
