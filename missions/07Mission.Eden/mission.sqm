@@ -2080,7 +2080,7 @@ class Mission
 					position[]={5349.211426,19.394999,9950.361328};
 					type="HOLD";
 					combat="AWARE";
-					description="@STRMW_01";
+					description="@STRM_m07w1";
 					synchronizations[]={1};
 					class Effects
 					{
@@ -2091,7 +2091,7 @@ class Mission
 				{
 					position[]={4903.522949,25.304535,10977.267578};
 					type="TR UNLOAD";
-					description="@STRMW_02";
+					description="@STRM_m07w2";
 					expActiv="[] exec ""truck.sqs""";
 					class Effects
 					{
@@ -2105,7 +2105,7 @@ class Mission
 				{
 					position[]={4863.276855,24.660000,10929.971680};
 					type="GETOUT";
-					description="@STRMW_03";
+					description="@STRM_m07w3";
 					expActiv="[] exec ""GetOut.sqs""";
 					class Effects
 					{
@@ -2116,7 +2116,7 @@ class Mission
 				{
 					position[]={4849.843750,24.660000,10989.404297};
 					type="HOLD";
-					description="@STRMW_06";
+					description="@STRM_m07w6";
 					synchronizations[]={7};
 					class Effects
 					{
@@ -2127,7 +2127,7 @@ class Mission
 				{
 					position[]={401.620789,-49.769997,7120.554199};
 					type="HOLD";
-					description="@STRMW_04";
+					description="@STRM_m07w4";
 					synchronizations[]={5};
 					class Effects
 					{
@@ -2138,7 +2138,7 @@ class Mission
 				{
 					position[]={2924.075195,55.050468,6615.239258};
 					type="HOLD";
-					description="@STRMW_05";
+					description="@STRM_m07w5";
 					synchronizations[]={10};
 					class Effects
 					{

@@ -122,7 +122,7 @@ class CfgMusic
 {
 	tracks[] ={};
 
-	class MainTheme
+	class FFT_MainTheme
 	{
 		name = "FFT - Main Theme";
 		sound[] = {"\Music\MainTheme.ogg", db+0, 1.0};
@@ -501,7 +501,7 @@ class Campaign
 
     firstMission = XChapter2;
     lost = ;
-    end1 = ;
+    end1 = Chapter3;
     end2 = ;
     end3 = ;
     end4 = ;
@@ -586,6 +586,46 @@ class Campaign
       end6 = ;
       lost = ;
       template = XGameOver.Eden;
+    };
+  };
+
+  class Chapter3
+  {
+    name = "Cold war crisis";
+
+    cutscene = ;
+
+    firstMission = XChapter3;
+    lost = ;
+    end1 = ;
+    end2 = ;
+    end3 = ;
+    end4 = ;
+    end5 = ;
+    end6 = ;
+
+    class XChapter3: MissionDefault
+    {
+      noAward=true;
+      end1 = 10Mission;
+      end2 = 10Mission;
+      end3 = 10Mission;
+      end4 = 10Mission;
+      end5 = 10Mission;
+      end6 = 10Mission;
+      lost = 10Mission;
+      template = XChapter3.Cain;
+      };
+    class 10Mission: MissionDefault
+    {
+      end1 = 11Mission;
+      end2 = ;
+      end3 = ;
+      end4 = ;
+      end5 = ;
+      end6 = ;
+      lost = ;
+      template = 10Mission.Abel;
     };
   };
 };

@@ -1,0 +1,19 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_INTRO,Somewhere on Kolguev,ne,loading screen
+
+
+STRM_xc3v01,"Welcome to Kolguev, comrade Lemontov.\nComrade general Livanokh awaits you.","Vítejte na Kolgujevu, soudruhu plukovníku.\nSoudruh generál livanokh vás očekává.","guard"
+STRM_xc3v02,"I'm glad to see you, Gregory.\nThere are some things I want to discuss with you here.","Rád tě vidím, Gregorij. Máme toho hodně co probrat.","livanokh"
+STRM_xc3v03,"My ears are yours, Sasha. I'm listening.","Mé uši jsou napjaté, Sašo.\nPoslouchám.","lemontov"
+STRM_xc3v04,"The occupation of Everon managed better, than I expected and now when we smashed American forces,\nit's time to invade them on Malden.","Obsazení Everonu dopadlo lépe, než jsem čekal. S Kremlem jsem to už probíral a nyní,\nkdyž jsme Američany vyhnali z těchto končin, napadneme je na Maldenu.","livanokh"
+STRM_xc3v05,"NATO will have no feeling to break the Russian bear.\nThe cold war crisis is unavoidable.","Hahaha... NATO ani nebudou tušit, jak Ruského medvěda odrazit.\nTřetí světová válka je nevyhnutelná!","lemontov"
+STRM_xc3v06,"If the cold war has to be have, the winner might be the most respective country and that's the Soviet Union!","Má-li být třetí světová válka, tak ať ji vyhraje ta správná strana a tou je Sovětský svaz!","livanokh"
+STRM_xc3v07,"The Kremlin has announced us a full support.\nThe world of capitalism will be feeling the power of the Russian bear.\nNow that's the right time for the Soviet empire to show their ambiciouses","Chci, aby Malden byl dobyt co možná nejrychleji, aby Američané nestačili zmobilizovat všechny své síly\na NATO nezačalo zase vystrkovat růžky.\nRudá armáda je nejsilnější na světě. Až se znovu sejdem, oslavíme velké vítězství!","livanokh"
+STRM_xc3v08,"It will be not the second world war, which changes the history,\ninstead it's our turn and we're now here to rewrite the textbooks of history.","ne","livanokh"
+STRM_xc3v09,"All the world is on our side, Gregory. We'll conquest Malden and then we've got a free hand to catch the nuclear weapons\nand finally will be the world calling: Russian Motherland! Russian Motherland!","Celý národ nám fandí. Celý komunistický svět stojí na naší straně! Dobijeme Malden a budeme mít volnou ruku k jaderným zbraním. A konečně bude celý svět volat: Matička Rusy, Matička Rusy!","livanokh"
+STRM_xc3v10,"With you in charge, Sasha, will everyone on the world call: General Livanokh!\nI can promise you my SpetzNatz unit gonna kick the fucking BlackOp's asses.","Stebou v čele, Sašo, bude celý svět volat:\nGenerál livanokh.\nMohu vám slíbit, že má jednotka SpetzNatz těm Americkým neumětelům SEALs nakope prdel.","lemontov"
+STRM_xc3v11,And the Soviet Union will be mine.,A Sovětský svaz bude můj. Hahahaha....,livanokh
+
+STRM_xc3t1,C H A P T E R   I I I,K A P I T O L A   I I I.,me
+STRM_xc3t2,C O L D   W A R   C R I S I S,ne,me

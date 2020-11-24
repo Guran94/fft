@@ -115,7 +115,7 @@ r4 dofire pri3
 
 not alive jas
 0 fademusic 1
-playmusic "maintheme"
+playmusic "fft_maintheme"
 
 ~0.5
 
