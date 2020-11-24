@@ -1,0 +1,230 @@
+version=11;
+class Mission
+{
+	randomSeed=4807683;
+	class Intel
+	{
+		startWeather=0.400000;
+		startFog=0.200000;
+		month=12;
+		hour=13;
+		minute=25;
+	};
+};
+class Intro
+{
+	randomSeed=12766723;
+	class Intel
+	{
+	};
+	class Groups
+	{
+		items=5;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2845.246582,146.968994,7300.366699};
+					id=0;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					init="[] exec ""photo.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1897.676025,129.194992,7380.155762};
+					azimut=160.000000;
+					id=1;
+					side="EAST";
+					vehicle="OfficerE";
+					leader=1;
+					skill=0.600000;
+					text="alex";
+					init="removeallweapons this; this setIdentity ""livanokh""";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1897.611084,129.194992,7385.168457};
+					azimut=205.000000;
+					id=2;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="guard";
+					init="this setbehaviour ""careless""; this exec ""camera.sqs""";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2334.644287,164.633179,7158.002930};
+					azimut=295.000000;
+					id=4;
+					side="EAST";
+					vehicle="SoldierESaboteurPipe";
+					leader=1;
+					skill=0.600000;
+					text="lem";
+					init="removeAllWeapons this; this setIdentity ""lemontov""; this moveindriver uaz";
+				};
+			};
+			class Waypoints
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1919.620483,129.135818,7355.886719};
+					speed="NORMAL";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={1907.188110,129.180969,7373.609375};
+					type="GETOUT";
+					speed="NORMAL";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={1897.597290,129.194992,7381.868164};
+					speed="LIMITED";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item4
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1890.891357,129.194992,7392.426270};
+					azimut=30.000000;
+					id=7;
+					side="EAST";
+					vehicle="SoldierESaboteurPipe";
+					leader=1;
+					skill=0.600000;
+					text="lem2";
+					init="removeAllWeapons this; this setIdentity ""lemontov""";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=3;
+		class Item0
+		{
+			position[]={2337.476563,165.074081,7162.177734};
+			azimut=295.000000;
+			id=3;
+			side="EMPTY";
+			vehicle="UAZ";
+			leader=1;
+			skill=0.600000;
+			text="uaz";
+		};
+		class Item1
+		{
+			position[]={1890.462891,129.194992,7385.520508};
+			azimut=205.000000;
+			id=5;
+			side="EMPTY";
+			vehicle="UAZ";
+			skill=0.600000;
+		};
+		class Item2
+		{
+			position[]={1908.201416,129.741272,7398.775391};
+			id=6;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			leader=1;
+			skill=0.600000;
+			text="flag";
+			init="this setflagtexture ""rus_vlajka.pac""";
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={1897.114502,129.194992,7384.048340};
+			name="lem2";
+			type="Flag";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={1954.554932,85.257675,7639.804199};
+			type="END1";
+			age="UNKNOWN";
+			expCond="konec";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class OutroWin
+{
+	randomSeed=12381187;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=6004739;
+	class Intel
+	{
+	};
+};

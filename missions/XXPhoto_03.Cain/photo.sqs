@@ -1,0 +1,16 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+alex setpos [1896.82,7391.95,3.31]
+lem2 setpos [1897.81,7391.59,3.31]
+alex dowatch [1898.19,7391.47,4.69]
+lem2 dowatch [1896.62,7392.07,4.66]
+
+showcinemaborder false
+
+;=== 12:29:21
+_camera camSetTarget [-12812.30,106077.11,6799.78]
+_camera camSetPos [1897.56,7389.92,4.05]
+_camera camSetFOV 0.441
+_camera camCommit 0
+@camCommitted _camera
