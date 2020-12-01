@@ -53,7 +53,7 @@ _camera camCommit 0
 jack setmimic "surprised"
 jack say "m09bv04"
 
-~2
+~3
 
 jack say "m09bv05"
 
@@ -131,7 +131,7 @@ lemontov say "m09bv07"
 _camera camSetTarget [110834.12,14468.20,-966.67]
 _camera camSetPos [10878.43,11661.48,1.54]
 _camera camSetFOV 0.471
-_camera camCommit 4
+_camera camCommit 3
 @camCommitted _camera
 
 ;all back
@@ -469,7 +469,7 @@ _camera camSetFOV 0.300
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~5
 
 ;jason
 ;=== 15:44:39
@@ -478,6 +478,8 @@ _camera camSetPos [10881.36,11666.63,1.02]
 _camera camSetFOV 0.257
 _camera camCommit 0
 @camCommitted _camera
+
+off1 say "m09bv10"
 
 ~2
 
@@ -491,7 +493,7 @@ _camera camCommit 0
 
 jack say "m09bv11"
 
-~3
+~7
 
 ;mike
 ;=== 18:30:17
@@ -503,7 +505,7 @@ _camera camCommit 2
 
 mike say "m09bv12"
 
-~3
+~8
 
 ;paul
 ;=== 18:45:25
@@ -515,7 +517,7 @@ _camera camCommit 2
 
 paul say "m09bv13"
 
-~2
+~3
 
 
 

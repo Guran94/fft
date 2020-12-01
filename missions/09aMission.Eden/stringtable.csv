@@ -142,9 +142,9 @@ STRM_m09ar05,"OK, SEND HIM.","DOBRÁ, POŠLETE HO.",jason
 STRM_m09ar06,"WELL. HE'LL BE RIGHT THERE, OUT.","FAJN. POČKEJTE TAM, BUDE U VÁS CO BY DUP, KONEC.",base
 
 
-STRM_m09aaway1,"COMRADE BLASHKOV, ARE KIDDING OR WHAT? DO WHAT YOU HAVE TO DO, OR YOU WILL DEPORT ON SIBERIA!","SOUDRUHU SERŽANTE BLASHKOVE, DĚLÁTE SI PRDEL? DĚLEJTE CO MÁTE, NEBO JEDETE NA SIBIŘ!",base
+STRM_m09aaway1,"COMRADE BLASHKOV, ARE YOU KIDDING OR WHAT? DO WHAT YOU HAVE TO DO, OR YOU WILL DEPORT ON SIBERIA!","SOUDRUHU SERŽANTE BLASHKOVE, DĚLÁTE SI PRDEL? DĚLEJTE CO MÁTE, NEBO JEDETE NA SIBIŘ!",base
 STRM_m09aaway2,"Fuck, I'm peace of shit!\nThat mutherfucker from Lamentin will kill me! Shit! What should I tell him?","A do prdele, já jsem ale kretén!\nTen zkurvysyn z Mortonu mě zabije! Kurva! Raději bych se tam ani neukazoval!",jason
-STRM_m09aaway3,"Comrade, sergeant, where the fuck is the truck!","Soudruhu, seržante, kde je kurva ten náklaďák?",lamentin
+STRM_m09aaway3,"Comrade, sergeant, where is the fucking truck!","Soudruhu, seržante, kde je kurva ten náklaďák?",lamentin
 STRM_m09aaway4,"Ehm... it's not far from here, but it's little bit damaged, comrade...","Ehm.... je kousek odtud, trošku se porouchal, soudruhu...",jason
 STRM_m09aaway5,"Oh, it broke down? By itself, isn't it? Goddammint, you idiot!\nI'll send someone there and you take the fucking keys and get out of my eyes, than I'll shoot you!","Jo on se porouchal? A sám, jo? Sakra, vy imbecile!\nNěkoho tam pošlu a vy už mi radši zmizte z očí, než vás na místě zastřelím!",lamentin
 STRM_m09aaway6,"Fuck, where I'm going? I sould turn it and go somehwhere else.",Ne,jason

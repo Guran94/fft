@@ -95,7 +95,7 @@ _camera camCommit 0
 _camera camSetTarget [-85428.73,56009.27,-2942.09]
 _camera camSetPos [1898.90,7383.69,1.43]
 _camera camSetFOV 0.559
-_camera camCommit 7
+_camera camCommit 9
 
 ~1
 
@@ -115,7 +115,7 @@ guard playmove "effectstandsaluteend"
 
 guard say "xc3v01"
 
-~2
+~4
 
 titleCut ["","BLACK OUT",1]
 
@@ -144,13 +144,13 @@ _camera camCommit 0
 _camera camSetTarget [100270.03,25352.84,132.21]
 _camera camSetPos [1896.26,7391.70,4.66]
 _camera camSetFOV 0.700
-_camera camCommit 5
+_camera camCommit 6
 
 ~1
 
 alex say "xc3v02"
 
-~4
+~5
 
 @camCommitted _camera
 
@@ -164,7 +164,7 @@ _camera camCommit 0
 
 lem2 say "xc3v03"
 
-~2
+~3
 
 ;alex back
 ;=== 10:32:45
@@ -177,11 +177,11 @@ _camera camCommit 0
 _camera camSetTarget [69810.92,-66000.41,-926.38]
 _camera camSetPos [1896.57,7392.48,4.66]
 _camera camSetFOV 0.592
-_camera camCommit 5
+_camera camCommit 9
 
 alex say "xc3v04"
 
-~5
+~9
 
 @camCommitted _camera
 
@@ -196,7 +196,7 @@ _camera camCommit 0
 lem2 setmimic "smile"
 lem2 say "xc3v05"
 
-~5
+~7
 
 ;alex appears
 ;=== 10:35:46
@@ -209,11 +209,11 @@ _camera camCommit 0
 _camera camSetTarget [-97909.49,11100.35,-4830.90]
 _camera camSetPos [1898.33,7391.76,4.66]
 _camera camSetFOV 0.592
-_camera camCommit 5
+_camera camCommit 6
 
 alex say "xc3v06"
 
-~5
+~6
 
 @camCommitted _camera
 
@@ -228,11 +228,11 @@ _camera camCommit 0
 _camera camSetTarget [-3267.98,106857.52,9056.58]
 _camera camSetPos [1897.44,7390.50,4.41]
 _camera camSetFOV 0.656
-_camera camCommit 5
+_camera camCommit 10
 
 alex say "xc3v07"
 
-~5
+~10
 
 @camCommitted _camera
 
@@ -247,20 +247,19 @@ _camera camCommit 0
 _camera camSetTarget [-95660.58,3513.09,21750.73]
 _camera camSetPos [1897.79,7391.95,4.39]
 _camera camSetFOV 0.587
-_camera camCommit 7
+_camera camCommit 18
 
 alex setmimic "angry"
 alex say "xc3v08"
 
-~5
+~9
 
 alex say "xc3v09"
 
-~2
+~9
 
 @camCommitted _camera
 
-6 fademusic 0
 ;lemi
 ;=== 10:31:18
 _camera camSetTarget [68585.67,-67116.27,-926.65]
@@ -273,7 +272,7 @@ _camera camCommit 0
 
 lem2 say "xc3v10"
 
-~3
+~9
 
 alex setmimic "smile"
 alex playmove "fxinhand"
@@ -286,8 +285,9 @@ _camera camCommit 0
 @camCommitted _camera
 
 alex say "xc3v11"
+6 fademusic 0
 
-~1
+~2
 
 ;=== 10:42:04
 _camera camSetTarget [-88505.24,50130.93,-562.00]
@@ -314,6 +314,8 @@ titleCut ["","BLACK OUT",2]
 
 2 fademusic 1
 playMusic ["chaptertheme", 9.5]
+titletext [ localize "STRM_x02v17","plain"]
+playsound "xc3v12"
 
 ~3
 

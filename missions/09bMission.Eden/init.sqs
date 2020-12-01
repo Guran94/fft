@@ -47,11 +47,6 @@ end3=false
 end4=false
 
 
-lemontov setpos getmarkerpos "lemontov"
-actor setpos getmarkerpos "actor"
-spetz1 setpos getmarkerpos "spetz1"
-
-
 
 
 ;=== 22:26:56
@@ -89,11 +84,11 @@ jason setmimic "sad"
 setacctime 1
 greg say "m09bv01"
 
-~3
+~6
 
 jason say "m09bv02"
 
-~3
+~2
 
 greg say "m09bv03"
 

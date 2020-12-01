@@ -1,0 +1,40 @@
+setacctime 1
+muday dowatch [11608.27,4456.71,1.72]
+jason dowatch [11606.73,4455.59,1.66]
+playmusic "track16"
+titleCut ["","BLACK IN",3]
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;sun and usa
+;=== 20:50:57
+_camera camSetTarget [-88274.98,10108.38,22.06]
+_camera camSetPos [11562.06,4401.48,8.44]
+_camera camSetFOV 0.410
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:51:08
+_camera camSetTarget [-87792.67,15744.25,22.08]
+_camera camSetPos [11562.20,4403.57,8.49]
+_camera camSetFOV 0.410
+_camera camCommit 4
+@camCommitted _camera
+;=== 20:51:40
+_camera camSetTarget [25423.64,103411.54,-2273.30]
+_camera camSetPos [11562.20,4403.57,8.49]
+_camera camSetFOV 0.410
+_camera camCommit 6
+@camCommitted _camera
+;=== 20:51:56
+_camera camSetTarget [76025.34,79299.88,-15330.34]
+_camera camSetPos [11565.10,4405.98,8.59]
+_camera camSetFOV 0.235
+_camera camCommit 5
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",2]
+2 fademusic 0
+
+~2
+

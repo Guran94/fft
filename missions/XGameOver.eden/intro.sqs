@@ -47,7 +47,7 @@ _camera camSetFOV 0.380
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~4
 
 ;jean
 ;=== 9:33:51
@@ -57,7 +57,7 @@ _camera camSetFOV 0.380
 _camera camCommit 0
 @camCommitted _camera
 
-~3
+~4
 
 lemontov move getmarkerpos "death"
 rus1 move getmarkerpos "death"
