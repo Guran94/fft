@@ -28,7 +28,7 @@ chinook setcaptive true
 ;=== 9:30:28
 _camera camSetTarget chinook
 _camera camSetPos [4870.96,11006.57,35.56]
-_camera camSetFOV 0.700
+_camera camSetFOV 0.700 
 _camera camCommit 0
 @camCommitted _camera
 

@@ -29,7 +29,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=81;
+		items=84;
 		class Item0
 		{
 			side="WEST";
@@ -2650,7 +2650,7 @@ class Mission
 				items=5;
 				class Item0
 				{
-					position[]={3108.352539,33.346775,6829.009277};
+					position[]={3104.385742,31.570190,6838.898438};
 					placement=50.000000;
 					combatMode="RED";
 					formation="ECH LEFT";
@@ -3270,25 +3270,6 @@ class Mission
 		};
 		class Item77
 		{
-			side="WEST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={4049.175781,75.537689,5484.990234};
-					id=210;
-					side="WEST";
-					vehicle="SoldierWB";
-					leader=1;
-					skill=0.200000;
-					text="herec2";
-					init="this setidentity ""player1""; this setcaptive true; this setbehaviour ""aware""";
-				};
-			};
-		};
-		class Item78
-		{
 			side="GUER";
 			class Vehicles
 			{
@@ -3386,7 +3367,7 @@ class Mission
 				};
 			};
 		};
-		class Item79
+		class Item78
 		{
 			side="GUER";
 			class Vehicles
@@ -3464,7 +3445,7 @@ class Mission
 				};
 			};
 		};
-		class Item80
+		class Item79
 		{
 			side="GUER";
 			class Vehicles
@@ -3531,6 +3512,358 @@ class Mission
 					type="CYCLE";
 					combatMode="RED";
 					combat="AWARE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item80
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={2769.171387,29.637884,6839.626465};
+					id=237;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.432766;
+					init="this addweapon ""nvgoggles""; group this allowFleeing 0";
+				};
+				class Item1
+				{
+					presence=0.500000;
+					position[]={2774.986816,29.823103,6837.979004};
+					id=238;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.200000;
+				};
+				class Item2
+				{
+					position[]={2769.778809,29.913960,6837.293457};
+					id=239;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.200000;
+				};
+				class Item3
+				{
+					position[]={2765.626465,29.922432,6837.285156};
+					id=240;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.200000;
+				};
+				class Item4
+				{
+					presence=0.544765;
+					position[]={2769.541016,30.306664,6833.991211};
+					id=241;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.200000;
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={2767.278564,28.318518,6852.574707};
+					type="HOLD";
+					combatMode="YELLOW";
+					speed="NORMAL";
+					combat="AWARE";
+					synchronizations[]={17};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={2825.553467,19.662025,6968.977051};
+					placement=50.000000;
+					combatMode="RED";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={3192.549072,29.021189,6887.303711};
+					placement=50.000000;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={2788.262451,28.312185,6851.679199};
+					placement=50.000000;
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item81
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3678.397705,75.869301,6547.584961};
+					id=242;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.353715;
+					init="this addweapon ""nvgoggles""; group this allowFleeing 0";
+				};
+				class Item1
+				{
+					position[]={3673.743652,76.500381,6545.016602};
+					id=243;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item2
+				{
+					position[]={3682.187500,75.751938,6544.781250};
+					id=244;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item3
+				{
+					presence=0.400000;
+					position[]={3672.947021,76.905815,6540.905273};
+					id=245;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item4
+				{
+					presence=0.525797;
+					position[]={3682.028320,76.108818,6540.553711};
+					id=246;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item5
+				{
+					presence=0.478377;
+					position[]={3677.885986,76.799232,6536.678711};
+					id=247;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+			};
+			class Waypoints
+			{
+				items=5;
+				class Item0
+				{
+					position[]={3680.128418,75.506592,6551.351563};
+					type="HOLD";
+					combatMode="BLUE";
+					formation="WEDGE";
+					speed="NORMAL";
+					combat="AWARE";
+					synchronizations[]={18};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3666.778564,63.133976,6769.187988};
+					placement=50.000000;
+					combatMode="RED";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={3264.422852,53.716934,6778.010742};
+					placement=50.000000;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={3308.189209,79.365845,6537.918457};
+					placement=50.000000;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={3665.610596,76.834648,6550.187500};
+					placement=50.000000;
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item82
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					presence=0.000000;
+					position[]={3637.734619,104.426750,5471.587891};
+					id=248;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					rank="LIEUTNANT";
+					skill=0.600000;
+				};
+				class Item1
+				{
+					position[]={3638.717773,104.928795,5477.790527};
+					id=210;
+					side="WEST";
+					vehicle="SoldierWB";
+					skill=0.200000;
+					text="herec2";
+					init="this setidentity ""player1""; this setcaptive true; this setbehaviour ""aware""";
+				};
+			};
+		};
+		class Item83
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=6;
+				class Item0
+				{
+					position[]={3759.715576,47.884983,6888.009277};
+					id=249;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.353715;
+					init="this addweapon ""nvgoggles""; group this allowFleeing 0";
+				};
+				class Item1
+				{
+					position[]={3755.061523,48.378124,6885.440918};
+					id=250;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item2
+				{
+					position[]={3763.505371,47.800644,6885.205566};
+					id=251;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item3
+				{
+					presence=0.400000;
+					position[]={3754.264893,48.700466,6881.329590};
+					id=252;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item4
+				{
+					presence=0.525797;
+					position[]={3763.346191,48.085751,6880.978027};
+					id=253;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+				class Item5
+				{
+					presence=0.478377;
+					position[]={3759.203857,48.627644,6877.103027};
+					id=254;
+					side="EAST";
+					vehicle="SoldierEB";
+					skill=0.353715;
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={3761.446289,47.916668,6891.775879};
+					type="HOLD";
+					combatMode="BLUE";
+					formation="WEDGE";
+					speed="NORMAL";
+					combat="AWARE";
+					synchronizations[]={19};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3456.214111,32.872284,6881.164551};
+					placement=50.000000;
+					combatMode="RED";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={3020.193359,29.568760,6840.727051};
+					placement=50.000000;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={3748.928467,49.022316,6881.548828};
+					placement=50.000000;
+					type="CYCLE";
 					class Effects
 					{
 					};
@@ -5150,7 +5483,7 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={6,9,10};
+			synchronizations[]={6,9,10,17,18,19};
 		};
 		class Item62
 		{

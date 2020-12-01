@@ -71,6 +71,12 @@ class CfgSounds
 		sound[] = {"xc3v11.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_xc3v11};
 	};
+	class xc3v12
+	{
+		name = "xc3v12";
+		sound[] = {"xc3v12.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc3v12};
+	};
 };
 
 
