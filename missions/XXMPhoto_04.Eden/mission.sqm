@@ -1,0 +1,229 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"bis_resistance"
+	};
+	addOnsAuto[]=
+	{
+		"bis_resistance"
+	};
+	randomSeed=15590915;
+	class Intel
+	{
+		startWeather=0.600000;
+		month=11;
+		day=26;
+		hour=14;
+		minute=45;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5646.663086,62.867439,4723.735352};
+					azimut=100.000000;
+					id=11;
+					side="GUER";
+					vehicle="T55G";
+					leader=1;
+					skill=0.400000;
+					text="bmp1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5760.155762,62.361073,4738.275391};
+					azimut=280.000000;
+					id=13;
+					side="WEST";
+					vehicle="SoldierWLAW";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.400000;
+					text="hrac";
+					init="this setidentity ""player1""";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=12;
+		class Item0
+		{
+			position[]={5243.651855,111.175903,4533.434082};
+			id=0;
+			side="EMPTY";
+			vehicle="Fire";
+			leader=1;
+			skill=0.600000;
+			init="this inflame true";
+		};
+		class Item1
+		{
+			position[]={5234.491211,111.953835,4530.765625};
+			id=1;
+			side="EMPTY";
+			vehicle="AmmoBoxOUTGW";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item2
+		{
+			position[]={5257.269043,110.017471,4535.229980};
+			azimut=265.000000;
+			id=2;
+			side="EMPTY";
+			vehicle="AmmoBoxOUTGW";
+			leader=1;
+			skill=0.600000;
+			text="ammo2";
+		};
+		class Item3
+		{
+			position[]={5246.018555,111.357231,4524.582520};
+			azimut=340.000000;
+			id=3;
+			side="EMPTY";
+			vehicle="AmmoBoxOUTGW";
+			leader=1;
+			skill=0.600000;
+		};
+		class Item4
+		{
+			position[]={5255.135254,110.345810,4531.188477};
+			azimut=315.000000;
+			id=4;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item5
+		{
+			position[]={5251.948242,110.721725,4528.500000};
+			azimut=315.000000;
+			id=5;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item6
+		{
+			position[]={5242.334961,111.561844,4526.846191};
+			azimut=35.000000;
+			id=6;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item7
+		{
+			position[]={5238.823730,111.745018,4529.162109};
+			azimut=35.000000;
+			id=7;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item8
+		{
+			position[]={5274.955078,108.363708,4533.210938};
+			azimut=320.000000;
+			id=8;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item9
+		{
+			position[]={5278.188477,107.889824,4535.655273};
+			azimut=320.000000;
+			id=9;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item10
+		{
+			position[]={5281.023926,107.442215,4538.412598};
+			azimut=320.000000;
+			id=10;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+		class Item11
+		{
+			position[]={5245.556152,111.954323,4502.555176};
+			azimut=320.000000;
+			id=12;
+			side="EMPTY";
+			vehicle="ACamp";
+			skill=0.600000;
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={5756.055176,60.837242,4733.054688};
+			activationBy="WEST";
+			timeoutMin=5.000000;
+			timeoutMid=5.000000;
+			timeoutMax=5.000000;
+			age="UNKNOWN";
+			expActiv="[] exec ""photo.sqs""";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={5633.096191,65.087540,4728.131836};
+			activationBy="ANY";
+			age="UNKNOWN";
+			expActiv="bmp1 dotarget hrac";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	randomSeed=10077699;
+	class Intel
+	{
+	};
+};
+class OutroWin
+{
+	randomSeed=6371843;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=13352963;
+	class Intel
+	{
+	};
+};

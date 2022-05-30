@@ -1,0 +1,13 @@
+setacctime 1
+
+0 fadesound 0.1
+0 fademusic 0.2
+car sideradio "m02r01"
+car lock false
+
+~6
+
+5 fadesound 1
+5 fademusic 0.5
+
+exit

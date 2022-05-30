@@ -1,0 +1,292 @@
+setacctime 1
+titleCut ["","BLACK IN",3]
+
+reb3 switchmove "effectstandtalk"
+reb2 switchmove "fxtohand"
+
+jean setmimic "sad"
+playmusic "rtrack6"
+hugo2 setmimic "smile"
+
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+
+;church
+;=== 16:27:03
+_camera camSetTarget [103724.23,11513.79,-14393.34]
+_camera camSetPos [5062.42,3919.53,21.06]
+_camera camSetFOV 0.648
+_camera camCommit 0
+@camCommitted _camera
+
+
+;=== 16:27:23
+_camera camSetTarget [72596.54,70109.30,-32493.64]
+_camera camSetPos [5062.58,3919.41,20.66]
+_camera camSetFOV 0.890
+_camera camCommit 8
+@camCommitted _camera
+
+;fountain and flag
+;=== 16:45:41
+_camera camSetTarget [81371.21,66606.02,-15755.42]
+_camera camSetPos [5047.72,3948.43,2.41]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 16:46:03
+_camera camSetTarget [94241.47,47122.85,13460.66]
+_camera camSetPos [5048.91,3949.08,3.89]
+_camera camSetFOV 0.533
+_camera camCommit 8
+@camCommitted _camera
+
+
+;cemetery
+;=== 16:29:43
+_camera camSetTarget [61127.74,86370.25,-8654.79]
+_camera camSetPos [5078.97,4008.95,0.52]
+_camera camSetFOV 0.520
+_camera camCommit 0
+@camCommitted _camera
+
+reb setmimic "sad"
+reb4 setmimic "sad"
+reb playmove "fxtokneel"
+
+;=== 16:31:08
+_camera camSetTarget [68733.56,81130.54,998.55]
+_camera camSetPos [5082.68,4009.80,0.52]
+_camera camSetFOV 0.520
+_camera camCommit 8
+
+~7
+
+rep2 switchmove "Medic"
+
+~1
+
+@camCommitted _camera
+;meetig place
+
+rep1 switchmove "Medic"
+hugo setmimic "smile"
+
+;=== 9:48:30
+_camera camSetTarget [82588.95,-58631.79,-8233.77]
+_camera camSetPos [5035.14,3957.00,1.02]
+_camera camSetFOV 0.477
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 9:43:24
+_camera camSetTarget [66815.96,-74577.73,-3894.48]
+_camera camSetPos [5033.35,3957.35,1.06]
+_camera camSetFOV 0.584
+_camera camCommit 5
+@camCommitted _camera
+
+
+;hugo
+
+;=== 9:43:57
+_camera camSetTarget [-92577.86,22226.86,11710.76]
+_camera camSetPos [5039.25,3947.76,1.12]
+_camera camSetFOV 0.478
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+hugo2 move getmarkerpos "hugo3"
+
+~1
+
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+titleCut ["","BLACK IN",1]
+
+
+;jean
+;=== 16:47:05
+_camera camSetTarget [-11792.30,102450.80,15.70]
+_camera camSetPos [5065.58,3885.63,1.62]
+_camera camSetFOV 0.472
+_camera camCommit 0
+@camCommitted _camera
+;=== 16:47:19
+_camera camSetTarget [-11792.30,102450.80,16.09]
+_camera camSetPos [5066.51,3880.12,1.62]
+_camera camSetFOV 0.472
+_camera camCommit 2
+
+~1
+
+jean switchmove "FXstandhip"
+
+~1
+
+@camCommitted _camera
+
+~1
+
+;jeans back
+;=== 16:47:57
+_camera camSetTarget [-56230.21,-74827.32,-6862.72]
+_camera camSetPos [5067.60,3882.70,1.62]
+_camera camSetFOV 0.472
+_camera camCommit 0
+@camCommitted _camera
+
+hugo setpos getmarkerpos "hugo"
+
+;=== 16:48:16
+_camera camSetTarget [-27855.24,-90291.31,-6862.99]
+_camera camSetPos [5066.84,3883.12,1.62]
+_camera camSetFOV 0.472
+_camera camCommit 3
+@camCommitted _camera
+
+
+jean switchmove ""
+;jean
+;=== 16:47:19
+_camera camSetTarget [-11792.30,102450.80,16.09]
+_camera camSetPos [5066.51,3880.12,1.62]
+_camera camSetFOV 0.472
+_camera camCommit 0
+@camCommitted _camera
+
+hugo say "m05v01"
+
+~1
+
+jean dowatch [5066.19,3884.85,2.34]
+
+~1
+
+
+;jean front
+;=== 16:48:16
+_camera camSetTarget [-27855.24,-90291.31,-6862.99]
+_camera camSetPos [5066.84,3883.12,1.62]
+_camera camSetFOV 0.472
+_camera camCommit 0
+@camCommitted _camera
+
+jean setmimic "smile"
+jean say "m05v02"
+
+~2
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+hugo setpos getmarkerpos "hugo2"
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+hugo say "m05v03"
+
+;both
+;=== 17:35:36
+_camera camSetTarget [-90435.38,-25768.47,15.19]
+_camera camSetPos [5067.71,3882.18,1.37]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 17:36:15
+_camera camSetTarget [-94838.19,8217.00,15.31]
+_camera camSetPos [5067.79,3881.49,1.37]
+_camera camSetFOV 0.596
+_camera camCommit 7
+
+~4
+
+jean setmimic "normal"
+jean say "m05v04"
+
+~3
+
+@camCommitted _camera
+
+;hugo
+;=== 17:37:21
+_camera camSetTarget [-46011.01,89240.57,-10218.49]
+_camera camSetPos [5067.00,3880.70,1.66]
+_camera camSetFOV 0.596
+_camera camCommit 0
+@camCommitted _camera
+
+hugo say "m05v05"
+
+~2
+
+jean setmimic "smile"
+;jean
+;=== 17:38:41
+_camera camSetTarget [-58643.14,-72512.63,-10218.48]
+_camera camSetPos [5067.12,3882.87,1.66]
+_camera camSetFOV 0.596
+_camera camCommit 0
+@camCommitted _camera
+
+jean say "m05v06"
+
+~2
+
+;hugo
+;=== 17:37:21
+_camera camSetTarget [-46011.01,89240.57,-10218.49]
+_camera camSetPos [5067.00,3880.70,1.66]
+_camera camSetFOV 0.596
+_camera camCommit 0
+@camCommitted _camera
+
+jean setmimic "angry"
+hugo say "m05v07"
+
+~3
+
+;jean
+;=== 17:41:18
+_camera camSetTarget [-64361.75,-67630.86,-8081.61]
+_camera camSetPos [5066.83,3882.11,1.66]
+_camera camSetFOV 0.596
+_camera camCommit 0
+@camCommitted _camera
+;=== 17:41:37
+_camera camSetTarget [-44379.15,-82659.59,-8081.80]
+_camera camSetPos [5066.80,3882.49,1.66]
+_camera camSetFOV 0.690
+_camera camCommit 11.5
+
+~4
+
+jean say "m05v08"
+
+~3
+
+playMusic "track5"
+titleCut ["","BLACK OUT",2]
+
+~2.5
+
+titletext ["","plain"]
+@camCommitted _camera
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+[] exec "intro2.sqs"
+
+exit

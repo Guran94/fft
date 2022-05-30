@@ -1,0 +1,107 @@
+onLoadMission="$STRM_ONLOAD_MISSION";
+onLoadMissionTime = true;
+onLoadIntro="$STRM_ONLOAD_INTRO";
+onLoadIntroTime = false;
+
+MinScore = 1000
+AvgScore = 2000
+MaxScore = 3000
+
+Debriefing = 1
+
+ShowWatch = 1
+
+ShowCompass = 0
+
+ShowNotepad = 1
+
+ShowGPS = 0
+
+ShowMap = 1
+
+
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class m06v01
+	{
+		name = "m06v01";
+		sound[] = {"m06v01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m06v01};
+	};
+};
+
+
+class CfgRadio
+{
+	sounds[] = { };
+
+	class m06r01
+	{
+		name = "m06r01";
+		sound[] = {"m06r01.ogg", db+10, 1.00};
+		title = $STRM_m06r01;
+	};
+	class m06r02
+	{
+		name = "m06r02";
+		sound[] = {"m06r02.ogg", db+10, 1.00};
+		title = $STRM_m06r02;
+	};
+	class m06r03
+	{
+		name = "m06r03";
+		sound[] = {"m06r03.ogg", db+10, 1.00};
+		title = $STRM_m06r03;
+	};
+	class m06r04
+	{
+		name = "m06r04";
+		sound[] = {"m06r04.ogg", db+10, 1.00};
+		title = $STRM_m06r04;
+	};
+	class m06r05
+	{
+		name = "m06r05";
+		sound[] = {"m06r05.ogg", db+10, 1.00};
+		title = $STRM_m06r05;
+	};
+	class m06r06
+	{
+		name = "m06r06";
+		sound[] = {"m06r06.ogg", db+10, 1.00};
+		title = $STRM_m06r06;
+	};
+	class m06r07
+	{
+		name = "m06r07";
+		sound[] = {"m06r07.ogg", db+10, 1.00};
+		title = $STRM_m06r07;
+	};
+	class m06r08
+	{
+		name = "m06r08";
+		sound[] = {"m06r08.ogg", db+10, 1.00};
+		title = $STRM_m06r08;
+	};
+	class m06r09
+	{
+		name = "m06r09";
+		sound[] = {"m06r09.ogg", db+10, 1.00};
+		title = $STRM_m06r09;
+	};
+	class m06r10
+	{
+		name = "m06r10";
+		sound[] = {"m06r10.ogg", db+10, 1.00};
+		title = $STRM_m06r10;
+	};
+	class m06r11
+	{
+		name = "m06r11";
+		sound[] = {"m06r11.ogg", db+10, 1.00};
+		title = $STRM_m06r11;
+	};
+};

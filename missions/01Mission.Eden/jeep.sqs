@@ -1,0 +1,5 @@
+hrac addrating 100
+setacctime 1
+voj8 say "m01v16"
+
+exit

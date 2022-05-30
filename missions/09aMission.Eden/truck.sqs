@@ -1,0 +1,15 @@
+setacctime 1
+
+player1 say "m09av16"
+
+@GoToDrink
+
+player1 say "m09vodka5"
+
+~3
+
+r7 say "m09vodka6"
+r7 move getmarkerpos "r7"
+r7 setspeedmode "limited"
+
+exit

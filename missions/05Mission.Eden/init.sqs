@@ -1,0 +1,34 @@
+steve say "m05v18"
+"3" objstatus "hidden"
+titleCut ["","BLACK IN",3]
+
+james setmimic "normal"
+
+invaze=false
+away1=true
+away2=true
+away3=true
+away4=false
+away5=false
+splneno=false
+danger=false
+papa=[West, "HQ"]
+killit=true
+
+ClearWeaponCargo ammo
+ClearMagazineCargo ammo
+ClearWeaponCargo bonus
+ClearMagazineCargo bonus
+ammo AddWeaponCargo ["NVGoggles",1]
+ammo AddMagazineCargo ["AK47",1]
+ammo AddWeaponCargo ["AK47",1]
+bonus AddMagazineCargo ["AK47",2]
+bonus AddMagazineCargo ["RPGLauncher",3]
+bonus AddWeaponCargo ["RPGLauncher",1]
+
+
+~5
+
+hrac say "m05v19"
+
+exit

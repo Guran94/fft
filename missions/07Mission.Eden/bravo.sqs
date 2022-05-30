@@ -1,0 +1,12 @@
+setacctime 1
+"1" objstatus "done"
+hrac addrating 1000
+bravo sideradio "m07r02"
+
+~3
+
+savegame
+
+serza say "m07v02"
+
+exit

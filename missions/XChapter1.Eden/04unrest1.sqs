@@ -1,0 +1,213 @@
+titleCut ["","BLACK IN",2]
+2 fadesound 1
+2 fademusic 0.5
+playmusic "rtrack9"
+
+skiptime 3
+go4=true
+
+hugo setmimic "angry"
+civ1 setmimic "angry"
+civ2 setmimic "angry"
+civ3 setmimic "angry"
+civ4 setmimic "angry"
+civ5 setmimic "angry"
+
+hugo switchmove "FxShow4"
+civ1 switchmove "FXNewcivil"
+civ2 switchmove "FXCivilFoldOnesArms"
+civ3 switchmove "FXCivilArmsAkimboR"
+civ4 switchmove "fxtohand"
+civ5 switchmove "effectstandtalk"
+
+riot=true
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;street
+
+;=== 19:29:11
+_camera camSetTarget [87614.47,58421.41,-14806.90]
+_camera camSetPos [5055.53,3977.42,8.43]
+_camera camSetFOV 0.437
+_camera camCommit 0
+@camCommitted _camera
+;=== 19:29:33
+_camera camSetTarget [83022.75,65612.79,-11043.50]
+_camera camSetPos [5050.93,3983.94,2.32]
+_camera camSetFOV 0.528
+_camera camCommit 10
+@camCommitted _camera
+
+~2
+
+;hugo
+
+;=== 14:55:03
+_camera camSetTarget [62050.77,85168.52,-12689.59]
+_camera camSetPos [5059.91,3985.69,1.60]
+_camera camSetFOV 0.451
+_camera camCommit 0
+@camCommitted _camera
+;=== 14:55:41
+_camera camSetTarget [-18138.95,101255.13,-816.03]
+_camera camSetPos [5060.97,3987.07,1.60]
+_camera camSetFOV 0.451
+_camera camCommit 4
+@camCommitted _camera
+;=== 14:55:57
+_camera camSetTarget [-93295.84,21990.39,-1357.24]
+_camera camSetPos [5061.14,3989.73,1.60]
+_camera camSetFOV 0.451
+_camera camCommit 4
+@camCommitted _camera
+
+~2
+
+2 fadesound 0
+2 fademusic 0.2
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+attack=true
+
+playsound "xc1v18"
+
+~13
+
+2 fadesound 1
+2 fademusic 0.5
+
+titleCut ["","BLACK IN",2]
+
+;m113
+
+;=== 19:40:24
+_camera camSetTarget trans
+_camera camSetPos [5099.05,3891.97,1.50]
+_camera camSetFOV 0.505
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+;disembark
+
+voice1=true
+
+;=== 20:18:11
+_camera camSetTarget [-89378.11,-17629.75,-24636.62]
+_camera camSetPos [5113.72,3900.64,3.31]
+_camera camSetFOV 0.395
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 20:18:24
+_camera camSetTarget [-87655.08,-29174.10,-17303.26]
+_camera camSetPos [5112.86,3904.03,3.31]
+_camera camSetFOV 0.395
+_camera camCommit 8
+
+~7
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+@camCommitted _camera
+hugo switchmove ""
+civ4 switchmove ""
+civ1 switchmove ""
+
+attacker1 setpos getmarkerpos "attacker1"
+attacker2 setpos getmarkerpos "attacker2"
+attacker3 setpos getmarkerpos "attacker3"
+attacker4 setpos getmarkerpos "attacker4"
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+voice2=true
+deletevehicle trans
+
+;attack
+
+;=== 19:58:33
+_camera camSetTarget [-14582.10,101546.88,-9291.94]
+_camera camSetPos [5084.12,3943.42,1.14]
+_camera camSetFOV 0.605
+_camera camCommit 0
+@camCommitted _camera
+;=== 19:58:56
+_camera camSetTarget [-40360.09,92880.57,-5067.00]
+_camera camSetPos [5084.23,3947.99,1.14]
+_camera camSetFOV 0.605
+_camera camCommit 4
+@camCommitted _camera
+
+
+;hugo shows
+
+hugo dowatch [5084.12,3943.42,1.14]
+
+;=== 14:57:08
+_camera camSetTarget [-52487.97,-76796.66,-12687.43]
+_camera camSetPos [5061.00,3991.85,1.60]
+_camera camSetFOV 0.632
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 14:57:18
+_camera camSetTarget [32413.84,-91352.28,-12687.58]
+_camera camSetPos [5060.07,3991.50,1.60]
+_camera camSetFOV 0.632
+_camera camCommit 4
+
+~2
+
+hugo playmove "fxshow3"
+
+~2
+
+@camCommitted _camera
+;done
+
+voice3=true
+
+;=== 20:00:05
+_camera camSetTarget [-76357.35,47010.65,-38905.71]
+_camera camSetPos [5083.87,3975.50,8.71]
+_camera camSetFOV 0.342
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:00:50
+_camera camSetTarget [-91954.19,-5820.74,-22039.49]
+_camera camSetPos [5087.24,3992.30,8.71]
+_camera camSetFOV 0.246
+_camera camCommit 8
+
+~6
+
+
+2 fadesound 0
+2 fademusic 0.2
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+@camCommitted _camera
+playsound "xc1v19"
+
+~19
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+[] exec "05training3.sqs"
+
+exit

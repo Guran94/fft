@@ -1,0 +1,473 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"Ch47D"
+	};
+	addOnsAuto[]=
+	{
+		"Ch47D"
+	};
+	randomSeed=13917699;
+	class Intel
+	{
+		startWeather=0.700000;
+		startFog=0.200000;
+		month=11;
+		day=29;
+		hour=6;
+		minute=40;
+	};
+	class Groups
+	{
+		items=11;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={5311.293457,19.894043,9759.364258};
+					id=0;
+					side="WEST";
+					vehicle="SoldierWMG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.533333;
+					text="serza";
+					init="this moveincargo car";
+				};
+				class Item1
+				{
+					position[]={5308.297363,19.955135,9757.561523};
+					id=3;
+					side="WEST";
+					vehicle="SoldierWB";
+					rank="CORPORAL";
+					skill=0.333333;
+					init="this moveincargo car";
+				};
+				class Item2
+				{
+					position[]={5311.532715,19.921247,9757.561523};
+					id=4;
+					side="WEST";
+					vehicle="SoldierWB";
+					rank="CORPORAL";
+					skill=0.333333;
+					init="this moveincargo car";
+				};
+				class Item3
+				{
+					position[]={5314.417969,19.899908,9757.303711};
+					id=5;
+					side="WEST";
+					vehicle="SoldierWB";
+					rank="CORPORAL";
+					skill=0.333333;
+					init="this moveincargo car";
+				};
+				class Item4
+				{
+					position[]={5308.384277,19.994583,9755.112305};
+					id=6;
+					side="WEST";
+					vehicle="SoldierWB";
+					player="PLAYER COMMANDER";
+					rank="CORPORAL";
+					skill=0.333333;
+					init="this moveincargo car; [] exec ""photo.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5295.490234,20.543613,9733.651367};
+					id=1;
+					side="WEST";
+					vehicle="SoldierWG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.761146;
+					text="hrac";
+					init="this setidentity ""player1""; this moveindriver car";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5352.222168,19.394999,9964.889648};
+					speed="FULL";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4852.423828,24.660000,10974.183594};
+					id=7;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.333333;
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4840.566895,24.660000,10987.864258};
+					azimut=180.000000;
+					id=8;
+					side="WEST";
+					vehicle="Ch47D";
+					leader=1;
+					skill=0.600000;
+					text="chinook";
+					init="group this setgroupid [""Charlie"",""GROUPCOLOR0""]; this flyinheight 500";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4295.022949,16.010794,10476.904297};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4802.381836,24.660000,10987.299805};
+					azimut=180.000000;
+					id=9;
+					side="WEST";
+					vehicle="Ch47D";
+					leader=1;
+					lock="LOCKED";
+					skill=0.600000;
+					text="chinook2";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={4840.595703,24.660000,10971.502930};
+					id=12;
+					side="WEST";
+					vehicle="SoldierWB";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.466667;
+					init="""_x moveincargo chinook"" foreach units group this";
+				};
+				class Item1
+				{
+					position[]={4843.595703,24.660000,10966.502930};
+					id=13;
+					side="WEST";
+					vehicle="SoldierWMG";
+					rank="CORPORAL";
+					skill=0.333333;
+				};
+				class Item2
+				{
+					position[]={4845.595703,24.660000,10966.502930};
+					id=14;
+					side="WEST";
+					vehicle="SoldierWG";
+					rank="CORPORAL";
+					skill=0.333333;
+				};
+				class Item3
+				{
+					position[]={4847.595703,24.660000,10966.502930};
+					id=15;
+					side="WEST";
+					vehicle="SoldierWG";
+					rank="CORPORAL";
+					skill=0.333333;
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4803.020508,24.660000,10950.839844};
+					azimut=180.000000;
+					id=16;
+					side="WEST";
+					vehicle="Ch47D";
+					leader=1;
+					lock="LOCKED";
+					skill=0.600000;
+					text="chinook2_1";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4840.236816,24.660000,10950.803711};
+					azimut=180.000000;
+					id=18;
+					side="WEST";
+					vehicle="Ch47D";
+					leader=1;
+					lock="LOCKED";
+					skill=0.600000;
+					text="chinook2_2";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={4802.097656,24.660000,10959.226563};
+					azimut=95.000000;
+					id=20;
+					side="WEST";
+					vehicle="SoldierWB";
+					leader=1;
+					skill=0.600000;
+				};
+				class Item1
+				{
+					position[]={4801.479492,24.660000,10960.196289};
+					azimut=95.000000;
+					id=21;
+					side="WEST";
+					vehicle="SoldierWB";
+					skill=0.600000;
+				};
+				class Item2
+				{
+					position[]={4801.685547,24.660000,10958.081055};
+					azimut=95.000000;
+					id=22;
+					side="WEST";
+					vehicle="SoldierWB";
+					skill=0.600000;
+				};
+			};
+			class Waypoints
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4843.531738,24.660000,10958.747070};
+					combatMode="RED";
+					formation="COLUMN";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={4801.266113,24.660000,10959.144531};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4821.158203,24.660000,11024.342773};
+					azimut=180.000000;
+					id=23;
+					side="WEST";
+					vehicle="Ch47D";
+					leader=1;
+					lock="LOCKED";
+					skill=0.600000;
+					text="chinook2_1_1";
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4802.327637,24.660000,11024.268555};
+					azimut=180.000000;
+					id=25;
+					side="WEST";
+					vehicle="Ch47D";
+					leader=1;
+					lock="LOCKED";
+					skill=0.600000;
+					text="chinook2_1_2";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=7;
+		class Item0
+		{
+			position[]={5297.178711,20.327789,9743.558594};
+			azimut=35.000000;
+			id=2;
+			side="EMPTY";
+			vehicle="Truck5t";
+			leader=1;
+			skill=0.600000;
+			text="car";
+		};
+		class Item1
+		{
+			position[]={4802.289551,24.660000,10987.265625};
+			id=10;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.600000;
+		};
+		class Item2
+		{
+			position[]={4840.525391,24.660000,10987.848633};
+			id=11;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.600000;
+		};
+		class Item3
+		{
+			position[]={4802.928223,24.660000,10950.805664};
+			id=17;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.600000;
+		};
+		class Item4
+		{
+			position[]={4840.144531,24.660000,10950.769531};
+			id=19;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.600000;
+		};
+		class Item5
+		{
+			position[]={4821.065918,24.660000,11024.308594};
+			id=24;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.600000;
+		};
+		class Item6
+		{
+			position[]={4802.235352,24.660000,11024.234375};
+			id=26;
+			side="EMPTY";
+			vehicle="HeliH";
+			skill=0.600000;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={5307.311523,20.084305,9750.188477};
+			name="start";
+			text="@STRCM_01";
+			type="Start";
+			colorName="ColorGreen";
+			angle=15.000000;
+		};
+	};
+};
+class Intro
+{
+	randomSeed=3673091;
+	class Intel
+	{
+	};
+};
+class OutroWin
+{
+	randomSeed=15071235;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=13293059;
+	class Intel
+	{
+	};
+};

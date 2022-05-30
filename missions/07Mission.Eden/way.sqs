@@ -1,0 +1,15 @@
+hrac say "m07v09"
+dal=true
+mi1 setfuel 1
+mi2 setfuel 1
+
+~8
+
+"3" objstatus "active"
+"montignac" setmarkertype "flag1"
+
+~3
+
+savegame
+
+exit

@@ -1,0 +1,13 @@
+setacctime 1
+
+jason addrating -1000
+jason removemagazine "ak74"
+jason removemagazine "ak74"
+
+off1 say "m09bv15"
+
+~5
+
+end2=true
+
+exit

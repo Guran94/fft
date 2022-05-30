@@ -1,0 +1,94 @@
+setacctime 1
+playmusic "track14"
+enableradio false
+ural lock true
+player1 setmimic "scared"
+rashiv setmimic "normal"
+player1 setcaptive true
+pri1 setcaptive true
+pri2 setcaptive true
+pri3 setcaptive true
+ClearWeaponCargo ural
+ClearMagazineCargo ural
+ClearWeaponCargo ammo
+ClearMagazineCargo ammo
+ammo AddWeaponCargo ["pk",1]
+ammo AddMagazineCargo ["pk",2]
+enableradio false
+g1 disableai "autotarget"
+g2 disableai "autotarget"
+g1 dowatch objnull
+g2 dowatch objnull
+away=false
+search=false
+
+
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+titleCut ["","BLACK IN",3]
+
+;base
+;=== 21:01:24
+_camera camSetTarget [105874.35,-8689.31,54.81]
+_camera camSetPos [7123.76,7068.87,2.80]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:01:36
+_camera camSetTarget [50814.25,-82881.90,54.78]
+_camera camSetPos [7123.76,7068.87,2.80]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+
+~4
+
+[_camera,ural,[180,3.7,2.3],ural,[0,5,1.5],0.7] exec "logiccam.sqs"
+
+~5
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;guard
+;=== 21:04:03
+_camera camSetTarget [-75497.55,61658.30,-11561.28]
+_camera camSetPos [7301.84,6797.05,6.96]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+titleCut ["","BLACK OUT",1]
+
+~2
+
+titleCut ["","BLACK IN",1]
+
+;flag
+;=== 21:39:45
+_camera camSetTarget [43371.16,100019.30,31.57]
+_camera camSetPos [7250.98,6770.98,6.31]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:40:36
+_camera camSetTarget [2367.45,106297.56,-8358.54]
+_camera camSetPos [7253.34,6770.36,6.31]
+_camera camSetFOV 0.700
+_camera camCommit 7
+@camCommitted _camera
+
+#skip
+
+[] exec "interview.sqs"
+
+exit

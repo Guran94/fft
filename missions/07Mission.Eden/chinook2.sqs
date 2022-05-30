@@ -1,0 +1,25 @@
+setacctime 1
+hrac addrating 500
+nomontignac=true
+
+sol1 say "m07v10"
+
+~1
+
+[sol1, sol2] join hrac
+hrac say "m07v11"
+
+~4
+
+sol1 say "m07v12"
+
+~4
+
+"montignac" setmarkertype "flag1"
+hrac say "m07v13"
+
+~5
+
+savegame
+
+exit

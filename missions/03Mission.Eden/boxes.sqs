@@ -1,0 +1,6 @@
+setacctime 1
+
+leader player groupradio "m03r08"
+counting=true
+
+exit

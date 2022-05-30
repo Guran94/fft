@@ -1,0 +1,38 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_INTRO,The war has begun,Válka začala,loading screen
+STRM_ONLOAD_MISSION,Montignac HQ,Hlavní základna Montignac,loading screen
+
+
+STRM_m02v01,"Twombly, can't you just fuck off with that?","Ty vole, Twombly, to ses nemoh vyblejt ven, do prdele?",mike
+STRM_m02v02,"Fuck you, Mike!","Jdi do prdele, Mike!",jason
+STRM_m02v03,"Stay calm, Mike. Worse would be if he pissed and shit himself.","Buď v klidu, Miku. Horší by bylo, kdyby se pochcal a posral.",jack
+STRM_m02v04,"You can fuck me too, Jack!","Můžeš mi políbit prdel, Jacku!",jason
+STRM_m02v05,"Dude, we're just teasing you. Did we hurt your feelings, dumb ass?","Kámo, my si z tebe jen děláme prdel. Nezranili jsme náhodou tvé pocity, chudáčku?",mike
+STRM_m02v06,"You're a fucking Bolshevik, Twombly.\nAren't you a Russian agent? Didn't you trigger the rebellion?","Seš zasranej, zkurvenej Bolševik, Twombly.\nNejseš ty náhodou ruskej agent? Nevyvolal jsi náhodou to povstání ty?",jack
+STRM_m02v07,"Fuck you both, assholes!","Jděte do hajzlu, oba dva!",jason
+STRM_m02v08,"Hey, hey, can't you stop now? We've got an important mission here and you waste time arguing?\nDo you want to fight rebels or among yourselves?","Hej! Copak, kdybyste už toho nechali!\nMáme tady důležitou misi a vy řešíte takový píčoviny?!\nChcete bojovat s rebely nebo samy se sebou?",muday
+STRM_m02v09,I hear somebody's fuckin' anybodyup here and you're gonna suck my dick toothless.\nAnd I don't care whichever of you assholes I'd be fucking. Understood?,"Ještě jednou uslyšim, že se tady někdo do někoho naváží a všichni mi budete kouřit péro bezzubí.\nA je mi u prdele, kdo z vás, kreténů to zaviní. Rozumíte?",muday
+STRM_m02v10,Well and shut the fuck up already. We're gonna be there in a moment.,Výborně a už držte huby. Za chvíli tam budeme.,muday
+STRM_m02v11,Go! Go! Go!,Jedu! Jedu! Jedu!,muday
+
+STRM_m02bonus1,"Thanks, buddy. You won't need it anymore.",Jedu! Jedu! Jedu!,jason
+
+STRM_m02r01,FUCK. WHAT A MESS. I'LL UNLOAD YOU HERE. I WILL NOT TRY TO GO FURTHER.,"KURVA, TO JE ALE BORDEL. VYSADÍM VÁS TADY. BLÍŽ SI UŽ NETROUFAM.",driver
+STRM_m02r02,"PAPA BEAR, THIS IS ALPHA SQUAD. THE OUTPOST AT BH42 WAS VISITED BY THE REBELS AND EVERYONE WAS KILLED. WE GO FURTHER ACCORDING TO THE PLAN, OVER.","TÁTO MEDVĚDE, TADY DRUŽSTVO ALFA. HLÁSÍM, ŽE KONTROLNÍ STANOVIŠTĚ NA SOUŘADNICÍCH BH42 NAVŠTÍVILI REBELOVÉ A VŠECHNY TU ZABILI. POKRAČUJEM DÁL PODLE PLÁNU, PŘEPÍNÁM.",muday
+STRM_m02r03,"COPY THAT, ALPHA. DON'T GO TOO CLOSE TO THAT FOREST AND BE CAREFUL. REPORT ANY PROBLEMS IMMEDIATELY. PAPA BEAR OUT.","POTVRZUJI, ALFO. ROZHODNĚ SE NEPŘIBLIŽUJTE K TOMU LESU A DÁVEJTE SI POZOR. JAKÉKOLIV NESNÁZE NEZAPOMEŇTE NAHLÁSIT, KONEC.",papa
+STRM_m02r04,"PAPA BEAR, WE CAME TOO LATE. WE OPENED FIRE ON SEVERAL REBELS AT THE DEPOT. I REQUEST NEW ORDERS, OVER.","TÁTO MEDVĚDE, PŘIŠLI JSME POZDĚ. ZAHÁJILI JSME PALBU NA PÁR POVSTALCŮ NACHÁZEJÍCÍ SE VE SKLADIŠTI. ŽÁDÁM O NOVÉ ROZKAZY, PŘEPÍNÁM.",muday
+STRM_m02r05,"COPY THAT, ALPHA. HOLD ON THERE. WE ARE SENDING AN APC FROM LAMENTIN TO YOU AND ABOUT THE DEPOT - BE SURE TO DESTROY THE AMMO. WE DON'T WANT THE REBELS TO HURT THEMSELVES BY OUR WEAPONS.","ROZUMÍM, ALFO. VYDRŽTE TAM. Z LAMENTINU K VÁM POSÍLÁME TRANSPORTÉR A POKUD JDE O TEN SKLAD - TU MUNICI SAMOZŘEJMĚ ZNIČTE. NECHCEME SNAD, ABY SI REBELOVÉ Z NAŠICH ZBRANÍ UBLÍŽILI. TÁTA MEDVĚD, KONEC.",papa
+STRM_m02r06,OK. TWOMBLY LOOK FOR SOME EXPLOSIVES AND BLAST THE AMMO ONCE WE ARE AT A SUFFICIENT DISTANCE.,"TAK JO. TWOMBLY, PODÍVEJTE SE PO NĚJAKÝCH VÝBUŠNINÁCH. AŽ BUDEME DOSTATEČNĚ DALEKO, ODPALTE JE.",muday
+STRM_m02r07,"ALPHA SQUAD, GET ABOARD! WE'VE GOT TO MOVE OUT QUICKLY.","DRUŽSTVO ALFA, NASTUPUJTE! MUSÍME ODSUD RYCHLE VYPADNOUT.",M113
+
+STRM_m02r08,"OK, THAT'S IT. KEEP YOUR SPACING AMONG YOURSELVES AND STAY WITH ME ON THE GROUP FREQUENCY. REPORT EVERYTHING YOU'VE GOT IN YOUR MIND. AN ENEMY CONTACT, INJURY, OR ANY TROUBLES WITH YOUR WEAPON. THAT'S ALL. NOW LET'S SOME RUNNING FOR THE BEGINNING.",Ne,Mmuday
+STRM_m02r09,FUCK. LOOKS LIKE THERE IS NOBODY ALIVE. THOSE MOTHER FUCKERS HAVE EVEN STOLEN SOME AMMO AND THEN DISAPPEARED IN THAT FOREST.,Ne,Mmuday
+STRM_m02r10,"REBELS, TAKE COVER!",BACHA! PARTYZÁNSKÁ HLÍDKA.,muday
+STRM_m02r11,"THEY HAD TO WATCH US OUT OF OUR ARRIVAL. HURRY UP, BOYS! PERHAPS IT'S GONNA BE LATE!",Ne,Mmuday
+STRM_m02r12,"OK. TWOMBLY, BLOW UP THE FUCKING DEPOT!",Ne,Mmuday
+STRM_m02r13,"GREAT. NOW LET'S GET OUT OF HERE.",Ne,Mmuday
+
+
+STRM_m02w1,OUTPOST,KONTROLNÍ STANOVIŠTĚ,waypoint
+STRM_m02w2,AMMO DEPOT,MUNIČNÍ SKLAD,waypoint

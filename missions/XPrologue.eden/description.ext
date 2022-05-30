@@ -1,0 +1,114 @@
+onLoadIntro="$STRM_ONLOAD_INTRO";
+onLoadIntroTime = false;
+
+class RscTitles
+{
+ titles[] = {"fft_logo"};
+
+
+  class fft_logo
+   {
+    idd = -1;
+    movingEnable = 0;
+    duration = 5;
+    fadein = 1;
+    name = "fft_logo";
+    controls[] = {"fft_logo"};
+
+     class fft_logo
+      {
+       type = 0;
+       idc = -1;
+       style = 48;
+       colorBackground[] = {1,1,1,1};
+       text = "fft_logo.jpg";
+       colorText[] = {1,1,1,1};
+       font = "AudreysHandI48";
+       size = 1;
+       x = 0;
+       y = 0.1;
+       w = 1;
+       h = 0.8;
+      };
+  };
+};
+
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class x00v01
+	{
+		name = "x00v01";
+		sound[] = {"x00v01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v01};
+	};
+	class x00v02
+	{
+		name = "x00v02";
+		sound[] = {"x00v02.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_x00v02};
+	};
+	class x00v03
+	{
+		name = "x00v03";
+		sound[] = {"x00v03.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_x00v03};
+	};
+	class x00v04
+	{
+		name = "x00v04";
+		sound[] = {"x00v04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v04};
+	};
+	class x00v05
+	{
+		name = "x00v05";
+		sound[] = {"x00v05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v05};
+	};
+	class x00v06
+	{
+		name = "x00v06";
+		sound[] = {"x00v06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v06, 4,$STRM_x00v06a};
+	};
+	class x00v07
+	{
+		name = "x00v07";
+		sound[] = {"x00v07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v07, 8,$STRM_x00v07a};
+	};
+	class x00v08
+	{
+		name = "x00v08";
+		sound[] = {"x00v08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v08};
+	};
+	class x00v09
+	{
+		name = "x00v09";
+		sound[] = {"x00v09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v09};
+	};
+	class x00v10
+	{
+		name = "x00v10";
+		sound[] = {"x00v10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_x00v10};
+	};
+	class x00v11
+	{
+		name = "x00v11";
+		sound[] = {"x00v11.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_x00v11};
+	};
+};
+

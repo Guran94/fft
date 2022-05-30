@@ -1,0 +1,55 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_INTRO,Base,Na základně,loading screen
+
+STRM_m01h1,Pick up your equipment in the next tent.,Vyzvedněte si své vybavení ve vedlejším stanu.,hint
+STRM_m01h2,"Well done! Now, you can go right to the front of the base and wait for sergeant Muday's squad or you can spend your time just walking around the base.","Výborně! Nyní můžete před základnou počkat na družstvo poručíka Mudayho, nebo se jen tak můžete porozhlédnout kolem.",hint
+STRM_m01h3,Follow the orders of your commander and go through the forest.,Řiďte se rozkazy svého velitele a jděte do lesa.,hint
+
+STRM_m01v01,Chicago 4 base who's calling?,"Základna Chicago 4, kdo volá?",Jason
+STRM_m01v02,"Yes, of course. Everything is alright, sir...","Ano, určitě. Všechno je v pohodě, pane...",Jason
+STRM_m01v03,What today? I thought...,"Co? Už dnes? Vždyť já myslel, že...",Jason
+STRM_m01v04,"Ok, understand, sir... I'll take care of it.","Jo, rozumím, pane... Já se o to postarám.",Jason
+STRM_m01v05,"Sir, yes sir!","Pane, ano, pane!",Jason
+STRM_m01v06,You gotta be fucking kidding me!,"Ty krávo, no to si dělá prdel!",Jason
+STRM_m01v07,Why the fuck are you screaming?,"Co řveš, do píčí?",mike
+STRM_m01v08,"I'll tell you why! I'm going home, Mike!","Řeknu ti proč! Jedu domů, Miku!",Jason
+STRM_m01v09,"Bullshit, asshole, you're going in a month.","Hovno, sráči, vždyť odjíždíš až za měsíc.",mike
+STRM_m01v10,Muday said there is a free place right now.\nHe'll be here in a minute with his squad. We'll pack up and finally get out of here!,"Muday říkal, že se uvolnilo místo.\nPřijede sem za chvíli se svou četou. Pojedem si zabalit a konečně odsud vypadneme!",Jason
+STRM_m01v11,"Shit, you're lucky man. You should wait for him in front of the base.","Kurva, tomu říkám štěstí. Měl bys na něj počkat před základnou.",mike
+
+STRM_m01v12,"You know, Jason, I wanted to break your mouth yet to say goodbye, but fuck it.\nPick up your equipment and finally get out!","Víš, Jasone, chtěl jsem ti ještě rozbít hubu na rozloučenou, ale seru na to.\nVyzvedni si své věci a vypadni už!",mike
+STRM_m01v13,I am going home! Finally! I can wait no longer!,Jede se domů! Konečně! Nmůžu se dočkat!,Jason
+STRM_m01v14,"Hey, Jack, I'm going home!","Hej, Jacku, jedu domů!",Jason
+STRM_m01v15,"Shut up, you Bolshevik mother fucker!","Zavři hubu, ty bolševická kurvo!",jack
+STRM_m01v16,"Hey, don't touch it! It's not for kids!",Hej! Drž se od toho džípu laskavě dál!,jeep
+STRM_m01v17,What do you want here?,Co tu chceš?,tent
+STRM_m01v18,Nothing?,Nic.,Jason
+STRM_m01v19,Then get out!,Tak vypadni!,tent
+
+STRM_m01v20,"Alright, boys, listen up. The day of leaving this island has come.\nSo if anybody wants to say something on the island's address, say it now.","Tak jo, hoši, poslouchejte a dobře. Dnes je den, kdy se rozloučíte s naším protektorátem Everonem,\ntakže pokavaď chcete něco říct na adresu ostrova, tak prosím.",muday
+STRM_m01v21,"OK, the first stop is Montignac.\nYou are going to pack your stuff, then we're going to the airport where captain Wallsh is waiting for us.\nHe'll tell us what to do next. Any questions?","Fajn, takže jako první zastávka bude Montignac.\nSbalíte si svý krámy, pak pojedem na letiště a předám vás kapitánu Wallshovi. Ten vám řekne, co dál.\nNějaké dotazy?",muday
+STRM_m01v22,"When is our flight, sir?","Za jak dlouho odlétáme, pane?",anybody
+STRM_m01v23,"In one and a half hours.\nUntil then, have your tents cleared, luggage packed, gear returned and everything else in its original state.\nIf you screw something up, I guarantee I'll cancel that flight. Understood?","Za hodinu a půl.\nDo té doby ať máte vyklízený stany, sbalený zavazadla, zkrátka všechno v původním stavu.\nKdyž něco poděláte, zaručuju vám, že ten let zruším. Rozumíte?",muday
+STRM_m01v24,Definetely.,Naprosto.,anybody
+STRM_m01v25,"Understood, sir.","Rozumíme, pane.",anybody
+
+STRM_m01v26,"Look, those guys didn't look like hunters, did they?","Hele, támhhleti maníci nevypadali na myslivce, že ne?",anybody
+STRM_m01v27,"No, soldier, I saw them too. Driver, halt! We saw some guys with guns in that forest.\nLet's have a look.","Ne, vojáku, já je taky viděl. Řidiči, zatavte, v tom lese jsme viděli chlapa s puškou.\nPůjdem se na to podívat.",muday
+STRM_m01v28,No! Not now!,Ne! Teď ne!,jason
+STRM_m01v29,"Shut up, Twombly! Get your ass up! Keep your eyes peeled. Hopefully, it's no trouble.","Ticho, Twombly! Pohni prdelí! Mějte oči na stopkách, snad to není nějakej průser.",muday
+
+
+STRM_m01r01,"COME ON, YOU RUSSIAN FUCKER, GET IN!","TAK POHYB, TY RUSKÁ KURVO, NASTUP SI!",muday
+STRM_m01r02,"PAPA BEAR, THIS IS ALPHA SQUAD. AT FD45 WE HAVE SEEN SOME FUCKERS IN COMBAT RAGS AND RIFLES. WE ARE GOING TO SEARCH THE FOREST SOUTH FROM US, OVER.","TÁTO MEDVĚDE, TADY DRUŽSTVO ALFA. NA SOUŘADNICÍCH FD45 JSME VIDĚLI TLUPU NĚJAKÝCH ZMRDŮ V BOJOVÝCH HADRECH A S PUŠKAMA V RUCE. JDEME PROHLEDAT LES JIŽNĚ OD NÁS, PŘEPÍNÁM.",muday
+STRM_m01r03,"WHAT, ALPHA? PERHAPS IT'S NOTHING. WE'RE SENDING A BLACKHAWK TO YOU AND BRAVO SQUAD FROM THE NORTH. OUT.","COŽE, ALFO? SNAD Z TOHO NIC NEBUDE. POSÍLÁME VÁM TAM PRŮZKUMNÝ VRTULNÍK. DRUŽSTVO BRAVO JE OD VÁS NEDALEKO, PROHLEDÁ LES OD JIHU. DEJTE SI POZOR, KONEC.",papa
+STRM_m01r04,"PAPA BEAR, REPORTING CONTACT! A SQUAD OF UNIDENTIFIED FUCKERS IN FRONT OF US, OVER!","TÁTO MEDVĚDE, HLÁSÍM KONTAKT! SKUPINA NEIDENTIFIKOVANÝCH ZMRDŮ PŘÍMO PŘED NÁMA, PŘEPÍNÁM.",muday
+STRM_m01r05,"PAPA BEAR, WE ARE UNDER HEAVY FIRE FROM THE FOREST IN DURRAS. TELL US WHAT THE FUCK IS GOING ON?","TÁTO MEDVĚDE, V DURRASU JSME POD TĚŽKOU PALBOU Z LESA! ŘEKNETE NÁM, CO TO MÁ ZNAMENAT?",Durras
+STRM_m01r06,THIS IS MORTON. SOMEONE IS SHELLING US WITH GRENADES. WHAT'S HAPPENING?,TADY MORTON. NĚKDO NÁS TADY KROPÍ GRANÁTOMETY. CO SE DĚJE?,Morton
+STRM_m01r07,"SHIT. IT LOOKS LIKE WE ARE UNDER ATTACK. PAPA BEAR TO ALL UNITS. CODE RED, I SAY AGAIN, CODE RED! SEVERAL REBEL CONTACTS HAVE BEEN REPORTED. ALL UNITS ARE TO WITHDRAW TO THE TOWNS IMMEDIATELY AND HOLD UP THERE. PAPA BEAR OUT.","DO HAJLU. TO VYPADÁ, ŽE JSME POD ÚTOKEM. VŠEM JEDNOTKÁM, TADY TÁTA MEDVĚD. ČERVENÝ KÓD, OPAKUJI ČERVENÝ KÓD! BYLO HLÁŠENO NĚKOLIK KONTAKTŮ SE VZBOUŘENCI. VŠICHNI SE OKAMŽITĚ STÁHNĚTE DO MĚST A VESNIC. VYPADÁ TO, ŽE TU MÁME VZPOURU. TÁTA papa, KONEC.",papa
+STRM_m01r08,ALPHA AND BRAVO IT DOESN'T APPLY TO YOU. COMPLETE YOUR TASK AND THEN REPORT. OUT.,"ALFO A BRAVO, PRO VÁS TO VŠAK NEPLATÍ. VY DODĚLEJTE SVOU MISI A PAK SE OHLAŠTE. KONEC.",papa
+STRM_m01r09,"PAPA BEAR, ALPHA SQUAD'S REPORTING STATUS. WE WENT THROUGH THE FOREST AND SENT SEVERAL OF THOSE FUCKERS TO THE AFTERLIFE, BUT WE'RE NOT SURE IF THE AREA IS CLEAR. WE'RE WAITING FOR ORDERS, OUT.","TÁTO MEDVĚDE, HLÁSÍ SE DRUŽSTVO ALFA. PROŠLI JSME LESEM A PÁR TĚCH ŠMEJDŮ POSLALI NA ONEN SVĚT, ALE NENÍ JISTÉ, JESTLI JE OBLAST ČISTÁ. ČEKÁME NA DALŠÍ ROZKAZY, KONEC.",muday
+
+STRM_m01away1,"TWOMBLY, WHERE THE FUCK ARE YOU? YOU SHOULD WAIT FOR ME, SHOULDN'T YOU? GET IMMEDIATELY BACK HERE!","TWOMBLY, KDE JSTE, DO PRDELE? MĚL JSTE TU SNAD NA MĚ ČEKAT, NE? OKAMŽITĚ SE VRAŤTE ZPÁTKY, NEBO NEJEDETE NIKAM!",muday
+
+STRM_m01w1,WAIT FOR YOUR COMMANDER,POČKEJTE NA VELITELE,waypoint

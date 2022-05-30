@@ -1,0 +1,12 @@
+vporadku=false
+odpocet=true
+hrac addrating -1000
+serza sideradio "m01away1"
+setacctime 1
+
+~20
+
+@odpocet
+konec2=true
+
+exit

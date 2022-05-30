@@ -1,0 +1,134 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+titleCut ["","BLACK IN",1]
+
+com switchMove "FXSitHandsOnTable"
+twom switchMove "FXSitHandsOnTable"
+lem switchMove "onChair"
+g1 switchmove "FXStandAtt"
+g2 switchmove "FXStandAtt"
+twom setmimic "normal"
+lem setmimic "smile"
+g1 stop true
+g2 stop true
+
+;inside
+;=== 23:10:34
+_camera camSetTarget [-77976.41,57838.28,-11284.06]
+_camera camSetPos [7246.61,6759.98,1.89]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 23:10:55
+_camera camSetTarget [-91826.02,14217.57,-11283.53]
+_camera camSetPos [7252.08,6759.15,1.80]
+_camera camSetFOV 0.700
+_camera camCommit 5
+
+~3
+
+lem say "x00v05"
+
+~1
+
+@camCommitted _camera
+
+~2
+
+;jason
+;=== 23:12:04
+_camera camSetTarget [-50770.88,86260.66,-17654.21]
+_camera camSetPos [7251.40,6758.27,1.80]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 23:12:44
+_camera camSetTarget [-28730.35,98368.40,-17654.14]
+_camera camSetPos [7251.01,6757.50,1.77]
+_camera camSetFOV 0.700
+_camera camCommit 8
+
+~4
+
+lem say "x00v06"
+
+~4
+
+@camCommitted _camera
+
+;lemontov
+;=== 23:13:05
+_camera camSetTarget [-55765.50,-66445.70,-25849.82]
+_camera camSetPos [7251.18,6759.89,1.77]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~6
+
+;jason
+;=== 23:17:47
+_camera camSetTarget [-39170.82,94996.15,-7664.33]
+_camera camSetPos [7250.73,6758.89,1.58]
+_camera camSetFOV 0.418
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+twom say "x00v07"
+twom setmimic "angry"
+
+~3
+
+;jason
+;=== 23:12:04
+_camera camSetTarget [-50770.88,86260.66,-17654.21]
+_camera camSetPos [7251.40,6758.27,1.80]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 23:12:44
+_camera camSetTarget [-28730.35,98368.40,-17654.14]
+_camera camSetPos [7251.01,6757.50,1.77]
+_camera camSetFOV 0.700
+_camera camCommit 10
+@camCommitted _camera
+
+;lemontov
+;=== 23:13:05
+_camera camSetTarget [-55765.50,-66445.70,-25849.82]
+_camera camSetPos [7251.18,6759.89,1.77]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+twom setmimic "surprised"
+lem say "x00v08"
+
+~3
+
+;jason
+;=== 23:17:47
+_camera camSetTarget [-39170.82,94996.15,-7664.33]
+_camera camSetPos [7250.73,6758.89,1.58]
+_camera camSetFOV 0.418
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+go2=true
+titleCut ["","BLACK OUT",1]
+
+~1
+
+titletext [ localize "","plain"]
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+[] exec "intro5.sqs"
+
+exit

@@ -1,0 +1,118 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_INTRO,Malden,Malden,loading screen
+STRM_ONLOAD_MISSION,,,loading screen
+
+
+STRM_M10v01,"After I identificated to my friendly units, I really began to believe, that army has already ended for me.","ne",jason
+STRM_M10v02,"Although I missed.","ne",jason
+
+STRM_M10v02,"Impresive story, Twombly... indeed.","Dojemný příběh, Twombly... vskutku dojemný.",muday
+STRM_M10v03,"Yes, sir. It was really black day, but at last it was succeeded. I just look forward to go home, sir.","Ano, pane. Byla to síla, ale nakonec jsem se z ostrova dostal, no a zbytek už znáte.\nNemůžu se ale dočkat, až si po tom všem doma odpočinu.",jason
+STRM_M10v04,"Home? Have you said something about home, soldier?","Doma? Říkal jste snad něco o domově, vojáku?",muday
+STRM_M10v05,"Ehm... yes, sir. Colonel Summers actually said, everz soldier returns from Everon will be sending home...","Ehm... ano, pane. Vždyť plukovník Summers říkal, že...",jason
+STRM_M10v06,"Soldier, if you've not noticed the situation is getting worse this time.\nIt might happen, that the Russians are going to attack. That's why the new regulations are clear!\nStay on Malden!","Vojáku, pokud jste si nevšiml, tak situace poslední dobou nevypadá dobře.\nHrozí, že Rusové zaútočí. Proto jsou nová nařízení od nejvyžšího velení jasná!\nZůstat na Maldenu!",muday
+STRM_M10v07,"But sir, you can't be serious, fuck, goddamnit!","Ale pane, to snad nemyslíte vážně, do prdele, vždyť...",jason
+STRM_M10v08,"What? What did you say? This is as you talk to me? Are you fucking madness, soldier?","Cože? Co jste to řekl? To jako mluvíte se mnou? Zešílel jste, vojáku!?\nChcete jít před soud, nebo co!?",muday
+STRM_M10v09,"No, sir, I... I'm sorry, I didn't compose myself...","Ne, pane, já... promiňte, pane, neovlád jsem se, já...",jason
+STRM_M10v10,Soldier. Follow me.,Vojáku. Pojďte se mnou.,muday
+
+STRM_M10v11,Take of your trousers!,Kalhoty dolů!,muday
+STRM_M10v12,"Ehm... what, please?",Ehm... prosím?,jason
+STRM_M10v13,"I said, the trousers down! Now! Come the fuck on!","Řekl jsem kalhoty dolů! Hned! Dělej, do prdele!",muday
+
+
+STRM_M10v14,"After almost four weeks, that the U. S. Army withdrew from Everon to Malden,\nthe peace negotiation among the United States and the Soviet Union are still in the freez point.","Po necelých čtyřech týdnech, co se 61. pluk US. Army stáhl z Everonu na Malden,\njsou mírová jednání mezi Spojenými státy a Sovětským svazem stále na bodu mrazu.",radio
+STRM_M10v15,"Both sides blame together themselves and it seems, that the final verdict we won't know long time yet.","Obě strany na sebe ukazují prsty a vypadá to, že verdikt nebude znám ještě hodně dlouho.",radio
+
+STRM_M10v16,"Now there is a totality reign on Everon. It seems, that folks are very sutisfied with current Everon government and after two years of American reign the whole island is in piece.","",radio
+STRM_M10v17,"The Soviet Union celebrates a great victory, meanwhile America and all democratic side frets. But the question in this case is - can we await the third world war?","",radio
+STRM_M10v18,"The American president Ronald Reagan counts with that variant of infamy, that sounds, if the Soviet troops invade NATO on Malden, America would haven't any choice to fight back.","Americký prezident Ronald Reagan však počítá s tím, že pokud Rudá armáda napadne vojáky NATO na Maldenu,\nbude světová a tím pádem i studená válka za dveřmi.",radio
+
+STRM_M10v19,,A co si o současné světové situaci myslí samotný představitel sovětského politbyra Leonid Brežněv? To se dozvíte za...,radio
+
+STRM_M10v20,Stop that! Turn the fucking box off!,Dost už! Vypněte někdo tu píčovinu!,jack
+STRM_M10v21,"What's the tone, Jack? Are you scared of the uncoming Russians to kick your ass?","Co ten tón, Jacku? Bojíš se, že sem Rusáci přijdou a ustřelej ti prdel?",mike
+STRM_M10v22,"Shut te fuck up! Don't talk about those mutherfuckers.\nThey killed my best friend. He got it to the neck.\nHe was just 19 yeas old, we knew each other from the high school.","Drž hubu, kurva! Nemluv mi o těch sviních!\nZabili mého nejlepšího přítele. Střelili ho do krku. Bylo mu teprve 19 let, znali jsme se od střední.",jack
+STRM_M10v23,"Right, asshole. I had to fight for the ticket from Everon unlike you! When the fuckers have shot down our Chinnook,\nI swimed 10 milles away, than allied cruiser has found me and got me here on Malden.","Jasně, vole. Já narozdíl od tebe jsem musel jízdenku z Everonu vybojovat! Když ty kurvy sestelili náš Chinook, musel jsem plavat deset mil, než mě našel spojenecký křížník a dopravil sem na Malden.",mike
+STRM_M10v24,"Yeah. if you could russian like comrade Twombly right here,\nyou you would just take a boat and arrive in here by yourself.\nDoesn't he, Jason?","No, jo, kdybys uměl rusky, jako tady soundruh Twombly, tak by ti stačilo vzít si člun a dopravit se sem sám.\nNemám pravdu, Jasone?",jack
+STRM_M10v25,"Yeah, that's right, Jack.","Jo, to máš, Jacku.",jason
+STRM_M10v26,"You are champion,\nhowever I'm surprised you watch on patrols and aren't inside somewhere in the HQ tent.","Seš borec, ale divim se, že radši po nocích stepuješ na hlídkách a nejsi zalezlej někde ve velitelskym stanu.",mike
+STRM_M10v27,The big brother Muday...,Velký Bratr Muday...,jason
+STRM_M10v28,"That muther fucker has picked on you, doesn't he?","Ten zmrd si na tebe zasednul, co?",jack
+STRM_M10v29,"Picked on? He was fucking Jason to his fucking ass, you asshole!","Zasednul? Ty debile, vždyť Jasona píchal do prdele!",mike
+STRM_M10v30,What! Are you fucking kiding? He's gay?,"Cože? Hej, děláš si prdel? On je homokládal?",jack
+STRM_M10v31,"Yeah... unfortunate, even from a bugger can be lietenant.","Jo... holt, i z buzeranta se může stát poručík.",jason
+STRM_M10v32,Have you told with Summers?,Říkals to Summersovi?,jack
+STRM_M10v33,"Are you stupid? He would kill me, you asshole!\nEven through I had to disagree my promotion on a commander.","Ses posral, ne? To by mě ten buzerant zabil, vole!\nUž jsem kvůli tomu musel odmítnout i povýšení na velitele!",jason
+STRM_M10v34,What? Really?,Co? Fakt?,jack
+STRM_M10v35,"Summers offered it to him,\nhowever, Muday threatened if he accepts that offer, he'd make a hell from his life and then...","Summers mu to nabídl.\nJenže Muday mu vyhrožoval, že pokud to přijme, udělá mu ze života peklo a tak...",mike
+STRM_M10v36,"I've received a corporal rank and became a guard commander, although Muday is still my employer.\nHowever Summers was telling me, if I would hesitate it, rather don't wasting my time and join him...","... ze mě udělali desátníka a skončil, jako velitel hlídky a Muday je stále můj zaměstnavatel.\nSummers však říkal, že kdykoliv bych si to rozmyslel, nemám váhat.",jason
+STRM_M10v37,"Mother fucker... the whole Muday.\nWat a second... however you should also fly to America, don't you?","Krypl, zkurvenej... celej Muday.\nPočkej, ale vždyť ty jsi měl taky letět do Ameriky, ne?",jack
+STRM_M10v38,"Right. Fuckers, hah? That they've left us here.","Jo. Zmrdi, viď? Že nás tu nechali.",jason
+STRM_M10v39,"Tell me about that. ","To víš. V Pentagonu si teď koušou nehty, když jsme to na Everonu tak dokonale posrali.\nNechápu, jak tam ti lidé mohou bejt s Rusákama spokojení?",mike
+STRM_M10v40,"And do you really believe it? Don't trust anything the fucking news report.\nAre you seriously thinking, that someone is sutisfied to live in totality?","A ty tomu fakt věříš? Nevěř všemu, co říkaj ta zasraná média!\nVážně si myslíš, že někdo může bejt spokojenej s totalitním režimem?",jack
+STRM_M10v41,"Shut up, you fuckers. Something is driving to us.","Ty vole, sklapněte, něco sem jede.",jason
+STRM_M10v42,"Fuck, it will have Muday.\nWe're fucked. Dammit, Jason, you've just told, you've took care of it!","Kurva, to bude Muday.\nA jsme v píči. Kurva, Jasone, vždyť jsi říkal, žes to zařídil!",mike
+STRM_M10v43,"No, no, no, stay calm, false alarm, is's sergeant Hatton, nice guy.","Ne, ne, ne, seďte, falešný poplach.\nTo je seržant Hatton. Skvělej chlap.",jason
+
+
+STRM_M10v44,"Hello, guys.","Zdravím, chlapi.",hatton
+STRM_M10v45,Sir.,Pane.,all three
+STRM_M10v46,"That's good, fuck with salutations.\nCorporal Twombly, what is the deal between you and Bill now? When he guards instea of you again?","Dobrý, serte na salutace.\nDesátníku, Twombly, tak na čem jste se s Billym dohodli tentokrát, že hlídá opět jeho četa a ne vaše?",hatton
+STRM_M10v47,"Right, better don't know that, sir.","No, to radši nechtějte vědět, pane.",jason
+STRM_M10v48,"Gentlemen, you're lucky it's me who arrived in.\nDo you know as big problems you would have if lietenant Muday came instead of me and saw you to do a crap.","Pánové, máte štěstí, že jsem tu opět já.\nVíte, jaký malér byste měl, kdyby sem místo mě přijel poručík Muday a viděl vás tady, jak děláte hovno, Jasone?",hatton
+STRM_M10v49,"Ehm... I do not want to think about, sir.","Ehm... nechci radši domýšlet, pane.",jason
+STRM_M10v50,"Good choice.\nDon't e angry with me, but it would be better to leave this discussing circle.","Správná volba.\nNezlobte se, chlapi, ale budu muset tady ten váš kroužek rozpustit.",hatton
+STRM_M10v51,"But, sir.","Ale, pane.",all three
+STRM_M10v52,"Don't sa but. End of discussion.\nJason, call Billy and go to schift him. If Muday arrives in here, it's going to be bad.","Žádné ale. Konec diskuze.\nJasone, dejte vědět Billymu a běžte ho vystřídat. Jestli sem přijede Muday, bude zle.",hatton
+
+STRM_M10v53,"Four, this is one. What's your status?","Čtyřko, tady jednička. Jak jsi na tom?",jason
+STRM_M10v54,"Four, can you hear me?","Čtyřko, slyšíme se?",jason
+STRM_M10v55,"Four, it's one! Are you there? It's weird.","Tak čtyřko, tady jednička! Jsi tam? To je divný.",jason
+STRM_M10v56,"Perhaps he pisses anywhere.","Asi někde sere.","jack"
+STRM_M10v57,,"Ježiši, spíš já se z vás poseru.\nJaký hlídají sektor?",hatton
+STRM_M10v58,Dee.,Déčko.,jason
+STRM_M10v59,"Ok, then let's check it out.","Ok, tak se tam pojedem podívat.",hatton
+
+
+STRM_M10v60,I hope the bloomer didn't forget as one uses the communication.,"Doufám, že ten blbec nezapomněl, jak se používá vysílačka.",mike
+
+STRM_M10v61,"Hey, that's Billy! Billy!","Hele, to je Billy! Billy!",jason
+STRM_M10v62,,"Kurva, to je dost, že jdete!",billy
+STRM_M10v63,What hapenned?,Co se stalo?,jason
+STRM_M10v64,Someone shot on us... they... they've break off our frecvency and communication.,Někdo na nás střílel... oni... oni nabourali se na naší frekvenci a zkurvili nám spojení.,billy
+STRM_M10v65,Who? Russians? And what hapenned to the others?,Kdo? Rusáci? A co se stalo s ostatníma?,hatton
+STRM_M10v66,They're still there... the guys... they looked like a commando...\nI... I runned for help and now you're here and...,"Ostatní tam ještě jsou... ti chlapi... vypadali, jako nějaké komando...\njá... utíkal jsem pro pomoc a teď jste tu vy a...",billy
+STRM_M10v67,"Fuck, it might be SpetzNatz... there it is.\nOk, let's do this way. Jason, stay with Gill here and call the base to send reinforcements.\nMeanwhle check the area and find the others patrols.","Do hajzlu, to budou SpetzNatz... a je to tu.\nDobře, takže uděláme to takhle. Jasone, zůstaňte tady s Gillem a zavolejte na základnu, ať pošlou posily.\nMezitím prohledejte oblast a vyhledejte ostatní hlídky.",hatton
+STRM_M10v68,You two guys with me. Let's get this over with.,Vy dva pánové pojďte se mnou. Pojedeme se tam podívat.,hatton
+
+
+
+STRM_M10r01,THIS IS PATROL 15. THE CHANGING SHIFT WITH NO PROBLEMS. OUT.,HLÍDKA 15. STŘÍDÁNÍ STRÁŽÍ PROBĚHLO BEZ PROBLÉMŮ. KONEC.,guard
+
+STRM_M10r02,"PAPA BEAR, THIS IS GUARD 6! COORDINATES BJ39 ARE UNDER ATTACK! A SAY AGAIN! BJ39 UNDER ATACK! SEND REINFORCEMENTS, OVER!","MEDVĚDE, TADY HLÍDKA 6! SOUŘADNICE BJ39 JSOU POD ÚTOKEM! OPAKUJI! SOUŘADNICE BJ39 POD ÚTOKEM! POŠLETE POSILY, PŘEPÍNÁM!",jason
+STRM_M10r03,"COPY THAT, SIX. THE REINFORCEMENTS ARE ON THEIR WAY. HOLD ON, OUT.","ROZUMÍM, ŠESTKO. POSILY JSOU NA CESTĚ. DRŽTE SE, KONEC.",papa
+STRM_M10r04,PATROL 20. WE GOT THE SAME THING.,HLÍDKA 20. MÁME TO TU TO SAMÝ.,guard
+STRM_M10r05,"14, TOO.","ČTRNÁCTKA, TAKY.",guard
+STRM_M10r06,"9, HELP!","DEVÍTKA, POMOC!.",guard
+STRM_M10r07,"JUST ALL OF US, FUCK. BEAR, IT'S HOT! THE SMOKE IS EVERYWHERE, I CAN SEE NOTHING, HELP US!","PROSTĚ VŠICHNI, KURVA! MEDVĚDE, JE TU PĚKNÝ HORKO, VŠUDE JE KOUŘ, NIC NEVIDÍM, POMOZTE NÁM!",guard
+STRM_M10r08,,"TÁTA MEDVĚD VŠEM, JE TO TADY! VYHLAŠUJI BOJOVOU POHOTOVOST. TOTO NENÍ CVIČENÍ. OPAKUJI, TOTO NENÍ CVIČENÍ! VŠICHNI MUŽI AŤ SE PŘIPRAVÍ. VÁLKA ZAČALA, HOŠI. BITVA O PEARL HARBOR SE OPAKUJE. BOHUŽEL. DRŽTE SE, VOJÁCI. TÁTA MEDVĚD, KONEC.",papa
+STRM_M10r09,"HATTON, THERE IS SCACHEL OVER THERE, GET OUT OF HERE!","HATTONE, JE TAM NÁLOŽ, ODJEĎTE S TÍM KRÁMEM!",guard
+STRM_M10r10,"FUCK, IT WAS TIGHT.",TO BYLO O FOUS.,hatton
+STRM_M10r11,THEY'VE BRAKEN DOWN IN SECTOR C! FUCK!,V SEKTORU C PROLOMILI! KURVA!,guard
+STRM_M10r12,"GODDAMMINT, SECTOR B IS LOST.","SAKRA, SEKTOR B JE ZTRACEN.",guard
+
+STRM_M10r13,"BEAR, THIS IS DEE. IT LOOKS, LIKE IT'S CLEAR. WE'RE WAITING FOR NEXT ORDERS, OUT.","MEDVĚDE, TADY DÉČKO. VYPADÁ TO, ŽE JE TO TU ČISTÝ. ČEKÁME NA DALŠÍ ROZKAZY, KONEC.",jason
+STRM_M10r14,"RESCUE, FINALLY!","KONEČNĚ, ZÁCHRANA!",guard
+STRM_M10r15,,"NE TAK RYCHLE, HOŠI. POSILY JSOU TEPRVE NA CESTĚ. JE JEN NA NÁS, JESTLI SE TU UDRŽÍME DO JEJICH PŘÍJEZDU.",hatton
+STRM_M10r16,SPETNATZ HAVE DESTROYED OUR MACHINES. THERE IS JUST REST OF THEM HERE.,SPETZNATZ NÁM ODPÁLILI NAŠE STROJE. ZBYLO JENOM PÁR OBRNĚNCŮ.,guard
+STRM_M10r17,,TAK TOHO VYUŽIJEM.,HATTON
+
+STRM_M10a3,,"Kurva, vždyť jedu úplně někam do prdele. Musím to otočit.",paul
+
+
+
+STRMM_01,Jason's patrol,Jasonova hlídka,marker
+
+STRMW_01,Check the patrol,ZKONTROLUJTE HLÍDKU,waypoint

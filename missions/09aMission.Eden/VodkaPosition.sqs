@@ -1,0 +1,13 @@
+setacctime 1
+
+player1 say "m09vodka2"
+
+~5
+
+r6 say "m09vodka3"
+
+~6
+
+player1 say "m09vodka4"
+
+exit

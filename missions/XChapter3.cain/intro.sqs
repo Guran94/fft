@@ -1,0 +1,339 @@
+setacctime 1
+alex setpos [1897.59,7385.83,3.39]
+alex disableai "autotarget"
+alex setmimic "normal"
+guard1 disableai "autotarget"
+guard2 disableai "autotarget"
+guard1 setmimic "normal"
+guard2 setmimic "normal"
+playmusic "fft_maintheme"
+flag setpos [1902.07,7388.65,8.66]
+lem setmimic "normal"
+titleCut ["","BLACK IN",3]
+
+
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+;kolguev
+;=== 21:12:38
+_camera camSetTarget [-6492.04,-92145.28,-4610.63]
+_camera camSetPos [1901.34,7388.35,15.31]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:12:50
+_camera camSetTarget [75262.70,-57246.07,-20833.43]
+_camera camSetPos [1899.72,7390.01,15.31]
+_camera camSetFOV 0.700
+_camera camCommit 9
+@camCommitted _camera
+
+~2
+
+[_camera,uaz,[0,2,1.4],uaz,[185,10,1.3],0.6] exec "logiccam.sqs"
+
+~4
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;uaz
+;=== 21:15:29
+_camera camSetTarget uaz
+_camera camSetPos [1948.47,7358.07,4.62]
+_camera camSetFOV 0.608
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+;alex
+;=== 21:14:00
+_camera camSetTarget [84015.20,-49181.58,-7389.77]
+_camera camSetPos [1896.66,7386.48,3.33]
+_camera camSetFOV 0.384
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:14:13
+_camera camSetTarget [84015.20,-49181.58,-7389.95]
+_camera camSetPos [1896.66,7386.48,4.82]
+_camera camSetFOV 0.384
+_camera camCommit 5
+@camCommitted _camera
+
+~4
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+
+
+lem2 disableai "autotarget"
+lem2 setmimic "normal"
+deletevehicle lem
+lem2 setpos getmarkerpos "lem2"
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+;=== 10:18:23
+_camera camSetTarget [-66202.53,80546.39,-2942.27]
+_camera camSetPos [1898.49,7383.24,1.43]
+_camera camSetFOV 0.559
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:18:53
+_camera camSetTarget [-85428.73,56009.27,-2942.09]
+_camera camSetPos [1898.90,7383.69,1.43]
+_camera camSetFOV 0.559
+_camera camCommit 9
+
+~1
+
+guard playmove "effectstandsalute"
+
+~1
+
+lem2 playmove "effectstandsalute"
+
+~1
+
+lem2 playmove "effectstandsaluteend"
+
+~1
+
+guard playmove "effectstandsaluteend"
+
+guard say "xc3v01"
+
+~4
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+
+alex setpos [1896.82,7391.95,3.31]
+lem2 setpos [1897.81,7391.59,3.31]
+alex dowatch [1898.19,7391.47,4.69]
+lem2 dowatch [1896.62,7392.07,4.66]
+
+@camCommitted _camera
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+;alex back
+;=== 10:30:17
+_camera camSetTarget [101871.15,9630.73,132.42]
+_camera camSetPos [1896.20,7391.91,4.66]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:30:04
+_camera camSetTarget [100270.03,25352.84,132.21]
+_camera camSetPos [1896.26,7391.70,4.66]
+_camera camSetFOV 0.700
+_camera camCommit 6
+
+~1
+
+alex say "xc3v02"
+
+~5
+
+@camCommitted _camera
+
+;lemi
+;=== 10:31:18
+_camera camSetTarget [68585.67,-67116.27,-926.65]
+_camera camSetPos [1897.19,7392.27,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 0
+@camCommitted _camera
+
+lem2 say "xc3v03"
+
+~3
+
+;alex back
+;=== 10:32:45
+_camera camSetTarget [69810.92,-66000.41,-926.82]
+_camera camSetPos [1896.45,7392.37,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:33:05
+_camera camSetTarget [69810.92,-66000.41,-926.38]
+_camera camSetPos [1896.57,7392.48,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 9
+
+alex say "xc3v04"
+
+~9
+
+@camCommitted _camera
+
+;lemi
+;=== 10:31:18
+_camera camSetTarget [68585.67,-67116.27,-926.65]
+_camera camSetPos [1897.19,7392.27,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 0
+@camCommitted _camera
+
+lem2 setmimic "smile"
+lem2 say "xc3v05"
+
+~7
+
+;alex appears
+;=== 10:35:46
+_camera camSetTarget [-97651.38,15467.04,-4831.38]
+_camera camSetPos [1898.31,7391.46,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:36:10
+_camera camSetTarget [-97909.49,11100.35,-4830.90]
+_camera camSetPos [1898.33,7391.76,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 6
+
+alex say "xc3v06"
+
+~6
+
+@camCommitted _camera
+
+;both
+;=== 10:37:12
+_camera camSetTarget [-42077.15,97065.35,-4831.02]
+_camera camSetPos [1897.99,7390.69,4.41]
+_camera camSetFOV 0.656
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:37:26
+_camera camSetTarget [-3267.98,106857.52,9056.58]
+_camera camSetPos [1897.44,7390.50,4.41]
+_camera camSetFOV 0.656
+_camera camCommit 10
+
+alex say "xc3v07"
+
+~10
+
+@camCommitted _camera
+
+;alex
+;=== 10:38:14
+_camera camSetTarget [-89829.30,-26056.83,21750.45]
+_camera camSetPos [1897.67,7392.30,4.39]
+_camera camSetFOV 0.587
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:38:23
+_camera camSetTarget [-95660.58,3513.09,21750.73]
+_camera camSetPos [1897.79,7391.95,4.39]
+_camera camSetFOV 0.587
+_camera camCommit 18
+
+alex setmimic "angry"
+alex say "xc3v08"
+
+~9
+
+alex say "xc3v09"
+
+~9
+
+@camCommitted _camera
+
+;lemi
+;=== 10:31:18
+_camera camSetTarget [68585.67,-67116.27,-926.65]
+_camera camSetPos [1897.19,7392.27,4.66]
+_camera camSetFOV 0.592
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+lem2 say "xc3v10"
+
+~9
+
+alex setmimic "smile"
+alex playmove "fxinhand"
+
+;=== 10:41:35
+_camera camSetTarget [-74233.32,72225.13,-562.40]
+_camera camSetPos [1898.24,7390.71,4.52]
+_camera camSetFOV 0.461
+_camera camCommit 0
+@camCommitted _camera
+
+alex say "xc3v11"
+6 fademusic 0
+
+~2
+
+;=== 10:42:04
+_camera camSetTarget [-88505.24,50130.93,-562.00]
+_camera camSetPos [1898.24,7390.71,4.52]
+_camera camSetFOV 0.461
+_camera camCommit 2
+@camCommitted _camera
+;=== 10:42:25
+_camera camSetTarget [-92400.62,40667.18,-561.98]
+_camera camSetPos [1894.34,7391.65,4.52]
+_camera camSetFOV 0.461
+_camera camCommit 2
+@camCommitted _camera
+;=== 10:42:33
+_camera camSetTarget [-78808.10,35870.50,51863.83]
+_camera camSetPos [1894.34,7391.65,4.52]
+_camera camSetFOV 0.461
+_camera camCommit 2
+@camCommitted _camera
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+2 fademusic 1
+playMusic ["chaptertheme", 9.5]
+titletext [ localize "STRM_x02v17","plain"]
+playsound "xc3v12"
+
+~3
+
+titletext [ localize "STRM_xc3t1","plain"]
+
+~6
+
+titletext [ localize "STRM_xc3t2","plain"]
+
+~3
+
+5 fademusic 0
+
+~5
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+konec=true
+
+exit

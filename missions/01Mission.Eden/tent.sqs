@@ -1,0 +1,16 @@
+voj7 say "m01v17"
+setacctime 1
+
+~1
+
+hrac say "m01v18"
+
+~2
+
+voj7 say "m01v19"
+
+~1
+
+hrac addrating 100
+
+exit

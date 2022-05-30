@@ -1,0 +1,90 @@
+playmusic "fft_track4"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;USSR
+;=== 20:11:39
+_camera camSetTarget [22724.14,-90292.66,2547.68]
+_camera camSetPos [6478.96,8353.77,2.30]
+_camera camSetFOV 0.393
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:11:25
+_camera camSetTarget [22724.14,-90292.66,2547.70]
+_camera camSetPos [6480.96,8341.67,1.60]
+_camera camSetFOV 0.393
+_camera camCommit 5
+
+away1=false
+away2=false
+read=false
+documents=false
+InMontignac=false
+show=false
+packet=false
+VodkaDestroyed=false
+NoKey=true
+NoMontignac=true
+please2=true
+please1=true
+AlexPunish=true
+LeMouleAsk=false
+end1=false
+freedom=false
+titleCut ["","BLACK IN",3]
+
+player1 setdammage 0.7
+player1 setbehaviour "careless"
+uaz AddWeaponCargo ["pk",1]
+uaz AddMagazineCargo ["pk",2]
+uaz AddMagazineCargo ["ak74",2]
+uaz AddWeaponCargo ["AK74GrenadeLauncher",1]
+uaz AddMagazineCargo ["GrenadeLauncher",3]
+ClearWeaponCargo ammo1
+ClearMagazineCargo ammo1
+ammo1 AddWeaponCargo ["m16",1]
+ammo1 AddMagazineCargo ["m16",4]
+ammo1 AddWeaponCargo ["m60",1]
+ammo1 AddMagazineCargo ["m60",4]
+ClearWeaponCargo ammo2
+ClearMagazineCargo ammo2
+ammo2 AddWeaponCargo ["tokarev",1]
+ammo2 AddMagazineCargo ["tokarevmag",4]
+table1 setpos getmarkerpos "table1"
+player1 say "m09av01"
+
+~1
+
+r1 disableai "autotarget"
+guard1 disableai "autotarget"
+guard1 switchmove "FXStandAtt"
+guard2 disableai "autotarget"
+guard2 switchmove "FXStandAtt"
+guard3 disableai "autotarget"
+guard3 switchmove "FXStandAtt"
+guard4 disableai "autotarget"
+guard4 switchmove "FXStandAtt"
+guard5 disableai "autotarget"
+guard5 switchmove "FXStandAtt"
+r6 setbehaviour "careless"
+r6 switchMove "onChair"
+removeallweapons r6
+
+
+~3
+
+titleCut ["","WHITE OUT",1]
+
+~1
+
+@camCommitted _camera
+
+~0.5
+
+titleCut ["","WHITE in",1]
+
+player1 cameraEffect ["terminate","back"]
+camDestroy _camera
+
+exit

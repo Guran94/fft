@@ -1,0 +1,41 @@
+"4" objstatus "done"
+hrac setcaptive true
+hrac addrating 1000
+setacctime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;=== 8:35:45
+_camera camSetTarget [-95664.83,991.64,-15964.79]
+_camera camSetPos [2939.10,5388.57,44.17]
+_camera camSetFOV 0.318
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+titletext [ localize "STRCT_01","plain"]
+
+~1
+
+;=== 8:36:04
+_camera camSetTarget [59874.99,87448.29,-4746.90]
+_camera camSetPos [2936.34,5384.01,44.76]
+_camera camSetFOV 0.470
+_camera camCommit 12
+@camCommitted _camera
+4 fademusic 0
+
+~2
+
+titleCut ["","BLACK OUT",2]
+
+~2
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+konec=true
+
+exit

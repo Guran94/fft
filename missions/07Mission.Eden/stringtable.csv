@@ -1,0 +1,65 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_MISSION,Leaving Everon,Opouštění Everonu,loading screen
+
+
+
+STRM_m07v01,Come on Twombly. Take it on the right. Lietenant Muday is waiting for us.,Ne,sol
+STRM_m07v02,"Well, now let's go to lietenant Muday until he will scream again.",Ne,sol
+STRM_m07v03,"Buddy, hey buddy can you hear me?",Ne,sol
+STRM_m07v04,"Yeah, it whistles in my ears. What happened?",Ne,jason
+STRM_m07v05,"We were shot down.\nThere are a few of us who survived and it seems, that we've lost the contact with the airport.\nTake this. I've found it in that chinook.\nCome on buddy.",Ne,sol
+
+STRM_m07v06,We're fucked! What should we do now?,Ne,sol
+STRM_m07v07,Calm yourself soldier. It's not over yet. First we should check for some ammo from the bodies by the chinook.,Ne,jason
+STRM_m07v08,"Russians, take cover!",Ne,jason
+
+STRM_m07v09,"Looks like that's it. We have to go now.\nIf the Russians still did not attack, we can try to get to Montignac. Then there's the only way and it's the Airport.",Ne,jason
+
+STRM_m07v10,Don't shoot! We're Americans!,Ne,sol
+STRM_m07v11,"Guys, I'm so glad to see you! Did you see some Russians anywhere?",Ne,jason
+STRM_m07v12,"Yes, they've already striked and seized Montignac. It's useless to go there.",Ne,sol
+STRM_m07v13,Then the only way is realy Airport. Hopefully there are still ours.,Ne,jason
+
+STRM_m07v14,Montignac has fallen. We have to try to get the Airport.,Ne,jason
+
+STRM_m07v15,It sounds like bombardment. The Russians have probably launched offensive... Fuck!,Ne,jason
+
+STRM_m07v16,"Fuck, fuck, fuck!",Ne,jason
+STRM_m07v17,Don't move!,Ne,rus
+STRM_m07v18,Fuck...,Ne,jason
+STRM_m07v19,"Put down your weapon and hands up, hurry, American!",Ne,rus
+STRM_m07v20,Are you deaf or what? Put the weapon down and give up!,Ne,rus2
+STRM_m07v21,"We will not repeat it again, American! Either you put it down or we will kill immediatelly, understood?",Ne,rus
+STRM_m07v22,"Well I am giving up! Don't schoot, please, don't schoot!",Ne,jason
+
+STRM_m07v23,"Rebels? Here? It's not good idea to get closer, I should leave.",Ne,jason
+
+STRM_m07r01,WAIT TILL EVERONE'S ONBOARD.,Ne,bravo
+STRM_m07r02,EVERYONE HERE? LET'S ROLL,Ne,bravo
+STRM_m07r03,"TWOMBLY, THIS IS LIETENANT MUDAY. WHERE THE FUCK ARE YOU WITH YOUR SQUAD? HURRY UP!",Ne,muday
+STRM_m07r04,"WE ARE ALMOST THERE, LIETENANT. TWOMBLY OUT.",Ne,twombly
+STRM_m07r05,"YOU'RE FINALLY HERE, TWOMBLY. STOP THE TRUCK AND WAIT UNTIL EVERYONE GET OUT.",Ne,muday
+STRM_m07r06,OK. NOW PARK THE TRUCK NEXT TO THE OTHERS ON THE LEFT RIGHT BY THE BUILDING THERE.,Ne,muday
+STRM_m07r07,"OK, TWOMBLY. THAT'S ALL FROM ME. GET IN THE CHINOOK, WE WILL SEE ON MALDEN BOY, SURE YOU WILL LOOK FORWARD ON ME.",Ne,muday
+STRM_m07r08,DRAGONFLY 11 FOR THE TOWER. THE CARGO IS ON BOARD. WE'RE LEAVING. OVER.,Ne,dragonfly
+STRM_m07r09,"COPPY THAT DRAGONFLY. THE AIR AREA CLEAR, VISIBILITY GOOD. HAPPY JOURNEY. OUT.",Ne,dragonfly
+
+STRM_m07away1,Twombly where you think you're going? It's a wrong side!,Ne,sol
+STRM_m07away2,Fuck where am I going? It's enemy teritorry I must to turn around and go back.,Ne,jason
+
+STRM_m07h1,You've received NV goggles.,Právě jste obdržel NV brýle.,hint
+STRM_m07h2,Follow the soldier.,Následujte vojáka.,hint
+STRM_m07h3,Check the crash place and fulfil your ammo.,Prohledejte místo havárie a doplňte si munici.,hint
+
+STRM_m07w1,LOAD BRAVO,VYZVEDNOUT BRAVO,waypoint
+STRM_m07w2,REPORT TO MUDAY,NAHLÁSIT SE MUDAYEMU,waypoint
+STRM_m07w3,PARK THE TRUCK,ZAPARKOVAT NÁKLAĎÁK,waypoint
+STRM_m07w4,MALDEN,MALDEN,waypoint
+STRM_m07w5,MEETING,SETKÁNÍ,waypoint
+STRM_m07w6,GET IN,NASTOUPIT,waypoint
+
+STRM_m07m1,Evacuation place,Evakuační místo,marker
+STRM_m07m2,Load Bravo,Vyzvednout Bravo,marker
+STRM_m07m3,Malden,Malden,marker
+STRM_m07m4,Crash place,Místo havárie,marker

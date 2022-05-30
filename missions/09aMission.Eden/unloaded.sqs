@@ -1,0 +1,10 @@
+setacctime 1
+savegame
+away2=true
+
+~1
+
+off globalradio "m09ar01"
+player1 globalradio "m09ar02"
+
+exit

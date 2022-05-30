@@ -1,0 +1,41 @@
+titleCut ["","BLACK IN",3]
+civil1 dowatch hrac
+neutikat=false
+civil1 setmimic "smile"
+serza setmimic "normal"
+voj1 setmimic "normal"
+voj2 setmimic "normal"
+voj3 setmimic "normal"
+voj4 setmimic "normal"
+voj5 setmimic "normal"
+voj6 setmimic "normal"
+"4" objstatus "hidden"
+alarm=true
+papa=[West, "HQ"]
+setacctime 1
+clearmagazinecargo mun1
+clearweaponcargo mun1
+clearmagazinecargo mun2
+clearweaponcargo mun2
+clearmagazinecargo mun3
+clearweaponcargo mun3
+clearmagazinecargo mun4
+clearweaponcargo mun4
+clearmagazinecargo mun5
+clearweaponcargo mun5
+clearmagazinecargo mun6
+clearweaponcargo mun6
+clearmagazinecargo mun7
+clearweaponcargo mun7
+clearmagazinecargo ammo1
+clearweaponcargo ammo1
+clearmagazinecargo m113
+clearweaponcargo m113
+ammo1 AddMagazineCargo ["Pipebomb",3]
+clearmagazinecargo ammo2
+clearweaponcargo ammo2
+ammo2 AddMagazineCargo ["M16",3]
+ammo2 AddWeaponCargo ["M16",1]
+awaymon=true
+
+exit

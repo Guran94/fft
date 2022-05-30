@@ -1,0 +1,15 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+steve disableai "autotarget"
+muday disableai "autotarget"
+dan disableai "autotarget"
+
+showcinemaborder false
+
+;=== 12:55:27
+_camera camSetTarget [-58514.23,-70281.67,159.94]
+_camera camSetPos [4949.75,6999.13,1.29]
+_camera camSetFOV 0.490
+_camera camCommit 0
+@camCommitted _camera

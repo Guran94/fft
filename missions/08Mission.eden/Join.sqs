@@ -1,0 +1,58 @@
+setacctime 1
+
+
+twom say "m08v1a"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;jason
+;=== 20:53:40
+_camera camSetTarget [-33883.33,97581.89,-7653.96]
+_camera camSetPos [7250.66,6758.73,1.55]
+_camera camSetFOV 0.572
+_camera camCommit 0
+@camCommitted _camera
+;=== 20:53:11
+_camera camSetTarget [-40289.45,92893.77,-17869.64]
+_camera camSetPos [7250.86,6757.49,1.78]
+_camera camSetFOV 0.353
+_camera camCommit 14
+@camCommitted _camera
+
+~5
+
+lem say "m08v2a"
+
+;lemontov
+;=== 15:08:19
+_camera camSetTarget [-91036.22,-8724.40,-9957.81]
+_camera camSetPos [7251.55,6758.64,1.58]
+_camera camSetFOV 0.615
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+;jason
+;=== 15:06:32
+_camera camSetTarget [-34548.43,97545.58,-3231.76]
+_camera camSetPos [7250.50,6759.01,1.46]
+_camera camSetFOV 0.528
+_camera camCommit 0
+@camCommitted _camera
+
+twom setmimic "sad"
+
+~3
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+end2=true
+
+exit

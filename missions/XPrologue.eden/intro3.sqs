@@ -1,0 +1,213 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+skiptime 0.5
+3 fademusic 1
+
+fahren=true
+
+~4
+
+1 fadesound 1
+
+titletext [ localize "","plain"]
+titleCut ["","BLACK IN",1]
+
+Vadim removeweapon "binocular"
+lemontov setmimic "normal"
+shower setmimic "normal"
+sol1 disableai "autotarget"
+sol2 disableai "autotarget"
+sol3 disableai "autotarget"
+sol1 switchmove "FXStandSurUniv"
+sol2 switchmove "FXStandSurUniv"
+sol3 switchmove "FXStandSurUniv"
+sol3 setmimic "normal"
+sol1 stop true
+sol2 stop true
+sol2 stop true
+sov1 switchmove "fxtohand"
+
+;base
+;=== 21:01:24
+_camera camSetTarget [105874.35,-8689.31,54.81]
+_camera camSetPos [7123.76,7068.87,2.80]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:01:36
+_camera camSetTarget [50814.25,-82881.90,54.78]
+_camera camSetPos [7123.76,7068.87,2.80]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+
+~4
+
+[_camera,ural,[180,3.7,2.3],ural,[0,5,1.5],0.7] exec "logiccam.sqs"
+
+~5
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;guard
+;=== 21:04:03
+_camera camSetTarget [-75497.55,61658.30,-11561.28]
+_camera camSetPos [7301.84,6797.05,6.96]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+3 fademusic 0.2
+
+~3
+
+titleCut ["","BLACK OUT",1]
+
+0 fadesound 0
+
+~1
+
+playsound "x00v03"
+
+~7
+
+3 fademusic 1
+0 fadesound 1
+titleCut ["","BLACK IN",1]
+
+titletext [ localize "","plain"]
+
+;flag
+;=== 21:39:45
+_camera camSetTarget [43371.16,100019.30,31.57]
+_camera camSetPos [7250.98,6770.98,6.31]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 21:40:36
+_camera camSetTarget [2367.45,106297.56,-8358.54]
+_camera camSetPos [7253.34,6770.36,6.31]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+
+;lemontov
+;=== 21:44:57
+_camera camSetTarget [-42710.16,-79476.53,-7939.63]
+_camera camSetPos [7254.05,6779.15,1.46]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+shower playmove "fxshow3"
+
+;=== 21:46:29
+_camera camSetTarget [6832.16,-92901.09,-7939.74]
+_camera camSetPos [7253.16,6779.83,1.46]
+_camera camSetFOV 0.700
+_camera camCommit 3
+@camCommitted _camera
+
+lemontov dowatch [7253.16,6779.83,1.46]
+sol1 setpos getmarkerpos "sol1"
+sol2 setpos getmarkerpos "sol2"
+sol3 setpos getmarkerpos "sol3"
+sov1 setpos getmarkerpos "sov1"
+
+~1
+
+lemontov setmimic "smile"
+
+~2
+
+deletevehicle p1
+deletevehicle p2
+deletevehicle p3
+deletevehicle p4
+deletevehicle s1
+deletevehicle s2
+deletevehicle s3
+deletevehicle s4
+deletevehicle s5
+deletevehicle ras
+deletevehicle ural
+deletevehicle vehicle ural
+Vadim setmimic "normal"
+Vadim setpos getmarkerpos "tojason"
+Vadim move getmarkerpos "sergei"
+Vadim setspeedmode "limited"
+
+
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+11 fademusic 0
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+
+;jason
+
+;=== 18:02:09
+_camera camSetTarget [-89396.70,-15588.29,-12387.76]
+_camera camSetPos [7272.53,6796.50,1.36]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 18:02:29
+_camera camSetTarget [-57364.10,-68620.55,-11566.98]
+_camera camSetPos [7271.09,6796.67,1.36]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+
+;rashiv and jason
+
+;=== 16:05:15
+_camera camSetTarget [-27849.74,100410.21,1461.36]
+_camera camSetPos [7270.14,6791.02,1.34]
+_camera camSetFOV 0.463
+_camera camCommit 0
+@camCommitted _camera
+
+
+Vadim dowatch [7268.95,6795.97,2.00]
+Vadim setpos getmarkerpos "sergei"
+Vadim setdir 0
+Vadim playmove "fxshow3"
+Vadim say "x00v04"
+Vadim disableai "autotarget"
+
+~1
+
+;=== 16:05:45
+_camera camSetTarget [-15599.66,103593.98,10334.46]
+_camera camSetPos [7270.14,6791.02,1.02]
+_camera camSetFOV 0.463
+_camera camCommit 2
+@camCommitted _camera
+
+~2
+
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+titletext [ localize "","plain"]
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+[] exec "intro4.sqs"
+
+exit

@@ -1,0 +1,48 @@
+10 fademusic 0.2
+car lock true
+nastoupit=false
+away1=false
+away2=false
+away3=false
+odpocet=false
+konec2=false
+away4=true
+jedem=true
+setacctime 1
+enableradio false
+
+~1
+
+serza say "m01v20"
+
+~9
+
+serza say "m01v21"
+
+~9
+
+voj2 say "m01v22"
+
+~1
+
+serza say "m01v23"
+
+~11
+
+voj3 say "m01v24"
+
+~0.5
+
+voj4 say "m01v25"
+
+~0.5
+
+hrac say "m01v05"
+
+~2
+
+2 fadesound 1
+
+exit
+
+

@@ -1,0 +1,206 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+titleCut ["","BLACK IN",2]
+
+steve disableai "autotarget"
+george disableai "autotarget"
+george setmimic "normal"
+steve setmimic "normal"
+steve switchmove "fxinhand"
+george setmimic "normal"
+g1 switchmove "FXStandAtt"
+g1 disableai "autotarget"
+g1 stop true
+george switchmove "effectstand"
+
+;americans
+;=== 10:03:39
+_camera camSetTarget [96360.37,47491.58,160.15]
+_camera camSetPos [4933.93,6979.77,3.59]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:04:04
+_camera camSetTarget [81266.95,70202.20,13420.26]
+_camera camSetPos [4934.13,6977.05,0.87]
+_camera camSetFOV 0.700
+_camera camCommit 7.5
+
+~6
+
+2 fademusic 0.2
+
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+@camCommitted _camera
+
+titleCut ["","BLACK IN",1]
+
+steve setmimic "normal"
+steve say "m05v09"
+
+;both
+;=== 11:27:16
+_camera camSetTarget [48154.66,-83195.82,159.31]
+_camera camSetPos [4939.59,6984.32,1.42]
+_camera camSetFOV 0.545
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:27:32
+_camera camSetTarget [71717.78,-67451.19,159.52]
+_camera camSetPos [4938.97,6983.95,1.42]
+_camera camSetFOV 0.636
+_camera camCommit 6
+
+~4
+
+george say "m05v10"
+
+~2
+
+@camCommitted _camera
+
+;george
+;=== 11:28:18
+_camera camSetTarget [-26621.21,-87905.37,159.39]
+_camera camSetPos [4940.17,6983.40,1.62]
+_camera camSetFOV 0.330
+_camera camCommit 0
+@camCommitted _camera
+
+~6
+
+steve say "m05v11"
+
+;steve
+
+;=== 11:29:11
+_camera camSetTarget [97406.65,44836.06,-3915.43]
+_camera camSetPos [4938.05,6981.66,1.62]
+_camera camSetFOV 0.476
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:29:36
+_camera camSetTarget [104381.55,16695.72,-3915.17]
+_camera camSetPos [4937.85,6982.25,1.62]
+_camera camSetFOV 0.443
+_camera camCommit 11
+@camCommitted _camera
+
+steve switchmove "fxfromhand"
+george say "m05v12"
+
+;both
+;=== 11:34:00
+_camera camSetTarget [14603.36,-92273.05,-7225.82]
+_camera camSetPos [4940.06,6984.61,1.73]
+_camera camSetFOV 0.494
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:34:33
+_camera camSetTarget [-6060.53,-92133.30,-7225.63]
+_camera camSetPos [4940.72,6985.01,1.39]
+_camera camSetFOV 0.571
+_camera camCommit 6
+@camCommitted _camera
+
+steve switchmove "FXStandRotateTable"
+steve say "m05v13"
+
+;steve
+;=== 11:32:10
+_camera camSetTarget [76318.11,11967.84,-69698.46]
+_camera camSetPos [4939.01,6982.66,2.33]
+_camera camSetFOV 0.635
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:32:24
+_camera camSetTarget [73052.26,15584.62,-72549.17]
+_camera camSetPos [4939.54,6982.50,2.60]
+_camera camSetFOV 0.635
+_camera camCommit 8
+@camCommitted _camera
+
+;george
+
+george say "m05v14"
+steve switchmove "FXStandEndTable"
+
+;=== 0:18:54
+_camera camSetTarget [-78779.38,-47596.30,3632.08]
+_camera camSetPos [4940.86,6982.63,1.60]
+_camera camSetFOV 0.329
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+steve switchmove ""
+
+~1
+
+@camCommitted _camera
+steve say "m05v15"
+
+;steve
+;=== 12:35:35
+_camera camSetTarget [56870.25,92014.82,8680.57]
+_camera camSetPos [4940.07,6981.67,1.34]
+_camera camSetFOV 0.592
+_camera camCommit 0
+@camCommitted _camera
+;=== 12:36:03
+_camera camSetTarget [74710.77,78111.31,8680.65]
+_camera camSetPos [4939.82,6981.88,1.34]
+_camera camSetFOV 0.592
+_camera camCommit 11
+@camCommitted _camera
+
+george say "m05v16"
+george setmimic "smile"
+steve setmimic "angry"
+
+;george
+;=== 0:18:54
+_camera camSetTarget [-78779.38,-47596.30,3632.08]
+_camera camSetPos [4940.86,6982.63,1.60]
+_camera camSetFOV 0.329
+_camera camCommit 0
+@camCommitted _camera
+
+~8
+
+;steve
+;=== 10:18:07
+_camera camSetTarget [80738.16,67199.83,25229.11]
+_camera camSetPos [4940.17,6982.29,1.44]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:18:07
+_camera camSetTarget [80738.16,67199.83,25229.11]
+_camera camSetPos [4940.17,6982.29,1.44]
+_camera camSetFOV 0.155
+_camera camCommit 3
+
+
+steve say "m05v17"
+
+3 fademusic 0
+3 fadesound 0
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+@camCommitted _camera
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+end=true
+
+exit

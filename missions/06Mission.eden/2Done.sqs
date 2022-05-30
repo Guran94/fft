@@ -1,0 +1,8 @@
+setacctime 1
+"2" objstatus "done"
+hrac addrating 1000
+lemoule=true
+leader player sideradio "m06r08"
+savegame
+
+exit

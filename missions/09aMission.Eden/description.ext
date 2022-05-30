@@ -1,0 +1,745 @@
+onLoadMission="$STRM_ONLOAD_MISSION";
+onLoadMissionTime = true;
+
+MinScore = 0
+AvgScore = 2000
+MaxScore = 3000
+
+Debriefing = 1
+
+ShowWatch = 1
+
+ShowCompass = 0
+
+ShowNotepad = 1
+
+ShowGPS = 0
+
+ShowMap = 1
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class m09av01
+	{
+		name = "m09av01";
+		sound[] = {"m09av01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av01};
+	};
+	class m09av02
+	{
+		name = "m09av02";
+		sound[] = {"m09av02.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av02};
+	};
+	class m09av03
+	{
+		name = "m09av03";
+		sound[] = {"m09av03.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av03};
+	};
+	class m09av04
+	{
+		name = "m09av04";
+		sound[] = {"m09av04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av04};
+	};
+	class m09av05
+	{
+		name = "m09av05";
+		sound[] = {"m09av05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av05};
+	};
+	class m09av06
+	{
+		name = "m09av06";
+		sound[] = {"m09av06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av06};
+	};
+	class m09av07
+	{
+		name = "m09av07";
+		sound[] = {"m09av07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av07};
+	};
+	class m09av08
+	{
+		name = "m09av08";
+		sound[] = {"m09av08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av08};
+	};
+	class m09av09
+	{
+		name = "m09av09";
+		sound[] = {"m09av09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av09};
+	};
+	class m09av10
+	{
+		name = "m09av10";
+		sound[] = {"m09av10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av10};
+	};
+	class m09av11
+	{
+		name = "m09av11";
+		sound[] = {"m09av11.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av11};
+	};
+	class m09av12
+	{
+		name = "m09av12";
+		sound[] = {"m09av12.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av12};
+	};
+	class m09av13
+	{
+		name = "m09av13";
+		sound[] = {"m09av13.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av13};
+	};
+	class m09av14
+	{
+		name = "m09av14";
+		sound[] = {"m09av14.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av14};
+	};
+	class m09av15
+	{
+		name = "m09av15";
+		sound[] = {"m09av15.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av15};
+	};
+	class m09av16
+	{
+		name = "m09av16";
+		sound[] = {"m09av16.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av16};
+	};
+	class m09av17
+	{
+		name = "m09av17";
+		sound[] = {"m09av17.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av17};
+	};
+	class m09av18
+	{
+		name = "m09av18";
+		sound[] = {"m09av18.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av18};
+	};
+	class m09av19
+	{
+		name = "m09av19";
+		sound[] = {"m09av19.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av19};
+	};
+	class m09av20
+	{
+		name = "m09av20";
+		sound[] = {"m09av20.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av20};
+	};
+	class m09av21
+	{
+		name = "m09av21";
+		sound[] = {"m09av21.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av21};
+	};
+	class m09av22
+	{
+		name = "m09av22";
+		sound[] = {"m09av22.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av22};
+	};
+	class m09av23
+	{
+		name = "m09av23";
+		sound[] = {"m09av23.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av23};
+	};
+	class m09av23a
+	{
+		name = "m09av23";
+		sound[] = {"m09av23a.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av23b
+	{
+		name = "m09av23b";
+		sound[] = {"m09av23b.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av23c
+	{
+		name = "m09av23c";
+		sound[] = {"m09av23c.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av23d
+	{
+		name = "m09av23d";
+		sound[] = {"m09av23d.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av24
+	{
+		name = "m09av24";
+		sound[] = {"m09av24.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av24};
+	};
+	class m09av25
+	{
+		name = "m09av25";
+		sound[] = {"m09av25.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av25};
+	};
+	class m09av26
+	{
+		name = "m09av26";
+		sound[] = {"m09av26.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av26};
+	};
+	class m09av27
+	{
+		name = "m09av27";
+		sound[] = {"m09av27.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av27};
+	};
+	class m09av27a
+	{
+		name = "m09av27a";
+		sound[] = {"m09av27a.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av27b
+	{
+		name = "m09av27b";
+		sound[] = {"m09av27b.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av27c
+	{
+		name = "m09av27c";
+		sound[] = {"m09av27c.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av27d
+	{
+		name = "m09av27d";
+		sound[] = {"m09av27d.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class m09av28
+	{
+		name = "m09av28";
+		sound[] = {"m09av28.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av28};
+	};
+	class m09av29
+	{
+		name = "m09av29";
+		sound[] = {"m09av29.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av29};
+	};
+	class m09av30
+	{
+		name = "m09av30";
+		sound[] = {"m09av30.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av30};
+	};
+	class m09av31
+	{
+		name = "m09av31";
+		sound[] = {"m09av31.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av31};
+	};
+	class m09av32
+	{
+		name = "m09av32";
+		sound[] = {"m09av32.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av32};
+	};
+	class m09av33
+	{
+		name = "m09av33";
+		sound[] = {"m09av33.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av33};
+	};
+	class m09av34
+	{
+		name = "m09av34";
+		sound[] = {"m09av34.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av34};
+	};
+	class m09av35
+	{
+		name = "m09av35";
+		sound[] = {"m09av35.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av35};
+	};
+	class m09av36
+	{
+		name = "m09av36";
+		sound[] = {"m09av36.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av36};
+	};
+	class m09av37
+	{
+		name = "m09av37";
+		sound[] = {"m09av37.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av37};
+	};
+	class m09av38
+	{
+		name = "m09av38";
+		sound[] = {"m09av38.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av38};
+	};
+	class m09av39
+	{
+		name = "m09av39";
+		sound[] = {"m09av39.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av39};
+	};
+	class m09av40
+	{
+		name = "m09av40";
+		sound[] = {"m09av40.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av40};
+	};
+	class m09av41
+	{
+		name = "m09av41";
+		sound[] = {"m09av41.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av41};
+	};
+	class m09av42
+	{
+		name = "m09av42";
+		sound[] = {"m09av42.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av42};
+	};
+	class m09av43
+	{
+		name = "m09av43";
+		sound[] = {"m09av43.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av43};
+	};
+	class m09av44
+	{
+		name = "m09av44";
+		sound[] = {"m09av44.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av44};
+	};
+	class m09av45
+	{
+		name = "m09av45";
+		sound[] = {"m09av45.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av45};
+	};
+	class m09av46
+	{
+		name = "m09av46";
+		sound[] = {"m09av46.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av46};
+	};
+	class m09av47
+	{
+		name = "m09av47";
+		sound[] = {"m09av47.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av47};
+	};
+	class m09av48
+	{
+		name = "m09av48";
+		sound[] = {"m09av48.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av48};
+	};
+	class m09av49
+	{
+		name = "m09av49";
+		sound[] = {"m09av49.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av49};
+	};
+	class m09av50
+	{
+		name = "m09av50";
+		sound[] = {"m09av50.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av50};
+	};
+	class m09av51
+	{
+		name = "m09av51";
+		sound[] = {"m09av51.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av51};
+	};
+	class m09av52
+	{
+		name = "m09av52";
+		sound[] = {"m09av52.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av52};
+	};
+	class m09av53
+	{
+		name = "m09av53";
+		sound[] = {"m09av53.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av53};
+	};
+	class m09av54
+	{
+		name = "m09av54";
+		sound[] = {"m09av54.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av54};
+	};
+	class m09av55
+	{
+		name = "m09av55";
+		sound[] = {"m09av55.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av55};
+	};
+	class m09av56
+	{
+		name = "m09av56";
+		sound[] = {"m09av56.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av56};
+	};
+	class m09av57
+	{
+		name = "m09av57";
+		sound[] = {"m09av57.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av57};
+	};
+	class m09av58
+	{
+		name = "m09av58";
+		sound[] = {"m09av58.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av58};
+	};
+	class m09av59
+	{
+		name = "m09av59";
+		sound[] = {"m09av59.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av59};
+	};
+	class m09av60
+	{
+		name = "m09av60";
+		sound[] = {"m09av60.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av60};
+	};
+	class m09av61
+	{
+		name = "m09av61";
+		sound[] = {"m09av61.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av61};
+	};
+	class m09av62
+	{
+		name = "m09av62";
+		sound[] = {"m09av62.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av62};
+	};
+	class m09av63
+	{
+		name = "m09av63";
+		sound[] = {"m09av63.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av63};
+	};
+	class m09av64
+	{
+		name = "m09av64";
+		sound[] = {"m09av64.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av64};
+	};
+	class m09av65
+	{
+		name = "m09av65";
+		sound[] = {"m09av65.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09av65};
+	};
+	class m09v01
+	{
+		name = "m09v01";
+		sound[] = {"m09v01.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v01};
+	};
+	class m09v02
+	{
+		name = "m09v02";
+		sound[] = {"m09v02.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v02};
+	};
+	class m09v03
+	{
+		name = "m09v03";
+		sound[] = {"m09v03.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v03};
+	};
+	class m09v04
+	{
+		name = "m09v04";
+		sound[] = {"m09v04.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v04};
+	};
+	class m09v05
+	{
+		name = "m09v05";
+		sound[] = {"m09v05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v05};
+	};
+	class m09v06
+	{
+		name = "m09v06";
+		sound[] = {"m09v06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v06};
+	};
+	class m09v07
+	{
+		name = "m09v07";
+		sound[] = {"m09v07.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v07};
+	};
+	class m09v08
+	{
+		name = "m09v08";
+		sound[] = {"m09v08.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v08};
+	};
+	class m09v09
+	{
+		name = "m09v09";
+		sound[] = {"m09v09.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v09};
+	};
+	class m09v10
+	{
+		name = "m09v10";
+		sound[] = {"m09v10.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v10};
+	};
+	class m09v11
+	{
+		name = "m09v11";
+		sound[] = {"m09v11.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09v11};
+	};
+	class m09commander1
+	{
+		name = "m09commander1";
+		sound[] = {"m09commander1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09commander1};
+	};
+	class m09commander2
+	{
+		name = "m09commander2";
+		sound[] = {"m09commander2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09commander2};
+	};
+	class m09commander3
+	{
+		name = "m09commander3";
+		sound[] = {"m09commander3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09commander3};
+	};
+	class m09vodka1
+	{
+		name = "m09vodka1";
+		sound[] = {"m09vodka1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka1};
+	};
+	class m09vodka2
+	{
+		name = "m09vodka2";
+		sound[] = {"m09vodka2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka2};
+	};
+	class m09vodka3
+	{
+		name = "m09vodka3";
+		sound[] = {"m09vodka3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka3};
+	};
+	class m09vodka4
+	{
+		name = "m09vodka4";
+		sound[] = {"m09vodka4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka4};
+	};
+	class m09vodka5
+	{
+		name = "m09vodka5";
+		sound[] = {"m09vodka5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka5};
+	};
+	class m09vodka6
+	{
+		name = "m09vodka6";
+		sound[] = {"m09vodka6.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka6};
+	};
+	class m09vodka7
+	{
+		name = "m09vodka7";
+		sound[] = {"m09vodka7.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka7};
+	};
+	class m09vodka8
+	{
+		name = "m09vodka8";
+		sound[] = {"m09vodka8.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09vodka8};
+	};
+	class m09bonus
+	{
+		name = "m09bonus";
+		sound[] = {"m09bonus.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09bonus};
+	};
+	class m09key
+	{
+		name = "m09key";
+		sound[] = {"m09key.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09key};
+	};
+	class m09pub
+	{
+		name = "m09pub";
+		sound[] = {"m09pub.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09pub};
+	};
+	class m09guard1
+	{
+		name = "m09guard1";
+		sound[] = {"m09guard1.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard1};
+	};
+	class m09guard2a
+	{
+		name = "m09guard2a";
+		sound[] = {"m09guard2a.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard2a};
+	};
+	class m09guard2b
+	{
+		name = "m09guard2b";
+		sound[] = {"m09guard2b.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard2b};
+	};
+	class m09guard3
+	{
+		name = "m09guard3";
+		sound[] = {"m09guard3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard3};
+	};
+	class m09guard4
+	{
+		name = "m09guard4";
+		sound[] = {"m09guard4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard4};
+	};
+	class m09guard5
+	{
+		name = "m09guard5";
+		sound[] = {"m09guard5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09guard5};
+	};
+	class m09aaway2
+	{
+		name = "m09aaway2";
+		sound[] = {"m09aaway2.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway2};
+	};
+	class m09aaway3
+	{
+		name = "m09aaway3";
+		sound[] = {"m09aaway3.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway};
+	};
+	class m09aaway4
+	{
+		name = "m09aaway4";
+		sound[] = {"m09aaway4.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway4};
+	};
+	class m09aaway5
+	{
+		name = "m09aaway5";
+		sound[] = {"m09aaway5.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway5};
+	};
+	class m09aaway6
+	{
+		name = "m09aaway6";
+		sound[] = {"m09aaway6.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m09aaway6};
+	};
+};
+
+
+class CfgRadio
+{
+	sounds[] = { };
+
+	class m09ar01
+	{
+		name = "m09ar01";
+		sound[] = {"m09ar01.ogg", db+10, 1.00};
+		title = $STRM_m09ar01;
+	};
+	class m09ar02
+	{
+		name = "m09ar02";
+		sound[] = {"m09ar02.ogg", db+10, 1.00};
+		title = $STRM_m09ar02;
+	};
+	class m09ar03
+	{
+		name = "m09ar03";
+		sound[] = {"m09ar03.ogg", db+10, 1.00};
+		title = $STRM_m09ar03;
+	};
+	class m09ar04
+	{
+		name = "m09ar04";
+		sound[] = {"m09ar04.ogg", db+10, 1.00};
+		title = $STRM_m09ar04;
+	};
+	class m09ar05
+	{
+		name = "m09ar05";
+		sound[] = {"m09ar05.ogg", db+10, 1.00};
+		title = $STRM_m09ar05;
+	};
+	class m09ar06
+	{
+		name = "m09ar06";
+		sound[] = {"m09ar06.ogg", db+10, 1.00};
+		title = $STRM_m09ar06;
+	};
+	class m09ar07
+	{
+		name = "m09ar07";
+		sound[] = {"m09ar07.ogg", db+10, 1.00};
+		title = $STRM_m09ar07;
+	};
+	class m09ar08
+	{
+		name = "m09ar08";
+		sound[] = {"m09ar08.ogg", db+10, 1.00};
+		title = $STRM_m09ar08;
+	};
+	class m09ar09
+	{
+		name = "m09ar09";
+		sound[] = {"m09ar09.ogg", db+10, 1.00};
+		title = $STRM_m09ar09;
+	};
+	class m09aaway1
+	{
+		name = "m09aaway1";
+		sound[] = {"m09aaway1.ogg", db+10, 1.00};
+		title = $STRM_m09aaway1;
+	};
+};

@@ -1,0 +1,10 @@
+setacctime 1
+
+player1 addrating 500
+player1 say "m09bonus"
+
+~5
+
+savegame
+
+exit

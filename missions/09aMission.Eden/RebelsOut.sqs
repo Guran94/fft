@@ -1,0 +1,641 @@
+NoMontignac=false
+away2=false
+hint localize "STRM_m09ah07"
+aa = player1 saveStatus "09Twombly"
+aa = actor loadStatus "09Twombly"
+setacctime 1
+actor setbehaviour "aware"
+actor dowatch objnull
+actor disableai "autotarget"
+
+~3
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+
+player1 action ["weapononback"]
+pri1 switchmove "fxstandsur"
+pri2 switchmove "fxstandsur"
+hugo switchmove "fxstandsur"
+jean switchmove "fxstandsur"
+pri1 setpos getmarkerpos "pri1"
+pri2 setpos getmarkerpos "pri2"
+shooter3 setpos getmarkerpos "shooter3"
+actor removeweapon "binocular"
+player1 setpos getmarkerpos "start"
+jean setpos getmarkerpos "jean"
+hugo setpos getmarkerpos "hugo"
+actor setpos getmarkerpos "arrest"
+shooter1 setpos getmarkerpos "shooter1"
+shooter2 setpos getmarkerpos "shooter2"
+jean setdir 180
+hugo setdir 180
+actor setdir 0
+actor setmimic "angry"
+hugo setmimic "angry"
+jean setmimic "angry"
+shooter1 setdir 15
+shooter2 setdir 130
+shooter1 setunitpos "up"
+shooter1 setbehaviour "combat"
+shooter2 setunitpos "up"
+shooter2 setbehaviour "combat"
+shooter1 disableai "autotarget"
+shooter2 disableai "autotarget"
+shooter3 disableai "autotarget"
+jean disableai "autotarget"
+hugo disableai "autotarget"
+pri1 disableai "autotarget"
+pri2 disableai "autotarget"
+setacctime 1
+enableradio false
+
+[al1, al2, al3, al4, al5, al6, al7] join grpnull
+
+~0.5
+
+deletevehicle al1
+deletevehicle al2
+deletevehicle al3
+deletevehicle al4
+deletevehicle al5
+deletevehicle al6
+deletevehicle al7
+
+titleCut ["","BLACK IN",1]
+
+;resistance has fallen
+;=== 10:33:44
+_camera camSetTarget [-26419.14,78770.52,-62212.01]
+_camera camSetPos [4087.15,6741.51,1.55]
+_camera camSetFOV 0.457
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:34:11
+_camera camSetTarget [-34052.45,96793.77,-20792.30]
+_camera camSetPos [4087.15,6741.51,1.55]
+_camera camSetFOV 0.457
+_camera camCommit 5
+@camCommitted _camera
+
+;all to hugo and jean
+;=== 10:40:10
+_camera camSetTarget [84692.59,-52084.20,-5988.95]
+_camera camSetPos [4069.18,6762.95,2.50]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:40:36
+_camera camSetTarget [101568.91,27781.34,7301.02]
+_camera camSetPos [4070.18,6759.73,1.31]
+_camera camSetFOV 0.564
+_camera camCommit 4
+@camCommitted _camera
+
+;hugo and jean
+;=== 10:35:22
+_camera camSetTarget [-69235.53,72006.80,19275.49]
+_camera camSetPos [4076.03,6760.37,0.93]
+_camera camSetFOV 0.372
+_camera camCommit 0
+@camCommitted _camera
+
+;jason
+;=== 10:35:39
+_camera camSetTarget [-68226.98,75361.22,-8017.84]
+_camera camSetPos [4076.89,6757.24,1.11]
+_camera camSetFOV 0.404
+_camera camCommit 3
+@camCommitted _camera
+
+actor say "m09av55"
+
+~2
+
+;hugo and jean
+;=== 10:35:22
+_camera camSetTarget [-69235.53,72006.80,19275.49]
+_camera camSetPos [4076.03,6760.37,0.93]
+_camera camSetFOV 0.372
+_camera camCommit 0
+@camCommitted _camera
+
+hugo say "m09av56"
+
+~1
+
+jean say "m09av57"
+
+~3
+
+;all
+;=== 10:37:20
+_camera camSetTarget [30123.92,-89404.38,-8439.96]
+_camera camSetPos [4072.53,6765.57,2.71]
+_camera camSetFOV 0.360
+_camera camCommit 0
+@camCommitted _camera
+
+titletext ["","plain"]
+actor setbehaviour "careless"
+
+;=== 10:37:30
+_camera camSetTarget [22940.13,-91067.68,-8440.18]
+_camera camSetPos [4073.41,6765.74,2.66]
+_camera camSetFOV 0.360
+_camera camCommit 5
+
+~4
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+uaz1 setpos getmarkerpos "arriving"
+uaz1 move getmarkerpos "jean2"
+shooter5 setpos getmarkerpos "shooter5"
+shooter6 setpos getmarkerpos "shooter6"
+actor setbehaviour "careless"
+setacctime 1
+actor setmimic "normal"
+shooter4 setmimic "smile"
+shooter4 setdir 130
+shooter4 setpos getmarkerpos "eye2"
+actor setpos getmarkerpos "eye1"
+actor setdir 320
+actor dowatch [4039.49,6707.95,1.74]
+@camCommitted _camera
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+shooter4 say "m09av58"
+
+;russian and jason
+;=== 10:58:03
+_camera camSetTarget [68376.46,83105.88,4969.41]
+_camera camSetPos [4040.94,6704.93,1.33]
+_camera camSetFOV 0.451
+_camera camCommit 0
+@camCommitted _camera
+;=== 10:58:20
+_camera camSetTarget [65307.60,85588.10,4969.49]
+_camera camSetPos [4041.18,6704.73,1.28]
+_camera camSetFOV 0.451
+_camera camCommit 5
+@camCommitted _camera
+
+actor setmimic "surprised"
+
+;jason
+;=== 10:59:01
+_camera camSetTarget [101683.53,-9753.88,14056.75]
+_camera camSetPos [4041.80,6706.39,1.46]
+_camera camSetFOV 0.451
+_camera camCommit 0
+@camCommitted _camera
+
+actor say "m09av59"
+
+~6
+
+shooter4 say "m09av60"
+
+;both
+;=== 11:00:06
+_camera camSetTarget [-39714.54,94820.54,-17824.05]
+_camera camSetPos [4043.59,6704.69,1.51]
+_camera camSetFOV 0.525
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:00:36
+_camera camSetTarget [-39714.54,94820.54,-17824.47]
+_camera camSetPos [4043.59,6704.69,1.51]
+_camera camSetFOV 0.432
+_camera camCommit 3
+@camCommitted _camera
+
+actor setmimic "scared"
+actor dowatch [3965.10,6706.29,6.74]
+shooter4 dowatch [3965.10,6706.29,6.74]
+uaz1 move getmarkerpos "jean2"
+titletext ["","plain"]
+uaz1 setpos getmarkerpos "close"
+uaz1 setdir 120
+0 fademusic 0.5
+playMusic ["track6", 85]
+
+
+
+;lemi goes
+;=== 11:42:50
+_camera camSetTarget [98663.09,-21374.59,-14171.62]
+_camera camSetPos [3765.74,6766.92,17.18]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:43:00
+_camera camSetTarget [98663.09,-21374.59,-14171.73]
+_camera camSetPos [3764.91,6764.14,16.72]
+_camera camSetFOV 0.700
+_camera camCommit 4
+@camCommitted _camera
+
+;both back
+;=== 11:46:29
+_camera camSetTarget [-94993.09,7323.57,-13730.71]
+_camera camSetPos [4045.79,6707.51,1.16]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+7 fademusic 0
+;both front
+;=== 11:46:58
+_camera camSetTarget [103803.13,10135.42,-5877.32]
+_camera camSetPos [4040.06,6706.39,1.45]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+shooter4 dowatch [4024.42,6697.14,1.82]
+actor say "m09av61"
+
+~2
+
+;russian
+;=== 10:58:03
+_camera camSetTarget [68376.46,83105.88,4969.41]
+_camera camSetPos [4040.94,6704.93,1.33]
+_camera camSetFOV 0.451
+_camera camCommit 0
+@camCommitted _camera
+
+shooter4 say "m09av62"
+
+~1
+
+titleCut ["","BLACK OUT",1]
+
+
+
+~1
+
+setacctime 1
+lemontov disableai "autotarget"
+lemontov addMagazine "tokarevmag"
+lemontov addWeapon "tokarev"
+hugo setpos getmarkerpos "hugo2"
+jean setpos getmarkerpos "jean2"
+hugo switchmove "fxstandsur"
+jean switchmove "fxstandsur"
+lemontov setpos getmarkerpos "lemontov"
+shooter4 setpos getmarkerpos "shooter4"
+shooter4 dowatch [4044.00,6710.16,1.60]
+spetz1 setpos getmarkerpos "spetz1"
+deletevehicle shooter5
+deletevehicle shooter6
+actor setpos getmarkerpos "safety"
+
+uaz1 setfuel 0
+uaz1 setpos getmarkerpos "start"
+uaz1 setdir 30
+uaz3 setpos getmarkerpos "uaz1"
+uaz3 setdir 30
+
+
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+shooter4 say "m09av63"
+lemontov setmimic "smile"
+
+;lemi and comrade
+;=== 12:52:37
+_camera camSetTarget [19968.11,104701.27,-11898.16]
+_camera camSetPos [4043.73,6707.69,1.43]
+_camera camSetFOV 0.540
+_camera camCommit 0
+@camCommitted _camera
+;=== 12:52:59
+_camera camSetTarget [2722.55,105978.06,-11898.19]
+_camera camSetPos [4044.41,6707.70,1.38]
+_camera camSetFOV 0.473
+_camera camCommit 5
+@camCommitted _camera
+
+lemontov say "m09av64"
+
+;lemi
+;=== 12:53:57
+_camera camSetTarget [-93110.92,29228.46,7407.96]
+_camera camSetPos [4045.20,6709.81,1.30]
+_camera camSetFOV 0.354
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+lemontov dowatch [4044.14,6713.17,1.67]
+shooter4 dowatch [4044.14,6713.17,1.67]
+
+;all back
+;=== 13:12:30
+_camera camSetTarget [-21329.72,101956.16,-16761.31]
+_camera camSetPos [4045.44,6707.90,1.49]
+_camera camSetFOV 0.601
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+lemontov say "m09v01"
+
+~1
+
+;lemi
+;=== 13:13:34
+_camera camSetTarget [-48718.14,-77083.18,-13860.51]
+_camera camSetPos [4044.58,6711.62,1.55]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+hugo say "m09v02"
+
+;hugo nd jean
+;=== 13:15:04
+_camera camSetTarget [-1826.59,105498.98,14452.22]
+_camera camSetPos [4043.53,6710.51,0.96]
+_camera camSetFOV 0.476
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+jean say "m09v03"
+
+~1.5
+
+lemontov say "m09v04"
+
+;all
+;=== 13:15:48
+_camera camSetTarget [-80466.20,-44033.16,-16717.63]
+_camera camSetPos [4046.56,6713.24,1.67]
+_camera camSetFOV 0.572
+_camera camCommit 0
+@camCommitted _camera
+;=== 13:16:14
+_camera camSetTarget [-67453.77,-61149.05,-16718.00]
+_camera camSetPos [4046.08,6713.86,1.75]
+_camera camSetFOV 0.460
+_camera camCommit 6
+@camCommitted _camera
+
+
+jean say "m09v05"
+
+;jean
+;=== 13:16:39
+_camera camSetTarget [-48378.87,87636.09,26598.86]
+_camera camSetPos [4045.00,6711.44,0.86]
+_camera camSetFOV 0.460
+_camera camCommit 0
+@camCommitted _camera
+;=== 13:17:14
+_camera camSetTarget [-13820.65,102265.56,23542.59]
+_camera camSetPos [4044.43,6711.16,0.88]
+_camera camSetFOV 0.460
+_camera camCommit 13
+
+~8
+
+jean say "m09v06"
+
+~5
+
+@camCommitted _camera
+
+lemontov say "m09v07"
+
+;all
+;=== 13:17:53
+_camera camSetTarget [-95229.07,13253.74,-9989.38]
+_camera camSetPos [4046.63,6711.26,1.36]
+_camera camSetFOV 0.699
+_camera camCommit 0
+@camCommitted _camera
+;=== 13:18:14
+_camera camSetTarget [-95393.28,3522.67,-9989.56]
+_camera camSetPos [4046.65,6711.61,1.39]
+_camera camSetFOV 0.699
+_camera camCommit 5
+@camCommitted _camera
+
+hugo say "m09v08"
+lemontov dowatch [4042.17,6714.02,1.85]
+
+;hugo
+;=== 13:18:31
+_camera camSetTarget [75606.27,75265.23,13459.78]
+_camera camSetPos [4041.40,6711.91,1.09]
+_camera camSetFOV 0.699
+_camera camCommit 0
+@camCommitted _camera
+;=== 13:18:46
+_camera camSetTarget [36433.54,96303.09,30486.90]
+_camera camSetPos [4042.11,6711.93,1.04]
+_camera camSetFOV 0.699
+_camera camCommit 8
+@camCommitted _camera
+
+lemontov setmimic "angry"
+
+;angry greg
+;=== 16:44:08
+_camera camSetTarget [-55586.45,-73184.33,7867.47]
+_camera camSetPos [4045.18,6712.63,1.05]
+_camera camSetFOV 0.373
+_camera camCommit 0
+@camCommitted _camera
+
+lemontov switchMove "HandGunStand"
+
+~0.3
+
+playSound "tokarev"
+
+~0.2
+
+;=== 16:45:39
+_camera camSetTarget [-53748.29,86302.12,-17932.56]
+_camera camSetPos [4046.06,6708.18,1.05]
+_camera camSetFOV 0.401
+_camera camCommit 0
+@camCommitted _camera
+
+hugo stop true
+hugo switchMove "CombatDyingVer3"
+hugo setdammage 1
+
+~0.5
+
+setacctime 1
+0 fademusic 0.2
+playmusic "rtrack1b"
+lemontov setBehaviour "careless"
+
+~1
+
+
+jean switchmove ""
+;angry jean
+;=== 16:54:50
+_camera camSetTarget [-4179.67,106248.14,-4875.03]
+_camera camSetPos [4044.36,6710.44,1.27]
+_camera camSetFOV 0.474
+_camera camCommit 0
+@camCommitted _camera
+
+jean say "m09v09"
+
+~5
+
+
+uaz1 setpos getmarkerpos "uaz1"
+uaz1 setdir 30
+uaz3 setpos getmarkerpos "uazmorton"
+uaz3 setdir 180
+
+lemontov say "m09v10"
+
+;angry greg
+;=== 16:44:08
+_camera camSetTarget [-55586.45,-73184.33,7867.47]
+_camera camSetPos [4045.18,6712.63,1.05]
+_camera camSetFOV 0.373
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+jean say "m09v11"
+spetz1 assignAscargo uaz1
+lemontov assignAsCargo uaz1
+jean assignAsCargo uaz1
+shooter4 move getmarkerpos "uaz1"
+[spetz1, lemontov, jean] orderGetIn true 
+
+;all
+;=== 16:58:02
+_camera camSetTarget [-90621.23,36028.61,-13257.85]
+_camera camSetPos [4048.47,6710.21,1.21]
+_camera camSetFOV 0.401
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+2 fademusic 0
+titleCut ["","BLACK OUT",1]
+
+
+~1
+
+titletext ["","plain"]
+player1 setpos getmarkerpos "seize"
+player1 setmimic "smile"
+spetz1 moveincargo uaz1
+lemontov moveincargo uaz1
+jean moveincargo uaz1
+uaz1 setdir 300
+uaz1 setfuel 1
+uaz1 setpos getmarkerpos "uazAway"
+uaz1 move getmarkerpos "arriving"
+player1 setdir 270
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+;done
+;=== 17:39:53
+_camera camSetTarget [-93075.97,-9432.72,-17520.32]
+_camera camSetPos [4023.68,6748.88,2.06]
+_camera camSetFOV 0.332
+_camera camCommit 0
+@camCommitted _camera
+
+~6
+
+;=== 17:40:27
+_camera camSetTarget [79723.09,-58526.74,2822.44]
+_camera camSetPos [4015.68,6751.37,0.99]
+_camera camSetFOV 0.233
+_camera camCommit 0
+@camCommitted _camera
+
+player1 say "m09av65"
+
+deletevehicle driver1
+deletevehicle uaz1
+deletevehicle lemontov
+deletevehicle spetz1
+deletevehicle shooter4
+deletevehicle shooter3
+deletevehicle pri1
+deletevehicle pri2
+deletevehicle shooter1
+deletevehicle shooter2
+
+~2
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+player1 cameraEffect ["terminate","back"]
+camDestroy _camera
+
+setacctime 1
+
+
+
+~0.5
+
+titletext ["","plain"]
+titleCut ["","BLACK IN",1]
+
+~2
+
+enableradio true
+savegame
+
+~1
+
+0 fademusic 0.2
+playmusic "track4"
+player1 globalradio "m09ar03"
+off globalradio "m09ar04"
+
+~18
+
+1 setradiomsg localize "STRM_m09aa3"
+hint localize "STRM_m09ah12"
+
+
+exit

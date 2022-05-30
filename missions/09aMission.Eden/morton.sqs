@@ -1,0 +1,21 @@
+setacctime 1
+please2=false
+player1 say "m09av33"
+
+~5
+
+off2 say "m09av34"
+
+~9
+
+player1 say "m09av35"
+
+~3
+
+off2 say "m09av36"
+
+~6
+
+savegame
+
+exit

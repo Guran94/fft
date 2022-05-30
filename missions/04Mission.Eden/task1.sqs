@@ -1,0 +1,12 @@
+setacctime 1
+"1" objstatus "done"
+hrac addrating 1000
+zustat=false
+away=true
+leader player groupradio "m04r02"
+
+~2
+
+savegame
+
+exit

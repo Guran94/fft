@@ -1,0 +1,29 @@
+titleCut ["","BLACK IN",3]
+setacctime 1
+away1=true
+truck stop true
+jeep stop true
+zustat=true
+rusime=false
+konec1=false
+konec2=false
+mrtvoly=true
+ClearWeaponCargo ammo2
+ClearMagazineCargo ammo2
+ClearWeaponCargo truck
+ClearMagazineCargo truck
+truck AddWeaponCargo ["LawLauncher",1]
+truck AddMagazineCargo ["LawLauncher",2]
+truck AddWeaponCargo ["carlgustavLauncher",1]
+truck AddMagazineCargo ["carlgustavLauncher",1]
+ammo2 AddWeaponCargo ["LawLauncher",1]
+ammo2 AddMagazineCargo ["LawLauncher",3]
+ammo2 AddWeaponCargo ["Ak47",1]
+ammo2 AddMagazineCargo ["Ak47",5]
+ClearWeaponCargo ammo1
+ClearMagazineCargo ammo1
+ammo1 AddWeaponCargo ["RpgLauncher",1]
+ammo1 AddMagazineCargo ["RpgLauncher",3]
+papa=[West, "HQ"]
+
+exit

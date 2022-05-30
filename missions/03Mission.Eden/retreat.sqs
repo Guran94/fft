@@ -1,0 +1,19 @@
+setacctime 1
+away=false
+morton sideradio "m03r10"
+papa sideradio "m03r11"
+morton sideradio "m03r12"
+papa sideradio "m03r13"
+
+~10
+
+
+0 fademusic 0.2
+playMusic ["chaptertheme", 63]
+"q2" setmarkertype "end"
+zustat=false
+retreat=true
+"1" objstatus "failed"
+"2" objstatus "active"
+
+exit

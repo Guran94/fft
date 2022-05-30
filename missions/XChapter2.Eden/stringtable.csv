@@ -1,0 +1,31 @@
+LANGUAGE,English,Czech,Comment
+
+STRM_ONLOAD_INTRO,New enemy,Nový nepřítel,loading screen
+
+
+STRM_xc2v01,Drop your weapon and hands up! Now!,Ne,stas
+STRM_xc2v02,"Soviets. Our new enemies. They have smashed the rebels in just few hours.","Sověti. Nás nový nepřítel. Během tří hodin obsadili báze rebelů jakými byli Moron, Le Moule a Lamentin.",Jason
+STRM_xc2v03,"What the White house feared happened.\nHowever, the Kremlin has defended their intervension by the fact that the Red Army is only trying to liberate Everon,\nbecause it has history claims.","To, čeho se Bílý dům obával se stalo.\nKreml však situaci hájil tím, že se Rudá armáda pouze snaží osvobodit Everon,\njelikož na něj má historické nároky.",Jason
+STRM_xc2v04,"How does it look, Jean?",Ne,hugo
+STRM_xc2v05,"Order to retreat, Hugo.",Ne,jean
+STRM_xc2v06,Get in!,Ne,hugo
+STRM_xc2v07,Fuck!!!,Ne,jean
+STRM_xc2v08,"The Russians did not declare war on us\nbut Washington was called on the Russians to withdraw Johnson's troops from Everon.\nThe Pentagon, however, refused and ordered Johnson to launch an offensive.","Rusové nám sice válku nevyhlásili,\nale Washington byl Rusy vyzýván, aby se Johnsonovy jednotky stáhly z Everonu.\nJenže Pentagon odmítl a nařídil Johnsonovi zahájit ofenzivu.",Jason
+STRM_xc2v09,"But in the situation we were in, it was clear to every American that the offensive could not succeed.\nWhile the Soviets were in full force on Everon, we were almost down.","Ale v situaci, ve které jsme se nacházeli, bylo každému Američanovi jasné, že ofenziva nemůže mít úspěch.\nZatímco Sověti byli na Everonu v plné síle, my jsme byli téměř na dně.",Jason
+STRM_xc2v10,Although colonel Johnson believed in success.,Plukovník Johnson ale i přesto věřil v úspěch.,Jason
+
+STRM_xc2v11,"Fuck it! What the fuck they're doing here? They can't just invade Everon, overwhelm the rebels and fuck with us!","Seru na to! Co tu vůbec dělaj? Nemohou přece jen tak vtrhnout na Everon, převálcovat rebely a buzerovat nás!",Johnson
+STRM_xc2v12,"We can't waste time, sir. We must strike immediately.\nWe will attack them with such great force that they will never push their Bolshevik ass out of the Soviet Union again!","Nemůžeme ztrácet čas, pane. Musíme okamžitě udeřit.\nZaútočíme na ně s tak velkou silou, že už nikdy nevystrčí svou bolševickou prdel ze Sovětského svazu.",muday
+STRM_xc2v13,"Sir, we must immediately leave Everon! We can't win!\nWhen we had problems with the rebels, a trained Red Army flushes us out as easily as shit to the toilet.\nMany people would have died unnecessarily.","Pane, musíme přece okamžitě kapitulovat! Nemůžeme zvítězit!\nKdyž jsme měli problémy s rebely, tak vycvičená Rudá armáda nás spláchne stejně snadno, jako hovno do záchodu.\nZemřelo by zbytečně spousta lidí.",george
+STRM_xc2v14,"If we don't try it, major, we might lose Everon.\nPresident Carter would certainly not like that, and the Soviet Union would go even further and attack the United States!\nDo you want to risk the 3rd world war?!","Jenomže když to nezkusíme, majore, přijdeme o Everon.\nTo se prezidentu Carterovi určitě líbit nebude a hrozilo by, že Sovětský svaz zajde ještě dál a zaútočí na území Spojených států!\nChcete riskovat 3. světovou?!",muday
+STRM_xc2v15,"Reasonable negotiations have always belonged to my profession, Lieutenant Muday.","Rozumná jednání patřila vždycky do mé profese, poručíku Mudayi.",george
+STRM_xc2v16,"Gentlemen, please, leave it up to me.\nIn fact we've dug a very deep grab here and in any case if we don't attack, they will and therefore we are going to be first.","Pánové, prosím, nechte to na mě.\nJe fakt, že jsme si tu vykopali hezky hlubokej hrob.\nKaždopádně, jestli nezaútočíme, zaútočí oni. Proto udeříme jako první!",Johnson
+STRM_xc2v17,"Sir, yes, sir!","Pane, ano, pane!",Muday
+STRM_xc2v18,"Sir, did you not think about it yet?","Pane, nechtěl byste to ještě zvážit?",george
+STRM_xc2v19,"There is no other fuckin' choice here, mr. Dyaconsen. We have to attack, because Uncle Sam wants it and I have to fulfil my duty!",Ne,Johnson
+STRM_xc2v20,"Yes, sir, almost forgot... I'm listening.","Ano, pane, skoro jsem zapomněl... Poslouchám.",george
+STRM_xc2v21,"Let's do it this way, look...","Uděláme to takhle, podívejte...",Johnson
+STRM_xc2v22,The battle of the rivals was about to take place.,Ne,jason
+
+STRM_xc2t1,C H A P T E R   I I,K A P I T O L A   I I.,me
+STRM_xc2t2,B L A C K   D A Y,Č E R N Ý   D E N,me

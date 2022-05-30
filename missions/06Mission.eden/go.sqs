@@ -1,0 +1,7 @@
+setacctime 1
+
+serza say "m06v01"
+
+m113 lock false
+
+exit

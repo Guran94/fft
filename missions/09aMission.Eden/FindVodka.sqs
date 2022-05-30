@@ -1,0 +1,7 @@
+setacctime 1
+
+player1 say "m09vodka1"
+
+savegame
+
+exit

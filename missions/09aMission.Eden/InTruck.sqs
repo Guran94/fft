@@ -1,0 +1,9 @@
+setacctime 1
+volkov move getmarkerpos "VolPos"
+hint localize "STRM_m09ah09"
+volkov dowatch [1305.26,5969.58,2.00]
+player1 say "m09vodka7"
+LeMouleAsk=false
+
+
+exit

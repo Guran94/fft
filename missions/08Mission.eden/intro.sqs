@@ -1,0 +1,156 @@
+0 fademusic 0.1
+setacctime 1
+playmusic "Track9"
+rus reveal kovalin
+setacctime 1
+jason switchmove "FXStandSurUniv"
+jason setmimic "aware"
+kovalin setmimic "normal"
+kovalin dowatch jason
+titleCut ["","BLACK IN",5]
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;jason
+
+;=== 15:05:52
+_camera camSetTarget [-38546.75,96400.70,18135.85]
+_camera camSetPos [4176.13,7815.55,1.38]
+_camera camSetFOV 0.495
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+;rusove
+
+;=== 15:06:26
+_camera camSetTarget [103567.63,-2734.98,-3114.41]
+_camera camSetPos [4175.93,7816.49,1.38]
+_camera camSetFOV 0.751
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:06:41
+_camera camSetTarget [30506.28,-88603.20,-3114.13]
+_camera camSetPos [4175.93,7816.49,1.38]
+_camera camSetFOV 0.751
+_camera camCommit 4
+@camCommitted _camera
+;=== 15:06:59
+_camera camSetTarget [-88367.86,-29941.85,-3114.35]
+_camera camSetPos [4175.93,7816.49,1.38]
+_camera camSetFOV 0.751
+_camera camCommit 4
+@camCommitted _camera
+
+;kovalin a druh�
+
+;=== 15:07:46
+_camera camSetTarget [-48598.02,-77064.88,-3114.64]
+_camera camSetPos [4177.26,7816.29,1.62]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
+jason setmimic "angry"
+
+;=== 15:08:01
+_camera camSetTarget [-59714.48,-69046.49,-3114.24]
+_camera camSetPos [4177.26,7816.29,1.62]
+_camera camSetFOV 0.686
+_camera camCommit 7
+
+~1
+
+kovalin say "m08v01"
+
+~6
+
+@camCommitted _camera
+
+;jason
+
+jason say "m08v02"
+;=== 15:05:52
+_camera camSetTarget [-38546.75,96400.70,18135.85]
+_camera camSetPos [4176.13,7815.55,1.38]
+_camera camSetFOV 0.495
+_camera camCommit 0
+@camCommitted _camera
+
+~4
+
+;v�ichni
+
+kovalin say "m08v03"
+;=== 15:09:04
+_camera camSetTarget [-88785.10,43287.73,-9916.02]
+_camera camSetPos [4179.91,7814.37,1.61]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:10:16
+_camera camSetTarget [-80086.03,-45102.73,-9916.38]
+_camera camSetPos [4177.79,7816.63,1.61]
+_camera camSetFOV 0.686
+_camera camCommit 11
+@camCommitted _camera
+
+;jason
+
+jason say "m08v04"
+;=== 15:05:52
+_camera camSetTarget [-38546.75,96400.70,18135.85]
+_camera camSetPos [4176.13,7815.55,1.38]
+_camera camSetFOV 0.495
+_camera camCommit 0
+@camCommitted _camera
+
+~1.5
+
+;kovalin a druh�
+
+kovalin say "m08v05"
+;=== 15:07:46
+_camera camSetTarget [-48598.02,-77064.88,-3114.64]
+_camera camSetPos [4177.26,7816.29,1.62]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
+~9
+
+rus say "m08v06"
+kovalin dowatch objnull
+;=== 15:08:01
+_camera camSetTarget [-59714.48,-69046.49,-3114.24]
+_camera camSetPos [4177.26,7816.29,1.62]
+_camera camSetFOV 0.686
+_camera camCommit 2
+@camCommitted _camera
+
+;kovalin
+
+kovalin say "m08v07"
+;=== 15:17:39
+_camera camSetTarget [-25722.76,-87088.91,-9916.43]
+_camera camSetPos [4176.77,7815.60,1.62]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
+~5
+
+3 fademusic 0
+jdi=true
+
+~3
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+konec=true
+
+exit

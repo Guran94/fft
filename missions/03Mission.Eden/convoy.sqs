@@ -1,0 +1,20 @@
+[car] join grpnull
+UnassignVehicle hrac
+
+~1
+
+[m2] commandmove getmarkerpos "m2"
+
+~1
+
+car move getmarkerpos "away"
+
+
+setacctime 1
+morton sideradio "m03r04"
+leader player sideradio "m03r05"
+leader bravo sideradio "m03r06"
+m2 sideradio "m03r07"
+
+
+exit

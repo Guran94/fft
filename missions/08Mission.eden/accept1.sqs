@@ -1,0 +1,51 @@
+setacctime 1
+
+twom say "m08v15a"
+twom setmimic "sad"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;jason
+;=== 15:06:32
+_camera camSetTarget [-34548.43,97545.58,-3231.76]
+_camera camSetPos [7250.50,6759.01,1.46]
+_camera camSetFOV 0.528
+_camera camCommit 0
+@camCommitted _camera
+
+
+~4
+
+lem say "m08v16a"
+
+;lemontov to jason
+;=== 15:08:19
+_camera camSetTarget [-91036.22,-8724.40,-9957.81]
+_camera camSetPos [7251.55,6758.64,1.58]
+_camera camSetFOV 0.615
+_camera camCommit 0
+@camCommitted _camera
+;=== 15:08:53
+_camera camSetTarget [-84943.44,44179.18,-9958.29]
+_camera camSetPos [7251.55,6758.64,1.58]
+_camera camSetFOV 0.615
+_camera camCommit 9
+@camCommitted _camera
+
+
+[] exec "choice_music.sqs"
+
+createDialog "dialogue2"
+titletext ["","plain"]
+
+
+;both
+;=== 14:58:23
+_camera camSetTarget [-92597.74,1909.53,-2527.12]
+_camera camSetPos [7251.82,6759.33,1.51]
+_camera camSetFOV 0.686
+_camera camCommit 0
+@camCommitted _camera
+
+exit

@@ -1,0 +1,80 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+titleCut ["","BLACK IN",2]
+rus reveal rashiv
+jason switchmove "FXStandSurUniv"
+jason stop true
+jason disableai "autotarget"
+jason setmimic "normal"
+rashiv setmimic "normal"
+rashiv dowatch jason
+jason dowatch objnull
+skiptime 1
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;to rashiv
+;=== 20:13:42
+_camera camSetTarget [-61617.42,-67498.49,40.87]
+_camera camSetPos [4176.54,7808.57,1.19]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+;rashiv
+;=== 20:14:26
+_camera camSetTarget [-13418.72,-90623.27,40.67]
+_camera camSetPos [4177.19,7816.48,1.25]
+_camera camSetFOV 0.700
+_camera camCommit 7
+
+~6
+
+rashiv say "x00v01"
+
+~1
+
+@camCommitted _camera
+
+;rashiv, guard, jason
+;=== 21:09:20
+_camera camSetTarget [-42486.14,-79085.20,-16403.78]
+_camera camSetPos [4176.82,7817.91,1.58]
+_camera camSetFOV 0.700
+_camera camCommit 6
+
+~5
+
+go=true
+
+~3
+
+;jason
+;=== 21:10:38
+_camera camSetTarget [-33381.46,99024.25,-16403.66]
+_camera camSetPos [4176.03,7815.61,1.58]
+_camera camSetFOV 0.700
+_camera camCommit 4
+@camCommitted _camera
+
+3 fademusic 0.2
+
+~1
+
+1.5 fadesound 0
+titleCut ["","BLACK OUT",1]
+
+~1.5
+
+playsound "x00v02"
+
+~5
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+[] exec "intro3.sqs"
+
+exit

@@ -1,0 +1,9 @@
+setacctime 1
+hrac addrating -1000
+hrac say "m05away3"
+
+~5
+
+konec4=true
+
+exit

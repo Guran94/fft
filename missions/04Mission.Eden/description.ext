@@ -1,0 +1,229 @@
+onLoadMission="$STRM_ONLOAD_MISSION";
+onLoadMissionTime = true;
+onLoadIntro="$STRM_ONLOAD_INTRO";
+onLoadIntroTime = false;
+
+MinScore = 1000
+AvgScore = 2000
+MaxScore = 3000
+
+Debriefing = 1
+
+ShowWatch = 1
+
+ShowCompass = 0
+
+ShowNotepad = 1
+
+ShowGPS = 0
+
+ShowMap = 1
+
+
+
+class CfgSounds
+{
+	sounds[] = { };
+
+	class m04v01
+	{
+		name = "m04v01";
+		sound[] = {"m04v01.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v01};
+	};
+	class m04v02
+	{
+		name = "m04v02";
+		sound[] = {"m04v02.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v02, 6,$STRM_m04v02a};
+	};
+	class m04v03
+	{
+		name = "m04v03";
+		sound[] = {"m04v03.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v03};
+	};
+	class m04v04
+	{
+		name = "m04v04";
+		sound[] = {"m04v04.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v04};
+	};
+	class m04v05
+	{
+		name = "m04v05";
+		sound[] = {"m04v05.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v05};
+	};
+	class m04v06
+	{
+		name = "m04v06";
+		sound[] = {"m04v06.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v06};
+	};
+	class m04v07
+	{
+		name = "m04v07";
+		sound[] = {"m04v07.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v07};
+	};
+	class m04v08
+	{
+		name = "m04v08";
+		sound[] = {"m04v08.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v08};
+	};
+	class m04v09
+	{
+		name = "m04v09";
+		sound[] = {"m04v09.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v09};
+	};
+	class m04v10
+	{
+		name = "m04v10";
+		sound[] = {"m04v10.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v10};
+	};
+	class m04v11
+	{
+		name = "m04v11";
+		sound[] = {"m04v11.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v11};
+	};
+	class m04v12
+	{
+		name = "m04v12";
+		sound[] = {"m04v12.ogg", db+10, 1.00};
+		titlesfont = "tahomaB24";
+		titlessize = 0.025;
+		titles[] = {0,$STRM_m04v12};
+	};
+	class m04v13
+	{
+		name = "m04v13";
+		sound[] = {"m04v13.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v13};
+	};
+	class m04v14
+	{
+		name = "m04v14";
+		sound[] = {"m04v14.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v14};
+	};
+	class m04v15
+	{
+		name = "m04v15";
+		sound[] = {"m04v15.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v15};
+	};
+	class m04v16
+	{
+		name = "m04v16";
+		sound[] = {"m04v16.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v16};
+	};
+	class m04v17
+	{
+		name = "m04v17";
+		sound[] = {"m04v17.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v17};
+	};
+	class m04v18
+	{
+		name = "m04v18";
+		sound[] = {"m04v18.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v18};
+	};
+	class resistance1
+	{
+		name = "resistance1";
+		sound[] = {"resistance1.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class resistance2
+	{
+		name = "resistance2";
+		sound[] = {"resistance2.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class resistance3
+	{
+		name = "resistance3";
+		sound[] = {"resistance3.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class resistance4
+	{
+		name = "resistance4";
+		sound[] = {"resistance4.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class smile1
+	{
+		name = "smile1";
+		sound[] = {"smile1.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+	class smile2
+	{
+		name = "smile2";
+		sound[] = {"smile2.ogg", db+10, 1.00};
+		titles[] = {};
+	};
+};
+
+
+class CfgRadio
+{
+	sounds[] = { };
+
+	class m04r01
+	{
+		name = "m04r01";
+		sound[] = {"m04r01.ogg", db+10, 1.00};
+		title = $STRM_m04r01;
+	};
+	class m04r02
+	{
+		name = "m04r02";
+		sound[] = {"m04r02.ogg", db+10, 1.00};
+		title = $STRM_m04r02;
+	};
+	class m04r03
+	{
+		name = "m04r03";
+		sound[] = {"m04r03.ogg", db+10, 1.00};
+		title = $STRM_m04r03;
+	};
+	class m04r04
+	{
+		name = "m04r04";
+		sound[] = {"m04r04.ogg", db+10, 1.00};
+		title = $STRM_m04r04;
+	};
+	class m04r05
+	{
+		name = "m04r05";
+		sound[] = {"m04r05.ogg", db+10, 1.00};
+		title = $STRM_m04r05;
+	};
+};

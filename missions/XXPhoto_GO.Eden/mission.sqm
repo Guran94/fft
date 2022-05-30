@@ -1,0 +1,120 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"bis_resistance"
+	};
+	addOnsAuto[]=
+	{
+		"bis_resistance"
+	};
+	randomSeed=2735619;
+	class Intel
+	{
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6356.602051,13.024342,9647.270508};
+					azimut=25.000000;
+					id=0;
+					side="CIV";
+					vehicle="Civilian4";
+					leader=1;
+					skill=0.600000;
+					text="res1_1";
+					init="removeAllWeapons this; this setBehaviour ""careless""; this setdammage 1";
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6354.025879,13.024342,9648.559570};
+					azimut=30.000000;
+					id=1;
+					side="CIV";
+					vehicle="Civilian3";
+					leader=1;
+					skill=0.600000;
+					text="res2_1";
+					init="removeAllWeapons this; this setBehaviour ""careless""; this setdammage 1";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6355.369629,13.024342,9647.907227};
+					azimut=25.000000;
+					id=2;
+					side="GUER";
+					vehicle="OfficerG";
+					leader=1;
+					skill=0.600000;
+					text="jean_1";
+					init="removeAllWeapons this; this setIdentity ""poincare""; this setBehaviour ""careless""; this setdammage 1";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6359.695313,12.556759,9645.826172};
+					azimut=25.000000;
+					id=3;
+					side="GUER";
+					vehicle="OfficerG";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	randomSeed=9278979;
+	class Intel
+	{
+	};
+};
+class OutroWin
+{
+	randomSeed=15403523;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=7997443;
+	class Intel
+	{
+	};
+};

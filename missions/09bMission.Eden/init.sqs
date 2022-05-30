@@ -1,0 +1,118 @@
+
+
+titleCut ["","BLACK IN",3]
+
+playmusic "track14"
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+;shore and boat
+;=== 22:26:42
+_camera camSetTarget [100094.72,55139.55,2.15]
+_camera camSetPos [10125.31,11487.43,2.89]
+_camera camSetFOV 0.389
+_camera camCommit 0
+@camCommitted _camera
+
+jean disableai "autotarget"
+hugo disableai "autotarget"
+gaston disableai "autotarget"
+paul disableai "autotarget"
+mike disableai "autotarget"
+jack disableai "autotarget"
+off1 disableai "autotarget"
+guard1 disableai "autotarget"
+guard2 disableai "autotarget"
+guard3 disableai "autotarget"
+guard1 dowatch paul
+guard2 dowatch jack
+off1 dowatch mike
+jean switchmove "fxstandsur"
+hugo switchmove "fxstandsur"
+gaston switchmove "fxstandsur"
+paul switchmove "fxstandsur"
+mike switchmove "fxstandsur"
+jack switchmove "fxstandsur"
+
+ready=false
+run=false
+enableradio false
+away1=false
+KillingRussian=false
+KillingPrisoners=false
+end1=false
+end2=false
+end3=false
+end4=false
+
+
+
+
+;=== 22:26:56
+_camera camSetTarget boat1
+_camera camSetPos [10125.31,11487.43,2.93]
+_camera camSetFOV 0.389
+_camera camCommit 10
+@camCommitted _camera
+;=== 22:26:56
+_camera camSetTarget boat1
+_camera camSetPos [10125.31,11487.43,2.93]
+_camera camSetFOV 0.100
+_camera camCommit 3
+
+~2
+
+titleCut ["","WHITE OUT",1]
+
+~1
+
+@camCommitted _camera
+
+~0.5
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+titleCut ["","WHITE IN",1]
+
+greg setmimic "smile"
+jason setmimic "sad"
+
+~5
+
+setacctime 1
+greg say "m09bv01"
+
+~6
+
+jason say "m09bv02"
+
+~2
+
+greg say "m09bv03"
+
+
+jean disableai "autotarget"
+hugo disableai "autotarget"
+gaston disableai "autotarget"
+paul disableai "autotarget"
+mike disableai "autotarget"
+jack disableai "autotarget"
+off1 disableai "autotarget"
+guard1 disableai "autotarget"
+guard2 disableai "autotarget"
+guard3 disableai "autotarget"
+guard1 dowatch paul
+guard2 dowatch jack
+off1 dowatch mike
+jean switchmove "fxstandsur"
+hugo switchmove "fxstandsur"
+gaston switchmove "fxstandsur"
+paul switchmove "fxstandsur"
+mike switchmove "fxstandsur"
+jack switchmove "fxstandsur"
+
+
+
+exit

@@ -1,0 +1,20 @@
+setacctime 1
+boat2 lock false
+5 fademusic 0
+
+volkov say "m09aaway3"
+
+~5
+
+player1 say "m09aaway4"
+
+~5
+
+volkov say "m09aaway5"
+
+~5
+
+NoKey=false
+hint localize "STRM_m09ah11"
+
+exit

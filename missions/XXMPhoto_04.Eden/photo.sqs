@@ -1,0 +1,12 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+showcinemaborder false
+
+;=== 12:50:18
+_camera camSetTarget [93975.74,47933.21,18827.08]
+_camera camSetPos [5759.45,4738.27,0.99]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+

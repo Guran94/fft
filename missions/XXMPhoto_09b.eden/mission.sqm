@@ -1,0 +1,235 @@
+version=11;
+class Mission
+{
+	randomSeed=476163;
+	class Intel
+	{
+	};
+	class Groups
+	{
+		items=8;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10879.981445,24.525000,11667.846680};
+					azimut=80.000000;
+					id=0;
+					side="EAST";
+					vehicle="SoldierEB";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.600000;
+					text="jason";
+					init="[] exec ""photo.sqs""";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10883.017578,24.525000,11669.607422};
+					azimut=270.000000;
+					id=1;
+					side="WEST";
+					vehicle="SoldierWB";
+					leader=1;
+					skill=0.600000;
+					text="jack";
+					init="this setbehaviour ""careless""; removeallweapons this; this setIdentity ""jack""; this setcaptive true";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10882.951172,24.525000,11668.211914};
+					azimut=270.000000;
+					id=2;
+					side="WEST";
+					vehicle="SoldierWB";
+					leader=1;
+					skill=0.600000;
+					text="mike";
+					init="this setbehaviour ""careless""; removeallweapons this; this setidentity ""mike""; this setcaptive true";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10882.961914,24.525000,11667.011719};
+					azimut=270.000000;
+					id=3;
+					side="WEST";
+					vehicle="SoldierWCrew";
+					leader=1;
+					skill=0.600000;
+					text="paul";
+					init="this setbehaviour ""careless""; removeallweapons this; this setIdentity ""player3""; this setcaptive true";
+				};
+			};
+		};
+		class Item4
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10879.566406,24.525000,11669.331055};
+					azimut=110.000000;
+					id=4;
+					side="EAST";
+					vehicle="OfficerE";
+					leader=1;
+					skill=0.600000;
+					text="off1";
+					init="this setbehaviour ""careless""; this removeWeapon ""binocular""";
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10880.225586,24.525000,11665.694336};
+					azimut=70.000000;
+					id=5;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="guard1";
+					init="this setbehaviour ""careless""";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10882.496094,24.525000,11671.525391};
+					azimut=160.000000;
+					id=6;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="guard2";
+					init="this setbehaviour ""careless""";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10881.902344,24.525000,11659.999023};
+					id=7;
+					side="EAST";
+					vehicle="SoldierEB";
+					leader=1;
+					skill=0.600000;
+					text="guard3";
+					init="this setbehaviour ""careless""";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=6;
+		class Item0
+		{
+			position[]={10880.136719,24.525000,11660.996094};
+			name="actor";
+			type="Flag";
+		};
+		class Item1
+		{
+			position[]={10880.136719,24.525000,11662.175781};
+			name="lemontov";
+			type="Flag";
+		};
+		class Item2
+		{
+			position[]={10879.705078,24.525000,11663.878906};
+			name="spetz1";
+			type="Flag";
+		};
+		class Item3
+		{
+			position[]={10869.829102,24.525000,11662.064453};
+			name="lemontov2";
+			type="Flag";
+		};
+		class Item4
+		{
+			position[]={10865.009766,24.525000,11660.352539};
+			name="actor2";
+			type="Flag";
+			colorName="ColorGreen";
+		};
+		class Item5
+		{
+			position[]={10879.534180,24.525000,11667.495117};
+			name="jason2";
+			type="Flag";
+			colorName="ColorGreen";
+		};
+	};
+};
+class Intro
+{
+	randomSeed=8031747;
+	class Intel
+	{
+	};
+};
+class OutroWin
+{
+	randomSeed=483331;
+	class Intel
+	{
+	};
+};
+class OutroLoose
+{
+	randomSeed=5192195;
+	class Intel
+	{
+	};
+};

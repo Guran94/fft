@@ -1,0 +1,217 @@
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+~0.5
+
+skiptime 0.5
+
+~0.5
+
+titleCut ["","BLACK IN",2]
+jas setmimic "sad"
+off stop true
+off setmimic "normal"
+jas dowatch [6547.44,7118.82,1.50]
+
+
+;ural and off
+;=== 12:12:22
+_camera camSetTarget [-92876.92,-2382.43,-4899.06]
+_camera camSetPos [6542.34,7114.50,1.27]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 12:12:53
+_camera camSetTarget [-51280.10,88548.68,-4899.29]
+_camera camSetPos [6544.31,7115.57,1.50]
+_camera camSetFOV 0.700
+_camera camCommit 5
+@camCommitted _camera
+
+~2
+
+r1 dotarget jas
+r2 dotarget pri1
+r3 dotarget pri2
+r4 dotarget pri3
+;prisoners and jason
+;=== 12:13:29
+_camera camSetTarget [106212.19,-982.68,-997.79]
+_camera camSetPos [6548.06,7126.56,1.50]
+_camera camSetFOV 0.334
+_camera camCommit 0
+@camCommitted _camera
+;=== 12:14:15
+_camera camSetTarget [106212.19,-982.68,-997.80]
+_camera camSetPos [6547.44,7118.82,1.50]
+_camera camSetFOV 0.334
+_camera camCommit 5
+@camCommitted _camera
+
+~2
+
+;off
+;=== 12:12:53
+_camera camSetTarget [-51280.10,88548.68,-4899.29]
+_camera camSetPos [6544.31,7115.57,1.50]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+off say "x00v09"
+
+~1
+
+r1 dotarget jas
+r1 setbehaviour "combat"
+r1 setunitpos "up"
+~0.2
+
+r2 dotarget pri1
+r2 setbehaviour "combat"
+r2 setunitpos "up"
+
+~0.2
+
+r3 dotarget pri2
+r3 setbehaviour "combat"
+r3 setunitpos "up"
+
+~0.2
+
+r4 dotarget pri3
+r4 setbehaviour "combat"
+r4 setunitpos "up"
+
+~2
+
+jas dowatch [6547.44,7118.82,1.50]
+;jason
+;=== 12:14:15
+_camera camSetTarget [106212.19,-982.68,-997.80]
+_camera camSetPos [6547.44,7118.82,1.50]
+_camera camSetFOV 0.334
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;off
+;=== 12:12:53
+_camera camSetTarget [-51280.10,88548.68,-4899.29]
+_camera camSetPos [6544.31,7115.57,1.50]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+off say "x00v10"
+
+~1
+
+r1 dofire jas
+r2 dofire pri1
+r3 dofire pri2
+r4 dofire pri3
+
+not alive jas
+0 fademusic 1
+playmusic "fft_maintheme"
+
+~0.5
+
+0 fadesound 0
+
+titletext [ localize "","plain"]
+
+;jason
+;=== 14:00:10
+_camera camSetTarget jas
+_camera camSetPos [6546.42,7114.93,3.81]
+_camera camSetFOV 0.332
+_camera camCommit 0
+@camCommitted _camera
+;=== 14:00:41
+_camera camSetTarget jas
+_camera camSetPos [6548.21,7113.23,3.81]
+_camera camSetFOV 0.332
+_camera camCommit 5.7
+@camCommitted _camera
+
+gotov=true
+r1 setunitpos "auto"
+r2 setunitpos "auto"
+r3 setunitpos "auto"
+r4 setunitpos "auto"
+r1 setbehaviour "careless"
+r2 setbehaviour "careless"
+r3 setbehaviour "careless"
+r4 setbehaviour "careless"
+r1 setpos getmarkerpos "r1"
+r2 setpos getmarkerpos "r2"
+r3 setpos getmarkerpos "r3"
+r4 setpos getmarkerpos "r4"
+r1 setdir 285
+r2 setdir 285
+r3 setdir 285
+r4 setdir 285
+
+;bodies
+;=== 12:39:12
+_camera camSetTarget [68970.45,80389.97,-26954.81]
+_camera camSetPos [6546.65,7116.68,1.40]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 12:39:34
+_camera camSetTarget [74014.95,-62857.96,-23297.46]
+_camera camSetPos [6540.84,7129.42,1.40]
+_camera camSetFOV 0.700
+_camera camCommit 5.7
+@camCommitted _camera
+
+;all
+;=== 13:02:58
+_camera camSetTarget [-84301.13,-8241.27,-38706.46]
+_camera camSetPos [6553.02,7127.47,2.34]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+playsound "x00v11"
+
+;=== 13:03:11
+_camera camSetTarget [-66088.33,63810.09,-38706.67]
+_camera camSetPos [6551.25,7116.47,2.34]
+_camera camSetFOV 0.700
+_camera camCommit 6
+@camCommitted _camera
+
+titletext [ localize "STRM_text1","plain"]
+
+;to the sky
+;=== 13:03:34
+_camera camSetTarget [-27388.36,33605.61,-90095.13]
+_camera camSetPos [6551.25,7116.47,37.21]
+_camera camSetFOV 0.700
+_camera camCommit 5
+
+~3
+
+titleCut ["","BLACK OUT",2]
+
+~2.5
+
+0 fadesound 0
+fft=true
+
+~7
+
+4 fademusic 0
+
+~4
+
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+end=true
+exit
