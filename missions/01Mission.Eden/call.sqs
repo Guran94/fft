@@ -1,9 +1,0 @@
-jason SwitchMove "FXStandToTel"
-jason PlayMove "FXStandToTelHand"
-~0.5
-_tel1pos = (GetPos Tel1)
-_tel2pos = (GetPos Tel2)
-Tel1 SetPos _tel2pos
-Tel2 SetPos _tel1pos
-
-exit

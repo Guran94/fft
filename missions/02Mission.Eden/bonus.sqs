@@ -1,5 +1,0 @@
-setacctime 1
-hrac say "m02bonus1"
-hrac addrating 500
-
-exit

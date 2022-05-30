@@ -1,7 +1,0 @@
-setacctime 1
-
-off globalradio "m09aaway1"
-player1 addrating -1000
-
-
-exit

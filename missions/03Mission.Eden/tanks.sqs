@@ -1,9 +1,0 @@
-setacctime 1
-
-m113 setdammage 1
-
-~30
-
-m2 setdammage 1
-
-exit

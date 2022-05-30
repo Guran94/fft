@@ -1,8 +1,0 @@
-setacctime 1
-hrac setdammage 1
-player setdammage 1
-ak=true
-player addrating -1000
-hrac addrating -1000
-
-exit

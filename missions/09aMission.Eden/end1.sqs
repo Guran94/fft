@@ -1,6 +1,0 @@
-setacctime 1
-end1=true
-playmusic "track3"
-0 fademusic 0.5
-
-exit

@@ -1,6 +1,0 @@
-setacctime 1
-serza say "m04v18"
-truck lock false
-away=true
-
-exit

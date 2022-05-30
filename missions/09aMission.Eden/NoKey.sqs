@@ -1,6 +1,0 @@
-setacctime 1
-
-player1 say "m09key"
-player1 addrating -500
-
-exit

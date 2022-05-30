@@ -1,6 +1,0 @@
-setacctime 1
-papa sideradio "awayplayer1"
-hrac addrating -1000
-player addrating -1000
-
-exit
