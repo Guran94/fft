@@ -5546,7 +5546,6 @@ class Mission
 			age="UNKNOWN";
 			idVehicle=1;
 			text="in montignac [no chinnok]";
-			expCond="yesmontignac and this";
 			expActiv="[] exec ""Montignac.sqs""";
 			class Effects
 			{
@@ -5653,12 +5652,13 @@ class Mission
 		{
 			position[]={4010.465088,83.371849,6749.745117};
 			a=100.000000;
+			b=60.000000;
 			rectangular=1;
 			activationBy="VEHICLE";
 			activationType="GUER D";
 			age="UNKNOWN";
 			idVehicle=1;
-			expActiv="[] exec ""ResCamp.sqs""";
+			expActiv="[] exec ""RebCamp.sqs""";
 			class Effects
 			{
 			};

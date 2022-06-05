@@ -619,6 +619,7 @@ setacctime 1
 
 titletext ["","plain"]
 titleCut ["","BLACK IN",1]
+player1 removeAction PlanAction
 
 ~2
 

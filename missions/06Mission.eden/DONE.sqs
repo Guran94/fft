@@ -1,7 +1,8 @@
-"4" objstatus "done"
 hrac setcaptive true
 hrac addrating 1000
 setacctime 1
+hrac setpos getmarkerpos "retreat"
+"4" objstatus "done"
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]

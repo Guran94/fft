@@ -423,7 +423,7 @@ jean3 move getmarkerpos "leave2"
 jean3 setspeedmode "limited"
 jean3 setpos getmarkerpos "leave"
 jean3 setdir 335
-
+jean3 dowatch [2632.39,5439.63,1.67]
 
 titletext [ localize "","plain"]
 

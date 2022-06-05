@@ -378,7 +378,7 @@ class Mission
 				items=5;
 				class Item0
 				{
-					position[]={3919.341064,54.354778,6955.751953};
+					position[]={3607.207764,40.706200,7007.705078};
 					speed="FULL";
 					combat="AWARE";
 					class Effects
@@ -388,7 +388,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={3920.104248,68.464958,6726.095703};
+					position[]={3902.969971,65.873772,6755.947266};
 					type="HOLD";
 					synchronizations[]={0};
 					class Effects
@@ -2148,7 +2148,7 @@ class Mission
 		};
 		class Item48
 		{
-			position[]={3920.354980,68.475128,6726.145508};
+			position[]={3903.220703,65.895538,6755.997070};
 			special="NONE";
 			id=93;
 			side="EMPTY";
@@ -2632,7 +2632,7 @@ class Mission
 		};
 		class Item46
 		{
-			position[]={3903.434082,69.056442,6708.546875};
+			position[]={3886.299805,65.920006,6738.398438};
 			name="uazAway";
 			type="Empty";
 		};
@@ -2809,7 +2809,7 @@ class Mission
 			age="UNKNOWN";
 			text="Read the plan";
 			expCond="read";
-			expActiv="briefing = player addAction [localize ""STRM_m09aa2"", ""attack.sqs""]";
+			expActiv="PlanAction = player addAction [localize ""STRM_m09aa2"", ""attack.sqs""]";
 			class Effects
 			{
 			};

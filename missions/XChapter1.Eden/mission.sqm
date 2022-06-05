@@ -41,7 +41,7 @@ class Intro
 	};
 	class Groups
 	{
-		items=93;
+		items=96;
 		class Item0
 		{
 			side="WEST";
@@ -57,7 +57,6 @@ class Intro
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.600000;
-					init="[] exec ""01welcome.sqs""";
 				};
 			};
 		};
@@ -89,7 +88,7 @@ class Intro
 				items=1;
 				class Item0
 				{
-					position[]={6767.916016,101.564995,6531.433105};
+					position[]={6813.642090,99.956589,6531.433105};
 					azimut=175.000000;
 					id=32;
 					side="CIV";
@@ -3038,6 +3037,64 @@ class Intro
 				};
 			};
 		};
+		class Item93
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6817.338379,99.520782,6505.225586};
+					id=226;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.600000;
+					init="this exec ""camera.sqs""";
+				};
+			};
+		};
+		class Item94
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6791.170898,101.564995,6514.962891};
+					azimut=290.000000;
+					id=227;
+					side="CIV";
+					vehicle="Civilian9";
+					leader=1;
+					skill=0.600000;
+					text="jean2_1";
+					init="this setidentity ""poincare""";
+				};
+			};
+		};
+		class Item95
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6789.973633,101.564995,6513.469238};
+					azimut=275.000000;
+					id=228;
+					side="CIV";
+					vehicle="Woman1";
+					leader=1;
+					skill=0.600000;
+					text="wife_1";
+					init="this setbehaviour ""careless""; this setidentity ""maria""";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -4058,13 +4115,13 @@ class Intro
 		};
 		class Item23
 		{
-			position[]={2634.329834,83.366951,5433.665527};
+			position[]={2635.269775,83.378487,5434.007813};
 			name="leave";
 			type="Flag";
 		};
 		class Item24
 		{
-			position[]={2628.384766,83.401047,5443.399414};
+			position[]={2630.996582,83.394783,5440.091797};
 			name="leave2";
 			type="Flag";
 		};

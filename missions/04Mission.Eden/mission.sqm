@@ -2047,7 +2047,7 @@ class Mission
 			activationBy="GUER";
 			activationType="NOT PRESENT";
 			age="UNKNOWN";
-			text="SPLN�NO";
+			text="DONE";
 			expCond="{alive _x} count thislist <= 1 and not canmove bmp1 and not canmove bmp2";
 			expActiv="[] exec ""DONE.sqs""";
 			class Effects

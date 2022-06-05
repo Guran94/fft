@@ -20,7 +20,6 @@ outro=false
 enableradio false
 allowed=true
 nomontignac=false
-yesmontignac=false
 pokracujem=false
 herec2 setbehaviour "aware"
 herec2 disableai "autotarget"

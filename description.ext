@@ -260,7 +260,7 @@ class CfgIdentities
   class Poincare
   {
     name = "Jean Poincare";
-    face = "Face16";
+    face = "Face1";
     glasses = "Not";
     speaker = "Adam";
     pitch = 1.00;
@@ -276,6 +276,14 @@ class CfgIdentities
   class Maria
   {
     name = "Maria Poincare";
+    face = "Nada";
+    glasses = "Not";
+    speaker = "Adam";
+    pitch = 1.15;
+  };
+  class Anne
+  {
+    name = "Anne Poincare";
     face = "Lada";
     glasses = "Not";
     speaker = "Adam";

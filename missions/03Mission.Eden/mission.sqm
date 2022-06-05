@@ -5,14 +5,12 @@ class Mission
 	{
 		"Bradley",
 		"MM1",
-		"bis_resistance",
 		"6G30",
 		"BIS_WeaponPack"
 	};
 	addOnsAuto[]=
 	{
 		"MM1",
-		"bis_resistance",
 		"BIS_WeaponPack",
 		"6G30"
 	};
@@ -758,7 +756,7 @@ class Mission
 					azimut=185.000000;
 					id=77;
 					side="GUER";
-					vehicle="BMPRes";
+					vehicle="T55G";
 					leader=1;
 					skill=0.600000;
 					text="bmp1";
