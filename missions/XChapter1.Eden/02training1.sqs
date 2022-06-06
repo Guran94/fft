@@ -120,7 +120,6 @@ private4 setpos getmarkerpos "private4"
 private5 setpos getmarkerpos "private5"
 twombly setpos getmarkerpos "twombly"
 muday setpos getmarkerpos "muday"
-deletevehicle uh2
 private1 setmimic "normal"
 private2 setmimic "normal"
 private3 setmimic "normal"

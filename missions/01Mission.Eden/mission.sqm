@@ -560,7 +560,7 @@ class Mission
 				{
 					presence=0.700000;
 					position[]={6662.000000,122.491325,6853.599121};
-					id=58;
+					id=57;
 					side="GUER";
 					vehicle="SoldierGB";
 					skill=0.200000;
@@ -826,7 +826,7 @@ class Mission
 			side="GUER";
 			class Vehicles
 			{
-				items=6;
+				items=5;
 				class Item0
 				{
 					position[]={6265.895996,149.608612,6675.687500};
@@ -863,18 +863,9 @@ class Mission
 				};
 				class Item4
 				{
-					presence=0.500000;
-					position[]={6270.302246,148.888168,6666.182617};
-					id=57;
-					side="GUER";
-					vehicle="SoldierGB";
-					skill=0.200000;
-				};
-				class Item5
-				{
 					presence=0.800000;
 					position[]={6265.719727,149.492035,6666.565430};
-					id=60;
+					id=58;
 					side="GUER";
 					vehicle="SoldierGB";
 					skill=0.200000;
@@ -940,7 +931,7 @@ class Mission
 			side="GUER";
 			class Vehicles
 			{
-				items=6;
+				items=5;
 				class Item0
 				{
 					position[]={6339.762207,145.161530,6808.222168};
@@ -980,15 +971,6 @@ class Mission
 					presence=0.700000;
 					position[]={6332.761230,146.288177,6799.499512};
 					id=56;
-					side="GUER";
-					vehicle="SoldierGB";
-					skill=0.200000;
-				};
-				class Item5
-				{
-					presence=0.700000;
-					position[]={6338.951660,145.365768,6798.632813};
-					id=59;
 					side="GUER";
 					vehicle="SoldierGB";
 					skill=0.200000;
@@ -1137,7 +1119,7 @@ class Mission
 				{
 					position[]={7299.178223,35.285587,6754.670410};
 					azimut=185.000000;
-					id=61;
+					id=59;
 					side="WEST";
 					vehicle="SoldierWB";
 					leader=1;
@@ -1170,7 +1152,7 @@ class Mission
 				{
 					position[]={7203.253418,29.028692,6798.521973};
 					azimut=40.000000;
-					id=72;
+					id=70;
 					side="WEST";
 					vehicle="M113";
 					leader=1;
@@ -1216,7 +1198,7 @@ class Mission
 				{
 					position[]={7261.493164,30.429125,6770.148438};
 					azimut=40.000000;
-					id=73;
+					id=71;
 					side="WEST";
 					vehicle="SoldierWB";
 					leader=1;
@@ -1235,7 +1217,7 @@ class Mission
 				class Item0
 				{
 					position[]={7245.294922,30.293613,6771.994629};
-					id=74;
+					id=72;
 					side="WEST";
 					vehicle="SoldierWB";
 					leader=1;
@@ -1398,7 +1380,7 @@ class Mission
 		{
 			position[]={7245.539551,30.300659,6773.231445};
 			azimut=270.000000;
-			id=62;
+			id=60;
 			side="EMPTY";
 			vehicle="Table";
 			skill=0.600000;
@@ -1407,7 +1389,7 @@ class Mission
 		{
 			position[]={7245.614258,30.302811,6773.002441};
 			azimut=270.000000;
-			id=63;
+			id=61;
 			side="EMPTY";
 			vehicle="Vysilacka";
 			skill=0.600000;
@@ -1418,7 +1400,7 @@ class Mission
 		{
 			position[]={7244.610840,30.273911,6773.232910};
 			azimut=90.000000;
-			id=64;
+			id=62;
 			side="EMPTY";
 			vehicle="Table";
 			skill=0.600000;
@@ -1427,7 +1409,7 @@ class Mission
 		{
 			position[]={7245.038574,30.286230,6773.003418};
 			azimut=270.000000;
-			id=65;
+			id=63;
 			side="EMPTY";
 			vehicle="Vysilacka";
 			skill=0.600000;
@@ -1438,7 +1420,7 @@ class Mission
 		{
 			position[]={7242.349609,30.208786,6771.327148};
 			azimut=285.000000;
-			id=66;
+			id=64;
 			side="EMPTY";
 			vehicle="Phone";
 			skill=0.600000;
@@ -1449,7 +1431,7 @@ class Mission
 		{
 			position[]={7245.379883,30.296061,6771.686523};
 			azimut=270.000000;
-			id=67;
+			id=65;
 			side="EMPTY";
 			vehicle="ChairX";
 			skill=0.600000;
@@ -1458,7 +1440,7 @@ class Mission
 		{
 			position[]={7245.291992,30.293528,6773.003418};
 			azimut=270.000000;
-			id=68;
+			id=66;
 			side="EMPTY";
 			vehicle="Vysilacka";
 			skill=0.600000;
@@ -1469,7 +1451,7 @@ class Mission
 		{
 			position[]={7244.495117,30.270576,6773.002441};
 			azimut=270.000000;
-			id=69;
+			id=67;
 			side="EMPTY";
 			vehicle="Vysilacka";
 			skill=0.600000;
@@ -1480,7 +1462,7 @@ class Mission
 		{
 			position[]={7244.748047,30.277861,6773.003418};
 			azimut=270.000000;
-			id=70;
+			id=68;
 			side="EMPTY";
 			vehicle="Vysilacka";
 			skill=0.600000;
@@ -1491,7 +1473,7 @@ class Mission
 		{
 			position[]={7264.336914,30.429125,6772.657715};
 			azimut=90.000000;
-			id=71;
+			id=69;
 			side="EMPTY";
 			vehicle="AmmoBoxAddW";
 			leader=1;

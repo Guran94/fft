@@ -25,6 +25,12 @@ class CfgSounds
 {
 	sounds[] = { };
 
+		class dvere
+	{
+		name = "dvere";
+		sound[] = {"dvere.ogg", db+10, 1.00};
+		titles[] = {};
+	};
 	class xc1v01
 	{
 		name = "xc1v01";
@@ -318,6 +324,102 @@ class CfgSounds
 		titlesfont = "tahomaB24";
 		titlessize = 0.025;
 		titles[] = {0,$STRM_xc1v44};
+	};
+	class xc1v45
+	{
+		name = "xc1v45";
+		sound[] = {"xc1v45.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v45};
+	};
+	class xc1v46
+	{
+		name = "xc1v46";
+		sound[] = {"xc1v46.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v46};
+	};
+	class xc1v47
+	{
+		name = "xc1v47";
+		sound[] = {"xc1v47.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v47};
+	};
+	class xc1v48
+	{
+		name = "xc1v48";
+		sound[] = {"xc1v48.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v48};
+	};
+	class xc1v49
+	{
+		name = "STRM_xc1v49";
+		sound[] = {"xc1v49.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v49};
+	};
+	class xc1v50
+	{
+		name = "xc1v50";
+		sound[] = {"xc1v50.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v50};
+	};
+	class xc1v51
+	{
+		name = "xc1v51";
+		sound[] = {"xc1v51.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v51};
+	};
+	class xc1v52
+	{
+		name = "xc1v52";
+		sound[] = {"xc1v52.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v52};
+	};
+	class xc1v53
+	{
+		name = "xc1v53";
+		sound[] = {"xc1v53.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v53};
+	};
+	class xc1v54
+	{
+		name = "xc1v54";
+		sound[] = {"xc1v54.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v54};
+	};
+	class xc1v55
+	{
+		name = "xc1v55";
+		sound[] = {"xc1v55.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v55};
+	};
+	class xc1v56
+	{
+		name = "xc1v56";
+		sound[] = {"xc1v56.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v56};
+	};
+	class xc1v57
+	{
+		name = "xc1v57";
+		sound[] = {"xc1v57.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v57};
+	};
+	class xc1v58
+	{
+		name = "xc1v58";
+		sound[] = {"xc1v58.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v58};
+	};
+	class xc1v59
+	{
+		name = "xc1v59";
+		sound[] = {"xc1v59.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v59};
+	};
+	class xc1v60
+	{
+		name = "xc1v60";
+		sound[] = {"xc1v60.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_xc1v60};
 	};
 	class resistance1
 	{

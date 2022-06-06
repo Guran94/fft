@@ -78,7 +78,7 @@ _camera camCommit 3
 ~2
 
 1 fadesound 0
-1 fademusic 0.2
+9 fademusic 0.2
 
 titleCut ["","BLACK OUT",2]
 

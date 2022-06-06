@@ -454,11 +454,47 @@ titleCut ["","BLACK OUT",2]
 
 ~2
 
-skiptime 5
-
 playsound "xc1v37"
 
 ~13
+
+titleCut ["","BLACK IN",1]
+
+jean4 setmimic "angry"
+anne2 setmimic "sad"
+;ammo
+
+;=== 19:03:54
+_camera camSetTarget [86555.12,-3948.15,-62475.27]
+_camera camSetPos [8825.34,2697.38,1.59]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+~3
+
+;poincares
+
+;=== 19:04:05
+_camera camSetTarget [76072.80,76339.74,-7302.17]
+_camera camSetPos [8825.34,2697.38,1.59]
+_camera camSetFOV 0.700
+_camera camCommit 3
+@camCommitted _camera
+
+jean4 say "xc1v59"
+
+~3
+
+anne2 say "xc1v60"
+
+~3
+
+titleCut ["","BLACK OUT",2]
+
+~2.5
+
+skiptime 5
 
 player cameraEffect ["terminate","back"]
 camDestroy _camera

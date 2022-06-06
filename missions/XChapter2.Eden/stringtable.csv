@@ -6,7 +6,7 @@ STRM_ONLOAD_INTRO,New enemy,Nový nepřítel,loading screen
 STRM_xc2v01,Drop your weapon and hands up! Now!,Ne,stas
 STRM_xc2v02,"Soviets. Our new enemies. They have smashed the rebels in just few hours.","Sověti. Nás nový nepřítel. Během tří hodin obsadili báze rebelů jakými byli Moron, Le Moule a Lamentin.",Jason
 STRM_xc2v03,"What the White house feared happened.\nHowever, the Kremlin has defended their intervension by the fact that the Red Army is only trying to liberate Everon,\nbecause it has history claims.","To, čeho se Bílý dům obával se stalo.\nKreml však situaci hájil tím, že se Rudá armáda pouze snaží osvobodit Everon,\njelikož na něj má historické nároky.",Jason
-STRM_xc2v04,"How does it look, Jean?",Ne,hugo
+STRM_xc2v04,"What have I done?",Ne,jean
 STRM_xc2v05,"Order to retreat, Hugo.",Ne,jean
 STRM_xc2v06,Get in!,Ne,hugo
 STRM_xc2v07,Fuck!!!,Ne,jean

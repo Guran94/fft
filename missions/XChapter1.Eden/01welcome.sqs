@@ -1,6 +1,9 @@
 setacctime 1
-titleCut ["","BLACK IN",2]
-playmusic "fft_track4"
+titleCut ["","BLACK IN",5]
+playsound "dvere"
+
+Mpoincare setmimic "smile"
+Jpoincare setmimic "smile"
 
 riot=false
 riot2=false
@@ -9,52 +12,196 @@ punch=false
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
+;door
 
-;everon
-
-;=== 12:35:41
-_camera camSetTarget [61033.69,-35860.42,-67229.27]
-_camera camSetPos [423.89,6538.78,63.56]
+;=== 21:45:23
+_camera camSetTarget [-46100.77,78212.93,45509.20]
+_camera camSetPos [6789.11,6514.72,1.35]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-;=== 12:36:25
-_camera camSetTarget [78576.50,-48132.38,-30025.12]
-_camera camSetPos [784.49,6286.50,63.34]
+;=== 21:45:34
+_camera camSetTarget [-92584.55,17484.77,-1893.93]
+_camera camSetPos [6791.74,6513.21,1.35]
 _camera camSetFOV 0.700
-_camera camCommit 10
+_camera camCommit 5
 @camCommitted _camera
 
 
-;=== 12:37:18
-_camera camSetTarget [78576.50,-48132.38,-30025.20]
-_camera camSetPos [1210.97,5988.16,32.70]
+;jean + maria forehead
+
+
+;=== 21:35:14
+_camera camSetTarget [77158.45,-64263.14,6265.00]
+_camera camSetPos [6785.88,6516.00,0.82]
 _camera camSetFOV 0.700
-_camera camCommit 10
+_camera camCommit 0
 @camCommitted _camera
 
+~1
 
-;=== 12:38:16
-_camera camSetTarget [78576.50,-48132.38,-30025.04]
-_camera camSetPos [1837.20,5550.13,37.29]
+Jpoincare dowatch [6790.05,6512.05,1.56]
+
+~1
+
+Mpoincare dowatch [6787.16,6513.87,1.56]
+Mpoincare say "xc1v45"
+
+;both
+
+;=== 21:35:57
+_camera camSetTarget [6358.62,-93293.30,6264.56]
+_camera camSetPos [6788.12,6515.55,1.13]
 _camera camSetFOV 0.700
-_camera camCommit 10
+_camera camCommit 0
 @camCommitted _camera
 
-;sky
+Jpoincare say "xc1v46"
 
-;=== 12:38:54
-_camera camSetTarget [74217.00,-45082.80,47439.27]
-_camera camSetPos [2023.20,5420.04,28.91]
+~3
+
+Mpoincare say "xc1v47"
+
+;=== 8:49:07
+_camera camSetTarget [-56336.46,-71042.37,100.44]
+_camera camSetPos [6789.87,6514.49,1.48]
 _camera camSetFOV 0.700
-_camera camCommit 10.5
+_camera camCommit 6
+@camCommitted _camera
 
-~9
+;jean forehead
 
+;=== 8:50:21
+_camera camSetTarget [-92837.96,938.93,6695.15]
+_camera camSetPos [6788.48,6513.72,1.48]
+_camera camSetFOV 0.440
+_camera camCommit 0
+@camCommitted _camera
+
+Jpoincare say "xc1v48"
+
+~2
+
+Jpoincare dowatch [6782.41,6515.27,1.58]
+
+;both forehead
+
+;=== 8:52:09
+_camera camSetTarget [71344.55,-69825.44,2163.15]
+_camera camSetPos [6786.24,6515.69,1.10]
+_camera camSetFOV 0.628
+_camera camCommit 0
+@camCommitted _camera
+
+~1
+
+Mpoincare say "xc1v49"
+
+~2
+
+titleCut ["","BLACK OUT",3]
+
+~3
+
+titletext [ localize "","plain"]
+
+@camCommitted _camera
+fahren2=true
+
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+anne1 setmimic "smile"
+hugo1 setmimic "smile"
+
+;road
+
+;=== 11:10:43
+_camera camSetTarget [-5325.85,106048.69,-11304.13]
+_camera camSetPos [2914.18,7033.15,4.25]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+;=== 11:11:01
+_camera camSetTarget [-74170.52,69722.24,-11303.66]
+_camera camSetPos [2914.18,7033.15,4.25]
+_camera camSetFOV 0.700
+_camera camCommit 5
+@camCommitted _camera
+
+;in the car
+
+[_camera,trabant,[0,2,1.2],trabant,[185,10,1.3],0.4] exec "logiccam.sqs"
+
+~3
+
+hugo1 say "xc1v50"
+
+~2
+
+anne1 say "xc1v51"
+
+~3
+
+hugo1 say "xc1v52"
+
+~3
+
+anne1 say "xc1v53"
+
+~3
+
+hugo1 setmimic "normal"
+hugo1 say "xc1v54"
+
+~3
+
+anne1 setmimic "normal"
+anne1 say "xc1v55"
+
+~5
+
+hugo1 say "xc1v56"
+
+~3
+
+anne1 say "xc1v57"
+
+~1
+
+anne1 setmimic "smile"
+
+~2
+
+hugo1 setmimic "smile"
+hugo1 say "xc1v58"
+
+~3
+
+playmusic "fft_track4"
 titleCut ["","BLACK OUT",1]
 
+~1
+
+startglcam=false
+player cameraEffect ["terminate","back"]
+camDestroy _camera
+
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal","back"]
+
+deletevehicle trabant
+deletevehicle driver trabant
+fahren3=true
+skiptime 1
+
+
 ~1.5
+
+titletext [ localize "","plain"]
 
 @camCommitted _camera
 titleCut ["","BLACK IN",1]
@@ -96,82 +243,16 @@ _camera camCommit 7
 
 titleCut ["","BLACK OUT",1]
 
-~1
-
-@camCommitted _camera
-fahren2=true
-
-~0.5
-
-titleCut ["","BLACK IN",1]
-
-
-
-;road
-
-;=== 11:10:43
-_camera camSetTarget [-5325.85,106048.69,-11304.13]
-_camera camSetPos [2914.18,7033.15,4.25]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 11:11:01
-_camera camSetTarget [-74170.52,69722.24,-11303.66]
-_camera camSetPos [2914.18,7033.15,4.25]
-_camera camSetFOV 0.700
-_camera camCommit 5
 @camCommitted _camera
 
-;in the car
-
-[_camera,trabant,[0,2,1.2],trabant,[185,10,1.3],0.4] exec "logiccam.sqs"
-
-~7
-
-titleCut ["","BLACK OUT",1]
-
-~1
-
-startglcam=false
-player cameraEffect ["terminate","back"]
-camDestroy _camera
-
-_camera = "camera" camcreate [0,0,0]
-_camera cameraeffect ["internal","back"]
-
-deletevehicle trabant
-deletevehicle driver trabant
-fahren3=true
-skiptime 1
-
-~0.5
+~1.5
 
 titleCut ["","BLACK IN",1]
 
 ;home
 
-;=== 11:19:00
-_camera camSetTarget trabant2
-_camera camSetPos [6807.73,6528.51,1.59]
-_camera camSetFOV 0.700
-_camera camCommit 0
-@camCommitted _camera
-;=== 11:19:20
-_camera camSetTarget trabant2
-_camera camSetPos [6809.58,6526.83,1.81]
-_camera camSetFOV 0.700
-_camera camCommit 6.5
-
-~5
-
-titleCut ["","BLACK OUT",1]
-
-~1.5
-
-@camCommitted _camera
 titleCut ["","BLACK IN",1]
 
-trabant3 setpos getmarkerpos "trabant3"
 poin2 setpos getmarkerpos "tractor"
 poin2 switchmove "Medic"
 poin2 setdir 215
@@ -259,6 +340,10 @@ wife setmimic "surprised"
 uh setpos getmarkerpos "uh"
 uh setdir 30
 go=true
+t1 setpos getmarkerpos "t1"
+t2 setpos getmarkerpos "t2"
+t1 setdir 75
+t2 setdir 75
 
 ~0.5
 

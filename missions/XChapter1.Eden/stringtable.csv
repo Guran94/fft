@@ -2,6 +2,23 @@
 
 "STRM_ONLOAD_INTRO","Two years ago","O dva roky dříve","loading screen"
 
+STRM_xc1v45,Good morning Jean.,,wife
+STRM_xc1v46,Maria good morning. Have you got up already?,,jean
+STRM_xc1v47,"Yeah, I want to go shopping. Heve you not seen Anne?",,wife
+STRM_xc1v48,"Not at all. She's maybe with Hugo somewhere. What a beautiful morning, isn't Maria?,",,jean
+STRM_xc1v49,"Yes, it is...",,wife
+
+STRM_xc1v50,"Thanks you have taken me out Hugo.",,anne
+STRM_xc1v51,"You're welcome Anne. It was spectacular stroll.",,hugo
+STRM_xc1v52,"Is there anything I can do for you? Would you like to go somewhere else?",,hugo
+STRM_xc1v53,"No Hugo thank you. Take me home I need to clear up the entire house. I wasn't clearing for months.",,anne
+STRM_xc1v54,"Anne, may I ask you... What is gonna be further bewteen us?",,hugo
+STRM_xc1v55,"I said you once Hugo. You are really a good man, but most of all I... I... I want to help my parents with their farm.\nI like you, however I'm still thinking I'm not prepared yet.",,anne
+STRM_xc1v56,"I know, you started a new life and your parents are magnificent",,hugo
+STRM_xc1v57,"Thank you. Look around, seems it's gonna be nice weather today.",,anne
+STRM_xc1v58,"That sounds good.",,hugo
+
+
 
 STRM_xc1v01,Jean! Jean!,Jean! Jean!,wife
 STRM_xc1v02,What's happening?,Co se děje?,jean
@@ -9,7 +26,7 @@ STRM_xc1v02,What's happening?,Co se děje?,jean
 STRM_xc1v03,"It was the year of 1977.\nI had enlisted in the US Army to keep family tradition,\nhowever I had no idea that I came to the wrong place at the wrong time.","Psal se rok 1977.\nPřihlásil jsem se do Americké armády, abych dodržoval rodinou tradici.\nJenže to jsem ani tušení, že jsem přišel ve špatný čas na špatné místo.",jason
 STRM_xc1v04,What is it? Move your ass and keep going! Move!,Co je to? Pohni prdelí a padej! Pohyb!,off
 STRM_xc1v05,"Sir, yes, sir!","Pane, ano, pane!",jason
-STRM_xc1v06,The first impression of our training camp - The Republic of Everon - hadn't belonged to my best.,"Ne",jason
+STRM_xc1v06,The first impression of our training camp - The Everon settlement - hadn't belonged to my best.,"Ne",jason
 STRM_xc1v06a,I was born Russian and at that time my accent was as bad as the world itself.\nSo what I have actually expected in this world of rivalry?,"Ne",jason
 STRM_xc1v07,"Okay, ladies! I am your drilling sergeant Derek Muday!\nNow you are going to do what I want you to do!","Ne",muday
 STRM_xc1v07a,"You will perspire your blood if I want! You will provide your ass to me if I want and I will kill you if I fucking want!","Ne",muday
@@ -29,8 +46,8 @@ STRM_xc1v17,Washington didn't want to be behind\nand a few days later establishe
 
 
 STRM_xc1v18,Everon was the sole island without a major power protection.\nThe Everon's government was afraid of the Soviet expansion and therefore decided to request the White House for help.\nThe tension was increasing.,"Everon byl jediný ostrov, který stále nebyl pod ochranou.\nEveronská vláda se obávala Sovětské expanze a proto požádala o pomoc Bílý dům.\nNapětí ve světě se zvětšovalo.",jason
-STRM_xc1v19,"President Jimmy Carter planned the same process that was used on Malden.\nCreate the same massive modern military presence as the Russians on Kolguev,\nbut Everon was unlike Malden.","Ne",jason
-STRM_xc1v19a,"Its people wanted protection, but also democracy,\nfreedom and no interfering in their affairs.","Ne",jason
+STRM_xc1v19,"President Jimmy Carter planned the same process that was used on Malden.\nCreate the same massive modern military presence,\nbut Everon was unlike Malden.","Ne",jason
+STRM_xc1v19a,"Everonian's people wanted protection, but also democracy,\nfreedom and no interfering in their affairs.","Ne",jason
 STRM_xc1v20,"But nothing of this sort did happen. Instead, barracks were built...",Ale nic z těchto hesel se však nenaplnila. Namísto toho byly vybudovány kasárny...,jason
 STRM_xc1v21,Training camps...,Výcvikové kempy...,jason
 STRM_xc1v22,Ports...,Přístavy...,jason
@@ -39,7 +56,7 @@ STRM_xc1v24,Fire!,Pal!,muday
 STRM_xc1v25,"Fuck... it's jamned! I cannot shoot, sir!","Do hajzlu, zasekla se! Já... já nemohu střílet, pane!",sully
 STRM_xc1v26,"You are making me happy, Twombly. Well done, boy...","Děláte mi radost, Twombly. Výborně, hochu...",muday
 STRM_xc1v27,"Just wait, you russian fucker...","Jen počkej, ty zkurvenej Rusáku...",sully
-STRM_xc1v28,Hahaha... Comrade Twombly seems to be caroling over his mouth... Hahaha...,"Hahaha... zdá se, že soudruh Twombly si koleduje o přes hubu... Hahaha...",sully
+STRM_xc1v28,Hahaha... Comrade Twombly maybe needs his face to be scrashed.,"Hahaha... zdá se, že soudruh Twombly si koleduje o přes hubu... Hahaha...",sully
 
 STRM_xc1v29,"Although my military drilling wasn't the worst, the storm was coming.\nThe people of Everon did not want us.\nThey wanted their freedom with soldiers behind their backs, not in front of them.","Ačkoli můj výcvik nebyl nejhorší, blížila se bouře.\nObčané Everonu nás nechtěli.\nChtěli svobodu s vojáky za svými zády, nikoli před sebou.",jason
 
@@ -52,7 +69,13 @@ STRM_xc1v34,Let's talk at HQ. I'll be waiting for you.,,johnson
 STRM_xc1v35,"I will have my revenge, Maria. The Americans must leave our island.",,jean
 STRM_xc1v36,"Hey, you! It's almost six, time to leave.",,guard
 
+
+
 STRM_xc1v37,"They desired military protection, but we gave them occupation.\nWith our reign the island wasn't peaceful and beautiful anymore,\nbut tension was growing and war was in the air.","Toužili po vojenské ochraně, ale my jsme jim dali okupaci.\nS naší nadvládou ostrov už nebyl krásný a mírumilovný. Napětí rostlo a válka byla cítit ve vzduchu.",jason
+
+STRM_xc1v59,"They will regret the day of coming to our island.",,jean
+STRM_xc1v60,"Dad please. I hope you know what you're doing.",,anne
+
 STRM_xc1v38,Disperse or we will open fire!,,johnson
 STRM_xc1v39,"Disperse, now.",,jean
 

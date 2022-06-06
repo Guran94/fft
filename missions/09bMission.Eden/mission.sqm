@@ -210,7 +210,7 @@ class Mission
 					azimut=270.000000;
 					id=6;
 					side="WEST";
-					vehicle="SoldierWCrew";
+					vehicle="SoldierWPilot";
 					leader=1;
 					skill=0.600000;
 					text="paul";

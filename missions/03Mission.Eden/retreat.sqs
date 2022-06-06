@@ -7,9 +7,8 @@ papa sideradio "m03r13"
 
 ~10
 
-
 0 fademusic 0.2
-playMusic ["chaptertheme", 63]
+playMusic ["fft_track2", 62]
 "q2" setmarkertype "end"
 zustat=false
 retreat=true
