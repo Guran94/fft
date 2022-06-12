@@ -11,7 +11,7 @@ STRM_m05v04,I've just... I've just remembered Marie.,Jenom jsem... Jenom jsem za
 STRM_m05v05,"She was a wonderful woman, Jean.","Byla to skvělá žena, Jeane.",hugo
 STRM_m05v06,"Yes, she was...","Ano, to byla.",jean
 STRM_m05v07,"And certainly she would be proud of you, Jean. We are so close...\nThe Americans are sending a diplomat. He will be here in a moment.","A určitě by na tebe byla hrdá, Jeane. Jsme tak blízko...\nAmeričané posílají diplomata. Bude tu co by nevidět.",hugo
-STRM_m05v08,Get ready. This evening Everon might be ours.,Připrav se. Tento večer Everon může být náš.,jean
+STRM_m05v08,"Get ready, gentlemen. This evening Everon might be ours.",Připrav se. Tento večer Everon může být náš.,jean
 
 STRM_m05v09,"Major Dyaconsen, it's good that you have come. We've got many to discuise.",ne,johnson
 STRM_m05v10,"Therefore I'm here, colonel. I've already familiar with the situation... The news are full of this bullshit.\nSo what's the plan?",ne,george
@@ -57,6 +57,20 @@ STRM_m05v40,"It's the Russians, take cover!","To jsou Rusové, kryjte se!",jean
 STRM_m05v41,"Mr Dyaconsen, get out of here! The negotiation is over, just save your life!","Pane Dyaconsene, vypadněte odtud! Vyjednávání skončilo, zachraňte si život!",jean
 STRM_m05v42,But what about you?,Ale co vy?,george
 STRM_m05v43,It's our business man. Wait until it stops and then go!,"To je naše věc. Počkeje, až to přestane a pak jděte!",jean
+
+
+STRM_m05v44,"This boat will take you to Malden, there you'll be safe.",Ale co vy?,jean
+STRM_m05v45,"Dad... wouldn't be better to stop this nonsense killing?",Ale co vy?,anne
+STRM_m05v46,"There is no victory without killing Anne and there is no killing without victory.\nI'll bring the Everonian people to Freedom that deserves!",Ale co vy?,jean
+STRM_m05v47,"Why you're talking lkie that? I barely recognize you dad! Hugo please tell something!",Ale co vy?,anne
+STRM_m05v48,"I'm not sure you undrerstand Anne. What bothers you?\nThis war is the only way achieving our souverenity and your father proves it!",Ale co vy?,hugo
+STRM_m05v49,"You're totaly out of your mind! Do you think this is what would your mother wish for?",Ale co vy?,anne
+STRM_m05v50,"You don't know absolutely anything what your mother wished for!\nShe died than I managed to tell her as much I loved her before! Now you are the only thing that matters to me!",Ale co vy?,jean
+STRM_m05v51,"The only thing that matters to you is power.",Ale co vy?,anne
+STRM_m05v52,"Jean. The American diplomat is approaching, he'll be right here in a few minutes. The time has come.",Ale co vy?,soldier
+
+
+
 
 STRM_roy1,"Sir, take this, it might come in handy. Break a leg.","Pane, vemte si tohle, může se hodit. Zlome vaz.",bennett
 STRM_roy2,"Thanks, Bennett, that's my plan.","Díky, Bennette, to mám v plánu.",george

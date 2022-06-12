@@ -283,11 +283,59 @@ class CfgSounds
 		sound[] = {"m05v43.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m05v43};
 	};
+	class m05v44
+	{
+		name = "m05v44";
+		sound[] = {"m05v44.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v44};
+	};
+	class m05v45
+	{
+		name = "m05v45";
+		sound[] = {"m05v45.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v45};
+	};
+	class m05v46
+	{
+		name = "m05v46";
+		sound[] = {"m05v46.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v46};
+	};
+	class m05v47
+	{
+		name = "m05v47";
+		sound[] = {"m05v47.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v47};
+	};
+	class m05v48
+	{
+		name = "m05v48";
+		sound[] = {"m05v48.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v48};
+	};
+	class m05v49
+	{
+		name = "m05v49";
+		sound[] = {"m05v49.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v49};
+	};
 	class m05v50
 	{
 		name = "m05v50";
 		sound[] = {"m05v50.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m05v50};
+	};
+	class m05v51
+	{
+		name = "m05v51";
+		sound[] = {"m05v51.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v51};
+	};
+	class m05v52
+	{
+		name = "m05v52";
+		sound[] = {"m05v52.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m05v52};
 	};
 	class roy1
 	{

@@ -12,7 +12,7 @@ hugo2 setmimic "smile"
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
 
-
+goto "skip"
 
 ;church
 ;=== 16:27:03
@@ -64,47 +64,37 @@ _camera camSetPos [5082.68,4009.80,0.52]
 _camera camSetFOV 0.520
 _camera camCommit 8
 
-~7
-
-rep2 switchmove "Medic"
-
-~1
+~8
 
 @camCommitted _camera
+
+#skip
+
 ;meetig place
 
-rep1 switchmove "Medic"
-hugo setmimic "smile"
+anne setmimic "sad"
+jean setmimic "normal"
+hugo setmimic "normal"
 
-;=== 9:48:30
-_camera camSetTarget [82588.95,-58631.79,-8233.77]
-_camera camSetPos [5035.14,3957.00,1.02]
-_camera camSetFOV 0.477
+
+;from church to the boat
+
+;=== 18:15:00
+_camera camSetTarget [102802.70,-12662.32,-13097.45]
+_camera camSetPos [5064.78,3917.95,17.35]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-;=== 9:43:24
-_camera camSetTarget [66815.96,-74577.73,-3894.48]
-_camera camSetPos [5033.35,3957.35,1.06]
-_camera camSetFOV 0.584
-_camera camCommit 5
+;=== 18:15:16
+_camera camSetTarget [94301.73,-39260.45,-13097.66]
+_camera camSetPos [5064.78,3917.95,17.35]
+_camera camSetFOV 0.493
+_camera camCommit 6
 @camCommitted _camera
 
 
-;hugo
-
-;=== 9:43:57
-_camera camSetTarget [-92577.86,22226.86,11710.76]
-_camera camSetPos [5039.25,3947.76,1.12]
-_camera camSetFOV 0.478
-_camera camCommit 0
-@camCommitted _camera
-
-~1
-
-hugo2 move getmarkerpos "hugo3"
-
-~1
+~2
 
 titleCut ["","BLACK OUT",1]
 
@@ -112,76 +102,146 @@ titleCut ["","BLACK OUT",1]
 
 titleCut ["","BLACK IN",1]
 
+;all forehead
+
+;=== 17:30:40
+_camera camSetTarget [42248.51,95127.86,15747.45]
+_camera camSetPos [5619.86,3419.02,1.70]
+_camera camSetFOV 0.700
+_camera camCommit 0
+@camCommitted _camera
+
+;=== 17:31:07
+_camera camSetTarget [59846.16,87428.42,1392.90]
+_camera camSetPos [5619.86,3419.02,1.70]
+_camera camSetFOV 0.700
+_camera camCommit 6
+
+~1
+
+jean say "m05v44"
+
+~3
+
+anne dowatch [5623.18,3422.04,1.59]
+anne say "m05v45"
+
+
+~2
+
+@camCommitted _camera
 
 ;jean
-;=== 16:47:05
-_camera camSetTarget [-11792.30,102450.80,15.70]
-_camera camSetPos [5065.58,3885.63,1.62]
-_camera camSetFOV 0.472
-_camera camCommit 0
-@camCommitted _camera
-;=== 16:47:19
-_camera camSetTarget [-11792.30,102450.80,16.09]
-_camera camSetPos [5066.51,3880.12,1.62]
-_camera camSetFOV 0.472
-_camera camCommit 2
-
-~1
-
-jean switchmove "FXstandhip"
-
-~1
-
-@camCommitted _camera
-
-~1
-
-;jeans back
-;=== 16:47:57
-_camera camSetTarget [-56230.21,-74827.32,-6862.72]
-_camera camSetPos [5067.60,3882.70,1.62]
-_camera camSetFOV 0.472
+;=== 17:35:55
+_camera camSetTarget [38750.64,97624.95,5311.09]
+_camera camSetPos [5622.36,3421.08,1.63]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-hugo setpos getmarkerpos "hugo"
+jean setmimic "angry"
+jean say "m05v46"
 
-;=== 16:48:16
-_camera camSetTarget [-27855.24,-90291.31,-6862.99]
-_camera camSetPos [5066.84,3883.12,1.62]
-_camera camSetFOV 0.472
-_camera camCommit 3
+~5
+
+;jean's back
+
+anne say "m05v47"
+
+;=== 17:37:00
+_camera camSetTarget [-92438.45,13167.54,-16990.65]
+_camera camSetPos [5623.92,3421.11,1.37]
+_camera camSetFOV 0.680
+_camera camCommit 0
 @camCommitted _camera
 
+~2
 
-jean switchmove ""
+anne dowatch [5622.40,3422.77,1.52]
+
+~1
+
+;jean and hugo
+
+;=== 17:38:51
+_camera camSetTarget [102751.72,-20208.41,2684.09]
+_camera camSetPos [5620.93,3422.75,1.51]
+_camera camSetFOV 0.867
+_camera camCommit 0
+@camCommitted _camera
+
+hugo say "m05v48"
+
+;=== 17:40:10
+_camera camSetTarget [105562.63,1309.28,2684.54]
+_camera camSetPos [5620.86,3422.37,1.57]
+_camera camSetFOV 0.867
+_camera camCommit 4
+@camCommitted _camera
+
+;anne
+
+;=== 17:41:28
+_camera camSetTarget [-92103.70,-8788.01,-17336.11]
+_camera camSetPos [5621.53,3421.26,1.27]
+_camera camSetFOV 0.867
+_camera camCommit 0
+@camCommitted _camera
+
+anne say "m05v49"
+
+~3
+
 ;jean
-;=== 16:47:19
-_camera camSetTarget [-11792.30,102450.80,16.09]
-_camera camSetPos [5066.51,3880.12,1.62]
-_camera camSetFOV 0.472
+
+;=== 17:42:39
+_camera camSetTarget [67872.27,76276.13,28589.91]
+_camera camSetPos [5622.17,3421.29,1.45]
+_camera camSetFOV 0.605
 _camera camCommit 0
 @camCommitted _camera
 
-hugo say "m05v01"
+anne setmimic "angry"
+jean say "m05v50"
 
-~1
+~6
 
-jean dowatch [5066.19,3884.85,2.34]
+;anne
 
-~1
-
-
-;jean front
-;=== 16:48:16
-_camera camSetTarget [-27855.24,-90291.31,-6862.99]
-_camera camSetPos [5066.84,3883.12,1.62]
-_camera camSetFOV 0.472
+;=== 17:45:25
+_camera camSetTarget [-86289.08,-33374.37,-14086.77]
+_camera camSetPos [5621.07,3421.59,1.46]
+_camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
 
-jean setmimic "smile"
-jean say "m05v02"
+anne say "m05v51"
+
+~2
+
+;jean
+
+;=== 17:42:39
+_camera camSetTarget [67872.27,76276.13,28589.91]
+_camera camSetPos [5622.17,3421.29,1.45]
+_camera camSetFOV 0.605
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+;jean's back
+
+;=== 17:37:00
+_camera camSetTarget [-92438.45,13167.54,-16990.65]
+_camera camSetPos [5623.92,3421.11,1.37]
+_camera camSetFOV 0.680
+_camera camCommit 0
+@camCommitted _camera
+
+anne dowatch objnull
+anne move getmarkerpos "leave"
+anne setspeedmode "limited"
 
 ~2
 
@@ -189,88 +249,57 @@ titleCut ["","BLACK OUT",1]
 
 ~1
 
-hugo setpos getmarkerpos "hugo2"
+boat setdir 245
+boat setpos getmarkerpos "leave2"
+driver moveindriver boat
+anne moveincargo boat
+driver move getmarkerpos "leave3"
 
 ~0.5
 
 titleCut ["","BLACK IN",1]
 
-hugo say "m05v03"
+;=== 17:53:51
+_camera camSetTarget boat
+_camera camSetPos [5603.27,3391.47,2.30]
+_camera camSetFOV 0.500
+_camera camCommit 0
+@camCommitted _camera
 
-;both
-;=== 17:35:36
-_camera camSetTarget [-90435.38,-25768.47,15.19]
-_camera camSetPos [5067.71,3882.18,1.37]
+~10
+
+titleCut ["","BLACK OUT",1]
+
+~1
+
+sol setpos getmarkerpos "sol"
+seol setmimic "normal"
+
+~0.5
+
+titleCut ["","BLACK IN",1]
+
+;all
+
+;=== 19:57:23
+_camera camSetTarget [48877.32,93360.76,6300.73]
+_camera camSetPos [5622.21,3419.91,1.52]
 _camera camSetFOV 0.700
 _camera camCommit 0
 @camCommitted _camera
-;=== 17:36:15
-_camera camSetTarget [-94838.19,8217.00,15.31]
-_camera camSetPos [5067.79,3881.49,1.37]
-_camera camSetFOV 0.596
-_camera camCommit 7
 
-~4
+sol say "m05v52"
 
-jean setmimic "normal"
-jean say "m05v04"
-
-~3
-
-@camCommitted _camera
-
-;hugo
-;=== 17:37:21
-_camera camSetTarget [-46011.01,89240.57,-10218.49]
-_camera camSetPos [5067.00,3880.70,1.66]
-_camera camSetFOV 0.596
-_camera camCommit 0
-@camCommitted _camera
-
-hugo say "m05v05"
-
-~2
-
-jean setmimic "smile"
-;jean
-;=== 17:38:41
-_camera camSetTarget [-58643.14,-72512.63,-10218.48]
-_camera camSetPos [5067.12,3882.87,1.66]
-_camera camSetFOV 0.596
-_camera camCommit 0
-@camCommitted _camera
-
-jean say "m05v06"
-
-~2
-
-;hugo
-;=== 17:37:21
-_camera camSetTarget [-46011.01,89240.57,-10218.49]
-_camera camSetPos [5067.00,3880.70,1.66]
-_camera camSetFOV 0.596
-_camera camCommit 0
-@camCommitted _camera
-
-jean setmimic "angry"
-hugo say "m05v07"
-
-~3
+~5
 
 ;jean
-;=== 17:41:18
-_camera camSetTarget [-64361.75,-67630.86,-8081.61]
-_camera camSetPos [5066.83,3882.11,1.66]
-_camera camSetFOV 0.596
+
+;=== 17:42:39
+_camera camSetTarget [67872.27,76276.13,28589.91]
+_camera camSetPos [5622.17,3421.29,1.45]
+_camera camSetFOV 0.605
 _camera camCommit 0
 @camCommitted _camera
-;=== 17:41:37
-_camera camSetTarget [-44379.15,-82659.59,-8081.80]
-_camera camSetPos [5066.80,3882.49,1.66]
-_camera camSetFOV 0.690
-_camera camCommit 11.5
-
-~4
 
 jean say "m05v08"
 

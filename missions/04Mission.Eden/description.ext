@@ -153,6 +153,18 @@ class CfgSounds
 		sound[] = {"m04v18.ogg", db+10, 1.00};
 		titles[] = {0,$STRM_m04v18};
 	};
+	class m04v19
+	{
+		name = "m04v19";
+		sound[] = {"m04v19.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v19};
+	};
+	class m04v20
+	{
+		name = "m04v20";
+		sound[] = {"m04v20.ogg", db+10, 1.00};
+		titles[] = {0,$STRM_m04v20};
+	};
 	class resistance1
 	{
 		name = "resistance1";

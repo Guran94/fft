@@ -20,7 +20,7 @@ titletext [ localize "STRCT_01","plain"]
 _camera camSetTarget [15480.93,95747.11,-39485.89]
 _camera camSetPos [5228.18,4506.22,27.20]
 _camera camSetFOV 0.700
-_camera camCommit 6
+_camera camCommit 10
 @camCommitted _camera
 
 ~2

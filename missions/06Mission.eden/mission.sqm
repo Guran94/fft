@@ -2895,7 +2895,7 @@ class Mission
 			age="UNKNOWN";
 			text="fortification ours";
 			expCond="{alive _x} count thislist <= 1 and inside";
-			expActiv="[] exec ""2Done.sqs""";
+			expActiv="[] exec ""2Done.sqs""; ""_x setDammage 1"" forEach thislist";
 			class Effects
 			{
 			};

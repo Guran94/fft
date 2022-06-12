@@ -2222,7 +2222,7 @@ class Intro
 	};
 	class Vehicles
 	{
-		items=101;
+		items=103;
 		class Item0
 		{
 			position[]={2553.730469,86.202148,5470.890137};
@@ -3171,6 +3171,24 @@ class Intro
 			leader=1;
 			skill=1.000000;
 			text="pv1";
+		};
+		class Item101
+		{
+			position[]={2159.729980,111.618896,5741.519531};
+			id=211;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			skill=0.600000;
+			init="this setflagtexture ""rus_vlajka.pac""; this setflagowner frolov1";
+		};
+		class Item102
+		{
+			position[]={2260.636230,104.164345,5731.376953};
+			id=212;
+			side="EMPTY";
+			vehicle="FlagCarrier";
+			skill=0.600000;
+			init="this setflagtexture ""rus_vlajka.pac""; this setflagowner frolov2";
 		};
 	};
 	class Markers

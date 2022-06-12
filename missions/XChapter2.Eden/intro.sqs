@@ -471,16 +471,11 @@ _camera camSetFOV 0.239
 _camera camCommit 0
 @camCommitted _camera
 
-lamentin setflagOwner greg
 
 sniper setdir 140
 
 ~2
 
-lamentin setflagtexture "rus_vlajka.pac"
-
-lamentin setflagOwner objnull
-greg setflagOwner objnull
 
 deletevehicle ural2
 greg setmimic "angry"

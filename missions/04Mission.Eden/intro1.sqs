@@ -58,6 +58,9 @@ p3 stop true
 p1 switchmove "FXStandSurUniv"
 p2 switchmove "FXStandSurUniv"
 p3 switchmove "FXStandSurUniv"
+p1 setmimic "normal"
+p2 setmimic "normal"
+p3 setmimic "normal"
 
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal","back"]
@@ -156,6 +159,8 @@ playsound "m04v01"
 titleCut ["","BLACK IN",1]
 2 fademusic 1
 2 fadesound 1
+
+titletext [ localize "","plain"]
 
 ;lamentin
 ;=== 11:31:37
@@ -354,6 +359,10 @@ smile1 setmimic "smile"
 smile2 setmimic "smile"
 smile1 say "smile1"
 smile2 say "smile2"
+hugo setmimic "smile"
+anne setmimic "angry"
+hugo disableai "autotarget"
+anne disableai "autotarget"
 
 ;prisoners
 ;=== 16:26:41
@@ -376,6 +385,54 @@ _camera camCommit 4.5
 @camCommitted _camera
 
 ~1
+
+;hugo and anne
+
+;=== 20:52:55
+_camera camSetTarget [-17899.78,103222.24,3972.40]
+_camera camSetPos [2633.37,5430.28,1.38]
+_camera camSetFOV 0.381
+_camera camCommit 0
+@camCommitted _camera
+
+~2
+
+anne move getmarkerpos "leave"
+anne setspeedmode "limited"
+
+~2
+
+hugo setmimic "surprised"
+hugo dowatch [2620.26,5480.95,3.54]
+hugo say "m04v19"
+
+~2
+
+;both forehead
+
+;=== 21:04:02
+_camera camSetTarget [29852.17,-90757.81,-2031.94]
+_camera camSetPos [2630.10,5442.43,0.90]
+_camera camSetFOV 0.541
+_camera camCommit 0
+@camCommitted _camera
+
+anne say "m04v20"
+
+~3
+
+;hugo with prisoners
+
+titletext [ localize "","plain"]
+
+;=== 21:05:14
+_camera camSetTarget [-10819.98,-93429.82,-6601.24]
+_camera camSetPos [2633.30,5435.29,1.52]
+_camera camSetFOV 0.341
+_camera camCommit 0
+@camCommitted _camera
+
+~3
 
 titleCut ["","BLACK OUT",1]
 
